@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-anton: "Anton", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-n-8 text-n-1 text-base;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
+
+@keyframes move-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes move-right {
+  from {
+    transform: translateX(10);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.animate-line-1 {
+  animation: move-left 9s linear infinite; /* Adjust duration for smoother scroll */
+}
+
+.animate-line-2 {
+  animation: move-left 12s linear infinite;
+}
+
+.animate-line-3 {
+  animation: move-left 7s linear infinite;
+}
+
+
+/* Adjust the size and color of the pagination dots */
+.swiper-pagination-bullet {
+  width: 12px;       /* Adjust dot width */
+  height: 12px;      /* Adjust dot height */
+  background-color: rgba(30, 127, 134, 5); /* Default color (semi-transparent white) */
+  transition: background-color 0.3s ease;
+}
+
+/* Change color for active dot */
+.swiper-pagination-bullet-active {
+  background-color: #FF77E9; /* Active color (adjust to preferred color) */
+  transform: scale(1.2);     /* Slightly increase size for active dot */
+}
+/* Responsive adjustments for the Swiper container */
+@media screen and (max-width: 576px) {
+  .swiper-container {
+    width: 100%;   /* Full width on small screens */
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .swiper-container {
+    width: 576px;  /* Set specific width for medium screens */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;  /* Set specific width for larger screens */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-container {
+    width: 100%; /* Full width for large screens */
+    max-width: 1280px; /* Optional: limit max width if desired */
+  }
+}
+
+
+
+
+.rotate-circle {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Darken image only on mobile */
+.darken-on-mobile {
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Apply darkening effect for mobile screens */
+@media (max-width: 768px) {
+  .darken-on-mobile {
+    filter: brightness(0.8); /* Darkens the image */
+  }
+}
