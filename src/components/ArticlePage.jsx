@@ -467,13 +467,13 @@ case 'text':
         )}
       </article>
 
-     /**  {showEditor && (
+       {showEditor && (
     <EditorModal
       article={article}
       onClose={() => setShowEditor(false)}
       onSave={handleSaveArticle}
     />
-  )}*/
+  )}
 </div>  {/* This is your existing closing div */}
 
       <div className="mt-12 border-t-2 border-gray-800 pt-12">
