@@ -1,37 +1,65 @@
-import ButtonGradient from "./assets/svg/ButtonGradient";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Nitrogen from "./components/Nitrogen";
-import TeamSection from "./components/TeamSection";
-import Animated from "./components/Animated";
-import Media from "./components/Media";
-import Oxygen from "./components/Oxygen";
-import Follow from "./components/Follow"
-
-
-// import TestSection from "./components/TestSection";
+import { Routes, Route, Navigate } from 'react-router-dom';
+import ButtonGradient from './assets/svg/ButtonGradient';
+import Header from './components/Header';
+import Footer from './components/Footer';
+// Add GoToTop import
+import GoToTop from './components/GoToTop';
+import LaografikoMap from './pages/LaografikoMap';
+import Laografia from './pages/laografia';
+import ArticlePage from './components/ArticlePage';
+import { HelmetProvider } from 'react-helmet-async';
+import CategoryPage from './pages/CategoryPage';
+import NotFoundPage from './components/NotFoundPage';
+import SearchResultsPage from './pages/SearchResultPage';
+import Efimerides from './pages/Efimerides';
+import EfimeridesMap from './pages/EfimeridesMap';
+import Home from './pages/Home';
+import 'leaflet/dist/leaflet.css';
+import AboutPage from './pages/About';
+import TermsPage from './pages/Terms';
+import PrivacyPage from './pages/Privacy';
 
 const App = () => {
   return (
     <>
+      <HelmetProvider>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
-        <Hero />
-        <About />
-        <Animated />
-        <Nitrogen />
         
-       
-        <Oxygen/>
-        <Media/>
-        <TeamSection />
-        <Follow/>
+        <Routes>
+          {/* Homepage */}
+          <Route path="/" element={<Home />} />
+
+          {/* Special Category Index Pages */}
+          <Route path="/laografia" element={<Laografia />} />
+          <Route path="/efimerides" element={<Efimerides />} />
+          <Route path="/map" element={<EfimeridesMap />} />
+          <Route path="/map2" element={<LaografikoMap />} />
+          <Route path="/about-us" element= {<AboutPage/>} />
+          <Route path="/terms" element={<TermsPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          {/* Unified Dynamic Routing */}
+          <Route path="/:category">
+            <Route index element={<CategoryPage />} />
+            <Route path=":subcategory">
+              <Route index element={<CategoryPage />} />
+              <Route path=":slug" element={<ArticlePage />} />
+            </Route>
+          </Route>
+
+          {/* 404 Catch-all */}
+          <Route path="*" element={<NotFoundPage />} />
+          
+          <Route path="/search" element={<SearchResultsPage />} />
+        </Routes>
 
         <Footer />
       </div>
+      
+      {/* Add GoToTop component here */}
+      <GoToTop />
       <ButtonGradient />
+      </HelmetProvider>
     </>
   );
 };

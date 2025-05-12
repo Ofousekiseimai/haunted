@@ -1,0 +1,48 @@
+
+{
+    "title": "Λαογραφία",
+    "slug": "laografia",
+    "seo": {
+      "metaTitle": "Λαογραφία | haunted.gr",
+      "metaDescription": "Συλλογή λαογραφικού υλικού από όλη την Ελλάδα"
+    },
+    "categories": [
+      {
+        "slug": "vrikolakes",
+        "title": "Βρυκόλακες",
+        "excerpt": "Παραδόσεις και ιστορίες για βρυκόλακες",
+        "image": {
+          "src": "/images/categories/vrykolakes.jpg",
+          "alt": "Βρυκόλακας"
+        }
+      },
+      {
+        "slug": "neraides",
+        "title": "Νεράιδες",
+        "excerpt": "Παραδόσεις και ιστορίες για νεράιδες",
+        "image": {
+          "src": "/images/categories/neraides.jpg",
+          "alt": "Νεράιδα"
+        }
+      },
+      {
+        "slug": "kallikantzaroi",
+        "title": "Καλικάντζαροι",
+        "excerpt": "Παραδόσεις και ιστορίες για καλικάντζαρους",
+        "image": {
+          "src": "/images/categories/kallikantzaroi.jpg",
+          "alt": "Καλικάντζαρος"
+        }
+      },
+      {
+        "slug": "gorgones",
+        "title": "Γοργόνες",
+        "excerpt": "Παραδόσεις και ιστορίες για Γοργόνες",
+        "image": {
+          "src": "/images/categories/gorgones.jpg",
+          "alt": "Γοργόνα"
+        }
+        
+      }
+    ]
+  }
