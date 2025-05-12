@@ -119,18 +119,25 @@ const GreeceMap = ({ articles, targetBounds }) => {
 
   return (
     <div className="map-container relative w-full">
-      <MapContainer 
-        center={center} 
-        zoom={6} 
-        style={{ height: mapHeight, width: '100%' }}
-        className="z-0 rounded-lg"
-        minZoom={6}
-        maxBounds={bounds}
-        touchZoom={true}
-        tap={false}
-        inertia={true}
-        inertiaDeceleration={3000}
-      >
+     <MapContainer 
+  center={center} 
+  zoom={6} 
+  style={{ height: mapHeight, width: '100%' }}
+  className="z-0 rounded-lg"
+  minZoom={6}
+  maxBounds={bounds}
+  touchZoom={true}
+  tap={false}
+  inertia={true}
+  inertiaDeceleration={3000}
+  // Add this new prop here ▼
+  whenReady={(map) => {
+    map.target._onTileError = function() {
+      L.GridLayer.prototype._onTileError.call(this, ...arguments);
+      this._tileLoader.abort();
+    }
+  }}
+>
         <TileLayer
           url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
           attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> © <a href="https://openmaptiles.org/">OpenMapTiles</a> © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'

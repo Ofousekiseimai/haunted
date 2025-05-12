@@ -14,14 +14,14 @@ const YouTubeSection = ({ videosData }) => {
   };
 
   return (
-    <section className="py-12 bg-gray-900">
+    <section className=" bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white text-center">
           Σχετικά Βίντεο Δημιουργών στο YouTube
         </h2>
         
         {videosData.playlists.map((playlist, index) => (
-          <div key={index} className="mb-12">
+          <div key={index} className="py-4 mb-12">
             {/* Channel Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
               <h3 className="text-2xl font-semibold text-white">
