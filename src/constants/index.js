@@ -232,13 +232,8 @@ export const navigation = [
       
     ]
    
-  },
-  {
-    id: '6',
-    title: 'Επικοινωνία',
-    url: '/contact',
-    onlyMobile: false
   }
+  
 ];
 
 
