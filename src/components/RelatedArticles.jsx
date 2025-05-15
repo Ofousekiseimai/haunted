@@ -1,14 +1,20 @@
 // components/RelatedArticles.jsx
+// components/RelatedArticles.jsx
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { SUBCATEGORY_MAP } from '../constants/categories';
+
+// Static import mapping for JSON files
+const jsonModules = import.meta.glob('../data/**/*.json', {
+  eager: true,
+  import: 'default'
+});
 
 const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Derive mainCategory from subcategory map
   const subcategoryInfo = SUBCATEGORY_MAP[currentSubcategory];
   const mainCategory = subcategoryInfo?.category;
 
@@ -22,11 +28,11 @@ const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
           throw new Error('Missing category information');
         }
 
-        // Use dynamic import with explicit path
         const jsonPath = `../data/${mainCategory}/${currentSubcategory}.json`;
-        const data = await import(/* @viteIgnore */ jsonPath);
-        
-        if (!data?.articles) throw new Error('Invalid data format');
+        const data = jsonModules[jsonPath];
+
+        if (!data) throw new Error('Data file not found');
+        if (!data.articles) throw new Error('Invalid data format');
 
         const validArticles = data.articles
           .filter(article => 
@@ -51,6 +57,10 @@ const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
       loadArticles();
     }
   }, [currentSubcategory, currentArticleId, mainCategory]);
+
+  // ... rest of the component remains the same
+
+
 
   if (error) {
     return <div className="text-red-500 text-center mt-4">{error}</div>;
