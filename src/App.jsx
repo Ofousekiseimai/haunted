@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 // Add GoToTop import
 import GoToTop from './components/GoToTop';
 import LaografikoMap from './pages/LaografikoMap';
-import Laografia from './pages/laografia';
+import Laografia from './pages/Laografia';
 import ArticlePage from './components/ArticlePage';
 import { HelmetProvider } from 'react-helmet-async';
 import CategoryPage from './pages/CategoryPage';
