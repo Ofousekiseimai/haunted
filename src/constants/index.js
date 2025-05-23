@@ -11,7 +11,7 @@ export const navigation = [
     id: '1',
     title: 'Παραδοσεις',
     url: '/laografia',
-    subitems: [
+    /**subitems: [
       { 
         slug: 'all', 
         title: 'Όλα', 
@@ -127,14 +127,14 @@ export const navigation = [
           
          
       },
-    ]
+    ]**/
   },
   
   {
     id: '3',
     title: 'Εφημερίδες',
     url: '/efimerides',
-    subitems: [
+   /** subitems: [
       { 
         slug: 'all', 
         title: 'Όλα', 
@@ -187,7 +187,7 @@ export const navigation = [
         
       }
         
-    ]
+    ]**/
   },
   
   {

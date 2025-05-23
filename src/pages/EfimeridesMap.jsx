@@ -59,6 +59,7 @@ const EfimeridesMap = () => {
               subcategory: subcat,
               lat: lat,
               lng: lng,
+               imageUrl: article.image?.src || '/default-image.webp', // Add this line
               locationTags: Array.isArray(article.locationTags) 
                 ? article.locationTags.map(tag => String(tag).trim()) 
                 : [String(article.locationTags).trim()]
