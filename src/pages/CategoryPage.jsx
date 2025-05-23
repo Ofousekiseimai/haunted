@@ -24,10 +24,9 @@ export default function CategoryPage() {
         setCurrentConfig(config);
 
         const categoryConfig = CATEGORY_CONFIG[config.category];
-        const data = await import(
-          
-          `${categoryConfig.dataPath}${config.slug}.json`
-        );
+        const data = await import(/* @vite-ignore */ `${categoryConfig.dataPath}${config.slug}.json`);
+
+        
         
         const processedArticles = data.default.articles.map(article => ({
           ...article,

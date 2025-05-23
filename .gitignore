@@ -1,3 +1,5 @@
+REACT_APP_STADIA_MAPS_API_KEY=ce75aebc-03d9-4597-8529-78009b5ad547
+
 # Logs
 logs
 *.log
@@ -22,3 +24,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
