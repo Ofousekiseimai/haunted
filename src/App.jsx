@@ -23,7 +23,7 @@ import ReactGA from 'react-ga4';
 // Initialize GA4
 ReactGA.initialize('G-FXJ30XVLMD', {
   gaOptions: {
-    debug_mode: process.env.NODE_ENV === 'development'
+    debug_mode: import.meta.env.DEV 
   }
 });
 
