@@ -1,8 +1,8 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import ButtonGradient from './assets/svg/ButtonGradient';
 import Header from './components/Header';
 import Footer from './components/Footer';
-// Add GoToTop import
 import GoToTop from './components/GoToTop';
 import LaografikoMap from './pages/LaografikoMap';
 import Laografia from './pages/Laografia';
@@ -18,8 +18,26 @@ import 'leaflet/dist/leaflet.css';
 import AboutPage from './pages/About';
 import TermsPage from './pages/Terms';
 import PrivacyPage from './pages/Privacy';
+import ReactGA from 'react-ga4';
+
+// Initialize GA4
+ReactGA.initialize('G-FXJ30XVLMD', {
+  gaOptions: {
+    debug_mode: process.env.NODE_ENV === 'development'
+  }
+});
 
 const App = () => {
+  const location = useLocation();
+
+  // Track page views
+  useEffect(() => {
+    ReactGA.send({
+      hitType: 'pageview',
+      page: location.pathname + location.search
+    });
+  }, [location]);
+
   return (
     <>
       <HelmetProvider>
