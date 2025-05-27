@@ -1,14 +1,16 @@
 import { Helmet } from 'react-helmet-async';
 import { useState, useEffect } from 'react';
 import { SUBCATEGORY_MAP } from '../constants/categories';
-
+import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const loadData = async (subcategory) => {
   try {
-    const module = await import(`../data/efimerides/${subcategory}.json`);
-    return module.default;
+    const response = await fetch(`/data/efimerides/${subcategory}.json`);
+    if (!response.ok) throw new Error(`HTTP σφάλμα ${response.status}`);
+    return await response.json();
   } catch (error) {
-    throw new Error(`Failed to load ${subcategory} data: ${error.message}`);
+    throw new Error(`Αποτυχία φόρτωσης δεδομένων: ${error.message}`);
   }
 };
 
@@ -30,15 +32,14 @@ const Efimerides = () => {
         
         const data = await loadData(selectedSub);
         const sortedArticles = (data?.articles || []).sort((a, b) => {
-          // Handle articles without dates by putting them last
           if (!a.date) return 1;
-          if (!b.date) return -1;
-          
+          if (!b.date) return -1;          
           return new Date(b.date) - new Date(a.date);
         });
         
         setArticles(sortedArticles);
       } catch (err) {
+        console.error('Σφάλμα φόρτωσης:', err);
         setError(err.message);
       } finally {
         setLoading(false);
@@ -51,17 +52,17 @@ const Efimerides = () => {
   return (
     <div className="min-h-screen bg-gray-900">
       <Helmet>
-        <title>Εφημεριδες - Haunted Greece</title>
+        <title>Εφημερίδες - Haunted Greece</title>
         <meta
           name="description"
-          content="Εξερευνήστε όλες τα άρθρα εφημερίδων που σχετίζονται με το μεταφυσικό ανά κατηγορία. "
+          content="Εξερευνήστε όλα τα άρθρα εφημερίδων που σχετίζονται με το μεταφυσικό ανά κατηγορία."
         />
       </Helmet>
 
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">
           <span className="bg-gradient-to-r from-purple-400 to-pink-300 bg-clip-text text-transparent">
-            Αρθρα Εφημεριδων
+            Άρθρα Εφημερίδων
           </span>
         </h1>
 
@@ -119,112 +120,102 @@ const Efimerides = () => {
             Δεν βρέθηκαν άρθρα για αυτήν την κατηγορία
           </div>
         ) : (
-          // In your Efimerides component's article display section
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-  {articles.map(article => (
-    <div
-      key={article.id}
-      className="group relative bg-transparent rounded-2xl p-4 overflow-hidden hover:transform hover:scale-[1.02] duration-300 border shadow-xl border-gray-700"
-    >
-      <a
-        href={`/efimerides/${selectedSub}/${article.slug}`}
-        className="block"
-      >
-        {/* Image container */}
-        {article.image?.src && (
-          <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
-            <img
-              src={article.image.src}
-              alt={article.image.alt}
-              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
-            
-            {/* Date and Location Badge */}
-            <div className="absolute bottom-2 left-2 right-2 flex justify-between items-center">
-              {/* Date Badge */}
-              {article.date && (
-                <div className="flex items-center bg-black/60 px-3 py-1 rounded-full text-sm text-white">
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    className="h-4 w-4 mr-1 text-purple-400"
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    stroke="currentColor"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      strokeWidth={2} 
-                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" 
-                    />
-                  </svg>
-                
-                </div>
-              )}
-
-              {/* Location Badge */}
-              {article.locationTags?.length > 0 && (
-                <div className="flex items-center bg-black/60 px-3 py-1 rounded-full text-sm text-white">
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    className="h-4 w-4 mr-1 text-purple-400"
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    stroke="currentColor"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      strokeWidth={2} 
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" 
-                    />
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      strokeWidth={2} 
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" 
-                    />
-                  </svg>
-                  <span>{article.locationTags[0]}</span>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
-
-        {/* Text Content */}
-        <div className="p-2 space-y-3">
-          {/* Date fallback for articles without image */}
-          {!article.image?.src && article.date && (
-            <div className="flex items-center text-gray-400 text-sm">
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                className="h-4 w-4 mr-1 text-purple-400"
-                fill="none" 
-                viewBox="0 0 24 24" 
-                stroke="currentColor"
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {articles.map(article => (
+              <div
+                key={article.id}
+                className="group relative bg-transparent rounded-2xl p-4 overflow-hidden hover:transform hover:scale-[1.02] duration-300 border shadow-xl border-gray-700"
               >
-                <path 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                  strokeWidth={2} 
-                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" 
-                />
-              </svg>
-              
-            </div>
-          )}
-
-          <h3 className="text-xl font-bold mb-2 text-white group-hover:text-purple-400 transition-colors">
-            {article.title}
-          </h3>
-          <p className="text-gray-400 line-clamp-3">{article.excerpt}</p>
-        </div>
-      </a>
-    </div>
-  ))}
-</div>
+                <Link
+                  to={`/efimerides/${selectedSub}/${article.slug}`}
+                  className="block"
+                >
+                  {article.image?.src && (
+                    <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
+                      <LazyLoadImage
+                        src={article.image.src}
+                        alt={article.image.alt}
+                        effect="opacity"
+                        placeholderSrc="/placeholder.jpg"
+                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute bottom-2 left-2 right-2 flex justify-between items-center">
+                        {article.date && (
+                          <div className="flex items-center bg-black/60 px-3 py-1 rounded-full text-sm text-white">
+                            <svg 
+                              xmlns="http://www.w3.org/2000/svg" 
+                              className="h-4 w-4 mr-1 text-purple-400"
+                              fill="none" 
+                              viewBox="0 0 24 24" 
+                              stroke="currentColor"
+                            >
+                              <path 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                strokeWidth={2} 
+                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" 
+                              />
+                            </svg>
+                            <span>{article.date}</span>
+                          </div>
+                        )}
+                        {article.locationTags?.length > 0 && (
+                          <div className="flex items-center bg-black/60 px-3 py-1 rounded-full text-sm text-white">
+                            <svg 
+                              xmlns="http://www.w3.org/2000/svg" 
+                              className="h-4 w-4 mr-1 text-purple-400"
+                              fill="none" 
+                              viewBox="0 0 24 24" 
+                              stroke="currentColor"
+                            >
+                              <path 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                strokeWidth={2} 
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" 
+                              />
+                              <path 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                strokeWidth={2} 
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" 
+                              />
+                            </svg>
+                            <span>{article.locationTags[0]}</span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
+                  <div className="p-2 space-y-3">
+                    {!article.image?.src && article.date && (
+                      <div className="flex items-center text-gray-400 text-sm">
+                        <svg 
+                          xmlns="http://www.w3.org/2000/svg" 
+                          className="h-4 w-4 mr-1 text-purple-400"
+                          fill="none" 
+                          viewBox="0 0 24 24" 
+                          stroke="currentColor"
+                        >
+                          <path 
+                            strokeLinecap="round" 
+                            strokeLinejoin="round" 
+                            strokeWidth={2} 
+                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" 
+                          />
+                        </svg>
+                        <span>{article.date}</span>
+                      </div>
+                    )}
+                    <h3 className="text-xl font-bold mb-2 text-white group-hover:text-purple-400 transition-colors">
+                      {article.title}
+                    </h3>
+                    <p className="text-gray-400 line-clamp-3">{article.excerpt}</p>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
         )}
       </div>
     </div>

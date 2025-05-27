@@ -10,7 +10,7 @@ import SameAreaArticles from "./SameAreaArticles";
 import EditorModal from './EditorModal';
 
 // Preload JSON files using Vite's glob import
-const jsonModules = import.meta.glob("../data/**/*.json", {
+const jsonModules = import.meta.glob("/data/**/*.json", {
   eager: true,
   import: "default",
 });
@@ -26,42 +26,44 @@ export default function ArticlePage() {
 
 
   useEffect(() => {
-    const loadArticle = async () => {
-      try {
-        setLoading(true);
-        setError(null);
+  const loadArticle = async () => {
+    try {
+      setLoading(true);
+      setError(null);
 
-        // Fix parameter priority and config lookup
-        const config = SUBCATEGORY_MAP[subcategory || category];
-        if (!config) throw new Error("Category configuration not found");
+      // Get category configuration
+      const config = SUBCATEGORY_MAP[subcategory || category];
+      if (!config) throw new Error("Δεν βρέθηκε η κατηγορία");
 
-        // Get category configuration
-        const categoryConfig = CATEGORY_CONFIG[config.category];
-        if (!categoryConfig) throw new Error("Category config not found");
+      // Get category base path from CATEGORY_CONFIG
+      const categoryConfig = CATEGORY_CONFIG[config.category];
+      if (!categoryConfig) throw new Error("Δεν βρέθηκε ρύθμιση κατηγορίας");
 
-        // Build JSON path
-        const jsonPath = `../data/${config.category}/${config.slug}.json`;
-        const data = jsonModules[jsonPath];
+      // Build correct data path
+      const jsonUrl = `${categoryConfig.dataPath}${config.slug}.json`;
+      
+      // Fetch from public directory
+      const response = await fetch(jsonUrl);
+      if (!response.ok) throw new Error(`HTTP σφάλμα ${response.status}`);
+      
+      const data = await response.json();
 
-        if (!data) {
-          throw new Error(`Data file not found: ${jsonPath}`);
-        }
+      // Find article by slug
+      const foundArticle = data.articles.find((a) => a.slug === slug);
+      if (!foundArticle) throw new Error("Δεν βρέθηκε το άρθρο");
 
-        // Find the article
-        const foundArticle = data.articles.find((a) => a.slug === slug);
-        if (!foundArticle) throw new Error("Article not found");
+      setArticle(foundArticle);
+      setCategoryData(data);
+    } catch (error) {
+      console.error('Σφάλμα φόρτωσης:', error);
+      setError(`Πρόβλημα φόρτωσης: ${error.message}`);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-        setArticle(foundArticle);
-        setCategoryData(data);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadArticle();
-  }, [category, subcategory, slug]);
+  loadArticle();
+}, [category, subcategory, slug]);
   // Add this scroll effect
   useEffect(() => {
     // Smooth scroll to top when article changes

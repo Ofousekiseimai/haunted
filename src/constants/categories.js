@@ -2,23 +2,23 @@
 export const CATEGORY_CONFIG = {
     laografia: {
       path: '/laografia',
-      dataPath: '../data/laografia/',
+      dataPath: '/data/laografia/',
       indexComponent: 'Laografia',
       category: 'laografia' // Special component for index
     },
     prosopa: {
       path: '/prosopa',
-      dataPath: '../data/prosopa/',
+      dataPath: '/data/prosopa/',
       indexComponent: 'Prosopa' 
     },
     efimerides: {
       path: '/efimerides',
-      dataPath: '../data/efimerides/',
+      dataPath: '/data/efimerides/',
       indexComponent: 'Efimerides' 
     },
     entipa: {
       path: '/entipa',
-      dataPath: '../data/entipa/',
+      dataPath: '/data/entipa/',
       indexComponent: 'Entipa' 
     }
   };

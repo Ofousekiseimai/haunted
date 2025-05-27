@@ -21,26 +21,25 @@ const MobileSearchPopup = ({ show, onClose, onSearch }) => {
     }
   }, [show, onClose]);
 
-  
-    return (
-      <div className={`fixed inset-0 z-[60] bg-n-8/95 backdrop-blur-sm transition-opacity ${
-        show ? 'opacity-100' : 'opacity-0 pointer-events-none'
-      }`}>
-        <div className="absolute top-0 left-0 right-0 p-4 bg-n-8 border-b border-purple-600">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-white text-lg font-bold">Αναζήτηση</h2>
-            <button onClick={onClose} className="text-purple-300 hover:text-white">
-              <CloseIcon className="w-6 h-6" />
-            </button>
-          </div>
-          <SearchBar onSearch={() => {
-            onSearch(); // This will trigger the parent's close
-            onClose(); // Close the popup immediately
-          }} />
+  return (
+    <div className={`fixed inset-0 z-[60] bg-n-8/95 backdrop-blur-sm transition-opacity ${
+      show ? 'opacity-100' : 'opacity-0 pointer-events-none'
+    }`}>
+      <div className="absolute top-0 left-0 right-0 p-4 bg-n-8 border-b border-purple-600">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-white text-lg font-bold">Αναζήτηση</h2>
+          <button onClick={onClose} className="text-purple-300 hover:text-white">
+            <CloseIcon className="w-6 h-6" />
+          </button>
         </div>
+        <SearchBar onSearch={() => {
+          onSearch();
+          onClose();
+        }} />
       </div>
-    );
-  };
+    </div>
+  );
+};
 
 const Header = () => {
   const pathname = useLocation();
@@ -49,27 +48,85 @@ const Header = () => {
   const [showMobileSearch, setShowMobileSearch] = useState(false);
 
   const toggleNavigation = () => {
-    setOpenNavigation(!openNavigation);
+    setOpenNavigation(prev => !prev);
+    setOpenDropdown(null);
     if (!openNavigation) disablePageScroll();
     else enablePageScroll();
   };
 
-  const handleMobileSearch = (query) => {
+  const handleMobileSearch = () => {
     setShowMobileSearch(false);
     enablePageScroll();
   };
 
   const handleDropdown = (id) => {
-    setOpenDropdown(openDropdown === id ? null : id);
+    setOpenDropdown(prev => prev === id ? null : id);
   };
 
-  const handleSubItemClick = (url) => {
-    setOpenNavigation(false);
-    enablePageScroll();
+ const handleSubItemClick = (url, hasSubitems) => {
+    if (!hasSubitems) {
+      setOpenNavigation(false);
+      enablePageScroll();
+    }
     if (url.startsWith("#")) {
       const element = document.querySelector(url);
       element?.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+   const renderSubitems = (items, level = 0) => {
+    return items.map((subitem) => (
+      <div 
+        key={subitem.slug}
+        className={`relative group ${level > 0 ? 'pl-4' : ''}`}
+        onMouseEnter={() => !openNavigation && subitem.subitems && setOpenDropdown(subitem.slug)}
+        onMouseLeave={() => !openNavigation && subitem.subitems && setTimeout(() => setOpenDropdown(null), 300)}
+      >
+        <Link
+          to={subitem.url}
+          className={`block px-6 py-3 text-sm text-white hover:bg-purple-500 transition-colors lg:text-xs lg:px-4 lg:py-2 ${
+            level > 0 ? 'lg:pl-6' : ''
+          }`}
+          onClick={(e) => {
+            if (subitem.subitems) {
+              e.preventDefault();
+              handleDropdown(subitem.slug);
+            }
+            handleSubItemClick(subitem.url, !!subitem.subitems);
+          }}
+        >
+          <div className="flex items-center justify-between">
+            {subitem.title}
+            {subitem.subitems && (
+              <svg 
+                className="ml-2 w-4 h-4" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+              </svg>
+            )}
+          </div>
+        </Link>
+
+      {subitem.subitems && (
+          <div 
+            className={`${
+              openDropdown === subitem.slug ? 'opacity-100 visible' : 'opacity-0 invisible'
+            } lg:absolute ${level > 0 ? 'lg:left-full lg:top-0' : 'lg:top-full lg:left-0'} ...`}
+            onMouseEnter={() => !openNavigation && setOpenDropdown(subitem.slug)}
+            onMouseLeave={() => !openNavigation && setTimeout(() => setOpenDropdown(null), 300)}
+            style={{ 
+              marginLeft: level > 0 ? '0.75rem' : 0,
+              zIndex: 10000 + level 
+            }}
+          >
+            {renderSubitems(subitem.subitems, level + 1)}
+          </div>
+        )}
+      </div>
+    ));
   };
 
   return (
@@ -94,21 +151,18 @@ const Header = () => {
           </div>
 
           <div className="flex items-center w-3/4 lg:w-2/3 justify-end gap-2">
-          <nav className={`${
-  openNavigation ? "flex" : "hidden"
-} fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}>
-  {/* Mobile menu background image ▼ */}
-  <div className="lg:hidden absolute inset-0 bg-[url('/images/laografia/to-apogeio-tou-katevatou-arachova.webp')] bg-cover bg-center opacity-20 z-0" />
-  
-  <div className="relative z-10 flex flex-col items-center justify-center m-auto lg:flex-row">
-    {navigation.map((item) => (
-      <div 
-        key={item.id}
-        className="relative group"
-        onMouseEnter={() => !openNavigation && item.subitems && setOpenDropdown(item.id)}
-        onMouseLeave={() => !openNavigation && setOpenDropdown(null)}
-      
-       
+            <nav className={`${
+              openNavigation ? "flex" : "hidden"
+            } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}>
+              <div className="lg:hidden absolute inset-0 bg-[url('/images/laografia/to-apogeio-tou-katevatou-arachova.webp')] bg-cover bg-center opacity-20 z-0" />
+              
+              <div className="relative z-10 flex flex-col items-center justify-center m-auto lg:flex-row">
+                {navigation.map((item) => (
+                  <div 
+                    key={item.id}
+                    className="relative group"
+                    onMouseEnter={() => !openNavigation && item.subitems && setOpenDropdown(item.id)}
+                    onMouseLeave={() => !openNavigation && setOpenDropdown(null)}
                   >
                     <div className={`flex items-center font-code text-xl uppercase text-white transition-colors ${
                       item.onlyMobile ? "lg:hidden" : ""
@@ -141,39 +195,30 @@ const Header = () => {
                     </div>
 
                     {item.subitems && (
-                      <div className={`${
-                        openDropdown === item.id ? 'block' : 'hidden'
-                      } lg:absolute lg:top-full lg:left-0 lg:w-48 lg:bg-n-8 lg:rounded-lg lg:shadow-xl ${
-                        openNavigation ? 'static w-full bg-transparent shadow-none' : ''
-                      } transition-all duration-300 origin-top`}>
-                        <div className="lg:py-2">
-                          {item.subitems.map((subitem) => (
-                            <Link
-                              key={subitem.slug}
-                              to={subitem.url}
-                              className="block px-6 py-3 text-sm text-white hover:bg-purple-500 transition-colors lg:text-xs lg:px-4 lg:py-2"
-                              onClick={() => {
-                                handleSubItemClick(subitem.url);
-                                setOpenDropdown(null);
-                              }}
-                            >
-                              {subitem.title}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    )}
+  <div 
+    className={`${
+      openDropdown === item.id ? 'opacity-100 visible' : 'opacity-0 invisible'
+    } lg:absolute lg:top-full lg:left-0 lg:w-48 lg:bg-n-8 lg:rounded-lg lg:shadow-xl ${
+      openNavigation ? 'static w-full bg-transparent shadow-none' : ''
+    } transition-all duration-300 origin-top`}
+    onMouseEnter={() => !openNavigation && setOpenDropdown(item.id)}
+    // Add mouse leave handler
+    onMouseLeave={() => !openNavigation && setTimeout(() => setOpenDropdown(null), 300)}
+  >
+    <div className="lg:py-2">
+      {renderSubitems(item.subitems)}
+    </div>
+  </div>
+)}
                   </div>
                 ))}
               </div>
             </nav>
 
-            {/* Desktop Search Bar */}
             <div className="hidden lg:block w-1/3 mx-4">
               <SearchBar />
             </div>
 
-            {/* Mobile Search Button */}
             <Button 
               className="lg:hidden" 
               px="px-3" 

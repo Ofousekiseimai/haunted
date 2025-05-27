@@ -1,14 +1,16 @@
 import { Helmet } from 'react-helmet-async';
 import { useState, useEffect } from 'react';
 import { SUBCATEGORY_MAP } from '../constants/categories';
-import HomeArticles from '../components/HomeArticles';
+import { Link } from 'react-router-dom';
+import  {LazyLoadImage} from 'react-lazy-load-image-component';
 
 const loadData = async (subcategory) => {
   try {
-    const module = await import(`../data/laografia/${subcategory}.json`);
-    return module.default;
+    const response = await fetch(`/data/laografia/${subcategory}.json`);
+    if (!response.ok) throw new Error(`HTTP σφάλμα ${response.status}`);
+    return await response.json();
   } catch (error) {
-    throw new Error(`Failed to load ${subcategory} data: ${error.message}`);
+    throw new Error(`Αποτυχία φόρτωσης δεδομένων: ${error.message}`);
   }
 };
 
@@ -31,6 +33,7 @@ const Laografia = () => {
         const data = await loadData(selectedSub);
         setArticles(data?.articles || []);
       } catch (err) {
+        console.error('Σφάλμα φόρτωσης:', err);
         setError(err.message);
       } finally {
         setLoading(false);
@@ -53,7 +56,7 @@ const Laografia = () => {
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">
           <span className="bg-gradient-to-r from-purple-400 to-pink-300 bg-clip-text text-transparent">
-             Λαογραφική Συλλογή
+            Λαογραφική Συλλογή
           </span>
         </h1>
 
@@ -117,28 +120,26 @@ const Laografia = () => {
                 key={article.id}
                 className="group relative bg-transparent rounded-2xl p-4 overflow-hidden hover:transform hover:scale-[1.02] duration-300 border shadow-xl border-gray-700"
               >
-                <a
-                  href={`/laografia/${selectedSub}/${article.slug}`}
+                <Link
+                  to={`/laografia/${selectedSub}/${article.slug}`}
                   className="block"
                 >
                   {article.image?.src && (
-                    <img
-                      src={article.image.src}
-                     
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                      loading="lazy"
-                    />
-                  )}
+                <img
+                  src={article.image.src}
+                  alt={article.image.alt || 'Article image'}
+                  className="w-full h-48 object-cover rounded-lg mb-4"
+                  loading="lazy"
+                />
+              )}
                   <h3 className="text-xl font-bold mb-2 text-white group-hover:text-purple-400 transition-colors">
                     {article.title}
                   </h3>
                   <p className="text-gray-400 line-clamp-3">{article.excerpt}</p>
-                </a>
+                </Link>
               </div>
-              
             ))}
           </div>
-          
         )}
       </div>
     </div>

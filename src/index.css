@@ -10,6 +10,8 @@
   --font-code: "Source Code Pro", monospace;
   --swiper-active: #FF77E9;
   --swiper-inactive: rgba(30, 127, 134, 0.5);
+  --header-height-mobile: 80px;
+  --header-height-desktop: 96px;
   color-scheme: dark;
 }
 
@@ -24,22 +26,17 @@ body {
   -ms-user-select: none;
 }
 
-
 input, 
 textarea {
   user-select: text;
   -webkit-user-select: text;
 }
 
-
 img {
   pointer-events: none;
   -webkit-touch-callout: none;
 }
 
-/* ... ο υπόλοιπος CSS κώδικας παραμένει αμετάβλητος ... */
-
-/* Swiper Styles */
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -52,21 +49,6 @@ img {
   transform: scale(1.2);
 }
 
-/* Header Dropdown Fixes */
-@media (min-width: 1024px) {
-  .header-dropdown {
-    left: 50%;
-    transform: translateX(-50%);
-    min-width: 200px;
-    animation: dropdownFade 0.2s ease-out;
-  }
-
-  .group:hover .header-dropdown {
-    display: block;
-    transform: translateX(-50%);
-  }
-}
-
 @media (max-width: 1023px) {
   .header-dropdown {
     position: static !important;
@@ -74,45 +56,161 @@ img {
     transform: none !important;
     background: transparent !important;
     box-shadow: none !important;
-    padding: 0 1.5rem;
+    padding: 0 1rem !important; /* Reduced padding */
+    z-index: 10002 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    margin-top: -8px !important; /* Compensate for gap */
+  }
+
+  .header-dropdown[data-active="true"] {
+    max-height: 1000px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .lg\:absolute.lg\:left-full {
+    position: relative !important;
+    left: 0 !important;
+    margin-left: 0 !important;
+    z-index: 10003 !important;
+    padding-left: 1.5rem !important;
+  }
+
+  /* Fix for nested dropdown spacing */
+  [data-level="1"] .header-dropdown {
+    margin-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .opacity-0:not([data-active="true"]) {
+    position: absolute !important;
+    height: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
   }
 }
 
-/* Tablet-Specific Fixes */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1024px) {
   .header-dropdown {
     position: fixed !important;
     left: 50% !important;
-    top: 5rem !important;
-    transform: translateX(-50%) !important;
-    width: 80vw !important;
-    max-width: 300px;
-    background: #080C12 !important;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3) !important;
-    z-index: 9999;
+    transform: translateX(-50%) translateY(16px) !important;
+    min-width: 220px;
+    animation: dropdownFade 0.3s ease-out;
+    z-index: 10001 !important;
+    top: calc(var(--header-height-desktop) - 10px) !important;
+    margin-top: 0.75rem;
+    box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.3);
+    padding: 16px 0 !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .lg\:absolute.lg\:left-full {
+    left: calc(100% + 12px) !important;
+    top: -12px !important;
+    margin-left: 0 !important;
+    transform: none !important;
+    z-index: 10004 !important; /* Higher z-index for nested */
+  }
+
+  .group:hover .header-dropdown {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) !important;
+    transition-delay: 200ms;
+  }
+
+  .header-dropdown::before {
+    content: '';
+    position: absolute;
+    width: 130%;
+    height: 35px;
+    top: -20px;
+    left: -15%;
+    pointer-events: none;
+  }
+
+  /* Nested dropdown adjustments */
+  .lg\:absolute.lg\:left-full .header-dropdown {
+    left: calc(100% + 12px) !important;
+    top: -12px !important;
+    transform: none !important;
+    transition: all 0.3s ease 50ms !important;
+  }
+
+  .lg\:absolute.lg\:left-full .header-dropdown::before {
+    left: -12px;
+    width: 25px;
+    height: 100%;
+    top: 0;
+  }
+
+  /* Hover persistence for nested menus */
+  .lg\:absolute.lg\:left-full:hover .header-dropdown {
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 }
 
-/* Mobile Menu Adjustments */
-@media (max-width: 767px) {
-  .header-dropdown {
-    padding-left: 2rem;
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
   }
-
-  .header-dropdown a {
-    min-height: 44px;
-    display: flex;
-    align-items: center;
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
   }
 }
 
-/* Touch Optimization */
+main {
+  padding-top: var(--header-height-mobile);
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding-top: var(--header-height-desktop);
+  }
+}
+
+header {
+  z-index: 10000 !important;
+}
+
+.header-dropdown {
+  z-index: 10001 !important;
+}
+
 @media (pointer: coarse) {
+  .header-dropdown {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: var(--header-height-mobile) !important;
+    transform: none !important;
+    width: 100% !important;
+    max-height: calc(100vh - var(--header-height-mobile));
+  }
+  
+  @media (min-width: 1024px) {
+    .header-dropdown {
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      width: auto !important;
+      max-width: 90vw;
+    }
+  }
+
   .subitem-link {
     min-height: 48px;
     padding: 12px 24px !important;
   }
 }
+
+/* Keep all other existing styles below */
 
 /* Image Effects */
 .darken-on-mobile {
@@ -217,10 +315,7 @@ img {
 
 /* Add padding to main content area */
 /* Add this to your existing CSS */
-:root {
-  --header-height-mobile: 80px; /* Match your header's mobile height */
-  --header-height-desktop: 96px; /* Match your header's desktop height */
-}
+
 
 /* Add a padding-top to all main content containers */
 .main-content {

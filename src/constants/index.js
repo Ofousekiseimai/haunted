@@ -11,7 +11,7 @@ export const navigation = [
     id: '1',
     title: 'Παραδοσεις',
     url: '/laografia',
-    /**subitems: [
+    subitems: [
       { 
         slug: 'all', 
         title: 'Όλα', 
@@ -127,14 +127,14 @@ export const navigation = [
           
          
       },
-    ]**/
+    ]
   },
   
   {
     id: '3',
     title: 'Εφημερίδες',
     url: '/efimerides',
-   /** subitems: [
+    subitems: [
       { 
         slug: 'all', 
         title: 'Όλα', 
@@ -146,34 +146,30 @@ export const navigation = [
         url: '/efimerides/egklimata' 
       },
       { 
-        slug: 'emfaniseis-panagias', 
-        title: 'Εμφανίσεις Παναγίας',
-        url: '/efimerides/emfaniseis-panagias' 
-        
-      },
+            slug: 'emfaniseis-panagias', 
+            title: 'Εμφανίσεις Παναγίας',
+            url: '/efimerides/emfaniseis-panagias' 
+          },
+           
       { 
         slug: 'medium', 
         title: 'Εταιρία Ψυχικών Ερευνών - Μέντιουμ',
         url: '/efimerides/medium' 
-        
       },
       { 
-        slug: 'lithovroxes',
-        title: 'Λιθοβροχές',
-        url: '/efimerides/lithovroxes' 
-                 
-      },
+            slug: 'lithovroxes',
+            title: 'Λιθοβροχές',
+            url: '/efimerides/lithovroxes' 
+          },
       { 
         slug: 'mageia', 
         title: 'Μαγεία', 
         url: '/efimerides/mageia' 
       },
-      
       { 
         slug: 'teletes', 
         title: 'Τελετές',
         url: '/efimerides/teletes' 
-        
       },
       { 
         slug: 'satanismos', 
@@ -183,11 +179,12 @@ export const navigation = [
       { 
         slug: 'fainomena', 
         title: 'Φαινόμενα',
-        url: '/efimerides/fainomena' 
-        
-      }
-        
-    ]**/
+        url: '/efimerides/fainomena',
+       
+      },
+      
+         
+    ]
   },
   
   {

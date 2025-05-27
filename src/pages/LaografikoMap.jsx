@@ -2,38 +2,18 @@ import { useState, useEffect, useMemo } from 'react';
 import { Helmet } from 'react-helmet-async';
 import GreeceMap from '../components/GreeceMap';
 import { useLocation } from 'react-router-dom';
-import aerikaData from '../data/laografia/aerika.json';
-import daimonesData from '../data/laografia/daimones.json';
-import drakospitaData from '../data/laografia/drakospita.json';
-import fylaktaData from '../data/laografia/fylakta.json';
-import kalikatzaroiData from '../data/laografia/kalikatzaroi.json';
-import giteiesData from '../data/laografia/giteies.json';
-import ksotikaData from '../data/laografia/ksotika.json';
-import lamiesData from '../data/laografia/lamies.json';
-import moiresData from '../data/laografia/moires.json';
-import neraidesData from '../data/laografia/neraides.json';
-import vrikolakesData from '../data/laografia/vrikolakes.json';
-import gigantesData from '../data/laografia/gigantes.json'; 
-import limnesData from '../data/laografia/limnes.json';
-import drakontesData from '../data/laografia/drakontes.json';
-import stoixeiaData from '../data/laografia/stoixeia.json';
-import xamodrakiaData from '../data/laografia/xamodrakia.json';
-import teloniaData from '../data/laografia/telonia.json';
-import zoudiaredesData from '../data/laografia/zoudiaredes.json'
-
 
 const filterOptions = {
   all: 'Όλες οι Κατηγορίες',
-  
   aerika: 'Αερικά',
   vrikolakes: 'Βρυκόλακες',
   gigantes: 'Γίγαντες',
   giteies: 'Γητείες - Ξόρκια',
   zoudiaredes: " Γητευτές - Ζουδιάρηδες",
-   daimones: 'Δαίμονες',
+  daimones: 'Δαίμονες',
   drakospita: 'Δρακόσπιτα',
   drakontes: 'Δράκοντες',
-   kalikatzaroi: 'Καλικάντζαροι',
+  kalikatzaroi: 'Καλικάντζαροι',
   lamies: 'Λάμιες - Στρίγκλες',
   limnes: 'Λίμνες- Ποταμοί',
   moires: 'Μοίρες',
@@ -41,18 +21,14 @@ const filterOptions = {
   ksotika: 'Ξωτικά',
   stoixeia: 'Στοιχεία',
   telonia: 'Τελώνια',
-   fylakta: 'Φυλακτά',
-    xamodrakia: 'Χαμοδράκια-Σμερδάκια',
-    
+  fylakta: 'Φυλακτά',
+  xamodrakia: 'Χαμοδράκια-Σμερδάκια',
 };
-
-
-
 
 const MapPage = () => {
   // State variables
   const [articles, setArticles] = useState([]);
-    const [selectedMainArea, setSelectedMainArea] = useState('all');
+  const [selectedMainArea, setSelectedMainArea] = useState('all');
   const [selectedSubLocation, setSelectedSubLocation] = useState('all');
   const [availableMainAreas, setAvailableMainAreas] = useState(['all']);
   const [availableSubLocations, setAvailableSubLocations] = useState(['all']);
@@ -63,78 +39,60 @@ const MapPage = () => {
     location.state?.subcategory || 'all'
   );
 
-
   useEffect(() => {
-    const loadArticles = () => {
+    const loadArticles = async () => {
       try {
-        const allData = {
-          
-          aerika: aerikaData,
-          daimones: daimonesData,
-          drakospita: drakospitaData,
-            fylakta: fylaktaData,
-          kalikatzaroi: kalikatzaroiData,
-          giteies: giteiesData,
-          ksotika: ksotikaData,
-          lamies: lamiesData,
-          moires: moiresData,
-          neraides: neraidesData,
-          vrikolakes: vrikolakesData,
-          gigantes: gigantesData,
-          limnes: limnesData,
-          drakontes: drakontesData,
-          stoixeia: stoixeiaData,
-          xamodrakia: xamodrakiaData,
-          telonia: teloniaData,
-          zoudiaredes: zoudiaredesData,
-          
-        };
+        const subcategories = Object.keys(filterOptions).filter(k => k !== 'all');
+        
+        const fetchPromises = subcategories.map(subcat => 
+          fetch(`/data/laografia/${subcat}.json`)
+            .then(res => res.json())
+            .catch(() => null)
+        );
 
-       
-        const fetchedArticles = Object.entries(allData).flatMap(([subcat, data]) =>
-          data.articles.map(article => {
-            const lat = parseFloat(article.lat);
-            const lng = parseFloat(article.lng);
-            
-            return {
-              ...article,
-              subcategory: subcat,
-              lat: lat,
-              lng: lng,
-              imageUrl: article.image?.src || '/default-image.webp', // Access nested image object
-              mainArea: article.mainArea?.trim() || '',
-              subLocation: [
-                article.subLocation?.trim(), 
-                article.subLocation2?.trim()
-              ].filter(Boolean)
-            };
-          })
-        ).filter(article => 
-      !isNaN(article.lat) && 
-      !isNaN(article.lng) &&
-      article.lat >= 34.8 &&
-      article.lat <= 41.7 &&
-      article.lng >= 19.4 &&
-      article.lng <= 29.6
-    );
+        const results = await Promise.all(fetchPromises);
+        const validData = results.filter(Boolean);
 
-    setArticles(fetchedArticles);
-    setLoading(false);
-  } catch (err) {
-    console.error('Error loading articles:', err);
-    setError('Πρόβλημα φόρτωσης δεδομένων. Παρακαλώ δοκιμάστε ξανά αργότερα.');
-    setLoading(false);
-  }
-};
-if (location.state?.subcategory){
-  setSelectedCategory(location.state.subcategory);
-}
+        // In the loadArticles useEffect, update the article mapping:
+const fetchedArticles = validData.flatMap((data, index) => 
+  data.articles.map(article => ({
+    ...article,
+    subcategory: subcategories[index], // Add this line
+    lat: parseFloat(article.lat),
+    lng: parseFloat(article.lng),
+    imageUrl: article.image?.src || '/default-image.webp',
+    mainArea: article.mainArea?.trim() || '',
+    subLocation: [
+      article.subLocation?.trim(), 
+      article.subLocation2?.trim()
+    ].filter(Boolean)
+  }))
+).filter(article => 
+  !isNaN(article.lat) && 
+  !isNaN(article.lng) &&
+  article.lat >= 34.8 &&
+  article.lat <= 41.7 &&
+  article.lng >= 19.4 &&
+  article.lng <= 29.6
+);
+
+        setArticles(fetchedArticles);
+        setLoading(false);
+      } catch (err) {
+        console.error('Error loading articles:', err);
+        setError('Πρόβλημα φόρτωσης δεδομένων. Παρακαλώ δοκιμάστε ξανά αργότερα.');
+        setLoading(false);
+      }
+    };
+
+    if (location.state?.subcategory) {
+      setSelectedCategory(location.state.subcategory);
+    }
+    
     loadArticles();
-  
   }, [location.state]);
 
-  
- // Update available main areas when category changes
+ 
 useEffect(() => {
   const filteredByCategory = articles.filter(article => 
     selectedCategory === 'all' || article.subcategory === selectedCategory
@@ -176,17 +134,17 @@ const filteredArticles = articles.filter(article => {
 
 
   const targetBounds = useMemo(() => {
-    if (filteredArticles.length > 0) {
-      const latitudes = filteredArticles.map(article => article.lat);
-      const longitudes = filteredArticles.map(article => article.lng);
-      
-      return [
-        [Math.min(...latitudes), Math.min(...longitudes)],  // SW corner
-        [Math.max(...latitudes), Math.max(...longitudes)]   // NE corner
-      ];
-    }
-    return null;
-  }, [filteredArticles]);
+  if (filteredArticles.length > 0) {
+    const latitudes = filteredArticles.map(article => article.lat);
+    const longitudes = filteredArticles.map(article => article.lng);
+    
+    return [
+      [Math.min(...latitudes), Math.min(...longitudes)],  // SW
+      [Math.max(...latitudes), Math.max(...longitudes)]    // NE
+    ];
+  }
+  return null;
+}, [filteredArticles]);
 
   
 
@@ -203,7 +161,7 @@ const filteredArticles = articles.filter(article => {
     return (
       <div className="container mx-auto p-4 flex justify-center items-center h-64 ">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-400"></div>
-        <span className="ml-4">Φόρτωση χάρτη...</span>
+        <span className="ml-4">Φόρτωση χάρτη.</span>
       </div>
     );
   }

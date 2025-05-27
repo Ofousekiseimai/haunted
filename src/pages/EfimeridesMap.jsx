@@ -1,19 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import GreeceMap from '../components/GreeceMap';
-import satanismosData from '../data/efimerides/satanismos.json';
-import mageiaData from '../data/efimerides/mageia.json';
-import egklimataData from '../data/efimerides/egklimata.json';
-import teletesData from '../data/efimerides/teletes.json';
-import lithovroxesData from '../data/efimerides/lithovroxes.json';
-import fainomenaData from '../data/efimerides/fainomena.json';
-import mediumData from '../data/efimerides/medium.json';
-import panagiaData from '../data/efimerides/emfaniseis-panagias.json';
 
 const filterOptions = {
   all: 'Όλες οι Κατηγορίες',
-  satanismos: 'Σατανισμός',
-  
+  satanismos: 'Σατανισμός',  
   egklimata: 'Εγκλήματα',
   panagia: "Εμφανίσεις Παναγίας - Οράματα",
   medium: 'Εταιρία Ψυχικών Ερευνών - Μέντιουμ',
@@ -21,66 +12,63 @@ const filterOptions = {
   mageia: 'Μαγεία',
   teletes: 'Τελετές',
   fainomena: 'Φαινόμενα'
- 
 };
-
-
 
 const EfimeridesMap = () => {
   const [articles, setArticles] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedLocation, setSelectedLocation] = useState('all');
-  const [uniqueLocations, setUniqueLocations] = useState(['all']);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [availableLocations, setAvailableLocations] = useState(['all']);
-  useEffect(() => {
-    const loadArticles = () => {
-      try {
-        const allData = {
-          satanismos: satanismosData,
-          mageia: mageiaData,
-          egklimata: egklimataData,
-          teletes: teletesData,
-          lithovroxes: lithovroxesData,
-          fainomena: fainomenaData,
-          medum: mediumData,
-          panagia: panagiaData,
-        };
 
-        const fetchedArticles = Object.entries(allData).flatMap(([subcat, data]) =>
-          data.articles.map(article => {
-            // Validate coordinates
-            const lat = parseFloat(article.lat);
-            const lng = parseFloat(article.lng);
-            
-            return {
-              ...article,
-              subcategory: subcat,
-              lat: lat,
-              lng: lng,
-               imageUrl: article.image?.src || '/default-image.webp', // Add this line
-              locationTags: Array.isArray(article.locationTags) 
-                ? article.locationTags.map(tag => String(tag).trim()) 
-                : [String(article.locationTags).trim()]
-            };
-          })
-        ).filter(article => 
-          !isNaN(article.lat) && 
-          !isNaN(article.lng) &&
-          article.lat >= 34.8 &&  // Southern Greece
-          article.lat <= 41.7 &&  // Northern Greece
-          article.lng >= 19.4 &&  // Western Greece
-          article.lng <= 29.6     // Eastern Greece
+  useEffect(() => {
+    const loadArticles = async () => {
+      try {
+        const subcategories = [
+          'satanismos', 'mageia', 'egklimata', 
+          'teletes', 'lithovroxes', 'fainomena',
+          'medium', 'emfaniseis-panagias'
+        ];
+
+        const fetchPromises = subcategories.map(subcat => 
+          fetch(`/data/efimerides/${subcat}.json`)
+            .then(res => res.json())
+            .catch(() => null) // Αγνοούμε αποτυχημένα requests
         );
 
-        // Get unique locations
+        const results = await Promise.all(fetchPromises);
+        
+        const validData = results.filter(Boolean);
+        // In the loadArticles useEffect, update the article mapping:
+const fetchedArticles = validData.flatMap((data, index) => 
+  data.articles.map(article => ({
+    ...article,
+    subcategory: subcategories[index], // Add this line
+    lat: parseFloat(article.lat),
+    lng: parseFloat(article.lng),
+    imageUrl: article.image?.src || '/default-image.webp',
+    mainArea: article.mainArea?.trim() || '',
+    subLocation: [
+      article.subLocation?.trim(), 
+      article.subLocation2?.trim()
+    ].filter(Boolean)
+  }))
+).filter(article => 
+  !isNaN(article.lat) && 
+  !isNaN(article.lng) &&
+  article.lat >= 34.8 &&
+  article.lat <= 41.7 &&
+  article.lng >= 19.4 &&
+  article.lng <= 29.6
+);
+
         const locations = ['all', ...new Set(
           fetchedArticles.flatMap(a => a.locationTags)
         )].sort((a, b) => a.localeCompare(b));
 
-        
         setArticles(fetchedArticles);
+        setAvailableLocations(locations);
         setLoading(false);
       } catch (err) {
         console.error('Error loading articles:', err);
@@ -91,6 +79,9 @@ const EfimeridesMap = () => {
 
     loadArticles();
   }, []);
+
+  // ... υπόλοιπος κώδικας παραμένει ίδιος ...
+
   useEffect(() => {
     // Update available locations based on selected category
     const filteredByCategory = articles.filter(article => 

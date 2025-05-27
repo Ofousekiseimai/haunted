@@ -20,15 +20,22 @@ export default function CategoryPage() {
       try {
         setLoading(true);
         const config = SUBCATEGORY_MAP[subcategory || category];
-        if (!config) throw new Error('Category not found');
+        if (!config) throw new Error('Δεν βρέθηκε η κατηγορία');
         setCurrentConfig(config);
 
         const categoryConfig = CATEGORY_CONFIG[config.category];
-        const data = await import(/* @vite-ignore */ `${categoryConfig.dataPath}${config.slug}.json`);
+        if (!categoryConfig) throw new Error('Δεν βρέθηκε η διαμόρφωση κατηγορίας');
 
+        // Build correct data path
+        const jsonUrl = `${categoryConfig.dataPath}${config.slug}.json`;
         
+        // Fetch from public directory
+        const response = await fetch(jsonUrl);
+        if (!response.ok) throw new Error(`HTTP σφάλμα ${response.status}`);
         
-        const processedArticles = data.default.articles.map(article => ({
+        const data = await response.json();
+
+        const processedArticles = data.articles.map(article => ({
           ...article,
           subcategory: article.subcategory || config.slug,
           mainArea: article.mainArea?.trim() || '',
@@ -42,7 +49,8 @@ export default function CategoryPage() {
         setSelectedMainArea('all');
         setSelectedSubLocation('all');
       } catch (err) {
-        setError(err.message);
+        console.error('Σφάλμα φόρτωσης:', err);
+        setError(`Πρόβλημα φόρτωσης: ${err.message}`);
       } finally {
         setLoading(false);
       }

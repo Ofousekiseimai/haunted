@@ -1,14 +1,7 @@
-// components/RelatedArticles.jsx
-// components/RelatedArticles.jsx
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { SUBCATEGORY_MAP } from '../constants/categories';
-
-// Static import mapping for JSON files
-const jsonModules = import.meta.glob('../data/**/*.json', {
-  eager: true,
-  import: 'default'
-});
+import { SUBCATEGORY_MAP, CATEGORY_CONFIG } from '../constants/categories';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
   const [articles, setArticles] = useState([]);
@@ -25,16 +18,19 @@ const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
         setError(null);
         
         if (!mainCategory || !currentSubcategory) {
-          throw new Error('Missing category information');
+          throw new Error('Λείπουν πληροφορίες κατηγορίας');
         }
 
-        const jsonPath = `../data/${mainCategory}/${currentSubcategory}.json`;
-        const data = jsonModules[jsonPath];
+        const categoryConfig = CATEGORY_CONFIG[mainCategory];
+        if (!categoryConfig) throw new Error('Ακαθόριστη κατηγορία');
+        
+        const jsonUrl = `${categoryConfig.dataPath}${currentSubcategory}.json`;
+        const response = await fetch(jsonUrl);
+        
+        if (!response.ok) throw new Error(`HTTP σφάλμα ${response.status}`);
+        const data = await response.json();
 
-        if (!data) throw new Error('Data file not found');
-        if (!data.articles) throw new Error('Invalid data format');
-
-        const validArticles = data.articles
+        const validArticles = (data?.articles || [])
           .filter(article => 
             article?.id &&
             article?.title &&
@@ -42,12 +38,13 @@ const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
             article?.excerpt &&
             article.id !== currentArticleId
           )
-          .sort((a, b) => new Date(b.date) - new Date(a.date))
+          .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
           .slice(0, 6);
 
         setArticles(validArticles);
       } catch (err) {
-        setError(`Error loading related articles: ${err.message}`);
+        console.error('Σφάλμα φόρτωσης:', err);
+        setError(`Πρόβλημα φόρτωσης συναφών άρθρων: ${err.message}`);
       } finally {
         setLoading(false);
       }
@@ -58,10 +55,6 @@ const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
     }
   }, [currentSubcategory, currentArticleId, mainCategory]);
 
-  // ... rest of the component remains the same
-
-
-
   if (error) {
     return <div className="text-red-500 text-center mt-4">{error}</div>;
   }
@@ -69,7 +62,7 @@ const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
   if (loading) {
     return (
       <div className="flex justify-center my-8">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500" />
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-500" />
       </div>
     );
   }
@@ -86,19 +79,20 @@ const RelatedArticles = ({ currentSubcategory, currentArticleId }) => {
           <Link
             to={`/${mainCategory}/${currentSubcategory}/${article.slug}`}
             key={article.id}
-           className="block group bg-transparent rounded-lg p-4 transition-colors  overflow-hidden hover:transform hover:scale-[1.02] duration-300 border shadow-xl border-gray-700"
+            className="block group bg-transparent rounded-lg p-4 transition-colors overflow-hidden hover:transform hover:scale-[1.02] duration-300 border shadow-xl border-gray-700"
           >
             {article.image?.src && (
-              <img
+              <LazyLoadImage
                 src={article.image.src}
-                alt={article.image.alt || 'Article image'}
-                   className="w-full h-48 object-fill rounded-t-lg"
-                loading="lazy"
+                alt={article.image.alt || article.title}
+                className="w-full h-48 object-cover rounded-t-lg"
+                placeholderSrc="/placeholder.jpg"
+                effect="opacity"
               />
             )}
-             <h3 className="text-xl font-bold mb-2 mt-2 text-white group-hover:text-purple-500  transition-colors">
-                {article.title}
-              </h3>
+            <h3 className="text-xl font-bold mb-2 mt-2 text-white group-hover:text-purple-400 transition-colors">
+              {article.title}
+            </h3>
             <p className="text-gray-400 line-clamp-3">{article.excerpt}</p>
           </Link>
         ))}

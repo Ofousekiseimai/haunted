@@ -1,4 +1,5 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const YouTubeSection = ({ videosData }) => {
   const extractYoutubeId = (url) => {
@@ -9,19 +10,26 @@ const YouTubeSection = ({ videosData }) => {
 
   const getThumbnailUrl = (url) => {
     const youtubeId = extractYoutubeId(url);
-    if (!youtubeId) return '/fallback-thumbnail.jpg';
+    if (!youtubeId) return '/placeholder-video.jpg';
     return `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`;
   };
 
+  const getFallbackThumbnail = (url) => {
+    const youtubeId = extractYoutubeId(url);
+    return youtubeId 
+      ? `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`
+      : '/placeholder-video.jpg';
+  };
+
   return (
-    <section className=" bg-gray-900">
+    <section className="bg-gray-900 py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white text-center">
           Σχετικά Βίντεο Δημιουργών στο YouTube
         </h2>
         
         {videosData.playlists.map((playlist, index) => (
-          <div key={index} className="py-4 mb-12">
+          <div key={`${playlist.channel}-${index}`} className="py-4 mb-12">
             {/* Channel Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
               <h3 className="text-2xl font-semibold text-white">
@@ -36,29 +44,33 @@ const YouTubeSection = ({ videosData }) => {
                 
                 return (
                   <div 
-                    key={vidIndex}
-                   className="group relative bg-transparent rounded-2xl p-4 overflow-hidden hover:transform hover:scale-[1.02] duration-300 border shadow-xl border-gray-700"
+                    key={`${youtubeId}-${vidIndex}`}
+                    className="group relative bg-transparent rounded-2xl p-4 overflow-hidden hover:transform hover:scale-[1.02] duration-300 border shadow-xl border-gray-700"
                   > 
                     <a
                       href={video.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block relative group"
+                      aria-label={`Δείτε το βίντεο: ${video.title}`}
                     >
                       <div className="relative aspect-video">
-                        <img
+                        <LazyLoadImage
                           src={getThumbnailUrl(video.url)}
                           alt={`Thumbnail για το βίντεο: ${video.title}`}
                           className="w-full h-full object-cover"
-                          loading="lazy"
+                          effect="opacity"
+                          placeholderSrc="/placeholder-video.jpg"
                           onError={(e) => {
-                            e.target.src = `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`;
+                            e.target.src = getFallbackThumbnail(video.url);
                           }}
                         />
                         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
-                        <div className="absolute bottom-2 right-2 bg-black/80 px-2 py-1 rounded text-sm text-white">
-                          {video.duration}
-                        </div>
+                        {video.duration && (
+                          <div className="absolute bottom-2 right-2 bg-black/80 px-2 py-1 rounded text-sm text-white">
+                            {video.duration}
+                          </div>
+                        )}
                       </div>
                       <div className="p-4">
                         <h4 className="text-xl font-bold mb-2 text-white group-hover:text-purple-400 transition-colors">
@@ -78,6 +90,7 @@ const YouTubeSection = ({ videosData }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-purple-600 via-pink-600 to-pink-400 p-[2px] text-white rounded-lg hover:shadow-xl transition-all duration-300"
+                aria-label={`Δείτε περισσότερα από το κανάλι ${playlist.channel}`}
               >
                 <span className="block bg-gray-900 hover:bg-gray-800 px-6 py-2 rounded-md transition-colors duration-200 font-medium">
                   Δείτε περισσότερα από {playlist.channel}
