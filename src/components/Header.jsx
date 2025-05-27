@@ -47,6 +47,18 @@ const Header = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
 
+useEffect(() => {
+    if (openNavigation) {
+      const scrollToElement = document.querySelector('[data-active="true"]');
+      if (scrollToElement) {
+        scrollToElement.scrollIntoView({ 
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    }
+  }, [openDropdown, openNavigation]);
+
   const toggleNavigation = () => {
     setOpenNavigation(prev => !prev);
     setOpenDropdown(null);
@@ -75,10 +87,12 @@ const Header = () => {
   };
 
    const renderSubitems = (items, level = 0) => {
-    return items.map((subitem) => (
-      <div 
-        key={subitem.slug}
-        className={`relative group ${level > 0 ? 'pl-4' : ''}`}
+  return items.map((subitem) => (
+    <div 
+      key={subitem.slug}
+      className={`relative group ${level > 0 ? 'pl-4' : ''}`}
+      data-active={openDropdown === subitem.slug ? "true" : "false"}
+    
         onMouseEnter={() => !openNavigation && subitem.subitems && setOpenDropdown(subitem.slug)}
         onMouseLeave={() => !openNavigation && subitem.subitems && setTimeout(() => setOpenDropdown(null), 300)}
       >
@@ -110,24 +124,26 @@ const Header = () => {
           </div>
         </Link>
 
-      {subitem.subitems && (
-          <div 
-            className={`${
-              openDropdown === subitem.slug ? 'opacity-100 visible' : 'opacity-0 invisible'
-            } lg:absolute ${level > 0 ? 'lg:left-full lg:top-0' : 'lg:top-full lg:left-0'} ...`}
-            onMouseEnter={() => !openNavigation && setOpenDropdown(subitem.slug)}
-            onMouseLeave={() => !openNavigation && setTimeout(() => setOpenDropdown(null), 300)}
-            style={{ 
-              marginLeft: level > 0 ? '0.75rem' : 0,
-              zIndex: 10000 + level 
-            }}
-          >
-            {renderSubitems(subitem.subitems, level + 1)}
-          </div>
-        )}
-      </div>
-    ));
-  };
+       {subitem.subitems && (
+  <div 
+    className={`${
+      openDropdown === subitem.slug ? 'opacity-100 visible' : 'opacity-0 invisible'
+    } lg:absolute ${level > 0 ? 'lg:left-full lg:top-0' : 'lg:top-full lg:left-0'} lg:w-48 lg:bg-n-8 lg:rounded-lg lg:shadow-xl ${
+      openNavigation ? 'static w-full bg-transparent shadow-none' : ''
+    } transition-all duration-300 origin-top`}
+    style={{ 
+      marginLeft: level > 0 ? '0.75rem' : 0,
+      zIndex: 10000 + level,
+      maxHeight: openNavigation && window.innerWidth < 1024 ? '70vh' : 'none',
+      overflowY: openNavigation && window.innerWidth < 1024 ? 'auto' : 'hidden'
+    }}
+  >
+    {renderSubitems(subitem.subitems, level + 1)}
+  </div>
+)}
+    </div>
+  ));
+};
 
   return (
     <>
@@ -151,9 +167,16 @@ const Header = () => {
           </div>
 
           <div className="flex items-center w-3/4 lg:w-2/3 justify-end gap-2">
-            <nav className={`${
-              openNavigation ? "flex" : "hidden"
-            } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}>
+           <nav 
+  className={`${
+    openNavigation ? "flex" : "hidden"
+  } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+  style={{
+    overflowY: openNavigation ? 'auto' : 'hidden',
+    WebkitOverflowScrolling: 'touch',
+    scrollbarWidth: 'none' // Add this
+  }}
+>
               <div className="lg:hidden absolute inset-0 bg-[url('/images/laografia/to-apogeio-tou-katevatou-arachova.webp')] bg-cover bg-center opacity-20 z-0" />
               
               <div className="relative z-10 flex flex-col items-center justify-center m-auto lg:flex-row">

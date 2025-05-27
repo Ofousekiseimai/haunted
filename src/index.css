@@ -89,7 +89,11 @@ img {
     padding: 0 !important;
     overflow: hidden !important;
   }
+
+   /* Add scrollbar styling */
+ 
 }
+
 
 @media (min-width: 1024px) {
   .header-dropdown {
