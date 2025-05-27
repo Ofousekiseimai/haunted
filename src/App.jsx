@@ -38,6 +38,50 @@ const App = () => {
     });
   }, [location]);
 
+ 
+  useEffect(() => {
+  const preventDefault = (e) => e.preventDefault();
+
+  const blockKeys = (e) => {
+    if (
+      e.key === 'F12' ||
+      (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key)) ||
+      (e.ctrlKey && e.key === 'U')
+    ) {
+      e.preventDefault();
+    }
+  };
+
+  document.addEventListener('contextmenu', preventDefault);
+  document.addEventListener('selectstart', preventDefault);
+  document.addEventListener('dragstart', preventDefault);
+  document.addEventListener('keydown', blockKeys);
+
+  return () => {
+    document.removeEventListener('contextmenu', preventDefault);
+    document.removeEventListener('selectstart', preventDefault);
+    document.removeEventListener('dragstart', preventDefault);
+    document.removeEventListener('keydown', blockKeys);
+  };
+}, []);
+
+  useEffect(() => {
+    const blurHandler = () => {
+      document.body.style.filter = 'blur(5px)';
+    };
+    const focusHandler = () => {
+      document.body.style.filter = 'none';
+    };
+
+    window.addEventListener('blur', blurHandler);
+    window.addEventListener('focus', focusHandler);
+
+    return () => {
+      window.removeEventListener('blur', blurHandler);
+      window.removeEventListener('focus', focusHandler);
+    };
+  }, []);
+
   return (
     <>
       <HelmetProvider>

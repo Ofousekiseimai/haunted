@@ -17,7 +17,27 @@
   scroll-behavior: smooth;
 }
 
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
 
+
+input, 
+textarea {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+
+img {
+  pointer-events: none;
+  -webkit-touch-callout: none;
+}
+
+/* ... ο υπόλοιπος CSS κώδικας παραμένει αμετάβλητος ... */
 
 /* Swiper Styles */
 .swiper-pagination-bullet {
