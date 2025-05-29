@@ -21,8 +21,21 @@ app.use((req, res, next) => {
 });
 
 // Helper functions
+// server.js - Fix the file path
 const getFilePath = (category, subcategory) => {
-  return path.join(__dirname, 'src', 'data', category, `${subcategory}.json`);
+  // Validate against your category configuration
+  const validCategories = ['laografia', 'efimerides'];
+  if (!validCategories.includes(category)) {
+    throw new Error('Invalid category');
+  }
+  
+  return path.join(
+    __dirname,
+    'public',
+    'data',
+    category,
+    `${subcategory}.json`
+  );
 };
 
 // Endpoints
@@ -49,4 +62,28 @@ app.put('/api/article/:category/:subcategory/:id', async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
+});
+
+app.put('/api/article/:category/:subcategory/:id', async (req, res) => {
+  try {
+    const { category, subcategory, id } = req.params;
+    const updatedArticle = req.body;
+    
+    const filePath = getFilePath(category, subcategory);
+    console.log('Attempting to save to:', filePath); // Add logging
+    
+    const data = await fs.readFile(filePath, 'utf8');
+    const jsonData = JSON.parse(data);
+    
+    const articleIndex = jsonData.articles.findIndex(a => a.id === id);
+    if (articleIndex === -1) return res.status(404).send('Article not found');
+    
+    jsonData.articles[articleIndex] = updatedArticle;
+    await fs.writeFile(filePath, JSON.stringify(jsonData, null, 2));
+    
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Server error:', error); // Detailed logging
+    res.status(500).send('Error saving article: ' + error.message);
+  }
 });

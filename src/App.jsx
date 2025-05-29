@@ -81,6 +81,7 @@ const App = () => {
       window.removeEventListener('focus', focusHandler);
     };
   }, []);
+  
 
   return (
     <>

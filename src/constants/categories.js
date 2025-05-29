@@ -307,30 +307,7 @@ export const CATEGORY_CONFIG = {
       }
     },
     // Πρόσωπα Subcategories
-    'aggelos-tanagras': { 
-      category: 'prosopa', 
-      slug: 'aggelos-tanagras',
-      image: {
-        src: '/images/katigories/aggelos-tanagras.webp',
-        alt: 'Άγγελος Τανάγρας'
-      }
-    },
-    'eleni-kikidou': { 
-      category: 'prosopa', 
-      slug: 'eleni-kikidou',
-      image: {
-        src: '/images/katigories/eleni-kikidou.webp',
-        alt: 'Ελένη Κικίδου'
-      }
-    },
-    'alexandros-mpellos': { 
-      category: 'prosopa', 
-      slug: 'alexandros-mpellos',
-      image: {
-        src: '/images/katigories/alexandros-mpellos.webp',
-        alt: 'Αλέξανδρος Μπέλλος'
-      }
-    }
+   
   };
   
   export const getRouteConfig = (pathSegments) => {
