@@ -21,6 +21,16 @@ const Home = () => {
   const [errorLaografia, setErrorLaografia] = useState(null);
   const [errorEfimerides, setErrorEfimerides] = useState(null);
 
+  const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+
   // Get subcategories
   const laografiaSubcategories = Object.keys(SUBCATEGORY_MAP).filter(
     key => SUBCATEGORY_MAP[key].category === 'laografia'
@@ -43,13 +53,18 @@ const Home = () => {
   };
 
   // Load laografia articles
-  useEffect(() => {
+   useEffect(() => {
     const fetchArticles = async () => {
       try {
         setLoadingLaografia(true);
         setErrorLaografia(null);
         const data = await loadData(selectedLaografiaSub, 'laografia');
-        setLaografiaArticles(data?.articles?.slice(0, 6) || []);
+        
+        // Shuffle articles before slicing
+        const shuffledArticles = shuffleArray(data?.articles || []);
+        const randomArticles = shuffledArticles.slice(0, 6);
+        
+        setLaografiaArticles(randomArticles);
       } catch (err) {
         console.error('Σφάλμα φόρτωσης:', err);
         setErrorLaografia(err.message);
@@ -61,14 +76,19 @@ const Home = () => {
     fetchArticles();
   }, [selectedLaografiaSub]);
 
-  // Load efimerides articles
+  // Load efimerides articles (UPDATED)
   useEffect(() => {
     const fetchArticles = async () => {
       try {
         setLoadingEfimerides(true);
         setErrorEfimerides(null);
         const data = await loadData(selectedEfimeridesSub, 'efimerides');
-        setEfimeridesArticles(data?.articles?.slice(0, 6) || []);
+        
+        // Shuffle articles before slicing
+        const shuffledArticles = shuffleArray(data?.articles || []);
+        const randomArticles = shuffledArticles.slice(0, 6);
+        
+        setEfimeridesArticles(randomArticles);
       } catch (err) {
         console.error('Σφάλμα φόρτωσης:', err);
         setErrorEfimerides(err.message);

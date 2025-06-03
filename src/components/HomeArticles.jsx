@@ -3,6 +3,15 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { SUBCATEGORY_MAP } from '../constants/categories';
 
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 const HomeArticles = ({ 
   mainCategory,
   subcategories,
@@ -13,6 +22,8 @@ const HomeArticles = ({
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  
 
   useEffect(() => {
     let isMounted = true;
@@ -28,14 +39,17 @@ const HomeArticles = ({
           throw new Error('Invalid data format');
         }
 
-        const validArticles = data.articles
+        // Shuffle articles before filtering and slicing
+        const shuffledArticles = shuffleArray(data.articles);
+        
+        const validArticles = shuffledArticles
           .filter(article => 
             article?.id &&
             article?.title &&
             article?.slug &&
             article?.excerpt
           )
-          .slice(0, 6); // Show first 6 articles
+          .slice(0, 6); // Show first 6 random articles
 
         if (isMounted) {
           setArticles(validArticles);

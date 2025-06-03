@@ -35,15 +35,17 @@ export default function CategoryPage() {
         
         const data = await response.json();
 
-        const processedArticles = data.articles.map(article => ({
-          ...article,
-          subcategory: article.subcategory || config.slug,
-          mainArea: article.mainArea?.trim() || '',
-          subLocation: [
-            article.subLocation?.trim(), 
-            article.subLocation2?.trim()
-          ].filter(Boolean)
-        }));
+        const processedArticles = data.articles
+          .map(article => ({
+            ...article,
+            subcategory: article.subcategory || config.slug,
+            mainArea: article.mainArea?.trim() || '',
+            subLocation: [
+              article.subLocation?.trim(), 
+              article.subLocation2?.trim()
+            ].filter(Boolean)
+          }))
+          .sort((a, b) => Number(b.id) - Number(a.id)); // Descending ID sort
 
         setArticles(processedArticles);
         setSelectedMainArea('all');
