@@ -38,7 +38,7 @@ const App = () => {
     });
   }, [location]);
 
- /*
+ 
   useEffect(() => {
   const preventDefault = (e) => e.preventDefault();
 
@@ -67,7 +67,7 @@ const App = () => {
 
   useEffect(() => {
     const blurHandler = () => {
-      document.body.style.filter = 'blur(5px)';
+      document.body.style.filter = 'blur(1px)';
     };
     const focusHandler = () => {
       document.body.style.filter = 'none';
@@ -82,7 +82,7 @@ const App = () => {
     };
   }, []);
   
-*/
+
   return (
     <>
       <HelmetProvider>

@@ -17,7 +17,7 @@
   scroll-behavior: smooth;
 }
 
-/* body {
+ body {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -30,7 +30,7 @@ textarea {
   user-select: text;
   -webkit-user-select: text;
 }
-*/
+
 
 img {
   pointer-events: none;
