@@ -38,7 +38,7 @@ const App = () => {
     });
   }, [location]);
 
- 
+ /*
   useEffect(() => {
   const preventDefault = (e) => e.preventDefault();
 
@@ -82,7 +82,7 @@ const App = () => {
     };
   }, []);
   
-
+*/
   return (
     <>
       <HelmetProvider>

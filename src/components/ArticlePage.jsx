@@ -187,57 +187,120 @@ case 'text':
 
   return (
     <div className="container mx-auto p-4 max-w-3xl mt-5">
-      <Helmet>
-        <title>{`${article.title} | haunted.gr`}</title>
-        <meta name="description" content={article.excerpt} />
+     <Helmet>
+  {/* Primary Meta Tags */}
+  <title>{`${article.title}  | haunted.gr`}</title>
+  <meta name="description" content={article.excerpt} />
+  
+  {/* Location Meta Tags */}
+  <meta name="geo.region" content="GR" />
+  <meta name="geo.placename" content={article.mainArea} />
+  {article.lat && article.lng && (
+    <meta name="geo.position" content={`${article.lat};${article.lng}`} />
+  )}
+  <meta name="ICBM" content={`${article.lat}, ${article.lng}`} />
 
-        <meta
-          name="keywords"
-          content={[
-            article.mainArea,
-            article.subLocation,
-            category,
-            subcategory,
-          ]
-            .filter(Boolean)
-            .join(", ")}
-        />
-        <link
-          rel="canonical"
-          href={`https://haunted.gr/${category}/${subcategory}/${slug}`}
-        />
+  {/* Canonical URL */}
+  <link
+    rel="canonical"
+    href={`https://haunted.gr/${category}/${subcategory}/${slug}`}
+  />
 
-        {/* Schema.org markup */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: article.title,
-            datePublished: article.date,
-            author: article.author
-              ? {
-                  "@type": "Person",
-                  name: article.author,
-                }
-              : undefined,
-            publisher: {
-              "@type": "Organization",
-              name: "haunted.gr",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://haunted.gr/logo.png",
-              },
-            },
-            image: article.image?.src
-              ? `https://haunted.gr${article.image.src}`
-              : "https://haunted.gr/default-article.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": typeof window !== "undefined" ? window.location.href : "",
-            },
-          })}
-        </script>
-      </Helmet>
+  {/* Open Graph / Facebook */}
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content={`${article.title} | haunted.gr`} />
+  <meta property="og:description" content={article.excerpt} />
+  <meta property="og:url" content={`https://haunted.gr/${category}/${subcategory}/${slug}`} />
+  <meta property="og:site_name" content="haunted.gr" />
+  <meta property="og:locale" content="el_GR" />
+  <meta property="article:published_time" content={article.date} />
+  {article.image?.src && (
+    <meta property="og:image" content={`https://haunted.gr${article.image.src}`} />
+  )}
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={article.title} />
+  <meta name="twitter:description" content={article.excerpt} />
+  {article.image?.src && (
+    <meta name="twitter:image" content={`https://haunted.gr${article.image.src}`} />
+  )}
+
+  {/* Schema.org Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": article.title,
+      "description": article.excerpt,
+      "datePublished": article.date,
+      "author": article.author ? {
+        "@type": "Person",
+        "name": article.author
+      } : undefined,
+      "publisher": {
+        "@type": "Organization",
+        "name": "haunted.gr",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://haunted.gr/logo.png",
+          "width": 300,
+          "height": 60
+        }
+      },
+      "image": article.image?.src 
+        ? `https://haunted.gr${article.image.src}`
+        : "https://haunted.gr/default-article.jpg",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": typeof window !== "undefined" ? window.location.href : ""
+      },
+      // Location schema
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": article.mainArea,
+        "geo": article.lat && article.lng ? {
+          "@type": "GeoCoordinates",
+          "latitude": article.lat,
+          "longitude": article.lng
+        } : undefined
+      }
+    })}
+  </script>
+
+  {/* Breadcrumb Structured Data */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://haunted.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": categoryData?.title || "",
+          "item": `https://haunted.gr/${category}`
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": article.title,
+          "item": typeof window !== "undefined" ? window.location.href : ""
+        }
+      ]
+    })}
+  </script>
+
+  {/* Preconnect for faster image loading */}
+  <link rel="preconnect" href="https://images.haunted.gr" />
+</Helmet>
 
       <div className="container mx-auto p-4 max-w-3xl mt-5">
       {import.meta.env.DEV && (
