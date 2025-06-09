@@ -192,6 +192,16 @@ export const CATEGORY_CONFIG = {
       } 
       
     },
+    'fantasmata': { 
+      displayName: 'Φαντάσματα',
+      description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με Φαντάσματα στον Ελληνικό χώρο",
+      category: 'laografia', 
+      slug: 'fantasmata',
+      image: {
+        src: '/images/katigories/fantasmata.webp',
+        alt: 'Φαντάσματα'
+      }
+    },
     'fylakta': { 
       displayName: 'Φυλακτά',
       description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με Φυλακτά και μαγικά αντικείμενα",

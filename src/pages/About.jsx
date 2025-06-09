@@ -95,15 +95,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="mt-12 p-6 bg-gray-800 rounded-lg text-center">
-          <h4 className="text-lg font-semibold mb-4">Επικοινωνία</h4>
-          <a
-            href="mailto:info@haunted.gr"
-            className="text-purple-400 hover:text-purple-300 transition-colors"
-          >
-            📧 info@haunted.gr
-          </a>
-        </div>
+       
       </div>
     </div>
   );

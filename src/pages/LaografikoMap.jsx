@@ -21,6 +21,7 @@ const filterOptions = {
   stoixeia: 'Στοιχεία',
   telonia: 'Τελώνια',
   fylakta: 'Φυλακτά',
+  fantasmata: 'Φαντάσματα',
   xamodrakia: 'Χαμοδράκια-Σμερδάκια',
 };
 

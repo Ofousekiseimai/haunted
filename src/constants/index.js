@@ -113,6 +113,14 @@ export const navigation = [
          
       },
       { 
+        slug: 'fantasmata', 
+        title: 'Φαντάσματα',
+        url: '/laografia/fantasmata'
+        
+          
+         
+      },
+      { 
         slug: 'fylakta', 
         title: 'Φυλακτά',
         url: '/laografia/fylakta'

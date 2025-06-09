@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /search
+Crawl-delay: 3
+
+Sitemap: https://haunted.gr/sitemap.xml
+
+# Image crawling
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Archive.org access
+User-agent: archive.org_bot
+Crawl-delay: 10
