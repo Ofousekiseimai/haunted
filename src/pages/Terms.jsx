@@ -85,21 +85,7 @@ const TermsPage = () => {
             </p>
           </div>
 
-          {/* Section 7 */}
-          <div className="pb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-purple-300">7. Επικοινωνία</h2>
-            <p className="leading-relaxed text-gray-300">
-              Για οποιαδήποτε απορία, παρατήρηση ή αίτημα σχετικά με τους Όρους Χρήσης, μπορείτε να επικοινωνήσετε μαζί μας στο:
-            </p>
-            <div className="mt-6 p-4 bg-gray-800 rounded-lg text-center">
-              <a
-                href="mailto:info@haunted.gr"
-                className="text-purple-400 hover:text-purple-300 transition-colors text-lg"
-              >
-                📧 info@haunted.gr
-              </a>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

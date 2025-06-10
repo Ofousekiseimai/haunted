@@ -127,14 +127,7 @@ const PrivacyPage = () => {
               <li>Ενημερώσετε/Διορθώσετε</li>
               <li>Διαγράψετε</li>
             </ul>
-            <div className="mt-6 p-4 bg-gray-800 rounded-lg text-center">
-              <a
-                href="mailto:info@haunted.gr"
-                className="text-purple-400 hover:text-purple-300 transition-colors text-lg"
-              >
-                📧 info@haunted.gr
-              </a>
-            </div>
+            
           </div>
 
           {/* Section 8 */}
