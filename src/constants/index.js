@@ -30,15 +30,10 @@ export const navigation = [
       },
       
       
-      { 
-        slug: 'giteies', 
-        title: 'Γητείες - Ξόρκια',
-        url: '/laografia/giteies'  
-         
-      },
+      
       { 
         slug: 'zoudiaredes', 
-        title: 'Γητευτές - Ζουδιάρηδες', 
+        title: 'Ζουδιάρηδες - Σαββατιανοί', 
         url: '/laografia/zoudiaredes' 
       },
       { 
@@ -120,13 +115,7 @@ export const navigation = [
           
          
       },
-      { 
-        slug: 'fylakta', 
-        title: 'Φυλακτά',
-        url: '/laografia/fylakta'
-          
-         
-      },
+
       { 
         slug: 'xamodrakia', 
         title: 'Χαμοδράκια - Σμερδάκια',
@@ -153,22 +142,14 @@ export const navigation = [
         title: 'Εγκλήματα', 
         url: '/efimerides/egklimata' 
       },
-      { 
-            slug: 'emfaniseis-panagias', 
-            title: 'Εμφανίσεις Παναγίας',
-            url: '/efimerides/emfaniseis-panagias' 
-          },
+      
            
       { 
         slug: 'medium', 
         title: 'Εταιρία Ψυχικών Ερευνών - Μέντιουμ',
         url: '/efimerides/medium' 
       },
-      { 
-            slug: 'lithovroxes',
-            title: 'Λιθοβροχές',
-            url: '/efimerides/lithovroxes' 
-          },
+      
       { 
         slug: 'mageia', 
         title: 'Μαγεία', 

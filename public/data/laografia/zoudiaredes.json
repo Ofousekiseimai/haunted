@@ -1,7 +1,7 @@
 {
   "category": "Λαογραφία",
   "subcategorySlug": "zoudiaredes",
-  "subcategory": "Ζουδιάρηδες - Γευτευτές",
+  "subcategory": "Ζουδιάρηδες - Γητευτές",
   "articles": [
     {
       "id": "96",
@@ -203,6 +203,169 @@
           "pages": "338"
         }
       ]
+    },
+    {
+  "id": "308",
+  "title": "o Σαββατιανός στα Λακοβίκια",
+  "slug": "o-sabbattianos-sta-lakovikia",
+  "author": "George Frederick Abbott",
+  "date": "1903",
+  "excerpt": "Παράδοση από τη Μεσολακκιά Σερρών για τον Σαββατιανό (γεννημένο Σάββατο) και το προστατευτικό του σκυλάκι που του προσδίδει θάρρος απέναντι στους βρυκόλακες και του χορηγεί αορατότητα, ορατή μόνο στο σκυλί.",
+  "mainArea": "Σέρρες",
+  "subLocation": "Μεσολακκιά",
+  "locationTags": ["Μεσολακκιά", "Σέρρες", "Μακεδονία", "Σαββατιανός", "βρυκόλακας", "προστατευτικά ζώα"],
+  "lat": 40.8322,
+  "lng": 23.9332,
+  "image": {
+    "src": "/images/laografia/o-sabbattianos-sta-lakovikia.webp",
+    "alt": "Παραδοσιακό σκυλάκι στην ύπαιθρο της Μακεδονίας, σύμβολο προστασίας κατά των βρυκολάκων"
+  },
+  "content": [
+    {
+      "type": "text",
+      "value": "Στη Λιακοβίκια (σημ. Μεσολακκιά) πιστεύεται ότι ο Σαββατιανός οφείλει τη δύναμή του σε ένα μικρό σκυλάκι, το οποίο τον ακολουθεί κάθε βράδυ και του δίνει θάρρος ώστε να μη φοβάται τον Βρυκόλακα."
+    },
+    {
+      "type": "text",
+      "value": "Λέγεται επίσης ότι ο Σαββατιανός, σε αυτές τις περιστάσεις, είναι αόρατος για όλους εκτός από το μικρό σκυλί."
+    }
+  ],
+  "sources": [
+    {
+      "type": "book",
+      "name": "George Frederick Abbott",
+      "title": "Macedonian Folklore",
+      "year": "1903",
+      "pages": "222"
+    },
+    {
+      "type": "book",
+      "name": "Α.Δ. Γούσιος",
+      "title": "Η Κατά το Πάγγαιον Χώρα",
+      "year": "1869",
+      "pages": "75"
     }
   ]
+},
+
+{
+  "id": "307",
+  "title": "Η Εξόντωση του Βρυκόλακα απο τον Σαββατιανό",
+  "slug": "i-exontosi-tou-vrykolaka-apo-ton-sabbattiano",
+  "author": "George Frederick Abbott",
+  "date": "1903",
+  "excerpt": "Μακεδονική λαογραφική αφήγηση για Σαββατιανό (γεννημένο Σάββατο) που εξόντωσε βρυκόλακα στον Σοχό. Τον παραπλάνησε να μετρά κεχρί, τον καρφίτωσε στον τοίχο, σε απόηχο δημοτικών τραγουδιών που περιγράφουν παρόμοια τελετουργικά.",
+  "mainArea": "Θεσσαλονίκη",
+  "subLocation": "Σοχός",
+  "locationTags": ["Θεσσαλονίκη", "Σοχός", "Μακεδονία", "βρυκόλακας", "Σαββατιανός", "κεχρί", "δημοτικά τραγούδια"],
+  "lat": 40.8142,
+  "lng": 23.3539,
+  "image": {
+    "src": "/images/laografia/i-exontosi-tou-vrykolaka-apo-ton-sabbattiano.webp",
+    "alt": ""
+  },
+  "content": [
+    {
+      "type": "text",
+      "value": "Οι άνθρωποι που έχουν γεννηθεί Σάββατο (και αποκαλούνται γι’ αυτό «Σαββατιανοί») πιστεύεται ότι διαθέτουν το αναμφίβολο προνόμιο να βλέπουν φαντάσματα και φασματικά οράματα, καθώς και να έχουν μεγάλη επιρροή πάνω στους βρυκόλακες."
+    },
+    {
+      "type": "text",
+      "value": "Ένας ντόπιος από τον Σοχό διαβεβαίωσε τον συγγραφέα πως ένας τέτοιος άνθρωπος είχε καταφέρει να παρασύρει έναν βρυκόλακα μέσα σε έναν στάβλο και να τον βάλει να μετρά τους σπόρους από ένα σωρό κεχρί. Ενώ ο δαίμονας ήταν απασχολημένος με το μέτρημα, ο Σαββατιανός τον επιτέθηκε και κατάφερε να τον καρφώσει στον τοίχο."
+    },
+    {
+      "type": "text",
+      "value": "Η ιστορία παρουσιάζει αρκετά σημεία ενδιαφέροντος. Πρώτον, το καρφωμα ενός κακού όντος στον τοίχο είναι μια ιδέα γνωστή στη μακεδονική παράδοση. Εμφανίζεται ακόμη και σε δημοτικά τραγούδια. Μάλιστα, άκουσα ένα παιδικό στιχάκι από ένα κορίτσι του ίδιου χωριού, που άρχιζε με τα λόγια:\n“Στοιχειό παραχωμένο\nΣτον τοίχο καρφωμένο”..."
+    }
+  ],
+  "sources": [
+    {
+      "type": "book",
+      "name": "George Frederick Abbott",
+      "title": "Macedonian Folklore",
+      "year": "1903",
+      "pages": "221"
+    }
+  ]
+}
+  ],
+  "seo": {
+  "metaTitle": "Ζουδιάρηδες και Γητευτές | Μαγικές Πρακτικές Εξορκισμού | Haunted.gr",
+  "metaDescription": "τεκμηρίωση ελληνικών λαογραφικών παραδόσεων για Ζουδιάρηδες, Γητευτές και Σαββατιανούς - μαγικές πρακτικές καταπολέμησης βρυκολάκων και στοιχειών",
+  "keywords": ["Ζουδιάρηδες", "Γητευτές", "Σαββατιανοί", "εξορκισμός", "βρυκόλακες", "στοιχειά", "Ελληνική λαογραφία", "μαγεία"],
+  "canonical": "https://haunted.gr/λαογραφια/zoudiaredes",
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Ζουδιάρηδες και Γητευτές - Μαγικές Πρακτικές Εξορκισμού",
+    "description": "Συλλογή λαογραφικών αφηγήσεων για Ζουδιάρηδες, Γητευτές και Σαββατιανούς που καταπολέμησαν βρυκόλακες και στοιχειά σε όλη την Ελλάδα",
+    "url": "https://haunted.gr/λαογραφια/zoudiaredes",
+    "publisher": {
+      "@type": "Organization",
+      "name": "haunted.gr"
+    },
+    "mainEntity": [
+      {
+        "@type": "Article",
+        "name": "Ζουδιαραίοι και μάχες στοιχειών",
+        "url": "https://haunted.gr/λαογραφια/zoudiaredes/zoudiaroi-stoicheia-mahi",
+        "author": {
+          "@type": "Person",
+          "name": "Νικόλαος Πολίτης"
+        },
+        "datePublished": "1904-01-01",
+        "description": "Παραδοσιακές τεχνικές των Ζουδιαραίων κατά κακοποιών στοιχειών σε Ηλεία, Αχαΐα και Ηλιδα",
+        "image": "https://haunted.gr/images/laografia/zoudiaroi-maxes.webp"
+      },
+      {
+        "@type": "Article",
+        "name": "Ζουδιάρης - Γητευτής | Τελετουργίες εξορκισμού στη Γαστούνη",
+        "url": "https://haunted.gr/λαογραφια/zoudiaredes/zoudiaris-giteftis-gastouni-ileias",
+        "author": {
+          "@type": "Person",
+          "name": "Νικόλαος Πολίτης"
+        },
+        "datePublished": "1904-01-01",
+        "description": "Λεπτομερής τελετουργίες εξορκισμού ζουδίων από Ζουδιάρηδες στη Γαστούνη Ηλείας",
+        "image": "https://haunted.gr/images/laografia/zoudiaris-ritual.webp"
+      },
+      {
+        "@type": "Article",
+        "name": "Το στοιχειό του Βελιζιού και ο Ζουδιάρης Γιώργης Καπετάνιος",
+        "url": "https://haunted.gr/λαογραφια/zoudiaredes/stoicheio-veliziou-zoudiaris-patras",
+        "author": {
+          "@type": "Person",
+          "name": "Νικόλαος Γ. Πολίτης"
+        },
+        "datePublished": "1904-01-01",
+        "description": "Λαογραφική αφήγηση για το στοιχειό του Βελιζιού Πάτρας και τον ζουδιάρη Γιώργη Καπετάνιο",
+        "image": "https://haunted.gr/images/laografia/to-stoiheio-tou-veliziou-patra.webp"
+      },
+      {
+        "@type": "Article",
+        "name": "Νεκροταφείο Παγώνδα Σάμου - Γητευτής Ξορκίζει Βρυκόλακες",
+        "url": "https://haunted.gr/λαογραφια/zoudiaredes/nekrotafeio-pagonda-samou-giteytis-xorkizei-vrykolakes",
+        "author": {
+          "@type": "Person",
+          "name": "Επαμεινώνδας Σταματιάδης"
+        },
+        "datePublished": "1966-01-01",
+        "description": "Ιστορία γητευτή που εξορκίζει βρυκόλακες από το νεκροταφείο Παγώνδα με τελετουργικό τριών βοδιών",
+        "image": "https://haunted.gr/images/laografia/pagonda-nekrotafeio.webp"
+      },
+      {
+        "@type": "Article",
+        "name": "o Σαββατιανός στα Λακοβίκια",
+        "url": "https://haunted.gr/λαογραφια/zoudiaredes/o-sabbattianos-sta-lakovikia",
+        "author": {
+          "@type": "Person",
+          "name": "George Frederick Abbott"
+        },
+        "datePublished": "1903-01-01",
+        "description": "Παράδοση από τη Μεσολακκιά Σερρών για τον Σαββατιανό (γεννημένο Σάββατο) και το προστατευτικό του σκυλάκι",
+        "image": "https://haunted.gr/images/laografia/o-sabbattianos-sta-lakovikia.webp"
+      }
+    ]
+  }
+}
 }

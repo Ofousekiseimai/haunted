@@ -74,16 +74,7 @@ export const CATEGORY_CONFIG = {
     },
     
     
-    'giteies': { 
-      displayName: 'Γητείες',
-      description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με Γητείες και μαγικές πρακτικές",
-      category: 'laografia', 
-      slug: 'giteies',
-      image: {
-        src: '/images/katigories/giteies.webp',
-        alt: 'Γητείες'
-      }
-    },
+
     
     'gigantes': {
       displayName: 'Γίγαντες',
@@ -201,16 +192,7 @@ export const CATEGORY_CONFIG = {
         src: '/images/katigories/fantasmata.webp',
         alt: 'Φαντάσματα'
       }
-    },
-    'fylakta': { 
-      displayName: 'Φυλακτά',
-      description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με Φυλακτά και μαγικά αντικείμενα",
-      category: 'laografia', 
-      slug: 'fylakta',
-      image: {
-        src: '/images/katigories/fylakta.webp',
-        alt: 'Φυλακτά'
-      }
+   
     },
     'xamodrakia': { 
       displayName: 'Χαμοδράκια - Σμερδάκια',
@@ -226,12 +208,12 @@ export const CATEGORY_CONFIG = {
  
 'zoudiaredes': { 
   category: 'laografia', 
-  displayName: 'Ζουδιάρηδες - Γητευτές',
+  displayName: 'Ζουδιάρηδες - Σαββατιανοί',
   description: "Παραδόσεις για τους Ζουδιάρηδες, τους Έλληνες Γητευτές που καταπολεμούν υπερφυσικά όντα",
   slug: 'zoudiaredes',
   image: {
     src: '/images/katigories/zoudiaredes.webp',
-    alt: 'Ζουδιάρηδες - Γητευτές'
+    alt: 'Ζουδιάρηδες - Σαββατιανοί'
   }
 },
     // Εφημερίδες Subcategories
@@ -265,16 +247,6 @@ export const CATEGORY_CONFIG = {
         alt: 'Εγκλήματα'
       }
     },
-    'emfaniseis-panagias': { 
-      displayName: 'Εμφανίσεις Παναγίας',
-      description: "Παράξενες καταγεγραμένες εμφανίσεις Παναγίας και άλλων Αγίων στην Ελλάδα",
-      category: 'efimerides', 
-      slug: 'emfaniseis-panagias',
-      image: {
-        src: '/images/katigories/emfaniseis-panagias.webp',
-        alt: 'Εμφανίσεις Παναγίας'
-      }
-    },
     'teletes': { 
       displayName: 'Τελετές',
       description: "Ίχνη Τελετών και Μαγείας στην Ελλάδα",
@@ -285,16 +257,7 @@ export const CATEGORY_CONFIG = {
         alt: 'Τελετές'
       }
     },
-    'lithovroxes': {
-      displayName: 'Λιθοβροχές',
-      description: "Λιθοβροχές και άλλες παράξενες βροχές στην Ελλάδα",
-      category: 'efimerides', 
-      slug: 'lithovroxes',
-      image: {
-        src: '/images/katigories/lithovroxes.webp',
-        alt: 'Λιθοβροχές'
-      }
-    },
+    
     'fainomena': {
       displayName: 'Φαινόμενα',
       description: "Παράξενα Φαινόμενα μέσα απο αρχείο Εφημερίδων στην Ελλάδα",
