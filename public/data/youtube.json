@@ -5,7 +5,14 @@
         "channel": "Thanassis Vembos",
         "channelUrl": "https://www.youtube.com/@thanassisvembos",
         "videos": [
-          {
+           {
+            "title": "Στοιχειωμενη Ελλαδα: Ο Αλλόκοσμος με τα Μάτια του Ερμή",
+
+            "url": "https://youtu.be/kVMjijh37Oo?si=5Ceq83PNNtH9OU6n",
+            "youtubeId": "5Ceq83PNNtH9OU6n",
+            "duration": "26:55"
+          }
+          ,{
             "title": "Νεράιδες στην ελληνική και ξένη λαογραφία - μιλά ο Θανάσης Βέμπος",
             "url": "https://www.youtube.com/watch?v=ms4CBNew6Go",
             "youtubeId": "ms4CBNew6Go",
