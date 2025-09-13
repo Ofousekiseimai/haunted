@@ -65,22 +65,7 @@ const App = () => {
   };
 }, []);
 
-  useEffect(() => {
-    const blurHandler = () => {
-      document.body.style.filter = 'blur(1px)';
-    };
-    const focusHandler = () => {
-      document.body.style.filter = 'none';
-    };
-
-    window.addEventListener('blur', blurHandler);
-    window.addEventListener('focus', focusHandler);
-
-    return () => {
-      window.removeEventListener('blur', blurHandler);
-      window.removeEventListener('focus', focusHandler);
-    };
-  }, []);
+  
   
 
   return (
