@@ -13,7 +13,7 @@ const Home = () => {
   
   // State for category selection
   const [selectedLaografiaSub, setSelectedLaografiaSub] = useState('vrikolakes');
-  const [selectedEfimeridesSub, setSelectedEfimeridesSub] = useState('egklimata');
+  const [selectedEfimeridesSub, setSelectedEfimeridesSub] = useState('medium');
   const [laografiaArticles, setLaografiaArticles] = useState([]);
   const [efimeridesArticles, setEfimeridesArticles] = useState([]);
   const [loadingLaografia, setLoadingLaografia] = useState(true);
