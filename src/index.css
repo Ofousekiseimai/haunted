@@ -336,3 +336,4 @@ img {
 .dropdowns-container select:active {
   @apply bg-gray-700 border-purple-500;
 }
+
