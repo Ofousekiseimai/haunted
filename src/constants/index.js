@@ -126,7 +126,38 @@ export const navigation = [
       },
     ]
   },
-  
+  {
+    id: '2', // New ID for the new category
+    title: 'Εταιρία Ψυχικών Ερευνών',
+    url: '/etaireia-psychikon-ereynon',
+    subitems: [
+      { 
+        slug: 'all', 
+        title: 'Όλα', 
+        url: '/etaireia-psychikon-ereynon' 
+      },
+      { 
+        slug: 'fainomena', 
+        title: 'Φαινόμενα - Ερευνες', 
+        url: '/etaireia-psychikon-ereynon/erevnes-fainomena' 
+      },
+      { 
+        slug: 'medium-etaireias', 
+        title: 'Τα Μέντιουμ της Εταιρίας', 
+        url: '/etaireia-psychikon-ereynon/medium-etaireias' 
+      },
+      { 
+        slug: 'arthra-dialexeis', 
+        title: 'Άρθρα - Διαλέξεις', 
+        url: '/etaireia-psychikon-ereynon/arthra-dialexeis' 
+      },
+      { 
+        slug: 'peiramata', 
+        title: 'Πειράματα', 
+        url: '/etaireia-psychikon-ereynon/peiramata' 
+      }
+    ]
+  },
   {
     id: '3',
     title: 'Εφημερίδες',
@@ -143,13 +174,7 @@ export const navigation = [
         url: '/efimerides/egklimata' 
       },
       
-           
-      { 
-        slug: 'medium', 
-        title: 'Εταιρία Ψυχικών Ερευνών - Μέντιουμ',
-        url: '/efimerides/medium' 
-      },
-      
+              
       { 
         slug: 'mageia', 
         title: 'Μαγεία', 

@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 // Helper functions
 const getFilePath = (category, subcategory) => {
-  const validCategories = ['laografia', 'efimerides'];
+  const validCategories = ['laografia', 'efimerides' ,'etaireia-psychikon-ereynon'];
   if (!validCategories.includes(category)) {
     throw new Error('Invalid category');
   }

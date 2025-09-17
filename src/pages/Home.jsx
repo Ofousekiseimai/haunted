@@ -13,13 +13,17 @@ const Home = () => {
   
   // State for category selection
   const [selectedLaografiaSub, setSelectedLaografiaSub] = useState('vrikolakes');
-  const [selectedEfimeridesSub, setSelectedEfimeridesSub] = useState('medium');
+  const [selectedEfimeridesSub, setSelectedEfimeridesSub] = useState('fainomena');
+  const [selectedEtaireiaSub, setSelectedEtaireiaSub] = useState('erevnes-fainomena');
   const [laografiaArticles, setLaografiaArticles] = useState([]);
   const [efimeridesArticles, setEfimeridesArticles] = useState([]);
+  const [etaireiaArticles, setEtaireiaArticles] = useState([]);
   const [loadingLaografia, setLoadingLaografia] = useState(true);
   const [loadingEfimerides, setLoadingEfimerides] = useState(true);
+  const [loadingEtaireia, setLoadingEtaireia] = useState(true);
   const [errorLaografia, setErrorLaografia] = useState(null);
   const [errorEfimerides, setErrorEfimerides] = useState(null);
+  const [errorEtaireia, setErrorEtaireia] = useState(null);
 
   const shuffleArray = (array) => {
     const shuffled = [...array];
@@ -30,7 +34,6 @@ const Home = () => {
     return shuffled;
   };
 
-
   // Get subcategories
   const laografiaSubcategories = Object.keys(SUBCATEGORY_MAP).filter(
     key => SUBCATEGORY_MAP[key].category === 'laografia'
@@ -38,6 +41,10 @@ const Home = () => {
   
   const efimeridesSubcategories = Object.keys(SUBCATEGORY_MAP).filter(
     key => SUBCATEGORY_MAP[key].category === 'efimerides'
+  );
+  
+  const etaireiaSubcategories = Object.keys(SUBCATEGORY_MAP).filter(
+    key => SUBCATEGORY_MAP[key].category === 'etaireia-psychikon-ereynon'
   );
 
   // Load data function
@@ -53,14 +60,13 @@ const Home = () => {
   };
 
   // Load laografia articles
-   useEffect(() => {
+  useEffect(() => {
     const fetchArticles = async () => {
       try {
         setLoadingLaografia(true);
         setErrorLaografia(null);
         const data = await loadData(selectedLaografiaSub, 'laografia');
         
-        // Shuffle articles before slicing
         const shuffledArticles = shuffleArray(data?.articles || []);
         const randomArticles = shuffledArticles.slice(0, 6);
         
@@ -76,7 +82,7 @@ const Home = () => {
     fetchArticles();
   }, [selectedLaografiaSub]);
 
-  // Load efimerides articles (UPDATED)
+  // Load efimerides articles
   useEffect(() => {
     const fetchArticles = async () => {
       try {
@@ -84,7 +90,6 @@ const Home = () => {
         setErrorEfimerides(null);
         const data = await loadData(selectedEfimeridesSub, 'efimerides');
         
-        // Shuffle articles before slicing
         const shuffledArticles = shuffleArray(data?.articles || []);
         const randomArticles = shuffledArticles.slice(0, 6);
         
@@ -100,7 +105,30 @@ const Home = () => {
     fetchArticles();
   }, [selectedEfimeridesSub]);
 
-  // Load map articles (same as before)
+  // Load etaireia articles (NEW)
+  useEffect(() => {
+    const fetchArticles = async () => {
+      try {
+        setLoadingEtaireia(true);
+        setErrorEtaireia(null);
+        const data = await loadData(selectedEtaireiaSub, 'etaireia-psychikon-ereynon');
+        
+        const shuffledArticles = shuffleArray(data?.articles || []);
+        const randomArticles = shuffledArticles.slice(0, 6);
+        
+        setEtaireiaArticles(randomArticles);
+      } catch (err) {
+        console.error('Σφάλμα φόρτωσης:', err);
+        setErrorEtaireia(err.message);
+      } finally {
+        setLoadingEtaireia(false);
+      }
+    };
+
+    fetchArticles();
+  }, [selectedEtaireiaSub]);
+
+  // Load map articles
   useEffect(() => {
     const loadMapArticles = async () => {
       try {
@@ -233,7 +261,7 @@ const Home = () => {
             to={`/${mainCategory}/${selectedSub}`}
             className="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-medium py-3 px-6 rounded-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03]"
           >
-            Δες όλα τα άρθρα στην κατηγορία "{SUBCATEGORY_MAP[selectedSub]?.image?.alt || selectedSub}"
+            Δες όλα τα άρθρα στην κατηγορία "{SUBCATEGORY_MAP[selectedSub]?.displayName || selectedSub}"
           </Link>
         </div>
       </>
@@ -246,7 +274,7 @@ const Home = () => {
         <title>Haunted Greece - Αρχική Σελίδα</title>
         <meta 
           name="description" 
-          content="Εξερευνήστε την ελληνική λαογραφία και ιστορικά άρθρα από εφημερίδες. Διαδραστικός χάρτης, βρυκόλακες, δαίμονες και παραδόσεις." 
+          content="Εξερευνήστε την ελληνική λαογραφία και ιστορικά άρθρα από εφημερίδες. Ανακαλύψτε θρύλους, παραδόσεις και παραφυσικά φαινόμενα." 
         />
       </Helmet>
 
@@ -272,7 +300,7 @@ const Home = () => {
                 const subInfo = SUBCATEGORY_MAP[sub];
                 return (
                   <option key={sub} value={sub}>
-                    {subInfo?.image?.alt || sub}
+                    {subInfo?.displayName || sub}
                   </option>
                 );
               })}
@@ -296,7 +324,7 @@ const Home = () => {
                   <span className={`block rounded-md px-3 py-1 ${
                     selectedLaografiaSub === sub ? 'bg-transparent' : 'bg-transparent'
                   }`}>
-                    {subInfo?.image?.alt || sub}
+                    {subInfo?.displayName || sub}
                   </span>
                 </button>
               );
@@ -358,7 +386,7 @@ const Home = () => {
                 const subInfo = SUBCATEGORY_MAP[sub];
                 return (
                   <option key={sub} value={sub}>
-                    {subInfo?.image?.alt || sub}
+                    {subInfo?.displayName || sub}
                   </option>
                 );
               })}
@@ -382,7 +410,7 @@ const Home = () => {
                   <span className={`block rounded-md px-3 py-1 ${
                     selectedEfimeridesSub === sub ? 'bg-transparent' : 'bg-transparent'
                   }`}>
-                    {subInfo?.image?.alt || sub}
+                    {subInfo?.displayName || sub}
                   </span>
                 </button>
               );
@@ -391,6 +419,60 @@ const Home = () => {
           
           {/* Render articles */}
           {renderArticles(efimeridesArticles, loadingEfimerides, errorEfimerides, 'efimerides', selectedEfimeridesSub)}
+        </section>
+
+        {/* Εταιρεία Ψυχικών Ερευνών Section (NEW) */}
+        <section className="mb-16" id="etaireia-psychikon-ereynon">
+          <h2 className="text-3xl font-bold mb-6 text-white text-center">
+            Εταιρεία Ψυχικών Ερευνών
+          </h2>
+          
+          {/* Mobile Dropdown */}
+          <div className="md:hidden mb-6">
+            <label className="sr-only" htmlFor="mobile-filter-etaireia">Επιλογή κατηγορίας εταιρείας</label>
+            <select
+              id="mobile-filter-etaireia"
+              value={selectedEtaireiaSub}
+              onChange={(e) => setSelectedEtaireiaSub(e.target.value)}
+              className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 text-white"
+            >
+              {etaireiaSubcategories.map(sub => {
+                const subInfo = SUBCATEGORY_MAP[sub];
+                return (
+                  <option key={sub} value={sub}>
+                    {subInfo?.displayName || sub}
+                  </option>
+                );
+              })}
+            </select>
+          </div>
+
+          {/* Desktop Buttons */}
+          <div className="hidden md:flex flex-wrap gap-3 mb-6 justify-center">
+            {etaireiaSubcategories.map(sub => {
+              const subInfo = SUBCATEGORY_MAP[sub];
+              return (
+                <button
+                  key={sub}
+                  onClick={() => setSelectedEtaireiaSub(sub)}
+                  className={`px-4 py-2 rounded-lg transition-all duration-200 ${
+                    selectedEtaireiaSub === sub 
+                      ? 'bg-gradient-to-r from-purple-600 via-pink-600 to-pink-400 p-[2px]' 
+                      : 'bg-gray-800 hover:bg-gray-700'
+                  }`}
+                >
+                  <span className={`block rounded-md px-3 py-1 ${
+                    selectedEtaireiaSub === sub ? 'bg-transparent' : 'bg-transparent'
+                  }`}>
+                    {subInfo?.displayName || sub}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+          
+          {/* Render articles */}
+          {renderArticles(etaireiaArticles, loadingEtaireia, errorEtaireia, 'etaireia-psychikon-ereynon', selectedEtaireiaSub)}
         </section>
       </div>
 

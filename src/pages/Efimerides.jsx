@@ -15,7 +15,7 @@ const loadData = async (subcategory) => {
 };
 
 const Efimerides = () => {
-  const [selectedSub, setSelectedSub] = useState('mageia');
+  const [selectedSub, setSelectedSub] = useState('fainomena');
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

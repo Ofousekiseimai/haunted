@@ -19,6 +19,8 @@ import AboutPage from './pages/About';
 import TermsPage from './pages/Terms';
 import PrivacyPage from './pages/Privacy';
 import ReactGA from 'react-ga4';
+import Epse from './pages/Epse';
+import ScrollToTop from './components/ScrollToTop';
 
 // Initialize GA4
 ReactGA.initialize('G-FXJ30XVLMD', {
@@ -73,13 +75,14 @@ const App = () => {
       <HelmetProvider>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
-        
+          <ScrollToTop />
         <Routes>
           {/* Homepage */}
           <Route path="/" element={<Home />} />
 
           {/* Special Category Index Pages */}
           <Route path="/laografia" element={<Laografia />} />
+          <Route path="/etaireia-psychikon-ereynon" element={<Epse/>} />
           <Route path="/efimerides" element={<Efimerides />} />
           <Route path="/map" element={<EfimeridesMap />} />
           <Route path="/map2" element={<LaografikoMap />} />

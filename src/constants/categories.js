@@ -4,7 +4,13 @@ export const CATEGORY_CONFIG = {
       path: '/laografia',
       dataPath: '/data/laografia/',
       indexComponent: 'Laografia',
-      category: 'laografia' // Special component for index
+      category: 'laografia'
+    },
+    'etaireia-psychikon-ereynon': {
+      path: '/etaireia-psychikon-ereynon',
+      dataPath: '/data/etaireia-psychikon-ereynon/',
+      indexComponent: 'EtaireiaPsychikonEreynon',
+      
     },
     prosopa: {
       path: '/prosopa',
@@ -26,12 +32,8 @@ export const CATEGORY_CONFIG = {
   // categories.js
   export const SUBCATEGORY_MAP = {
     // Main categories
-  
-     
+        
     
-    
-  
-    // Λαογραφία Subcategories
     'aerika': { 
       displayName: 'Αερικά',
       description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με τα Αερικά ",
@@ -73,9 +75,6 @@ export const CATEGORY_CONFIG = {
       }
     },
     
-    
-
-    
     'gigantes': {
       displayName: 'Γίγαντες',
       description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με Γίγαντες",
@@ -87,7 +86,6 @@ export const CATEGORY_CONFIG = {
       }
     },
 
-      
     'limnes': {
       displayName: 'Λίμνες - Ποταμοί',
       description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με Λίμνες, Ποταμούς και Πλάσματα",
@@ -151,7 +149,7 @@ export const CATEGORY_CONFIG = {
       }
     },
     'vrikolakes': { 
-      displayName: 'Βρυκόλακες',
+      displayName: 'Βрυκόλακες',
       description: "Παραδόσεις, Αφηγήσεις και Μύθοι που σχετίζονται με τους Βρυκόλακες, τα έθιμα και την αποτροπή τους",
       category: 'laografia', 
       slug: 'vrikolakes',
@@ -206,16 +204,17 @@ export const CATEGORY_CONFIG = {
       
     },
  
-'zoudiaredes': { 
-  category: 'laografia', 
-  displayName: 'Ζουδιάρηδες - Σαββατιανοί',
-  description: "Παραδόσεις για τους Ζουδιάρηδες, τους Έλληνες Γητευτές που καταπολεμούν υπερφυσικά όντα",
-  slug: 'zoudiaredes',
-  image: {
-    src: '/images/katigories/zoudiaredes.webp',
-    alt: 'Ζουδιάρηδες - Σαββατιανοί'
-  }
-},
+    'zoudiaredes': { 
+      category: 'laografia', 
+      displayName: 'Ζουδιάρηδες - Σαββατιανοί',
+      description: "Παραδόσεις για τους Ζουδιάρηδες, τους Έλληνες Γητευτές που καταπολεμούν υπερφυσικά όντα",
+      slug: 'zoudiaredes',
+      image: {
+        src: '/images/katigories/zoudiaredes.webp',
+        alt: 'Ζουδιάρηδες - Σαββατιανοί'
+      }
+    },
+
     // Εφημερίδες Subcategories
     'satanismos': { 
       displayName: 'Σατανισμός',
@@ -269,18 +268,57 @@ export const CATEGORY_CONFIG = {
       }
     },
     
-    'medium': {
-      displayName: 'Μέντιουμ - Τηλεκίνηση - Eταιρία Ψυχικών Ερευνών',
-      description: "Το έργο της Εταιριας Ψυχικών Ερευνών Ελλάδας - Μέντιουμ, Τηλεκινητικά φαινόμενα, Φαινόμενα Τηλεπάθειας κ.α, μέσα απο αρχείο Εφημερίδων στην Ελλάδα",
-      category: 'efimerides', 
-      slug: 'medium',
+    
+
+    // Εταιρία Ψυχικών Ερευνών Subcategories - NEW
+    'erevnes-fainomena': { 
+      displayName: 'Φαινόμενα - Ερευνες',
+      description: "Τηλεκίνηση, ψυχοκίνηση και παραψυχικά φαινόμενα που μελετήθηκαν από την Εταιρία Ψυχικών Ερευνών",
+      category: 'etaireia-psychikon-ereynon', 
+      slug: 'erevnes-fainomena',
       image: {
-        src: '/images/katigories/medium.webp',
-        alt: 'Μέντιουμ - Τηλεκίνηση - Eταιρία Ψυχικών Ερευνών'
-      }
+        src: '/images/katigories/telekinetika.webp',
+        alt: 'Φαινόμενα - Ερευνες'
+      },
+      
     },
-    // Πρόσωπα Subcategories
-   
+    
+    'medium-etaireias': { 
+      displayName: 'Τα Μέντιουμ της Εταιρίας',
+      description: "Τα μέντιουμ της Εταιρία Ψυχικών Ερευνών",
+      category: 'etaireia-psychikon-ereynon', 
+      slug: 'medium-etaireias',
+      image: {
+        src: '/images/katigories/medium-etaireias.webp',
+        alt: 'Tα Μέντιουμ της Εταιρίας'
+      },
+      
+    },
+    
+    'arthra-dialexeis': { 
+      displayName: 'Άρθρα - Διαλέξεις',
+      description: "Επιστημονικά άρθρα, διαλέξεις και δημοσιεύσεις της Εταιρίας Ψυχικών Ερευνών",
+      category: 'etaireia-psychikon-ereynon', 
+      slug: 'arthra-dialexeis',
+      image: {
+        src: '/images/katigories/arthra-dialexeis.webp',
+        alt: 'Άρθρα - Διαλέξεις'
+      },
+      
+    },
+    
+    
+    'peiramata': { 
+      displayName: 'Πειράματα',
+      description: "Επιστημονικά πειράματα που πραγματοποίησε η Εταιρία Ψυχικών Ερευνών",
+      category: 'etaireia-psychikon-ereynon', 
+      slug: 'peiramata',
+      image: {
+        src: '/images/katigories/peiramata.webp',
+        alt: 'Πειράματα'
+      },
+      
+    }
   };
   
   export const getRouteConfig = (pathSegments) => {
