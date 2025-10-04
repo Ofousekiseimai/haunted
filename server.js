@@ -10,10 +10,29 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = 3001;
 
+// User agents that typically fetch Open Graph / Twitter cards
+const SOCIAL_BOT_USER_AGENTS = /facebookexternalhit|twitterbot|pinterest|slackbot|discordbot|whatsapp|telegrambot|linkedinbot|skypeuripreview/i;
+
+const escapeHtml = (value = '') =>
+  String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use((req, res, next) => {
+  const userAgent = req.get('user-agent') || '';
+  const isSocialBot = SOCIAL_BOT_USER_AGENTS.test(userAgent.toLowerCase());
+  const isSocialMetaRequest = ['GET', 'HEAD'].includes(req.method) && req.path.startsWith('/api/social-meta');
+
+  if (isSocialBot || isSocialMetaRequest) {
+    return next();
+  }
+
   if (req.get('X-Dev-Mode') !== 'true') {
     return res.status(403).send('Access denied');
   }
@@ -97,23 +116,23 @@ app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>${metaData.title} | haunted.gr</title>
-          <meta property="og:title" content="${metaData.title} | haunted.gr" />
-          <meta property="og:description" content="${metaData.excerpt || metaData.description}" />
-          <meta property="og:url" content="${url}" />
-          <meta property="og:image" content="https://haunted.gr${metaData.image?.src || '/og-default-image.jpg'}" />
+          <title>${escapeHtml(metaData.title)} | haunted.gr</title>
+          <meta property="og:title" content="${escapeHtml(metaData.title)} | haunted.gr" />
+          <meta property="og:description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
+          <meta property="og:url" content="${escapeHtml(url)}" />
+          <meta property="og:image" content="https://haunted.gr${escapeHtml(metaData.image?.src || '/og-default-image.jpg')}" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           <meta property="og:type" content="${slug ? 'article' : 'website'}" />
           <meta property="og:site_name" content="haunted.gr" />
           <meta property="og:locale" content="el_GR" />
-          ${slug && metaData.date ? `<meta property="article:published_time" content="${metaData.date}" />` : ''}
+          ${slug && metaData.date ? `<meta property="article:published_time" content="${escapeHtml(metaData.date)}" />` : ''}
           
           <!-- Twitter Card -->
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="${metaData.title} | haunted.gr" />
-          <meta name="twitter:description" content="${metaData.excerpt || metaData.description}" />
-          <meta name="twitter:image" content="https://haunted.gr${metaData.image?.src || '/og-default-image.jpg'}" />
+          <meta name="twitter:title" content="${escapeHtml(metaData.title)} | haunted.gr" />
+          <meta name="twitter:description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
+          <meta name="twitter:image" content="https://haunted.gr${escapeHtml(metaData.image?.src || '/og-default-image.jpg')}" />
         </head>
         <body>
           <script>
