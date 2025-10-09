@@ -65,7 +65,11 @@ const getArticleData = async (category, subcategory, slug) => {
     const article = jsonData.articles.find(a => a.slug === slug);
     if (!article) throw new Error('Article not found');
     
-    return article;
+    return {
+      article,
+      collection: jsonData,
+      subcategorySlug: subcategory
+    };
   } catch (error) {
     throw new Error(`Error loading article: ${error.message}`);
   }
@@ -74,77 +78,126 @@ const getArticleData = async (category, subcategory, slug) => {
 // NEW: Helper function to get category data
 const getCategoryData = async (category, subcategory) => {
   try {
+    if (!subcategory) {
+      throw new Error('Subcategory is required for category data');
+    }
+
     const filePath = getFilePath(category, subcategory);
     const data = await fs.readFile(filePath, 'utf8');
     const jsonData = JSON.parse(data);
     
     return {
-      title: subcategory || category,
-      description: `Explore ${subcategory || category} stories on haunted.gr`,
-      // Add any other category metadata you need
+      title: jsonData.seo?.metaTitle || jsonData.subcategory || subcategory,
+      description: jsonData.seo?.metaDescription || `Explore ${subcategory} stories on haunted.gr`,
+      image: jsonData.seo?.image,
+      keywords: jsonData.seo?.keywords,
+      canonical: jsonData.seo?.canonical,
+      raw: jsonData
     };
   } catch (error) {
     throw new Error(`Error loading category: ${error.message}`);
   }
 };
 
-// NEW: Social media meta tags endpoint
-app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
-  try {
-    const { category, subcategory, slug } = req.params;
-    
-    let metaData;
-    if (slug) {
-      // This is an article page
-      metaData = await getArticleData(category, subcategory, slug);
-    } else if (subcategory) {
-      // This is a subcategory page
-      metaData = await getCategoryData(category, subcategory);
-    } else {
-      // This is a main category page
-      metaData = await getCategoryData(category);
-    }
-    
-    // Construct the full URL
-    const baseUrl = 'https://haunted.gr';
-    let url = `${baseUrl}/${category}`;
-    if (subcategory) url += `/${subcategory}`;
-    if (slug) url += `/${slug}`;
-    
-    // Render HTML with meta tags
-    const html = `
+const buildAbsoluteUrl = (pathSegment = '') => {
+  const base = 'https://haunted.gr';
+  if (!pathSegment) return base;
+  return pathSegment.startsWith('http') ? pathSegment : `${base}${pathSegment}`;
+};
+
+const buildSocialMetaHtml = ({
+  title,
+  description = '',
+  image,
+  url,
+  type = 'website',
+  publishedTime
+}) => {
+  const siteName = 'haunted.gr';
+  const absoluteImage = image ? buildAbsoluteUrl(image) : `${buildAbsoluteUrl()}/og-default-image.jpg`;
+
+  return `
       <!DOCTYPE html>
       <html>
         <head>
-          <title>${escapeHtml(metaData.title)} | haunted.gr</title>
-          <meta name="description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
+          <meta charset="utf-8" />
+          <title>${escapeHtml(title)} | ${siteName}</title>
+          <meta name="description" content="${escapeHtml(description)}" />
           <link rel="canonical" href="${escapeHtml(url)}" />
-          <meta property="og:title" content="${escapeHtml(metaData.title)} | haunted.gr" />
-          <meta property="og:description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
+          <meta property="og:title" content="${escapeHtml(title)} | ${siteName}" />
+          <meta property="og:description" content="${escapeHtml(description)}" />
           <meta property="og:url" content="${escapeHtml(url)}" />
-          <meta property="og:image" content="https://haunted.gr${escapeHtml(metaData.image?.src || '/og-default-image.jpg')}" />
+          <meta property="og:image" content="${escapeHtml(absoluteImage)}" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
-          <meta property="og:type" content="${slug ? 'article' : 'website'}" />
-          <meta property="og:site_name" content="haunted.gr" />
+          <meta property="og:type" content="${escapeHtml(type)}" />
+          <meta property="og:site_name" content="${siteName}" />
           <meta property="og:locale" content="el_GR" />
-          ${slug && metaData.date ? `<meta property="article:published_time" content="${escapeHtml(metaData.date)}" />` : ''}
+          ${type === 'article' && publishedTime ? `<meta property="article:published_time" content="${escapeHtml(publishedTime)}" />` : ''}
           
-          <!-- Twitter Card -->
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="${escapeHtml(metaData.title)} | haunted.gr" />
-          <meta name="twitter:description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
+          <meta name="twitter:title" content="${escapeHtml(title)} | ${siteName}" />
+          <meta name="twitter:description" content="${escapeHtml(description)}" />
           <meta name="twitter:url" content="${escapeHtml(url)}" />
-          <meta name="twitter:image" content="https://haunted.gr${escapeHtml(metaData.image?.src || '/og-default-image.jpg')}" />
+          <meta name="twitter:image" content="${escapeHtml(absoluteImage)}" />
         </head>
         <body>
           <script>
-            // Redirect actual users to the main app
             window.location.href = "${url}";
           </script>
         </body>
       </html>
     `;
+};
+
+const buildArticleMeta = ({ article, collection }, urlPath) => {
+  const description = article.excerpt || article.description || collection.seo?.metaDescription || '';
+  const title = article.title || collection.seo?.metaTitle || collection.subcategory || 'Haunted Greece';
+
+  return {
+    title,
+    description,
+    image: article.image?.src || collection.seo?.image,
+    url: buildAbsoluteUrl(urlPath),
+    type: 'article',
+    publishedTime: article.date
+  };
+};
+
+const buildCategoryMeta = (categoryData, urlPath) => ({
+  title: categoryData.title || 'Haunted Greece',
+  description: categoryData.description || '',
+  image: categoryData.image,
+  url: buildAbsoluteUrl(urlPath),
+  type: 'website'
+});
+
+// NEW: Social media meta tags endpoint
+app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
+  try {
+    const { category, subcategory, slug } = req.params;
+    const pathSegments = [category, subcategory, slug].filter(Boolean);
+    const path = `/${pathSegments.join('/')}`;
+    
+    let htmlMeta;
+    if (slug) {
+      const data = await getArticleData(category, subcategory, slug);
+      htmlMeta = buildArticleMeta(data, path);
+    } else if (subcategory) {
+      const categoryData = await getCategoryData(category, subcategory);
+      htmlMeta = buildCategoryMeta(categoryData, path);
+    } else {
+      htmlMeta = buildCategoryMeta(
+        {
+          title: 'Η στοιχειωμένη Ελλάδα',
+          description: 'Haunted Greece - Η μεγαλύτερη συλλογή ελληνικής λαογραφίας και παραφυσικών ερευνών.',
+          image: '/images/og-default-image.jpg'
+        },
+        path || '/'
+      );
+    }
+    
+    const html = buildSocialMetaHtml(htmlMeta);
     
     res.set('Content-Type', 'text/html');
     res.send(html);
@@ -152,6 +205,67 @@ app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
     console.error('Social meta error:', error);
     // Fallback to homepage if there's an error
     res.redirect('https://haunted.gr/');
+  }
+});
+
+const SUPPORTED_SOCIAL_CATEGORIES = new Set([
+  'laografia',
+  'efimerides',
+  'etaireia-psychikon-ereynon'
+]);
+
+const defaultMeta = (path = '/') =>
+  buildCategoryMeta(
+    {
+      title: 'Η στοιχειωμένη Ελλάδα',
+      description: 'Haunted Greece - Η μεγαλύτερη συλλογή ελληνικής λαογραφίας, παράξενων φαινομένων και ψυχικών ερευνών.',
+      image: '/images/og-default-image.jpg'
+    },
+    path
+  );
+
+app.get('*', async (req, res, next) => {
+  if (!['GET', 'HEAD'].includes(req.method)) {
+    return next();
+  }
+
+  if (req.path.startsWith('/api')) {
+    return next();
+  }
+
+  const userAgent = (req.get('user-agent') || '').toLowerCase();
+  const isSocialBot = SOCIAL_BOT_USER_AGENTS.test(userAgent);
+
+  if (!isSocialBot) {
+    return next();
+  }
+
+  try {
+    const segments = req.path.split('/').filter(Boolean);
+    const [rawCategory, rawSubcategory, ...rest] = segments;
+    const category = rawCategory ? decodeURIComponent(rawCategory) : null;
+    const subcategory = rawSubcategory ? decodeURIComponent(rawSubcategory) : null;
+    const slug = rest.length ? decodeURIComponent(rest.join('/')) : null;
+    const path = `/${segments.join('/')}`;
+
+    let htmlMeta;
+
+    if (category && slug && SUPPORTED_SOCIAL_CATEGORIES.has(category)) {
+      const data = await getArticleData(category, subcategory, slug);
+      htmlMeta = buildArticleMeta(data, path);
+    } else if (category && subcategory && SUPPORTED_SOCIAL_CATEGORIES.has(category)) {
+      const categoryData = await getCategoryData(category, subcategory);
+      htmlMeta = buildCategoryMeta(categoryData, path);
+    } else {
+      htmlMeta = defaultMeta(path);
+    }
+
+    const html = buildSocialMetaHtml(htmlMeta);
+    res.set('Content-Type', 'text/html');
+    return res.send(html);
+  } catch (error) {
+    console.error('Social bot render error:', error);
+    return next();
   }
 });
 
