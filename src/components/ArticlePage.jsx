@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { useParams, Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { CATEGORY_CONFIG, SUBCATEGORY_MAP } from "../constants/categories";
@@ -129,6 +129,88 @@ case 'text':
     }
   };
 
+  const normalizeSourceValue = (value) => {
+    if (typeof value === 'string') {
+      const trimmed = value.trim();
+      return trimmed.length ? trimmed : null;
+    }
+    return value ?? null;
+  };
+
+  const renderSourceText = (label, value) => {
+    const normalized = normalizeSourceValue(value);
+    if (!normalized) return null;
+
+    return (
+      <p className="text-gray-300">
+        <span className="font-semibold">{label}:</span>{' '}
+        {normalized}
+      </p>
+    );
+  };
+
+  const renderSourceLink = (label, url, key) => {
+    const normalized = normalizeSourceValue(url);
+    if (!normalized) return null;
+
+    return (
+      <a
+        key={key}
+        href={normalized}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block text-blue-400 hover:underline"
+      >
+        {label}
+      </a>
+    );
+  };
+
+  const renderPeriodicalSource = (source, heading = 'Εφημερίδα') => {
+    const providerValues = Array.from(
+      new Set(
+        [source.provider, source.archive?.provider]
+          .map(normalizeSourceValue)
+          .filter(Boolean)
+      )
+    );
+
+    const linkValues = Array.from(
+      new Set(
+        [source.archive?.url, source.url, source.link]
+          .map(normalizeSourceValue)
+          .filter(Boolean)
+      )
+    );
+
+    return (
+      <div>
+        <p className="font-medium text-gray-300">{heading}</p>
+        <div className="mt-2 space-y-1">
+          {renderSourceText('Εφημερίδα', source.name)}
+          {source.title && (
+            <p className="text-gray-300 italic">
+              "{source.title}"
+            </p>
+          )}
+          {renderSourceText('Συγγραφέας', source.author)}
+          {renderSourceText('Ημερομηνία', source.date)}
+          {renderSourceText('Έτος', source.year)}
+          {renderSourceText('Τεύχος', source.issue)}
+          {renderSourceText('Σελίδες', source.pages || source.page)}
+          {providerValues.map((value, idx) => (
+            <p key={`provider-${idx}`} className="text-gray-300">
+              <span className="font-semibold">Αρχείο:</span> {value}
+            </p>
+          ))}
+          {linkValues.map((value, idx) =>
+            renderSourceLink('Δείτε το αρχείο', value, `periodical-link-${idx}`)
+          )}
+        </div>
+      </div>
+    );
+  };
+
   if (loading) {
     return (
       <div className="container mx-auto p-4 flex justify-center items-center">
@@ -163,6 +245,15 @@ case 'text':
     return null;
   }
 
+  const pathSegments = [category, subcategory, slug].filter(Boolean);
+  const canonicalPath = pathSegments.join('/');
+  const canonicalUrl = `https://haunted.gr/${canonicalPath}`;
+  const pageTitle = `${article.title} | haunted.gr`;
+  const metaDescription = article.excerpt || 'Ανακαλύψτε λαογραφικές και παραφυσικές ιστορίες στο haunted.gr.';
+  const ogImage = article.image?.src
+    ? `https://haunted.gr${article.image.src}`
+    : 'https://haunted.gr/og-default-image.jpg';
+
   const handleSaveArticle = async (updatedArticle) => {
     try {
       const response = await fetch(`http://localhost:3001/api/article/${category}/${subcategory}/${article.id}`, {
@@ -189,8 +280,8 @@ case 'text':
     <div className="container mx-auto p-4 max-w-3xl mt-5">
      <Helmet>
   {/* Primary Meta Tags */}
-  <title>{`${article.title}  | haunted.gr`}</title>
-  <meta name="description" content={article.excerpt} />
+  <title>{pageTitle}</title>
+  <meta name="description" content={metaDescription} />
   
   {/* Location Meta Tags */}
   <meta name="geo.region" content="GR" />
@@ -198,35 +289,30 @@ case 'text':
   {article.lat && article.lng && (
     <meta name="geo.position" content={`${article.lat};${article.lng}`} />
   )}
-  <meta name="ICBM" content={`${article.lat}, ${article.lng}`} />
+  {article.lat && article.lng && (
+    <meta name="ICBM" content={`${article.lat}, ${article.lng}`} />
+  )}
 
   {/* Canonical URL */}
-  <link
-    rel="canonical"
-    href={`https://haunted.gr/${category}/${subcategory}/${slug}`}
-  />
+  <link rel="canonical" href={canonicalUrl} />
 
   {/* Open Graph / Facebook */}
   <meta property="og:type" content="article" />
-  <meta property="og:title" content={`${article.title} | haunted.gr`} />
-  <meta property="og:description" content={article.excerpt} />
-  <meta property="og:url" content={`https://haunted.gr/${category}/${subcategory}/${slug}`} />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={metaDescription} />
+  <meta property="og:url" content={canonicalUrl} />
   <meta property="og:site_name" content="haunted.gr" />
   <meta property="og:locale" content="el_GR" />
   <meta property="article:published_time" content={article.date} />
-  {article.image?.src && (
-    <meta property="og:image" content={`https://haunted.gr${article.image.src}`} />
-  )}
+  <meta property="og:image" content={ogImage} />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
   {/* Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={article.title} />
-  <meta name="twitter:description" content={article.excerpt} />
-  {article.image?.src && (
-    <meta name="twitter:image" content={`https://haunted.gr${article.image.src}`} />
-  )}
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={metaDescription} />
+  <meta name="twitter:image" content={ogImage} />
 
   {/* Schema.org Structured Data */}
   <script type="application/ld+json">
@@ -250,12 +336,10 @@ case 'text':
           "height": 60
         }
       },
-      "image": article.image?.src 
-        ? `https://haunted.gr${article.image.src}`
-        : "https://haunted.gr/default-article.jpg",
+      "image": ogImage,
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": typeof window !== "undefined" ? window.location.href : ""
+        "@id": canonicalUrl
       },
       // Location schema
       "spatialCoverage": {
@@ -292,7 +376,7 @@ case 'text':
           "@type": "ListItem",
           "position": 3,
           "name": article.title,
-          "item": typeof window !== "undefined" ? window.location.href : ""
+          "item": canonicalUrl
         }
       ]
     })}
@@ -381,20 +465,7 @@ case 'text':
                     key={index}
                     className="bg-transparent p-4 rounded-lg border-l-4  mt-8 border  border-gray-700"
                   >
-                    {source.type === "newspaper" && (
-                      <div>
-                        <p className="text-gray-300">
-                          Δημοσιεύθηκε στο:{" "}
-                          <span className="font-medium">{source.name}</span> (
-                          {source.date})
-                        </p>
-                        {source.archive?.provider && (
-                          <p className="text-sm text-gray-400 mt-1">
-                            Αρχείο: {source.archive.provider}
-                          </p>
-                        )}
-                      </div>
-                    )}
+                    {source.type === "newspaper" && renderPeriodicalSource(source, 'Εφημερίδα')}
 
                     {source.type === "contributor" && (
                       <div>
@@ -421,20 +492,7 @@ case 'text':
                     )}
                     {/* Navigation Arrows - Add this section */}
 
-                    {source.type === "efimerida" && (
-                      <div>
-                        <p className="text-gray-300">
-                          Εφημερίδα:{" "}
-                          <span className="font-medium">{source.name}</span> (
-                          {source.date})
-                        </p>
-                        {source.provider && (
-                          <p className="text-sm text-gray-400 mt-1">
-                            Πηγή: {source.provider}
-                          </p>
-                        )}
-                      </div>
-                    )}
+                    {source.type === "efimerida" && renderPeriodicalSource(source, 'Εφημερίδα')}
 
                     {source.type === "journal" && (
                       <div>

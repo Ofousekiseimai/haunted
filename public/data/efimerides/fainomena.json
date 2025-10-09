@@ -1437,40 +1437,77 @@
 
   ],
   "seo": {
-    "metaTitle": "Παράξενα Φαινόμενα Στην Ελλάδα | Εφημερίδες | haunted.gr",
-    "metaDescription": "Αρχειακή αναφορά παράξενων φαινομένων απο όλη την Ελλάδα μέσα απο Εφημερίδες της εποχής.",
+    "metaTitle": "Παράξενα Φαινόμενα στην Ελλάδα | Αρχείο Εφημερίδων | haunted.gr",
+    "metaDescription": "Ψηφιακό αρχείο ελληνικών εφημερίδων με ανεξήγητα περιστατικά: τηλεκινησεις, στοιχειωμένα σπίτια, οράματα και υπερφυσικές μαρτυρίες από όλη την Ελλάδα του 19ου και 20ού αιώνα.",
     "keywords": [
-      "Παράξενα Φαινόμενα",
-      "",
-      "Υπερφυσικά Γεγονότα",
-      "Ιστορικές Αναφορές",
-      "Τηλεκινητικά Φαινόμενα Ελλάδα",
-      "Παράξενα Νέα Εφημερίδες",
-      "Αρχειακή Έρευνα",
-      "Φαινόμενα Τηλεκίνησης"
-      
+      "παράξενα φαινόμενα Ελλάδα",
+      "αρχειακές εφημερίδες",
+      "υπερφυσικά γεγονότα",
+      "τηλεκινητικά περιστατικά",
+      "στοιχειωμένα σπίτια Ελλάδα",
+      "ανεξήγητες μαρτυρίες",
+      "παραφυσικά νέα",
+      "ελληνικές εφημερίδες αρχείο"
     ],
-    "canonical": "https://haunted.gr/efimerides/fainomena/kozani-1952-paraxena-fainomena",
+    "canonical": "https://haunted.gr/efimerides/fainomena",
     "structuredData": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Παράξενα Φαινόμενα στην Ελλάδα μέσα απο Αρχείο Εφημερίδων",
-      "description": "Αρχειακή εφημεριδιακή αναφορά υπερφυσικών φαινομένων",
-      "url": "https://haunted.gr/efimerides/fainomena/kozani-1952-paraxena-fainomena",
+      "name": "Παράξενα Φαινόμενα σε Ελληνικές Εφημερίδες",
+      "description": "Συλλογή δημοσιευμάτων με ανεξήγητα φαινόμενα από το αρχείο ελληνικού Τύπου.",
+      "inLanguage": "el-GR",
+      "url": "https://haunted.gr/efimerides/fainomena",
+      "image": "https://haunted.gr/images/katigories/fainomena.webp",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Haunted.gr",
+        "url": "https://haunted.gr"
+      },
       "publisher": {
         "@type": "Organization",
-        "name": "haunted.gr"
+        "name": "haunted.gr",
+        "url": "https://haunted.gr",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://haunted.gr/images/logo.png",
+          "width": 512,
+          "height": 512
+        }
       },
       "mainEntity": [
         {
           "@type": "Article",
-          "name": "Κοζάνη 1952 - Παράξενα Φαινόμενα σε Οικία",
+          "headline": "Κοζάνη 1952 - Παράξενα φαινόμενα σε οικία",
           "url": "https://haunted.gr/efimerides/fainomena/kozani-1952-paraxena-fainomena",
           "datePublished": "1952-01-01",
-          "description": "Αναφορά παράξενων φαινομένων σε οικία ηλικιωμένης γυναίκας στην Κοζάνη.",
-          "image": "https://haunted.gr/images/thumbnails/kozani-1952-fainomena.jpg"
+          "description": "Αναφορά σε ανεξήγητες εκδηλώσεις σε σπίτι ηλικιωμένης γυναίκας στην Κοζάνη.",
+          "image": "https://haunted.gr/images/thumbnails/kozani-1952-fainomena.jpg",
+          "keywords": "στοιχειωμένο σπίτι Κοζάνη, παράξενα φαινόμενα 1952"
+        },
+        {
+          "@type": "Article",
+          "headline": "Τηλεκινητικά φαινόμενα στην Καλλιθέα (1931)",
+          "url": "https://haunted.gr/efimerides/fainomena/tilekinitika-fainomena-kallithea-1931",
+          "datePublished": "1931-04-12",
+          "description": "Εφημεριδιακή μαρτυρία για εκσφενδονισμούς αντικειμένων σε σπίτι της Καλλιθέας.",
+          "image": "https://haunted.gr/images/efimerides/tilekinitika-fainomena-kallithea-1931.webp",
+          "keywords": "τηλεκίνηση Καλλιθέα, παραφυσικά γεγονότα Αθήνα"
+        },
+        {
+          "@type": "Article",
+          "headline": "Μυστηριώδης λιθοβολισμός στην Αγία Βαρβάρα (1935)",
+          "url": "https://haunted.gr/efimerides/fainomena/mystiriodis-lithovolismos-agia-varvara-1935",
+          "datePublished": "1935-03-18",
+          "description": "Χρονικό ανεξήγητων λιθοβολισμών σε συνοικία της Αθήνας.",
+          "image": "https://haunted.gr/images/efimerides/mystiriodis-lithovolismos-agia-varvara-1935.webp",
+          "keywords": "λιθοβολισμοί φαντάσματα, μυστήριο Αγία Βαρβάρα"
         }
-      ]
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://haunted.gr/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
   }
 }

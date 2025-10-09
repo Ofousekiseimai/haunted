@@ -117,6 +117,8 @@ app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
       <html>
         <head>
           <title>${escapeHtml(metaData.title)} | haunted.gr</title>
+          <meta name="description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
+          <link rel="canonical" href="${escapeHtml(url)}" />
           <meta property="og:title" content="${escapeHtml(metaData.title)} | haunted.gr" />
           <meta property="og:description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
           <meta property="og:url" content="${escapeHtml(url)}" />
@@ -132,6 +134,7 @@ app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="${escapeHtml(metaData.title)} | haunted.gr" />
           <meta name="twitter:description" content="${escapeHtml(metaData.excerpt || metaData.description || '')}" />
+          <meta name="twitter:url" content="${escapeHtml(url)}" />
           <meta name="twitter:image" content="https://haunted.gr${escapeHtml(metaData.image?.src || '/og-default-image.jpg')}" />
         </head>
         <body>

@@ -2391,63 +2391,93 @@
 
   ],
   "seo": {
-    "metaTitle": "Βρυκόλακες - Λαογραφικές Αφηγήσεις | haunted.gr",
-    "metaDescription": "Συλλογή λαογραφικών αφηγήσεων για βρυκόλακες από την Ελλάδα. Μύθοι, παραδόσεις και ιστορίες από Εύβοια και άλλες περιοχές.",
+    "metaTitle": "Βρυκόλακες στην Ελληνική Λαογραφία | Μύθοι & Παραδόσεις | haunted.gr",
+    "metaDescription": "Ανακαλύψτε το πληρέστερο ελληνικό αρχείο για βρυκόλακες. Μύθοι, προλήψεις, νεκρικά έθιμα και πρακτικές αποτροπής από Σάμο, Εύβοια, Κύθηρα και κάθε γωνιά της χώρας.",
     "keywords": [
       "βρυκόλακες Ελλάδα",
       "λαογραφία βρυκολάκων",
-      "παραδόσεις Εύβοιας",
-      "ελληνικοί μύθοι",
-      "Καταχανάδες Κρήτης",
-      "βρυκόλακες Κρήτης",
-      "βρυκόλακες Χίου",
-      "βρυκόλακες Μήλου",
-      "βρυκόλακες Ύδρας",
+      "παραδόσεις βρυκόλακες",
+      "νεκρικά έθιμα Ελλάδα",
+      "προλήψεις βρυκόλακες",
+      "αποτροπές βρυκολάκων",
+      "βρυκόλακες Σάμος",
       "βρυκόλακες Εύβοια",
-      "Βρυκόλακες Σαντορίνης",
-      "βρυκόλακες Θηρασίας",
-      "βρυκόλακες Αρκαδίας",
-      "βρυκόλακες Σερρών",
-      "βρυκόλακες Ιωαννίνων",
-      "βρυκόλακες Έβρου",
-      "βρυκόλακες Μακεδονίας",
-      "βρυκόλακες Θράκης",
-      "βρυκόλακες Ηπείρου",
-      "βρυκόλακες Θεσσαλίας",
-      "βρυκόλακες Πελοποννήσου",
-      "βρυκόλακες Λέσβου",
-      "βρυκόλακες Λήμνου",
-      "βρυκόλακες Κέρκυρας",
-      "βρυκόλακες Κεφαλονιάς",
-      "βρυκόλακες Ζακύνθου",
-      "λαογραφικές αφηγήσεις για βρυκόλακες"
+      "βρυκόλακες Κυθήρα",
+      "φαντάσματα λαογραφία",
+      "παραδοσιακές διηγήσεις τρόμου",
+      "ελληνικοί μύθοι νεκροζώντανων"
     ],
-    "canonical": "https://haunted.gr/λαογραφια/βρυκολακες",
+    "canonical": "https://haunted.gr/laografia/vrikolakes",
     "structuredData": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Βρυκόλακες - Λαογραφικές Αφηγήσεις",
-      "description": "Συλλογή λαογραφικών αφηγήσεων για βρυκόλακες",
-      "url": "https://haunted.gr/λαογραφια/βρυκολακες",
+      "name": "Βρυκόλακες στην Ελληνική Λαογραφία",
+      "description": "Συλλογή λαογραφικών αφηγήσεων, προλήψεων και εθίμων για βρυκόλακες στην Ελλάδα.",
+      "inLanguage": "el-GR",
+      "url": "https://haunted.gr/laografia/vrikolakes",
+      "image": "https://haunted.gr/images/katigories/vrikolakes.webp",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Haunted.gr",
+        "url": "https://haunted.gr"
+      },
       "publisher": {
         "@type": "Organization",
-        "name": "haunted.gr"
+        "name": "haunted.gr",
+        "url": "https://haunted.gr",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://haunted.gr/images/logo.png",
+          "width": 512,
+          "height": 512
+        }
       },
+      
       "mainEntity": [
         {
           "@type": "Article",
-          "name": "Πως θανατώνεται ο βρυκόλακας - Εύβοια",
-          "url": "https://haunted.gr/λαογραφία/πως-θανατωνεται-ο-βρυκολακας-ευβοια",
+          "headline": "Ευαγγελισμός Ευβοίας - Πώς θανατώνεται ο βρυκόλακας",
+          "url": "https://haunted.gr/laografia/vrikolakes/πως-θανατωνεται-ο-βρικολακας",
+          "datePublished": "2002",
           "author": {
             "@type": "Person",
             "name": "Τίτος Γιοχαλάς"
           },
+          "description": "Παραδοσιακή πρακτική εξόντωσης βρυκόλακα στον Ευαγγελισμό Ευβοίας.",
+          "image": "https://haunted.gr/images/laografia/vrikolakas-evagelismos.webp",
+          "keywords": "εξόντωση βρυκόλακα, λαογραφία Ευβοίας"
+        },
+        {
+          "@type": "Article",
+          "headline": "Κύθηρα - Ο βρικόλακας εν Κυθήροις",
+          "url": "https://haunted.gr/laografia/vrikolakes/ο-βρικολακας-εν-κυθηροις",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Πολίτης"
+          },
+          "description": "Λαογραφική ονομασία και περιγραφή των βρυκολάκων στα Κύθηρα.",
+          "image": "https://haunted.gr/images/laografia/vrikolakas-kithira.webp",
+          "keywords": "βρυκόλακες Κυθήρων, παραδόσεις Κυθήρων"
+        },
+        {
+          "@type": "Article",
+          "headline": "Αμυγδαλιά Ευβοίας - Θανάτωση του βρυκόλακα",
+          "url": "https://haunted.gr/laografia/vrikolakes/θανατωση-του-βρικολακα",
           "datePublished": "2002",
-          "description": "Παραδοσιακές μεθόδους καταπολέμησης βρυκολάκων από την Εύβοια...",
-          "image": "https://haunted.gr/images/thumbnails/βρυκολακας-ευβοιας.webp",
-          "keywords": "εξόντωση βρυκόλακα, βρυκόλακες Εύβοια, παραδόσεις για βρυκόλακες"
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "description": "Παράδοση για την εξόντωση βρυκόλακα στην Αμυγδαλιά Ευβοίας.",
+          "image": "https://haunted.gr/images/laografia/vrikolakas-amigdalia.webp",
+          "keywords": "παραδόσεις βρυκόλακες, αποτροπές νεκροζώντανων"
         }
-      ]
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://haunted.gr/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
   }
 }

@@ -10,22 +10,25 @@ export const CATEGORY_CONFIG = {
       path: '/etaireia-psychikon-ereynon',
       dataPath: '/data/etaireia-psychikon-ereynon/',
       indexComponent: 'EtaireiaPsychikonEreynon',
-      
+      category: 'etaireia-psychikon-ereynon'
     },
     prosopa: {
       path: '/prosopa',
       dataPath: '/data/prosopa/',
-      indexComponent: 'Prosopa' 
+      indexComponent: 'Prosopa',
+      category: 'prosopa'
     },
     efimerides: {
       path: '/efimerides',
       dataPath: '/data/efimerides/',
-      indexComponent: 'Efimerides' 
+      indexComponent: 'Efimerides',
+      category: 'efimerides'
     },
     entipa: {
       path: '/entipa',
       dataPath: '/data/entipa/',
-      indexComponent: 'Entipa' 
+      indexComponent: 'Entipa',
+      category: 'entipa'
     }
   };
   

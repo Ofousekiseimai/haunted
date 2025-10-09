@@ -92,6 +92,17 @@ export default function CategoryPage() {
     return mainAreaMatch && subLocationMatch;
   });
 
+  const canonicalSegments = [category];
+  if (subcategory) {
+    canonicalSegments.push(subcategory);
+  }
+  const canonicalUrl = `https://haunted.gr/${canonicalSegments.filter(Boolean).join('/')}`;
+  const pageTitle = `${currentConfig?.displayName || category} - Haunted.gr`;
+  const pageDescription = currentConfig?.description || 'Εξερευνήστε τη συλλογή μας με ιστορίες και άρθρα.';
+  const ogImage = currentConfig?.image?.src
+    ? `https://haunted.gr${currentConfig.image.src}`
+    : 'https://haunted.gr/og-default-image.jpg';
+
   if (loading) {
     return (
       <div className="container mx-auto p-4 flex justify-center items-center">
@@ -116,11 +127,22 @@ export default function CategoryPage() {
   return (
     <div className="min-h-screen bg-gray-900">
       <Helmet>
-        <title>{`${currentConfig?.displayName || category} - Haunted.gr`}</title>
-        <meta
-          name="description"
-          content={currentConfig?.description || "Εξερευνήστε τη συλλογή μας με ιστορίες και άρθρα."}
-        />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <link rel="canonical" href={canonicalUrl} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:site_name" content="haunted.gr" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:image" content={ogImage} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={ogImage} />
       </Helmet>
 
       <div className="container mx-auto px-4 py-8 max-w-6xl">
@@ -188,10 +210,17 @@ export default function CategoryPage() {
             {filteredArticles.map(article => {
               const config = SUBCATEGORY_MAP[article.subcategory || category];
               const categoryConfig = CATEGORY_CONFIG[config?.category || category];
-              
-              const articlePath = article.subcategory
-                ? `/${categoryConfig.category}/${article.subcategory}/${article.slug}`
-                : `/${categoryConfig.category}/${article.slug}`;
+
+              const mainCategory = categoryConfig?.category || config?.category || category;
+              const pathSegments = [mainCategory];
+
+              if (article.subcategory && article.subcategory !== 'all') {
+                pathSegments.push(article.subcategory);
+              }
+
+              pathSegments.push(article.slug);
+
+              const articlePath = `/${pathSegments.filter(Boolean).join('/')}`;
 
               return (
                 <article 

@@ -1803,31 +1803,107 @@
 
     ],
     "seo": {
-        "metaTitle": "Έρευνες Φαινομένων Εταιρία Ψυχικών Ερευνών | haunted.gr",
-        "metaDescription": "Τηλεκινητικά φαινόμενα και ψυχοκίνηση που μελετήθηκαν από την Ελληνική Εταιρία Ψυχικών Ερευνών - Αρχείο εφημερίδων 1929",
-        "keywords": ["τηλεκίνηση", "ψυχοκίνηση", "Άγγελος Τανάγρας", "Εταιρία Ψυχικών Ερευνών", "Λαμία 1929", "Μαρία Χάνη", "ψυχικές έρευνες", "παραφυσικά φαινόμενα"],
-        "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena/erevnes-etaireias-psychikon-ereynon-stoicheiomena-spitia-1924",
+        "metaTitle": "Τηλεκινητικά & Παραφυσικά Φαινόμενα | Εταιρεία Ψυχικών Ερευνών | haunted.gr",
+        "metaDescription": "Αρχειακό υλικό της Ελληνικής Εταιρείας Ψυχικών Ερευνών: τηλεκινητικά φαινόμενα, ψυχοκίνηση, τηλεπάθεια και έρευνες Αγγέλου Τανάγρα σε όλη την Ελλάδα (1920-1950).",
+        "keywords": [
+            "τηλεκινητικά φαινόμενα",
+            "ψυχοκίνηση Ελλάδα",
+            "Εταιρεία Ψυχικών Ερευνών",
+            "Άγγελος Τανάγρας",
+            "παραφυσικές έρευνες",
+            "τηλεπάθεια μαρτυρίες",
+            "στοιχειωμένα σπίτια Ελλάδα",
+            "παραψυχολογία ιστορία",
+            "telekinesis Greece",
+            "ψυχικά φαινόμενα 1920"
+        ],
+        "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena",
         "structuredData": {
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "name": "Έρευνες Φαινομένων - Εταιρία Ψυχικών Ερευνών",
-            "description": "Έρευνες και μελέτες  φαινομένων από την Ελληνική Εταιρία Ψυχικών Ερευνών",
-            "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-etaireias",
+            "name": "Έρευνες Φαινομένων της Εταιρείας Ψυχικών Ερευνών",
+            "description": "Συλλογή αρχειακού υλικού για τηλεκινητικά και άλλα παραφυσικά φαινόμενα που ερεύνησε η Ελληνική Εταιρεία Ψυχικών Ερευνών.",
+            "inLanguage": "el-GR",
+            "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena",
+            "image": "https://haunted.gr/images/katigories/telekinetika.webp",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "Haunted.gr",
+                "url": "https://haunted.gr"
+            },
             "publisher": {
                 "@type": "Organization",
-                "name": "haunted.gr"
+                "name": "haunted.gr",
+                "url": "https://haunted.gr",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://haunted.gr/images/logo.png",
+                    "width": 512,
+                    "height": 512
+                }
             },
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Τηλεκινητικά φαινόμενα",
+                    "sameAs": [
+                        "https://el.wikipedia.org/wiki/%CE%A4%CE%B7%CE%BB%CE%B5%CE%BA%CE%AF%CE%BD%CE%B7%CF%83%CE%B7"
+                    ]
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Παραψυχολογία",
+                    "sameAs": [
+                        "https://el.wikipedia.org/wiki/%CE%A0%CE%B1%CF%81%CE%B1%CF%88%CF%85%CF%87%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1"
+                    ]
+                }
+            ],
             "mainEntity": [
                 {
                     "@type": "Article",
-                    "name": "Τα Τηλεκινητικά φαινόμενα της Λαμίας 1929",
-                    "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena/erevnes-etaireias-psychikon-ereynon-stoicheiomena-spitia-1924",
-                    "author": { "@type": "Person", "name": "Εφημερίδα Εμπρος" },
+                    "headline": "Τα τηλεκινητικά φαινόμενα της Λαμίας (1929)",
+                    "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena/telekinitika-fainomena-lamias-1929",
                     "datePublished": "1929-01-11",
-                    "description": "Αναφορά τηλεκινητικών φαινομένων και ψυχικών ερευνών στην Λαμία υπό τον Άγγελο Τανάγρα.",
-                    "image": "https://haunted.gr/images/efimerides/lamia-telekinesi-1929.webp"
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Εφημερίδα Έμπρος"
+                    },
+                    "description": "Μαρτυρίες για τις έρευνες του Αγγέλου Τανάγρα στα τηλεκινητικά φαινόμενα της Λαμίας.",
+                    "image": "https://haunted.gr/images/efimerides/lamia-telekinesi-1929.webp",
+                    "keywords": "τηλεκίνηση Λαμία, Άγγελος Τανάγρας"
+                },
+                {
+                    "@type": "Article",
+                    "headline": "1945 - Σταματία Βαμβακά: Φαινόμενο Στιγματικής Ιδιοπληγίας",
+                    "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena/stamatia-vamvaka-stigmatiki-idiopligia-medium-1945",
+                    "datePublished": "1945-08-04",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Εφημερίδα Έμπρος"
+                    },
+                    "description": "Παρουσίαση της Σταματίας Βαμβακά στην ΕΕΨΕ και το φαινόμενο της στιγματικής ιδιοπληγίας.",
+                    "image": "https://haunted.gr/images/efimerides/stamatia-vamvaka-1945.webp",
+                    "keywords": "Σταματία Βαμβακά, στιγματική ιδιοπληγία"
+                },
+                {
+                    "@type": "Article",
+                    "headline": "Τηλεπαθητικές εντυπώσεις κατά τη στιγμή του θανάτου",
+                    "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena/ta-asyrmata-psychika-fainomena",
+                    "datePublished": "1955-09-01",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Άγγελος Τανάγρας"
+                    },
+                    "description": "Ανάλυση τηλεπαθητικών εμπειριών που καταγράφηκαν στην Ελλάδα από την ΕΕΨΕ.",
+                    "image": "https://haunted.gr/images/efimerides/ta-asyrmata-psychika-fainomena.webp",
+                    "keywords": "τηλεπάθεια Ελλάδα, ψυχικά φαινόμενα"
                 }
-            ]
+            ],
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://haunted.gr/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
         }
     }
 }
