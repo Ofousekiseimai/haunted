@@ -187,7 +187,7 @@ case 'text':
       <div>
         <p className="font-medium text-gray-300">{heading}</p>
         <div className="mt-2 space-y-1">
-          {renderSourceText('Εφημερίδα', source.name)}
+          {renderSourceText(source.name)}
           {source.title && (
             <p className="text-gray-300 italic">
               "{source.title}"
