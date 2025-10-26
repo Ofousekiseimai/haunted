@@ -36,7 +36,75 @@
           "year": "2002",
           "pages": "127"
         }
-      ]
+      ],
+      "tags": [
+        "Πετριές - Εύβοια",
+        "Εύβοια",
+        "Πετριές",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Πετριές Εύβοιας Των Φώτων - Χριστούγεννα  | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Περιγραφή των εθίμων της Εύβοιας για τα Θεοφάνια, τον αγιασμό των χωραφιών και την απομάκρυνση των καλικάντζαρων.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CF%84%CF%89%CE%BD-%CF%86%CF%89%CF%84%CF%89%CE%BD-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1",
+        "keywords": [
+          "Πετριές - Εύβοια",
+          "Εύβοια",
+          "Πετριές",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Πετριές Εύβοιας Των Φώτων - Χριστούγεννα",
+          "description": "Περιγραφή των εθίμων της Εύβοιας για τα Θεοφάνια, τον αγιασμό των χωραφιών και την απομάκρυνση των καλικάντζαρων.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/theofania-evia.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Πετριές - Εύβοια",
+            "Εύβοια",
+            "Πετριές",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CF%84%CF%89%CE%BD-%CF%86%CF%89%CF%84%CF%89%CE%BD-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Πετριές"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.4073,
+              "longitude": 24.1669
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "52",
@@ -70,7 +138,75 @@
           "year": "2002",
           "pages": "139"
         }
-      ]
+      ],
+      "tags": [
+        "Βελούσια - Εύβοια",
+        "Εύβοια",
+        "Βελούσια",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Βελούσια Εύβοιας -Καλικάντζαροι Χριστούγεννα  | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Παραδοσιακή δοξασία από τα Βελούσια Ευβοίας για τους καλικάντζαρους και τα χριστουγεννιάτικα έθιμα προστασίας από αυτούς.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1-%CE%B2%CE%B5%CE%BB%CE%BF%CF%85%CF%83%CE%B9%CE%B1",
+        "keywords": [
+          "Βελούσια - Εύβοια",
+          "Εύβοια",
+          "Βελούσια",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Βελούσια Εύβοιας -Καλικάντζαροι Χριστούγεννα",
+          "description": "Παραδοσιακή δοξασία από τα Βελούσια Ευβοίας για τους καλικάντζαρους και τα χριστουγεννιάτικα έθιμα προστασίας από αυτούς.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/kalikatzaroi-velousia.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Βελούσια - Εύβοια",
+            "Εύβοια",
+            "Βελούσια",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1-%CE%B2%CE%B5%CE%BB%CE%BF%CF%85%CF%83%CE%B9%CE%B1"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Βελούσια"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.3912,
+              "longitude": 24.0939
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "53",
@@ -104,7 +240,75 @@
           "year": "2002",
           "pages": "167"
         }
-      ]
+      ],
+      "tags": [
+        "Κοσκινά - Εύβοια",
+        "Εύβοια",
+        "Κοσκινά",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Κόσκινα Εύβοιας - Καλικάντζαροι Των Φώτων | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκές δοξασίες από τον Κοσκινά Ευβοίας σχετικά με τους καλικάντζαρους και τα έθιμα των Φώτων.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%84%CF%89%CE%BD-%CF%86%CF%89%CF%84%CF%89%CE%BD",
+        "keywords": [
+          "Κοσκινά - Εύβοια",
+          "Εύβοια",
+          "Κοσκινά",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Κόσκινα Εύβοιας - Καλικάντζαροι Των Φώτων",
+          "description": "Λαϊκές δοξασίες από τον Κοσκινά Ευβοίας σχετικά με τους καλικάντζαρους και τα έθιμα των Φώτων.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/kalikatzaroi-koskina.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Κοσκινά - Εύβοια",
+            "Εύβοια",
+            "Κοσκινά",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%84%CF%89%CE%BD-%CF%86%CF%89%CF%84%CF%89%CE%BD"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Κοσκινά"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.3688,
+              "longitude": 24.1812
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "54",
@@ -130,7 +334,75 @@
           "value": "Στα δικά μου χρόνια δεν πρόλαβα να δω καλικάντζαρους. Όταν ήμασταν μικρά παιδιά, οι γονείς μας σηκώνονταν νωρίς το πρωί – τότε δεν υπήρχαν τα πράγματα που υπάρχουν σήμερα – και μας άφηναν κάτω από το μαξιλάρι ένα πορτοκάλι ή μερικά κάστανα. Μας έλεγαν ότι τα έφεραν οι καλικάντζαροι, και εμείς το πιστεύαμε. Πιστεύαμε πως εκείνοι μας τα άφηναν.\n\nΜπορεί να βρίσκαμε κι ένα φράγκο – τότε υπήρχαν μόνο τέτοια νομίσματα, φράγκα και δεκάρες."
         }
       ],
-      "source": "Τίτος Γιοχαλάς - Ευβοια Τα Αρβανίτικα, Εκδόσεις Πατάκη, 2002 (σελ. 177)"
+      "source": "Τίτος Γιοχαλάς - Ευβοια Τα Αρβανίτικα, Εκδόσεις Πατάκη, 2002 (σελ. 177)",
+      "tags": [
+        "Αργυρό - Εύβοια",
+        "Εύβοια",
+        "Αργυρό",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": " Αργυρό Εύβοιας - Καλικάντζαροι Χριστούγεννα | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκές δοξασίες από το Αργυρό Ευβοίας σχετικά με τους καλικάντζαρους και τα Χριστούγεννα.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1-%CE%B1%CF%81%CE%B3%CF%85%CF%81%CE%BF",
+        "keywords": [
+          "Αργυρό - Εύβοια",
+          "Εύβοια",
+          "Αργυρό",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Αργυρό Εύβοιας - Καλικάντζαροι Χριστούγεννα",
+          "description": "Λαϊκές δοξασίες από το Αργυρό Ευβοίας σχετικά με τους καλικάντζαρους και τα Χριστούγεννα.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/kalikatzaroi-argiro.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Αργυρό - Εύβοια",
+            "Εύβοια",
+            "Αργυρό",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1-%CE%B1%CF%81%CE%B3%CF%85%CF%81%CE%BF"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Αργυρό"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.3086,
+              "longitude": 24.1475
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "55",
@@ -168,7 +440,75 @@
           "year": "2002",
           "pages": "207"
         }
-      ]
+      ],
+      "tags": [
+        "Ζάρακες - Εύβοια",
+        "Εύβοια",
+        "Ζάρακες",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Μύλος Καλικάντζαροι | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Η ιστορία ενός ανθρώπου που συνάντησε καλικάντζαρους ενώ επέστρεφε από το μύλο.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%BC%CF%85%CE%BB%CE%BF%CF%82-%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9",
+        "keywords": [
+          "Ζάρακες - Εύβοια",
+          "Εύβοια",
+          "Ζάρακες",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Μύλος Καλικάντζαροι",
+          "description": "Η ιστορία ενός ανθρώπου που συνάντησε καλικάντζαρους ενώ επέστρεφε από το μύλο.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/mulos-kalikatzaroi.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Ζάρακες - Εύβοια",
+            "Εύβοια",
+            "Ζάρακες",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%BC%CF%85%CE%BB%CE%BF%CF%82-%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ζάρακες"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.3167,
+              "longitude": 24.1833
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "56",
@@ -182,8 +522,8 @@
       ],
       "mainArea": "Εύβοια",
       "subLocation": "Αλμυροπόταμος",
-     "lat":  38.2714,
-        "lng": 24.1885,
+      "lat": 38.2714,
+      "lng": 24.1885,
       "image": {
         "src": "/images/laografia/kalikatzaroi-xristougena-almiropotamos.webp",
         "alt": "Παραδοσιακή εικόνα καλικάντζαρων γύρω από το χριστουγεννιάτικο γουρούνι"
@@ -212,7 +552,75 @@
           "year": "2002",
           "pages": "221"
         }
-      ]
+      ],
+      "tags": [
+        "Αλμυροπόταμος - Εύβοια",
+        "Εύβοια",
+        "Αλμυροπόταμος",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Αλμυροπόταμος - Καλικάντζαροι Χριστούγεννα | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Η παράδοση από την περιοχή του Αλμυροπόταμου για τους καλικάντζαρους και τις εορτές των Χριστουγέννων.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1",
+        "keywords": [
+          "Αλμυροπόταμος - Εύβοια",
+          "Εύβοια",
+          "Αλμυροπόταμος",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Αλμυροπόταμος - Καλικάντζαροι Χριστούγεννα",
+          "description": "Η παράδοση από την περιοχή του Αλμυροπόταμου για τους καλικάντζαρους και τις εορτές των Χριστουγέννων.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/kalikatzaroi-xristougena-almiropotamos.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Αλμυροπόταμος - Εύβοια",
+            "Εύβοια",
+            "Αλμυροπόταμος",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Αλμυροπόταμος"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.2714,
+              "longitude": 24.1885
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "57",
@@ -256,7 +664,75 @@
           "year": "2002",
           "pages": "229"
         }
-      ]
+      ],
+      "tags": [
+        "Ραπταίοι - Εύβοια",
+        "Εύβοια",
+        "Ραπταίοι",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Δοξασίες για τους καλικάντζαρους - Ραπταίοι | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Η παράδοση από την περιοχή Ραπταίων για τη φωτιά και τους καλικάντζαρους, με σκοπό να υπακούσουν τα παιδιά και να μάθουν γράμματα.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%B4%CE%BF%CE%BE%CE%B1%CF%83%CE%B9%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CF%85%CF%82-%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CF%85%CF%82-%CF%81%CE%B1%CF%80%CF%84%CE%B1%CE%B9%CE%BF%CE%B9",
+        "keywords": [
+          "Ραπταίοι - Εύβοια",
+          "Εύβοια",
+          "Ραπταίοι",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Δοξασίες για τους καλικάντζαρους - Ραπταίοι",
+          "description": "Η παράδοση από την περιοχή Ραπταίων για τη φωτιά και τους καλικάντζαρους, με σκοπό να υπακούσουν τα παιδιά και να μάθουν γράμματα.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/doksasies-kalikatzaroi-raptaioi.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Ραπταίοι - Εύβοια",
+            "Εύβοια",
+            "Ραπταίοι",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%B4%CE%BF%CE%BE%CE%B1%CF%83%CE%B9%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CF%85%CF%82-%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CF%85%CF%82-%CF%81%CE%B1%CF%80%CF%84%CE%B1%CE%B9%CE%BF%CE%B9"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ραπταίοι"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.2465,
+              "longitude": 24.2017
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "58",
@@ -300,7 +776,75 @@
           "year": "2002",
           "pages": "239"
         }
-      ]
+      ],
+      "tags": [
+        "Μεσοχώρια - Εύβοια",
+        "Εύβοια",
+        "Μεσοχώρια",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Δοξασίες για καλικάντζαρους - Μεσοχώρια | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Η παράδοση από την περιοχή Μεσοχωρίων για τους καλικάντζαρους και τη σύνδεσή τους με τη συμπεριφορά των παιδιών.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%B4%CE%BF%CE%BE%CE%B1%CF%83%CE%B9%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CF%85%CF%82-%CE%BC%CE%B5%CF%83%CE%BF%CF%87%CF%89%CF%81%CE%B9%CE%B1",
+        "keywords": [
+          "Μεσοχώρια - Εύβοια",
+          "Εύβοια",
+          "Μεσοχώρια",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Δοξασίες για καλικάντζαρους - Μεσοχώρια",
+          "description": "Η παράδοση από την περιοχή Μεσοχωρίων για τους καλικάντζαρους και τη σύνδεσή τους με τη συμπεριφορά των παιδιών.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/doksasies-kalikatzaroi-mesoxwria.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Μεσοχώρια - Εύβοια",
+            "Εύβοια",
+            "Μεσοχώρια",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%B4%CE%BF%CE%BE%CE%B1%CF%83%CE%B9%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CF%85%CF%82-%CE%BC%CE%B5%CF%83%CE%BF%CF%87%CF%89%CF%81%CE%B9%CE%B1"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Μεσοχώρια"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.2,
+              "longitude": 24.25
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "59",
@@ -334,7 +878,75 @@
           "year": "2002",
           "pages": "239"
         }
-      ]
+      ],
+      "tags": [
+        "Κόμητο - Εύβοια",
+        "Εύβοια",
+        "Κόμητο",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Καλικάντζαροι Χριστούγεννα Κόμητο | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Η παράδοση από την περιοχή Κόμητο για τους καλικάντζαρους κατά τη διάρκεια των Χριστουγέννων.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1-%CE%BA%CE%BF%CE%BC%CE%B7%CF%84%CE%BF",
+        "keywords": [
+          "Κόμητο - Εύβοια",
+          "Εύβοια",
+          "Κόμητο",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Καλικάντζαροι Χριστούγεννα Κόμητο",
+          "description": "Η παράδοση από την περιοχή Κόμητο για τους καλικάντζαρους κατά τη διάρκεια των Χριστουγέννων.",
+          "inLanguage": "el",
+          "datePublished": "2002",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/kalikatzaroi-xristougena-komhto.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Κόμητο - Εύβοια",
+            "Εύβοια",
+            "Κόμητο",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/%CE%BA%CE%B1%CE%BB%CE%B9%CE%BA%CE%B1%CE%BD%CF%84%CE%B6%CE%B1%CF%81%CE%BF%CE%B9-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B1-%CE%BA%CE%BF%CE%BC%CE%B7%CF%84%CE%BF"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Κόμητο"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.0689,
+              "longitude": 24.5383
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "60",
@@ -347,7 +959,6 @@
         "Κοζάνη"
       ],
       "mainArea": "Κοζάνη",
-      
       "lat": 40.3006,
       "lng": 21.7891,
       "image": {
@@ -379,7 +990,61 @@
           "year": "1904",
           "pages": "1274"
         }
-      ]
+      ],
+      "tags": [
+        "Κοζάνη",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Εμπουσαίοι της Κοζάνης  | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Η Παράδοση των Εμπουσαίων της Κοζάνης...",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/empousaioi-kozani",
+        "keywords": [
+          "Κοζάνη",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Εμπουσαίοι της Κοζάνης",
+          "description": "Η Παράδοση των Εμπουσαίων της Κοζάνης...",
+          "inLanguage": "el",
+          "datePublished": "1509-05",
+          "image": "https://haunted.gr/images/laografia/empoysaioi.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Κοζάνη",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/empousaioi-kozani"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Κοζάνη",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.3006,
+              "longitude": 21.7891
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "61",
@@ -421,7 +1086,70 @@
           "year": "1966",
           "pages": "343"
         }
-      ]
+      ],
+      "tags": [
+        "Αργυρός - Σάμος",
+        "Σάμος",
+        "Αργυρός",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Αργυρός Σάμου - Καλαμπάκης και οι Καλικάτζαροι | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Διήγηση για την επίθεση καλικάτζαρων στον Καλαμπάκη μετά το θάνατο της μητέρας του.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/argyros-samou-kalampakis-kalikatzaroi",
+        "keywords": [
+          "Αργυρός - Σάμος",
+          "Σάμος",
+          "Αργυρός",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Αργυρός Σάμου - Καλαμπάκης και οι Καλικάτζαροι",
+          "description": "Διήγηση για την επίθεση καλικάτζαρων στον Καλαμπάκη μετά το θάνατο της μητέρας του.",
+          "inLanguage": "el",
+          "image": "https://haunted.gr/images/laografia/argyros-kalikatzaroi.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Αργυρός - Σάμος",
+            "Σάμος",
+            "Αργυρός",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/argyros-samou-kalampakis-kalikatzaroi"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Σάμος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Αργυρός"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7291,
+              "longitude": 27.0037
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "62",
@@ -460,7 +1188,73 @@
           "year": "1966",
           "pages": "343"
         }
-      ]
+      ],
+      "tags": [
+        "Λωβιάρικα - Σάμος",
+        "Λιμάνι Βαθυ - Σάμος",
+        "Σάμος",
+        "Βαθύ",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Λιμάνι Βαθύ Σάμος - Η γουρούνα Καλικάτζαρος | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Διήγηση εμπειρίας με μεταμορφωμένη γουρούνα στα Λωβιάρικα Βαθιού Σάμου.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/lobiarika-limani-vathiou-samos",
+        "keywords": [
+          "Λωβιάρικα - Σάμος",
+          "Λιμάνι Βαθυ - Σάμος",
+          "Σάμος",
+          "Βαθύ",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Λιμάνι Βαθύ Σάμος - Η γουρούνα Καλικάτζαρος",
+          "description": "Διήγηση εμπειρίας με μεταμορφωμένη γουρούνα στα Λωβιάρικα Βαθιού Σάμου.",
+          "inLanguage": "el",
+          "image": "https://haunted.gr/images/laografia/lobiarika-gourouna.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Λωβιάρικα - Σάμος",
+            "Λιμάνι Βαθυ - Σάμος",
+            "Σάμος",
+            "Βαθύ",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/lobiarika-limani-vathiou-samos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Σάμος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Βαθύ"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7476,
+              "longitude": 26.9785
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "63",
@@ -498,7 +1292,70 @@
           "year": "1966",
           "pages": "344"
         }
-      ]
+      ],
+      "tags": [
+        "Λιμάνι Βαθύ - Σάμος",
+        "Σάμος",
+        "Βαθύ",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Λιμάνι Βαθύ Σάμου - Η Κότα Καλικάντζαρος | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Διήγηση για μοιραία συνάντηση με υπερφυσική κότα στο λιμάνι Βαθύ Σάμου.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/limani-vathy-samos-kota",
+        "keywords": [
+          "Λιμάνι Βαθύ - Σάμος",
+          "Σάμος",
+          "Βαθύ",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Λιμάνι Βαθύ Σάμου - Η Κότα Καλικάντζαρος",
+          "description": "Διήγηση για μοιραία συνάντηση με υπερφυσική κότα στο λιμάνι Βαθύ Σάμου.",
+          "inLanguage": "el",
+          "image": "https://haunted.gr/images/laografia/vathy-port-hens.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Λιμάνι Βαθύ - Σάμος",
+            "Σάμος",
+            "Βαθύ",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/limani-vathy-samos-kota"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Σάμος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Βαθύ"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7476,
+              "longitude": 26.9785
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "64",
@@ -547,7 +1404,73 @@
           "title": "Μελέται περί του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μέρος Β",
           "year": "1904"
         }
-      ]
+      ],
+      "tags": [
+        "Μυτιληνούς - Σάμος",
+        "Αγριας Το Ρέμμα",
+        "Σάμος",
+        "Μυτιληνιοί",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": " Οι Καλισπούσηδες της Σάμου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Πληροφορίες για τους καλισπούσηδες της Σάμου - στοιχεία που τιμωρούν βλάσφημους κοντά σε υδάτινες πηγές.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/kalispoysides-samos",
+        "keywords": [
+          "Μυτιληνούς - Σάμος",
+          "Αγριας Το Ρέμμα",
+          "Σάμος",
+          "Μυτιληνιοί",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Καλισπούσηδες της Σάμου",
+          "description": "Πληροφορίες για τους καλισπούσηδες της Σάμου - στοιχεία που τιμωρούν βλάσφημους κοντά σε υδάτινες πηγές.",
+          "inLanguage": "el",
+          "image": "https://haunted.gr/images/laografia/kalispoysides.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Μυτιληνούς - Σάμος",
+            "Αγριας Το Ρέμμα",
+            "Σάμος",
+            "Μυτιληνιοί",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/kalispoysides-samos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Σάμος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Μυτιληνιοί"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.72719,
+              "longitude": 26.90674
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "200",
@@ -589,7 +1512,75 @@
           "year": "1904",
           "pages": "242"
         }
-      ]
+      ],
+      "tags": [
+        "Βούρβουρα - Αρκαδία",
+        "Αρκαδία",
+        "Βούρβουρα",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Λυκοκατζαραίοι της Αρκαδίας | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκή αφήγηση για τους μυθικούς λυκοκατζαραίους και την αιώνια προσπάθειά τους να καταρρίψουν το δέντρο του κόσμου",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-lykokatzaraioi-vourvoura",
+        "keywords": [
+          "Βούρβουρα - Αρκαδία",
+          "Αρκαδία",
+          "Βούρβουρα",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Λυκοκατζαραίοι της Αρκαδίας",
+          "description": "Λαϊκή αφήγηση για τους μυθικούς λυκοκατζαραίους και την αιώνια προσπάθειά τους να καταρρίψουν το δέντρο του κόσμου",
+          "inLanguage": "el",
+          "datePublished": "1904",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-lykokatzaraioi-vourvoura.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Βούρβουρα - Αρκαδία",
+            "Αρκαδία",
+            "Βούρβουρα",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-lykokatzaraioi-vourvoura"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Αρκαδία",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Βούρβουρα"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.45,
+              "longitude": 22.35
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "201",
@@ -631,7 +1622,72 @@
           "year": "1904",
           "pages": "251"
         }
-      ]
+      ],
+      "tags": [
+        "Τήνος - Κυκλάδες",
+        "Τήνος",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Καλσαγκάρ της Τήνου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκή εξήγηση για τους καλσαγκάρ και τη σχέση τους με λαθάριες βαφτίσεις στην Τήνο",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-kalsagkar-tinos",
+        "keywords": [
+          "Τήνος - Κυκλάδες",
+          "Τήνος",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Καλσαγκάρ της Τήνου",
+          "description": "Λαϊκή εξήγηση για τους καλσαγκάρ και τη σχέση τους με λαθάριες βαφτίσεις στην Τήνο",
+          "inLanguage": "el",
+          "datePublished": "1904",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-kalsagkar-tinos.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Τήνος - Κυκλάδες",
+            "Τήνος",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-kalsagkar-tinos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Τήνος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Τήνος"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.5333,
+              "longitude": 25.1667
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "202",
@@ -677,7 +1733,75 @@
           "year": "1904",
           "pages": "254"
         }
-      ]
+      ],
+      "tags": [
+        "Ναύπακτος - Αιτωλοακαρνανία",
+        "Αιτωλοακαρνανία",
+        "Ναύπακτος",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Τα Παγανά της Ναυπάκτου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκή αφήγηση για τα δαιμονικά παγανά και τις προστατευτικές πρακτικές κατά των δαιμονικών δυνάμεων",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/ta-pagana-nafpaktos",
+        "keywords": [
+          "Ναύπακτος - Αιτωλοακαρνανία",
+          "Αιτωλοακαρνανία",
+          "Ναύπακτος",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα Παγανά της Ναυπάκτου",
+          "description": "Λαϊκή αφήγηση για τα δαιμονικά παγανά και τις προστατευτικές πρακτικές κατά των δαιμονικών δυνάμεων",
+          "inLanguage": "el",
+          "datePublished": "1904",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-pagana-nafpaktos.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Ναύπακτος - Αιτωλοακαρνανία",
+            "Αιτωλοακαρνανία",
+            "Ναύπακτος",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/ta-pagana-nafpaktos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Αιτωλοακαρνανία",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ναύπακτος"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.3917,
+              "longitude": 21.8275
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "204",
@@ -729,7 +1853,78 @@
           "year": "1904",
           "pages": "257"
         }
-      ]
+      ],
+      "tags": [
+        "Ελαιοχώρι Καλαμάτας - Πελοπόννησος",
+        "Δίκαλο - Πελοπόννησος",
+        "Πελοπόννησος",
+        " Καλαμάτα",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Ο Χορός των Λυκοκαντζαραίων - Καλαμάτα | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκή αφήγηση για τη μάχη μιας γυναίκας με τους λυκοκαντζαραίους στα Δώδεκαημερα της Καλαμάτας",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/o-choros-ton-lykokantzaroin-elaeochori-kalamatas",
+        "keywords": [
+          "Ελαιοχώρι Καλαμάτας - Πελοπόννησος",
+          "Δίκαλο - Πελοπόννησος",
+          "Πελοπόννησος",
+          " Καλαμάτα",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Ο Χορός των Λυκοκαντζαραίων - Καλαμάτα",
+          "description": "Λαϊκή αφήγηση για τη μάχη μιας γυναίκας με τους λυκοκαντζαραίους στα Δώδεκαημερα της Καλαμάτας",
+          "inLanguage": "el",
+          "datePublished": "1904",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/o-choros-ton-lykokantzaroin-elaeochori-kalamatas.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Ελαιοχώρι Καλαμάτας - Πελοπόννησος",
+            "Δίκαλο - Πελοπόννησος",
+            "Πελοπόννησος",
+            " Καλαμάτα",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/o-choros-ton-lykokantzaroin-elaeochori-kalamatas"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Πελοπόννησος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Καλαμάτα"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.0833,
+              "longitude": 22.0167
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
       "id": "205",
@@ -803,729 +1998,1967 @@
           "year": "1904",
           "pages": "260 - 261"
         }
-      ]
+      ],
+      "tags": [
+        "Ελληνόπυργος - Καρδίτσα",
+        "Καρδίτσα",
+        "Ελληνόπυργος",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Καρκάντσαλοι της Καρδίτσας | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκή αφήγηση για τους καρκάντσαλους και την καταστροφική επίδρασή τους κατά τις δωδεκαήμερες των Χριστουγέννων",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-karkantsaloi-ellenopyrgos-karditsas",
+        "keywords": [
+          "Ελληνόπυργος - Καρδίτσα",
+          "Καρδίτσα",
+          "Ελληνόπυργος",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Καρκάντσαλοι της Καρδίτσας",
+          "description": "Λαϊκή αφήγηση για τους καρκάντσαλους και την καταστροφική επίδρασή τους κατά τις δωδεκαήμερες των Χριστουγέννων",
+          "inLanguage": "el",
+          "datePublished": "1904",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-karkantsaloi-ellenopyrgos-karditsas.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Ελληνόπυργος - Καρδίτσα",
+            "Καρδίτσα",
+            "Ελληνόπυργος",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-karkantsaloi-ellenopyrgos-karditsas"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Καρδίτσα",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ελληνόπυργος"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.325,
+              "longitude": 21.9236
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
-  "id": "291",
-  "title": "Οι Καλλιβρούσηδες της Άνδρου",
-  "slug": "oi-kallivrousides-tis-androu",
-  "author": "Θεοδ. Α. Βληζιώτης",
-  "date": "1914",
-  "excerpt": "Λαογραφική μελέτη για τους Καλλιβρούσηδες (Καλλικάντζαρους) στη Μεσαριά Άνδρου. Αυτοί οι μικροί δαίμονες εμφανίζονται τα Χριστούγεννα στα υπόγεια, χορεύουν και ουρούν σε δοχεία με τρόφιμα. Οι κάτοικοι καθαρίζουν τα υπόγεια και σφραγίζουν τα δοχεία με κοπριά ζώων για προστασία.",
-  "mainArea": "Ανδρος",
-  "subLocation": "Μεσαριά",
-  "locationTags": ["Μεσαριά", "Άνδρος"],
-  "lat": 37.8333,
-  "lng": 24.9333,
-  "image": {
-    "src": "/images/laografia/oi-kallivrousides-tis-androu.webp",
-    "alt": ""
-  },
-  "content": [
-    {"type": "text", "value": "Οι καλλιβρούσηδες ή καλλικάντζαροι θεωρούνται μικροί δαίμονες, οι οποίοι βγαινουν τη νύχτα της παραμονής των Χριστουγέννων κάθε χρόνο στις υπόγειες αποθήκες των χωρικών και χορεύουν. Οι κάτοικοι των σπιτιών φροντίζουν απο το πρωί να έχουν καθαρίσει καλά τα υπόγεια γιατί όταν ειναι πολύ καθαρά τα υπόγεια, πιστεύεται πως δεν πολυεμφανίζονται."},
-    {"type": "text", "value": "Κάθε χρόνο που εμφανίζονται, ουρούν μέσα στα βαρέλια και τα πιθάρια, συνήθως πάνω στα σύκα. Για αυτό το λόγό, όλα τα δοχεια τα κολλάνε χρησιμοποιώντας  κοπριά των ζώων δημιουργώντας ενα κολλητικό μείγμα με νερό και κοπριά."},
-    {"type": "text", "value": "Τα δοχεία και τα βαρέλια μενουν σφραγισμένα μέχρι την Σαρακοστή, ενώ υπάρχει αντίστοιχη χριστιανική προσευχή που λέγεται την ώρα που τα ανοίγουν."}
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Θεοδ. Α. Βληζιώτης",
-      "title": "Σύμμικτα - Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 6",
-      "pages": "252-253"
-    }
-  ]
-},
-{
-  "id": "304",
-  "title": "Οι καλικάντζαροι των Σπετσών",
-  "slug": "oi-kalikantzaroi-ton-spetson",
-  "author": "Rodd Rennell",
-  "date": "1892",
-  "excerpt": "Ιστορία από τις Σπέτσες για γυναίκα που απήχθη από καλικάντζαρους κοντά σε σπηλιά. Βρέθηκε χωρίς φωνή και ανέκτησε την ομιλία της μόνο μετά από εκκλησιαστικό εξορκισμό.",
-  "mainArea": "Σπέτσες",
-  "subLocation": "",
-  "locationTags": ["Σπέτσες", "καλικάντζαροι", "εξορκισμός", "νησιωτική λαογραφία", "Σαρωνικός"],
-  "lat": 37.2610,
-  "lng": 23.1590,
-  "image": {
-    "src": "/images/laografia/oi-kalikantzaroi-ton-spetson.webp",
-    "alt": "Παραδοσιακό σπίτι στις Σπέτσες, τόπος της ιστορίας με τους καλικάντζαρους"
-  },
-  "content": [
-    {"type": "text", "value": "Μια ιστορία μου διηγήθηκαν στις Σπέτσες, την οποία ο πληροφοριοδότης μου είχε ακούσει από τον παππού του, σχετικά με τις περιπέτειες μιας γυναίκας του νησιού με αυτά τα παράξενα όντα."},
-    {"type": "text", "value": "Είχε πάει με δύο άλλες γυναίκες να μαζέψουν ξύλα στην άλλη άκρη του νησιού, σε κάποια απόσταση από την πόλη, κοντά σε μια σπηλιά δίπλα στη θάλασσα, με την οποία συνδέονται διάφορες άλλες δεισιδαιμονίες."},
-    {"type": "text", "value": "Ξαφνικά όμως εξαφανίστηκε, και όλες οι προσπάθειες των συντρόφων της να τη βρουν ήταν μάταιες. Μερικές μέρες αργότερα, ένα καΐκι που περνούσε από το ακρωτήρι του νησιού, είδε τη χαμένη γυναίκα να στέκεται πάνω στα βράχια. Βγήκαν στη στεριά και την έφεραν πίσω στην πόλη, αλλά είχε χάσει τη φωνή της και δεν μπορούσε να δώσει καμία εξήγηση."},
-    {"type": "text", "value": "Μόνο όταν την πήγαν στην εκκλησία και τελέστηκαν τα απαραίτητα τελετουργικά για τον εξορκισμό των πονηρών πνευμάτων, ανέκτησε τη φωνή της· και τότε αποκάλυψε ότι την είχαν αρπάξει οι Καλικάντζαροι, οι οποίοι της είχαν πάρει τη φωνή για να μην μπορεί να αποκαλύψει τίποτα."}
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Rodd Rennell",
-      "title": "The customs and lore of modern Greece",
-      "year": "1892",
-      "pages": "199-200"
-    }
-  ]
-},
-{
-  "id": "322",
-  "title": "Οι Κάοι της Ρόδου",
-  "slug": "oi-kaoi-tis-rodou",
-  "author": "Αναστασίος Βρόντης",
-  "date": "1939",
-  "excerpt": "Θρύλος για τους Κάους (καλικάντζαρους) της Ρόδου. Ο παπάς Παπαγιάννης από τον Μονόλιθο πιάστηκε με έναν Κάο, τον θεράπευσε με μόλυβδο και σίδερο, και ως ευχαριστότητα έλαβε πιθάρι μέλι που ονομάζεται «Του Κάου το πιθάρι».",
-  "mainArea": "Ρόδος",
-  "subLocation": "Μονόλιθος",
-  "locationTags": ["Μονόλιθος", "Ρόδος", "Δωδεκάνησα", "Κάους", "καλικάντζαροι", "Παπαγιάννης", "Κυμμαράσι", "Τήλος", "αυκοφοιλλία", "πιθάρι μέλι", "θρύλος", "λαογραφία"],
-  "lat": 36.1311,
-  "lng": 27.7391,
-  "image": {
-    "src": "/images/laografia/oi-kaoi-tis-rodou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Τους καλικάντζαρους στην Ρόδο τους λέγουν Κάους."
+      "id": "291",
+      "title": "Οι Καλλιβρούσηδες της Άνδρου",
+      "slug": "oi-kallivrousides-tis-androu",
+      "author": "Θεοδ. Α. Βληζιώτης",
+      "date": "1914",
+      "excerpt": "Λαογραφική μελέτη για τους Καλλιβρούσηδες (Καλλικάντζαρους) στη Μεσαριά Άνδρου. Αυτοί οι μικροί δαίμονες εμφανίζονται τα Χριστούγεννα στα υπόγεια, χορεύουν και ουρούν σε δοχεία με τρόφιμα. Οι κάτοικοι καθαρίζουν τα υπόγεια και σφραγίζουν τα δοχεία με κοπριά ζώων για προστασία.",
+      "mainArea": "Ανδρος",
+      "subLocation": "Μεσαριά",
+      "locationTags": [
+        "Μεσαριά",
+        "Άνδρος"
+      ],
+      "lat": 37.8333,
+      "lng": 24.9333,
+      "image": {
+        "src": "/images/laografia/oi-kallivrousides-tis-androu.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Οι καλλιβρούσηδες ή καλλικάντζαροι θεωρούνται μικροί δαίμονες, οι οποίοι βγαινουν τη νύχτα της παραμονής των Χριστουγέννων κάθε χρόνο στις υπόγειες αποθήκες των χωρικών και χορεύουν. Οι κάτοικοι των σπιτιών φροντίζουν απο το πρωί να έχουν καθαρίσει καλά τα υπόγεια γιατί όταν ειναι πολύ καθαρά τα υπόγεια, πιστεύεται πως δεν πολυεμφανίζονται."
+        },
+        {
+          "type": "text",
+          "value": "Κάθε χρόνο που εμφανίζονται, ουρούν μέσα στα βαρέλια και τα πιθάρια, συνήθως πάνω στα σύκα. Για αυτό το λόγό, όλα τα δοχεια τα κολλάνε χρησιμοποιώντας  κοπριά των ζώων δημιουργώντας ενα κολλητικό μείγμα με νερό και κοπριά."
+        },
+        {
+          "type": "text",
+          "value": "Τα δοχεία και τα βαρέλια μενουν σφραγισμένα μέχρι την Σαρακοστή, ενώ υπάρχει αντίστοιχη χριστιανική προσευχή που λέγεται την ώρα που τα ανοίγουν."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Θεοδ. Α. Βληζιώτης",
+          "title": "Σύμμικτα - Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 6",
+          "pages": "252-253"
+        }
+      ],
+      "tags": [
+        "Μεσαριά",
+        "Άνδρος",
+        "Ανδρος",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Καλλιβρούσηδες της Άνδρου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαογραφική μελέτη για τους Καλλιβρούσηδες (Καλλικάντζαρους) στη Μεσαριά Άνδρου. Αυτοί οι μικροί δαίμονες εμφανίζονται τα Χριστούγεννα στα υπόγεια, χορεύουν και ουρούν σε δοχεία με τρόφιμα. Οι κάτοικοι καθαρίζουν τα υπόγεια και σφραγίζουν τα δοχεία με κοπριά ζώων για προστασία.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-kallivrousides-tis-androu",
+        "keywords": [
+          "Μεσαριά",
+          "Άνδρος",
+          "Ανδρος",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Καλλιβρούσηδες της Άνδρου",
+          "description": "Λαογραφική μελέτη για τους Καλλιβρούσηδες (Καλλικάντζαρους) στη Μεσαριά Άνδρου. Αυτοί οι μικροί δαίμονες εμφανίζονται τα Χριστούγεννα στα υπόγεια, χορεύουν και ουρούν σε δοχεία με τρόφιμα. Οι κάτοικοι καθαρίζουν τα υπόγεια και σφραγίζουν τα δοχεία με κοπριά ζώων για προστασία.",
+          "inLanguage": "el",
+          "datePublished": "1914",
+          "author": {
+            "@type": "Person",
+            "name": "Θεοδ. Α. Βληζιώτης"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-kallivrousides-tis-androu.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Μεσαριά",
+            "Άνδρος",
+            "Ανδρος",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-kallivrousides-tis-androu"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Ανδρος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Μεσαριά"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.8333,
+              "longitude": 24.9333
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
-      "type": "text",
-      "value": "Πριν κάμποσα χρόνια ο παπάς της Μονόλιθος, ο Παπαγιάννης με το όνομα, ερχόταν μια μέρα απο το Κυμμαράσι (λιμάνι του χωριού) και άκουσε ομιλίες. Άκουσε \"Καου - Κάου\". Κατάλαβε πως ήταν Κάους αυτός που φώναζε και όταν ήρθε κοντά του τον έπιασε απο τα μαλλιά πριν πει τρίτη φορά \"Κάου\"."
+      "id": "304",
+      "title": "Οι καλικάντζαροι των Σπετσών",
+      "slug": "oi-kalikantzaroi-ton-spetson",
+      "author": "Rodd Rennell",
+      "date": "1892",
+      "excerpt": "Ιστορία από τις Σπέτσες για γυναίκα που απήχθη από καλικάντζαρους κοντά σε σπηλιά. Βρέθηκε χωρίς φωνή και ανέκτησε την ομιλία της μόνο μετά από εκκλησιαστικό εξορκισμό.",
+      "mainArea": "Σπέτσες",
+      "subLocation": "",
+      "locationTags": [
+        "Σπέτσες",
+        "καλικάντζαροι",
+        "εξορκισμός",
+        "νησιωτική λαογραφία",
+        "Σαρωνικός"
+      ],
+      "lat": 37.261,
+      "lng": 23.159,
+      "image": {
+        "src": "/images/laografia/oi-kalikantzaroi-ton-spetson.webp",
+        "alt": "Παραδοσιακό σπίτι στις Σπέτσες, τόπος της ιστορίας με τους καλικάντζαρους"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Μια ιστορία μου διηγήθηκαν στις Σπέτσες, την οποία ο πληροφοριοδότης μου είχε ακούσει από τον παππού του, σχετικά με τις περιπέτειες μιας γυναίκας του νησιού με αυτά τα παράξενα όντα."
+        },
+        {
+          "type": "text",
+          "value": "Είχε πάει με δύο άλλες γυναίκες να μαζέψουν ξύλα στην άλλη άκρη του νησιού, σε κάποια απόσταση από την πόλη, κοντά σε μια σπηλιά δίπλα στη θάλασσα, με την οποία συνδέονται διάφορες άλλες δεισιδαιμονίες."
+        },
+        {
+          "type": "text",
+          "value": "Ξαφνικά όμως εξαφανίστηκε, και όλες οι προσπάθειες των συντρόφων της να τη βρουν ήταν μάταιες. Μερικές μέρες αργότερα, ένα καΐκι που περνούσε από το ακρωτήρι του νησιού, είδε τη χαμένη γυναίκα να στέκεται πάνω στα βράχια. Βγήκαν στη στεριά και την έφεραν πίσω στην πόλη, αλλά είχε χάσει τη φωνή της και δεν μπορούσε να δώσει καμία εξήγηση."
+        },
+        {
+          "type": "text",
+          "value": "Μόνο όταν την πήγαν στην εκκλησία και τελέστηκαν τα απαραίτητα τελετουργικά για τον εξορκισμό των πονηρών πνευμάτων, ανέκτησε τη φωνή της· και τότε αποκάλυψε ότι την είχαν αρπάξει οι Καλικάντζαροι, οι οποίοι της είχαν πάρει τη φωνή για να μην μπορεί να αποκαλύψει τίποτα."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Rodd Rennell",
+          "title": "The customs and lore of modern Greece",
+          "year": "1892",
+          "pages": "199-200"
+        }
+      ],
+      "tags": [
+        "Σπέτσες",
+        "Καλικάντζαροι",
+        "Εξορκισμός",
+        "Νησιωτική Λαογραφία",
+        "Σαρωνικός",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι καλικάντζαροι των Σπετσών | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Ιστορία από τις Σπέτσες για γυναίκα που απήχθη από καλικάντζαρους κοντά σε σπηλιά. Βρέθηκε χωρίς φωνή και ανέκτησε την ομιλία της μόνο μετά από εκκλησιαστικό εξορκισμό.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-kalikantzaroi-ton-spetson",
+        "keywords": [
+          "Σπέτσες",
+          "Καλικάντζαροι",
+          "Εξορκισμός",
+          "Νησιωτική Λαογραφία",
+          "Σαρωνικός",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι καλικάντζαροι των Σπετσών",
+          "description": "Ιστορία από τις Σπέτσες για γυναίκα που απήχθη από καλικάντζαρους κοντά σε σπηλιά. Βρέθηκε χωρίς φωνή και ανέκτησε την ομιλία της μόνο μετά από εκκλησιαστικό εξορκισμό.",
+          "inLanguage": "el",
+          "datePublished": "1892",
+          "author": {
+            "@type": "Person",
+            "name": "Rodd Rennell"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-kalikantzaroi-ton-spetson.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Σπέτσες",
+            "Καλικάντζαροι",
+            "Εξορκισμός",
+            "Νησιωτική Λαογραφία",
+            "Σαρωνικός",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-kalikantzaroi-ton-spetson"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Σπέτσες",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.261,
+              "longitude": 23.159
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
-      "type": "text",
-      "value": "Τον έπιασε γερά απο τα μαλλιά και τότε ο Καους ρωτάει τον παπά:"
+      "id": "322",
+      "title": "Οι Κάοι της Ρόδου",
+      "slug": "oi-kaoi-tis-rodou",
+      "author": "Αναστασίος Βρόντης",
+      "date": "1939",
+      "excerpt": "Θρύλος για τους Κάους (καλικάντζαρους) της Ρόδου. Ο παπάς Παπαγιάννης από τον Μονόλιθο πιάστηκε με έναν Κάο, τον θεράπευσε με μόλυβδο και σίδερο, και ως ευχαριστότητα έλαβε πιθάρι μέλι που ονομάζεται «Του Κάου το πιθάρι».",
+      "mainArea": "Ρόδος",
+      "subLocation": "Μονόλιθος",
+      "locationTags": [
+        "Μονόλιθος",
+        "Ρόδος",
+        "Δωδεκάνησα",
+        "Κάους",
+        "καλικάντζαροι",
+        "Παπαγιάννης",
+        "Κυμμαράσι",
+        "Τήλος",
+        "αυκοφοιλλία",
+        "πιθάρι μέλι",
+        "θρύλος",
+        "λαογραφία"
+      ],
+      "lat": 36.1311,
+      "lng": 27.7391,
+      "image": {
+        "src": "/images/laografia/oi-kaoi-tis-rodou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Τους καλικάντζαρους στην Ρόδο τους λέγουν Κάους."
+        },
+        {
+          "type": "text",
+          "value": "Πριν κάμποσα χρόνια ο παπάς της Μονόλιθος, ο Παπαγιάννης με το όνομα, ερχόταν μια μέρα απο το Κυμμαράσι (λιμάνι του χωριού) και άκουσε ομιλίες. Άκουσε \"Καου - Κάου\". Κατάλαβε πως ήταν Κάους αυτός που φώναζε και όταν ήρθε κοντά του τον έπιασε απο τα μαλλιά πριν πει τρίτη φορά \"Κάου\"."
+        },
+        {
+          "type": "text",
+          "value": "Τον έπιασε γερά απο τα μαλλιά και τότε ο Καους ρωτάει τον παπά:"
+        },
+        {
+          "type": "text",
+          "value": "- \"Στουππος για μόλυβος\";"
+        },
+        {
+          "type": "text",
+          "value": "- \"Μόλυβος\" απάντησε ο παπας και ο Κάους κουλουριάστηκε σαν αρνί. Τον πήρε ο παπάς στο σπίτι του και έκαψε το πόδι του με ένα πυρωμένο σίδερο. Απο μέσα βγήκαν σκατοπάμπουλοι (Αγριοκάνθαροι)."
+        },
+        {
+          "type": "text",
+          "value": "Ο Κάους τότε ξύπνησε απο το βαθύ του ύπνο και είπε:"
+        },
+        {
+          "type": "text",
+          "value": "- Που ήμουν και που βρέθηκα;"
+        },
+        {
+          "type": "text",
+          "value": "Τόν ρώτησε τότε ο παπάς, απο ποιο μέρος είναι και ο Κάους του απάντησε πως ειναι απο την Τήλο και κατοικεί μέσα σε μια αυκοφοιλλία (φλοιό αυγού)."
+        },
+        {
+          "type": "text",
+          "value": "Οταν έφυγε ο Κάους και γύρισε στην Τήλο, έστειλε δώρο στον παπά ενα πιθάρι γεμάτο μέλι. Το πιθάρι βρίσκεται ακόμα στο σπίτι του Παπαγιάννη και ως σήμερα (1939) ονομάζεται \"Του Κάου το πιθάρι\"."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Αναστασίος Βρόντης",
+          "title": "Ροδιακά",
+          "year": "1939",
+          "pages": "50-51"
+        }
+      ],
+      "tags": [
+        "Μονόλιθος",
+        "Ρόδος",
+        "Δωδεκάνησα",
+        "Κάους",
+        "Καλικάντζαροι",
+        "Παπαγιάννης",
+        "Κυμμαράσι",
+        "Τήλος",
+        "Αυκοφοιλλία",
+        "Πιθάρι Μέλι",
+        "Θρύλος",
+        "Λαογραφία",
+        "Καλικάτζαροι",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Κάοι της Ρόδου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Θρύλος για τους Κάους (καλικάντζαρους) της Ρόδου. Ο παπάς Παπαγιάννης από τον Μονόλιθο πιάστηκε με έναν Κάο, τον θεράπευσε με μόλυβδο και σίδερο, και ως ευχαριστότητα έλαβε πιθάρι μέλι που ονομάζεται «Του Κάου το πιθάρι».",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-kaoi-tis-rodou",
+        "keywords": [
+          "Μονόλιθος",
+          "Ρόδος",
+          "Δωδεκάνησα",
+          "Κάους",
+          "Καλικάντζαροι",
+          "Παπαγιάννης",
+          "Κυμμαράσι",
+          "Τήλος",
+          "Αυκοφοιλλία",
+          "Πιθάρι Μέλι",
+          "Θρύλος",
+          "Λαογραφία",
+          "Καλικάτζαροι",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Κάοι της Ρόδου",
+          "description": "Θρύλος για τους Κάους (καλικάντζαρους) της Ρόδου. Ο παπάς Παπαγιάννης από τον Μονόλιθο πιάστηκε με έναν Κάο, τον θεράπευσε με μόλυβδο και σίδερο, και ως ευχαριστότητα έλαβε πιθάρι μέλι που ονομάζεται «Του Κάου το πιθάρι».",
+          "inLanguage": "el",
+          "datePublished": "1939",
+          "author": {
+            "@type": "Person",
+            "name": "Αναστασίος Βρόντης"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-kaoi-tis-rodou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Μονόλιθος",
+            "Ρόδος",
+            "Δωδεκάνησα",
+            "Κάους",
+            "Καλικάντζαροι",
+            "Παπαγιάννης",
+            "Κυμμαράσι",
+            "Τήλος",
+            "Αυκοφοιλλία",
+            "Πιθάρι Μέλι",
+            "Θρύλος",
+            "Λαογραφία",
+            "Καλικάτζαροι",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-kaoi-tis-rodou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Ρόδος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Μονόλιθος"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.1311,
+              "longitude": 27.7391
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
-      "type": "text",
-      "value": "- \"Στουππος για μόλυβος\";"
+      "id": "332",
+      "title": "o Γέρος και τα Λυκοκάντζαρα στη Μεγάλη Μαντίνεια",
+      "slug": "o-geros-kai-ta-lykokantzara-sti-megali-mantineia",
+      "author": "ΧΡ. Β. Φραγκούλης",
+      "date": "1938",
+      "excerpt": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια Μεσσηνίας: Ένας γέρος ξεγελάει τα λυκοκάντζαρα σε σπηλιά με ψημένο κρέας, καταφέρνει να αποδράσει και με τη βοήθεια της γυναίκας του τα διώχνουν τελικά.",
+      "mainArea": "Μεσσηνία",
+      "subLocation": "Μεγάλη Μαντίνεια",
+      "locationTags": [
+        "Μεγάλη Μαντίνεια",
+        "Μεσσηνία",
+        "Πελοπόννησος",
+        "λυκοκάντζαρα",
+        "γέρος",
+        "σπηλιά",
+        "κρέας",
+        "φωτιά",
+        "παραμύθι",
+        "λαογραφία"
+      ],
+      "lat": 37.2333,
+      "lng": 21.9667,
+      "image": {
+        "src": "/images/laografia/o-geros-kai-ta-lykokantzara-sti-megali-mantineia.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Μια φορά, ήταν ένας γέρος και μια γριά. Το πρωτί φόρτων ο γέρος στο γαϊδουράκι του σιτάρι και πήγαινε να το αλέσει στο μύλο. Ο μυλωνάς ειχε γουρουνίτσα και την έσφαξε. “ Παίρνεις και συ γέρο ένα κομμάτι;” τον ρώτησε. “Το παίρνω” του απάντησε ο γέρος."
+        },
+        {
+          "type": "text",
+          "value": "Το βράδυ που ξεκίνησε να φύγει, φόρτωσε το γαϊδουράκι του , έβαλε το κρέας μέσα στο σακί του και ξεκίνησε. Στο δρόμο νύχτωσε ενώ βρίσκονταν κοντά σπηλιά του αρχοντικού. Κατέβηκε απο το γαϊδουράκι του και τρύπωσε μέσα στη σπηλιά. Άναψε φωτιά, έκανε θράκα και έβαλε το κρέας να ψήνεται."
+        },
+        {
+          "type": "text",
+          "value": "Τότε το πήραν μυρωδιά τα λυκοκάτζαρα και μπήκαν στη σπηλιά. Πλησίασαν το γέρο και του ζητούσαν κρέας. “ Παππού τσιτσί” του λέγανε. Εκείνος του έλεγε να περιμένουν να ψηθεί πρώτα. “Τώρα γιε μου”να ψηθεί. “ Παππού τσιτσί και ας ειναι και ωμό”. -”Τώρα να ψηθεί”."
+        },
+        {
+          "type": "text",
+          "value": "Ξεκίνησαν να προσπαθούν να του αρπάξουνε τα κάρβουνα. Ο γέρος συνέχιζε να τους απαντάει το ίδιο μέχρι που άρπαξε ενα πυρωμένο ξύλο και τα χτύπησε καίγοντας τα."
+        },
+        {
+          "type": "text",
+          "value": "Αυτά αφήσαν πορδές και άρχισαν να τρέχουν προς τα έξω. Τότε ο γέρος, μαζεύει τα πράγματα του και το κρέας, τα φορτώνει στο γαϊδουράκι του και φεύγει και αυτός γρήγορα."
+        },
+        {
+          "type": "text",
+          "value": "Για να μη γίνει αντιληπτος, κουκουλώθηκε ολόκληρος με την κάπα του και μέσα απο την κάπα κρατούσε ένα ξύλο ώστε να χτυπάει το γαϊδουράκι του για να προχωράει αλλά χωρίς να φαίνεται."
+        },
+        {
+          "type": "text",
+          "value": "Τα λυκοκάντζαρος ξαναπηγαν στη σπηλιά αλλά δε τον βρήκαν εκεί και άρχισαν να τρέχουν φτάνοντας του γαϊδούρι. Κοιτάγαν εδώ και εκεί αλλά δε βλέπαν το γέρο και αναρωτιόντουσαν που έχει πάει “ ο γεροκερατάς”."
+        },
+        {
+          "type": "text",
+          "value": "Ξαναπάνε τρέχοντας στη σπηλιά, κοιτάνε και δεν τον βλέπουν ούτε εκεί."
+        },
+        {
+          "type": "text",
+          "value": "Ο γέρος, είχε σχεδόν φτάσει έξω απο το σπίτι του και φώναξε στη γριά γυναίκα του “ Βγες έξω γριά με τον δαυλό! “"
+        },
+        {
+          "type": "text",
+          "value": "Πετάγεται έξω η γριά κρατώντας ενα φτυάρι με κάρβουνα και βλέποντας τους να πλησιάζουν, τους χτύπησε με το φτυάρι. Αυτοί καήκανε και φύγανε τρέχοντας."
+        },
+        {
+          "type": "text",
+          "value": "Το βράδυ, που ξάπλωσαν για να κοιμηθούν ο γέρος και η γριά, τα λυκοκάντζαρα έβαλαν τα πόδια τους στις τρύπες του σπιτιού και ο γέρος και η γριά που τα έβλεπαν ειχαν τρομάξει πολύ."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "ΧΡ. Β. Φραγκούλης",
+          "title": "Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 6",
+          "year": "1938",
+          "pages": "248-249"
+        }
+      ],
+      "tags": [
+        "Μεγάλη Μαντίνεια",
+        "Μεσσηνία",
+        "Πελοπόννησος",
+        "Λυκοκάντζαρα",
+        "Γέρος",
+        "Σπηλιά",
+        "Κρέας",
+        "Φωτιά",
+        "Παραμύθι",
+        "Λαογραφία",
+        "Καλικάτζαροι",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "o Γέρος και τα Λυκοκάντζαρα στη Μεγάλη Μαντίνεια | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια Μεσσηνίας: Ένας γέρος ξεγελάει τα λυκοκάντζαρα σε σπηλιά με ψημένο κρέας, καταφέρνει να αποδράσει και με τη βοήθεια της γυναίκας του τα διώχνουν τελικά.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/o-geros-kai-ta-lykokantzara-sti-megali-mantineia",
+        "keywords": [
+          "Μεγάλη Μαντίνεια",
+          "Μεσσηνία",
+          "Πελοπόννησος",
+          "Λυκοκάντζαρα",
+          "Γέρος",
+          "Σπηλιά",
+          "Κρέας",
+          "Φωτιά",
+          "Παραμύθι",
+          "Λαογραφία",
+          "Καλικάτζαροι",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "o Γέρος και τα Λυκοκάντζαρα στη Μεγάλη Μαντίνεια",
+          "description": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια Μεσσηνίας: Ένας γέρος ξεγελάει τα λυκοκάντζαρα σε σπηλιά με ψημένο κρέας, καταφέρνει να αποδράσει και με τη βοήθεια της γυναίκας του τα διώχνουν τελικά.",
+          "inLanguage": "el",
+          "datePublished": "1938",
+          "author": {
+            "@type": "Person",
+            "name": "ΧΡ. Β. Φραγκούλης"
+          },
+          "image": "https://haunted.gr/images/laografia/o-geros-kai-ta-lykokantzara-sti-megali-mantineia.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Μεγάλη Μαντίνεια",
+            "Μεσσηνία",
+            "Πελοπόννησος",
+            "Λυκοκάντζαρα",
+            "Γέρος",
+            "Σπηλιά",
+            "Κρέας",
+            "Φωτιά",
+            "Παραμύθι",
+            "Λαογραφία",
+            "Καλικάτζαροι",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/o-geros-kai-ta-lykokantzara-sti-megali-mantineia"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Μεσσηνία",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Μεγάλη Μαντίνεια"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.2333,
+              "longitude": 21.9667
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
-      "type": "text",
-      "value": "- \"Μόλυβος\" απάντησε ο παπας και ο Κάους κουλουριάστηκε σαν αρνί. Τον πήρε ο παπάς στο σπίτι του και έκαψε το πόδι του με ένα πυρωμένο σίδερο. Απο μέσα βγήκαν σκατοπάμπουλοι (Αγριοκάνθαροι)."
+      "id": "333",
+      "title": "Η Γριά στη βρύση και τα Λυκοκάτζαρα",
+      "slug": "i-gria-sti-vrysi-kai-ta-lykokatzara",
+      "author": "ΧΡ. Β. Φραγκούλης",
+      "date": "1938",
+      "excerpt": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια: Μια γριά πιάνεται από λυκοκάντζαρους ενώ πήγαινε στη βρύση τη νύχτα. Την αναγκάζουν να χορέψει γυμνή, αλλά τελικά διασώζεται όταν χτυπήσει η καμπάνα του παπά.",
+      "mainArea": "Μεσσηνία",
+      "subLocation": "Μεγάλη Μαντίνεια",
+      "locationTags": [
+        "Μεγάλη Μαντίνεια",
+        "Μεσσηνία",
+        "Πελοπόννησος",
+        "λυκοκάντζαρα",
+        "γριά",
+        "βρύση",
+        "νερό",
+        "χορός",
+        "καμπάνα",
+        "παπάς",
+        "παραμύθι",
+        "λαογραφία"
+      ],
+      "lat": 36.9568,
+      "lng": 22.1633,
+      "image": {
+        "src": "/images/laografia/i-gria-sti-vrysi-kai-ta-lykokatzara.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Μια φορά, μια γριά σηκώθηκε τη νύχτα, πήρε μαζί της το βαρέλι της και ξεκίνησε να πηγαίνει προς τη βρύση για να γεμίσει νερό πριν ξυπνήσουν τα εγγόνια της. Μόλις έφτασε έξω απο το αλώνι της γριας Σπανούς, είδε τα λυκοκάτζαρα μέσα που χορεύανε. Αυτά την είδαν και την έπιασαν. “ Ελα εδώ γριά και άσε κάτω το βαρέλι” της είπαν. Αυτοί τους είπε “ Αφήστε με παιδάκι μου να γεμίσω το βαρέλι γιατι θα κλαίνε τα εγγόνια μου, αφήστε με την κακομοίρα”"
+        },
+        {
+          "type": "text",
+          "value": "Ασε κάτω το βαρέλι της ξαναείπαν. Η κακομοίρα η γριά θέλοντας και μη, το άφησε."
+        },
+        {
+          "type": "text",
+          "value": "Στη συνέχεια της είπαν να γδυθεί τελείως και αυτή κατατρόμαξε αλλά δε μπορούσε να κάνει αλλίως γιατί την έπιασαν και την έγδυσαν."
+        },
+        {
+          "type": "text",
+          "value": "Αφού την έγδυσαν, την ανάγκασαν να χορέψει μαζί τους. Όλοι τραγούδαγαν “ πάνω γένια, κάτω γένια και στη μέσι μπιχλιμπίδια. Της είπαν να το τραγουδήσει μαζί τους. Άρχισαν να την πετούν ψηλά και απο το φόβο της άρχισε να το τραγουδάει και αυτή."
+        },
+        {
+          "type": "text",
+          "value": "Την ώρα που χόρευαν ακούστηκε ο πρώτος κοκορας. Τα λυκοκάτζαρα σταμάτησαν αμέσως τον χορό. “ Καμπάνα” είπε ο μικρότερος. “ Αντε βρε, κόκορας ήταν, συνεχίστε να χορεύετε” είπαν οι άλλοι, και συνέχισαν να χορεύουν και να τραγουδούν. Δεν πέρασε λίγη ώρα, και ακούστηκε “νταν - νταν - νταν”. Ηταν ο παπάς που χτυπούσε την καμπάνα. Ξανά ο μικρότερος τους ειπε πως χτυπάει καμπάνα αλλά πάλι τον αγνόησαν."
+        },
+        {
+          "type": "text",
+          "value": "Μετά απο λίγο χτύπησε ξανά η καμπάνα και ο μεγαλύτερος είπε “ τώρα την άκουσα και γω” και οι άλλοι συμφώνησαν."
+        },
+        {
+          "type": "text",
+          "value": "“ Φεύγετε να φεύγουμε\nΓιατι έφτασε ο τουρλόπαπας\nΜε την αγιαστούρα του και με την μπαλαστούρα του\nΚαι μας άγιασε και μας μαγάρισε”"
+        },
+        {
+          "type": "text",
+          "value": "Σταμάτησαν τον χορό και φύγανε τρέχοντας και άφηναν πορδές. Η κακομοίρα η γριά ντύθηκε, έβαλε πάλι το βαρέλι στην πλάτη της και πήγε στη βρύση να γεμίσει νερό."
+        },
+        {
+          "type": "text",
+          "value": "Οταν γύρισε στο σπίτι τα εγγόνια της κλαίγανε και την ρώτησαν γιατι άργησε. Τότε η γριά τους διηγήθηκε τι πέρασε."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "ΧΡ. Β. Φραγκούλης",
+          "title": "Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 6",
+          "year": "1938",
+          "pages": "249-250"
+        }
+      ],
+      "tags": [
+        "Μεγάλη Μαντίνεια",
+        "Μεσσηνία",
+        "Πελοπόννησος",
+        "Λυκοκάντζαρα",
+        "Γριά",
+        "Βρύση",
+        "Νερό",
+        "Χορός",
+        "Καμπάνα",
+        "Παπάς",
+        "Παραμύθι",
+        "Λαογραφία",
+        "Καλικάτζαροι",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Η Γριά στη βρύση και τα Λυκοκάτζαρα | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια: Μια γριά πιάνεται από λυκοκάντζαρους ενώ πήγαινε στη βρύση τη νύχτα. Την αναγκάζουν να χορέψει γυμνή, αλλά τελικά διασώζεται όταν χτυπήσει η καμπάνα του παπά.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/i-gria-sti-vrysi-kai-ta-lykokatzara",
+        "keywords": [
+          "Μεγάλη Μαντίνεια",
+          "Μεσσηνία",
+          "Πελοπόννησος",
+          "Λυκοκάντζαρα",
+          "Γριά",
+          "Βρύση",
+          "Νερό",
+          "Χορός",
+          "Καμπάνα",
+          "Παπάς",
+          "Παραμύθι",
+          "Λαογραφία",
+          "Καλικάτζαροι",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Η Γριά στη βρύση και τα Λυκοκάτζαρα",
+          "description": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια: Μια γριά πιάνεται από λυκοκάντζαρους ενώ πήγαινε στη βρύση τη νύχτα. Την αναγκάζουν να χορέψει γυμνή, αλλά τελικά διασώζεται όταν χτυπήσει η καμπάνα του παπά.",
+          "inLanguage": "el",
+          "datePublished": "1938",
+          "author": {
+            "@type": "Person",
+            "name": "ΧΡ. Β. Φραγκούλης"
+          },
+          "image": "https://haunted.gr/images/laografia/i-gria-sti-vrysi-kai-ta-lykokatzara.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Μεγάλη Μαντίνεια",
+            "Μεσσηνία",
+            "Πελοπόννησος",
+            "Λυκοκάντζαρα",
+            "Γριά",
+            "Βρύση",
+            "Νερό",
+            "Χορός",
+            "Καμπάνα",
+            "Παπάς",
+            "Παραμύθι",
+            "Λαογραφία",
+            "Καλικάτζαροι",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/i-gria-sti-vrysi-kai-ta-lykokatzara"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Μεσσηνία",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Μεγάλη Μαντίνεια"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.9568,
+              "longitude": 22.1633
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
-      "type": "text",
-      "value": "Ο Κάους τότε ξύπνησε απο το βαθύ του ύπνο και είπε:"
+      "id": "347",
+      "title": "Τα καψούρια στο Κουκούλι Ζαγορίου",
+      "slug": "ta-kapsouria-sto-koukoyli-zagoriou",
+      "author": "Κώστας Π. Λαζαρίδης",
+      "date": "1958",
+      "excerpt": "Λαογραφική μελέτη για τα καψούρια (καλλικάντζαροι) στο Κουκούλι Ζαγορίου: Τα δωδεκαήμερα (24 Δεκεμβρίου – 5 Ιανουαρίου), ταξινόμιες προφυλάξεων, ονομασίες, και δραστηριότητες αυτών των δαιμονικών όντων.",
+      "mainArea": "Ιωάννινα",
+      "subLocation": "Κουκούλι",
+      "locationTags": [
+        "Κουκούλι",
+        "Ζαγόρι",
+        "Ιωάννινα",
+        "Ήπειρος",
+        "καψούρια",
+        "Δωδεκαήμερο",
+        "καλλικάντζαροι",
+        "δαίμονες",
+        "λαογραφία"
+      ],
+      "lat": 39.8711,
+      "lng": 20.775,
+      "image": {
+        "src": "/images/laografia/ta-kapsouria-sto-koukoyli-zagoriou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Κατά τη διάρκεια του Δωδεκαημέρου (24 Δεκεμβρίου – 5 Ιανουαρίου), δεν πλένουν ρούχα. Όταν τη νύχτα φωνάξει κάποιος απ’ έξω από το σπίτι, δεν επιτρέπεται να του απαντήσουν αμέσως από μέσα, χωρίς να βεβαιωθούν ποιος ήταν αυτός που φώναξε. Υπάρχει ο φόβος ότι τα «καψούρια» θα πάρουν τη φωνή του ανθρώπου που μίλησε."
+        },
+        {
+          "type": "text",
+          "value": "Όποιος έχει απόλυτη ανάγκη να βγει έξω τη νύχτα, πρέπει να έχει μαζί του ένα κομματάκι θυμίαμα. Το βράδυ, πριν κοιμηθεί η οικογένεια, καίγεται λίγο θυμίαμα, γιατί από τη μυρωδιά του δεν πλησιάζουν τα καψούρια."
+        },
+        {
+          "type": "text",
+          "value": "Στο χωριό δεν χρησιμοποιείται η λέξη “καλλικάντζαροι”. Οι ονομασίες που χρησιμοποιούνται είναι: «καψούρια», «κατσινα», «ντουμχαλέ», «ζιζιβούληδες», «εξαπέδω», «ανάβαλτοι». Η πιο διαδεδομένη ονομασία είναι «καψούρια»."
+        },
+        {
+          "type": "text",
+          "value": "Ο λαός πιστεύει πως πρόκειται για δαίμονες (σαϊταναραίους) που έρχονται στη γη κατά τη διάρκεια του Δωδεκαημέρου, με μοναδικό σκοπό να προκαλέσουν κακό στους ανθρώπους."
+        },
+        {
+          "type": "text",
+          "value": "Εμφανίζονται στη γη την παραμονή των Χριστουγέννων και εξαφανίζονται στις 5 Ιανουαρίου, μόλις ο παπάς πει το «ἐν Ἰορδάνῃ...». Κατά το Δωδεκαήμερο εμφανίζονται μόνο τη νύχτα, μόλις πέσει το σκοτάδι και παραμένουν μέχρι τα ξημερώματα, τότε που αρχίζουν να φωνάζουν τα κοκόρια. Με το λάλημα των πετεινών εξαφανίζονται, για να εμφανιστούν ξανά την επόμενη νύχτα – και ούτω καθεξής."
+        },
+        {
+          "type": "text",
+          "value": "Στο χωριό πιστεύεται ότι τα «καψούρια» έχουν ανθρώπινη μορφή με διάφορα σωματικά ελαττώματα, κυρίως κουτσοί. Γι’ αυτό και για κάποιον κουτσό λένε πως είναι «ζιζιβούλης» ή «τζιρτζίβούλης». Λέγεται και το εξής: «Ο κουτσός κι ο διάβολος είναι το ίδιο»."
+        },
+        {
+          "type": "text",
+          "value": "Λέγεται ακόμη ότι τα «καψούρια» καβαλικεύουν άλογα και γομάρια. Αν κάποιος πάθει ένα μικρό ατύχημα αυτήν την περίοδο, οι γυναίκες λένε: «Φύλαξε ο Θεός κι ήταν ο μικρός ζιζιβούλης καβάλα στο γομάρι και δεν ήταν ο μεγάλος καβάλα στο άτι!»"
+        },
+        {
+          "type": "text",
+          "value": "Όταν σε κάποιο σπίτι παρουσιάζονται γκρίνιες και καβγάδες, πιστεύουν πως πρόκειται για αόρατη ενέργεια των καψουριών. Λένε: «Νάτα τα κατσόινα, χορεύουν τώρα που μαλλιώνουν στο σπίτι!»"
+        },
+        {
+          "type": "text",
+          "value": "Τα «καψούρια» φορούν άσχημα και ξεσχισμένα ρούχα τις νύχτες που γυρίζουν. Γι’ αυτό, όταν δουν κάποιον άνθρωπο να περπατά έτσι ντυμένος, λένε: «Περπατεί ξεσχισμένος σαν κατσόινο». Και για κάποιον που κυκλοφορεί τη νύχτα λένε: «Περπατεί τη νύχτα σαν τα καψούρια»."
+        },
+        {
+          "type": "text",
+          "value": "Ο λαός πιστεύει ακόμη και το εξής: ότι τα καψούρια αγαπούν πολύ τις βαθιές ρεματιές, όπου γυρνούν τις νύχτες του Δωδεκαημέρου και χτυπούν νταούλια και ντέφια. Είναι αδύνατο να το βγάλει κανείς αυτό από το μυαλό ορισμένων γυναικών, οι οποίες ισχυρίζονται ότι έχουν ακούσει τέτοια πράγματα."
+        },
+        {
+          "type": "text",
+          "value": "Ιδιαίτερη αδυναμία έχουν να τριγυρνούν κοντά στους μύλους (υδρόμυλους). Γι’ αυτό και οι μυλωνάδες δεν κοιμούνται στους μύλους αυτήν την περίοδο και ο καθένας αποφεύγει να περνάει τη νύχτα από γεφύρια ή να νυχτώνει κοντά σε μύλο."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Κώστας Π. Λαζαρίδης",
+          "title": "Ηπειρωτική Εστία 79-80 -Λαογραφικά για τά δεκαήμερα Κουκουλίου Ζαγορίου",
+          "year": "1958",
+          "pages": "891"
+        }
+      ],
+      "tags": [
+        "Κουκούλι",
+        "Ζαγόρι",
+        "Ιωάννινα",
+        "Ήπειρος",
+        "Καψούρια",
+        "Δωδεκαήμερο",
+        "Καλλικάντζαροι",
+        "Δαίμονες",
+        "Λαογραφία",
+        "Καλικάτζαροι",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Τα καψούρια στο Κουκούλι Ζαγορίου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαογραφική μελέτη για τα καψούρια (καλλικάντζαροι) στο Κουκούλι Ζαγορίου: Τα δωδεκαήμερα (24 Δεκεμβρίου – 5 Ιανουαρίου), ταξινόμιες προφυλάξεων, ονομασίες, και δραστηριότητες αυτών των δαιμονικών όντων.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/ta-kapsouria-sto-koukoyli-zagoriou",
+        "keywords": [
+          "Κουκούλι",
+          "Ζαγόρι",
+          "Ιωάννινα",
+          "Ήπειρος",
+          "Καψούρια",
+          "Δωδεκαήμερο",
+          "Καλλικάντζαροι",
+          "Δαίμονες",
+          "Λαογραφία",
+          "Καλικάτζαροι",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα καψούρια στο Κουκούλι Ζαγορίου",
+          "description": "Λαογραφική μελέτη για τα καψούρια (καλλικάντζαροι) στο Κουκούλι Ζαγορίου: Τα δωδεκαήμερα (24 Δεκεμβρίου – 5 Ιανουαρίου), ταξινόμιες προφυλάξεων, ονομασίες, και δραστηριότητες αυτών των δαιμονικών όντων.",
+          "inLanguage": "el",
+          "datePublished": "1958",
+          "author": {
+            "@type": "Person",
+            "name": "Κώστας Π. Λαζαρίδης"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-kapsouria-sto-koukoyli-zagoriou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Κουκούλι",
+            "Ζαγόρι",
+            "Ιωάννινα",
+            "Ήπειρος",
+            "Καψούρια",
+            "Δωδεκαήμερο",
+            "Καλλικάντζαροι",
+            "Δαίμονες",
+            "Λαογραφία",
+            "Καλικάτζαροι",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/ta-kapsouria-sto-koukoyli-zagoriou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Ιωάννινα",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Κουκούλι"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.8711,
+              "longitude": 20.775
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     },
     {
-      "type": "text",
-      "value": "- Που ήμουν και που βρέθηκα;"
-    },
-    {
-      "type": "text",
-      "value": "Τόν ρώτησε τότε ο παπάς, απο ποιο μέρος είναι και ο Κάους του απάντησε πως ειναι απο την Τήλο και κατοικεί μέσα σε μια αυκοφοιλλία (φλοιό αυγού)."
-    },
-    {
-      "type": "text",
-      "value": "Οταν έφυγε ο Κάους και γύρισε στην Τήλο, έστειλε δώρο στον παπά ενα πιθάρι γεμάτο μέλι. Το πιθάρι βρίσκεται ακόμα στο σπίτι του Παπαγιάννη και ως σήμερα (1939) ονομάζεται \"Του Κάου το πιθάρι\"."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Αναστασίος Βρόντης",
-      "title": "Ροδιακά",
-      "year": "1939",
-      "pages": "50-51"
-    }
-  ]
-},
-{
-  "id": "332",
-  "title": "o Γέρος και τα Λυκοκάντζαρα στη Μεγάλη Μαντίνεια",
-  "slug": "o-geros-kai-ta-lykokantzara-sti-megali-mantineia",
-  "author": "ΧΡ. Β. Φραγκούλης",
-  "date": "1938",
-  "excerpt": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια Μεσσηνίας: Ένας γέρος ξεγελάει τα λυκοκάντζαρα σε σπηλιά με ψημένο κρέας, καταφέρνει να αποδράσει και με τη βοήθεια της γυναίκας του τα διώχνουν τελικά.",
-  "mainArea": "Μεσσηνία",
-  "subLocation": "Μεγάλη Μαντίνεια",
-  "locationTags": ["Μεγάλη Μαντίνεια", "Μεσσηνία", "Πελοπόννησος", "λυκοκάντζαρα", "γέρος", "σπηλιά", "κρέας", "φωτιά", "παραμύθι", "λαογραφία"],
-  "lat": 37.2333,
-  "lng": 21.9667,
-  "image": {
-    "src": "/images/laografia/o-geros-kai-ta-lykokantzara-sti-megali-mantineia.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Μια φορά, ήταν ένας γέρος και μια γριά. Το πρωτί φόρτων ο γέρος στο γαϊδουράκι του σιτάρι και πήγαινε να το αλέσει στο μύλο. Ο μυλωνάς ειχε γουρουνίτσα και την έσφαξε. “ Παίρνεις και συ γέρο ένα κομμάτι;” τον ρώτησε. “Το παίρνω” του απάντησε ο γέρος."
-    },
-    {
-      "type": "text",
-      "value": "Το βράδυ που ξεκίνησε να φύγει, φόρτωσε το γαϊδουράκι του , έβαλε το κρέας μέσα στο σακί του και ξεκίνησε. Στο δρόμο νύχτωσε ενώ βρίσκονταν κοντά σπηλιά του αρχοντικού. Κατέβηκε απο το γαϊδουράκι του και τρύπωσε μέσα στη σπηλιά. Άναψε φωτιά, έκανε θράκα και έβαλε το κρέας να ψήνεται."
-    },
-    {
-      "type": "text",
-      "value": "Τότε το πήραν μυρωδιά τα λυκοκάτζαρα και μπήκαν στη σπηλιά. Πλησίασαν το γέρο και του ζητούσαν κρέας. “ Παππού τσιτσί” του λέγανε. Εκείνος του έλεγε να περιμένουν να ψηθεί πρώτα. “Τώρα γιε μου”να ψηθεί. “ Παππού τσιτσί και ας ειναι και ωμό”. -”Τώρα να ψηθεί”."
-    },
-    {
-      "type": "text",
-      "value": "Ξεκίνησαν να προσπαθούν να του αρπάξουνε τα κάρβουνα. Ο γέρος συνέχιζε να τους απαντάει το ίδιο μέχρι που άρπαξε ενα πυρωμένο ξύλο και τα χτύπησε καίγοντας τα."
-    },
-    {
-      "type": "text",
-      "value": "Αυτά αφήσαν πορδές και άρχισαν να τρέχουν προς τα έξω. Τότε ο γέρος, μαζεύει τα πράγματα του και το κρέας, τα φορτώνει στο γαϊδουράκι του και φεύγει και αυτός γρήγορα."
-    },
-    {
-      "type": "text",
-      "value": "Για να μη γίνει αντιληπτος, κουκουλώθηκε ολόκληρος με την κάπα του και μέσα απο την κάπα κρατούσε ένα ξύλο ώστε να χτυπάει το γαϊδουράκι του για να προχωράει αλλά χωρίς να φαίνεται."
-    },
-    {
-      "type": "text",
-      "value": "Τα λυκοκάντζαρος ξαναπηγαν στη σπηλιά αλλά δε τον βρήκαν εκεί και άρχισαν να τρέχουν φτάνοντας του γαϊδούρι. Κοιτάγαν εδώ και εκεί αλλά δε βλέπαν το γέρο και αναρωτιόντουσαν που έχει πάει “ ο γεροκερατάς”."
-    },
-    {
-      "type": "text",
-      "value": "Ξαναπάνε τρέχοντας στη σπηλιά, κοιτάνε και δεν τον βλέπουν ούτε εκεί."
-    },
-    {
-      "type": "text",
-      "value": "Ο γέρος, είχε σχεδόν φτάσει έξω απο το σπίτι του και φώναξε στη γριά γυναίκα του “ Βγες έξω γριά με τον δαυλό! “"
-    },
-    {
-      "type": "text",
-      "value": "Πετάγεται έξω η γριά κρατώντας ενα φτυάρι με κάρβουνα και βλέποντας τους να πλησιάζουν, τους χτύπησε με το φτυάρι. Αυτοί καήκανε και φύγανε τρέχοντας."
-    },
-    {
-      "type": "text",
-      "value": "Το βράδυ, που ξάπλωσαν για να κοιμηθούν ο γέρος και η γριά, τα λυκοκάντζαρα έβαλαν τα πόδια τους στις τρύπες του σπιτιού και ο γέρος και η γριά που τα έβλεπαν ειχαν τρομάξει πολύ."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "ΧΡ. Β. Φραγκούλης",
-      "title": "Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 6",
-      "year": "1938",
-      "pages": "248-249"
-    }
-  ]
-},
-{
-  "id": "333",
-  "title": "Η Γριά στη βρύση και τα Λυκοκάτζαρα",
-  "slug": "i-gria-sti-vrysi-kai-ta-lykokatzara",
-  "author": "ΧΡ. Β. Φραγκούλης",
-  "date": "1938",
-  "excerpt": "Λαογραφικό παραμύθι από τη Μεγάλη Μαντίνεια: Μια γριά πιάνεται από λυκοκάντζαρους ενώ πήγαινε στη βρύση τη νύχτα. Την αναγκάζουν να χορέψει γυμνή, αλλά τελικά διασώζεται όταν χτυπήσει η καμπάνα του παπά.",
-  "mainArea": "Μεσσηνία",
-  "subLocation": "Μεγάλη Μαντίνεια",
-  "locationTags": ["Μεγάλη Μαντίνεια", "Μεσσηνία", "Πελοπόννησος", "λυκοκάντζαρα", "γριά", "βρύση", "νερό", "χορός", "καμπάνα", "παπάς", "παραμύθι", "λαογραφία"],
-  "lat": 36.9568,
-  "lng": 22.1633,
-  "image": {
-    "src": "/images/laografia/i-gria-sti-vrysi-kai-ta-lykokatzara.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Μια φορά, μια γριά σηκώθηκε τη νύχτα, πήρε μαζί της το βαρέλι της και ξεκίνησε να πηγαίνει προς τη βρύση για να γεμίσει νερό πριν ξυπνήσουν τα εγγόνια της. Μόλις έφτασε έξω απο το αλώνι της γριας Σπανούς, είδε τα λυκοκάτζαρα μέσα που χορεύανε. Αυτά την είδαν και την έπιασαν. “ Ελα εδώ γριά και άσε κάτω το βαρέλι” της είπαν. Αυτοί τους είπε “ Αφήστε με παιδάκι μου να γεμίσω το βαρέλι γιατι θα κλαίνε τα εγγόνια μου, αφήστε με την κακομοίρα”"
-    },
-    {
-      "type": "text",
-      "value": "Ασε κάτω το βαρέλι της ξαναείπαν. Η κακομοίρα η γριά θέλοντας και μη, το άφησε."
-    },
-    {
-      "type": "text",
-      "value": "Στη συνέχεια της είπαν να γδυθεί τελείως και αυτή κατατρόμαξε αλλά δε μπορούσε να κάνει αλλίως γιατί την έπιασαν και την έγδυσαν."
-    },
-    {
-      "type": "text",
-      "value": "Αφού την έγδυσαν, την ανάγκασαν να χορέψει μαζί τους. Όλοι τραγούδαγαν “ πάνω γένια, κάτω γένια και στη μέσι μπιχλιμπίδια. Της είπαν να το τραγουδήσει μαζί τους. Άρχισαν να την πετούν ψηλά και απο το φόβο της άρχισε να το τραγουδάει και αυτή."
-    },
-    {
-      "type": "text",
-      "value": "Την ώρα που χόρευαν ακούστηκε ο πρώτος κοκορας. Τα λυκοκάτζαρα σταμάτησαν αμέσως τον χορό. “ Καμπάνα” είπε ο μικρότερος. “ Αντε βρε, κόκορας ήταν, συνεχίστε να χορεύετε” είπαν οι άλλοι, και συνέχισαν να χορεύουν και να τραγουδούν. Δεν πέρασε λίγη ώρα, και ακούστηκε “νταν - νταν - νταν”. Ηταν ο παπάς που χτυπούσε την καμπάνα. Ξανά ο μικρότερος τους ειπε πως χτυπάει καμπάνα αλλά πάλι τον αγνόησαν."
-    },
-    {
-      "type": "text",
-      "value": "Μετά απο λίγο χτύπησε ξανά η καμπάνα και ο μεγαλύτερος είπε “ τώρα την άκουσα και γω” και οι άλλοι συμφώνησαν."
-    },
-    {
-      "type": "text",
-      "value": "“ Φεύγετε να φεύγουμε\nΓιατι έφτασε ο τουρλόπαπας\nΜε την αγιαστούρα του και με την μπαλαστούρα του\nΚαι μας άγιασε και μας μαγάρισε”"
-    },
-    {
-      "type": "text",
-      "value": "Σταμάτησαν τον χορό και φύγανε τρέχοντας και άφηναν πορδές. Η κακομοίρα η γριά ντύθηκε, έβαλε πάλι το βαρέλι στην πλάτη της και πήγε στη βρύση να γεμίσει νερό."
-    },
-    {
-      "type": "text",
-      "value": "Οταν γύρισε στο σπίτι τα εγγόνια της κλαίγανε και την ρώτησαν γιατι άργησε. Τότε η γριά τους διηγήθηκε τι πέρασε."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "ΧΡ. Β. Φραγκούλης",
-      "title": "Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 6",
-      "year": "1938",
-      "pages": "249-250"
-    }
-  ]
-},
-{
-  "id": "347",
-  "title": "Τα καψούρια στο Κουκούλι Ζαγορίου",
-  "slug": "ta-kapsouria-sto-koukoyli-zagoriou",
-  "author": "Κώστας Π. Λαζαρίδης",
-  "date": "1958",
-  "excerpt": "Λαογραφική μελέτη για τα καψούρια (καλλικάντζαροι) στο Κουκούλι Ζαγορίου: Τα δωδεκαήμερα (24 Δεκεμβρίου – 5 Ιανουαρίου), ταξινόμιες προφυλάξεων, ονομασίες, και δραστηριότητες αυτών των δαιμονικών όντων.",
-  "mainArea": "Ιωάννινα",
-  "subLocation": "Κουκούλι",
-  "locationTags": ["Κουκούλι", "Ζαγόρι", "Ιωάννινα", "Ήπειρος", "καψούρια", "Δωδεκαήμερο", "καλλικάντζαροι", "δαίμονες", "λαογραφία"],
-  "lat": 39.8711,
-  "lng": 20.7750,
-  "image": {
-    "src": "/images/laografia/ta-kapsouria-sto-koukoyli-zagoriou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Κατά τη διάρκεια του Δωδεκαημέρου (24 Δεκεμβρίου – 5 Ιανουαρίου), δεν πλένουν ρούχα. Όταν τη νύχτα φωνάξει κάποιος απ’ έξω από το σπίτι, δεν επιτρέπεται να του απαντήσουν αμέσως από μέσα, χωρίς να βεβαιωθούν ποιος ήταν αυτός που φώναξε. Υπάρχει ο φόβος ότι τα «καψούρια» θα πάρουν τη φωνή του ανθρώπου που μίλησε."
-    },
-    {
-      "type": "text",
-      "value": "Όποιος έχει απόλυτη ανάγκη να βγει έξω τη νύχτα, πρέπει να έχει μαζί του ένα κομματάκι θυμίαμα. Το βράδυ, πριν κοιμηθεί η οικογένεια, καίγεται λίγο θυμίαμα, γιατί από τη μυρωδιά του δεν πλησιάζουν τα καψούρια."
-    },
-    {
-      "type": "text",
-      "value": "Στο χωριό δεν χρησιμοποιείται η λέξη “καλλικάντζαροι”. Οι ονομασίες που χρησιμοποιούνται είναι: «καψούρια», «κατσινα», «ντουμχαλέ», «ζιζιβούληδες», «εξαπέδω», «ανάβαλτοι». Η πιο διαδεδομένη ονομασία είναι «καψούρια»."
-    },
-    {
-      "type": "text",
-      "value": "Ο λαός πιστεύει πως πρόκειται για δαίμονες (σαϊταναραίους) που έρχονται στη γη κατά τη διάρκεια του Δωδεκαημέρου, με μοναδικό σκοπό να προκαλέσουν κακό στους ανθρώπους."
-    },
-    {
-      "type": "text",
-      "value": "Εμφανίζονται στη γη την παραμονή των Χριστουγέννων και εξαφανίζονται στις 5 Ιανουαρίου, μόλις ο παπάς πει το «ἐν Ἰορδάνῃ...». Κατά το Δωδεκαήμερο εμφανίζονται μόνο τη νύχτα, μόλις πέσει το σκοτάδι και παραμένουν μέχρι τα ξημερώματα, τότε που αρχίζουν να φωνάζουν τα κοκόρια. Με το λάλημα των πετεινών εξαφανίζονται, για να εμφανιστούν ξανά την επόμενη νύχτα – και ούτω καθεξής."
-    },
-    {
-      "type": "text",
-      "value": "Στο χωριό πιστεύεται ότι τα «καψούρια» έχουν ανθρώπινη μορφή με διάφορα σωματικά ελαττώματα, κυρίως κουτσοί. Γι’ αυτό και για κάποιον κουτσό λένε πως είναι «ζιζιβούλης» ή «τζιρτζίβούλης». Λέγεται και το εξής: «Ο κουτσός κι ο διάβολος είναι το ίδιο»."
-    },
-    {
-      "type": "text",
-      "value": "Λέγεται ακόμη ότι τα «καψούρια» καβαλικεύουν άλογα και γομάρια. Αν κάποιος πάθει ένα μικρό ατύχημα αυτήν την περίοδο, οι γυναίκες λένε: «Φύλαξε ο Θεός κι ήταν ο μικρός ζιζιβούλης καβάλα στο γομάρι και δεν ήταν ο μεγάλος καβάλα στο άτι!»"
-    },
-    {
-      "type": "text",
-      "value": "Όταν σε κάποιο σπίτι παρουσιάζονται γκρίνιες και καβγάδες, πιστεύουν πως πρόκειται για αόρατη ενέργεια των καψουριών. Λένε: «Νάτα τα κατσόινα, χορεύουν τώρα που μαλλιώνουν στο σπίτι!»"
-    },
-    {
-      "type": "text",
-      "value": "Τα «καψούρια» φορούν άσχημα και ξεσχισμένα ρούχα τις νύχτες που γυρίζουν. Γι’ αυτό, όταν δουν κάποιον άνθρωπο να περπατά έτσι ντυμένος, λένε: «Περπατεί ξεσχισμένος σαν κατσόινο». Και για κάποιον που κυκλοφορεί τη νύχτα λένε: «Περπατεί τη νύχτα σαν τα καψούρια»."
-    },
-    {
-      "type": "text",
-      "value": "Ο λαός πιστεύει ακόμη και το εξής: ότι τα καψούρια αγαπούν πολύ τις βαθιές ρεματιές, όπου γυρνούν τις νύχτες του Δωδεκαημέρου και χτυπούν νταούλια και ντέφια. Είναι αδύνατο να το βγάλει κανείς αυτό από το μυαλό ορισμένων γυναικών, οι οποίες ισχυρίζονται ότι έχουν ακούσει τέτοια πράγματα."
-    },
-    {
-      "type": "text",
-      "value": "Ιδιαίτερη αδυναμία έχουν να τριγυρνούν κοντά στους μύλους (υδρόμυλους). Γι’ αυτό και οι μυλωνάδες δεν κοιμούνται στους μύλους αυτήν την περίοδο και ο καθένας αποφεύγει να περνάει τη νύχτα από γεφύρια ή να νυχτώνει κοντά σε μύλο."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Κώστας Π. Λαζαρίδης",
-      "title": "Ηπειρωτική Εστία 79-80 -Λαογραφικά για τά δεκαήμερα Κουκουλίου Ζαγορίου",
-     
-      "year": "1958",
-      "pages": "891"
-    }
-  ]
-},
-
-{
-  "id": "348",
-  "title": "Τα Καρκαντζέλια του Πράγγιου",
-  "slug": "ta-karkantzelia-tou-praggiou",
-  "author": "Χρήστος Γιανναπούλος",
-  "date": "",
-  "excerpt": "Λαογραφική παράδοση για καρκαντζέλια (καλλικάντζαροι) στο Πράγγι Έβρου: Δραστηριότητες τους κατά το Δωδεκαήμερο, αλληλεπίδραση με ανθρώπους και δώρα φλουριών.",
-  "mainArea": "Έβρος",
-  "subLocation": "Πράγγι",
-  "locationTags": ["Πράγγι", "Έβρος", "Θράκη", "καρκαντζέλια", "Δωδεκαήμερο", "καλλικάντζαροι", "φλουριά", "λαογραφία"],
- "lat": 41.3464,
-  "lng": 26.5761,
-  "image": {
-    "src": "/images/laografia/ta-karkantzelia-tou-praggiou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Τα καρκαντζέλια πάλι γυρίζουν τα δωδεκάημερα, ώσπου να λαλήσει ο κοκκορας την αυγή· τότε χάνονται. Όποιον συναντήσουν αργά το βράδυ στους δρόμους, τον πιάνουν και του ρωτούν παράξενα και κουτά πράγματα. Και αν τύχη να ευχαριστηθούν από τις απαντήσεις του ανθρώπου, του χαρίζουν φλουριά πολλά."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
+      "id": "348",
+      "title": "Τα Καρκαντζέλια του Πράγγιου",
+      "slug": "ta-karkantzelia-tou-praggiou",
       "author": "Χρήστος Γιανναπούλος",
-      "title": "Λαογραφικά Πραγγίου Έβρου - Αρχείο Θρακικού Λαογραφικού Γλωσσικού Θησαυρού tόμος 30",
-      
-      "year": "1964",
-      "pages": "383"
+      "date": "",
+      "excerpt": "Λαογραφική παράδοση για καρκαντζέλια (καλλικάντζαροι) στο Πράγγι Έβρου: Δραστηριότητες τους κατά το Δωδεκαήμερο, αλληλεπίδραση με ανθρώπους και δώρα φλουριών.",
+      "mainArea": "Έβρος",
+      "subLocation": "Πράγγι",
+      "locationTags": [
+        "Πράγγι",
+        "Έβρος",
+        "Θράκη",
+        "καρκαντζέλια",
+        "Δωδεκαήμερο",
+        "καλλικάντζαροι",
+        "φλουριά",
+        "λαογραφία"
+      ],
+      "lat": 41.3464,
+      "lng": 26.5761,
+      "image": {
+        "src": "/images/laografia/ta-karkantzelia-tou-praggiou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Τα καρκαντζέλια πάλι γυρίζουν τα δωδεκάημερα, ώσπου να λαλήσει ο κοκκορας την αυγή· τότε χάνονται. Όποιον συναντήσουν αργά το βράδυ στους δρόμους, τον πιάνουν και του ρωτούν παράξενα και κουτά πράγματα. Και αν τύχη να ευχαριστηθούν από τις απαντήσεις του ανθρώπου, του χαρίζουν φλουριά πολλά."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "author": "Χρήστος Γιανναπούλος",
+          "title": "Λαογραφικά Πραγγίου Έβρου - Αρχείο Θρακικού Λαογραφικού Γλωσσικού Θησαυρού tόμος 30",
+          "year": "1964",
+          "pages": "383"
+        }
+      ],
+      "tags": [
+        "Πράγγι",
+        "Έβρος",
+        "Θράκη",
+        "Καρκαντζέλια",
+        "Δωδεκαήμερο",
+        "Καλλικάντζαροι",
+        "Φλουριά",
+        "Λαογραφία",
+        "Καλικάτζαροι",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Τα Καρκαντζέλια του Πράγγιου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαογραφική παράδοση για καρκαντζέλια (καλλικάντζαροι) στο Πράγγι Έβρου: Δραστηριότητες τους κατά το Δωδεκαήμερο, αλληλεπίδραση με ανθρώπους και δώρα φλουριών.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/ta-karkantzelia-tou-praggiou",
+        "keywords": [
+          "Πράγγι",
+          "Έβρος",
+          "Θράκη",
+          "Καρκαντζέλια",
+          "Δωδεκαήμερο",
+          "Καλλικάντζαροι",
+          "Φλουριά",
+          "Λαογραφία",
+          "Καλικάτζαροι",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα Καρκαντζέλια του Πράγγιου",
+          "description": "Λαογραφική παράδοση για καρκαντζέλια (καλλικάντζαροι) στο Πράγγι Έβρου: Δραστηριότητες τους κατά το Δωδεκαήμερο, αλληλεπίδραση με ανθρώπους και δώρα φλουριών.",
+          "inLanguage": "el",
+          "author": {
+            "@type": "Person",
+            "name": "Χρήστος Γιανναπούλος"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-karkantzelia-tou-praggiou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Πράγγι",
+            "Έβρος",
+            "Θράκη",
+            "Καρκαντζέλια",
+            "Δωδεκαήμερο",
+            "Καλλικάντζαροι",
+            "Φλουριά",
+            "Λαογραφία",
+            "Καλικάτζαροι",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/ta-karkantzelia-tou-praggiou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Έβρος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Πράγγι"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.3464,
+              "longitude": 26.5761
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "357",
+      "title": "Τα Καρκατζέλια του Πράγγιου",
+      "slug": "ta-karkatzelia-tou-praggiou-didymoteicho-prangio",
+      "author": "Π. Δούλος",
+      "date": "",
+      "excerpt": "Λαϊκή αφήγηση για τα καρκατζέλια που κυκλοφορούν κατά τις νύχτες των Δωδεκαημέρων στο Πράγγιο του Διδυμότειχου.",
+      "locationTags": [
+        "Πράγγιο - Διδυμότειχος"
+      ],
+      "mainArea": "Διδυμότειχος",
+      "subLocation": "Πράγγιο",
+      "lat": 41.346471,
+      "lng": 26.574326,
+      "image": {
+        "src": "/images/laografia/ta-karkatzelia-tou-praggiou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Έχουν κι αυτά, τα Δωδεκαήμερα, τη δυνατότητα να κάνουν ό,τι θέλουν. Αλλοίμονο σε όποιον κυκλοφορεί αργά το βράδυ αυτή την εποχή."
+        },
+        {
+          "type": "text",
+          "value": "Δεν θα ξεφύγει από τα καρκατζέλια, που τριγυρνούν σε όλους τους δρόμους και ακόμη και στις αυλές των σπιτιών. Θα του πάρουν τα μυαλά."
+        },
+        {
+          "type": "text",
+          "value": "Μόνο τη μέρα που θα αγιαστούν τα νερά, τότε θα γίνει καλά."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Π. Δούλος",
+          "title": "Θρακικά τόμος 41",
+          "year": "1967",
+          "pages": "118"
+        }
+      ],
+      "tags": [
+        "Πράγγιο - Διδυμότειχος",
+        "Διδυμότειχος",
+        "Πράγγιο",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Τα Καρκατζέλια του Πράγγιου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκή αφήγηση για τα καρκατζέλια που κυκλοφορούν κατά τις νύχτες των Δωδεκαημέρων στο Πράγγιο του Διδυμότειχου.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/ta-karkatzelia-tou-praggiou-didymoteicho-prangio",
+        "keywords": [
+          "Πράγγιο - Διδυμότειχος",
+          "Διδυμότειχος",
+          "Πράγγιο",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα Καρκατζέλια του Πράγγιου",
+          "description": "Λαϊκή αφήγηση για τα καρκατζέλια που κυκλοφορούν κατά τις νύχτες των Δωδεκαημέρων στο Πράγγιο του Διδυμότειχου.",
+          "inLanguage": "el",
+          "author": {
+            "@type": "Person",
+            "name": "Π. Δούλος"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-karkatzelia-tou-praggiou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Πράγγιο - Διδυμότειχος",
+            "Διδυμότειχος",
+            "Πράγγιο",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/ta-karkatzelia-tou-praggiou-didymoteicho-prangio"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Διδυμότειχος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Πράγγιο"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.346471,
+              "longitude": 26.574326
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "366",
+      "title": "Τα Καρκατζέλια των Βρυσικών Έβρου",
+      "slug": "ta-karkatzelia-ton-vrysikon-evrou",
+      "author": "Ιωάννης Γουρίδης",
+      "date": "1967",
+      "excerpt": "Λαϊκή αφήγηση για τα καρκατζέλια (καλικάντζαροι) που εμφανίζονται κατά τα Δωδεκάμερα στα Βρυσικά και τις στρατηγικές προστασίας από αυτά.",
+      "locationTags": [
+        "Βρυσικά - Έβρος"
+      ],
+      "mainArea": "Έβρος",
+      "subLocation": "Βρυσικά",
+      "lat": 41.398784,
+      "lng": 26.336029,
+      "image": {
+        "src": "/images/laografia/ta-karkatzelia-ton-vrysikon-evrou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Τά δωδεκάμερα έβγαιναν καί τά καρκατζέλια (καλικάντζαροι) και πείραζαν τους ανθρώπους. Οί καρκαντζέλοι οταν πρόκειται νά βγουν από τον κάτω κόσμο λέγαν μεταξύ τους: «Άντι νά παμι νά κουλιαντίσουμι. Τά παιδιά κουλέντσαν»."
+        },
+        {
+          "type": "text",
+          "value": "Αφου γύριζαν μέσα στό χωριό και μύριζαν πουθενά κρέας ανέβαιναν πάνω στό τζάκι. Φώναζαν άπ’ εκεί: «Πίτσι σύ, πίτσι γώ, κόμ’ τσιτσί καλύτερο-». ’Επειδή δέν τους απαντούσαν έφευγαν."
+        },
+        {
+          "type": "text",
+          "value": "Κάποτε, λένε, ένας παππούς γυρνούσε μεσάνυχτα 'άπ’ τό μύλο. Από μακριά βλέπει τά καρκατζέλια. Γιά νά μή τόν πάρουν τυλίχτηκε μέ τό γιαμιπουρλούκι."
+        },
+        {
+          "type": "text",
+          "value": "Τά καρκατζέλια ανέβηκαν πάνω στο αμάξι και άρχισαν νά πειράζουν τό γέρο γιά νά τόν κάνουν νά μιλήσει και νά του πάρουν τή φωνή. Τόν τσιμπούσαν κι έλεγαν: «Αυτό τσΐβάλ’ αυτό τσιβάλ’, αυτό τί έχ’ . .. (ακαθαρσίες)»."
+        },
+        {
+          "type": "text",
+          "value": "Ό γέρος όμως δέ μίλησε κι έτσι αναγκάστηκαν νά φύγουν."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Ιωάννης Γουρίδης",
+          "title": "Θρακικά τόμος 41",
+          "year": "1967",
+          "pages": "258"
+        }
+      ],
+      "tags": [
+        "Βρυσικά - Έβρος",
+        "Έβρος",
+        "Βρυσικά",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Τα Καρκατζέλια των Βρυσικών Έβρου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Λαϊκή αφήγηση για τα καρκατζέλια (καλικάντζαροι) που εμφανίζονται κατά τα Δωδεκάμερα στα Βρυσικά και τις στρατηγικές προστασίας από αυτά.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/ta-karkatzelia-ton-vrysikon-evrou",
+        "keywords": [
+          "Βρυσικά - Έβρος",
+          "Έβρος",
+          "Βρυσικά",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα Καρκατζέλια των Βρυσικών Έβρου",
+          "description": "Λαϊκή αφήγηση για τα καρκατζέλια (καλικάντζαροι) που εμφανίζονται κατά τα Δωδεκάμερα στα Βρυσικά και τις στρατηγικές προστασίας από αυτά.",
+          "inLanguage": "el",
+          "datePublished": "1967",
+          "author": {
+            "@type": "Person",
+            "name": "Ιωάννης Γουρίδης"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-karkatzelia-ton-vrysikon-evrou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Βρυσικά - Έβρος",
+            "Έβρος",
+            "Βρυσικά",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/ta-karkatzelia-ton-vrysikon-evrou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Έβρος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Βρυσικά"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.398784,
+              "longitude": 26.336029
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "367",
+      "title": "Η νύφη και τα Καρκατζέλια",
+      "slug": "i-nyfi-kai-ta-karkatzelia-vrysika-evrou",
+      "author": "Ιωάννης Γουρίδης",
+      "date": "1967",
+      "excerpt": "Ιστορία νύφης που απήχθη από καρκατζέλια και γενικοί κανόνες αλληλεπίδρασης με υπερφυσικά όντα στα Βρυσικά του Έβρου.",
+      "locationTags": [
+        "Βρυσικά - Έβρος"
+      ],
+      "mainArea": "Έβρος",
+      "subLocation": "Βρυσικά",
+      "lat": 41.398784,
+      "lng": 26.336029,
+      "image": {
+        "src": "/images/laografia/i-nyfi-kai-ta-karkatzelia-vrysika-evrou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Ήταν στολισμένη μια νύφη και βγήκε τά μεσάνυχτα εξω. Την άρπαξαν τα καρκατζέλια κι άρχισαν νά τή πετούν από κοπριά σέ κοπριά καί νά χορεύουν."
+        },
+        {
+          "type": "text",
+          "value": "Προσπάθησαν νά τήν κάνουν νά μιλήσει. Αλλά αυτή δέ μίλησε. Λάλησαν οί πιτ’νοί (κοκόρια) και έφυγαν τά καρκατζέλια κι άφησαν την νύφη."
+        },
+        {
+          "type": "text",
+          "value": "Στά ζούζουλα καί στα καρκαντζέλια δέν έπρεπε νά μιλήσει κανείς, γιά νά μή τόυ πάρουν τήν φωνή."
+        },
+        {
+          "type": "text",
+          "value": "Δέν έπρεπε να τα πυροβολήσει κανείς, γιά νά μή σπάσει τό όπλο του. Μέ τό φώναγμα τοΰ πετεινού έφευγαν."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Ιωάννης Γουρίδης",
+          "title": "Θρακικά τόμος 41",
+          "year": "1967",
+          "pages": "258"
+        }
+      ],
+      "tags": [
+        "Βρυσικά - Έβρος",
+        "Έβρος",
+        "Βρυσικά",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Η νύφη και τα Καρκατζέλια | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Ιστορία νύφης που απήχθη από καρκατζέλια και γενικοί κανόνες αλληλεπίδρασης με υπερφυσικά όντα στα Βρυσικά του Έβρου.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/i-nyfi-kai-ta-karkatzelia-vrysika-evrou",
+        "keywords": [
+          "Βρυσικά - Έβρος",
+          "Έβρος",
+          "Βρυσικά",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Η νύφη και τα Καρκατζέλια",
+          "description": "Ιστορία νύφης που απήχθη από καρκατζέλια και γενικοί κανόνες αλληλεπίδρασης με υπερφυσικά όντα στα Βρυσικά του Έβρου.",
+          "inLanguage": "el",
+          "datePublished": "1967",
+          "author": {
+            "@type": "Person",
+            "name": "Ιωάννης Γουρίδης"
+          },
+          "image": "https://haunted.gr/images/laografia/i-nyfi-kai-ta-karkatzelia-vrysika-evrou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Βρυσικά - Έβρος",
+            "Έβρος",
+            "Βρυσικά",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/i-nyfi-kai-ta-karkatzelia-vrysika-evrou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Έβρος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Βρυσικά"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.398784,
+              "longitude": 26.336029
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "368",
+      "title": "Τα Καρκαντζάλια της Κορνοφωλιάς",
+      "slug": "ta-karkantzalia-tis-kornofolias-evros-kornofolia",
+      "author": "Διδάσκαλος Χριστούδης",
+      "date": "1967",
+      "excerpt": "Σύγκριση της δράσης του ιερέα κατά των καλικάντζαρων με την προστατευτική δράση των αγροτών κατά των ασθενειών και ζιζανίων.",
+      "locationTags": [
+        "Κορνοφωλιά - Έβρος"
+      ],
+      "mainArea": "Έβρος",
+      "subLocation": "Κορνοφωλιά",
+      "lat": 41.155917,
+      "lng": 26.295119,
+      "image": {
+        "src": "/images/laografia/ta-karkantzalia-tis-kornofolias.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Πίστευαν δε, όπως και σήμερα πιστεύεται από πολλούς, «'Ότι, όπως ό παπάς μέ τό σταυρό στο χέρι και το φωτισμό, διώχνει άπό τά σπίτια τά «Καρκαντζάλια» (Καλικάντζαρους), έτσι κι’ αυτοί μέ τό ράντισμα με αγιασμό, διώχνουν τίς άρρώστειες άπό τά ζωντανά καί τά φυτά καί πνίγουν μαζί καί όλα τά ζιζάνια»."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Διδάσκαλος Χριστούδης",
+          "title": "Θρακικά τόμος 41",
+          "year": "1967",
+          "pages": "301"
+        }
+      ],
+      "tags": [
+        "Κορνοφωλιά - Έβρος",
+        "Έβρος",
+        "Κορνοφωλιά",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Τα Καρκαντζάλια της Κορνοφωλιάς | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Σύγκριση της δράσης του ιερέα κατά των καλικάντζαρων με την προστατευτική δράση των αγροτών κατά των ασθενειών και ζιζανίων.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/ta-karkantzalia-tis-kornofolias-evros-kornofolia",
+        "keywords": [
+          "Κορνοφωλιά - Έβρος",
+          "Έβρος",
+          "Κορνοφωλιά",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα Καρκαντζάλια της Κορνοφωλιάς",
+          "description": "Σύγκριση της δράσης του ιερέα κατά των καλικάντζαρων με την προστατευτική δράση των αγροτών κατά των ασθενειών και ζιζανίων.",
+          "inLanguage": "el",
+          "datePublished": "1967",
+          "author": {
+            "@type": "Person",
+            "name": "Διδάσκαλος Χριστούδης"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-karkantzalia-tis-kornofolias.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Κορνοφωλιά - Έβρος",
+            "Έβρος",
+            "Κορνοφωλιά",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/ta-karkantzalia-tis-kornofolias-evros-kornofolia"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Έβρος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Κορνοφωλιά"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.155917,
+              "longitude": 26.295119
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "374",
+      "title": "Τα Καρκατζέλια στα Σιτάρια Έβρου",
+      "slug": "ta-karkatzelia-sta-sitaria-evrou-sitaria",
+      "author": "Ανάργυρος Εσκιτζόγλου",
+      "date": "1968",
+      "excerpt": "Προστατευτικές πρακτικές κατά των καρκατζέλιων (καλικάντζαρων) κατά την περίοδο των Χριστουγέννων στα Σιταριά του Έβρου.",
+      "locationTags": [
+        "Σιταριά - Έβρος"
+      ],
+      "mainArea": "Έβρος",
+      "subLocation": "Σιταριά",
+      "lat": 41.4485,
+      "lng": 26.4026,
+      "image": {
+        "src": "/images/laografia/ta-karkatzelia-sta-sitaria-evrou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Άπό τήν παραμονή τών Χριστουγέννων εμφανίζονται καί οί καλικάντζαροι, τά «καρκατζέλια», τά όποια, γιά να τα άποτρέψουν νά εισέλθουν εις τήν οικίαν, θέτουν έμπροσθεν αυτής ένα κλαδί κέδρου, τό άρδίτσι, όπως λέγεται, ενω τήν νύχτά δέν κοιμούνται κοντά σε τζάκι, γιά νά μήν εισέλθουν τά «καρκατζέλια» άπό τήν καπνοδόχο, τόν λεγόμενο «παίτζά»."
+        },
+        {
+          "type": "text",
+          "value": "Αντικείμενο εργασίας δεν μεταφέρουν εντός τής οικίας γιά νά μήν το ακολουθήσουν τά «καρκατζέλια»."
+        },
+        {
+          "type": "text",
+          "value": "Τά «Φώτα» τά προσμένουν με ιδιαίτερη χαρά, διότι θά έλθει ό ίερεύς νά άγιάσει τόν τόπο, γιά νά φύγουν τά «καρκατζέλια»."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Ανάργυρος Εσκιτζόγλου",
+          "title": "Θρακικά τόμος 42 Λαογραφικά Πόλεων και Χωριών Διδυμοτείχου και Σουφλίου",
+          "year": "1968",
+          "pages": "287"
+        }
+      ],
+      "tags": [
+        "Σιταριά - Έβρος",
+        "Έβρος",
+        "Σιταριά",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Τα Καρκατζέλια στα Σιτάρια Έβρου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Προστατευτικές πρακτικές κατά των καρκατζέλιων (καλικάντζαρων) κατά την περίοδο των Χριστουγέννων στα Σιταριά του Έβρου.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/ta-karkatzelia-sta-sitaria-evrou-sitaria",
+        "keywords": [
+          "Σιταριά - Έβρος",
+          "Έβρος",
+          "Σιταριά",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα Καρκατζέλια στα Σιτάρια Έβρου",
+          "description": "Προστατευτικές πρακτικές κατά των καρκατζέλιων (καλικάντζαρων) κατά την περίοδο των Χριστουγέννων στα Σιταριά του Έβρου.",
+          "inLanguage": "el",
+          "datePublished": "1968",
+          "author": {
+            "@type": "Person",
+            "name": "Ανάργυρος Εσκιτζόγλου"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-karkatzelia-sta-sitaria-evrou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Σιταριά - Έβρος",
+            "Έβρος",
+            "Σιταριά",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/ta-karkatzelia-sta-sitaria-evrou-sitaria"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Έβρος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Σιταριά"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.4485,
+              "longitude": 26.4026
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "378",
+      "title": "Οι Καλικάντζαροι του Διδυμοτείχου",
+      "slug": "oi-kalikantzaroi-tou-didymoteichou-evros-didymoteicho",
+      "author": "Α. Τσακίρη",
+      "date": "1969-01-01",
+      "excerpt": "Συγκεντρωτική περιγραφή πεποιθήσεων, συμπεριφορών και τελετουργιών σχετικά με τους καλικάντζαρους στο Διδυμότειχο του Έβρου.",
+      "locationTags": [
+        "Διδυμότειχο - Έβρος"
+      ],
+      "mainArea": "Διδυμότειχο",
+      "subLocation": "",
+      "lat": 41.3496,
+      "lng": 26.4953,
+      "image": {
+        "src": "/images/laografia/oi-kalikantzaroi-tou-didymoteichou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Κατά τά δωδεκάμερα ο κόσμος δέν καβίσύρτιζαν κουκιά, δέν εψηναν καλαμπόκια γιατί, ερχονταν οί Καρικάτζελοι και τους έλεγαν: — Θά σάς μπήξουμε στά λανάρια."
+        },
+        {
+          "type": "text",
+          "value": "’Αν οι κοπέλες έβγαιναν έξω τή νύχτα, τις έπιαναν, τις έλεγαν: — Θέλουμε νά σέ κάνουμε νύφη. Η κοπέλα έλεγε: — Ή νύφη θέλει πολλά πράγματα. Θελει καλο νυφικό. Θέλει παπούτσια. Θέλει βέλο. Θέλει κι’ ένα σακούλι φλουριά. \"Ολα αυτά ή κοπέλα τά έλεγε σιγά ώσπου νά λαλήσουν οι πετεινοί και νά φύγουν οι καρκάντζειλοι και νά μείνουν όλα στήν νύφη."
+        },
+        {
+          "type": "text",
+          "value": "Πίστευαν πώς οι καλικάντζαροι ήταν τά χαρούμενα παιδιά ενός βασιλιά πού όλη μέρα χόρευαν, γελούσαν και τραγουδούσαν. Τά παιδιά αυτά τά ζήλεψαν, τά καταράστηκαν, έγιναν ζώα και καλικάντζαροι."
+        },
+        {
+          "type": "text",
+          "value": "Οι καλικάντζαροι άπό τήν ημέρα τών Χριστουγέννων, κάθονται πάνω στις μπατζάδιες (καμινάδες) και φεύγουν όταν τελειώσουν οί γιορτές των Χριστουγέννων."
+        },
+        {
+          "type": "text",
+          "value": "\"Όταν ένα παιδί γεννιόταν τα Χριστούγεννα, νόμιζαν όλοι ότι γινόταν καλικάντζαρος."
+        },
+        {
+          "type": "text",
+          "value": "Οί καλικάντζαροι γύριζαν έξω τήν νύχτα καί πήγαιναν στην άκρη τών ποταμών. \"Οποιος άνθρωπος περνούσε από εκεί οί καλικάντζαροι ανέβαιναν στον ώμο του κι’ έπρεπε ό άνθρωπος νά τούς γυρίσει σέ 7 πηγάδια."
+        },
+        {
+          "type": "text",
+          "value": "Οί παππούδες έλεγαν ότι τά Χριστούγεννα, οί καλικάντζαροι πηγαίνουν κάτω άπό τή γη και θέλουν νά κόψουν τό δέντρο πού επάνω του στηρίζεται ή γη, άλλά δέν τό καταφέρνουν."
+        },
+        {
+          "type": "text",
+          "value": "Πολλές γυναίκες έβαζαν στό τζάκι μπακλαβά και έρχονταν οι καλικάντζαροι καί τόν έτρωγαν. \"Οποια γυναίκα έβαζε στό τζάκι μπακλαβά περίμενε ξυπνητή γιά νά δεί τους καλικάντζαρους."
+        },
+        {
+          "type": "text",
+          "value": "Μιά γυναίκα τά δωδεκάμερα άπλωσε τή νύχτα τά ρούχα της έξω καί ήρθαν οί καλικάντζαροι καί τά πήραν."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Α. Τσακίρη",
+          "title": "Θρακικά τόμος 43 Λαογραφικά Διδυμότειχου",
+          "year": "1969",
+          "pages": "135"
+        }
+      ],
+      "tags": [
+        "Διδυμότειχο - Έβρος",
+        "Διδυμότειχο",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Καλικάντζαροι του Διδυμοτείχου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Συγκεντρωτική περιγραφή πεποιθήσεων, συμπεριφορών και τελετουργιών σχετικά με τους καλικάντζαρους στο Διδυμότειχο του Έβρου.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-kalikantzaroi-tou-didymoteichou-evros-didymoteicho",
+        "keywords": [
+          "Διδυμότειχο - Έβρος",
+          "Διδυμότειχο",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Καλικάντζαροι του Διδυμοτείχου",
+          "description": "Συγκεντρωτική περιγραφή πεποιθήσεων, συμπεριφορών και τελετουργιών σχετικά με τους καλικάντζαρους στο Διδυμότειχο του Έβρου.",
+          "inLanguage": "el",
+          "datePublished": "1969-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Α. Τσακίρη"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-kalikantzaroi-tou-didymoteichou.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Διδυμότειχο - Έβρος",
+            "Διδυμότειχο",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-kalikantzaroi-tou-didymoteichou-evros-didymoteicho"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Διδυμότειχο",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.3496,
+              "longitude": 26.4953
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "383",
+      "title": "Οι Καρκαντζαλέοι του Πύθιου",
+      "slug": "oi-karkantzaleoi-tou-pythiou-evros-pythio",
+      "author": "Α. Τσακίρη",
+      "date": "1970-01-01",
+      "excerpt": "Συγκεντρωτική περιγραφή των καρκαντζαλέων (καλικάντζαρων) του Πύθιου, με προστατευτικές μεθόδους και λαϊκές αφηγήσεις.",
+      "locationTags": [
+        "Πύθιο - Έβρος"
+      ],
+      "mainArea": "Έβρος",
+      "subLocation": "Πύθιο",
+      "lat": 41.382,
+      "lng": 26.6103,
+      "image": {
+        "src": "/images/laografia/oi-karkantzaleoi-tou-pythiou-evros-pythio.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Μορφή καί προέλευσις: Είναι σαν μικρά ανθρωπούδια, μαύρα, με άσπρα μαλλιά και σκουφιά στο κεφάλι. Έρχονται κάτω απο τη Γη. Όλο το χρόνο πελεκάνε με τα τσεκούρια τους να κόψουν το δέντρο που κρατάει τη Γη."
+        },
+        {
+          "type": "text",
+          "value": "Βγαίνουν με τη γέννηση του Χριστού και φεύγουν των Φώτων, οταν ψέλνονται τα νερά. Ερχονται μέσα στα σπίτια από τις καμινάδες και κατουρούν σε όλες εργασίες που έχουν ξεκινήσει."
+        },
+        {
+          "type": "text",
+          "value": "Τρόποι αποτροπής: Τοποθετούν είς τά τζάκια ένα υψηλό ξύλο καί στην κορυφή τού ξύλου, σκαλώνουν ένα αγκαθωτό κλαδί γιά νά καθίσουν επάνω «τά καρκαντζέλια» καί νά μην διανοηθούν νά κατεβούν μέσα στό σπίτι."
+        },
+        {
+          "type": "text",
+          "value": "Λαϊκές διηγήσεις: «Βγαίνουν μόλις νυχτώσει κι φεύγουν τά μισάνυχτα όταν λαλήσει ο πετεινός. Αμα σε βρουν έξω στο δρόμο τη νύχτα σε ταλαιπωρούν."
+        },
+        {
+          "type": "text",
+          "value": "Ρωτούν: Τί θέλεuw; Θέλω ένα πουκάμισο, θέλω κουντούρια, θέλω φακιόλι, θέλω φλουριά, απ’ολα τα πράγματα. Σε αλλάζουν και σε ντύνουν νύφγ’ άμα προφτάσουν πριν να λαλήσουν οι κόκορες και αν λαλήσουν οι κόκορες σε αφήνουν και φεύγουν αλλά αν προλάβουν να σε ντύσουν πριν λαλήσει ο κόκορας, σε ρίχνουν στο πηγάδι και χάνεσαι."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Α. Τσακίρη",
+          "title": "Θρακικά τόμος 44 Λαογραφικά Πύθιου Διδυμοτείχου 1966",
+          "year": "1970",
+          "pages": "203"
+        }
+      ],
+      "tags": [
+        "Πύθιο - Έβρος",
+        "Έβρος",
+        "Πύθιο",
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Οι Καρκαντζαλέοι του Πύθιου | Καλικάτζαροι | haunted.gr",
+        "metaDescription": "Συγκεντρωτική περιγραφή των καρκαντζαλέων (καλικάντζαρων) του Πύθιου, με προστατευτικές μεθόδους και λαϊκές αφηγήσεις.",
+        "canonical": "https://haunted.gr/laografia/kalikatzaroi/oi-karkantzaleoi-tou-pythiou-evros-pythio",
+        "keywords": [
+          "Πύθιο - Έβρος",
+          "Έβρος",
+          "Πύθιο",
+          "Καλικάτζαροι",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Καρκαντζαλέοι του Πύθιου",
+          "description": "Συγκεντρωτική περιγραφή των καρκαντζαλέων (καλικάντζαρων) του Πύθιου, με προστατευτικές μεθόδους και λαϊκές αφηγήσεις.",
+          "inLanguage": "el",
+          "datePublished": "1970-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Α. Τσακίρη"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-karkantzaleoi-tou-pythiou-evros-pythio.webp",
+          "articleSection": "Καλικάτζαροι",
+          "keywords": [
+            "Πύθιο - Έβρος",
+            "Έβρος",
+            "Πύθιο",
+            "Καλικάτζαροι",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/kalikatzaroi/oi-karkantzaleoi-tou-pythiou-evros-pythio"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Έβρος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Πύθιο"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.382,
+              "longitude": 26.6103
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/logo.png"
+            }
+          }
+        }
+      }
     }
-  ]
-},
-{
-  "id": "357",
-  "title": "Τα Καρκατζέλια του Πράγγιου",
-  "slug": "ta-karkatzelia-tou-praggiou-didymoteicho-prangio",
-  "author": "Π. Δούλος",
-  "date": "",
-  "excerpt": "Λαϊκή αφήγηση για τα καρκατζέλια που κυκλοφορούν κατά τις νύχτες των Δωδεκαημέρων στο Πράγγιο του Διδυμότειχου.",
-  "locationTags": [
-    "Πράγγιο - Διδυμότειχος"
-  ],
-  "mainArea": "Διδυμότειχος",
-  "subLocation": "Πράγγιο",
-  "lat": 41.346471,
-  "lng": 26.574326,
-  "image": {
-    "src": "/images/laografia/ta-karkatzelia-tou-praggiou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Έχουν κι αυτά, τα Δωδεκαήμερα, τη δυνατότητα να κάνουν ό,τι θέλουν. Αλλοίμονο σε όποιον κυκλοφορεί αργά το βράδυ αυτή την εποχή."
-    },
-    {
-      "type": "text",
-      "value": "Δεν θα ξεφύγει από τα καρκατζέλια, που τριγυρνούν σε όλους τους δρόμους και ακόμη και στις αυλές των σπιτιών. Θα του πάρουν τα μυαλά."
-    },
-    {
-      "type": "text",
-      "value": "Μόνο τη μέρα που θα αγιαστούν τα νερά, τότε θα γίνει καλά."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Π. Δούλος",
-      "title": "Θρακικά τόμος 41",
-      "year": "1967",
-      "pages": "118"
-    }
-  ]
-},
-
-{
-  "id": "366",
-  "title": "Τα Καρκατζέλια των Βρυσικών Έβρου",
-  "slug": "ta-karkatzelia-ton-vrysikon-evrou",
-  "author": "Ιωάννης Γουρίδης",
-  "date": "1967",
-  "excerpt": "Λαϊκή αφήγηση για τα καρκατζέλια (καλικάντζαροι) που εμφανίζονται κατά τα Δωδεκάμερα στα Βρυσικά και τις στρατηγικές προστασίας από αυτά.",
-  "locationTags": [
-    "Βρυσικά - Έβρος"
-  ],
-  "mainArea": "Έβρος",
-  "subLocation": "Βρυσικά",
-  "lat": 41.398784,
-  "lng": 26.336029,
-  "image": {
-    "src": "/images/laografia/ta-karkatzelia-ton-vrysikon-evrou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Τά δωδεκάμερα έβγαιναν καί τά καρκατζέλια (καλικάντζαροι) και πείραζαν τους ανθρώπους. Οί καρκαντζέλοι οταν πρόκειται νά βγουν από τον κάτω κόσμο λέγαν μεταξύ τους: «Άντι νά παμι νά κουλιαντίσουμι. Τά παιδιά κουλέντσαν»."
-    },
-    {
-      "type": "text",
-      "value": "Αφου γύριζαν μέσα στό χωριό και μύριζαν πουθενά κρέας ανέβαιναν πάνω στό τζάκι. Φώναζαν άπ’ εκεί: «Πίτσι σύ, πίτσι γώ, κόμ’ τσιτσί καλύτερο-». ’Επειδή δέν τους απαντούσαν έφευγαν."
-    },
-    {
-      "type": "text",
-      "value": "Κάποτε, λένε, ένας παππούς γυρνούσε μεσάνυχτα 'άπ’ τό μύλο. Από μακριά βλέπει τά καρκατζέλια. Γιά νά μή τόν πάρουν τυλίχτηκε μέ τό γιαμιπουρλούκι."
-    },
-    {
-      "type": "text",
-      "value": "Τά καρκατζέλια ανέβηκαν πάνω στο αμάξι και άρχισαν νά πειράζουν τό γέρο γιά νά τόν κάνουν νά μιλήσει και νά του πάρουν τή φωνή. Τόν τσιμπούσαν κι έλεγαν: «Αυτό τσΐβάλ’ αυτό τσιβάλ’, αυτό τί έχ’ . .. (ακαθαρσίες)»."
-    },
-    {
-      "type": "text",
-      "value": "Ό γέρος όμως δέ μίλησε κι έτσι αναγκάστηκαν νά φύγουν."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Ιωάννης Γουρίδης",
-      "title": "Θρακικά τόμος 41",
-      "year": "1967",
-      "pages": "258"
-    }
-  ]
-},
-
-{
-  "id": "367",
-  "title": "Η νύφη και τα Καρκατζέλια",
-  "slug": "i-nyfi-kai-ta-karkatzelia-vrysika-evrou",
-  "author": "Ιωάννης Γουρίδης",
-  "date": "1967",
-  "excerpt": "Ιστορία νύφης που απήχθη από καρκατζέλια και γενικοί κανόνες αλληλεπίδρασης με υπερφυσικά όντα στα Βρυσικά του Έβρου.",
-  "locationTags": [
-    "Βρυσικά - Έβρος"
-  ],
-  "mainArea": "Έβρος",
-  "subLocation": "Βρυσικά",
-  "lat": 41.398784,
-  "lng": 26.336029,
-  "image": {
-    "src": "/images/laografia/i-nyfi-kai-ta-karkatzelia-vrysika-evrou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Ήταν στολισμένη μια νύφη και βγήκε τά μεσάνυχτα εξω. Την άρπαξαν τα καρκατζέλια κι άρχισαν νά τή πετούν από κοπριά σέ κοπριά καί νά χορεύουν."
-    },
-    {
-      "type": "text",
-      "value": "Προσπάθησαν νά τήν κάνουν νά μιλήσει. Αλλά αυτή δέ μίλησε. Λάλησαν οί πιτ’νοί (κοκόρια) και έφυγαν τά καρκατζέλια κι άφησαν την νύφη."
-    },
-    {
-      "type": "text",
-      "value": "Στά ζούζουλα καί στα καρκαντζέλια δέν έπρεπε νά μιλήσει κανείς, γιά νά μή τόυ πάρουν τήν φωνή."
-    },
-    {
-      "type": "text",
-      "value": "Δέν έπρεπε να τα πυροβολήσει κανείς, γιά νά μή σπάσει τό όπλο του. Μέ τό φώναγμα τοΰ πετεινού έφευγαν."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Ιωάννης Γουρίδης",
-      "title": "Θρακικά τόμος 41",
-      "year": "1967",
-      "pages": "258"
-    }
-  ]
-},
-{
-  "id": "368",
-  "title": "Τα Καρκαντζάλια της Κορνοφωλιάς",
-  "slug": "ta-karkantzalia-tis-kornofolias-evros-kornofolia",
-  "author": "Διδάσκαλος Χριστούδης",
-  "date": "1967",
-  "excerpt": "Σύγκριση της δράσης του ιερέα κατά των καλικάντζαρων με την προστατευτική δράση των αγροτών κατά των ασθενειών και ζιζανίων.",
-  "locationTags": [
-    "Κορνοφωλιά - Έβρος"
-  ],
-  "mainArea": "Έβρος",
-  "subLocation": "Κορνοφωλιά",
-  "lat": 41.155917,
-  "lng": 26.295119,
-  "image": {
-    "src": "/images/laografia/ta-karkantzalia-tis-kornofolias.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Πίστευαν δε, όπως και σήμερα πιστεύεται από πολλούς, «'Ότι, όπως ό παπάς μέ τό σταυρό στο χέρι και το φωτισμό, διώχνει άπό τά σπίτια τά «Καρκαντζάλια» (Καλικάντζαρους), έτσι κι’ αυτοί μέ τό ράντισμα με αγιασμό, διώχνουν τίς άρρώστειες άπό τά ζωντανά καί τά φυτά καί πνίγουν μαζί καί όλα τά ζιζάνια»."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Διδάσκαλος Χριστούδης",
-      "title": "Θρακικά τόμος 41",
-      "year": "1967",
-      "pages": "301"
-    }
-  ]
-},
-{
-  "id": "374",
-  "title": "Τα Καρκατζέλια στα Σιτάρια Έβρου",
-  "slug": "ta-karkatzelia-sta-sitaria-evrou-sitaria",
-  "author": "Ανάργυρος Εσκιτζόγλου",
-  "date": "1968",
-  "excerpt": "Προστατευτικές πρακτικές κατά των καρκατζέλιων (καλικάντζαρων) κατά την περίοδο των Χριστουγέννων στα Σιταριά του Έβρου.",
-  "locationTags": [
-    "Σιταριά - Έβρος"
-  ],
-  "mainArea": "Έβρος",
-  "subLocation": "Σιταριά",
-  "lat": 41.4485,
-  "lng": 26.4026,
-  "image": {
-    "src": "/images/laografia/ta-karkatzelia-sta-sitaria-evrou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Άπό τήν παραμονή τών Χριστουγέννων εμφανίζονται καί οί καλικάντζαροι, τά «καρκατζέλια», τά όποια, γιά να τα άποτρέψουν νά εισέλθουν εις τήν οικίαν, θέτουν έμπροσθεν αυτής ένα κλαδί κέδρου, τό άρδίτσι, όπως λέγεται, ενω τήν νύχτά δέν κοιμούνται κοντά σε τζάκι, γιά νά μήν εισέλθουν τά «καρκατζέλια» άπό τήν καπνοδόχο, τόν λεγόμενο «παίτζά»."
-    },
-    {
-      "type": "text",
-      "value": "Αντικείμενο εργασίας δεν μεταφέρουν εντός τής οικίας γιά νά μήν το ακολουθήσουν τά «καρκατζέλια»."
-    },
-    {
-      "type": "text",
-      "value": "Τά «Φώτα» τά προσμένουν με ιδιαίτερη χαρά, διότι θά έλθει ό ίερεύς νά άγιάσει τόν τόπο, γιά νά φύγουν τά «καρκατζέλια»."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Ανάργυρος Εσκιτζόγλου",
-      "title": "Θρακικά τόμος 42 Λαογραφικά Πόλεων και Χωριών Διδυμοτείχου και Σουφλίου",
-      "year": "1968",
-      "pages": "287"
-    }
-  ]
-},
-{
-  "id": "378",
-  "title": "Οι Καλικάντζαροι του Διδυμοτείχου",
-  "slug": "oi-kalikantzaroi-tou-didymoteichou-evros-didymoteicho",
-  "author": "Α. Τσακίρη",
-  "date": "1969-01-01",
-  "excerpt": "Συγκεντρωτική περιγραφή πεποιθήσεων, συμπεριφορών και τελετουργιών σχετικά με τους καλικάντζαρους στο Διδυμότειχο του Έβρου.",
-  "locationTags": [
-    "Διδυμότειχο - Έβρος"
-  ],
-  "mainArea": "Διδυμότειχο",
-  "subLocation": "",
-  "lat": 41.3496,
-  "lng": 26.4953,
-  "image": {
-    "src": "/images/laografia/oi-kalikantzaroi-tou-didymoteichou.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Κατά τά δωδεκάμερα ο κόσμος δέν καβίσύρτιζαν κουκιά, δέν εψηναν καλαμπόκια γιατί, ερχονταν οί Καρικάτζελοι και τους έλεγαν: — Θά σάς μπήξουμε στά λανάρια."
-    },
-    {
-      "type": "text",
-      "value": "’Αν οι κοπέλες έβγαιναν έξω τή νύχτα, τις έπιαναν, τις έλεγαν: — Θέλουμε νά σέ κάνουμε νύφη. Η κοπέλα έλεγε: — Ή νύφη θέλει πολλά πράγματα. Θελει καλο νυφικό. Θέλει παπούτσια. Θέλει βέλο. Θέλει κι’ ένα σακούλι φλουριά. \"Ολα αυτά ή κοπέλα τά έλεγε σιγά ώσπου νά λαλήσουν οι πετεινοί και νά φύγουν οι καρκάντζειλοι και νά μείνουν όλα στήν νύφη."
-    },
-    {
-      "type": "text",
-      "value": "Πίστευαν πώς οι καλικάντζαροι ήταν τά χαρούμενα παιδιά ενός βασιλιά πού όλη μέρα χόρευαν, γελούσαν και τραγουδούσαν. Τά παιδιά αυτά τά ζήλεψαν, τά καταράστηκαν, έγιναν ζώα και καλικάντζαροι."
-    },
-    {
-      "type": "text",
-      "value": "Οι καλικάντζαροι άπό τήν ημέρα τών Χριστουγέννων, κάθονται πάνω στις μπατζάδιες (καμινάδες) και φεύγουν όταν τελειώσουν οί γιορτές των Χριστουγέννων."
-    },
-    {
-      "type": "text",
-      "value": "\"Όταν ένα παιδί γεννιόταν τα Χριστούγεννα, νόμιζαν όλοι ότι γινόταν καλικάντζαρος."
-    },
-    {
-      "type": "text",
-      "value": "Οί καλικάντζαροι γύριζαν έξω τήν νύχτα καί πήγαιναν στην άκρη τών ποταμών. \"Οποιος άνθρωπος περνούσε από εκεί οί καλικάντζαροι ανέβαιναν στον ώμο του κι’ έπρεπε ό άνθρωπος νά τούς γυρίσει σέ 7 πηγάδια."
-    },
-    {
-      "type": "text",
-      "value": "Οί παππούδες έλεγαν ότι τά Χριστούγεννα, οί καλικάντζαροι πηγαίνουν κάτω άπό τή γη και θέλουν νά κόψουν τό δέντρο πού επάνω του στηρίζεται ή γη, άλλά δέν τό καταφέρνουν."
-    },
-    {
-      "type": "text",
-      "value": "Πολλές γυναίκες έβαζαν στό τζάκι μπακλαβά και έρχονταν οι καλικάντζαροι καί τόν έτρωγαν. \"Οποια γυναίκα έβαζε στό τζάκι μπακλαβά περίμενε ξυπνητή γιά νά δεί τους καλικάντζαρους."
-    },
-    {
-      "type": "text",
-      "value": "Μιά γυναίκα τά δωδεκάμερα άπλωσε τή νύχτα τά ρούχα της έξω καί ήρθαν οί καλικάντζαροι καί τά πήραν."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Α. Τσακίρη",
-      "title": "Θρακικά τόμος 43 Λαογραφικά Διδυμότειχου",
-      "year": "1969",
-      "pages": "135"
-    }
-  ]
-},
-{
-  "id": "383",
-  "title": "Οι Καρκαντζαλέοι του Πύθιου",
-  "slug": "oi-karkantzaleoi-tou-pythiou-evros-pythio",
-  "author": "Α. Τσακίρη",
-  "date": "1970-01-01",
-  "excerpt": "Συγκεντρωτική περιγραφή των καρκαντζαλέων (καλικάντζαρων) του Πύθιου, με προστατευτικές μεθόδους και λαϊκές αφηγήσεις.",
-  "locationTags": [
-    "Πύθιο - Έβρος"
-  ],
-  "mainArea": "Έβρος",
-  "subLocation": "Πύθιο",
-  "lat": 41.3820,
-  "lng": 26.6103,
-  "image": {
-    "src": "/images/laografia/oi-karkantzaleoi-tou-pythiou-evros-pythio.webp",
-    "alt": ""
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Μορφή καί προέλευσις: Είναι σαν μικρά ανθρωπούδια, μαύρα, με άσπρα μαλλιά και σκουφιά στο κεφάλι. Έρχονται κάτω απο τη Γη. Όλο το χρόνο πελεκάνε με τα τσεκούρια τους να κόψουν το δέντρο που κρατάει τη Γη."
-    },
-    {
-      "type": "text",
-      "value": "Βγαίνουν με τη γέννηση του Χριστού και φεύγουν των Φώτων, οταν ψέλνονται τα νερά. Ερχονται μέσα στα σπίτια από τις καμινάδες και κατουρούν σε όλες εργασίες που έχουν ξεκινήσει."
-    },
-    {
-      "type": "text",
-      "value": "Τρόποι αποτροπής: Τοποθετούν είς τά τζάκια ένα υψηλό ξύλο καί στην κορυφή τού ξύλου, σκαλώνουν ένα αγκαθωτό κλαδί γιά νά καθίσουν επάνω «τά καρκαντζέλια» καί νά μην διανοηθούν νά κατεβούν μέσα στό σπίτι."
-    },
-    {
-      "type": "text",
-      "value": "Λαϊκές διηγήσεις: «Βγαίνουν μόλις νυχτώσει κι φεύγουν τά μισάνυχτα όταν λαλήσει ο πετεινός. Αμα σε βρουν έξω στο δρόμο τη νύχτα σε ταλαιπωρούν."
-    },
-    {
-      "type": "text",
-      "value": "Ρωτούν: Τί θέλεuw; Θέλω ένα πουκάμισο, θέλω κουντούρια, θέλω φακιόλι, θέλω φλουριά, απ’ολα τα πράγματα. Σε αλλάζουν και σε ντύνουν νύφγ’ άμα προφτάσουν πριν να λαλήσουν οι κόκορες και αν λαλήσουν οι κόκορες σε αφήνουν και φεύγουν αλλά αν προλάβουν να σε ντύσουν πριν λαλήσει ο κόκορας, σε ρίχνουν στο πηγάδι και χάνεσαι."
-    }
-  ],
-  "sources": [
-    {
-      "type": "book",
-      "name": "Α. Τσακίρη",
-      "title": "Θρακικά τόμος 44 Λαογραφικά Πύθιου Διδυμοτείχου 1966",
-      "year": "1970",
-      "pages": "203"
-    }
-  ]
-}
   ],
   "seo": {
-    "metaTitle": "Καλικάτζαροι της Ελλάδα - Λαογραφικές Αφηγήσεις | haunted.gr",
-    "metaDescription": "Λαογραφικές αφηγήσεις για τους Καλικάτζαρους της Ελλάδας. Μύθοι, παραδόσεις και ιστορίες.",
+    "metaTitle": "Καλικάτζαροι | Λαογραφία Ελλάδας | haunted.gr",
+    "metaDescription": "Συλλογή 33 λαογραφικών ιστοριών για Καλικάτζαροι στην Ελλάδα.",
+    "canonical": "https://haunted.gr/laografia/kalikatzaroi",
     "keywords": [
-      "Καλικάτζαροι Ελλάδα",
-      "λαογραφία καλικάτζαρων",
-      "μύθοι Ελλάδα"
+      "Καλικάτζαροι",
+      "Λαογραφία",
+      "Ελλάδα",
+      "Πετριές - Εύβοια",
+      "Εύβοια",
+      "Πετριές",
+      "Βελούσια - Εύβοια",
+      "Βελούσια",
+      "Κοσκινά - Εύβοια",
+      "Κοσκινά",
+      "Αργυρό - Εύβοια",
+      "Αργυρό",
+      "Ζάρακες - Εύβοια",
+      "Ζάρακες",
+      "Αλμυροπόταμος - Εύβοια",
+      "Αλμυροπόταμος",
+      "Ραπταίοι - Εύβοια",
+      "Ραπταίοι",
+      "Μεσοχώρια - Εύβοια",
+      "Μεσοχώρια",
+      "Κόμητο - Εύβοια",
+      "Κόμητο",
+      "Κοζάνη",
+      "Αργυρός - Σάμος",
+      "Σάμος",
+      "Αργυρός",
+      "Λωβιάρικα - Σάμος",
+      "Λιμάνι Βαθυ - Σάμος",
+      "Βαθύ",
+      "Λιμάνι Βαθύ - Σάμος"
     ],
-    "canonical": "https://haunted.gr/λαογραφια/καλικάτζαροι",
     "structuredData": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Καλικάτζαροι της Ελλάδα - Λαογραφικές Αφηγήσεις",
-      "description": "Συλλογή λαογραφικών αφηγήσεων για τους καλικάτζαρους της Ελλάδα.",
-      "url": "https://haunted.gr/λαογραφια/καλικάτζαροι",
-      "publisher": {
-        "@type": "Organization",
-        "name": "haunted.gr"
-      }
+      "name": "Καλικάτζαροι | Λαογραφία Ελλάδας",
+      "description": "Λαογραφικές ιστορίες και μαρτυρίες για Καλικάτζαροι σε όλη την Ελλάδα.",
+      "inLanguage": "el",
+      "url": "https://haunted.gr/laografia/kalikatzaroi",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "haunted.gr",
+        "url": "https://haunted.gr"
+      },
+      "about": [
+        "Καλικάτζαροι",
+        "Λαογραφία",
+        "Ελλάδα",
+        "Πετριές - Εύβοια",
+        "Εύβοια",
+        "Πετριές",
+        "Βελούσια - Εύβοια",
+        "Βελούσια",
+        "Κοσκινά - Εύβοια",
+        "Κοσκινά",
+        "Αργυρό - Εύβοια",
+        "Αργυρό",
+        "Ζάρακες - Εύβοια",
+        "Ζάρακες",
+        "Αλμυροπόταμος - Εύβοια",
+        "Αλμυροπόταμος",
+        "Ραπταίοι - Εύβοια",
+        "Ραπταίοι",
+        "Μεσοχώρια - Εύβοια",
+        "Μεσοχώρια"
+      ]
     }
   }
 }

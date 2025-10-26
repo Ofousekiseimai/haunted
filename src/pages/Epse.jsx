@@ -19,6 +19,7 @@ const Εtaireia = () => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [overview, setOverview] = useState(null);
 
   const etairiaSubcategories = Object.keys(SUBCATEGORY_MAP).filter(
     key => SUBCATEGORY_MAP[key].category === 'etaireia-psychikon-ereynon'
@@ -43,14 +44,64 @@ const Εtaireia = () => {
     fetchArticles();
   }, [selectedSub]);
 
+  useEffect(() => {
+    const fetchOverview = async () => {
+      try {
+        const response = await fetch('/data/etaireia-psychikon-ereynon/index.json');
+        if (!response.ok) throw new Error(`HTTP σφάλμα ${response.status}`);
+        const data = await response.json();
+        setOverview(data);
+      } catch (err) {
+        console.error('Σφάλμα φόρτωσης γενικών μεταδεδομένων:', err);
+      }
+    };
+
+    fetchOverview();
+  }, []);
+
+  const metaTitle = overview?.seo?.metaTitle || 'Εταιρεία Ψυχικών Ερευνών | haunted.gr';
+  const metaDescription =
+    overview?.seo?.metaDescription ||
+    'Το έργο και τα αρχεία της Εταιρείας Ψυχικών Ερευνών μέσα από ιστορικές πηγές και τεκμήρια.';
+  const canonicalUrl = overview?.seo?.canonical || 'https://haunted.gr/etaireia-psychikon-ereynon';
+  const keywords = overview?.seo?.keywords || [
+    'Εταιρεία Ψυχικών Ερευνών',
+    'Ψυχικά Φαινόμενα',
+    'Παραψυχολογία',
+    'Haunted Greece'
+  ];
+  const ogImage = overview?.seo?.image || 'https://haunted.gr/images/og-default-image.webp';
+  const structuredData = overview?.seo?.structuredData;
+  const totalArticles = overview?.totalArticles;
+
   return (
     <div className="min-h-screen bg-gray-900">
       <Helmet>
-        <title>Εταιρεία Ψυχικών Ερευνών - Haunted Greece</title>
-        <meta
-          name="description"
-          content="Το έργο της Εταιρείας Ψυχικών Ερευνών μέσα απο αρχεία Εφημερίδων."
-        />
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta name="keywords" content={keywords.join(', ')} />
+        <link rel="canonical" href={canonicalUrl} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:site_name" content="haunted.gr" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metaTitle} />
+        <meta name="twitter:description" content={metaDescription} />
+        <meta name="twitter:image" content={ogImage} />
+
+        {structuredData && (
+          <script type="application/ld+json">
+            {JSON.stringify(structuredData)}
+          </script>
+        )}
       </Helmet>
 
       <div className="container mx-auto px-4 py-8">
@@ -59,6 +110,11 @@ const Εtaireia = () => {
             Συλλογή Έργου Εταιρίας Ψυχικών Ερευνών
           </span>
         </h1>
+        {typeof totalArticles === 'number' && (
+          <p className="text-center text-sm text-gray-400 mb-6">
+            Συνολικά τεκμήρια: {totalArticles}
+          </p>
+        )}
 
         {/* Mobile Dropdown */}
         <div className="md:hidden mb-6">
@@ -125,13 +181,14 @@ const Εtaireia = () => {
                   className="block"
                 >
                   {article.image?.src && (
-                <img
-                  src={article.image.src}
-                  alt={article.image.alt || 'Article image'}
-                  className="w-full h-48 object-cover rounded-lg mb-4"
-                  loading="lazy"
-                />
-              )}
+                    <LazyLoadImage
+                      src={article.image.src}
+                      alt={article.image.alt || 'Article image'}
+                      effect="opacity"
+                      placeholderSrc="/placeholder.jpg"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                  )}
                   <h3 className="text-xl font-bold mb-2 text-white group-hover:text-purple-400 transition-colors">
                     {article.title}
                   </h3>
@@ -147,4 +204,3 @@ const Εtaireia = () => {
 };
 
 export default Εtaireia;
-

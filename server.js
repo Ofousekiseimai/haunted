@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import fs from 'fs/promises';
+import { existsSync } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -9,6 +10,11 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const port = 3001;
+const DATA_ROOTS = [
+  path.join(__dirname, 'public', 'data'),
+  path.join(__dirname, 'dist', 'data')
+];
+const BASE_URL = 'https://haunted.gr';
 
 // User agents that typically fetch Open Graph / Twitter cards
 const SOCIAL_BOT_USER_AGENTS = /facebookexternalhit|twitterbot|pinterest|slackbot|discordbot|whatsapp|telegrambot|linkedinbot|skypeuripreview/i;
@@ -45,14 +51,15 @@ const getFilePath = (category, subcategory) => {
   if (!validCategories.includes(category)) {
     throw new Error('Invalid category');
   }
-  
-  return path.join(
-    __dirname,
-    'public',
-    'data',
-    category,
-    `${subcategory}.json`
-  );
+
+  for (const root of DATA_ROOTS) {
+    const candidatePath = path.join(root, category, `${subcategory}.json`);
+    if (existsSync(candidatePath)) {
+      return candidatePath;
+    }
+  }
+
+  throw new Error(`Data file not found for ${category}/${subcategory}`);
 };
 
 // NEW: Helper function to get article data
@@ -99,10 +106,35 @@ const getCategoryData = async (category, subcategory) => {
   }
 };
 
+const getCategoryOverview = async category => {
+  try {
+    for (const root of DATA_ROOTS) {
+      const overviewPath = path.join(root, category, 'index.json');
+      if (existsSync(overviewPath)) {
+        const data = await fs.readFile(overviewPath, 'utf8');
+        const jsonData = JSON.parse(data);
+        return {
+          title: jsonData.seo?.metaTitle || jsonData.category || category,
+          description:
+            jsonData.seo?.metaDescription ||
+            `Αρχειακό υλικό και έρευνες για την κατηγορία ${category}.`,
+          image: jsonData.seo?.image,
+          keywords: jsonData.seo?.keywords,
+          canonical: jsonData.seo?.canonical || `${BASE_URL}/${category}`,
+          raw: jsonData
+        };
+      }
+    }
+    return null;
+  } catch (error) {
+    console.error('Error loading overview:', error);
+    return null;
+  }
+};
+
 const buildAbsoluteUrl = (pathSegment = '') => {
-  const base = 'https://haunted.gr';
-  if (!pathSegment) return base;
-  return pathSegment.startsWith('http') ? pathSegment : `${base}${pathSegment}`;
+  if (!pathSegment) return BASE_URL;
+  return pathSegment.startsWith('http') ? pathSegment : `${BASE_URL}${pathSegment}`;
 };
 
 const buildSocialMetaHtml = ({
@@ -187,14 +219,23 @@ app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
       const categoryData = await getCategoryData(category, subcategory);
       htmlMeta = buildCategoryMeta(categoryData, path);
     } else {
-      htmlMeta = buildCategoryMeta(
-        {
-          title: 'Η στοιχειωμένη Ελλάδα',
-          description: 'Haunted Greece - Η μεγαλύτερη συλλογή ελληνικής λαογραφίας και παραφυσικών ερευνών.',
-          image: '/images/og-default-image.webp'
-        },
-        path || '/'
-      );
+      let overviewMeta = null;
+      if (category && SUPPORTED_SOCIAL_CATEGORIES.has(category)) {
+        overviewMeta = await getCategoryOverview(category);
+      }
+
+      if (overviewMeta) {
+        htmlMeta = buildCategoryMeta(overviewMeta, path || '/');
+      } else {
+        htmlMeta = buildCategoryMeta(
+          {
+            title: 'Η στοιχειωμένη Ελλάδα',
+            description: 'Haunted Greece - Η μεγαλύτερη συλλογή ελληνικής λαογραφίας και παραφυσικών ερευνών.',
+            image: '/images/og-default-image.webp'
+          },
+          path || '/'
+        );
+      }
     }
     
     const html = buildSocialMetaHtml(htmlMeta);
@@ -257,7 +298,11 @@ app.get('*', async (req, res, next) => {
       const categoryData = await getCategoryData(category, subcategory);
       htmlMeta = buildCategoryMeta(categoryData, path);
     } else {
-      htmlMeta = defaultMeta(path);
+      let overviewMeta = null;
+      if (category && SUPPORTED_SOCIAL_CATEGORIES.has(category)) {
+        overviewMeta = await getCategoryOverview(category);
+      }
+      htmlMeta = overviewMeta ? buildCategoryMeta(overviewMeta, path) : defaultMeta(path);
     }
 
     const html = buildSocialMetaHtml(htmlMeta);
