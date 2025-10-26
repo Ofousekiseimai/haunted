@@ -12,7 +12,7 @@
     <!-- Open Graph Meta Tags (Fallbacks) -->
     <meta property="og:title" content="Haunted.gr - Η Στοιχειωμένη Ελλάδα" />
     <meta property="og:description" content="Παραδόσεις, Μαρτυρίες για Παράξενα Φαινόμενα, Όντα και Εγκλήματα στην Ελλάδα" />
-    <meta property="og:image" content="https://haunted.gr/default-share-image.webp" />
+    <meta property="og:image" content="https://haunted.gr/images/og-default-image.webp" />
     <meta property="og:url" content="https://haunted.gr" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="haunted.gr" />
@@ -24,24 +24,10 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Haunted.gr - Η Στοιχειωμένη Ελλάδα" />
     <meta name="twitter:description" content="Παραδόσεις, Μαρτυρίες για Παράξενα Φαινόμενα, Όντα και Εγκλήματα στην Ελλάδα" />
-    <meta name="twitter:image" content="https://haunted.gr/default-share-image.webp" />
+    <meta name="twitter:image" content="https://haunted.gr/images/og-default-image.webp" />
     
     <meta name="google-site-verification" content="84WAj9-7ie3BGJxLBxu-eLy09xTIHyCYrelPotA_hD0" />
 
-    <script>
-      // Check if the user agent is a social media crawler
-      const isSocialMediaBot = /facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|Discordbot|TelegramBot/i.test(navigator.userAgent);
-      
-      if (isSocialMediaBot) {
-        // Get the current path
-        const path = window.location.pathname;
-        
-        // Redirect to our server-side endpoint for social meta tags
-        if (path !== '/') {
-          window.location.href = `http://localhost:3001/api/social-meta${path}`;
-        }
-      }
-    </script>
   </head>
   <body>
     <div id="root"></div>

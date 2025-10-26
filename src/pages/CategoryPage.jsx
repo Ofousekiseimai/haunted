@@ -4,6 +4,26 @@ import { Link, useParams } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { CATEGORY_CONFIG, SUBCATEGORY_MAP } from '../constants/categories';
 
+const extractYear = (value) => {
+  if (!value) return null;
+
+  const stringValue = typeof value === 'string' ? value : String(value);
+  const trimmed = stringValue.trim();
+  if (!trimmed) return null;
+
+  const yearMatch = trimmed.match(/(\d{4})/);
+  if (yearMatch) {
+    return yearMatch[1];
+  }
+
+  const parsedDate = new Date(trimmed);
+  if (!Number.isNaN(parsedDate.getTime())) {
+    return String(parsedDate.getFullYear());
+  }
+
+  return null;
+};
+
 export default function CategoryPage() {
   const { category, subcategory } = useParams();
   const [articles, setArticles] = useState([]);
@@ -12,8 +32,10 @@ export default function CategoryPage() {
   const [currentConfig, setCurrentConfig] = useState(null);
   const [selectedMainArea, setSelectedMainArea] = useState('all');
   const [selectedSubLocation, setSelectedSubLocation] = useState('all');
+  const [selectedYear, setSelectedYear] = useState('all');
   const [availableMainAreas, setAvailableMainAreas] = useState(['all']);
   const [availableSubLocations, setAvailableSubLocations] = useState(['all']);
+  const [availableYears, setAvailableYears] = useState(['all']);
 
   useEffect(() => {
     const loadData = async () => {
@@ -40,6 +62,7 @@ export default function CategoryPage() {
             ...article,
             subcategory: article.subcategory || config.slug,
             mainArea: article.mainArea?.trim() || '',
+            year: extractYear(article.year) || extractYear(article.date),
             subLocation: [
               article.subLocation?.trim(), 
               article.subLocation2?.trim()
@@ -50,6 +73,7 @@ export default function CategoryPage() {
         setArticles(processedArticles);
         setSelectedMainArea('all');
         setSelectedSubLocation('all');
+        setSelectedYear('all');
       } catch (err) {
         console.error('Σφάλμα φόρτωσης:', err);
         setError(`Πρόβλημα φόρτωσης: ${err.message}`);
@@ -66,7 +90,7 @@ export default function CategoryPage() {
     const mainAreas = ['all', ...new Set(
       articles.map(a => a.mainArea).filter(a => a)
     )].sort((a, b) => a.localeCompare(b));
-    
+
     setAvailableMainAreas(mainAreas);
   }, [articles]);
 
@@ -84,12 +108,33 @@ export default function CategoryPage() {
     setSelectedSubLocation('all');
   }, [selectedMainArea, articles]);
 
+  useEffect(() => {
+    const filteredByArea = articles.filter(article =>
+      selectedMainArea === 'all' || article.mainArea === selectedMainArea
+    );
+    const filteredByLocation = filteredByArea.filter(article =>
+      selectedSubLocation === 'all' || article.subLocation.includes(selectedSubLocation)
+    );
+
+    const yearValues = [...new Set(
+      filteredByLocation.map(a => a.year).filter(Boolean)
+    )].sort((a, b) => Number(b) - Number(a));
+    const years = ['all', ...yearValues];
+
+    setAvailableYears(years);
+
+    if (selectedYear !== 'all' && !years.includes(selectedYear)) {
+      setSelectedYear('all');
+    }
+  }, [articles, selectedMainArea, selectedSubLocation, selectedYear]);
+
   const filteredArticles = articles.filter(article => {
     const mainAreaMatch = selectedMainArea === 'all' || article.mainArea === selectedMainArea;
     const subLocationMatch = selectedSubLocation === 'all' || 
                            article.subLocation.includes(selectedSubLocation);
+    const yearMatch = selectedYear === 'all' || article.year === selectedYear;
     
-    return mainAreaMatch && subLocationMatch;
+    return mainAreaMatch && subLocationMatch && yearMatch;
   });
 
   const canonicalSegments = [category];
@@ -101,7 +146,7 @@ export default function CategoryPage() {
   const pageDescription = currentConfig?.description || 'Εξερευνήστε τη συλλογή μας με ιστορίες και άρθρα.';
   const ogImage = currentConfig?.image?.src
     ? `https://haunted.gr${currentConfig.image.src}`
-    : 'https://haunted.gr/og-default-image.jpg';
+    : 'https://haunted.gr/images/og-default-image.webp';
 
   if (loading) {
     return (
@@ -160,7 +205,7 @@ export default function CategoryPage() {
           )}
 
           {/* Filter Controls */}
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
             <div>
               <label className="block text-sm font-medium text-gray-300 mb-2">
                 Ευρύτερη περιοχή
@@ -190,6 +235,23 @@ export default function CategoryPage() {
                 {availableSubLocations.map(loc => (
                   <option key={loc} value={loc}>
                     {loc === 'all' ? 'Όλες οι τοποθεσίες' : loc}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-300 mb-2">
+                Έτος
+              </label>
+              <select
+                value={selectedYear}
+                onChange={(e) => setSelectedYear(e.target.value)}
+                className="w-full p-2 rounded-lg bg-gray-800 border border-gray-700 text-gray-100 focus:ring-2 focus:ring-purple-500"
+              >
+                {availableYears.map(year => (
+                  <option key={year} value={year}>
+                    {year === 'all' ? 'Όλα τα έτη' : year}
                   </option>
                 ))}
               </select>

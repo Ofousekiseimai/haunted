@@ -252,7 +252,7 @@ case 'text':
   const metaDescription = article.excerpt || 'Ανακαλύψτε λαογραφικές και παραφυσικές ιστορίες στο haunted.gr.';
   const ogImage = article.image?.src
     ? `https://haunted.gr${article.image.src}`
-    : 'https://haunted.gr/og-default-image.jpg';
+    : 'https://haunted.gr/images/og-default-image.webp';
 
   const handleSaveArticle = async (updatedArticle) => {
     try {

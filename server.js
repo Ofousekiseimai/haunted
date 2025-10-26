@@ -114,7 +114,7 @@ const buildSocialMetaHtml = ({
   publishedTime
 }) => {
   const siteName = 'haunted.gr';
-  const absoluteImage = image ? buildAbsoluteUrl(image) : `${buildAbsoluteUrl()}/og-default-image.jpg`;
+  const absoluteImage = image ? buildAbsoluteUrl(image) : buildAbsoluteUrl('/images/og-default-image.webp');
 
   return `
       <!DOCTYPE html>
@@ -191,7 +191,7 @@ app.get('/api/social-meta/:category/:subcategory?/:slug?', async (req, res) => {
         {
           title: 'Η στοιχειωμένη Ελλάδα',
           description: 'Haunted Greece - Η μεγαλύτερη συλλογή ελληνικής λαογραφίας και παραφυσικών ερευνών.',
-          image: '/images/og-default-image.jpg'
+          image: '/images/og-default-image.webp'
         },
         path || '/'
       );
@@ -219,7 +219,7 @@ const defaultMeta = (path = '/') =>
     {
       title: 'Η στοιχειωμένη Ελλάδα',
       description: 'Haunted Greece - Η μεγαλύτερη συλλογή ελληνικής λαογραφίας, παράξενων φαινομένων και ψυχικών ερευνών.',
-      image: '/images/og-default-image.jpg'
+      image: '/images/og-default-image.webp'
     },
     path
   );
