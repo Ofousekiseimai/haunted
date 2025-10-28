@@ -135,7 +135,7 @@ export function LaografiaInteractiveMap({
             </select>
           </label>
 
-          <label className="flex flex-col gap-2 text-sm font-medium text-black">
+          <label className="flex flex-col gap-2 text-sm font-medium text-white">
             <span>Περιφέρεια</span>
             <select
               value={resolvedMainArea}
@@ -153,8 +153,8 @@ export function LaografiaInteractiveMap({
             </select>
           </label>
 
-          <label className="flex flex-col gap-2 text-sm font-medium text-black">
-            <span>Οικισμός / Τοποθεσία</span>
+          <label className="flex flex-col gap-2 text-sm font-medium text-white">
+            <span>Τοποθεσία</span>
             <select
               value={resolvedSubLocation}
               onChange={(event) => setSelectedSubLocationRaw(event.target.value)}

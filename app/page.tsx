@@ -54,6 +54,7 @@ export default async function HomePage() {
             description="Συλλογές για στοιχειά, νεράιδες, βρυκόλακες και πλάσματα της ελληνικής παράδοσης."
             categorySlug="laografia"
             subcategories={laografia}
+            defaultSubcategorySlug="vrikolakes"
           />
         )}
 
@@ -64,6 +65,7 @@ export default async function HomePage() {
             description="Παράξενα φαινόμενα, εγκλήματα και τελετές όπως καταγράφηκαν στον ελληνικό Τύπο."
             categorySlug="efimerides"
             subcategories={efimerides}
+            defaultSubcategorySlug="fainomena"
           />
         )}
 

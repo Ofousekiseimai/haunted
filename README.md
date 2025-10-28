@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+haunted.gr is now a **Next.js 16** app (SSR) that runs behind **Nginx** on the production server.  
+Node.js **≥20.9** is required (`.nvmrc` is set to `v20.11.1`).
 
-## Getting Started
-
-First, run the development server:
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+nvm use          # reads .nvmrc
+npm install
+npm run dev      # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Update flow (SSH)
 
-## Learn More
+```bash
+cd /var/www/haunted.gr
+source ~/.nvm/nvm.sh
+nvm use 20.11.1
+git pull
+npm ci            # only if dependencies changed
+npm run build
+pm2 restart haunted
+pm2 save
+```
 
-To learn more about Next.js, take a look at the following resources:
+If Nginx config changed:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+sudo nginx -t
+sudo systemctl reload nginx
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Useful checks:
 
-## Deploy on Vercel
+```bash
+pm2 list
+pm2 logs haunted --lines 50
+ss -ltnp | grep :4000    # verify the port listener
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Optional helper script
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can drop something like this in `/var/www/haunted.gr/deploy.sh` and run it after each push:
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd /var/www/haunted.gr
+source ~/.nvm/nvm.sh
+nvm use 20.11.1
+
+git pull
+npm run build
+pm2 restart haunted
+pm2 save
+
+if [ -f /etc/nginx/sites-enabled/haunted.gr.conf ]; then
+  sudo nginx -t && sudo systemctl reload nginx
+fi
+```
+
+Make it executable with `chmod +x deploy.sh`.

@@ -6,21 +6,30 @@ import type { YoutubeData } from "@/lib/youtube";
 
 const YOUTUBE_THUMB_HOSTS = ["https://img.youtube.com", "https://i.ytimg.com"];
 
+function isValidYoutubeId(value?: string | null) {
+  if (typeof value !== "string") {
+    return false;
+  }
+
+  const trimmed = value.trim();
+  return /^[A-Za-z0-9_-]{11}$/.test(trimmed);
+}
+
 function sanitizeUrl(url: string) {
   return url.trim();
 }
 
 function resolveYoutubeId(url: string, explicitId?: string) {
-  if (explicitId) {
-    return explicitId.trim();
-  }
-
   const cleanedUrl = sanitizeUrl(url);
   const match = cleanedUrl.match(
     /^.*(?:youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/,
   );
-  if (match && match[1]) {
-    return match[1];
+  if (match && isValidYoutubeId(match[1])) {
+    return match[1].trim();
+  }
+
+  if (explicitId && isValidYoutubeId(explicitId)) {
+    return explicitId.trim();
   }
 
   return null;

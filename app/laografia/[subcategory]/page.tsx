@@ -116,7 +116,7 @@ export default async function LaografiaSubcategoryPage({ params }: PageProps) {
       <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
         {subcategory.articles.map((article) => (
           <CategoryArticleCard
-            key={article.id}
+            key={`${article.id}-${article.slug}`}
             href={`/laografia/${subcategory.subcategorySlug}/${article.slug}`}
             title={article.title}
             excerpt={article.excerpt}

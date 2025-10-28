@@ -157,7 +157,9 @@ export async function getAllSubcategories(categoryKey: string) {
     return entries
       .filter(
         (item): item is { entry: SubcategoryData; fileSlug: string } =>
-          item.entry !== null && Array.isArray(item.entry.articles),
+          item.entry !== null &&
+          Array.isArray(item.entry.articles) &&
+          item.entry.articles.length > 0,
       )
       .map(({ entry }) => entry);
   } catch (error) {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -38,31 +38,31 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const isDarkBackground = useMemo(() => pathname !== "/", [pathname]);
-  const mobileOpenRef = useRef(mobileOpen);
-  const openDropdownRef = useRef(openDropdown);
+
+  const closeMobileMenu = useCallback(() => {
+    setMobileOpen(false);
+    setOpenDropdown(null);
+  }, []);
+
+  const toggleMobileMenu = useCallback(() => {
+    setMobileOpen((current) => {
+      const next = !current;
+      if (!next) {
+        setOpenDropdown(null);
+      }
+      return next;
+    });
+  }, []);
 
   useDisableBodyScroll(mobileOpen);
 
   useEffect(() => {
-    mobileOpenRef.current = mobileOpen;
-  }, [mobileOpen]);
-
-  useEffect(() => {
-    openDropdownRef.current = openDropdown;
-  }, [openDropdown]);
-
-  useEffect(() => {
-    if (!mobileOpenRef.current && !openDropdownRef.current) {
+    if (!mobileOpen && !openDropdown) {
       return;
     }
 
-    const timer = window.setTimeout(() => {
-      setMobileOpen(false);
-      setOpenDropdown(null);
-    }, 0);
-
-    return () => window.clearTimeout(timer);
-  }, [pathname]);
+    closeMobileMenu();
+  }, [closeMobileMenu, pathname]);
 
   return (
     <header
@@ -161,7 +161,7 @@ export function Header() {
             type="button"
             aria-label={mobileOpen ? "Κλείσιμο μενού" : "Άνοιγμα μενού"}
             className="flex h-10 w-10 items-center justify-center rounded-full border border-n-6 text-n-1 transition hover:border-color-1 hover:text-color-1"
-            onClick={() => setMobileOpen((current) => !current)}
+            onClick={toggleMobileMenu}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -192,8 +192,7 @@ export function Header() {
             className="absolute right-5 top-5 z-[81] flex h-10 w-10 items-center justify-center text-n-1 transition hover:text-color-1"
             onClick={(event) => {
               event.stopPropagation();
-              setMobileOpen(false);
-              setOpenDropdown(null);
+              closeMobileMenu();
             }}
           >
             <svg
@@ -249,8 +248,7 @@ export function Header() {
                               href={subitem.url}
                               className="block border-b border-n-6 px-4 py-3 text-lg text-n-1 transition-colors hover:bg-n-6 last:border-b-0"
                               onClick={() => {
-                                setMobileOpen(false);
-                                setOpenDropdown(null);
+                                closeMobileMenu();
                               }}
                             >
                               {subitem.title}
@@ -263,7 +261,7 @@ export function Header() {
                     <Link
                       href={item.url}
                       className="block border-b border-n-6 px-4 py-4 text-xl uppercase text-n-1 transition-colors hover:text-color-1"
-                      onClick={() => setMobileOpen(false)}
+                      onClick={closeMobileMenu}
                     >
                       {item.title}
                     </Link>

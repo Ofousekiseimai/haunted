@@ -107,7 +107,7 @@ export default async function EfimeridesSubcategoryPage({ params }: PageProps) {
 
           return (
             <CategoryArticleCard
-              key={article.id}
+              key={`${article.id}-${article.slug}`}
               href={`/efimerides/${subcategory.subcategorySlug ?? subcategory.slug}/${article.slug}`}
               title={article.title}
               excerpt={article.excerpt}

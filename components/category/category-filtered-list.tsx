@@ -206,7 +206,7 @@ export function CategoryFilteredList({
         <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
           {filteredArticles.map((article) => (
             <CategoryArticleCard
-              key={article.id}
+              key={`${article.id}-${article.slug}`}
               href={`/${categoryKey}/${subcategorySlug}/${article.slug}`}
               title={article.title}
               excerpt={article.excerpt}

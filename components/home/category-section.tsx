@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,6 +39,7 @@ type HomeCategorySectionProps = {
   description?: string;
   categorySlug: string;
   subcategories: HomeCategorySubsection[];
+  defaultSubcategorySlug?: string;
 };
 
 function ArticleCard({
@@ -87,9 +88,30 @@ export function HomeCategorySection({
   description,
   categorySlug,
   subcategories,
+  defaultSubcategorySlug,
 }: HomeCategorySectionProps) {
-  const initialSlug = subcategories[0]?.slug ?? "";
-  const [selectedSlug, setSelectedSlug] = useState(initialSlug);
+  const fallbackSlug = subcategories[0]?.slug ?? "";
+  const resolvedDefaultSlug = useMemo(() => {
+    if (!defaultSubcategorySlug) {
+      return fallbackSlug;
+    }
+
+    return subcategories.some((entry) => entry.slug === defaultSubcategorySlug)
+      ? defaultSubcategorySlug
+      : fallbackSlug;
+  }, [defaultSubcategorySlug, fallbackSlug, subcategories]);
+
+  const [selectedSlug, setSelectedSlug] = useState(resolvedDefaultSlug);
+
+  useEffect(() => {
+    setSelectedSlug((current) => {
+      if (subcategories.some((entry) => entry.slug === current)) {
+        return current;
+      }
+
+      return resolvedDefaultSlug;
+    });
+  }, [resolvedDefaultSlug, subcategories]);
 
   const selectedSubcategory = useMemo(
     () => subcategories.find((entry) => entry.slug === selectedSlug) ?? subcategories[0],
@@ -113,7 +135,7 @@ export function HomeCategorySection({
         </label>
         <select
           id={`mobile-select-${id}`}
-          value={selectedSubcategory?.slug}
+          value={selectedSlug}
           onChange={(event) => setSelectedSlug(event.target.value)}
           className="w-full rounded-lg border border-n-7 bg-n-8 p-3 text-n-1"
         >
@@ -135,7 +157,7 @@ export function HomeCategorySection({
               onClick={() => setSelectedSlug(subcategory.slug)}
               className={`rounded-lg px-4 py-2 transition-all duration-200 ${
                 isActive
-                  ? "bg-gradient-to-r from-color-5 via-color-6 to-color-3 p-[2px]"
+                  ? "bg-color-1 p-[2px]"
                   : "bg-n-8 hover:bg-n-7"
               }`}
             >

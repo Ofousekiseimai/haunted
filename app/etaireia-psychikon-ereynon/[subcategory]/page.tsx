@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 import { CategoryArticleCard } from "@/components/category/article-card";
 import { Section } from "@/components/section";
@@ -84,6 +84,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function EtaireiaSubcategoryPage({ params }: PageProps) {
   const { subcategory: subcategorySlug } = await params;
+
+  if (subcategorySlug === "index") {
+    redirect("/etaireia-psychikon-ereynon");
+  }
+
   const subcategory = await getEtaireiaSubcategory(subcategorySlug);
 
   if (!subcategory) {
@@ -110,7 +115,7 @@ export default async function EtaireiaSubcategoryPage({ params }: PageProps) {
 
           return (
             <CategoryArticleCard
-              key={article.id}
+              key={`${article.id}-${article.slug}`}
               href={`/etaireia-psychikon-ereynon/${subcategory.subcategorySlug ?? subcategory.slug}/${article.slug}`}
               title={article.title}
               excerpt={article.excerpt}

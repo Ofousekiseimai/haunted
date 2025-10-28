@@ -206,13 +206,9 @@ export default async function EfimeridesArticlePage({ params }: PageProps) {
   if (article.source) {
     sources.push(article.source as ArticleSource);
   }
-  const tags = Array.isArray(article.tags)
-    ? (article.tags.filter((tag): tag is string => typeof tag === "string") as string[])
-    : [];
   const mainArea = (article as { mainArea?: string }).mainArea;
   const subLocation = (article as { subLocation?: string }).subLocation;
   const subLocation2 = (article as { subLocation2?: string }).subLocation2;
-  const locationTags = (article as { locationTags?: string[] }).locationTags;
   const latRaw = (article as { lat?: number | string }).lat;
   const lngRaw = (article as { lng?: number | string }).lng;
   const latitude = typeof latRaw === "number" ? latRaw : typeof latRaw === "string" ? Number(latRaw) : undefined;
@@ -339,7 +335,6 @@ export default async function EfimeridesArticlePage({ params }: PageProps) {
         mainArea={mainArea}
         subLocation={subLocation}
         subLocation2={subLocation2}
-        locationTags={locationTags}
       />
 
       <ArticleSources sources={sources} />
@@ -373,19 +368,6 @@ export default async function EfimeridesArticlePage({ params }: PageProps) {
       />
 
       <RandomArticles currentArticleId={article.id} />
-
-      {tags.length > 0 ? (
-        <footer className="flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <span
-              key={tag}
-              className="rounded-full border border-n-7 px-3 py-1 text-xs font-medium uppercase tracking-[0.24em] text-n-3"
-            >
-              {tag}
-            </span>
-          ))}
-        </footer>
-      ) : null}
 
       {article.seo?.structuredData && (
         <script

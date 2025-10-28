@@ -216,16 +216,9 @@ export default async function GenericCategoryArticlePage({ params }: PageProps) 
     sources.push(article.source as ArticleSource);
   }
 
-  const rawTags = (article as { tags?: string[] }).tags;
-  const tags =
-    Array.isArray(rawTags) && rawTags.length > 0
-      ? rawTags.filter((tag): tag is string => typeof tag === "string")
-      : null;
-
   const mainArea = (article as { mainArea?: string }).mainArea;
   const subLocation = (article as { subLocation?: string }).subLocation;
   const subLocation2 = (article as { subLocation2?: string }).subLocation2;
-  const locationTags = (article as { locationTags?: string[] }).locationTags;
   const latRaw = (article as { lat?: number | string }).lat;
   const lngRaw = (article as { lng?: number | string }).lng;
   const latitude =
@@ -348,21 +341,7 @@ export default async function GenericCategoryArticlePage({ params }: PageProps) 
         mainArea={mainArea}
         subLocation={subLocation}
         subLocation2={subLocation2}
-        locationTags={locationTags}
       />
-
-      {tags && (
-        <div className="flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <span
-              key={tag}
-              className="rounded-full border border-n-7 px-3 py-1 text-xs font-medium uppercase tracking-[0.24em] text-n-3"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
 
       <ArticleSources sources={sources} />
 
