@@ -40,12 +40,28 @@ export const metadata: Metadata = {
     description: "Λαογραφία, μύθοι και στοιχειωμένες ιστορίες από κάθε γωνιά της Ελλάδας.",
     locale: "el_GR",
     url: "https://haunted.gr",
+    images: [
+      {
+        url: "/images/og-default-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "haunted.gr",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "haunted.gr",
     description:
       "Λαογραφία, μύθοι και στοιχειωμένες ιστορίες από κάθε γωνιά της Ελλάδας.",
+    images: [
+      {
+        url: "/images/og-default-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "haunted.gr",
+      },
+    ],
   },
 };
 

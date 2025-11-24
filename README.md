@@ -19,12 +19,12 @@ cd /var/www/haunted.gr
 source ~/.nvm/nvm.sh
 nvm use 20.11.1
 git pull
-npm ci            # only if dependencies changed
+
 npm run build
 pm2 restart haunted
 pm2 save
 ```
-
+npm ci            # only if dependencies changed
 If Nginx config changed:
 
 ```bash

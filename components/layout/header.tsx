@@ -56,14 +56,6 @@ export function Header() {
 
   useDisableBodyScroll(mobileOpen);
 
-  useEffect(() => {
-    if (!mobileOpen && !openDropdown) {
-      return;
-    }
-
-    closeMobileMenu();
-  }, [closeMobileMenu, pathname]);
-
   return (
     <header
       className={`fixed inset-x-0 top-0 z-[1200] border-b border-n-6 transition-colors ${
@@ -84,7 +76,10 @@ export function Header() {
           </Link>
         </div>
 
-        <nav className="hidden w-1/2 items-center justify-end lg:flex">
+        <nav
+          className="hidden w-1/2 items-center justify-end lg:flex"
+          onMouseLeave={() => setOpenDropdown(null)}
+        >
           <div className="relative flex items-center gap-2">
             {navigation.map((item) => {
               const isActive =
@@ -93,7 +88,13 @@ export function Header() {
                   : pathname.startsWith(item.url) && item.url !== "/";
 
               return (
-                <div key={item.id} className="relative group">
+                <div
+                  key={item.id}
+                  className="relative"
+                  onMouseLeave={() =>
+                    setOpenDropdown((current) => (current === item.id ? null : current))
+                  }
+                >
                   {item.subitems ? (
                     <>
                       <button
@@ -105,6 +106,7 @@ export function Header() {
                           setOpenDropdown((current) => (current === item.id ? null : item.id))
                         }
                         onMouseEnter={() => setOpenDropdown(item.id)}
+                        onFocus={() => setOpenDropdown(item.id)}
                       >
                         {item.title}
                         <svg
@@ -123,10 +125,13 @@ export function Header() {
                       </button>
 
                       <div
-                        className={`absolute left-1/2 top-full hidden -translate-x-1/2 rounded-lg border border-n-6 bg-n-8/95 py-2 shadow-xl transition group-hover:block ${
+                        className={`absolute left-1/2 top-full hidden -translate-x-1/2 rounded-lg border border-n-6 bg-n-8/95 py-2 shadow-xl transition ${
                           openDropdown === item.id ? "lg:block" : ""
                         }`}
-                        onMouseLeave={() => setOpenDropdown(null)}
+                        onMouseEnter={() => setOpenDropdown(item.id)}
+                        onMouseLeave={() =>
+                          setOpenDropdown((current) => (current === item.id ? null : current))
+                        }
                       >
                         {item.subitems.map((subitem) => (
                           <Link

@@ -4,7 +4,9 @@ import { getSubcategoriesForCategory, type SubcategoryConfig } from "@/constants
 export type ArticleSummary = Pick<
   Article,
   "id" | "slug" | "title" | "excerpt" | "image" | "author" | "date"
->;
+> & {
+  subcategorySlug?: string;
+};
 
 type HomeSubcategory = {
   slug: string;
@@ -73,6 +75,7 @@ async function loadSubcategoryForHome(
       image: article.image,
       author: article.author,
       date: article.date,
+      subcategorySlug: config.slug,
     })),
   };
 }

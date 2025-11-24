@@ -6,6 +6,7 @@ import { ensureSlug } from "./slug";
 type JsonValue = string | number | boolean | null | JsonValue[] | { [key: string]: JsonValue };
 
 const DATA_ROOT = path.join(process.cwd(), "public", "data");
+const SITE_BASE_URL = "https://haunted.gr";
 
 export interface ArticleImage {
   src: string;
@@ -87,6 +88,9 @@ export async function getSubcategoryData(
     data.subcategory ?? subcategorySlug,
   );
 
+  const canonicalBasePath = resolveCanonicalBasePath(data.slug, categoryKey, sanitizedSubcategorySlug);
+  const fallbackKeywords = data.seo?.keywords;
+
   const articles = Array.isArray(data.articles)
     ? data.articles.map((article, index) => {
         const slug = ensureSlug(
@@ -102,11 +106,16 @@ export async function getSubcategoryData(
               }
             : undefined;
 
-        return {
+        const normalizedArticle: Article = {
           ...article,
           slug,
           image,
         };
+
+        return applyArticleSeoDefaults(normalizedArticle, {
+          canonicalBasePath,
+          fallbackKeywords,
+        });
       })
     : [];
 
@@ -182,4 +191,115 @@ export async function getAllArticleParamsForCategory(categoryKey: string) {
   });
 
   return params;
+}
+
+function resolveCanonicalBasePath(
+  dataSlug: JsonValue | undefined,
+  categoryKey: string,
+  subcategorySlug: string,
+) {
+  const fallback = `/${[categoryKey, subcategorySlug].map(trimSlashes).join("/")}`;
+
+  if (typeof dataSlug !== "string") {
+    return fallback;
+  }
+
+  const trimmed = dataSlug.trim();
+  if (!trimmed) {
+    return fallback;
+  }
+
+  if (/^https?:\/\//.test(trimmed)) {
+    return trimmed.replace(/\/+$/, "");
+  }
+
+  const normalized = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+  return normalized.replace(/\/+$/, "");
+}
+
+function buildArticleCanonicalUrl(basePath: string, articleSlug: string) {
+  const normalizedSlug = trimSlashes(articleSlug);
+  if (!normalizedSlug) {
+    return basePath.startsWith("http") ? basePath : `${SITE_BASE_URL}${basePath}`;
+  }
+
+  if (basePath.startsWith("http://") || basePath.startsWith("https://")) {
+    const prefix = basePath.replace(/\/+$/, "");
+    return `${prefix}/${normalizedSlug}`;
+  }
+
+  const cleanedBase = basePath ? basePath.replace(/\/+$/, "") : "";
+  const normalizedBase = cleanedBase.startsWith("/") ? cleanedBase : `/${trimSlashes(cleanedBase)}`;
+  const relativePath = normalizedBase === "/" ? `/${normalizedSlug}` : `${normalizedBase}/${normalizedSlug}`;
+  return `${SITE_BASE_URL}${relativePath}`;
+}
+
+function trimSlashes(value: string) {
+  return value.replace(/^\/+|\/+$/g, "");
+}
+
+function normalizeKeywordsList(keywords?: JsonValue) {
+  if (!Array.isArray(keywords)) {
+    return [];
+  }
+
+  const seen = new Set<string>();
+  const normalized: string[] = [];
+
+  keywords.forEach((keyword) => {
+    if (typeof keyword !== "string") {
+      return;
+    }
+    const trimmed = keyword.trim();
+    if (!trimmed || seen.has(trimmed)) {
+      return;
+    }
+    seen.add(trimmed);
+    normalized.push(trimmed);
+  });
+
+  return normalized;
+}
+
+function applyArticleSeoDefaults(
+  article: Article,
+  options: { canonicalBasePath: string; fallbackKeywords?: JsonValue },
+) {
+  const rawSeo = article.seo;
+  const normalizedSeo: ArticleSeo = rawSeo ? { ...rawSeo } : {};
+  let changed = false;
+
+  if (!normalizedSeo.canonical) {
+    normalizedSeo.canonical = buildArticleCanonicalUrl(options.canonicalBasePath, article.slug);
+    changed = true;
+  }
+
+  const articleKeywords = normalizeKeywordsList(normalizedSeo.keywords);
+  const fallbackKeywords = normalizeKeywordsList(options.fallbackKeywords);
+
+  if (articleKeywords.length > 0) {
+    if (
+      !normalizedSeo.keywords ||
+      normalizedSeo.keywords.length !== articleKeywords.length ||
+      normalizedSeo.keywords.some((value, index) => value !== articleKeywords[index])
+    ) {
+      normalizedSeo.keywords = articleKeywords;
+      changed = true;
+    }
+  } else if (fallbackKeywords.length > 0) {
+    normalizedSeo.keywords = fallbackKeywords;
+    changed = true;
+  } else if (normalizedSeo.keywords) {
+    delete normalizedSeo.keywords;
+    changed = true;
+  }
+
+  if (!changed) {
+    return article;
+  }
+
+  return {
+    ...article,
+    seo: normalizedSeo,
+  };
 }

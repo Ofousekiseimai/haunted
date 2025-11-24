@@ -8,6 +8,9 @@ import {
 import { YoutubeSection } from "@/components/home/youtube-section";
 import { getHomeCategorySections } from "@/lib/home";
 import { getYoutubeData } from "@/lib/youtube";
+import { getAllEtaireiaSubcategories } from "@/lib/etaireia";
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: "Haunted Greece",
@@ -34,13 +37,103 @@ function hasArticles(subcategories: HomeCategorySubsection[]) {
   return subcategories.some((entry) => entry.articles.length);
 }
 
+type MonthDay = {
+  month: number;
+  day: number;
+};
+
+function extractMonthDay(date?: string | null): MonthDay | null {
+  if (!date) {
+    return null;
+  }
+
+  const trimmed = date.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  const isoMatch = trimmed.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+  if (isoMatch) {
+    return {
+      month: Number.parseInt(isoMatch[2], 10),
+      day: Number.parseInt(isoMatch[3], 10),
+    };
+  }
+
+  const genericMatch = trimmed.match(/(\d{1,2})[\/.-](\d{1,2})$/);
+  if (genericMatch) {
+    const first = Number.parseInt(genericMatch[1], 10);
+    const second = Number.parseInt(genericMatch[2], 10);
+    if (first > 12 && second <= 12) {
+      return { day: first, month: second };
+    }
+    if (second > 12 && first <= 12) {
+      return { day: second, month: first };
+    }
+    return { day: second, month: first };
+  }
+
+  const parsed = Date.parse(trimmed);
+  if (Number.isNaN(parsed)) {
+    return null;
+  }
+
+  const result = new Date(parsed);
+  return {
+    month: result.getUTCMonth() + 1,
+    day: result.getUTCDate(),
+  };
+}
+
 export default async function HomePage() {
-  const [laografia, efimerides, etaireia, youtubeData] = await Promise.all([
+  const [laografia, efimerides, etaireia, etaireiaFull, youtubeData] = await Promise.all([
     getHomeCategorySections("laografia"),
     getHomeCategorySections("efimerides"),
     getHomeCategorySections("etaireia-psychikon-ereynon"),
+    getAllEtaireiaSubcategories(),
     getYoutubeData(),
   ]);
+
+  const today = new Date();
+  const target: MonthDay = {
+    month: today.getMonth() + 1,
+    day: today.getDate(),
+  };
+
+  const sanSimeraArticles = etaireiaFull
+    .flatMap((subcategory) => {
+      const subcategorySlug = subcategory.subcategorySlug ?? subcategory.slug;
+      return (subcategory.articles ?? []).map((article) => ({
+        article,
+        subcategorySlug,
+      }));
+    })
+    .filter(({ article }) => {
+      const match = extractMonthDay(article.date as string | undefined);
+      if (!match) {
+        return false;
+      }
+      return match.month === target.month && match.day === target.day;
+    })
+    .slice(0, 3)
+    .map(({ article, subcategorySlug }) => ({
+      id: article.id,
+      slug: article.slug,
+      title: article.title,
+      excerpt: article.excerpt,
+      image: article.image,
+      author: article.author,
+      date: article.date as string | undefined,
+      subcategorySlug,
+      href: `/etaireia-psychikon-ereynon/${subcategorySlug}/${article.slug}`,
+    }));
+
+  const etaireiaSpotlight = sanSimeraArticles.length
+    ? {
+        label: "Σαν σήμερα",
+        articles: sanSimeraArticles,
+      }
+    : undefined;
 
   return (
     <>
@@ -76,6 +169,7 @@ export default async function HomePage() {
             description="Έρευνες, πειράματα και δημοσιεύσεις από τα αρχεία της Εταιρίας Ψυχικών Ερευνών."
             categorySlug="etaireia-psychikon-ereynon"
             subcategories={etaireia}
+            spotlight={etaireiaSpotlight}
           />
         )}
       </div>

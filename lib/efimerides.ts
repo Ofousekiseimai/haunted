@@ -32,49 +32,38 @@ export type EfimeridesIndex = {
 const DATA_ROOT = path.join(process.cwd(), "public", "data", CATEGORY_KEY);
 const INDEX_FILE = path.join(DATA_ROOT, "index.json");
 
-function toTimestamp(value?: string | null) {
-  if (!value) {
-    return null;
-  }
+function sortArticlesByInsertionOrder(articles: Article[]): EfimeridesArticle[] {
+  return [...articles]
+    .map((article, index) => {
+      const numericId =
+        typeof article.id === "number"
+          ? article.id
+          : typeof article.id === "string"
+            ? Number.parseInt(article.id, 10)
+            : Number.NaN;
 
-  const parsed = Date.parse(value);
-  if (!Number.isNaN(parsed)) {
-    return parsed;
-  }
+      return {
+        article,
+        index,
+        numericId: Number.isFinite(numericId) ? numericId : null,
+      };
+    })
+    .sort((a, b) => {
+      if (a.numericId !== null && b.numericId !== null && a.numericId !== b.numericId) {
+        return b.numericId - a.numericId;
+      }
 
-  const yearMatch = value.match(/(\d{4})/);
-  if (yearMatch) {
-    const coerced = `${yearMatch[1]}-01-01`;
-    const coercedParsed = Date.parse(coerced);
-    if (!Number.isNaN(coercedParsed)) {
-      return coercedParsed;
-    }
-  }
+      if (a.numericId !== null && b.numericId === null) {
+        return -1;
+      }
 
-  return null;
-}
+      if (a.numericId === null && b.numericId !== null) {
+        return 1;
+      }
 
-function sortArticlesByRecency(articles: Article[]): EfimeridesArticle[] {
-  return [...articles].sort((a, b) => {
-    const aDate = toTimestamp(a.date as string | undefined);
-    const bDate = toTimestamp(b.date as string | undefined);
-
-    if (aDate && bDate) {
-      return bDate - aDate;
-    }
-
-    if (aDate) {
-      return -1;
-    }
-
-    if (bDate) {
-      return 1;
-    }
-
-    const aId = Number(a.id ?? 0);
-    const bId = Number(b.id ?? 0);
-    return bId - aId;
-  }) as EfimeridesArticle[];
+      return b.index - a.index;
+    })
+    .map(({ article }) => article as EfimeridesArticle);
 }
 
 export async function getEfimeridesIndex(): Promise<EfimeridesIndex | null> {
@@ -97,7 +86,7 @@ export async function getEfimeridesSubcategory(
 
   return {
     ...data,
-    articles: sortArticlesByRecency(data.articles ?? []),
+    articles: sortArticlesByInsertionOrder(data.articles ?? []),
   };
 }
 
@@ -110,7 +99,7 @@ export async function getAllEfimeridesSubcategories(): Promise<EfimeridesSubcate
 
   return subcategories.map((subcategory) => ({
     ...subcategory,
-    articles: sortArticlesByRecency(subcategory.articles ?? []),
+    articles: sortArticlesByInsertionOrder(subcategory.articles ?? []),
   }));
 }
 

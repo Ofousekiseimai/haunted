@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,14 +13,41 @@ function toAbsoluteUrl(url?: string | null) {
     return undefined;
   }
 
-  if (/^https?:\/\//.test(url)) {
-    return url.trim();
+  const trimmed = url.trim();
+
+  if (trimmed.startsWith("/")) {
+    return trimmed;
+  }
+
+  if (/^https?:\/\//.test(trimmed)) {
+    return trimmed;
   }
 
   try {
-    return new URL(url.trim(), SITE_BASE_URL).toString();
+    return new URL(trimmed, SITE_BASE_URL).toString();
   } catch {
     return undefined;
+  }
+}
+
+function formatHumanDate(date?: string) {
+  if (!date) {
+    return null;
+  }
+
+  const parsed = Date.parse(date);
+  if (Number.isNaN(parsed)) {
+    return date;
+  }
+
+  try {
+    return new Intl.DateTimeFormat("el-GR", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    }).format(parsed);
+  } catch {
+    return date;
   }
 }
 
@@ -40,6 +67,10 @@ type HomeCategorySectionProps = {
   categorySlug: string;
   subcategories: HomeCategorySubsection[];
   defaultSubcategorySlug?: string;
+  spotlight?: {
+    label: string;
+    articles: Array<ArticleSummary & { href: string }>;
+  };
 };
 
 function ArticleCard({
@@ -89,6 +120,7 @@ export function HomeCategorySection({
   categorySlug,
   subcategories,
   defaultSubcategorySlug,
+  spotlight,
 }: HomeCategorySectionProps) {
   const fallbackSlug = subcategories[0]?.slug ?? "";
   const resolvedDefaultSlug = useMemo(() => {
@@ -103,19 +135,37 @@ export function HomeCategorySection({
 
   const [selectedSlug, setSelectedSlug] = useState(resolvedDefaultSlug);
 
-  useEffect(() => {
-    setSelectedSlug((current) => {
-      if (subcategories.some((entry) => entry.slug === current)) {
-        return current;
-      }
+  const derivedSelectedSlug = useMemo(() => {
+    if (!subcategories.length) {
+      return "";
+    }
 
-      return resolvedDefaultSlug;
-    });
-  }, [resolvedDefaultSlug, subcategories]);
+    if (subcategories.some((entry) => entry.slug === selectedSlug)) {
+      return selectedSlug;
+    }
+
+    return resolvedDefaultSlug;
+  }, [resolvedDefaultSlug, selectedSlug, subcategories]);
 
   const selectedSubcategory = useMemo(
-    () => subcategories.find((entry) => entry.slug === selectedSlug) ?? subcategories[0],
-    [selectedSlug, subcategories],
+    () => subcategories.find((entry) => entry.slug === derivedSelectedSlug) ?? subcategories[0],
+    [derivedSelectedSlug, subcategories],
+  );
+
+  const todayLabel = useMemo(() => {
+    try {
+      return new Intl.DateTimeFormat("el-GR", {
+        day: "numeric",
+        month: "long",
+      }).format(new Date());
+    } catch {
+      return null;
+    }
+  }, []);
+
+  const spotlightArticles = useMemo(
+    () => (spotlight?.articles ? spotlight.articles.slice(0, 3) : []),
+    [spotlight],
   );
 
   if (!subcategories.length) {
@@ -129,13 +179,53 @@ export function HomeCategorySection({
         {description && <p className="mt-2 text-n-3">{description}</p>}
       </div>
 
+      {spotlightArticles.length ? (
+        <div className="space-y-4 rounded-2xl border border-n-7 bg-n-8/60 p-6">
+          <div className="flex flex-wrap items-baseline justify-between gap-3">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-color-1">
+                {spotlight.label}
+              </p>
+              {todayLabel && <p className="text-sm text-n-3">{todayLabel}</p>}
+            </div>
+            <span className="text-xs uppercase tracking-[0.24em] text-n-4">
+              {spotlightArticles.length === 1
+                ? "1 άρθρο"
+                : `${spotlightArticles.length} άρθρα`}
+            </span>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            {spotlightArticles.map((article) => (
+              <Link
+                key={`${article.id}-${article.slug}`}
+                href={article.href}
+                className="group rounded-xl border border-n-7 bg-n-9/60 p-4 transition hover:border-color-1 hover:bg-n-8"
+              >
+                <h3 className="text-base font-semibold text-n-1 transition group-hover:text-color-1">
+                  {article.title}
+                </h3>
+                {article.date && (
+                  <p className="mt-2 text-xs uppercase tracking-[0.24em] text-n-4">
+                    {formatHumanDate(article.date)}
+                  </p>
+                )}
+                {article.excerpt && (
+                  <p className="mt-3 line-clamp-3 text-sm text-n-3">{article.excerpt}</p>
+                )}
+              </Link>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
       <div className="md:hidden">
         <label className="sr-only" htmlFor={`mobile-select-${id}`}>
           Επιλογή υποκατηγορίας
         </label>
         <select
           id={`mobile-select-${id}`}
-          value={selectedSlug}
+          value={derivedSelectedSlug}
           onChange={(event) => setSelectedSlug(event.target.value)}
           className="w-full rounded-lg border border-n-7 bg-n-8 p-3 text-n-1"
         >
@@ -176,7 +266,7 @@ export function HomeCategorySection({
               <ArticleCard
                 key={`${article.id}-${article.slug}`}
                 article={article}
-                href={`/${categorySlug}/${selectedSubcategory.slug}/${article.slug}`}
+                href={`/${categorySlug}/${article.subcategorySlug ?? selectedSubcategory.slug}/${article.slug}`}
               />
             ))}
           </div>

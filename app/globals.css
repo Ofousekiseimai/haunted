@@ -217,6 +217,15 @@
     pointer-events: none;
     -webkit-touch-callout: none;
   }
+
+  /* Allow Leaflet tiles/markers to capture pointer events for dragging/panning */
+  .map-leaflet img,
+  .map-leaflet .leaflet-tile,
+  .map-leaflet .leaflet-marker-icon,
+  .map-leaflet .leaflet-marker-shadow,
+  .map-leaflet .leaflet-interactive {
+    pointer-events: auto;
+  }
 }
 
 @layer components {

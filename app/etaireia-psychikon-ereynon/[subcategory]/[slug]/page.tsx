@@ -30,12 +30,18 @@ function toAbsoluteUrl(url?: string | null) {
     return undefined;
   }
 
-  if (/^https?:\/\//.test(url)) {
-    return url;
+  const trimmed = url.trim();
+
+  if (trimmed.startsWith("/")) {
+    return new URL(trimmed, SITE_BASE_URL).toString();
+  }
+
+  if (/^https?:\/\//.test(trimmed)) {
+    return trimmed;
   }
 
   try {
-    return new URL(url, SITE_BASE_URL).toString();
+    return new URL(trimmed, SITE_BASE_URL).toString();
   } catch {
     return undefined;
   }
