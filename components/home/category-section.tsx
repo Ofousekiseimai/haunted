@@ -179,7 +179,7 @@ export function HomeCategorySection({
         {description && <p className="mt-2 text-n-3">{description}</p>}
       </div>
 
-      {spotlightArticles.length ? (
+      {spotlight && spotlightArticles.length ? (
         <div className="space-y-4 rounded-2xl border border-n-7 bg-n-8/60 p-6">
           <div className="flex flex-wrap items-baseline justify-between gap-3">
             <div>
