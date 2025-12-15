@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { MapArticle } from "@/lib/maps";
 import "leaflet/dist/leaflet.css";
-import type { Icon, IconOptions } from "leaflet";
+import type { Icon, IconOptions, MapOptions } from "leaflet";
 
 type GreeceMapProps = {
   articles: MapArticle[];
@@ -122,7 +122,7 @@ export function GreeceMap({ articles }: GreeceMapProps) {
     }
 
     if (!mapRef.current) {
-      const map = leaflet.map(containerRef.current, {
+      const mapOptions: MapOptions & { tap?: boolean } = {
         center: CENTER,
         zoom: 6,
         minZoom: 6,
@@ -132,7 +132,9 @@ export function GreeceMap({ articles }: GreeceMapProps) {
         touchZoom: true,
         tap: false,
         attributionControl: true,
-      });
+      };
+
+      const map = leaflet.map(containerRef.current, mapOptions);
 
       leaflet
         .tileLayer(tileUrl, {
