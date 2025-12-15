@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { LocationDetails } from "@/components/article/location-details";
+import { LinkedArticles } from "@/components/article/linked-articles";
 import { RelatedArticles } from "@/components/article/related-articles";
 import { SameAreaArticles } from "@/components/article/same-area-articles";
 import { RandomArticles } from "@/components/article/random-articles";
@@ -336,6 +337,12 @@ export default async function EfimeridesArticlePage({ params }: PageProps) {
       <div className="space-y-6 text-base leading-7 text-n-2">
         {article.content.map((block, index) => renderContentBlock(block, index))}
       </div>
+
+      <LinkedArticles
+        entries={(article as { relatedArticles?: unknown }).relatedArticles}
+        fallbackCategoryKey="efimerides"
+        fallbackSubcategorySlug={subcategoryData.subcategorySlug ?? subcategoryData.slug}
+      />
 
       <LocationDetails
         mainArea={mainArea}

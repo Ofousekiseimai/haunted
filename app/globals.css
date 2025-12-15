@@ -218,13 +218,35 @@
     -webkit-touch-callout: none;
   }
 
-  /* Allow Leaflet tiles/markers to capture pointer events for dragging/panning */
-  .map-leaflet img,
-  .map-leaflet .leaflet-tile,
+  /* Allow Leaflet to capture pointer events for dragging/panning */
+  .map-container,
+  .map-leaflet,
+  .map-leaflet .leaflet-pane,
+  .map-leaflet .leaflet-pane * {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  .map-leaflet img {
+    pointer-events: auto;
+  }
+
+  /* Tiles should allow map drag but not be draggable/selectable themselves */
+  .map-leaflet .leaflet-tile {
+    pointer-events: auto;
+    -webkit-user-drag: none;
+    user-drag: none;
+    user-select: none;
+  }
+
   .map-leaflet .leaflet-marker-icon,
   .map-leaflet .leaflet-marker-shadow,
   .map-leaflet .leaflet-interactive {
     pointer-events: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
   }
 }
 
@@ -332,8 +354,8 @@
     width: 100%;
     overflow: hidden;
     border-radius: 2rem;
-    border: 1px solid #000;
-    background: #000;
+    border: 1px solid #2f2f2f;
+    background: #0e0e0e;
     box-shadow: 0 25px 60px -45px rgba(0, 0, 0, 0.8);
   }
 
@@ -341,19 +363,32 @@
     border-radius: 2rem;
     overflow: hidden;
     height: 100%;
-    background: #000;
+    background: #121620;
   }
 
   .map-leaflet .leaflet-pane.leaflet-tile-pane {
-    filter: hue-rotate(12deg) saturate(1.4) contrast(1.05);
+    /* Dark theme with brighter labels/roads for readability */
+    filter: brightness(0.8) contrast(1.1) saturate(1.05) hue-rotate(-4deg);
+  }
+
+  .map-container:active,
+  .map-leaflet:active {
+    cursor: auto;
   }
 
   .map-fog-overlay {
     position: absolute;
     inset: 1;
     pointer-events: none;
-    background: radial-gradient(circle at center, transparent 50%, rgba(0, 0, 0, 0.75) 100%);
+    background: radial-gradient(circle at center, transparent 55%, rgba(0, 0, 0, 0.6) 100%);
     mix-blend-mode: normal;
+  }
+
+  /* Prevent tile/image drag selection while keeping map pan/zoom */
+  .map-leaflet img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    user-select: none;
   }
 
   .map-popup .leaflet-popup-content-wrapper {

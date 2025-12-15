@@ -1,10 +1,25 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState, type SVGProps } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { navigation } from "@/constants/navigation";
+
+const SearchIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} {...props}>
+    <circle cx="11" cy="11" r="6" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="m15.5 15.5 4 4" />
+  </svg>
+);
+
+const InstagramIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} {...props}>
+    <rect x="4" y="4" width="16" height="16" rx="4" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17" cy="7" r="1.25" fill="currentColor" stroke="none" />
+  </svg>
+);
 
 function useDisableBodyScroll(disabled: boolean) {
   useEffect(() => {
@@ -66,7 +81,7 @@ export function Header() {
             : "bg-n-8/80 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 py-4 lg:px-7.5 xl:px-10">
+      <div className="relative flex items-center px-5 py-4 lg:px-7.5 xl:px-10">
         <div className="flex w-1/2 items-center">
           <Link
             href="/"
@@ -75,6 +90,16 @@ export function Header() {
             haunted.gr
           </Link>
         </div>
+
+        <a
+          href="https://www.instagram.com/haunted.gr/"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-n-1 transition hover:text-color-1 lg:hidden"
+        >
+          <InstagramIcon className="h-5 w-5" />
+        </a>
 
         <nav
           className="hidden w-1/2 items-center justify-end lg:flex"
@@ -86,6 +111,7 @@ export function Header() {
                 item.url === "/"
                   ? pathname === item.url
                   : pathname.startsWith(item.url) && item.url !== "/";
+              const isSearchItem = item.url === "/search";
 
               return (
                 <div
@@ -146,18 +172,40 @@ export function Header() {
                       </div>
                     </>
                   ) : (
-                    <Link
-                      href={item.url}
-                      className={`block px-4 py-3 font-code text-xs font-semibold uppercase tracking-widest transition-colors hover:text-color-1 xl:px-6 xl:text-sm ${
-                        isActive ? "text-n-1" : "text-n-1/70"
-                      }`}
-                    >
-                      {item.title}
-                    </Link>
+                    isSearchItem ? (
+                      <Link
+                        href={item.url}
+                        aria-label="Αναζήτηση"
+                        className={`flex h-10 w-10 items-center justify-center rounded-full border border-transparent transition-colors hover:border-color-1 hover:text-color-1 ${
+                          isActive ? "text-n-1" : "text-n-1/70"
+                        }`}
+                      >
+                        <SearchIcon className="h-5 w-5" />
+                      </Link>
+                    ) : (
+                      <Link
+                        href={item.url}
+                        className={`block px-4 py-3 font-code text-xs font-semibold uppercase tracking-widest transition-colors hover:text-color-1 xl:px-6 xl:text-sm ${
+                          isActive ? "text-n-1" : "text-n-1/70"
+                        }`}
+                      >
+                        {item.title}
+                      </Link>
+                    )
                   )}
                 </div>
               );
             })}
+
+            <a
+              href="https://www.instagram.com/haunted.gr/"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-3 flex h-10 w-10 items-center justify-center rounded-full border border-n-6 text-n-1 transition hover:border-color-1 hover:text-color-1"
+            >
+              <InstagramIcon className="h-5 w-5" />
+            </a>
           </div>
         </nav>
 
@@ -267,8 +315,13 @@ export function Header() {
                       href={item.url}
                       className="block border-b border-n-6 px-4 py-4 text-xl uppercase text-n-1 transition-colors hover:text-color-1"
                       onClick={closeMobileMenu}
+                      aria-label={item.url === "/search" ? "Αναζήτηση" : undefined}
                     >
-                      {item.title}
+                      {item.url === "/search" ? (
+                        <SearchIcon className="h-6 w-6" aria-hidden />
+                      ) : (
+                        item.title
+                      )}
                     </Link>
                   )}
                 </div>
@@ -280,7 +333,8 @@ export function Header() {
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-3 px-4 text-lg text-n-1 transition-colors hover:text-color-1"
               >
-                <span>Instagram</span>
+                <InstagramIcon className="h-6 w-6" />
+                <span className="sr-only">Instagram</span>
               </a>
             </div>
           </div>

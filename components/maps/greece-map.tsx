@@ -128,6 +128,9 @@ export function GreeceMap({ articles }: GreeceMapProps) {
         minZoom: 6,
         maxBounds: BOUNDS,
         scrollWheelZoom: true,
+        dragging: true,
+        touchZoom: true,
+        tap: false,
         attributionControl: true,
       });
 

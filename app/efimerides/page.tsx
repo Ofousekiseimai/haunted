@@ -37,7 +37,7 @@ export default async function EfimeridesIndexPage() {
     <Section className="container space-y-12" customPaddings="py-12 lg:py-20">
       <SectionHeader
         eyebrow="Εφημερίδες"
-        title="Μεταφυσικό Αρχείο Εφημερίδων"
+        title="Παραφυσικός Αρχείο Εφημερίδων"
         description="Καταγεγραμμένες ιστορίες και τεκμήρια από τον ελληνικό Τύπο που φωτίζουν παράξενα φαινόμενα, εγκλήματα και τελετές."
       />
 

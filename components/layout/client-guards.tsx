@@ -4,7 +4,26 @@ import { useEffect } from "react";
 
 export function ClientGuards() {
   useEffect(() => {
+    const isMapEvent = (event: Event) => {
+      const target = event.target;
+
+      const matchesSelector = (node: EventTarget | null) =>
+        node instanceof Element &&
+        (node.closest(".map-leaflet, .map-container, .leaflet-container, .leaflet-pane") ||
+          node.matches(".leaflet-pane, .leaflet-tile-pane, .leaflet-map-pane, .leaflet-marker-pane"));
+
+      if (matchesSelector(target)) {
+        return true;
+      }
+
+      const path = typeof event.composedPath === "function" ? event.composedPath() : [];
+      return path.some((node) => matchesSelector(node));
+    };
+
     const preventDefault = (event: Event) => {
+      if (isMapEvent(event)) {
+        return;
+      }
       event.preventDefault();
     };
 
