@@ -7,6 +7,8 @@ import {
   getArticleFromCategory,
   getSubcategoryData,
   readJsonFile,
+  DEFAULT_LOCALE,
+  type Locale,
   type Article,
   type SubcategoryData,
 } from "./content";
@@ -78,8 +80,9 @@ export async function getEfimeridesIndex(): Promise<EfimeridesIndex | null> {
 
 export async function getEfimeridesSubcategory(
   slug: string,
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<EfimeridesSubcategory | null> {
-  const data = await getSubcategoryData(CATEGORY_KEY, slug);
+  const data = await getSubcategoryData(CATEGORY_KEY, slug, locale);
   if (!data) {
     return null;
   }
@@ -90,12 +93,18 @@ export async function getEfimeridesSubcategory(
   };
 }
 
-export async function getEfimeridesArticle(subcategorySlug: string, articleSlug: string) {
-  return getArticleFromCategory(CATEGORY_KEY, subcategorySlug, articleSlug);
+export async function getEfimeridesArticle(
+  subcategorySlug: string,
+  articleSlug: string,
+  locale: Locale = DEFAULT_LOCALE,
+) {
+  return getArticleFromCategory(CATEGORY_KEY, subcategorySlug, articleSlug, locale);
 }
 
-export async function getAllEfimeridesSubcategories(): Promise<EfimeridesSubcategory[]> {
-  const subcategories = await getAllSubcategories(CATEGORY_KEY);
+export async function getAllEfimeridesSubcategories(
+  locale: Locale = DEFAULT_LOCALE,
+): Promise<EfimeridesSubcategory[]> {
+  const subcategories = await getAllSubcategories(CATEGORY_KEY, locale);
 
   return subcategories.map((subcategory) => ({
     ...subcategory,
@@ -103,16 +112,16 @@ export async function getAllEfimeridesSubcategories(): Promise<EfimeridesSubcate
   }));
 }
 
-export async function getAllEfimeridesSubcategoryParams() {
-  const subcategories = await getAllEfimeridesSubcategories();
+export async function getAllEfimeridesSubcategoryParams(locale: Locale = DEFAULT_LOCALE) {
+  const subcategories = await getAllEfimeridesSubcategories(locale);
 
   return subcategories.map((subcategory) => ({
     subcategory: subcategory.subcategorySlug ?? subcategory.slug,
   }));
 }
 
-export async function getAllEfimeridesArticleParams() {
-  return getAllArticleParamsForCategory(CATEGORY_KEY);
+export async function getAllEfimeridesArticleParams(locale: Locale = DEFAULT_LOCALE) {
+  return getAllArticleParamsForCategory(CATEGORY_KEY, locale);
 }
 
 export { type ArticleSeo } from "./content";

@@ -6,7 +6,11 @@ import { ensureSlug } from "./slug";
 type JsonValue = string | number | boolean | null | JsonValue[] | { [key: string]: JsonValue };
 
 const DATA_ROOT = path.join(process.cwd(), "public", "data");
+const PUBLIC_ROOT = path.join(process.cwd(), "public");
 const SITE_BASE_URL = "https://haunted.gr";
+
+export type Locale = "el" | "en";
+export const DEFAULT_LOCALE: Locale = "el";
 
 export interface ArticleImage {
   src: string;
@@ -52,6 +56,79 @@ export interface SubcategoryData {
   articles: Article[];
 }
 
+async function fileExists(filePath: string) {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function resolveImageSrc(rawSrc?: string | null) {
+  if (!rawSrc || typeof rawSrc !== "string") {
+    return null;
+  }
+
+  const trimmed = rawSrc.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  const normalized = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+  const relativePath = normalized.replace(/^\/+/, "");
+  const absolutePath = path.join(PUBLIC_ROOT, relativePath);
+
+  if (await fileExists(absolutePath)) {
+    return normalized;
+  }
+
+  const parsed = path.parse(relativePath);
+  const basePath = path.join(parsed.dir, parsed.name);
+  const candidateExts = [".webp", ".jpg", ".jpeg", ".png", ".gif", ".avif"];
+
+  for (const ext of candidateExts) {
+    const candidateRelative = `${basePath}${ext}`;
+    const candidateAbsolute = path.join(PUBLIC_ROOT, candidateRelative);
+    if (await fileExists(candidateAbsolute)) {
+      return candidateRelative.startsWith("/") ? candidateRelative : `/${candidateRelative}`;
+    }
+  }
+
+  try {
+    const dirEntries = await fs.readdir(path.join(PUBLIC_ROOT, parsed.dir), { withFileTypes: true });
+    const match = dirEntries.find((entry) => entry.isFile() &&
+      candidateExts.some((ext) => entry.name.toLowerCase() === `${parsed.name.toLowerCase()}${ext}`));
+
+    if (match) {
+      const candidateRelative = path.join(parsed.dir, match.name);
+      return candidateRelative.startsWith("/") ? candidateRelative : `/${candidateRelative}`;
+    }
+  } catch {
+    // ignore
+  }
+
+  return normalized;
+}
+
+async function normalizeArticleImage(image: unknown): Promise<ArticleImage | undefined> {
+  if (!image || typeof image !== "object" || typeof (image as { src?: string }).src !== "string") {
+    return undefined;
+  }
+
+  const src = await resolveImageSrc((image as { src?: string }).src);
+  if (!src) {
+    return undefined;
+  }
+
+  const alt = typeof (image as { alt?: string }).alt === "string" ? (image as { alt?: string }).alt : undefined;
+  return {
+    ...(image as { alt?: string }),
+    src,
+    alt,
+  };
+}
+
 export async function readJsonFile<T>(filePath: string): Promise<T | null> {
   try {
     const raw = await fs.readFile(filePath, "utf8");
@@ -65,17 +142,26 @@ export async function readJsonFile<T>(filePath: string): Promise<T | null> {
 export async function getSubcategoryData(
   categoryKey: string,
   subcategorySlug: string,
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<SubcategoryData | null> {
-  let data = await readJsonFile<SubcategoryData>(
-    path.join(DATA_ROOT, categoryKey, `${subcategorySlug}.json`),
-  );
+  const localeSuffix = locale === "el" ? "" : `.${locale}`;
+  const baseDir = path.join(DATA_ROOT, categoryKey);
+
+  const readWithFallback = async (slug: string) => {
+    const primary = await readJsonFile<SubcategoryData>(path.join(baseDir, `${slug}${localeSuffix}.json`));
+    if (primary) {
+      return primary;
+    }
+
+    return readJsonFile<SubcategoryData>(path.join(baseDir, `${slug}.json`));
+  };
+
+  let data = await readWithFallback(subcategorySlug);
 
   if (!data) {
     const fallbackSlug = ensureSlug(subcategorySlug, subcategorySlug);
     if (fallbackSlug !== subcategorySlug) {
-      data = await readJsonFile<SubcategoryData>(
-        path.join(DATA_ROOT, categoryKey, `${fallbackSlug}.json`),
-      );
+      data = await readWithFallback(fallbackSlug);
     }
   }
 
@@ -92,31 +178,27 @@ export async function getSubcategoryData(
   const fallbackKeywords = data.seo?.keywords;
 
   const articles = Array.isArray(data.articles)
-    ? data.articles.map((article, index) => {
-        const slug = ensureSlug(
-          typeof article.slug === "string" ? article.slug : undefined,
-          `${article.title ?? "article"}-${article.id ?? index + 1}`,
-        );
+    ? await Promise.all(
+        data.articles.map(async (article, index) => {
+          const slug = ensureSlug(
+            typeof article.slug === "string" ? article.slug : undefined,
+            `${article.title ?? "article"}-${article.id ?? index + 1}`,
+          );
 
-        const image =
-          article.image && typeof article.image === "object" && typeof article.image.src === "string"
-            ? {
-                ...article.image,
-                src: article.image.src.startsWith("/") ? article.image.src : `/${article.image.src}`,
-              }
-            : undefined;
+          const image = await normalizeArticleImage(article.image);
 
-        const normalizedArticle: Article = {
-          ...article,
-          slug,
-          image,
-        };
+          const normalizedArticle: Article = {
+            ...article,
+            slug,
+            image,
+          };
 
-        return applyArticleSeoDefaults(normalizedArticle, {
-          canonicalBasePath,
-          fallbackKeywords,
-        });
-      })
+          return applyArticleSeoDefaults(normalizedArticle, {
+            canonicalBasePath,
+            fallbackKeywords,
+          });
+        }),
+      )
     : [];
 
   return {
@@ -130,8 +212,9 @@ export async function getArticleFromCategory(
   categoryKey: string,
   subcategorySlug: string,
   articleSlug: string,
+  locale: Locale = "el",
 ) {
-  const subcategory = await getSubcategoryData(categoryKey, subcategorySlug);
+  const subcategory = await getSubcategoryData(categoryKey, subcategorySlug, locale);
   if (!subcategory) {
     return null;
   }
@@ -145,22 +228,59 @@ export async function getArticleFromCategory(
   return { subcategory, article };
 }
 
-export async function getAllSubcategories(categoryKey: string) {
+export async function getAllSubcategories(categoryKey: string, locale: Locale = "el") {
   try {
     const dir = path.join(DATA_ROOT, categoryKey);
-    const files = await fs.readdir(dir);
+    const files = (await fs.readdir(dir)).filter((file) => file.endsWith(".json"));
+
+    // Group by base slug so we can pick the locale-specific file when available.
+    const grouped = new Map<string, { base?: string; locales: Record<string, string> }>();
+
+    for (const file of files) {
+      const localeMatch = file.match(/\.([a-z]{2})\.json$/i);
+      const fileLocale = localeMatch?.[1];
+      const baseSlug = localeMatch
+        ? file.replace(new RegExp(`\\.${fileLocale}\\.json$`, "i"), "")
+        : file.replace(/\.json$/, "");
+
+      const entry = grouped.get(baseSlug) ?? { locales: {} };
+      if (fileLocale) {
+        entry.locales[fileLocale] = file;
+      } else {
+        entry.base = file;
+      }
+      grouped.set(baseSlug, entry);
+    }
+
+    const selectedFiles: string[] = [];
+    grouped.forEach((value) => {
+      if (locale !== DEFAULT_LOCALE && value.locales[locale]) {
+        selectedFiles.push(value.locales[locale]);
+        return;
+      }
+
+      if (value.base) {
+        selectedFiles.push(value.base);
+        return;
+      }
+
+      // As a last resort, if no base file exists, fall back to any locale-specific file that matches.
+      if (value.locales[DEFAULT_LOCALE]) {
+        selectedFiles.push(value.locales[DEFAULT_LOCALE]);
+      } else if (locale !== DEFAULT_LOCALE && value.locales[locale]) {
+        selectedFiles.push(value.locales[locale]);
+      }
+    });
 
     const entries = await Promise.all(
-      files
-        .filter((file) => file.endsWith(".json"))
-        .map(async (file) => {
-          const fileSlug = file.replace(/\.json$/, "");
-          const entry = await getSubcategoryData(categoryKey, fileSlug);
-          return {
-            entry,
-            fileSlug,
-          };
-        }),
+      selectedFiles.map(async (file) => {
+        const fileSlug = file.replace(/\.json$/, "");
+        const entry = await getSubcategoryData(categoryKey, fileSlug, locale);
+        return {
+          entry,
+          fileSlug,
+        };
+      }),
     );
 
     return entries
@@ -177,8 +297,8 @@ export async function getAllSubcategories(categoryKey: string) {
   }
 }
 
-export async function getAllArticleParamsForCategory(categoryKey: string) {
-  const subcategories = await getAllSubcategories(categoryKey);
+export async function getAllArticleParamsForCategory(categoryKey: string, locale: Locale = "el") {
+  const subcategories = await getAllSubcategories(categoryKey, locale);
   const params: Array<{ subcategory: string; slug: string }> = [];
 
   subcategories.forEach((subcategory) => {

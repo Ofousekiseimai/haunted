@@ -1,4 +1,4 @@
-import { getSubcategoryData, type Article } from "./content";
+import { DEFAULT_LOCALE, getSubcategoryData, type Article, type Locale } from "./content";
 import { getSubcategoriesForCategory, type SubcategoryConfig } from "@/constants/categories";
 
 export type ArticleSummary = Pick<
@@ -55,8 +55,9 @@ async function loadSubcategoryForHome(
   categoryKey: string,
   config: SubcategoryConfig,
   limit: number,
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<HomeSubcategory | null> {
-  const data = await getSubcategoryData(categoryKey, config.slug);
+  const data = await getSubcategoryData(categoryKey, config.slug, locale);
   if (!data || !data.articles?.length) {
     return null;
   }
@@ -80,11 +81,15 @@ async function loadSubcategoryForHome(
   };
 }
 
-export async function getHomeCategorySections(categoryKey: string, limit = 6) {
+export async function getHomeCategorySections(
+  categoryKey: string,
+  limit = 6,
+  locale: Locale = DEFAULT_LOCALE,
+) {
   const subcategories = getSubcategoriesForCategory(categoryKey);
 
   const results = await Promise.all(
-    subcategories.map((config) => loadSubcategoryForHome(categoryKey, config, limit)),
+    subcategories.map((config) => loadSubcategoryForHome(categoryKey, config, limit, locale)),
   );
 
   return results.filter((entry): entry is HomeSubcategory => entry !== null);

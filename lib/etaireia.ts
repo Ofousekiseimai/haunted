@@ -7,6 +7,8 @@ import {
   getArticleFromCategory,
   getSubcategoryData,
   readJsonFile,
+  DEFAULT_LOCALE,
+  type Locale,
   type Article,
   type SubcategoryData,
 } from "./content";
@@ -86,8 +88,11 @@ export async function getEtaireiaOverview(): Promise<EtaireiaOverview | null> {
   return readJsonFile<EtaireiaOverview>(INDEX_FILE);
 }
 
-export async function getEtaireiaSubcategory(slug: string): Promise<EtaireiaSubcategory | null> {
-  const data = await getSubcategoryData(CATEGORY_KEY, slug);
+export async function getEtaireiaSubcategory(
+  slug: string,
+  locale: Locale = DEFAULT_LOCALE,
+): Promise<EtaireiaSubcategory | null> {
+  const data = await getSubcategoryData(CATEGORY_KEY, slug, locale);
   if (!data) {
     return null;
   }
@@ -98,28 +103,34 @@ export async function getEtaireiaSubcategory(slug: string): Promise<EtaireiaSubc
   };
 }
 
-export async function getEtaireiaArticle(subcategorySlug: string, articleSlug: string) {
-  return getArticleFromCategory(CATEGORY_KEY, subcategorySlug, articleSlug);
+export async function getEtaireiaArticle(
+  subcategorySlug: string,
+  articleSlug: string,
+  locale: Locale = DEFAULT_LOCALE,
+) {
+  return getArticleFromCategory(CATEGORY_KEY, subcategorySlug, articleSlug, locale);
 }
 
-export async function getAllEtaireiaSubcategories(): Promise<EtaireiaSubcategory[]> {
-  const subcategories = await getAllSubcategories(CATEGORY_KEY);
+export async function getAllEtaireiaSubcategories(
+  locale: Locale = DEFAULT_LOCALE,
+): Promise<EtaireiaSubcategory[]> {
+  const subcategories = await getAllSubcategories(CATEGORY_KEY, locale);
   return subcategories.map((entry) => ({
     ...entry,
     articles: sortArticlesByInsertionOrder(entry.articles ?? []),
   }));
 }
 
-export async function getAllEtaireiaSubcategoryParams() {
-  const subcategories = await getAllEtaireiaSubcategories();
+export async function getAllEtaireiaSubcategoryParams(locale: Locale = DEFAULT_LOCALE) {
+  const subcategories = await getAllEtaireiaSubcategories(locale);
 
   return subcategories.map((subcategory) => ({
     subcategory: subcategory.subcategorySlug ?? subcategory.slug,
   }));
 }
 
-export async function getAllEtaireiaArticleParams() {
-  return getAllArticleParamsForCategory(CATEGORY_KEY);
+export async function getAllEtaireiaArticleParams(locale: Locale = DEFAULT_LOCALE) {
+  return getAllArticleParamsForCategory(CATEGORY_KEY, locale);
 }
 
 export { type ArticleSeo } from "./content";

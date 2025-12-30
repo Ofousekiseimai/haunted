@@ -4,6 +4,8 @@ import {
   type Article,
   type ArticleImage,
   type SubcategoryData,
+  DEFAULT_LOCALE,
+  type Locale,
 } from "./content";
 import {
   GENERIC_CATEGORY_KEYS,
@@ -24,6 +26,7 @@ export type SuggestionArticle = {
   subLocation?: string;
   subLocation2?: string;
   locationTags?: string[];
+  addedAt?: number;
   categoryKey: string;
   categoryLabel: string;
   subcategorySlug: string;
@@ -50,6 +53,23 @@ function toTimestamp(date?: string | null) {
 
 function sortByRecency(articles: SuggestionArticle[]) {
   return [...articles].sort((a, b) => {
+    const aAddedAt = typeof a.addedAt === "number" ? a.addedAt : null;
+    const bAddedAt = typeof b.addedAt === "number" ? b.addedAt : null;
+
+    if (aAddedAt !== null || bAddedAt !== null) {
+      if (aAddedAt === null) {
+        return 1;
+      }
+
+      if (bAddedAt === null) {
+        return -1;
+      }
+
+      if (aAddedAt !== bAddedAt) {
+        return bAddedAt - aAddedAt;
+      }
+    }
+
     const aDate = toTimestamp(a.date);
     const bDate = toTimestamp(b.date);
 
@@ -75,6 +95,7 @@ function mapArticleToSuggestion(
   article: Article,
   subcategory: SubcategoryData,
   categoryKey: string,
+  addedAt?: number,
 ): SuggestionArticle {
   return {
     id: article.id,
@@ -98,6 +119,7 @@ function mapArticleToSuggestion(
           (entry): entry is string => typeof entry === "string" && entry.trim().length > 0,
         )
       : undefined,
+    addedAt,
     categoryKey,
     categoryLabel: subcategory.category,
     subcategorySlug: subcategory.subcategorySlug ?? subcategory.slug,
@@ -113,8 +135,8 @@ function isExcluded(article: Article, excludeArticleId?: string | null) {
   return article.id === excludeArticleId;
 }
 
-async function loadSubcategoryArticles(categoryKey: string, slug: string) {
-  const data = await getSubcategoryData(categoryKey, slug);
+async function loadSubcategoryArticles(categoryKey: string, slug: string, locale: Locale) {
+  const data = await getSubcategoryData(categoryKey, slug, locale);
   if (!data?.articles?.length) {
     return null;
   }
@@ -127,29 +149,38 @@ export type SuggestionResult = SuggestionArticle[];
 export async function getRelatedArticlesBySubcategory(
   subcategorySlug: string,
   { excludeArticleId, limit = 6 }: LoadOptions = {},
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<SuggestionResult> {
   const config = SUBCATEGORY_MAP[subcategorySlug];
   if (config) {
-    const data = await loadSubcategoryArticles(config.category, config.slug);
+    const data = await getSubcategoryData(config.category, config.slug, locale);
     if (!data) {
       return [];
     }
 
     const filtered = data.articles
-      .filter((article) => !isExcluded(article, excludeArticleId) && article.slug && article.title)
-      .map((article) => mapArticleToSuggestion(article, data, config.category));
+      .map((article, index) => ({ article, index }))
+      .filter(
+        ({ article }) => !isExcluded(article, excludeArticleId) && article.slug && article.title,
+      )
+      .map(({ article, index }) => mapArticleToSuggestion(article, data, config.category, index));
 
     return sortByRecency(filtered).slice(0, limit);
   }
 
-  const fallback = await findGenericCategorySubcategoryBySlug(subcategorySlug);
+  const fallback = await findGenericCategorySubcategoryBySlug(subcategorySlug, locale);
   if (!fallback) {
     return [];
   }
 
   const filtered = fallback.subcategory.articles
-    .filter((article) => !isExcluded(article, excludeArticleId) && article.slug && article.title)
-    .map((article) => mapArticleToSuggestion(article, fallback.subcategory, fallback.categoryKey));
+    .map((article, index) => ({ article, index }))
+    .filter(
+      ({ article }) => !isExcluded(article, excludeArticleId) && article.slug && article.title,
+    )
+    .map(({ article, index }) =>
+      mapArticleToSuggestion(article, fallback.subcategory, fallback.categoryKey, index),
+    );
 
   return sortByRecency(filtered).slice(0, limit);
 }
@@ -157,6 +188,7 @@ export async function getRelatedArticlesBySubcategory(
 export async function getArticlesByMainArea(
   area: string,
   { excludeArticleId, limit = 6 }: LoadOptions = {},
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<SuggestionResult> {
   const cleanArea = area?.trim().toLowerCase();
   if (!cleanArea) {
@@ -165,13 +197,14 @@ export async function getArticlesByMainArea(
 
   const baseEntries = await Promise.all(
     Object.values(SUBCATEGORY_MAP).map(async (config) => {
-      const data = await loadSubcategoryArticles(config.category, config.slug);
+      const data = await loadSubcategoryArticles(config.category, config.slug, locale);
       if (!data) {
         return [];
       }
 
       return data.articles
-        .filter((article) => {
+        .map((article, index) => ({ article, index }))
+        .filter(({ article }) => {
           if (isExcluded(article, excludeArticleId) || !article.slug || !article.title) {
             return false;
           }
@@ -183,16 +216,17 @@ export async function getArticlesByMainArea(
 
           return mainArea.trim().toLowerCase() === cleanArea;
         })
-        .map((article) => mapArticleToSuggestion(article, data, config.category));
+        .map(({ article }) => mapArticleToSuggestion(article, data, config.category));
     }),
   );
 
   const genericEntries = await Promise.all(
     GENERIC_CATEGORY_KEYS.map(async (categoryKey: GenericCategoryKey) => {
-      const subcategories = await getAllGenericCategorySubcategories(categoryKey);
+      const subcategories = await getAllGenericCategorySubcategories(categoryKey, locale);
       return subcategories.flatMap((subcategory) =>
         subcategory.articles
-          .filter((article) => {
+          .map((article, index) => ({ article, index }))
+          .filter(({ article }) => {
             if (isExcluded(article, excludeArticleId) || !article.slug || !article.title) {
               return false;
             }
@@ -204,7 +238,7 @@ export async function getArticlesByMainArea(
 
             return mainArea.trim().toLowerCase() === cleanArea;
           })
-          .map((article) => mapArticleToSuggestion(article, subcategory, categoryKey)),
+          .map(({ article }) => mapArticleToSuggestion(article, subcategory, categoryKey)),
       );
     }),
   );
@@ -215,10 +249,11 @@ export async function getArticlesByMainArea(
 
 export async function getRandomArticles(
   { excludeArticleId, limit = 5 }: LoadOptions = {},
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<SuggestionResult> {
   const entriesFromMap = await Promise.all(
     Object.values(SUBCATEGORY_MAP).map(async (config) => {
-      const data = await loadSubcategoryArticles(config.category, config.slug);
+      const data = await loadSubcategoryArticles(config.category, config.slug, locale);
       if (!data) {
         return [];
       }
@@ -230,7 +265,7 @@ export async function getRandomArticles(
 
   const genericEntries = await Promise.all(
     GENERIC_CATEGORY_KEYS.map(async (categoryKey: GenericCategoryKey) => {
-      const subcategories = await getAllGenericCategorySubcategories(categoryKey);
+      const subcategories = await getAllGenericCategorySubcategories(categoryKey, locale);
       return subcategories.flatMap((subcategory) =>
         subcategory.articles
           .filter((article) => !isExcluded(article, excludeArticleId) && article.slug && article.title)

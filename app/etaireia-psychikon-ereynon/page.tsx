@@ -8,6 +8,8 @@ import {
   getEtaireiaOverview,
   type EtaireiaOverview,
 } from "@/lib/etaireia";
+import { formatCollectionDescription } from "@/lib/description";
+import { getRequestLocale } from "@/lib/locale-server";
 
 function toMetadata(overview: EtaireiaOverview | null): Metadata {
   if (!overview?.seo) {
@@ -56,9 +58,10 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function EtaireiaIndexPage() {
+  const locale = await getRequestLocale();
   const [overview, subcategories] = await Promise.all([
     getEtaireiaOverview(),
-    getAllEtaireiaSubcategories(),
+    getAllEtaireiaSubcategories(locale),
   ]);
 
   const totalArticles =
@@ -70,10 +73,11 @@ export default async function EtaireiaIndexPage() {
       <SectionHeader
         eyebrow="Εταιρεία Ψυχικών Ερευνών"
         title="Αρχείο Εταιρείας Ψυχικών Ερευνών"
-        description={
-          overview?.seo?.metaDescription ??
-          "Πειράματα τηλεψυχίας, δημοσιεύσεις και τεκμήρια από την ιστορική Εταιρεία Ψυχικών Ερευνών."
-        }
+        description={formatCollectionDescription(
+          overview?.seo?.metaDescription,
+          totalArticles,
+          "Πειράματα τηλεψυχίας, δημοσιεύσεις και τεκμήρια από την ιστορική Εταιρεία Ψυχικών Ερευνών.",
+        )}
       />
 
       {typeof totalArticles === "number" && (
@@ -89,10 +93,11 @@ export default async function EtaireiaIndexPage() {
             href={`/etaireia-psychikon-ereynon/${subcategory.subcategorySlug ?? subcategory.slug}`}
             categoryLabel="Εταιρεία Ψυχικών Ερευνών"
             title={subcategory.subcategory}
-            description={
-              subcategory.seo?.metaDescription ??
-              `Συλλογή ${subcategory.articles.length} τεκμηρίων από το αρχείο της Εταιρείας Ψυχικών Ερευνών.`
-            }
+            description={formatCollectionDescription(
+              subcategory.seo?.metaDescription,
+              subcategory.articles.length,
+              `Συλλογή ${subcategory.articles.length} τεκμηρίων από το αρχείο της Εταιρείας Ψυχικών Ερευνών.`,
+            )}
             articleCount={subcategory.articles.length}
             ctaLabel="Δείτε τα τεκμήρια →"
           />

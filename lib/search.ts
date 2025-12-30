@@ -1,7 +1,7 @@
 import { getAllEfimeridesSubcategories } from "./efimerides";
 import { getAllEtaireiaSubcategories } from "./etaireia";
 import { getAllLaografiaSubcategories } from "./laografia";
-import type { Article } from "./content";
+import { DEFAULT_LOCALE, type Article, type Locale } from "./content";
 import {
   GENERIC_CATEGORY_KEYS,
   getAllGenericCategorySubcategories,
@@ -36,7 +36,7 @@ export type SearchResult = {
   mainArea?: string;
 };
 
-let cachedDocuments: SearchDocument[] | null = null;
+const cachedDocumentsByLocale: Partial<Record<Locale, SearchDocument[]>> = {};
 
 function normalizeString(value: string) {
   return value
@@ -143,14 +143,14 @@ function buildDocument(
   };
 }
 
-async function loadDocuments(): Promise<SearchDocument[]> {
-  if (cachedDocuments) {
-    return cachedDocuments;
+async function loadDocuments(locale: Locale = DEFAULT_LOCALE): Promise<SearchDocument[]> {
+  if (cachedDocumentsByLocale[locale]) {
+    return cachedDocumentsByLocale[locale] as SearchDocument[];
   }
 
   const documents: SearchDocument[] = [];
 
-  const laografia = await getAllLaografiaSubcategories();
+  const laografia = await getAllLaografiaSubcategories(locale);
   laografia.forEach((subcategory) => {
     subcategory.articles.forEach((article) => {
       const doc = buildDocument(
@@ -166,7 +166,7 @@ async function loadDocuments(): Promise<SearchDocument[]> {
     });
   });
 
-  const efimerides = await getAllEfimeridesSubcategories();
+  const efimerides = await getAllEfimeridesSubcategories(locale);
   efimerides.forEach((subcategory) => {
     subcategory.articles.forEach((article) => {
       const doc = buildDocument(
@@ -182,7 +182,7 @@ async function loadDocuments(): Promise<SearchDocument[]> {
     });
   });
 
-  const etaireia = await getAllEtaireiaSubcategories();
+  const etaireia = await getAllEtaireiaSubcategories(locale);
   etaireia.forEach((subcategory) => {
     subcategory.articles.forEach((article) => {
       const doc = buildDocument(
@@ -200,7 +200,7 @@ async function loadDocuments(): Promise<SearchDocument[]> {
 
   for (const categoryKey of GENERIC_CATEGORY_KEYS) {
     const copy = getGenericCategoryCopy(categoryKey);
-    const subcategories = await getAllGenericCategorySubcategories(categoryKey);
+    const subcategories = await getAllGenericCategorySubcategories(categoryKey, locale);
     subcategories.forEach((subcategory) => {
       subcategory.articles.forEach((article) => {
         const doc = buildDocument(
@@ -217,17 +217,20 @@ async function loadDocuments(): Promise<SearchDocument[]> {
     });
   }
 
-  cachedDocuments = documents;
+  cachedDocumentsByLocale[locale] = documents;
   return documents;
 }
 
-export async function searchArticles(query: string): Promise<SearchResult[]> {
+export async function searchArticles(
+  query: string,
+  locale: Locale = DEFAULT_LOCALE,
+): Promise<SearchResult[]> {
   const normalizedQuery = normalizeString(query);
   if (!normalizedQuery) {
     return [];
   }
 
-  const documents = await loadDocuments();
+  const documents = await loadDocuments(locale);
 
   return documents.filter((document) => document.searchText.includes(normalizedQuery));
 }

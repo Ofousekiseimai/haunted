@@ -9,6 +9,7 @@ import { Header } from "@/components/layout/header";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { GoogleAnalyticsTracker } from "@/components/analytics/google-analytics";
 import { ClientGuards } from "@/components/layout/client-guards";
+import { getRequestLocale } from "@/lib/locale-server";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -65,13 +66,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getRequestLocale();
+
   return (
-    <html lang="el" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <body className={`${sora.variable} ${anton.variable} ${sourceCode.variable} text-n-1 antialiased`}>
         <Script id="theme-init" strategy="beforeInteractive">
           {`
@@ -111,7 +114,7 @@ gtag('config', 'G-FXJ30XVLMD', {
             <GoogleAnalyticsTracker />
           </Suspense>
           <div className="flex min-h-screen flex-col pt-[4.75rem] lg:pt-[5.25rem]">
-            <Header />
+            <Header initialLocale={locale} />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>

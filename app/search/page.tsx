@@ -4,6 +4,7 @@ import { CategoryArticleCard } from "@/components/category/article-card";
 import { Section } from "@/components/section";
 import { SectionHeader } from "@/components/section-header";
 import { searchArticles } from "@/lib/search";
+import { getRequestLocale } from "@/lib/locale-server";
 
 const CANONICAL_URL = "https://haunted.gr/search";
 
@@ -46,7 +47,8 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
 export default async function SearchPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const query = params?.q?.trim() ?? "";
-  const results = query ? await searchArticles(query) : [];
+  const locale = await getRequestLocale();
+  const results = query ? await searchArticles(query, locale) : [];
 
   return (
     <Section className="container space-y-10" customPaddings="py-12 lg:py-20">

@@ -4,6 +4,8 @@ import { CategorySubcategoryCard } from "@/components/category/subcategory-card"
 import { Section } from "@/components/section";
 import { SectionHeader } from "@/components/section-header";
 import { getAllEfimeridesSubcategories } from "@/lib/efimerides";
+import { formatCollectionDescription } from "@/lib/description";
+import { getRequestLocale } from "@/lib/locale-server";
 
 export const metadata: Metadata = {
   title: "Άρθρα Εφημερίδων",
@@ -27,7 +29,8 @@ export const metadata: Metadata = {
 };
 
 export default async function EfimeridesIndexPage() {
-  const subcategories = await getAllEfimeridesSubcategories();
+  const locale = await getRequestLocale();
+  const subcategories = await getAllEfimeridesSubcategories(locale);
   const totalArticles = subcategories.reduce(
     (count, subcategory) => count + (subcategory.articles?.length ?? 0),
     0,
@@ -38,7 +41,11 @@ export default async function EfimeridesIndexPage() {
       <SectionHeader
         eyebrow="Εφημερίδες"
         title="Παραφυσικός Αρχείο Εφημερίδων"
-        description="Καταγεγραμμένες ιστορίες και τεκμήρια από τον ελληνικό Τύπο που φωτίζουν παράξενα φαινόμενα, εγκλήματα και τελετές."
+        description={formatCollectionDescription(
+          undefined,
+          totalArticles,
+          "Καταγεγραμμένες ιστορίες και τεκμήρια από τον ελληνικό Τύπο που φωτίζουν παράξενα φαινόμενα, εγκλήματα και τελετές.",
+        )}
       />
 
       <p className="text-sm uppercase tracking-[0.28em] text-zinc-500">
@@ -52,10 +59,11 @@ export default async function EfimeridesIndexPage() {
             href={`/efimerides/${subcategory.subcategorySlug ?? subcategory.slug}`}
             categoryLabel="Εφημερίδες"
             title={subcategory.subcategory}
-            description={
-              subcategory.seo?.metaDescription ??
-              `Συλλογή ${subcategory.articles.length} άρθρων από τον ελληνικό Τύπο για ${subcategory.subcategory}.`
-            }
+            description={formatCollectionDescription(
+              subcategory.seo?.metaDescription,
+              subcategory.articles.length,
+              `Συλλογή ${subcategory.articles.length} άρθρων από τον ελληνικό Τύπο για ${subcategory.subcategory}.`,
+            )}
             articleCount={subcategory.articles.length}
           />
         ))}

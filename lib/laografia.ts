@@ -3,6 +3,8 @@ import {
   getAllSubcategories,
   getArticleFromCategory,
   getSubcategoryData,
+  DEFAULT_LOCALE,
+  type Locale,
   type SubcategoryData,
   type SubcategorySeo,
 } from "./content";
@@ -12,25 +14,29 @@ export type LaografiaSubcategory = SubcategoryData;
 
 export type { Article, ArticleContentBlock, ArticleSeo } from "./content";
 
-export async function getLaografiaSubcategory(slug: string) {
-  return getSubcategoryData("laografia", slug);
+export async function getLaografiaSubcategory(slug: string, locale: Locale = DEFAULT_LOCALE) {
+  return getSubcategoryData("laografia", slug, locale);
 }
 
-export async function getLaografiaArticle(subcategorySlug: string, articleSlug: string) {
-  return getArticleFromCategory("laografia", subcategorySlug, articleSlug);
+export async function getLaografiaArticle(
+  subcategorySlug: string,
+  articleSlug: string,
+  locale: Locale = DEFAULT_LOCALE,
+) {
+  return getArticleFromCategory("laografia", subcategorySlug, articleSlug, locale);
 }
 
-export async function getAllLaografiaSubcategories() {
-  return getAllSubcategories("laografia");
+export async function getAllLaografiaSubcategories(locale: Locale = DEFAULT_LOCALE) {
+  return getAllSubcategories("laografia", locale);
 }
 
-export async function getAllLaografiaSubcategoryParams() {
-  const subcategories = await getAllLaografiaSubcategories();
+export async function getAllLaografiaSubcategoryParams(locale: Locale = DEFAULT_LOCALE) {
+  const subcategories = await getAllLaografiaSubcategories(locale);
   return subcategories.map((subcategory) => ({
     subcategory: subcategory.subcategorySlug ?? subcategory.slug,
   }));
 }
 
-export async function getAllLaografiaArticleParams() {
-  return getAllArticleParamsForCategory("laografia");
+export async function getAllLaografiaArticleParams(locale: Locale = DEFAULT_LOCALE) {
+  return getAllArticleParamsForCategory("laografia", locale);
 }

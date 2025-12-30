@@ -4,6 +4,7 @@ import { EfimeridesMapShell } from "@/components/maps/efimerides-map-shell";
 import { Section } from "@/components/section";
 import { SectionHeader } from "@/components/section-header";
 import { getEfimeridesMapData } from "@/lib/maps";
+import { getRequestLocale } from "@/lib/locale-server";
 
 const CANONICAL_URL = "https://haunted.gr/map";
 
@@ -30,7 +31,8 @@ export const metadata: Metadata = {
 };
 
 export default async function EfimeridesMapPage() {
-  const { articles, subcategories } = await getEfimeridesMapData();
+  const locale = await getRequestLocale();
+  const { articles, subcategories } = await getEfimeridesMapData(locale);
 
   return (
     <Section className="container space-y-12" customPaddings="py-12 lg:py-20">

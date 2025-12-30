@@ -7,6 +7,8 @@ import {
   getArticleFromCategory,
   getSubcategoryData,
   readJsonFile,
+  DEFAULT_LOCALE,
+  type Locale,
   type Article,
   type ArticleImage,
   type SubcategoryData,
@@ -100,12 +102,13 @@ export async function getGenericCategoryOverview(
 export async function getGenericCategorySubcategory(
   categoryKey: GenericCategoryKey,
   slug: string,
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<GenericCategorySubcategory | null> {
   if (!(await subcategoryFileExists(categoryKey, slug))) {
     return null;
   }
 
-  const data = await getSubcategoryData(categoryKey, slug);
+  const data = await getSubcategoryData(categoryKey, slug, locale);
   if (!data) {
     return null;
   }
@@ -116,12 +119,15 @@ export async function getGenericCategorySubcategory(
   };
 }
 
-export async function getAllGenericCategorySubcategories(categoryKey: GenericCategoryKey) {
+export async function getAllGenericCategorySubcategories(
+  categoryKey: GenericCategoryKey,
+  locale: Locale = DEFAULT_LOCALE,
+) {
   if (!(await categoryDataDirExists(categoryKey))) {
     return [];
   }
 
-  const subcategories = await getAllSubcategories(categoryKey);
+  const subcategories = await getAllSubcategories(categoryKey, locale);
   return subcategories.map((subcategory) => ({
     ...subcategory,
     articles: sortArticlesByIdDescending(
@@ -134,11 +140,12 @@ export async function getGenericCategoryArticle(
   categoryKey: GenericCategoryKey,
   subcategorySlug: string,
   articleSlug: string,
+  locale: Locale = DEFAULT_LOCALE,
 ) {
-  return getArticleFromCategory(categoryKey, subcategorySlug, articleSlug);
+  return getArticleFromCategory(categoryKey, subcategorySlug, articleSlug, locale);
 }
 
-export async function getAllGenericCategorySubcategoryParams() {
+export async function getAllGenericCategorySubcategoryParams(locale: Locale = DEFAULT_LOCALE) {
   const params: Array<{ category: GenericCategoryKey; subcategory: string }> = [];
 
   for (const categoryKey of GENERIC_CATEGORY_KEYS) {
@@ -146,7 +153,7 @@ export async function getAllGenericCategorySubcategoryParams() {
       continue;
     }
 
-    const subcategories = await getAllGenericCategorySubcategories(categoryKey);
+    const subcategories = await getAllGenericCategorySubcategories(categoryKey, locale);
     for (const subcategory of subcategories) {
       params.push({
         category: categoryKey,
@@ -158,7 +165,7 @@ export async function getAllGenericCategorySubcategoryParams() {
   return params;
 }
 
-export async function getAllGenericCategoryArticleParams() {
+export async function getAllGenericCategoryArticleParams(locale: Locale = DEFAULT_LOCALE) {
   const params: Array<{ category: GenericCategoryKey; subcategory: string; slug: string }> = [];
 
   for (const categoryKey of GENERIC_CATEGORY_KEYS) {
@@ -166,7 +173,7 @@ export async function getAllGenericCategoryArticleParams() {
       continue;
     }
 
-    const entries = await getAllArticleParamsForCategory(categoryKey);
+    const entries = await getAllArticleParamsForCategory(categoryKey, locale);
     entries.forEach((entry) => {
       params.push({
         category: categoryKey,
@@ -300,9 +307,10 @@ export function toCategoryArticleSummaries(articles: Article[]): CategoryArticle
 
 export async function findGenericCategorySubcategoryBySlug(
   subcategorySlug: string,
+  locale: Locale = DEFAULT_LOCALE,
 ) {
   for (const categoryKey of GENERIC_CATEGORY_KEYS) {
-    const subcategory = await getGenericCategorySubcategory(categoryKey, subcategorySlug);
+    const subcategory = await getGenericCategorySubcategory(categoryKey, subcategorySlug, locale);
     if (subcategory) {
       return {
         categoryKey,

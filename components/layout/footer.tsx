@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MailchimpSignup } from "../marketing/mailchimp-signup";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -54,6 +55,7 @@ export function Footer() {
               Αρχείο λαογραφίας, ιστορικών τεκμηρίων και παραφυσικών ερευνών από κάθε γωνιά της
               Ελλάδας.
             </p>
+            <MailchimpSignup />
           </div>
         </div>
 

@@ -15,12 +15,12 @@ export type NavigationItem = {
 export const navigation: NavigationItem[] = [
   {
     id: "0",
-    title: "Αρχική",
+    title: "Αρχικη",
     url: "/",
   },
   {
     id: "1",
-    title: "Παραδόσεις",
+    title: "Παραδοσεις",
     url: "/laografia",
     subitems: [
       { slug: "all", title: "Όλα", url: "/laografia" },
@@ -45,7 +45,7 @@ export const navigation: NavigationItem[] = [
   },
   {
     id: "2",
-    title: "Εταιρία Ψυχικών Ερευνών",
+    title: "Εταιρια Ψυχικων Ερευνων",
     url: "/etaireia-psychikon-ereynon",
     subitems: [
       { slug: "all", title: "Όλα", url: "/etaireia-psychikon-ereynon" },
@@ -69,7 +69,7 @@ export const navigation: NavigationItem[] = [
   },
   {
     id: "3",
-    title: "Εφημερίδες",
+    title: "Εφημεριδες",
     url: "/efimerides",
     subitems: [
       { slug: "all", title: "Όλα", url: "/efimerides" },
@@ -77,12 +77,13 @@ export const navigation: NavigationItem[] = [
       { slug: "mageia", title: "Μαγεία", url: "/efimerides/mageia" },
       { slug: "teletes", title: "Τελετές", url: "/efimerides/teletes" },
       { slug: "satanismos", title: "Σατανισμός", url: "/efimerides/satanismos" },
+      { slug: "pnevmatismos", title: "Πνευματισμός", url: "/efimerides/pnevmatismos" },
       { slug: "fainomena", title: "Φαινόμενα", url: "/efimerides/fainomena" },
     ],
   },
   {
     id: "4",
-    title: "Χάρτες",
+    title: "Χαρτες",
     url: "/map2",
     subitems: [
       { slug: "laografia-map", title: "Χάρτης Λαογραφίας", url: "/map2" },
@@ -91,7 +92,7 @@ export const navigation: NavigationItem[] = [
   },
   {
     id: "5",
-    title: "Σχετικά",
+    title: "Σχετικα",
     url: "/about-us",
   },
   {

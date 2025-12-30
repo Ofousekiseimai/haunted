@@ -6,6 +6,7 @@ import {
   getAllLaografiaSubcategories,
   type LaografiaSubcategory,
 } from "./laografia";
+import { DEFAULT_LOCALE, type Locale } from "./content";
 
 const LATITUDE_BOUNDS = {
   min: 34.8,
@@ -123,8 +124,8 @@ function collectLocationTags(value: unknown) {
     .filter((entry, index, array) => array.indexOf(entry) === index);
 }
 
-export async function getEfimeridesMapData() {
-  const subcategories = await getAllEfimeridesSubcategories();
+export async function getEfimeridesMapData(locale: Locale = DEFAULT_LOCALE) {
+  const subcategories = await getAllEfimeridesSubcategories(locale);
 
   const articles: MapArticle[] = [];
   const options: SubcategoryOption[] = [];
@@ -171,8 +172,8 @@ export async function getEfimeridesMapData() {
   };
 }
 
-export async function getLaografiaMapData() {
-  const subcategories = await getAllLaografiaSubcategories();
+export async function getLaografiaMapData(locale: Locale = DEFAULT_LOCALE) {
+  const subcategories = await getAllLaografiaSubcategories(locale);
 
   const articles: MapArticle[] = [];
   const options: SubcategoryOption[] = [];

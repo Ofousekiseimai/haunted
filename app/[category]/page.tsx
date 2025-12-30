@@ -12,6 +12,7 @@ import {
   isGenericCategoryKey,
   listAvailableGenericCategoryKeys,
 } from "@/lib/generic-category";
+import { getRequestLocale } from "@/lib/locale-server";
 
 type PageParams = {
   category: string;
@@ -40,6 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {};
   }
 
+  const locale = await getRequestLocale();
   const copy = getGenericCategoryCopy(category);
   const overview = await getGenericCategoryOverview(category);
 
@@ -80,9 +82,10 @@ export default async function GenericCategoryIndexPage({ params }: PageProps) {
     notFound();
   }
 
+  const locale = await getRequestLocale();
   const [overview, subcategories] = await Promise.all([
     getGenericCategoryOverview(category),
-    getAllGenericCategorySubcategories(category),
+    getAllGenericCategorySubcategories(category, locale),
   ]);
 
   const copy = getGenericCategoryCopy(category);

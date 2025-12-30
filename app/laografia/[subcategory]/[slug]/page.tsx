@@ -9,6 +9,7 @@ import { SameAreaArticles } from "@/components/article/same-area-articles";
 import { RandomArticles } from "@/components/article/random-articles";
 import { Section } from "@/components/section";
 import { getAllLaografiaArticleParams, getLaografiaArticle, type ArticleContentBlock } from "@/lib/laografia";
+import { getRequestLocale } from "@/lib/locale-server";
 
 const SITE_BASE_URL = "https://haunted.gr";
 
@@ -126,7 +127,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { subcategory: subcategorySlug, slug } = await params;
-  const data = await getLaografiaArticle(subcategorySlug, slug);
+  const locale = await getRequestLocale();
+  const data = await getLaografiaArticle(subcategorySlug, slug, locale);
 
   if (!data) {
     return {};
@@ -197,7 +199,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function LaografiaArticlePage({ params }: PageProps) {
   const { subcategory: subcategorySlug, slug } = await params;
-  const data = await getLaografiaArticle(subcategorySlug, slug);
+  const locale = await getRequestLocale();
+  const data = await getLaografiaArticle(subcategorySlug, slug, locale);
 
   if (!data) {
     notFound();
@@ -347,7 +350,11 @@ export default async function LaografiaArticlePage({ params }: PageProps) {
         subLocation2={subLocation2}
       />
 
-      <ArticleSources sources={sources} />
+      <ArticleSources
+        sources={sources}
+        articleDate={typeof article.date === "string" ? article.date : undefined}
+        articleAuthor={typeof article.author === "string" ? article.author : undefined}
+      />
 
       <script
         type="application/ld+json"

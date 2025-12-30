@@ -284,6 +284,16 @@ export const SUBCATEGORY_MAP: Record<string, SubcategoryConfig> = {
       alt: "Φαινόμενα",
     },
   },
+  pnevmatismos: {
+    displayName: "Πνευματισμός",
+    description: "Δημοσιεύματα για πνευματισμό και την επικοινωνία με τους νεκρούς στον ελληνικό Τύπο",
+    category: "efimerides",
+    slug: "pnevmatismos",
+    image: {
+      src: "/images/efimerides/epikoinonia-me-nekrous-1935.webp",
+      alt: "Πνευματισμός",
+    },
+  },
   "erevnes-fainomena": {
     displayName: "Φαινόμενα - Ερευνες",
     description:

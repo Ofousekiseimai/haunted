@@ -35,6 +35,8 @@ export type ArticleSource = string | StructuredSource | null | undefined;
 type ArticleSourcesProps = {
   sources?: ArticleSource[];
   heading?: string;
+  articleDate?: string | null;
+  articleAuthor?: string | null;
 };
 
 function normalizeString(value?: string | null) {
@@ -122,6 +124,7 @@ function renderSourceDetails(entry: StructuredSource) {
           <SourceLine label="Εφημερίδα" value={entry.name} />
           <SourceLine label="Τίτλος" value={entry.title} />
           <div className="flex flex-wrap gap-6">
+            <SourceLine label="Συγγραφέας" value={entry.author} />
             <SourceLine label="Ημερομηνία" value={entry.date ?? entry.eventDate} />
             <SourceLine label="Έτος" value={entry.year} />
             <SourceLine label="Έκδοση" value={entry.issue} />
@@ -261,7 +264,12 @@ function StringSource({ value }: { value: string }) {
   );
 }
 
-export function ArticleSources({ sources, heading = "Πηγές & Τεκμηρίωση" }: ArticleSourcesProps) {
+export function ArticleSources({
+  sources,
+  heading = "Πηγές & Τεκμηρίωση",
+  articleDate,
+  articleAuthor,
+}: ArticleSourcesProps) {
   const normalizedSources = (sources ?? [])
     .map((entry) => {
       if (typeof entry === "string") {
@@ -284,6 +292,24 @@ export function ArticleSources({ sources, heading = "Πηγές & Τεκμηρί
   return (
     <section className="space-y-6">
       <h2 className="text-xl font-semibold text-n-1">{heading}</h2>
+      {(articleDate || articleAuthor) && (
+        <div className="rounded-2xl border border-n-7 bg-n-8 p-5">
+          <div className="flex flex-wrap gap-6 text-sm text-n-3">
+            {articleDate && (
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-n-2">Ημερομηνία άρθρου:</span>
+                <span>{articleDate}</span>
+              </div>
+            )}
+            {articleAuthor && (
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-n-2">Συγγραφέας άρθρου:</span>
+                <span>{articleAuthor}</span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
       <ul className="space-y-4">
         {normalizedSources.map((entry, index) => {
           if (typeof entry === "string") {

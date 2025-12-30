@@ -13,6 +13,7 @@ import {
   getEtaireiaArticle,
   type EtaireiaArticle,
 } from "@/lib/etaireia";
+import { getRequestLocale } from "@/lib/locale-server";
 
 const SITE_BASE_URL = "https://haunted.gr";
 
@@ -91,7 +92,7 @@ function renderContentBlock(block: EtaireiaArticle["content"][number], index: nu
 
       return (
         <figure key={index} className="mt-10 space-y-3">
-          <div className="relative h-72 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8">
+          <div className="relative h-80 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8 md:h-96 lg:h-[30rem]">
             <Image
               src={payload.src}
               alt={payload.alt ?? "Εικόνα άρθρου"}
@@ -129,7 +130,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { subcategory, slug } = await params;
-  const data = await getEtaireiaArticle(subcategory, slug);
+  const locale = await getRequestLocale();
+  const data = await getEtaireiaArticle(subcategory, slug, locale);
 
   if (!data) {
     return {};
@@ -195,14 +197,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function EtaireiaArticlePage({ params }: PageProps) {
   const { subcategory, slug } = await params;
-  const data = await getEtaireiaArticle(subcategory, slug);
+  const locale = await getRequestLocale();
+  const data = await getEtaireiaArticle(subcategory, slug, locale);
 
   if (!data) {
     notFound();
   }
 
   const { article, subcategory: subcategoryData } = data;
-  const imageUrl = toAbsoluteUrl(article.image?.src);
+  const rawImageSrc =
+    typeof article.image?.src === "string" && article.image.src.trim().length > 0
+      ? article.image.src.trim()
+      : undefined;
+  const imageUrl = toAbsoluteUrl(rawImageSrc);
   const sources: ArticleSource[] = [];
   if (Array.isArray(article.sources)) {
     sources.push(...(article.sources as ArticleSource[]));
@@ -320,10 +327,10 @@ export default async function EtaireiaArticlePage({ params }: PageProps) {
 
         {article.excerpt && <p className="text-lg text-n-2">{article.excerpt}</p>}
 
-        {imageUrl && (
-          <div className="relative h-72 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8">
+        {rawImageSrc && (
+          <div className="relative h-80 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8 md:h-96 lg:h-[30rem]">
             <Image
-              src={imageUrl}
+              src={rawImageSrc}
               alt={article.image?.alt ?? article.title}
               fill
               className="object-cover"
@@ -343,7 +350,11 @@ export default async function EtaireiaArticlePage({ params }: PageProps) {
         subLocation2={subLocation2}
       />
 
-      <ArticleSources sources={sources} />
+      <ArticleSources
+        sources={sources}
+        articleDate={typeof article.date === "string" ? article.date : undefined}
+        articleAuthor={typeof article.author === "string" ? article.author : undefined}
+      />
 
       <script
         type="application/ld+json"

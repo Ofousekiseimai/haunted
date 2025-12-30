@@ -5,6 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { navigation } from "@/constants/navigation";
+import { LanguageSwitch } from "./language-switch";
+import type { Locale } from "@/lib/content";
 
 const SearchIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} {...props}>
@@ -48,7 +50,11 @@ function useDisableBodyScroll(disabled: boolean) {
   }, [disabled]);
 }
 
-export function Header() {
+type HeaderProps = {
+  initialLocale: Locale;
+};
+
+export function Header({ initialLocale }: HeaderProps) {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -197,12 +203,14 @@ export function Header() {
               );
             })}
 
+            <LanguageSwitch initialLocale={initialLocale} />
+
             <a
               href="https://www.instagram.com/haunted.gr/"
               aria-label="Instagram"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-3 flex h-10 w-10 items-center justify-center rounded-full border border-n-6 text-n-1 transition hover:border-color-1 hover:text-color-1"
+              className="ml-1 flex h-10 w-10 items-center justify-center rounded-full border border-n-6 text-n-1 transition hover:border-color-1 hover:text-color-1"
             >
               <InstagramIcon className="h-5 w-5" />
             </a>
@@ -326,6 +334,10 @@ export function Header() {
                   )}
                 </div>
               ))}
+
+              <div className="mt-6 px-4">
+                <LanguageSwitch initialLocale={initialLocale} variant="mobile" />
+              </div>
 
               <a
                 href="https://www.instagram.com/haunted.gr/"

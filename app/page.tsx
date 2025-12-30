@@ -9,6 +9,7 @@ import { YoutubeSection } from "@/components/home/youtube-section";
 import { getHomeCategorySections } from "@/lib/home";
 import { getYoutubeData } from "@/lib/youtube";
 import { getAllEtaireiaSubcategories } from "@/lib/etaireia";
+import { getRequestLocale } from "@/lib/locale-server";
 
 export const revalidate = 3600;
 
@@ -86,11 +87,12 @@ function extractMonthDay(date?: string | null): MonthDay | null {
 }
 
 export default async function HomePage() {
+  const locale = await getRequestLocale();
   const [laografia, efimerides, etaireia, etaireiaFull, youtubeData] = await Promise.all([
-    getHomeCategorySections("laografia"),
-    getHomeCategorySections("efimerides"),
-    getHomeCategorySections("etaireia-psychikon-ereynon"),
-    getAllEtaireiaSubcategories(),
+    getHomeCategorySections("laografia", 6, locale),
+    getHomeCategorySections("efimerides", 6, locale),
+    getHomeCategorySections("etaireia-psychikon-ereynon", 6, locale),
+    getAllEtaireiaSubcategories(locale),
     getYoutubeData(),
   ]);
 

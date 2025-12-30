@@ -9,6 +9,8 @@ import {
   getEtaireiaSubcategory,
   type EtaireiaSubcategory,
 } from "@/lib/etaireia";
+import { formatCollectionDescription } from "@/lib/description";
+import { getRequestLocale } from "@/lib/locale-server";
 
 type PageProps = {
   params: Promise<{
@@ -49,16 +51,19 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { subcategory: subcategorySlug } = await params;
-  const subcategory = await getEtaireiaSubcategory(subcategorySlug);
+  const locale = await getRequestLocale();
+  const subcategory = await getEtaireiaSubcategory(subcategorySlug, locale);
 
   if (!subcategory) {
     return {};
   }
 
   const title = subcategory.seo?.metaTitle ?? subcategory.subcategory;
-  const description =
-    subcategory.seo?.metaDescription ??
-    `Τεκμήρια, άρθρα και πειράματα για την ενότητα ${subcategory.subcategory}.`;
+  const description = formatCollectionDescription(
+    subcategory.seo?.metaDescription,
+    subcategory.articles.length,
+    `Τεκμήρια, άρθρα και πειράματα για την ενότητα ${subcategory.subcategory}.`,
+  );
   const canonical = getCanonicalSlug(subcategory);
 
   return {
@@ -89,7 +94,8 @@ export default async function EtaireiaSubcategoryPage({ params }: PageProps) {
     redirect("/etaireia-psychikon-ereynon");
   }
 
-  const subcategory = await getEtaireiaSubcategory(subcategorySlug);
+  const locale = await getRequestLocale();
+  const subcategory = await getEtaireiaSubcategory(subcategorySlug, locale);
 
   if (!subcategory) {
     notFound();
@@ -100,10 +106,11 @@ export default async function EtaireiaSubcategoryPage({ params }: PageProps) {
       <SectionHeader
         eyebrow="Εταιρεία Ψυχικών Ερευνών"
         title={subcategory.subcategory}
-        description={
-          subcategory.seo?.metaDescription ??
-          `Συλλογή ${subcategory.articles.length} τεκμηρίων για ${subcategory.subcategory}.`
-        }
+        description={formatCollectionDescription(
+          subcategory.seo?.metaDescription,
+          subcategory.articles.length,
+          `Συλλογή ${subcategory.articles.length} τεκμηρίων για ${subcategory.subcategory}.`,
+        )}
       />
 
       <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

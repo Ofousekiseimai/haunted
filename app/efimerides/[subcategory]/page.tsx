@@ -9,6 +9,8 @@ import {
   getEfimeridesSubcategory,
   type EfimeridesSubcategory,
 } from "@/lib/efimerides";
+import { formatCollectionDescription } from "@/lib/description";
+import { getRequestLocale } from "@/lib/locale-server";
 
 type PageProps = {
   params: Promise<{
@@ -46,16 +48,19 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { subcategory: subcategorySlug } = await params;
-  const subcategory = await getEfimeridesSubcategory(subcategorySlug);
+  const locale = await getRequestLocale();
+  const subcategory = await getEfimeridesSubcategory(subcategorySlug, locale);
 
   if (!subcategory) {
     return {};
   }
 
   const title = subcategory.seo?.metaTitle ?? subcategory.subcategory;
-  const description =
-    subcategory.seo?.metaDescription ??
-    `Αρχειακά τεκμήρια και άρθρα από τον ελληνικό Τύπο για την ενότητα ${subcategory.subcategory}.`;
+  const description = formatCollectionDescription(
+    subcategory.seo?.metaDescription,
+    subcategory.articles.length,
+    `Αρχειακά τεκμήρια και άρθρα από τον ελληνικό Τύπο για την ενότητα ${subcategory.subcategory}.`,
+  );
   const canonical = getCanonicalSlug(subcategory);
 
   return {
@@ -81,7 +86,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function EfimeridesSubcategoryPage({ params }: PageProps) {
   const { subcategory: subcategorySlug } = await params;
-  const subcategory = await getEfimeridesSubcategory(subcategorySlug);
+  const locale = await getRequestLocale();
+  const subcategory = await getEfimeridesSubcategory(subcategorySlug, locale);
 
   if (!subcategory) {
     notFound();
@@ -92,10 +98,11 @@ export default async function EfimeridesSubcategoryPage({ params }: PageProps) {
       <SectionHeader
         eyebrow="Εφημερίδες"
         title={subcategory.subcategory}
-        description={
-          subcategory.seo?.metaDescription ??
-          `Συλλογή ${subcategory.articles.length} άρθρων και τεκμηρίων από τον ελληνικό Τύπο.`
-        }
+        description={formatCollectionDescription(
+          subcategory.seo?.metaDescription,
+          subcategory.articles.length,
+          `Συλλογή ${subcategory.articles.length} άρθρων και τεκμηρίων από τον ελληνικό Τύπο.`,
+        )}
       />
 
       <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

@@ -1,5 +1,6 @@
 import { ArticleSuggestionCard } from "./suggestion-card";
 import { getArticlesByMainArea } from "@/lib/articles";
+import { getRequestLocale } from "@/lib/locale-server";
 
 type SameAreaArticlesProps = {
   mainArea?: string | null;
@@ -11,10 +12,15 @@ export async function SameAreaArticles({ mainArea, currentArticleId }: SameAreaA
     return null;
   }
 
-  const articles = await getArticlesByMainArea(mainArea, {
-    excludeArticleId: currentArticleId,
-    limit: 6,
-  });
+  const locale = await getRequestLocale();
+  const articles = await getArticlesByMainArea(
+    mainArea,
+    {
+      excludeArticleId: currentArticleId,
+      limit: 6,
+    },
+    locale,
+  );
 
   if (!articles.length) {
     return null;

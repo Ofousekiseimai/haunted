@@ -4,6 +4,7 @@ import { LaografiaMapShell } from "@/components/maps/laografia-map-shell";
 import { Section } from "@/components/section";
 import { SectionHeader } from "@/components/section-header";
 import { getLaografiaMapData } from "@/lib/maps";
+import { getRequestLocale } from "@/lib/locale-server";
 
 const CANONICAL_URL = "https://haunted.gr/map2";
 
@@ -37,7 +38,8 @@ type PageProps = {
 
 export default async function LaografiaMapPage({ searchParams }: PageProps) {
   const params = await searchParams;
-  const { articles, subcategories } = await getLaografiaMapData();
+  const locale = await getRequestLocale();
+  const { articles, subcategories } = await getLaografiaMapData(locale);
 
   const initialSubcategory =
     params?.subcategory && subcategories.some((option) => option.value === params.subcategory)

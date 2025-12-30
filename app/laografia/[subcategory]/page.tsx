@@ -7,6 +7,8 @@ import {
   getLaografiaSubcategory,
   type LaografiaSubcategory,
 } from "@/lib/laografia";
+import { formatCollectionDescription } from "@/lib/description";
+import { getRequestLocale } from "@/lib/locale-server";
 import { SectionHeader } from "@/components/section-header";
 import { CategoryArticleCard } from "@/components/category/article-card";
 
@@ -22,16 +24,19 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { subcategory: subcategorySlug } = await params;
-  const subcategory = await getLaografiaSubcategory(subcategorySlug);
+  const locale = await getRequestLocale();
+  const subcategory = await getLaografiaSubcategory(subcategorySlug, locale);
 
   if (!subcategory) {
     return {};
   }
 
   const title = subcategory.seo?.metaTitle ?? subcategory.subcategory;
-  const description =
-    subcategory.seo?.metaDescription ??
-    `Συλλογή ιστοριών για την ενότητα ${subcategory.subcategory}.`;
+  const description = formatCollectionDescription(
+    subcategory.seo?.metaDescription,
+    subcategory.articles.length,
+    `Συλλογή ιστοριών για την ενότητα ${subcategory.subcategory}.`,
+  );
   const canonical =
     subcategory.seo?.canonical ?? `/laografia/${subcategory.subcategorySlug}`;
 
@@ -96,7 +101,8 @@ function getTags(article: LaografiaSubcategory["articles"][number]) {
 
 export default async function LaografiaSubcategoryPage({ params }: PageProps) {
   const { subcategory: subcategorySlug } = await params;
-  const subcategory = await getLaografiaSubcategory(subcategorySlug);
+  const locale = await getRequestLocale();
+  const subcategory = await getLaografiaSubcategory(subcategorySlug, locale);
 
   if (!subcategory) {
     notFound();
@@ -107,10 +113,11 @@ export default async function LaografiaSubcategoryPage({ params }: PageProps) {
       <SectionHeader
         eyebrow={subcategory.category}
         title={subcategory.subcategory}
-        description={
-          subcategory.seo?.metaDescription ??
-          `Δες ${subcategory.articles.length} ιστορίες και μαρτυρίες για την ενότητα ${subcategory.subcategory}.`
-        }
+        description={formatCollectionDescription(
+          subcategory.seo?.metaDescription,
+          subcategory.articles.length,
+          `Δες ${subcategory.articles.length} ιστορίες και μαρτυρίες για την ενότητα ${subcategory.subcategory}.`,
+        )}
       />
 
       <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

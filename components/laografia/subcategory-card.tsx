@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import type { LaografiaSubcategory } from "@/lib/laografia";
+import { formatCollectionDescription } from "@/lib/description";
 
 type SubcategoryCardProps = {
   subcategory: LaografiaSubcategory;
@@ -18,8 +19,11 @@ export function SubcategoryCard({ subcategory }: SubcategoryCardProps) {
           {subcategory.subcategory}
         </h2>
         <p className="mt-3 text-sm text-zinc-400">
-          {subcategory.seo?.metaDescription ??
-            `Συλλογή ${subcategory.articles.length} ιστοριών για ${subcategory.subcategory}.`}
+          {formatCollectionDescription(
+            subcategory.seo?.metaDescription,
+            subcategory.articles.length,
+            `Συλλογή ${subcategory.articles.length} ιστοριών για ${subcategory.subcategory}.`,
+          )}
         </p>
       </div>
       <span className="mt-auto text-sm font-medium text-primary-300 transition group-hover:text-primary-200">

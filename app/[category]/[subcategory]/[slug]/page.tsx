@@ -15,6 +15,7 @@ import {
   getGenericCategoryCopy,
   isGenericCategoryKey,
 } from "@/lib/generic-category";
+import { getRequestLocale } from "@/lib/locale-server";
 
 type PageParams = {
   category: string;
@@ -136,7 +137,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {};
   }
 
-  const data = await getGenericCategoryArticle(category, subcategory, slug);
+  const locale = await getRequestLocale();
+  const data = await getGenericCategoryArticle(category, subcategory, slug, locale);
   if (!data) {
     return {};
   }
@@ -203,7 +205,8 @@ export default async function GenericCategoryArticlePage({ params }: PageProps) 
     notFound();
   }
 
-  const data = await getGenericCategoryArticle(category, subcategory, slug);
+  const locale = await getRequestLocale();
+  const data = await getGenericCategoryArticle(category, subcategory, slug, locale);
   if (!data) {
     notFound();
   }
@@ -349,7 +352,11 @@ export default async function GenericCategoryArticlePage({ params }: PageProps) 
         subLocation2={subLocation2}
       />
 
-      <ArticleSources sources={sources} />
+      <ArticleSources
+        sources={sources}
+        articleDate={typeof article.date === "string" ? article.date : undefined}
+        articleAuthor={typeof article.author === "string" ? article.author : undefined}
+      />
 
       <script
         type="application/ld+json"
