@@ -27,6 +27,19 @@ export type EtaireiaSubcategory = SubcategoryData & {
   articles: EtaireiaArticle[];
 };
 
+export type EtaireiaTimelineItem = {
+  id: string;
+  title: string;
+  slug: string;
+  subcategory: string;
+  subcategorySlug: string;
+  path: string;
+  date: string;
+  year: number;
+  excerpt?: string;
+  imageSrc?: string;
+};
+
 export type EtaireiaOverview = {
   category: string;
   slug: string;
@@ -47,32 +60,12 @@ const INDEX_FILE = path.join(DATA_ROOT, "index.json");
 function sortArticlesByInsertionOrder(articles: Article[]): EtaireiaArticle[] {
   return [...articles]
     .map((article, index) => {
-      const numericId =
-        typeof article.id === "number"
-          ? article.id
-          : typeof article.id === "string"
-            ? Number.parseInt(article.id, 10)
-            : Number.NaN;
-
       return {
         article,
         index,
-        numericId: Number.isFinite(numericId) ? numericId : null,
       };
     })
     .sort((a, b) => {
-      if (a.numericId !== null && b.numericId !== null && a.numericId !== b.numericId) {
-        return b.numericId - a.numericId;
-      }
-
-      if (a.numericId !== null && b.numericId === null) {
-        return -1;
-      }
-
-      if (a.numericId === null && b.numericId !== null) {
-        return 1;
-      }
-
       return b.index - a.index;
     })
     .map(({ article }) => article as EtaireiaArticle);
@@ -131,6 +124,50 @@ export async function getAllEtaireiaSubcategoryParams(locale: Locale = DEFAULT_L
 
 export async function getAllEtaireiaArticleParams(locale: Locale = DEFAULT_LOCALE) {
   return getAllArticleParamsForCategory(CATEGORY_KEY, locale);
+}
+
+export async function getEtaireiaTimeline(locale: Locale = DEFAULT_LOCALE) {
+  const subcategories = await getAllEtaireiaSubcategories(locale);
+
+  const items: EtaireiaTimelineItem[] = [];
+
+  subcategories.forEach((subcategory) => {
+    const subcategorySlug = subcategory.subcategorySlug ?? subcategory.slug;
+    subcategory.articles.forEach((article) => {
+      if (!article.date || typeof article.date !== "string") {
+        return;
+      }
+
+      const parsed = Date.parse(article.date);
+      if (!Number.isFinite(parsed)) {
+        return;
+      }
+
+      const year = new Date(parsed).getFullYear();
+
+      items.push({
+        id: String(article.id),
+        title: article.title,
+        slug: article.slug,
+        subcategory: subcategory.subcategory,
+        subcategorySlug,
+        path: `/etaireia-psychikon-ereynon/${subcategorySlug}/${article.slug}`,
+        date: article.date,
+        year,
+        excerpt: typeof article.excerpt === "string" ? article.excerpt : undefined,
+        imageSrc: article.image?.src,
+      });
+    });
+  });
+
+  return items.sort((a, b) => {
+    const aTime = Date.parse(a.date);
+    const bTime = Date.parse(b.date);
+    if (aTime !== bTime) {
+      return aTime - bTime;
+    }
+    return a.title.localeCompare(b.title, "el-GR");
+  });
 }
 
 export { type ArticleSeo } from "./content";

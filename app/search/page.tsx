@@ -5,6 +5,7 @@ import { Section } from "@/components/section";
 import { SectionHeader } from "@/components/section-header";
 import { searchArticles } from "@/lib/search";
 import { getRequestLocale } from "@/lib/locale-server";
+import { translateCategoryLabel } from "@/lib/translations";
 
 const CANONICAL_URL = "https://haunted.gr/search";
 
@@ -49,13 +50,19 @@ export default async function SearchPage({ searchParams }: PageProps) {
   const query = params?.q?.trim() ?? "";
   const locale = await getRequestLocale();
   const results = query ? await searchArticles(query, locale) : [];
+  const eyebrow = locale === "en" ? "Archive" : "Αρχείο";
+  const title = locale === "en" ? "Search content" : "Αναζήτηση περιεχομένου";
+  const description =
+    locale === "en"
+      ? "Search articles, folklore, and records using keywords or locations."
+      : "Αναζητήστε άρθρα, παραδόσεις και τεκμήρια χρησιμοποιώντας λέξεις-κλειδιά ή τοπωνύμια.";
 
   return (
     <Section className="container space-y-10" customPaddings="py-12 lg:py-20">
       <SectionHeader
-        eyebrow="Αρχείο"
-        title="Αναζήτηση περιεχομένου"
-        description="Αναζητήστε άρθρα, παραδόσεις και τεκμήρια χρησιμοποιώντας λέξεις-κλειδιά ή τοπωνύμια."
+        eyebrow={eyebrow}
+        title={title}
+        description={description}
       />
 
       <form
@@ -63,20 +70,22 @@ export default async function SearchPage({ searchParams }: PageProps) {
         className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 shadow-lg shadow-black/20"
       >
         <label className="flex flex-col gap-2 text-sm font-medium text-zinc-300">
-          <span>Λέξη ή φράση</span>
+          <span>{locale === "en" ? "Word or phrase" : "Λέξη ή φράση"}</span>
           <div className="flex gap-3">
             <input
               type="search"
               name="q"
               defaultValue={query}
-              placeholder="π.χ. βρυκόλακας, Αθήνα, μαρτυρία"
+              placeholder={
+                locale === "en" ? "e.g. vampire, Athens, testimony" : "π.χ. βρυκόλακας, Αθήνα, μαρτυρία"
+              }
               className="flex-1 rounded-xl border surface-border surface-input px-4 py-2 text-base text-n-1 focus:border-primary-400 focus:outline-none"
             />
             <button
               type="submit"
               className="rounded-xl bg-primary-500 px-5 py-2 text-sm font-semibold text-white transition hover:bg-primary-400"
             >
-              Αναζήτηση
+              {locale === "en" ? "Search" : "Αναζήτηση"}
             </button>
           </div>
         </label>
@@ -84,17 +93,20 @@ export default async function SearchPage({ searchParams }: PageProps) {
 
       {query.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-zinc-700 bg-zinc-900/40 p-8 text-sm text-zinc-400">
-          Πληκτρολογήστε ένα όρο παραπάνω και πατήστε «Αναζήτηση» για να δείτε αποτελέσματα από
-          όλες τις κατηγορίες.
+          {locale === "en"
+            ? "Type a term above and press “Search” to see results from all categories."
+            : "Πληκτρολογήστε ένα όρο παραπάνω και πατήστε «Αναζήτηση» για να δείτε αποτελέσματα από όλες τις κατηγορίες."}
         </div>
       ) : results.length === 0 ? (
         <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-8 text-sm text-zinc-400">
-          Δεν βρέθηκαν αποτελέσματα για «{query}».
+          {locale === "en" ? `No results found for “${query}”.` : `Δεν βρέθηκαν αποτελέσματα για «${query}».`}
         </div>
       ) : (
         <div className="space-y-6">
           <p className="text-sm text-zinc-400">
-            Βρέθηκαν {results.length} αποτελέσματα για «{query}».
+            {locale === "en"
+              ? `${results.length} results found for “${query}”.`
+              : `Βρέθηκαν ${results.length} αποτελέσματα για «${query}».`}
           </p>
 
           <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
@@ -115,6 +127,7 @@ export default async function SearchPage({ searchParams }: PageProps) {
                       }
                     : undefined
                 }
+                locale={locale}
               />
             ))}
           </div>

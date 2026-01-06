@@ -31,6 +31,19 @@ export type EfimeridesIndex = {
   totalArticles?: number;
 };
 
+export type EfimeridesTimelineItem = {
+  id: string;
+  title: string;
+  slug: string;
+  subcategory: string;
+  subcategorySlug: string;
+  path: string;
+  date: string;
+  year: number;
+  excerpt?: string;
+  imageSrc?: string;
+};
+
 const DATA_ROOT = path.join(process.cwd(), "public", "data", CATEGORY_KEY);
 const INDEX_FILE = path.join(DATA_ROOT, "index.json");
 
@@ -122,6 +135,51 @@ export async function getAllEfimeridesSubcategoryParams(locale: Locale = DEFAULT
 
 export async function getAllEfimeridesArticleParams(locale: Locale = DEFAULT_LOCALE) {
   return getAllArticleParamsForCategory(CATEGORY_KEY, locale);
+}
+
+export async function getEfimeridesTimeline(locale: Locale = DEFAULT_LOCALE) {
+  const subcategories = await getAllEfimeridesSubcategories(locale);
+
+  const items: EfimeridesTimelineItem[] = [];
+
+  subcategories.forEach((subcategory) => {
+    const subcategorySlug = subcategory.subcategorySlug ?? subcategory.slug;
+
+    subcategory.articles.forEach((article) => {
+      if (!article.date || typeof article.date !== "string") {
+        return;
+      }
+
+      const parsed = Date.parse(article.date);
+      if (!Number.isFinite(parsed)) {
+        return;
+      }
+
+      const year = new Date(parsed).getFullYear();
+
+      items.push({
+        id: String(article.id),
+        title: article.title,
+        slug: article.slug,
+        subcategory: subcategory.subcategory,
+        subcategorySlug,
+        path: `/efimerides/${subcategorySlug}/${article.slug}`,
+        date: article.date,
+        year,
+        excerpt: typeof article.excerpt === "string" ? article.excerpt : undefined,
+        imageSrc: article.image?.src,
+      });
+    });
+  });
+
+  return items.sort((a, b) => {
+    const aTime = Date.parse(a.date);
+    const bTime = Date.parse(b.date);
+    if (aTime !== bTime) {
+      return aTime - bTime;
+    }
+    return a.title.localeCompare(b.title, "el-GR");
+  });
 }
 
 export { type ArticleSeo } from "./content";

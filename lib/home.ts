@@ -86,7 +86,7 @@ export async function getHomeCategorySections(
   limit = 6,
   locale: Locale = DEFAULT_LOCALE,
 ) {
-  const subcategories = getSubcategoriesForCategory(categoryKey);
+  const subcategories = getSubcategoriesForCategory(categoryKey, locale);
 
   const results = await Promise.all(
     subcategories.map((config) => loadSubcategoryForHome(categoryKey, config, limit, locale)),

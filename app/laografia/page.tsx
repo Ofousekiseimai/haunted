@@ -16,22 +16,36 @@ export const metadata: Metadata = {
 export default async function LaografiaIndexPage() {
   const locale = await getRequestLocale();
   const subcategories = await getAllLaografiaSubcategories(locale);
+  const totalArticles = subcategories.reduce(
+    (count, entry) => count + entry.articles.length,
+    0,
+  );
+
+  const categoryLabel = locale === "en" ? "Folklore" : "Λαογραφία";
 
   return (
     <Section className="container space-y-12">
       <SectionHeader
-        eyebrow="Λαογραφία"
-        title="Μύθοι και παραδόσεις της Ελλάδας"
+        eyebrow={categoryLabel}
+        title={locale === "en" ? "Myths and folklore of Greece" : "Μύθοι και παραδόσεις της Ελλάδας"}
         description={formatCollectionDescription(
           undefined,
-          subcategories.reduce((count, entry) => count + entry.articles.length, 0),
-          "Στα αρχεία μας θα βρεις καταγραφές στοιχειωμένων τόπων, λαϊκές δοξασίες και ιστορίες που ταξιδεύουν από γενιά σε γενιά.",
+          totalArticles,
+          locale === "en"
+            ? "Discover haunted places, folk beliefs, and stories passed down through generations."
+            : "Στα αρχεία μας θα βρεις καταγραφές στοιχειωμένων τόπων, λαϊκές δοξασίες και ιστορίες που ταξιδεύουν από γενιά σε γενιά.",
         )}
       />
 
+      {totalArticles > 0 && (
+        <p className="text-sm uppercase tracking-[0.28em] text-zinc-500">
+          Συνολικά τεκμήρια: {totalArticles}
+        </p>
+      )}
+
       <div className="grid gap-8 md:grid-cols-2">
         {subcategories.map((subcategory) => (
-          <SubcategoryCard key={subcategory.subcategorySlug} subcategory={subcategory} />
+          <SubcategoryCard key={subcategory.subcategorySlug} subcategory={subcategory} locale={locale} />
         ))}
       </div>
     </Section>

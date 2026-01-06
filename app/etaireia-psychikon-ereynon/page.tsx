@@ -10,6 +10,7 @@ import {
 } from "@/lib/etaireia";
 import { formatCollectionDescription } from "@/lib/description";
 import { getRequestLocale } from "@/lib/locale-server";
+import { translateCategoryLabel, translateSubcategoryLabel } from "@/lib/translations";
 
 function toMetadata(overview: EtaireiaOverview | null): Metadata {
   if (!overview?.seo) {
@@ -68,21 +69,30 @@ export default async function EtaireiaIndexPage() {
     overview?.totalArticles ??
     subcategories.reduce((count, subcategory) => count + (subcategory.articles?.length ?? 0), 0);
 
+  const categoryLabel = translateCategoryLabel("etaireia-psychikon-ereynon", "Εταιρεία Ψυχικών Ερευνών", locale);
+  const title =
+    locale === "en"
+      ? "Greek Society for Psychical Research Archive"
+      : "Αρχείο Εταιρείας Ψυχικών Ερευνών";
+  const description = formatCollectionDescription(
+    overview?.seo?.metaDescription,
+    totalArticles,
+    locale === "en"
+      ? "Psi experiments, publications, and records from the historical Society for Psychical Research."
+      : "Πειράματα τηλεψυχίας, δημοσιεύσεις και τεκμήρια από την ιστορική Εταιρεία Ψυχικών Ερευνών.",
+  );
+
   return (
     <Section className="container space-y-12" customPaddings="py-12 lg:py-20">
       <SectionHeader
-        eyebrow="Εταιρεία Ψυχικών Ερευνών"
-        title="Αρχείο Εταιρείας Ψυχικών Ερευνών"
-        description={formatCollectionDescription(
-          overview?.seo?.metaDescription,
-          totalArticles,
-          "Πειράματα τηλεψυχίας, δημοσιεύσεις και τεκμήρια από την ιστορική Εταιρεία Ψυχικών Ερευνών.",
-        )}
+        eyebrow={categoryLabel}
+        title={title}
+        description={description}
       />
 
       {typeof totalArticles === "number" && (
         <p className="text-sm uppercase tracking-[0.28em] text-zinc-500">
-          Συνολικά τεκμήρια: {totalArticles}
+          {locale === "en" ? "Total records" : "Συνολικά τεκμήρια"}: {totalArticles}
         </p>
       )}
 
@@ -91,15 +101,25 @@ export default async function EtaireiaIndexPage() {
           <CategorySubcategoryCard
             key={subcategory.subcategorySlug}
             href={`/etaireia-psychikon-ereynon/${subcategory.subcategorySlug ?? subcategory.slug}`}
-            categoryLabel="Εταιρεία Ψυχικών Ερευνών"
-            title={subcategory.subcategory}
+            categoryLabel={categoryLabel}
+            title={translateSubcategoryLabel(
+              subcategory.subcategorySlug ?? subcategory.slug,
+              subcategory.subcategory,
+              locale,
+            )}
             description={formatCollectionDescription(
               subcategory.seo?.metaDescription,
               subcategory.articles.length,
-              `Συλλογή ${subcategory.articles.length} τεκμηρίων από το αρχείο της Εταιρείας Ψυχικών Ερευνών.`,
+              locale === "en"
+                ? `Collection of ${subcategory.articles.length} records from the Society archive.`
+                : `Συλλογή ${subcategory.articles.length} τεκμηρίων από το αρχείο της Εταιρείας Ψυχικών Ερευνών.`,
             )}
             articleCount={subcategory.articles.length}
-            ctaLabel="Δείτε τα τεκμήρια →"
+            ctaLabel={
+              locale === "en"
+                ? "View records →"
+                : "Δείτε τα τεκμήρια →"
+            }
           />
         ))}
       </div>

@@ -7,6 +7,7 @@ import {
   getLaografiaSubcategory,
   type LaografiaSubcategory,
 } from "@/lib/laografia";
+import { translateCategoryLabel, translateSubcategoryLabel } from "@/lib/translations";
 import { formatCollectionDescription } from "@/lib/description";
 import { getRequestLocale } from "@/lib/locale-server";
 import { SectionHeader } from "@/components/section-header";
@@ -108,15 +109,24 @@ export default async function LaografiaSubcategoryPage({ params }: PageProps) {
     notFound();
   }
 
+  const localizedCategory = translateCategoryLabel(subcategory.category, subcategory.category, locale);
+  const localizedSubcategory = translateSubcategoryLabel(
+    subcategory.subcategorySlug ?? subcategory.slug,
+    subcategory.subcategory,
+    locale,
+  );
+
   return (
     <Section className="container space-y-12">
       <SectionHeader
-        eyebrow={subcategory.category}
-        title={subcategory.subcategory}
+        eyebrow={localizedCategory}
+        title={localizedSubcategory}
         description={formatCollectionDescription(
           subcategory.seo?.metaDescription,
           subcategory.articles.length,
-          `Δες ${subcategory.articles.length} ιστορίες και μαρτυρίες για την ενότητα ${subcategory.subcategory}.`,
+          locale === "en"
+            ? `See ${subcategory.articles.length} stories and testimonies for ${localizedSubcategory}.`
+            : `Δες ${subcategory.articles.length} ιστορίες και μαρτυρίες για την ενότητα ${subcategory.subcategory}.`,
         )}
       />
 
@@ -132,6 +142,7 @@ export default async function LaografiaSubcategoryPage({ params }: PageProps) {
             location={getLocationLabel(article)}
             tags={getTags(article)}
             image={article.image}
+            locale={locale}
           />
         ))}
       </div>

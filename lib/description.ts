@@ -9,7 +9,9 @@ export function formatCollectionDescription(
 
   const withPlaceholder = metaDescription.replace(/\{count\}/gi, String(count));
 
-  const withCollectionCount = withPlaceholder.replace(/Συλλογή\s+\d+/i, `Συλλογή ${count}`);
+  const withCollectionCount = withPlaceholder
+    .replace(/Συλλογή\s+\d+/i, `Συλλογή ${count}`)
+    .replace(/Collection\s+\d+/i, `Collection ${count}`);
 
   return withCollectionCount;
 }

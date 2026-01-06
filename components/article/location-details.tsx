@@ -1,7 +1,11 @@
+import type { Locale } from "@/lib/locale";
+import { getArticleCopy } from "@/lib/i18n/ui";
+
 type LocationDetailsProps = {
   mainArea?: string | null;
   subLocation?: string | null;
   subLocation2?: string | null;
+  locale?: Locale;
 };
 
 function normalize(value?: string | null) {
@@ -17,7 +21,9 @@ export function LocationDetails({
   mainArea,
   subLocation,
   subLocation2,
+  locale = "el",
 }: LocationDetailsProps) {
+  const copy = getArticleCopy(locale);
   const cleanMainArea = normalize(mainArea);
   const subLocations = [normalize(subLocation), normalize(subLocation2)].filter(
     (entry): entry is string => Boolean(entry),
@@ -29,18 +35,18 @@ export function LocationDetails({
 
   return (
     <section className="rounded-2xl border border-n-7 bg-n-8 p-6">
-      <h2 className="text-lg font-semibold text-n-1">Τοποθεσία</h2>
+      <h2 className="text-lg font-semibold text-n-1">{copy.location.heading}</h2>
       <div className="mt-4 space-y-4 text-sm text-n-3">
         {cleanMainArea && (
           <div className="flex flex-wrap gap-2">
-            <span className="font-medium text-n-2">Κύρια περιοχή:</span>
+            <span className="font-medium text-n-2">{copy.location.mainArea}:</span>
             <span>{cleanMainArea}</span>
           </div>
         )}
 
         {subLocations.length > 0 && (
           <div className="flex flex-wrap gap-2">
-            <span className="font-medium text-n-2">Υπο-τοποθεσίες:</span>
+            <span className="font-medium text-n-2">{copy.location.subLocations}:</span>
             <span>{subLocations.join(", ")}</span>
           </div>
         )}

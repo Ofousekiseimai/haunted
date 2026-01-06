@@ -38,7 +38,45 @@
           "type": "efimerida",
           "name": " Εμπρος 31 ιανουαριου 1952"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Κοζάνη 1952 - Παράξενα Φαινόμενα σε Οικία | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Αναφορά παράξενων φαινομένων σε οικία ηλικιωμένης γυναίκας στην Κοζάνη.",
+        "keywords": [
+          "Κοζάνη",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/kozani-1952-paraxena-fainomena",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Κοζάνη 1952 - Παράξενα Φαινόμενα σε Οικία",
+          "description": "Αναφορά παράξενων φαινομένων σε οικία ηλικιωμένης γυναίκας στην Κοζάνη.",
+          "inLanguage": "el",
+          "datePublished": "1952-12-31",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Κοζάνη",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/kozani-1952-paraxena-fainomena"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/kozani-1952-fainomena.webp"
+        }
+      }
     },
     {
       "id": "137",
@@ -138,7 +176,51 @@
           "type": "efimerida",
           "name": " Εμπρος -  8 Mαρτιου 1953"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Στείρι Βοιωτίας - O Βρυκόλακας 1953 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Δεν έχει λιώσει ακόμα το αιθερικό σώμα του Λουκά Κωστάκου. Πως εξηγούν οι μεταψυχιστές το συνταρακτικό φαινόμενο του χωριού Παρνασσίδος Στείρι...",
+        "keywords": [
+          "Στείρι Βοιωτίας",
+          "Παρνασσίδα",
+          "Δίστομο",
+          "Βοιωτία",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/steiri-voiotias-1953-parnassida-vrykolakas-kostakos",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Στείρι Βοιωτίας - O Βρυκόλακας 1953",
+          "description": "Δεν έχει λιώσει ακόμα το αιθερικό σώμα του Λουκά Κωστάκου. Πως εξηγούν οι μεταψυχιστές το συνταρακτικό φαινόμενο του χωριού Παρνασσίδος Στείρι...",
+          "inLanguage": "el",
+          "datePublished": "1953-03-08",
+          "author": {
+            "@type": "Person",
+            "name": "Αλέξανδρος.Β. Μπέλλος"
+          },
+          "keywords": [
+            "Στείρι Βοιωτίας",
+            "Παρνασσίδα",
+            "Δίστομο",
+            "Βοιωτία",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/steiri-voiotias-1953-parnassida-vrykolakas-kostakos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/steiri-1953-vrykolakas.webp"
+        }
+      }
     },
     {
       "id": "138",
@@ -203,6 +285,44 @@
         "type": "efimerida",
         "name": "Εμπρος",
         "date": "10-10-1952"
+      },
+      "seo": {
+        "metaTitle": "Η Πεθερά παρουσιαζε στη νύφη Φαντάσματα 1950 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Δράμα μητέρας που αυτοκτόνησε για να γλιτώσει τα μαρτύρια από πεθερά που της παρουσίαζε φαντάσματα.",
+        "keywords": [
+          "Κύθηρα",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/pehthera-fantasmata-1950",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Η Πεθερά παρουσιαζε στη νύφη Φαντάσματα 1950",
+          "description": "Δράμα μητέρας που αυτοκτόνησε για να γλιτώσει τα μαρτύρια από πεθερά που της παρουσίαζε φαντάσματα.",
+          "inLanguage": "el",
+          "datePublished": "1952-10-10",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Κύθηρα",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/pehthera-fantasmata-1950"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/pehthera-fantasmata-1950.webp"
+        }
       }
     },
     {
@@ -293,7 +413,47 @@
             }
           ]
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "1949 - Σε αναζήτηση εικόνας της Παναγίας που εμφανίζεται σε όνειρα | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Ο πληθυσμός της Κωνιστρών αναζητάει την εικόνα της Παναγίας Χρυσοχερόας, εξ όραμα της νεαρής Δέσποινας Γεωργοπούλου.",
+        "keywords": [
+          "Κονιστρες - Εύβοια",
+          "Εύβοια",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/eis-anazitisin-eikonos-panagias",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1949 - Σε αναζήτηση εικόνας της Παναγίας που εμφανίζεται σε όνειρα",
+          "description": "Ο πληθυσμός της Κωνιστρών αναζητάει την εικόνα της Παναγίας Χρυσοχερόας, εξ όραμα της νεαρής Δέσποινας Γεωργοπούλου.",
+          "inLanguage": "el",
+          "datePublished": "1949-09-27",
+          "author": {
+            "@type": "Person",
+            "name": "Εφημερίδα Ακρόπολις"
+          },
+          "keywords": [
+            "Κονιστρες - Εύβοια",
+            "Εύβοια",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/eis-anazitisin-eikonos-panagias"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/emfaniseis-panagias-konistres-1.webp"
+        }
+      }
     },
     {
       "id": "133",
@@ -375,7 +535,47 @@
             }
           ]
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "1949 - Εκσκαφές για την Εικόνα της Παναγίας της Χρυσοχέρας | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Συνεχίζονται οι εκσκαφαί για την ανεύρεση της εικόνας της Παναγίας Χρυσοχεράς, με μαρτυρίες ιερέων και προσκυνητών από τα γύρω χωρία.",
+        "keywords": [
+          "Κονιστρες - Εύβοια",
+          "Εύβοια",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/eis-tis-konistreis-tis-evoias",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1949 - Εκσκαφές για την Εικόνα της Παναγίας της Χρυσοχέρας",
+          "description": "Συνεχίζονται οι εκσκαφαί για την ανεύρεση της εικόνας της Παναγίας Χρυσοχεράς, με μαρτυρίες ιερέων και προσκυνητών από τα γύρω χωρία.",
+          "inLanguage": "el",
+          "datePublished": "1949-09-27",
+          "author": {
+            "@type": "Person",
+            "name": "Β. ΠΛΑΤΗΣ."
+          },
+          "keywords": [
+            "Κονιστρες - Εύβοια",
+            "Εύβοια",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/eis-tis-konistreis-tis-evoias"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/emfaniseis-panagias-konistres-2.webp"
+        }
+      }
     },
     {
       "id": "134",
@@ -445,7 +645,47 @@
             }
           ]
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "1950 - Όραμα της Παναγίας στην Λίμνη Ευβοίας | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μαρτυρίες νέων για εμφάνιση της Παναγίας στη Λίμνη Ευβοίας προκαλούν συγκίνηση και συρροή προσκυνητών στην τοποθεσία 'Καναλάκια'.",
+        "keywords": [
+          "Λίμνη Ευβοίας",
+          "Εύβοια",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/orama-panagias-limni-1950",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1950 - Όραμα της Παναγίας στην Λίμνη Ευβοίας",
+          "description": "Μαρτυρίες νέων για εμφάνιση της Παναγίας στη Λίμνη Ευβοίας προκαλούν συγκίνηση και συρροή προσκυνητών στην τοποθεσία 'Καναλάκια'.",
+          "inLanguage": "el",
+          "datePublished": "1950-06-14",
+          "author": {
+            "@type": "Person",
+            "name": "Εθνος"
+          },
+          "keywords": [
+            "Λίμνη Ευβοίας",
+            "Εύβοια",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/orama-panagias-limni-1950"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/orama-panagias-limni.webp"
+        }
+      }
     },
     {
       "id": "135",
@@ -515,7 +755,47 @@
             }
           ]
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "1954 -Η Ανεύρεση της εικόνας του Αγίου Βασιλείου | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Η λιτανεία για την ανεύρεση της εικόνας του Αγίου Βασιλείου στην περιοχή των Ωρεών, με την καθοδήγηση της Μαρίας Καραγκούνη και οράματα για ιερά κειμήλια.",
+        "keywords": [
+          "Ωρεοί - Εύβοια",
+          "Εύβοια",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/aneuresis-eikonos-agii-vasiliou",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1954 -Η Ανεύρεση της εικόνας του Αγίου Βασιλείου",
+          "description": "Η λιτανεία για την ανεύρεση της εικόνας του Αγίου Βασιλείου στην περιοχή των Ωρεών, με την καθοδήγηση της Μαρίας Καραγκούνη και οράματα για ιερά κειμήλια.",
+          "inLanguage": "el",
+          "datePublished": "1954-05-17",
+          "author": {
+            "@type": "Person",
+            "name": "Ν. ΑΦΕΝΤΑΚΗΣ"
+          },
+          "keywords": [
+            "Ωρεοί - Εύβοια",
+            "Εύβοια",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/aneuresis-eikonos-agii-vasiliou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/aneuresis-eikonos-agii-vasiliou.webp"
+        }
+      }
     },
     {
       "id": "140",
@@ -550,7 +830,45 @@
           "year": "1904",
           "pages": "1141"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Λιθοβολισμοί απο οντότητες - Σημειώσεις του Ν. Πολίτη | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Παραδόσεις για δαιμονικούς λιθοβολισμούς από νεράιδες, στοιχεία, βρικόλακες και άλλες οντότητες σε διάφορες ελληνικές περιοχές.",
+        "keywords": [
+          "Ελλάδα",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/lithovolismoi-ontotites",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Λιθοβολισμοί απο οντότητες - Σημειώσεις του Ν. Πολίτη",
+          "description": "Παραδόσεις για δαιμονικούς λιθοβολισμούς από νεράιδες, στοιχεία, βρικόλακες και άλλες οντότητες σε διάφορες ελληνικές περιοχές.",
+          "inLanguage": "el",
+          "datePublished": "1904",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/lithovolismoi-ontotites"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/laografia/politis.webp"
+        }
+      }
     },
     {
       "id": "141",
@@ -589,7 +907,49 @@
           "year": "1904",
           "pages": "1119-1142"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "1870 - Λιθοβολισμός Παναγίας του Ρόμβη Αθήνα  | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Ιστορικό περιστατικό λιθοβολισμού από ιερέα για να αποτρέψει την κατεδάφιση της εκκλησίας Παναγίας του Ρόμβη στην Αθήνα.",
+        "keywords": [
+          "Αθήνα",
+          "Παναγία του Ρόμβη",
+          "Αττική",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/lithovolismos-panagias-tou-romvi-1870",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1870 - Λιθοβολισμός Παναγίας του Ρόμβη Αθήνα ",
+          "description": "Ιστορικό περιστατικό λιθοβολισμού από ιερέα για να αποτρέψει την κατεδάφιση της εκκλησίας Παναγίας του Ρόμβη στην Αθήνα.",
+          "inLanguage": "el",
+          "datePublished": "1870",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Αθήνα",
+            "Παναγία του Ρόμβη",
+            "Αττική",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/lithovolismos-panagias-tou-romvi-1870"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/laografia/panagia-romvi-lithovolismos.webp"
+        }
+      }
     },
     {
       "id": "142",
@@ -628,7 +988,49 @@
           "year": "1904",
           "pages": "1119-1142"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "1873-1874 - Λιθοβολισμοί Οδός Αθηνάς  | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Παραδόσεις για λιθοβολισμούς κοντά στη βρύση του Βοριά και στην οδό Αμαλίας κατά τα έτη 1873-1874.",
+        "keywords": [
+          "Αθήνα",
+          "Οδός Αθηνάς",
+          "Αττική",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/lithovolismoi-athinas-1873-1874",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1873-1874 - Λιθοβολισμοί Οδός Αθηνάς ",
+          "description": "Παραδόσεις για λιθοβολισμούς κοντά στη βρύση του Βοριά και στην οδό Αμαλίας κατά τα έτη 1873-1874.",
+          "inLanguage": "el",
+          "datePublished": "1873",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Αθήνα",
+            "Οδός Αθηνάς",
+            "Αττική",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/lithovolismoi-athinas-1873-1874"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/laografia/vrysi-voria-lithovolismoi.webp"
+        }
+      }
     },
     {
       "id": "143",
@@ -672,7 +1074,49 @@
           "year": "1904",
           "pages": "1119-1142"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "1893 - Λιθοβολισμοί οδού Σίνα Αθήνα | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μυστηριώδεις νυχτερινοί λιθοβολισμοί στην οδό Σίνα της Αθήνας με αναφορά σε εφημερίδα του 1893.",
+        "keywords": [
+          "Αθήνα",
+          "οδός Σίνα",
+          "Αττική",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/lithovolismoi-odou-sina-1893",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1893 - Λιθοβολισμοί οδού Σίνα Αθήνα",
+          "description": "Μυστηριώδεις νυχτερινοί λιθοβολισμοί στην οδό Σίνα της Αθήνας με αναφορά σε εφημερίδα του 1893.",
+          "inLanguage": "el",
+          "datePublished": "1893",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Αθήνα",
+            "οδός Σίνα",
+            "Αττική",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/lithovolismoi-odou-sina-1893"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/laografia/odou-sina-lithovolismoi.webp"
+        }
+      }
     },
     {
       "id": "145",
@@ -715,7 +1159,49 @@
           "value": "Η φαιδρή ιστορία συνεχίζεται ακόμα."
         }
       ],
-      "source": "Εφημερίδα Εμπρος - 28 Μαΐου 1909"
+      "source": "Εφημερίδα Εμπρος - 28 Μαΐου 1909",
+      "seo": {
+        "metaTitle": "1909 - Λιθοβροχές στον Πειραιά  | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μυστηριώδεις λιθοβολισμοί στην οδό Πραξιτέλους του Πειραιά το 1909.",
+        "keywords": [
+          "Πειραιάς",
+          "οδός Πραξιτέλους",
+          "Αττική",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/peiraias-fantasmata-1909",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "1909 - Λιθοβροχές στον Πειραιά ",
+          "description": "Μυστηριώδεις λιθοβολισμοί στην οδό Πραξιτέλους του Πειραιά το 1909.",
+          "inLanguage": "el",
+          "datePublished": "1909-05-28",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Πειραιάς",
+            "οδός Πραξιτέλους",
+            "Αττική",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/peiraias-fantasmata-1909"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/peiraias-fantasmata-1909.webp"
+        }
+      }
     },
     {
       "id": "396",
@@ -760,7 +1246,51 @@
           "date": "19 Αυγούστου 1929",
           "pages": "1"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Μαζικό Όραμα της Παναγίας στον Πειραιά 1929 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Ο Πειραιας βρίσκεται σε συγκίνηση λόγω της εμφάνισης του οράματος της Παναγίας σε όσους βρίσκονταν στον ναό της Ευαγγελίστριας και λόγω της ίασης μιας παραλυτικής.",
+        "keywords": [
+          "Πειραιάς",
+          "Λεωφόρος Βενιζέλου",
+          "Ευαγγελίστρια",
+          "Ελλάδα",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/maziko-orama-tis-panagias-ston-peiraia-1929",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Μαζικό Όραμα της Παναγίας στον Πειραιά 1929",
+          "description": "Ο Πειραιας βρίσκεται σε συγκίνηση λόγω της εμφάνισης του οράματος της Παναγίας σε όσους βρίσκονταν στον ναό της Ευαγγελίστριας και λόγω της ίασης μιας παραλυτικής.",
+          "inLanguage": "el",
+          "datePublished": "1929-08-19",
+          "author": {
+            "@type": "Person",
+            "name": "-"
+          },
+          "keywords": [
+            "Πειραιάς",
+            "Λεωφόρος Βενιζέλου",
+            "Ευαγγελίστρια",
+            "Ελλάδα",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/maziko-orama-tis-panagias-ston-peiraia-1929"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/orama_panagias_peiraias1929.webp"
+        }
+      }
     },
     {
       "id": "430",
@@ -825,7 +1355,47 @@
           "year": "1953",
           "pages": ""
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Οι Μεταψυχιστές Βεβαιώνουν: Ο Πλανήτης μας θα διχοτομηθεί 1953 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Οι Έλληνες μεταψυχιστές προβλέπουν τη διχοτόμηση της Γης λόγω ατομικών δοκιμών, την καταστροφή της Σελήνης και τη δημιουργία δύο κατοικήσιμων σφαιρών, συνδέοντας γεωλογικές αναταραχές με ραδιενέργεια.",
+        "keywords": [
+          "Ελλάδα",
+          "Μεσόγειος",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/metapsychistes-plinitis-dichotomisi-1953",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Οι Μεταψυχιστές Βεβαιώνουν: Ο Πλανήτης μας θα διχοτομηθεί 1953",
+          "description": "Οι Έλληνες μεταψυχιστές προβλέπουν τη διχοτόμηση της Γης λόγω ατομικών δοκιμών, την καταστροφή της Σελήνης και τη δημιουργία δύο κατοικήσιμων σφαιρών, συνδέοντας γεωλογικές αναταραχές με ραδιενέργεια.",
+          "inLanguage": "el",
+          "datePublished": "1953-09-03",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Μεσόγειος",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/metapsychistes-plinitis-dichotomisi-1953"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/metapsychistes-1953.webp"
+        }
+      }
     },
     {
       "id": "433",
@@ -905,7 +1475,49 @@
           "year": "1935",
           "pages": "3"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Μυστηριώδης Λιθοβολισμός οικίας στην Αγία Βαρβάρα - 1935 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μυστηριώδης λιθοβολισμός πλήττει μια οικία στον συνοικισμό Αγίας Βαρβάρας.",
+        "keywords": [
+          "Ελλάδα",
+          "Αττική",
+          "Αγία Βαρβάρα",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/mystiriodis-lithovolismos-agia-varvara-1935",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Μυστηριώδης Λιθοβολισμός οικίας στην Αγία Βαρβάρα - 1935",
+          "description": "Μυστηριώδης λιθοβολισμός πλήττει μια οικία στον συνοικισμό Αγίας Βαρβάρας.",
+          "inLanguage": "el",
+          "datePublished": "1935-06-05",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Αττική",
+            "Αγία Βαρβάρα",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/mystiriodis-lithovolismos-agia-varvara-1935"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/lithovolismos-agia-varvara-1935.webp"
+        }
+      }
     },
     {
       "id": "434",
@@ -959,7 +1571,45 @@
           "year": "1936",
           "pages": "2"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Εκθεση Αυτόματης Ζωγραφικής | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μια σπάνια και περίεργη έκθεση αυτόματης ζωγραφικής παρουσιάζεται στο μέγαρο Εφεσού",
+        "keywords": [
+          "Αττική",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/ekthesi-aftomatis-zografikis-1936",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Εκθεση Αυτόματης Ζωγραφικής",
+          "description": "Μια σπάνια και περίεργη έκθεση αυτόματης ζωγραφικής παρουσιάζεται στο μέγαρο Εφεσού",
+          "inLanguage": "el",
+          "datePublished": "1936-06-10",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Αττική",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/ekthesi-aftomatis-zografikis-1936"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/aftomati-zografiki-1936.webp"
+        }
+      }
     },
     {
       "id": "435",
@@ -1059,7 +1709,49 @@
           "year": "1938",
           "pages": "3"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Μυστηριώδη Ψυχικά Φαινόμενα Οικίας στο Αγρίνιο - 1938 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μυστηριώδη Ψυχικά Φαινόμενα αναστατώνουν τους κατοίκους του Αγρινίου, με υπόκωφους κρότους, φωνές, λάμψεις και φωσφορισμούς που εμφανίζονται σε μια οικία.",
+        "keywords": [
+          "Ελλάδα",
+          "Δυτική Ελλάδα",
+          "Αγρίνιο",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/mystiriodi-psychika-fainomena-agrinio-1938",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Μυστηριώδη Ψυχικά Φαινόμενα Οικίας στο Αγρίνιο - 1938",
+          "description": "Μυστηριώδη Ψυχικά Φαινόμενα αναστατώνουν τους κατοίκους του Αγρινίου, με υπόκωφους κρότους, φωνές, λάμψεις και φωσφορισμούς που εμφανίζονται σε μια οικία.",
+          "inLanguage": "el",
+          "datePublished": "1938-01-11",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Δυτική Ελλάδα",
+            "Αγρίνιο",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/mystiriodi-psychika-fainomena-agrinio-1938"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/psychika-fainomena-agrinio-1938.webp"
+        }
+      }
     },
     {
       "id": "398",
@@ -1141,7 +1833,47 @@
           "year": "1955",
           "pages": "2129-2136"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Επίλυση Υπόθεσης Εμπρησμού μέσω Διαβίβασης Σκέψης – 1930 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Αστυνομικός εξάγει ομολογία για εμπρησμό μέσω τηλεπαθητικής ερώτησης κατά τη διάρκεια ανάκρισης διαρρήκτη.",
+        "keywords": [
+          "Αθήνα - Αττική",
+          "Αττική",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/epilysi-ypothesi-empirismou-me-diabasi-skipseos-1930",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Επίλυση Υπόθεσης Εμπρησμού μέσω Διαβίβασης Σκέψης – 1930",
+          "description": "Αστυνομικός εξάγει ομολογία για εμπρησμό μέσω τηλεπαθητικής ερώτησης κατά τη διάρκεια ανάκρισης διαρρήκτη.",
+          "inLanguage": "el",
+          "datePublished": "1930-11-12",
+          "author": {
+            "@type": "Person",
+            "name": "Ν. Αρχιμανδρίτου"
+          },
+          "keywords": [
+            "Αθήνα - Αττική",
+            "Αττική",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/epilysi-ypothesi-empirismou-me-diabasi-skipseos-1930"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/epilysi-ypothesi-empirismou-me-diabasi-skipseos-1930.webp"
+        }
+      }
     },
     {
       "id": "399",
@@ -1311,7 +2043,47 @@
           "year": "1955",
           "pages": "2129-2136"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Υπόθεση Εξαφάνισης και οι Ψυχικές Ερευνες στην Εγκληματολογία – 1934 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Αστυνομική έρευνα εξαφάνισης ηλικιωμένου με τη βοήθεια διαισθητικού ατόμου και ανάλυση ψυχολογικών προσεγγίσεων στην εγκληματολογία.",
+        "keywords": [
+          "Αθήνα - Αττική",
+          "Αττική",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/ypothesi-exafanisis-kai-ekpaideysi-astynomikon-1934",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Υπόθεση Εξαφάνισης και οι Ψυχικές Ερευνες στην Εγκληματολογία – 1934",
+          "description": "Αστυνομική έρευνα εξαφάνισης ηλικιωμένου με τη βοήθεια διαισθητικού ατόμου και ανάλυση ψυχολογικών προσεγγίσεων στην εγκληματολογία.",
+          "inLanguage": "el",
+          "datePublished": "1934-06-27",
+          "author": {
+            "@type": "Person",
+            "name": "Ν. Αρχιμανδρίτου"
+          },
+          "keywords": [
+            "Αθήνα - Αττική",
+            "Αττική",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/ypothesi-exafanisis-kai-ekpaideysi-astynomikon-1934"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/ypothesi-exafanisis-kai-ekpaideysi-astynomikon-1934.webp"
+        }
+      }
     },
     {
       "id": "438",
@@ -1459,7 +2231,49 @@
           "year": "1931",
           "pages": "3"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Τηλεκινητικά Φαινόμενα στην Καλλιθέα 1931 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Ένα 16χρονο αγόρι στην Καλλιθέα προκαλεί ακούσια τηλεκινητικά φαινόμενα: αυτόματες πυρκαγιές, μετακινήσεις αντικειμένων και τρόμο στους ενοίκους.",
+        "keywords": [
+          "Ελλάδα",
+          "Αττική",
+          "Καλλιθέα",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/tilekinitika-fainomena-kallithea-1931",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τηλεκινητικά Φαινόμενα στην Καλλιθέα 1931",
+          "description": "Ένα 16χρονο αγόρι στην Καλλιθέα προκαλεί ακούσια τηλεκινητικά φαινόμενα: αυτόματες πυρκαγιές, μετακινήσεις αντικειμένων και τρόμο στους ενοίκους.",
+          "inLanguage": "el",
+          "datePublished": "1931-03-01",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Αττική",
+            "Καλλιθέα",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/tilekinitika-fainomena-kallithea-1931"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/tilekinitika-kallithea-1931.webp"
+        }
+      }
     },
     {
       "id": "440",
@@ -1557,7 +2371,53 @@
           "year": "1934",
           "pages": "2"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Η Αυτοκτονία του χωρικού - Μέντιουμ της Κοντοβάζαινας 1934 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Ένας χωρικός από την Κοντοβάζαινα αυτοκτόνησε έπειτα από τηλεπαθητικά και διορατικά φαινόμενα. Ο Άγγελος Τανάγρας έδωσε επιστημονική εξήγηση.",
+        "keywords": [
+          "Ελλάδα",
+          "Πελοπόννησος",
+          "Αρκαδία",
+          "Κοντοβάζαινα",
+          "Ράχες",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/aytoktonia-chorikou-medium-kontovazainas-1934",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Η Αυτοκτονία του χωρικού - Μέντιουμ της Κοντοβάζαινας 1934",
+          "description": "Ένας χωρικός από την Κοντοβάζαινα αυτοκτόνησε έπειτα από τηλεπαθητικά και διορατικά φαινόμενα. Ο Άγγελος Τανάγρας έδωσε επιστημονική εξήγηση.",
+          "inLanguage": "el",
+          "datePublished": "1934-07-05",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Πελοπόννησος",
+            "Αρκαδία",
+            "Κοντοβάζαινα",
+            "Ράχες",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/aytoktonia-chorikou-medium-kontovazainas-1934"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/medium-kontovazaina-1934.webp"
+        }
+      }
     },
     {
       "id": "447",
@@ -1656,7 +2516,51 @@
           "year": "1906",
           "pages": "1"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Το Στοιχειωμένο σπίτι της συνοικίας Βάβουλα - Ο Διάβολος Λιθοβολεί 1906 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Στη συνοικία Βάβουλα της Αθήνας, οι κάτοικοι τρομοκρατούνται από μυστηριώδεις κρότους και μια ηλικιωμένη γυναίκα ισχυρίζεται πως είδε τον Διάβολο να λιθοβολεί ένα σπίτι.",
+        "keywords": [
+          "Ελλάδα",
+          "Αττική",
+          "Αθήνα",
+          "Βάβουλα",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/stoicheiomeno-spiti-vavoula-1906",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Το Στοιχειωμένο σπίτι της συνοικίας Βάβουλα - Ο Διάβολος Λιθοβολεί 1906",
+          "description": "Στη συνοικία Βάβουλα της Αθήνας, οι κάτοικοι τρομοκρατούνται από μυστηριώδεις κρότους και μια ηλικιωμένη γυναίκα ισχυρίζεται πως είδε τον Διάβολο να λιθοβολεί ένα σπίτι.",
+          "inLanguage": "el",
+          "datePublished": "1906-11-21",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Αττική",
+            "Αθήνα",
+            "Βάβουλα",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/stoicheiomeno-spiti-vavoula-1906"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/vavoula-1906.webp"
+        }
+      }
     },
     {
       "id": "449",
@@ -1865,7 +2769,51 @@
         }
       ],
       "lat": 40.6216,
-      "lng": 22.9587
+      "lng": 22.9587,
+      "seo": {
+        "metaTitle": "Θεσσαλονίκη - Τα Φαινόμενα της οικίας στην συνοικία Αναλήψεως 1933 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Περίεργα φαινόμενα στη βίλα Βογαζλή στην οδό Δελφών και Συνδίκα στη Θεσσαλονίκη. Λιθοβολισμοί, θόρυβοι και νερά προκαλούν τρόμο στους κατοίκους. Μαρτυρίες για φάντασμα ή εγκλωβισμένο λωποδύτη.",
+        "keywords": [
+          "Ελλάδα",
+          "Μακεδονία",
+          "Θεσσαλονίκη",
+          "Ανάληψη",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/thessaloniki-fainomena-analipseos-1933",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Θεσσαλονίκη - Τα Φαινόμενα της οικίας στην συνοικία Αναλήψεως 1933",
+          "description": "Περίεργα φαινόμενα στη βίλα Βογαζλή στην οδό Δελφών και Συνδίκα στη Θεσσαλονίκη. Λιθοβολισμοί, θόρυβοι και νερά προκαλούν τρόμο στους κατοίκους. Μαρτυρίες για φάντασμα ή εγκλωβισμένο λωποδύτη.",
+          "inLanguage": "el",
+          "datePublished": "1933-08-08",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Μακεδονία",
+            "Θεσσαλονίκη",
+            "Ανάληψη",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/thessaloniki-fainomena-analipseos-1933"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/fainomena-analipseos-1933.webp"
+        }
+      }
     },
     {
       "id": "450",
@@ -1962,7 +2910,51 @@
           "year": "1938",
           "pages": "5"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Τατιάνα Καρυτίδου - Αγία και Μάγισσα - Νέο Μέντιουμ Κιλκίς - Ειδομένη 1938 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Η 19χρονη Τατιάνα Καρυτίδου από την Ειδομένη προκαλεί θαυμασμό και φόβο για τις τηλεπαθητικές και διαγνωστικές της ικανότητες. Οι χωρικοί τη θεωρούν αγία ή μάγισσα — ο Άγγελος Τανάγρας την καλεί στην Αθήνα για μελέτη.",
+        "keywords": [
+          "Ελλάδα",
+          "Μακεδονία",
+          "Κιλκίς",
+          "Ειδομένη",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/tatiana-karytidou-medium-eidomeni-1938",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τατιάνα Καρυτίδου - Αγία και Μάγισσα - Νέο Μέντιουμ Κιλκίς - Ειδομένη 1938",
+          "description": "Η 19χρονη Τατιάνα Καρυτίδου από την Ειδομένη προκαλεί θαυμασμό και φόβο για τις τηλεπαθητικές και διαγνωστικές της ικανότητες. Οι χωρικοί τη θεωρούν αγία ή μάγισσα — ο Άγγελος Τανάγρας την καλεί στην Αθήνα για μελέτη.",
+          "inLanguage": "el",
+          "datePublished": "1938-08-24",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Μακεδονία",
+            "Κιλκίς",
+            "Ειδομένη",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/tatiana-karytidou-medium-eidomeni-1938"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/tatiana-karytidou-1938.webp"
+        }
+      }
     },
     {
       "id": "452",
@@ -2100,7 +3092,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -2339,7 +3331,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -2523,7 +3515,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -2665,7 +3657,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -3021,7 +4013,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -3262,7 +4254,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -3400,7 +4392,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -3543,7 +4535,7 @@
             "name": "haunted.gr",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://haunted.gr/logo.png"
+              "url": "https://haunted.gr/haunted-logo.webp"
             }
           },
           "spatialCoverage": {
@@ -3685,7 +4677,53 @@
           "year": "1929",
           "pages": "02.09.1929"
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Τα Καταπληκτικά Φαινόμενα της Δίβρης - 1929 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μεγάλες πέτρες που δεν χτυπούν και φωτιές που καίνε ρούχα αλλά όχι ανθρώπινη σάρκα συγκλονίζουν τη Δίβρη. Η υπόθεση της Ευτυχίας Πανταζή αναστατώνει ολόκληρο το χωριό.",
+        "keywords": [
+          "Ελλάδα",
+          "Φθιώτιδα",
+          "Δίβρη",
+          "Λαμία",
+          "Όθρυς",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/katapliktika-fainomena-divris-1929",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Τα Καταπληκτικά Φαινόμενα της Δίβρης - 1929",
+          "description": "Μεγάλες πέτρες που δεν χτυπούν και φωτιές που καίνε ρούχα αλλά όχι ανθρώπινη σάρκα συγκλονίζουν τη Δίβρη. Η υπόθεση της Ευτυχίας Πανταζή αναστατώνει ολόκληρο το χωριό.",
+          "inLanguage": "el",
+          "datePublished": "1929-09-02",
+          "author": {
+            "@type": "Person",
+            "name": "Κ. Φαλτάιτς"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Φθιώτιδα",
+            "Δίβρη",
+            "Λαμία",
+            "Όθρυς",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/katapliktika-fainomena-divris-1929"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/divri-fainomena-1929.webp"
+        }
+      }
     },
     {
       "id": "468",
@@ -3700,8 +4738,8 @@
         "Ζάκυνθος",
         "Ορθωνιές"
       ],
-      "mainArea": "Ιόνια Νησιά",
-      "subLocation": "Ζάκυνθος",
+      "mainArea": "Ζάκυνθος",
+      
       "image": {
         "src": "/images/efimerides/lithovolismos-zakynthos-1933.webp",
         "alt": "Μυστηριώδης λιθοβολισμός οικίας στις Ορθωνιές Ζακύνθου (1933)"
@@ -3822,7 +4860,51 @@
         "Άγγελος Τανάγρας"
       ],
       "lat": 37.787,
-      "lng": 20.8995
+      "lng": 20.8995,
+      "seo": {
+        "metaTitle": "Μυστηριώδης Λιθοβολισμός Οικίας στη Ζάκυνθο - 1933 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Συνεχής και μυστηριώδης λιθοβολισμός οικίας στις Ορθωνιές Ζακύνθου προκαλεί αναστάτωση στο χωριό. Η αστυνομία επεμβαίνει και ο Άγγελος Τανάγρας δίνει οδηγίες για τη διερεύνηση του φαινομένου.",
+        "keywords": [
+          "Ελλάδα",
+          "Ιόνια Νησιά",
+          "Ζάκυνθος",
+          "Ορθωνιές",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/mystiriodis-lithovolismos-oikias-zakynthos-1933",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Μυστηριώδης Λιθοβολισμός Οικίας στη Ζάκυνθο - 1933",
+          "description": "Συνεχής και μυστηριώδης λιθοβολισμός οικίας στις Ορθωνιές Ζακύνθου προκαλεί αναστάτωση στο χωριό. Η αστυνομία επεμβαίνει και ο Άγγελος Τανάγρας δίνει οδηγίες για τη διερεύνηση του φαινομένου.",
+          "inLanguage": "el",
+          "datePublished": "1933-09-15",
+          "author": {
+            "@type": "Person",
+            "name": "haunted.gr"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Ιόνια Νησιά",
+            "Ζάκυνθος",
+            "Ορθωνιές",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/mystiriodis-lithovolismos-oikias-zakynthos-1933"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/lithovolismos-zakynthos-1933.webp"
+        }
+      }
     },
     {
       "id": "470",
@@ -3951,472 +5033,842 @@
         "1933"
       ],
       "lat": 40.6132,
-      "lng": 22.9657
-    },
-{
-  "id": "474",
-  "title": "Επικοινωνία με Νεκρούς – Πνευματισμός – Ψυχοφυσιολογία 1935 (Μέρος 3ο)",
-  "slug": "epikoinonia-me-nekrous-pnevmatismos-psychofysiologia-1935-meros-3",
-  "author": "Φώτος Γιοφύλλης",
-  "date": "1935-01-24",
-  "excerpt": "Συνέντευξη με τον Άγγελο Τανάγρα για το αν είναι δυνατή η επικοινωνία με τους νεκρούς, τη θέση της ψυχοφυσιολογίας και τη διαφωνία με τον πνευματισμό.",
-  "locationTags": [
-    "Ελλάδα",
-    "Αθήνα"
-  ],
-  "mainArea": "Αθήνα",
-  "image": {
-    "src": "/images/efimerides/epikoinonia-nekroi-1935-3.webp",
-    "alt": "Επικοινωνία με Νεκρούς και Ψυχοφυσιολογία 1935"
-  },
-  "content": [
-    {
-      "type": "heading",
-      "value": "Με ποια μέσα προσπαθεί η επιστήμη να κατορθώσει την επικοινωνία με τους νεκρούς;"
-    },
-    {
-      "type": "text",
-      "value": "Συνεχίζοντας τη συνέντευξή μας με τον κ. Α. Τανάγρα, τον ρωτήσαμε αν πιστεύει ότι μπορεί να υπάρξει επικοινωνία των ζώντων με τους νεκρούς."
-    },
-    {
-      "type": "text",
-      "value": "Ο κ. Τανάγρας απάντησε ότι δεν πιστεύει πως η ψυχή του ανθρώπου μετά τον θάνατο διατηρεί μνήμη των πράξεων και γεγονότων της επίγειας ζωής. Πιστεύει όμως ότι το ψυχικό «εγώ» παραμένει αθάνατο μετά τη διάλυση του υλικού σώματος."
-    },
-    {
-      "type": "text",
-      "value": "Κατά την άποψή του, η απώλεια της μνήμης μετά θάνατον αποτελεί μορφή ανάπαυσης για την ψυχή, καθώς η διατήρηση των αναμνήσεων θα ισοδυναμούσε με αιώνια ψυχική τιμωρία."
-    },
-    {
-      "type": "text",
-      "value": "Η ψυχή, σύμφωνα με τον ίδιο, παραμένει άυλη, αθάνατη και αυτάρκης, χωρίς πλέον ενδιαφέρον για τα ανθρώπινα γεγονότα και τις πράξεις των ζώντων."
-    },
-    {
-      "type": "heading",
-      "value": "Οι έρευνες στην Ευρώπη"
-    },
-    {
-      "type": "text",
-      "value": "Οι ερευνητές της ψυχοφυσιολογίας δεν θεωρούν αποδεδειγμένη την επικοινωνία των ψυχών των νεκρών με τους ζώντες, σε αντίθεση με τους πνευματιστές που την αποδέχονται πλήρως."
-    },
-    {
-      "type": "text",
-      "value": "Πνευματιστές ερευνητές υπάρχουν σε όλο τον κόσμο, ανάμεσά τους σημαντικοί επιστήμονες και διανοούμενοι όπως ο Καρντέκ, ο Φλαμαριόν, ο Κόναν Ντόυλ και ο Λομπρόζο."
-    },
-    {
-      "type": "heading",
-      "value": "Ο πνευματισμός στην Ελλάδα"
-    },
-    {
-      "type": "text",
-      "value": "Στην Ελλάδα, πνευματιστική δραστηριότητα εμφανίστηκε έντονα από το 1890, με κέντρο την Αθήνα και πειράματα στο σπίτι του ποιητή Γεωργίου Σουρή."
-    },
-    {
-      "type": "text",
-      "value": "Σημαντικές προσωπικότητες της εποχής, ποιητές, γιατροί, πολιτικοί και δημοσιογράφοι, συμμετείχαν σε πειράματα και μελέτες πνευματισμού."
-    },
-    {
-      "type": "heading",
-      "value": "Και στις επαρχίες"
-    },
-    {
-      "type": "text",
-      "value": "Η πνευματιστική δραστηριότητα εξαπλώθηκε και στις επαρχίες, με κέντρα όπως η Πάτρα και η Κέρκυρα, όπου ιδρύθηκαν σύλλογοι και πραγματοποιήθηκαν πειράματα."
-    },
-    {
-      "type": "text",
-      "value": "Στις Πάτρας, η Εταιρία Ψυχικών Ερευνών, υπό τον καθηγητή Γεώργιο Φλούδα, πραγματοποίησε πειράματα μεγάλης επιστημονικής σημασίας βασισμένα στην ψυχοφυσιολογία."
-    }
-  ],
-  "sources": [
-    {
-      "type": "newspaper",
-      "name": "Εθνική Σημαία",
-      "date": "1935-01-24"
-    }
-  ],
-  "tags": [
-    "Πνευματισμός",
-    "Ψυχοφυσιολογία",
-    "Επικοινωνία με Νεκρούς",
-    "Άγγελος Τανάγρας",
-    "Ιστορία Ψυχικών Ερευνών"
-  ],
-  "relatedArticles": [
-    {
-      "slug": "epikoinonia-me-nekrous-pnevmatismos-psychofysiologia-1935-meros-10",
-      "subcategorySlug": "pnevmatismos",
-      "title": "Επικοινωνία με Νεκρούς - Πνευματισμός - Ψυχοφυσιολογία 1935 (Μέρος 1ο)",
-      "description": "Πρώτο μέρος της σειράς για την επικοινωνία με τους νεκρούς."
-    },
-    {
-      "slug": "epikoinonia-me-nekrous-pnevmatismos-psychofysiologia-synentefxi-tanagra-1935",
-      "subcategorySlug": "pnevmatismos",
-      "title": "Επικοινωνία με Νεκρούς - Πνευματισμός - Ψυχοφυσιολογία - Συνέντευξη Τανάγρα 1935 (Μέρος 2ο)",
-      "description": "Συνέχεια της συνέντευξης με τον Άγγελο Τανάγρα."
-    }
-  ],
-  "seo": {
-    "metaTitle": "Επικοινωνία με Νεκρούς – Πνευματισμός & Ψυχοφυσιολογία 1935 (Μέρος 3ο)",
-    "metaDescription": "Συνέντευξη του Άγγελου Τανάγρα για την επικοινωνία με τους νεκρούς, τη θέση της ψυχοφυσιολογίας και τις έρευνες στην Ελλάδα και την Ευρώπη.",
-    "keywords": [
-      "πνευματισμός",
-      "ψυχοφυσιολογία",
-      "επικοινωνία με νεκρούς",
-      "Τανάγρας",
-      "1935"
-    ]
-  }
-},
-{
-  "id": "478",
-  "title": "Ρεπορτάζ Τηλεκινητικά Φαινόμενα Βυθού Κοζάνης - 1952",
-  "slug": "tilekinitika-fainomena-vythos-kozanis-1952",
-  "date": "1952-01-31",
-  "author": "Ακρόπολις",
-  "image": {
-  "src": "/images/efimerides/tilekinitika-fainomena-vythos-kozanis-1952.webp",
-  "alt": "..."
-},
-
-  "location": {
-    "name": "Βυθός Κοζάνης",
-    "region": "Δυτική Μακεδονία",
-    "country": "Ελλάδα",
-     
-      "lat": 40.3297,
-      "lng": 21.1093
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Ο Βυθός, ένα μικρό γραφικό χωριουδάκι κοντά στον Πεντάλοφο, είναι αναστατωμένος από τα μυστηριώδη τηλεκινητικά φαινόμενα που σημειώνονται επί πενήντα συνεχείς ημέρες στο σπίτι της χήρας Σταυρούλας Μαγιάνη. Ο φωτορεπόρτερ και αποκλειστικός συνεργάτης της «Ακροπόλεως» κ. Θωμάς Ιωνάς είναι ο μόνος δημοσιογράφος που, παρά την κακοκαιρία, κατόρθωσε να φθάσει στον χιονοσκεπή Βυθό, να κάνει επιτόπια έρευνα και να φωτογραφίσει τα κύρια πρόσωπα της συνταρακτικής αυτής ιστορίας."
-    },
-    {
-      "type": "text",
-      "value": "Τα μυστηριώδη αυτά φαινόμενα εμφανίσθηκαν στο σπίτι της χήρας Μαγιάνη, που ζούσε με τα τρία κορίτσια της: τη Διαλεχτώ, ετών 20, τη Ζαχαρούλα, ετών 17, και τη Δημητρά, ετών 14. Πέντε έως έξι μέρες μετά τον θάνατο της γιαγιάς τους, δηλαδή της μητέρας της Σταυρούλας, που πέθανε σε ηλικία 92 ετών, άρχισαν τα ανεξήγητα."
-    },
-    {
-      "type": "text",
-      "value": "Η Σταυρούλα και τα τρία κορίτσια της, που κοιμόντουσαν μαζί σε ένα ακριανό από τα τρία συνεχόμενα δωμάτια του σπιτιού, διαπίστωσαν κατάπληκτες ένα πρωί ότι όλα τα πράγματα των άλλων δωματίων είχαν μετακινηθεί. Και είχαν μετακινηθεί με κάποια τάξη, σαν να τα είχε μετακινήσει στοργικό χέρι."
-    },
-    {
-      "type": "text",
-      "value": "Το εικόνισμα της Παναγίας, που ήταν ψηλά στο εικονοστάσι, βρέθηκε κάτω. Και μπροστά του βρέθηκε αναμμένη, όπως πάντα, η μικρή φτωχική καντήλα, φτιαγμένη από ένα άσπρο φλιτζάνι."
-    },
-    {
-      "type": "text",
-      "value": "Τα ρούχα, όλα τα ρούχα, βρέθηκαν απλωμένα τακτικά κάτω στο πάτωμα με τις κρεμάστρες τους. Οι κουβέρτες, οι καρέκλες, όλα μα όλα είχαν αλλάξει θέση. Το ενδεχόμενο να μπήκε κάποιος από το παράθυρο αποκλειόταν, καθώς τα παράθυρα είχαν σίδερα."
-    },
-    {
-      "type": "text",
-      "value": "Οι γυναίκες τρόμαξαν, αλλά δεν είπαν τίποτα σε κανέναν. Θεώρησαν φρόνιμο να διπλοκλειδωθούν το άλλο βράδυ στο δωμάτιό τους. Ξαγρύπνησαν από τον φόβο εκείνη τη νύχτα."
-    },
-    {
-      "type": "text",
-      "value": "Χωρίς να ακουστεί κανένας θόρυβος, χωρίς να ανοίξει παράθυρο ή πόρτα, το άλλο πρωί τα πράγματα –που τα είχαν ξαναβάλει στη θέση τους– βρέθηκαν όπως και το προηγούμενο πρωί."
-    },
-    {
-      "type": "text",
-      "value": "Η κυρά-Σταυρούλα τρόμαξε και έτρεξε στον αδελφό της.\n- Το και το.\n- Κουταμάρες.\n- Μα είναι έτσι όπως τα λέω.\n- Θα έρθω απόψε μαζί σας να δω ποιος τα κάνει αυτά."
-    },
-    {
-      "type": "text",
-      "value": "Ο αδελφός της έμεινε όλη τη νύχτα στο σπίτι. Το ξημέρωμα όλοι διαπίστωσαν ότι τα ίδια είχαν ξαναγίνει. Κίτρινοι από τον φόβο, δεν μπορούσαν να δώσουν λογική εξήγηση."
-    },
-    {
-      "type": "text",
-      "value": "Η εξήγηση δόθηκε αργότερα από το χωριό:\n- Βρυκολάκιασε η μακαρίτισσα η Χάιδω.\n- Αυτό είναι.\n- Δεν εξηγείται αλλιώς."
-    },
-    {
-      "type": "text",
-      "value": "Αποφασίστηκε να μείνουν δύο-τρεις στο «στοιχειωμένο» σπίτι για να διαλυθεί ο θρύλος. Επικεφαλής πήγε ο ίδιος ο πρόεδρος του χωριού, ο Γιάννης Γκασπάρης. Το πρωί όμως βγήκαν όλοι κατακίτρινοι και ομολόγησαν ότι κάτι υπερφυσικό συμβαίνει."
-    },
-    {
-      "type": "text",
-      "value": "Κλήθηκε ο εφημέριος του χωριού, κ. Μιχάλης Λύτρας, που έκανε εξορκισμούς και διάβασε ευχές στο σπίτι και στον τάφο της μακαρίτισσας Χάιδως. Λέγεται ότι τα φαινόμενα σταμάτησαν προσωρινά, αλλά σύντομα ξανάρχισαν."
-    },
-    {
-      "type": "text",
-      "value": "Ο φωτορεπόρτερ της «Ακροπόλεως» έβαλε τα πράγματα στη θέση τους, τα φωτογράφισε και ύστερα τα ξαναφωτογράφισε στη θέση που έπαιρναν μόνα τους."
-    },
-    {
-      "type": "image",
-      "value": {
-        "src": "/images/efimerides/foto-reportaz-vithos.webp",
-        "alt": "Φωτορεπόρτερ φωτογραφίζει τα πρόσωπα της υπόθεσης στον Βυθό Κοζάνης (1952)"
+      "lng": 22.9657,
+      "seo": {
+        "metaTitle": "Το Λευκό Φάντασμα του Ντεπώ Εμφανίζεται κάθε νύχτα - 1933 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Μαρτυρίες κατοίκων για την εμφάνιση λευκού φάσματος στο Ντεπώ Θεσσαλονίκης. Το φαινόμενο προκαλεί αναστάτωση, θρησκευτική έξαρση και υποθέσεις περί θαύματος.",
+        "keywords": [
+          "Ελλάδα",
+          "Μακεδονία",
+          "Θεσσαλονίκη",
+          "Ντεπώ",
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/lefko-fantasma-ntepo-1933",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Το Λευκό Φάντασμα του Ντεπώ Εμφανίζεται κάθε νύχτα - 1933",
+          "description": "Μαρτυρίες κατοίκων για την εμφάνιση λευκού φάσματος στο Ντεπώ Θεσσαλονίκης. Το φαινόμενο προκαλεί αναστάτωση, θρησκευτική έξαρση και υποθέσεις περί θαύματος.",
+          "inLanguage": "el",
+          "datePublished": "1933-06-12",
+          "author": {
+            "@type": "Person",
+            "name": "Α. Θνητός"
+          },
+          "keywords": [
+            "Ελλάδα",
+            "Μακεδονία",
+            "Θεσσαλονίκη",
+            "Ντεπώ",
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/lefko-fantasma-ntepo-1933"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/lefko-fantasma-ntepo-1933.webp"
+        }
       }
     },
     {
-      "type": "text",
-      "value": "Οι τρομοκρατημένοι κάτοικοι του Βυθού δηλώνουν ότι θα καλέσουν τον κ. Τανάγρα για να τους εξηγήσει τι συμβαίνει και να τους βοηθήσει να σταματήσουν, επιτέλους, οι περίεργες αυτές μετακινήσεις."
+      "id": "474",
+      "title": "Επικοινωνία με Νεκρούς – Πνευματισμός – Ψυχοφυσιολογία 1935 (Μέρος 3ο)",
+      "slug": "epikoinonia-me-nekrous-pnevmatismos-psychofysiologia-1935-meros-3",
+      "author": "Φώτος Γιοφύλλης",
+      "date": "1935-01-24",
+      "excerpt": "Συνέντευξη με τον Άγγελο Τανάγρα για το αν είναι δυνατή η επικοινωνία με τους νεκρούς, τη θέση της ψυχοφυσιολογίας και τη διαφωνία με τον πνευματισμό.",
+      "locationTags": [
+        "Ελλάδα",
+        "Αθήνα"
+      ],
+      "mainArea": "Αθήνα",
+      "image": {
+        "src": "/images/efimerides/epikoinonia-nekroi-1935-3.webp",
+        "alt": "Επικοινωνία με Νεκρούς και Ψυχοφυσιολογία 1935"
+      },
+      "content": [
+        {
+          "type": "heading",
+          "value": "Με ποια μέσα προσπαθεί η επιστήμη να κατορθώσει την επικοινωνία με τους νεκρούς;"
+        },
+        {
+          "type": "text",
+          "value": "Συνεχίζοντας τη συνέντευξή μας με τον κ. Α. Τανάγρα, τον ρωτήσαμε αν πιστεύει ότι μπορεί να υπάρξει επικοινωνία των ζώντων με τους νεκρούς."
+        },
+        {
+          "type": "text",
+          "value": "Ο κ. Τανάγρας απάντησε ότι δεν πιστεύει πως η ψυχή του ανθρώπου μετά τον θάνατο διατηρεί μνήμη των πράξεων και γεγονότων της επίγειας ζωής. Πιστεύει όμως ότι το ψυχικό «εγώ» παραμένει αθάνατο μετά τη διάλυση του υλικού σώματος."
+        },
+        {
+          "type": "text",
+          "value": "Κατά την άποψή του, η απώλεια της μνήμης μετά θάνατον αποτελεί μορφή ανάπαυσης για την ψυχή, καθώς η διατήρηση των αναμνήσεων θα ισοδυναμούσε με αιώνια ψυχική τιμωρία."
+        },
+        {
+          "type": "text",
+          "value": "Η ψυχή, σύμφωνα με τον ίδιο, παραμένει άυλη, αθάνατη και αυτάρκης, χωρίς πλέον ενδιαφέρον για τα ανθρώπινα γεγονότα και τις πράξεις των ζώντων."
+        },
+        {
+          "type": "heading",
+          "value": "Οι έρευνες στην Ευρώπη"
+        },
+        {
+          "type": "text",
+          "value": "Οι ερευνητές της ψυχοφυσιολογίας δεν θεωρούν αποδεδειγμένη την επικοινωνία των ψυχών των νεκρών με τους ζώντες, σε αντίθεση με τους πνευματιστές που την αποδέχονται πλήρως."
+        },
+        {
+          "type": "text",
+          "value": "Πνευματιστές ερευνητές υπάρχουν σε όλο τον κόσμο, ανάμεσά τους σημαντικοί επιστήμονες και διανοούμενοι όπως ο Καρντέκ, ο Φλαμαριόν, ο Κόναν Ντόυλ και ο Λομπρόζο."
+        },
+        {
+          "type": "heading",
+          "value": "Ο πνευματισμός στην Ελλάδα"
+        },
+        {
+          "type": "text",
+          "value": "Στην Ελλάδα, πνευματιστική δραστηριότητα εμφανίστηκε έντονα από το 1890, με κέντρο την Αθήνα και πειράματα στο σπίτι του ποιητή Γεωργίου Σουρή."
+        },
+        {
+          "type": "text",
+          "value": "Σημαντικές προσωπικότητες της εποχής, ποιητές, γιατροί, πολιτικοί και δημοσιογράφοι, συμμετείχαν σε πειράματα και μελέτες πνευματισμού."
+        },
+        {
+          "type": "heading",
+          "value": "Και στις επαρχίες"
+        },
+        {
+          "type": "text",
+          "value": "Η πνευματιστική δραστηριότητα εξαπλώθηκε και στις επαρχίες, με κέντρα όπως η Πάτρα και η Κέρκυρα, όπου ιδρύθηκαν σύλλογοι και πραγματοποιήθηκαν πειράματα."
+        },
+        {
+          "type": "text",
+          "value": "Στις Πάτρας, η Εταιρία Ψυχικών Ερευνών, υπό τον καθηγητή Γεώργιο Φλούδα, πραγματοποίησε πειράματα μεγάλης επιστημονικής σημασίας βασισμένα στην ψυχοφυσιολογία."
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Εθνική Σημαία",
+          "date": "1935-01-24"
+        }
+      ],
+      "tags": [
+        "Πνευματισμός",
+        "Ψυχοφυσιολογία",
+        "Επικοινωνία με Νεκρούς",
+        "Άγγελος Τανάγρας",
+        "Ιστορία Ψυχικών Ερευνών"
+      ],
+      "relatedArticles": [
+        {
+          "slug": "epikoinonia-me-nekrous-pnevmatismos-psychofysiologia-1935-meros-10",
+          "subcategorySlug": "pnevmatismos",
+          "title": "Επικοινωνία με Νεκρούς - Πνευματισμός - Ψυχοφυσιολογία 1935 (Μέρος 1ο)",
+          "description": "Πρώτο μέρος της σειράς για την επικοινωνία με τους νεκρούς."
+        },
+        {
+          "slug": "epikoinonia-me-nekrous-pnevmatismos-psychofysiologia-synentefxi-tanagra-1935",
+          "subcategorySlug": "pnevmatismos",
+          "title": "Επικοινωνία με Νεκρούς - Πνευματισμός - Ψυχοφυσιολογία - Συνέντευξη Τανάγρα 1935 (Μέρος 2ο)",
+          "description": "Συνέχεια της συνέντευξης με τον Άγγελο Τανάγρα."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Επικοινωνία με Νεκρούς – Πνευματισμός & Ψυχοφυσιολογία 1935 (Μέρος 3ο)",
+        "metaDescription": "Συνέντευξη του Άγγελου Τανάγρα για την επικοινωνία με τους νεκρούς, τη θέση της ψυχοφυσιολογίας και τις έρευνες στην Ελλάδα και την Ευρώπη.",
+        "keywords": [
+          "πνευματισμός",
+          "ψυχοφυσιολογία",
+          "επικοινωνία με νεκρούς",
+          "Τανάγρας",
+          "1935"
+        ]
+      }
     },
     {
-      "type": "text",
-      "value": "Αύριο: Πώς εξηγεί τα φαινόμενα ο κ. Τανάγρας."
-    }
-
-  ],
-  "source": {
-    "publication": "Ακρόπολις",
-    "date": "31.01.1952",
-    "page": "2"
-  },
+      "id": "478",
+      "title": "Ρεπορτάζ Τηλεκινητικά Φαινόμενα Βυθού Κοζάνης - 1952",
+      "slug": "tilekinitika-fainomena-vythos-kozanis-1952",
+      "date": "1952-01-31",
+      "author": "Ακρόπολις",
+      "excerpt": "Τηλεκινητικά φαινόμενα στο Βυθό Κοζάνης το 1952: αντικείμενα που μετακινούνται, εικόνες που πέφτουν και χωριανοί που μιλούν για βρυκολάκιασμα μετά τον θάνατο της γιαγιάς.",
+      "image": {
+        "src": "/images/efimerides/tilekinitika-fainomena-vythos-kozanis-1952.webp",
+        "alt": "..."
+      },
+      "location": {
+        "name": "Βυθός Κοζάνης",
+        "region": "Δυτική Μακεδονία",
+        "country": "Ελλάδα",
+        "lat": 40.3297,
+        "lng": 21.1093
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Ο Βυθός, ένα μικρό γραφικό χωριουδάκι κοντά στον Πεντάλοφο, είναι αναστατωμένος από τα μυστηριώδη τηλεκινητικά φαινόμενα που σημειώνονται επί πενήντα συνεχείς ημέρες στο σπίτι της χήρας Σταυρούλας Μαγιάνη. Ο φωτορεπόρτερ και αποκλειστικός συνεργάτης της «Ακροπόλεως» κ. Θωμάς Ιωνάς είναι ο μόνος δημοσιογράφος που, παρά την κακοκαιρία, κατόρθωσε να φθάσει στον χιονοσκεπή Βυθό, να κάνει επιτόπια έρευνα και να φωτογραφίσει τα κύρια πρόσωπα της συνταρακτικής αυτής ιστορίας."
+        },
+        {
+          "type": "text",
+          "value": "Τα μυστηριώδη αυτά φαινόμενα εμφανίσθηκαν στο σπίτι της χήρας Μαγιάνη, που ζούσε με τα τρία κορίτσια της: τη Διαλεχτώ, ετών 20, τη Ζαχαρούλα, ετών 17, και τη Δημητρά, ετών 14. Πέντε έως έξι μέρες μετά τον θάνατο της γιαγιάς τους, δηλαδή της μητέρας της Σταυρούλας, που πέθανε σε ηλικία 92 ετών, άρχισαν τα ανεξήγητα."
+        },
+        {
+          "type": "text",
+          "value": "Η Σταυρούλα και τα τρία κορίτσια της, που κοιμόντουσαν μαζί σε ένα ακριανό από τα τρία συνεχόμενα δωμάτια του σπιτιού, διαπίστωσαν κατάπληκτες ένα πρωί ότι όλα τα πράγματα των άλλων δωματίων είχαν μετακινηθεί. Και είχαν μετακινηθεί με κάποια τάξη, σαν να τα είχε μετακινήσει στοργικό χέρι."
+        },
+        {
+          "type": "text",
+          "value": "Το εικόνισμα της Παναγίας, που ήταν ψηλά στο εικονοστάσι, βρέθηκε κάτω. Και μπροστά του βρέθηκε αναμμένη, όπως πάντα, η μικρή φτωχική καντήλα, φτιαγμένη από ένα άσπρο φλιτζάνι."
+        },
+        {
+          "type": "text",
+          "value": "Τα ρούχα, όλα τα ρούχα, βρέθηκαν απλωμένα τακτικά κάτω στο πάτωμα με τις κρεμάστρες τους. Οι κουβέρτες, οι καρέκλες, όλα μα όλα είχαν αλλάξει θέση. Το ενδεχόμενο να μπήκε κάποιος από το παράθυρο αποκλειόταν, καθώς τα παράθυρα είχαν σίδερα."
+        },
+        {
+          "type": "text",
+          "value": "Οι γυναίκες τρόμαξαν, αλλά δεν είπαν τίποτα σε κανέναν. Θεώρησαν φρόνιμο να διπλοκλειδωθούν το άλλο βράδυ στο δωμάτιό τους. Ξαγρύπνησαν από τον φόβο εκείνη τη νύχτα."
+        },
+        {
+          "type": "text",
+          "value": "Χωρίς να ακουστεί κανένας θόρυβος, χωρίς να ανοίξει παράθυρο ή πόρτα, το άλλο πρωί τα πράγματα –που τα είχαν ξαναβάλει στη θέση τους– βρέθηκαν όπως και το προηγούμενο πρωί."
+        },
+        {
+          "type": "text",
+          "value": "Η κυρά-Σταυρούλα τρόμαξε και έτρεξε στον αδελφό της.\n- Το και το.\n- Κουταμάρες.\n- Μα είναι έτσι όπως τα λέω.\n- Θα έρθω απόψε μαζί σας να δω ποιος τα κάνει αυτά."
+        },
+        {
+          "type": "text",
+          "value": "Ο αδελφός της έμεινε όλη τη νύχτα στο σπίτι. Το ξημέρωμα όλοι διαπίστωσαν ότι τα ίδια είχαν ξαναγίνει. Κίτρινοι από τον φόβο, δεν μπορούσαν να δώσουν λογική εξήγηση."
+        },
+        {
+          "type": "text",
+          "value": "Η εξήγηση δόθηκε αργότερα από το χωριό:\n- Βρυκολάκιασε η μακαρίτισσα η Χάιδω.\n- Αυτό είναι.\n- Δεν εξηγείται αλλιώς."
+        },
+        {
+          "type": "text",
+          "value": "Αποφασίστηκε να μείνουν δύο-τρεις στο «στοιχειωμένο» σπίτι για να διαλυθεί ο θρύλος. Επικεφαλής πήγε ο ίδιος ο πρόεδρος του χωριού, ο Γιάννης Γκασπάρης. Το πρωί όμως βγήκαν όλοι κατακίτρινοι και ομολόγησαν ότι κάτι υπερφυσικό συμβαίνει."
+        },
+        {
+          "type": "text",
+          "value": "Κλήθηκε ο εφημέριος του χωριού, κ. Μιχάλης Λύτρας, που έκανε εξορκισμούς και διάβασε ευχές στο σπίτι και στον τάφο της μακαρίτισσας Χάιδως. Λέγεται ότι τα φαινόμενα σταμάτησαν προσωρινά, αλλά σύντομα ξανάρχισαν."
+        },
+        {
+          "type": "text",
+          "value": "Ο φωτορεπόρτερ της «Ακροπόλεως» έβαλε τα πράγματα στη θέση τους, τα φωτογράφισε και ύστερα τα ξαναφωτογράφισε στη θέση που έπαιρναν μόνα τους."
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/efimerides/foto-reportaz-vithos.webp",
+            "alt": "Φωτορεπόρτερ φωτογραφίζει τα πρόσωπα της υπόθεσης στον Βυθό Κοζάνης (1952)"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Οι τρομοκρατημένοι κάτοικοι του Βυθού δηλώνουν ότι θα καλέσουν τον κ. Τανάγρα για να τους εξηγήσει τι συμβαίνει και να τους βοηθήσει να σταματήσουν, επιτέλους, οι περίεργες αυτές μετακινήσεις."
+        },
+        {
+          "type": "text",
+          "value": "Αύριο: Πώς εξηγεί τα φαινόμενα ο κ. Τανάγρας."
+        }
+      ],
+      "source": {
+        "publication": "Ακρόπολις",
+        "date": "31.01.1952",
+        "page": "2"
+      },
       "relatedArticles": [
         {
           "slug": "stoicheiomeno-spiti-vythou-grammou-tanagras-1952",
           "title": "Το Στοιχειωμένο Σπίτι του Βυθού Κοζάνης - Η εξήγηση των Φαινομένων του κ. Τανάγρα",
           "description": "Η εξήγηση των Φαινομένων του κ. Τανάγρα."
         }
-      ]
-},
-{
-  "id": "481",
-  "title": "Αστυνομική Εγκύκλιος για Τηλεκινητικά Φαινόμενα",
-  "slug": "astynomiki-egkyklios-tilekinitika-fainomena-1938",
-  "author": "Εθνος",
-  "date": "1938-05-11",
-  "excerpt": "Το Αρχηγείο Χωροφυλακής εκδίδει εγκύκλιο μετά τα γεγονότα της Θάσου, ζητώντας από τις αστυνομικές αρχές να συμβουλεύονται επιστημονικές εταιρείες πριν προχωρήσουν σε διώξεις για τηλεκινητικά φαινόμενα.",
-  "image": {
-    "src": "/images/efimerides/astynomiki-egkyklios-tilekinitika-1938.webp",
-    "alt": "Αστυνομική εγκύκλιος για τα τηλεκινητικά φαινόμενα το 1938"
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Η αστυνομία και τα τηλεκινητικά φαινόμενα. Το Αρχηγείο Χωροφυλακής, λαμβάνοντας αφορμή από το γεγονός ότι η αστυνομία της Θάσου έσπευσε να εισαγάγει σε δίκη τα πρόσωπα, στην οικία των οποίων εκδηλώθηκαν τηλεκινητικά φαινόμενα, απηύθυνε εγκύκλιο και συνιστά την πρόληψη στο μέλλον παρόμοιων ενεργειών, οι οποίες εμφανίζουν τη Χωροφυλακή καθυστερημένη ως προς τις σύγχρονες επιστημονικές έρευνες."
+      ],
+      "seo": {
+        "metaTitle": "Ρεπορτάζ Τηλεκινητικά Φαινόμενα Βυθού Κοζάνης - 1952 | Παράξενα Φαινόμενα | haunted.gr",
+        "metaDescription": "Τηλεκινητικά φαινόμενα στο Βυθό Κοζάνης το 1952: αντικείμενα που μετακινούνται, εικόνες που πέφτουν και χωριανοί που μιλούν για βρυκολάκιασμα μετά τον θάνατο της γιαγιάς.",
+        "keywords": [
+          "Παράξενα Φαινόμενα"
+        ],
+        "canonical": "https://haunted.gr/efimerides/fainomena/tilekinitika-fainomena-vythos-kozanis-1952",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Ρεπορτάζ Τηλεκινητικά Φαινόμενα Βυθού Κοζάνης - 1952",
+          "description": "Τηλεκινητικά φαινόμενα στο Βυθό Κοζάνης το 1952: αντικείμενα που μετακινούνται, εικόνες που πέφτουν και χωριανοί που μιλούν για βρυκολάκιασμα μετά τον θάνατο της γιαγιάς.",
+          "inLanguage": "el",
+          "datePublished": "1952-01-31",
+          "author": {
+            "@type": "Person",
+            "name": "Ακρόπολις"
+          },
+          "keywords": [
+            "Παράξενα Φαινόμενα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/fainomena/tilekinitika-fainomena-vythos-kozanis-1952"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "image": "https://haunted.gr/images/efimerides/tilekinitika-fainomena-vythos-kozanis-1952.webp"
+        }
+      }
     },
     {
-      "type": "text",
-      "value": "Υπάρχουν στην Αθήνα δύο επιστημονικές εταιρείες, οι οποίες ασχολούνται με τα ζητήματα της ψυχοφυσιολογίας. Καλό είναι, τονίζεται στην εγκύκλιο, οι κατά τόπους αστυνομικές αρχές να ζητούν τη γνώμη τους, κάθε φορά που παρατηρούνται τηλεκινητικά φαινόμενα."
+      "id": "481",
+      "title": "Αστυνομική Εγκύκλιος για Τηλεκινητικά Φαινόμενα",
+      "slug": "astynomiki-egkyklios-tilekinitika-fainomena-1938",
+      "author": "Εθνος",
+      "date": "1938-05-11",
+      "excerpt": "Το Αρχηγείο Χωροφυλακής εκδίδει εγκύκλιο μετά τα γεγονότα της Θάσου, ζητώντας από τις αστυνομικές αρχές να συμβουλεύονται επιστημονικές εταιρείες πριν προχωρήσουν σε διώξεις για τηλεκινητικά φαινόμενα.",
+      "image": {
+        "src": "/images/efimerides/astynomiki-egkyklios-tilekinitika-1938.webp",
+        "alt": "Αστυνομική εγκύκλιος για τα τηλεκινητικά φαινόμενα το 1938"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Η αστυνομία και τα τηλεκινητικά φαινόμενα. Το Αρχηγείο Χωροφυλακής, λαμβάνοντας αφορμή από το γεγονός ότι η αστυνομία της Θάσου έσπευσε να εισαγάγει σε δίκη τα πρόσωπα, στην οικία των οποίων εκδηλώθηκαν τηλεκινητικά φαινόμενα, απηύθυνε εγκύκλιο και συνιστά την πρόληψη στο μέλλον παρόμοιων ενεργειών, οι οποίες εμφανίζουν τη Χωροφυλακή καθυστερημένη ως προς τις σύγχρονες επιστημονικές έρευνες."
+        },
+        {
+          "type": "text",
+          "value": "Υπάρχουν στην Αθήνα δύο επιστημονικές εταιρείες, οι οποίες ασχολούνται με τα ζητήματα της ψυχοφυσιολογίας. Καλό είναι, τονίζεται στην εγκύκλιο, οι κατά τόπους αστυνομικές αρχές να ζητούν τη γνώμη τους, κάθε φορά που παρατηρούνται τηλεκινητικά φαινόμενα."
+        },
+        {
+          "type": "text",
+          "value": "Ανάλογα με τις απαντήσεις που θα λαμβάνουν, θα μπορούν στη συνέχεια να προβαίνουν στις νόμιμες ενέργειες για την επιβολή ποινικών κυρώσεων, στην περίπτωση κατά την οποία διαπιστωθεί ότι δεν πρόκειται για τηλεκινητικά φαινόμενα, αλλά για αγυρτεία."
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Έθνος",
+          "title": "Εφημερίδα Έθνος",
+          "year": "1938",
+          "pages": "1"
+        }
+      ],
+      "tags": [
+        "Τηλεκινητικά Φαινόμενα",
+        "Χωροφυλακή",
+        "Αστυνομία",
+        "Ψυχοφυσιολογία",
+        "Εγκύκλιοι"
+      ],
+      "seo": {
+        "metaTitle": "Αστυνομική Εγκύκλιος για Τηλεκινητικά Φαινόμενα (1938)",
+        "metaDescription": "Εγκύκλιος του Αρχηγείου Χωροφυλακής καλεί τις αστυνομικές αρχές να συμβουλεύονται επιστημονικές εταιρείες πριν από διώξεις για τηλεκινητικά φαινόμενα.",
+        "canonical": "https://haunted.gr/arthra/astynomiki-egkyklios-tilekinitika-1938",
+        "keywords": [
+          "τηλεκινητικά φαινόμενα",
+          "αστυνομία",
+          "χωροφυλακή",
+          "ψυχοφυσιολογία",
+          "1938"
+        ]
+      }
     },
     {
-      "type": "text",
-      "value": "Ανάλογα με τις απαντήσεις που θα λαμβάνουν, θα μπορούν στη συνέχεια να προβαίνουν στις νόμιμες ενέργειες για την επιβολή ποινικών κυρώσεων, στην περίπτωση κατά την οποία διαπιστωθεί ότι δεν πρόκειται για τηλεκινητικά φαινόμενα, αλλά για αγυρτεία."
+      "id": "485",
+      "title": "Επικοινωνία με Νεκρούς - Πνευματισμός - Ψυχοφυσιολογία 1935 (Μέρος 4ο) - Στοιχειωμένη Πάτρα",
+      "slug": "epikoinonia-me-nekrous-psychofysiologia-1935-meros-4-stoicheiomeni-patra",
+      "author": "Φώτος Γιοφύλλης",
+      "date": "1935-01-25",
+      "excerpt": "Καταπληκτικά πειράματα στις Πάτρας και αφήγηση για το «στοιχειό» του φρουρίου Ρίου. Ο διευθυντής των Ψυχικών Ερευνών Πατρών κ. Γ. Φλούδας περιγράφει πειράματα με μέντιουμ και την εμφάνιση του Ντιοβανέσκο.",
+      "image": {
+        "src": "/images/efimerides/stoicheiomeni-patra-rio-1935.webp",
+        "alt": "Στοιχειωμένη Πάτρα και το φρούριο του Ρίου - 1935"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Επικοινωνία με Νεκρούς – Πνευματισμός – Ψυχοφυσιολογία 1935 (Μέρος 4ο) – Στοιχειωμένη Πάτρα"
+        },
+        {
+          "type": "text",
+          "value": "Τα καταπληκτικά επιστημονικά πειράματα… — Τι αποκαλύφθηκε στις Πάτρας — Το φρούριο του Ρίου είναι στοιχειωμένο — Η εμφάνιση του πνεύματος του πρωτομάστορα Ντοβανέσκο"
+        },
+        {
+          "type": "text",
+          "value": "Τα πειράματα της ψυχιστικής επιστήμης των Πατρών θεωρούνται σπουδαία. Για αυτά ο διευθυντής των Ψυχικών Ερευνών των Πατρών μάς ανακοινώνει τα εξής εξαιρετικά ενδιαφέροντα:"
+        },
+        {
+          "type": "text",
+          "value": "– Η ψυχιστική επιστήμη επισφραγίζει την αλήθεια περί υπάρξεως και αθανασίας της ψυχής."
+        },
+        {
+          "type": "text",
+          "value": "Πολλάκις έγινε στον Τύπο λόγος περί φαινομένων τηλεκινησίας, περί κίνησης, δηλαδή μετακίνησης αντικειμένων άνευ επαφής ή υλικής δύναμης. Τέτοια φαινόμενα παρατηρήθηκαν στο Μεσολόγγι το 1928, στο προάστιο των Πατρών Ζαρουχλέικα το 1930 και πέρυσι στη Μακρυσία της Ηλείας, για να αναφέρω μόνο την περιφέρειά μας. Μελετήθηκαν δε από Συνδέσμους Ψυχικών Ερευνών."
+        },
+        {
+          "type": "text",
+          "value": "Άπειρα φαινόμενα αναφέρει, μεταξύ άλλων, και ο διάσημος Ιταλός καθηγητής Λομπρόζο, ο οποίος ομολογεί ότι ήταν πρότερον πολέμιος τέτοιων αντιλήψεων περί ψυχής και πνευμάτων, παραδεχόμενος ότι κάθε δύναμη είναι ιδιότητα της ύλης και κάθε σκέψη ιδιότητα του εγκεφάλου, και ειρωνευόταν όσες φορές άκουγε περί κινούμενων τραπεζών."
+        },
+        {
+          "type": "text",
+          "value": "Αλλά, κατόπιν παρατηρήσεως πλείστων ψυχικών φαινομένων, παραδέχθηκε την ύπαρξη άυλης νοητής δύναμης, η οποία υπάρχει μετά θάνατον, επισκεπτομένη πρόσωπα και τοπία της επίγειας ζωής της, κατόπιν ιδίας της βουλήσεως – φαινόμενα στοιχειωμένων σπιτιών – ή κατόπιν επικλήσεως των ζώντων."
+        },
+        {
+          "type": "text",
+          "value": "Κατά ταύτα ο κ. Γ. Φλούδας, διευθυντής των Ψυχικών Ερευνών στις Πάτρας, διαφωνεί με τον κ. Α. Τανάγρα, καθότι παραδέχεται την επικοινωνία των ψυχών μετά θάνατον με τους ευρισκομένους στη ζωή."
+        },
+        {
+          "type": "text",
+          "value": "ΤΟ ΣΤΟΙΧΕΙΟ ΤΟΥ ΡΙΟΥ"
+        },
+        {
+          "type": "text",
+          "value": "– Επί παραδείγματι, συνεχίζει ο κ. Φλούδας, για το φρούριο του Ρίου, κυκλοφορεί από ακαθόριστου χρόνου ότι είναι στοιχειωμένο. Πολλοί δε, που ήταν κατάδικοι κατά την εποχή που το φρούριο αυτό ήταν φυλακή βαρυποινιτών, διηγούνται σωρεία ανεκδότων περί ενός Αράπη, ο οποίος άλλοτε μεν εμφανιζόταν θεόρατος, με μεγάλα βαθουλά μάτια, μακριά κοκαλιάρικα χέρια και ένα ρόπαλο, και χτυπούσε ή προσπαθούσε να στραγγαλίσει τους κατάδικους."
+        },
+        {
+          "type": "text",
+          "value": "Άλλοτε πάλιν, όπως διηγούνται, πρόβαλλε από τη θάλασσα ιππεύων θηρίο της Αποκαλύψεως και ορμούσε εναντίον των στρατιωτών-φρουρών, κατά προτίμηση όσων εκτελούσαν υπηρεσία στη νοτιοανατολική σκοπιά του αέρος."
+        },
+        {
+          "type": "text",
+          "value": "Γενναίοι μυστακοφόροι – και όχι μόνο – λοχίες της παλαιάς εποχής διηγούνται στους έκπληκτους και τρέμοντες νεοσύλλεκτους ότι ο Αράπης αυτός είχε εξαφανίσει διά παντός τρεις ή τέσσερις σκοπούς και ότι γύρω από τη σκοπιά βρέθηκαν τα όπλα, οι θήκες των φυσιγγίων και τα άρβυλά τους, αλλά ούτε ίχνος των ίδιων…"
+        },
+        {
+          "type": "text",
+          "value": "Αλλά και οι κατάδικοι έχουν να διηγηθούν πολλά περί εμφανίσεως του Αράπη εντός του απομονωτηρίου θαλάμου, ιδίως των τιμωρουμένων, όπου οι πλείστοι έβγαιναν σε αθλία κατάσταση, φέροντες καταφανή σημάδια της νυκτερινής πάλης προς το στοιχειό."
+        },
+        {
+          "type": "text",
+          "value": "Αυτά που αναφέρει ο κ. Φλούδας στις ανακοινώσεις του τα έχει ακούσει και ο γράφων. Κάποτε που είχα πάει στο Ρίον για να μου διηγηθεί ο λήσταρχος Σκαρτσώρας την ιστορία της ζωής του, άκουσα εκεί πλήθος θρύλων για την εξαφάνιση σκοπών στρατιωτών και για την εμφάνιση του μυστηριώδους στοιχειού του παλαιστάτου φρουρίου…"
+        },
+        {
+          "type": "text",
+          "value": "ΤΑ ΠΕΙΡΑΜΑΤΑ ΤΟΥ ΣΥΝΔΕΣΜΟΥ"
+        },
+        {
+          "type": "text",
+          "value": "Όπως ανακοινώνει ο κ. Φλούδας, με το ζήτημα αυτό ασχολήθηκε ο Σύνδεσμος Ψυχικών Ερευνών των Πατρών στη συνεδρίασή του στις 17 Ιανουαρίου 1933."
+        },
+        {
+          "type": "text",
+          "value": "– Χρησιμοποιήσαμε, συνεχίζει ο κ. Φλούδας, ένα άριστο μέντιουμ, τη διδά Σ. Γ., η οποία, αφού βρέθηκε σε υπνωτιστική κατάσταση εντός του φρουρίου Ρίου, άρχισε να λέγει με τρέμουσα φωνή:"
+        },
+        {
+          "type": "text",
+          "value": "– Βλέπω μια σκιά. Δεν μοιάζει με φάντασμα… Η σκιά έρχεται αμίλητα κοντά μου… Φοβάμαι… Θέλω να φύγω… Γίνεται σκοτάδι πολύ…"
+        },
+        {
+          "type": "text",
+          "value": "– Όχι, δεν θα φύγεις, δεν φοβάσαι…"
+        },
+        {
+          "type": "text",
+          "value": "– Ναι. Δεν φοβούμαι, γιατί τώρα βλέπω φώτα πολλά, μεγάλα… Βγάζουν μακριές φλόγες, σαν πυροτεχνήματα… Οι φλόγες είναι σαν ατελείωτα… και σμίγουν όλες."
+        },
+        {
+          "type": "text",
+          "value": "– Α… οι φλόγες έφτιαξαν έναν Αράπη… Φοβούμαι… Με φοβερίζει…"
+        },
+        {
+          "type": "text",
+          "value": "– Διώχτε με!"
+        },
+        {
+          "type": "text",
+          "value": "– Δεν θα φύγεις. Ο Αράπης δεν σε πειράζει. Μπορείς να τον ρωτήσεις τι είναι και γιατί βρίσκεται εκεί."
+        },
+        {
+          "type": "text",
+          "value": "– Ω… Ναι. Δεν φοβούμαι. Τον ρωτώ… Οι φλόγες, που είδες, μου λέει, είναι πολλοί οι άνθρωποι που εργάσθηκαν να χτίσουν το φρούριο… Εγώ είμαι ο Ντιοβανέσκο, ο αρχιμάστορας, και βρίσκομαι εδώ πάντοτε, διότι μου αρέσει πολύ…"
+        },
+        {
+          "type": "text",
+          "value": "– Αισθάνομαι χαρά που βρίσκομαι σε αυτούς τους τόπους… Μεγαλύτερη χαρά αισθάνομαι όταν βλέπω στρατό να κατοικεί εδώ, διότι γι’ αυτόν τον σκοπό κτίσαμε το φρούριο… Λυπάμαι δυνατά όταν βλέπω φυλακισμένους και θέλω να τους τιμωρώ, διότι δεν θέλω στο σπίτι μου φυλακές, θέλω στρατώνες."
+        },
+        {
+          "type": "text",
+          "value": "Μόλις είπε αυτά το μέντιουμ, ξέσπασε αιφνιδίως σε φωνές τρόμου!"
+        },
+        {
+          "type": "text",
+          "value": "Δεν κατορθώσαμε να το συγκρατήσουμε ούτε εκείνο θέλησε να μας πει τι έβλεπε και το ξυπνήσαμε. Προσπαθήσαμε να επαναλάβουμε το πείραμα, αλλά στάθηκε αδύνατον, λόγω σκληράς αντιστάσεως του μέντιουμ."
+        },
+        {
+          "type": "text",
+          "value": "Ο ΠΡΩΤΟΜΑΣΤΟΡΑΣ ΝΤΙΟΒΑΝΕΝΚΟ"
+        },
+        {
+          "type": "text",
+          "value": "Συμπερασματικά ο κ. Φλούδας παραθέτει:"
+        },
+        {
+          "type": "text",
+          "value": "– Διαπιστώσαμε ότι το φρούριο του Ρίου είναι πράγματι στοιχειωμένο, ο δε Αράπης δεν είναι άλλος παρά ο πρωτομάστορας Ντιοβανέσκο, δηλαδή το «επιψυχίδιό» του, το οποίο, λόγω ατελούς διαπλάσεως, εμφανίζεται και ζητά εκδίκηση από τους μεταβαλόντας σε φυλακές το αρχικώς προορισμένο για πολεμικό κτίριο."
+        },
+        {
+          "type": "text",
+          "value": "Φαίνεται ότι ο πρωτομάστορας αυτός απέθανε πριν τελειοποιηθεί το κτίριο και, λόγω του μεγάλου πόθου που είχε εν ζωή να δει το φρούριο τελειωμένο, εμφανίζεται και γίνεται αισθητός από ανθρώπους έχοντας ιδιάζουσες ψυχικές ιδιότητες."
+        },
+        {
+          "type": "text",
+          "value": "Η ασκούμενη εκεί, μεταξύ άλλοτε στρατιωτών και καταδίκων, υποβολή και αυθυποβολή συνέτεινε επίσης στη συχνότητα και σκληρότητα των εμφανίσεων του στοιχειού αυτού, του βασανιζόμενου επιψυχιδίου, του πρωτομάστορα Ντιοβανέσκο."
+        },
+        {
+          "type": "text",
+          "value": "Τα γεγονότα αυτά, που αφηγείται ο κ. Φλούδας, είναι κάτι τι ελάχιστο μέσα στο πλήθος των αληθώς υπερφυσικών φαινομένων, που απέδειξαν οι έρευνες του πνευματισμού και της ψυχοφιλοσοφίας. Όλες αυτές τις έρευνες και τα περιεργότατα γεγονότα που διαπιστώθηκαν κατά αυτές θα αφηγηθούμε προχωρώντας."
+        },
+        {
+          "type": "text",
+          "value": "Κατά πρώτον, πολλά φαινόμενα παρουσιασθέντα στους αρχαίους χρόνους και σε διάφορες εποχές της ιστορίας. Έπειτα θα έλθουμε στις επιστημονικές παρατηρήσεις του πνευματισμού. Και κατόπιν θα αφηγηθούμε πνευματιστικά φαινόμενα που συνέβησαν στην Ελλάδα από την εποχή του ποιητή Δ. Σολωμού, ο οποίος ήταν ισχυρότατο μέντιουμ, μέχρι των ημερών μας."
+        },
+        {
+          "type": "text",
+          "value": "Θα αφηγηθούμε ακόμη και πλήθος περιεργοτάτων και καταπληκτικών φαινομένων που συνέβησαν σε όλα τα σημεία της γης και εξηγούνται ως επικοινωνίες των νεκρών με τους ζώντες."
+        },
+        {
+          "type": "text",
+          "value": "Φώτος Γιοφύλλης"
+        },
+        {
+          "type": "text",
+          "value": "ΕΘΝΙΚΗ ΣΗΜΑΙΑ 25.01.1935"
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Εθνική Σημαία",
+          "title": "Εφημερίδα Εθνική Σημαία",
+          "year": "1935",
+          "pages": "25.01.1935"
+        }
+      ],
+      "tags": [
+        "Πνευματισμός",
+        "Ψυχοφυσιολογία",
+        "Στοιχειωμένη Πάτρα",
+        "Ρίο",
+        "Ντιοβανέσκο",
+        "Ψυχικές Έρευνες"
+      ],
+      "seo": {
+        "metaTitle": "Στοιχειωμένη Πάτρα – Το φρούριο του Ρίου και το πνεύμα του Ντιοβανέσκο (1935)",
+        "metaDescription": "Άρθρο του Φώτου Γιοφύλλη για τις Ψυχικές Έρευνες στις Πάτρας και το στοιχειωμένο φρούριο του Ρίου, με καταπληκτικά πειράματα μέντιουμ.",
+        "canonical": "https://haunted.gr/arthra/epikoinonia-me-nekrous-psychofysiologia-1935-meros-4-stoicheiomeni-patra",
+        "keywords": [
+          "Στοιχειωμένη Πάτρα",
+          "Ρίο",
+          "Ντιοβανέσκο",
+          "Πνευματισμός",
+          "Ψυχοφυσιολογία",
+          "1935"
+        ]
+      }
+    },
+    {
+      "id": 486,
+      "title": "Μυστηριώδης Λιθοβολισμός 2 σπιτιών - Τσιτάλια Αρκαδίας 1934",
+      "slug": "lithovolismos-arkadia-1934",
+      "date": "1934-04-22",
+      "source": "Κυνουριακό Βήμα",
+      "excerpt": "πέτρες που έπεφταν σε δύο σπίτια στα Τσιτάλια Αρκαδίας. Άλλοι έκαναν λόγο για φάρσα, ενώ υπήρξαν ισχυρισμοί για τηλεκινητικά φαινόμενα.",
+      "image": {
+        "src": "/images/efimerides/lithovolismos-arkadia-1934.webp",
+        "alt": "Αρχειακή εικόνα του άρθρου του Κυνουριακου Βήματος 1934 σελ 2"
+      },
+      "location": {
+        "mainArea": "Αρκαδία",
+        "subLocation": "Τσιτάλια",
+        "lat": 37.3833,
+        "lng": 22.3167
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Κατά το αυριανό πανηγύρι του Αγίου Γεωργίου θα δοθεί και παράσταση από ομάδα ερασιτεχνών υπέρ της βιβλιοθήκης του Δημοτικού Σχολείου."
+        },
+        {
+          "type": "text",
+          "value": "- Ο Άγιος Γεώργιος να βάλει το χέρι να μην γεννηθούν πάλι την τελευταία στιγμή ζητήματα πρωτοβουλίας."
+        },
+        {
+          "type": "text",
+          "value": "Την προηγούμενη βδομάδα έγιναν πολλές συζητήσεις γύρω από πέτρες που έπεφταν σε δύο σπίτια. Άλλοι έλεγαν ότι πρόκειται περί φαρσέρ και έγινε προσπάθεια να συλληφθούν. Άλλοι όμως πρακτικότεροι, συλλάμβαναν τις ίδιες τις πέτρες."
+        },
+        {
+          "type": "text",
+          "value": "Κατά τις διαβεβαιώσεις τους, οι πέτρες αυτές είχαν πολύ μυστηριώδεις ιδιότητες."
+        },
+        {
+          "type": "text",
+          "value": "Δηλαδή απ’ έξω ήταν μαύρες και από μέσα άσπρες. Πολλές έπεφταν στα κεφάλια των διαβατών χωρίς αυτοί να αισθάνονται απολύτως τίποτα. Άλλες πάλι, πριν να πέσουν στο έδαφος εξαφανίζονταν. Πολλοί άλλοι ισχυρίζονται ότι πρόκειται περί τηλεκινητικών φαινομένων και ζητούν να έρθει ο Άγγελος Τανάγρας για να εξετάσει το φαινόμενο."
+        },
+        {
+          "type": "text",
+          "value": "Εν τέλει υπήρξαν και κάποιοι που μιλούσαν για αερόλιθο. Το κωμικό της όλης αυτής ιστορίας είναι ότι την ώρα που έβραζε ένα τσουκάλι φαγητό, έπεσε μια μάλλον πολύ «πεινασμένη» πέτρα μέσα και ότι η μία δεσποινίς διερχόμενη από εκεί αμέριμνα, δέχτηκε στο πρόσωπό της μια παντόφλα."
+        },
+        {
+          "type": "text",
+          "value": "Πηγή: Κυνουριακό Βήμα 22.04.1934"
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Κυνουριακό Βήμα",
+          "title": "Εφημερίδα Κυνουριακό Βήμα",
+          "year": "1934",
+          "pages": "22.04.1934"
+        }
+      ],
+      "tags": [
+        "Μυστηριώδη φαινόμενα",
+        "Λιθοβολισμοί",
+        "Τηλεκινησία",
+        "Λαϊκές δοξασίες",
+        "Αρκαδία",
+        "1930s"
+      ],
+      "seo": {
+        "metaTitle": "Μυστηριώδης λιθοβολισμός στα Τσιτάλια Αρκαδίας (1934)",
+        "metaDescription": "Αρχειακό δημοσίευμα του 1934 για ανεξήγητους λιθοβολισμούς σε δύο σπίτια στα Τσιτάλια Αρκαδίας και αναφορές σε τηλεκινητικά φαινόμενα.",
+        "canonical": "https://haunted.gr/arthra/mystiriodis-lithovolismos-tsitalia-arkadias-1934",
+        "keywords": [
+          "μυστηριώδη φαινόμενα",
+          "λιθοβολισμός",
+          "τηλεκινησία",
+          "Τσιτάλια Αρκαδίας",
+          "λαϊκές δοξασίες",
+          "1934"
+        ]
+      }
+    },
+    {
+      "id": 487,
+      "title": "Οι 65 χωρικοί της Νάξου μιλούν με την Παναγία και προφητεύουν μεγάλο πόλεμο - 1935",
+      "slug": "oi-65-chorikoi-tis-naxou-miloun-me-tin-panagia-kai-profitevoun-megalo-polemo-1935",
+      "author": "Ν. Καπιτσόγλου",
+      "date": "1935-07-23",
+      "excerpt": "Εξήντα πέντε χωρικοί στον Κόρωνο Νάξου βυθίζονται σε υπνωτική κατάσταση και προφητεύουν πόλεμο, πολιτικά κινήματα και τη συντέλεια του κόσμου, ισχυριζόμενοι ότι μιλούν με την Παναγία και αγίους.",
+      "mainArea": "Νάξος",
+      "subLocation": "Κόρωνος",
+      "lat": 37.1182,
+      "lng": 25.535,
+      "image": {
+        "src": "/images/efimerides/oi-65-chorikoi-tis-naxou-miloun-me-tin-panagia.webp",
+        "alt": "Κόρωνος Νάξου – χωρικοί και θρησκευτικές συναθροίσεις τη δεκαετία του 1930"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Οι οραματιζόμενοι της Νάξου για τους οποίους γράψαμε πριν απο λίγες μέρες και για τους οποίους ο κ. Τανάγρας της Εταιριας Ψυχικών Ερευνών αποφάνθηκε οτι πρόκειται περι απλοϊκων χωρικών που βιώνουν ομαδική υποβολή, ειναι σεβαστοι σε όλο το νησί και ιδιαίτερα στον Κόρωνο που ειναι η ιδιαίτερη πατρίδα τους."
+        },
+        {
+          "type": "text",
+          "value": "Εκει κόσμος και κοσμάκης καταφεύγει ειτε απο περιεργεια να μάθει ενδιαφέρουσες προφητείες είτε απο ενδιαφέρουν να πληροφορηθεί το μέλλον του. Διότι συμβαινει και αυτό. Ένας οραματιζόμενος, μόλις μπήκε σε κατάσταση υποβολής, άρχισε να συλλαμβάνει την σκέψη των άλλων με ευχέρεια και να προχωρα σε προβλέις επι των ατομικών τους ζητημάτων, όπως ακριβώς συμβαίνει και με τα μέντιουμ. Οτι όμως ενδιαφέρει περισσότερο είναι όσα λένε οι οραματιζόμενοι για τα πράγματα του κόσμου."
+        },
+        {
+          "type": "text",
+          "value": "Λένε, ούτε λίγο - ούτε πολύ,  πως πολύ σύντομα θα εκραγεί πόλεμος, γνωρίζοντας και λεπτομέρειες γύρω απο το πως θα ξεκινήσει και θα εξαπλωθεί. Θα εμπλακούν - οραματίζονται - σε πόλεμο αρχικά η Ουγγαρία και η Γιουγκοσλαβία και θα ακολουθήσουν και τα περισσότερα έθνη, όχι μονο της Ευρώπης αλλά και ολόκληρου του κόσμου. Τα δεινά του πολέμου θα ειναι αφάνταστα. Η ειρήνη όμως που θα ακολουθήσει απο τον καταστροφικό πόλεμο θα ειναι μεγαλειώδης, ιδεώδης."
+        },
+        {
+          "type": "text",
+          "value": "Καθορίζουν ακόμη πως ο πόλεμος θα εκραγεί το πολύ μέχρι το επερχόμενου φθινόπωρου. Λένε ακόμη οτι αναστατώσεις θα σημειωθούν πριν τον πόλεμο σε μεγάλα ΕυρωπαΪκά κράτη και πως μεγάλες παγκοσμιου κύριους φυσιογνωμίες θα φύγουν απο τη ζωή ως θύματα δολοφονιών."
+        },
+        {
+          "type": "text",
+          "value": "Με την ευκαιρία, ας σημειωθεί το καταπληκτικό, οτι τρεις μήνες πριν την δολοφονία του Αλεξάνδρου της Γιουγκοσλαβίας, είχαν προβλέψει και είχε γραφτεί μάλιστα και στις εφημερίδες οτι ηγεμόνας Βαλκανικού λαού θα δολοφονουνταν στην Γαλλία. Και επειδή αναφέρουμε τι προειπαν οι κατα καιρούς οραματιζόμενοι αγαθοί χωρικοί του Κορώνου Νάξου, πρέπει να προσθέσουμ και τις εξης επιτυχίες τους."
+        },
+        {
+          "type": "text",
+          "value": "Είχαν προβλέψει την ανατροπή της Κυβέρνησης Βενιζέλου καθως και το κίνημα της 1ης Μαρτίου. Σχετικά μάλιστα με την πρόβλεψη του κινήματος της 1ης Μαρτίου, γράφτηκαν πολλά μεγάλα κείμενα και στις εφημερίδες. Είχαν ειπωθεί μάλιστα απο τον οραματιζόμενο Μανωλά, εγγονό του πρώτου, προ 100 ετών οραματισθέντος Μανωλά, εδώ στην Αθήνα όπου είχε έρθει, όπως ισχυρίστηκε τότε, εντολή της Παναγίας για λογαριασμό της οποίας μιλάει."
+        },
+        {
+          "type": "text",
+          "value": "Συγκεκριμένα ο Μανωλάς οδηγήθηκε απο τον δημοσιογράφο της Ακρόπολις στον κ. Τανάγρα όπου άφου έκανε το σταυρό του και πήρε βαθιά αναπνοή, βυθίστηκε σε ύπνο - κατα τη διάρκεια του οποιου - επι μισή ώρα - μιλώντας για λογαριασμό της Παναγίας είπε μεταξύ άλλων και τα του κινήματος της 1ης Μαρτίου."
+        },
+        {
+          "type": "text",
+          "value": "Δεν προβλέπου όμως μόνο τον πόλεμο οι περίεργοι αυτοι οραματιζόμενοι του Κορώνου. Προβλέπουν όλοι ανεξαιρέτως απο τον πρώτο μέχρι τον 65ό και νέο κίνημα στην Ελλάδα, Βενιζελοκομμουνιστικό. Όπως λένε."
+        },
+        {
+          "type": "text",
+          "value": "Κίνημα το οποίο δε θα διαρκέσει περισσότερο απο τρείς ημέρς και το οποιον θα καταστείλει ο στρατός. Ακόμη προβλέπουν οτι ο Βασιλιας θα έρθει στην Ελλάδα αφου εκραγεί πόλεμος. Ως εν κατακλείδι, μιλούν για την συντέλεια του κόσμου. Σε έξη αιώνες ακριβώς - όπως ισχυρίζονται - θα καταστραφεί η Γη και θα γινει η Δευτέρα Παρουσία."
+        },
+        {
+          "type": "text",
+          "value": "Αυτά και άλλα πολλά προφητεύουν οι 65 χωρικοί του Κορώνου, άνδρες, γυναίκες και παιδιά, τις ώρες που βυθίζονται στον αλλόκοτο ύπνο τους. Πιστευουν δε οι συγχωριανοί τους πως οταν βρίσκονται σε υπνωτική κατάσταση μιλουν οι οραματιζόμενοι, μιλούν σε αυτούς στην Παναγία, ο Άγιο Ιωάννης ο Πρόδρομος και πολλοι άλλοι άγιοι. Αφού μάλιστα ισχυρίζονται όπως λένε οι οραματιζόμενοι με αλλοιωμένη φωνή “ Ο υιός μου ο Ιησούς ΧΡιστούς προστάζει ή “ εύχεται ο υιός μου ο Θεός” κλπ."
+        },
+        {
+          "type": "text",
+          "value": "Με τα φαινόμενα αυτά απασχολήθηκαν κατα διαστήματα όλες οι αρμόδιες Αρχές της Νάξου, με αποτέλεσμα όλοι να αποφανθούν οτι πράγματι πρόκειται περί φαινομένων αναγόμενων στις ψυχικές έρευνες. Και πράγματι πρόκειται περι ψυχικού φαινομένου. Οσοι οραματίζονται, έχουν υποστεί υποβολή απο προηγούμενους που έχουν υποστεί υποβολή. Πρόκειται δηλαδή περί ομαδικής υποβολής όπως εξηγεί ο κ. Τανάγρας, αρμοδιότερος άλλωστε, παντός άλλου, να εξηγήσει το φαινόμενο, λόγω του οποιου οι οραματιζόμενοι σε αυτή την κατάστση υφίστανται και θρησκευτικό παραλήρημα."
+        },
+        {
+          "type": "text",
+          "value": "Και στηρίζει την γνώμη του στο γεγονός οτι αμέσως μόλις πέσει σε υπνωτική κατάσταση ένας απο τους οραματιζόμενους, υποπίπτουν ο ένας μετά τον άλλο οι οραματιζόμενοι και ειναι συνήθως θρησκόληπτοι και μικρά παιδιά, άνθρωποι δηλαδή που ειναι ευκολότερο να επηρεαστούν και να αυθυποβληθούν."
+        },
+        {
+          "type": "text",
+          "value": "Πάντως τα φαινόμενα δεν παύουν να έχουν ενδιαφέρον και να απασχολουν ολόκληρο το νησί της Νάξου. Ως προς τις προφητείες δε των ευσεβών χωρικών, φυσικά κανεις δεν μπορεί να εγγυηθεί οτι θα επαληθευθούν."
+        },
+        {
+          "type": "text",
+          "value": "Συγγραφέας Ν. Καπιτσόγλου"
+        },
+        {
+          "type": "text",
+          "value": "Πηγή ΑΚΡΟΠΟΛΙΣ_23.07.1935 σελ 3"
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Ακρόπολις",
+          "title": "Εφημερίδα Ακρόπολις",
+          "year": "1935",
+          "pages": "23.07.1935, σελ 3"
+        }
+      ],
+      "tags": [
+        "Παναγία",
+        "Οράματα",
+        "Προφητείες",
+        "Πνευματισμός",
+        "Ομαδική υποβολή",
+        "Ψυχικές Έρευνες",
+        "Τανάγρας",
+        "Νάξος",
+        "Κόρωνος",
+        "1935"
+      ],
+      "seo": {
+        "metaTitle": "Οι 65 χωρικοί της Νάξου προφητεύουν μεγάλο πόλεμο (1935)",
+        "metaDescription": "Άρθρο του 1935 για 65 χωρικούς στον Κόρωνο Νάξου που, σε υπνωτική κατάσταση, μιλούν για την Παναγία και προφητεύουν πόλεμο και κινήματα.",
+        "canonical": "https://haunted.gr/arthra/oi-65-chorikoi-tis-naxou-miloun-me-tin-panagia-kai-profitevoun-megalo-polemo-1935",
+        "keywords": [
+          "Κόρωνος Νάξου",
+          "65 χωρικοί",
+          "προφητείες",
+          "Παναγία",
+          "ομαδική υποβολή",
+          "Τανάγρας",
+          "ψυχικές έρευνες",
+          "1935"
+        ]
+      }
+    },
+    {
+      "id": 488,
+      "title": "Μυστηριώδης Λιθοβολισμός σπιτιού της Συνοικίας Κουφόβουνο Νέας Ιωνίας Βόλου - 1953",
+      "slug": "mystiriodis-lithovolismos-spitiou-sinoikia-koufovouno-neas-ionias-volou-1953",
+      "author": "Ερρικός",
+      "date": "1953-12-10",
+      "excerpt": "Για έναν μήνα, άγνωστες πέτρες χτυπούν κάθε νύχτα σπίτι στη συνοικία Κουφόβουνο της Νέας Ιωνίας Βόλου, προκαλώντας φόβο, υποψίες για φάρσα και συζητήσεις περί τηλεκινητικών φαινομένων.",
+      "mainArea": "Βόλος",
+      "subLocation": "Νέα Ιωνία – Κουφόβουνο",
+      "lat": 39.37108,
+      "lng": 22.92797,
+      "image": {
+        "src": "/images/efimerides/mystiriodis-lithovolismos-spitiou-sinoikia-koufovouno.webp",
+        "alt": "Συνοικία Κουφόβουνο Νέας Ιωνίας Βόλου τη δεκαετία του 1950"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Ό,τι και αν είναι, φάρσα ή τηλεκινητικό φαινόμενο, αυτός ο λιθοβολισμός που γινόταν κάθε νύχτα επί ένα μήνα στον συνοικισμό Κουφόβουνο της Νέας Ιωνίας του Βόλου, περιγραφή του οποίου δημοσίευσαν οι βολιώτικες εφημερίδες, το σίγουρο είναι πως ο οικισμός πρέπει να αλλάξει όνομα."
+        },
+        {
+          "type": "text",
+          "value": "Γιατί κουφό βουνό είναι όταν οι πέτρες αμολιούνται κάθε νύχτα κατά του σπιτιού της κ. Σίσκου και κάθε άλλο παρά κουφό κρότο κάνουν, αλλά αντίθετα αναστατώνουν τον κόσμο που κάθεται εκεί γύρω και τον «ξεκουφαίνουν» τα κεραμιδοσπασίματα."
+        },
+        {
+          "type": "text",
+          "value": "Κατά περίεργη σύμπτωση, ο κ. διοικητής του εκεί τμήματος ασφαλείας που κλήθηκε να εξιχνιάσει το μυστήριο λέγεται Κωφός και παρά ταύτα άκουσε τις πέτρες-βόμβες να σκάνε στα κεραμίδια και να τα σπάνε, αλλά δεν είδε ποιοι μάλωναν με τα κεραμίδια και τα πετροβολούσαν."
+        },
+        {
+          "type": "text",
+          "value": "Δεν ήταν πάντως η δράστις η θρυλική «Κίτσιου η μάνα». Ύποπτες μόνο θεωρήθηκαν ομόφυλές της, η Στέλλα Κοκκαλά και η Τασία Βούσβουρα."
+        },
+        {
+          "type": "text",
+          "value": "Αν είναι αυτές οι… πετροπολεμίστριες δεν είναι βέβαιο, για αυτό και τις άφησε ελεύθερες η αστυνομία που τις είχε συλλάβει. Και έχουν και τα ονόματά τους σαν δικαιολογητικά της αθωότητάς τους."
+        },
+        {
+          "type": "text",
+          "value": "Μπορεί να κάνει πετροπόλεμο και μάλιστα νυχτερινό μια «Κοκκαλά»; Αυτή θα κοκκάλωνε αν έκανε τέτοιο πράγμα που… κόκκαλα όπως κεραμίδια τσακίζει."
+        },
+        {
+          "type": "text",
+          "value": "Αμ η Βούσβουρα; Το πολύ πολύ να φέρει γύρω γύρω σαν βούσβουρα και όχι να λέει «καλέ θα πάρω πέτρα» και να την αμολάει για να φέρει βούσβουρα το κεφάλι της κ. Σίσκου και των γειτόνων της."
+        },
+        {
+          "type": "text",
+          "value": "Να είναι κακά πνεύματα; Έτσι νόμισαν οι λιθοβολισμο-τρομαγμένοι γείτονες και κάλεσαν τον παπά της ενορίας να τους ξορκίσει."
+        },
+        {
+          "type": "text",
+          "value": "Την ώρα όμως που γινόταν ο ξορκισμός, μια κοτρώνα έπεσε στα πόδια του παπά. Δηλαδή και αν ήταν δαιμόνια, δεν τα επηρέασε η παρουσία του."
+        },
+        {
+          "type": "text",
+          "value": "Με αυτή την υπόθεση κάηκε και πολύ θυμίαμα από τα ξόρκια των γειτόνων."
+        },
+        {
+          "type": "text",
+          "value": "Ωστόσο ο εκτελωνιστής που κάθεται εκεί κοντά, ο κύριος Γανώτης, δεν νομίζει, όπως δήλωσε, ότι πρόκειται για τελώνια και πιστεύει πως είναι τηλεκινητικά φαινόμενα, εκτός αν πρόκειται για φάρσα, οπότε οι δημιουργοί της θέλουν «γάνωμα»."
+        },
+        {
+          "type": "text",
+          "value": "Συγγραφέας «Ερρικός»"
+        },
+        {
+          "type": "text",
+          "value": "Πηγή: Εφημερίδα ΑΝΑΓΕΝΝΗΣΙΣ 10.12.1953"
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Αναγέννησις",
+          "title": "Εφημερίδα Αναγέννησις",
+          "year": "1953",
+          "pages": "10.12.1953"
+        }
+      ],
+      "tags": [
+        "Λιθοβολισμός",
+        "Μυστηριώδη φαινόμενα",
+        "Τηλεκινησία",
+        "Λαϊκές δοξασίες",
+        "Ξορκισμοί",
+        "Βόλος",
+        "Νέα Ιωνία",
+        "1953"
+      ],
+      "seo": {
+        "metaTitle": "Μυστηριώδης λιθοβολισμός στη Νέα Ιωνία Βόλου (1953)",
+        "metaDescription": "Άρθρο του 1953 για ανεξήγητο λιθοβολισμό σπιτιού στη συνοικία Κουφόβουνο της Νέας Ιωνίας Βόλου, με αναφορές σε φάρσα και τηλεκινητικά φαινόμενα.",
+        "canonical": "https://haunted.gr/arthra/mystiriodis-lithovolismos-spitiou-sinoikia-koufovouno-neas-ionias-volou-1953",
+        "keywords": [
+          "λιθοβολισμός Βόλος",
+          "Κουφόβουνο",
+          "Νέα Ιωνία",
+          "τηλεκινητικά φαινόμενα",
+          "μυστηριώδη περιστατικά",
+          "1953"
+        ]
+      }
     }
-  ],
-  "sources": [
-    {
-      "type": "newspaper",
-      "name": "Έθνος",
-      "title": "Εφημερίδα Έθνος",
-      "year": "1938",
-      "pages": "1"
-    }
-  ],
-  "tags": [
-    "Τηλεκινητικά Φαινόμενα",
-    "Χωροφυλακή",
-    "Αστυνομία",
-    "Ψυχοφυσιολογία",
-    "Εγκύκλιοι"
-  ],
-  "seo": {
-    "metaTitle": "Αστυνομική Εγκύκλιος για Τηλεκινητικά Φαινόμενα (1938)",
-    "metaDescription": "Εγκύκλιος του Αρχηγείου Χωροφυλακής καλεί τις αστυνομικές αρχές να συμβουλεύονται επιστημονικές εταιρείες πριν από διώξεις για τηλεκινητικά φαινόμενα.",
-    "canonical": "https://haunted.gr/arthra/astynomiki-egkyklios-tilekinitika-1938",
-    "keywords": [
-      "τηλεκινητικά φαινόμενα",
-      "αστυνομία",
-      "χωροφυλακή",
-      "ψυχοφυσιολογία",
-      "1938"
-    ]
-  }
-},
-
-{
-  "id": "485",
-  "title": "Επικοινωνία με Νεκρούς - Πνευματισμός - Ψυχοφυσιολογία 1935 (Μέρος 4ο) - Στοιχειωμένη Πάτρα",
-  "slug": "epikoinonia-me-nekrous-psychofysiologia-1935-meros-4-stoicheiomeni-patra",
-  "author": "Φώτος Γιοφύλλης",
-  "date": "1935-01-25",
-  "excerpt": "Καταπληκτικά πειράματα στις Πάτρας και αφήγηση για το «στοιχειό» του φρουρίου Ρίου. Ο διευθυντής των Ψυχικών Ερευνών Πατρών κ. Γ. Φλούδας περιγράφει πειράματα με μέντιουμ και την εμφάνιση του Ντιοβανέσκο.",
-  "image": {
-    "src": "/images/efimerides/stoicheiomeni-patra-rio-1935.webp",
-    "alt": "Στοιχειωμένη Πάτρα και το φρούριο του Ρίου - 1935"
-  },
-  "content": [
-    {
-      "type": "text",
-      "value": "Επικοινωνία με Νεκρούς – Πνευματισμός – Ψυχοφυσιολογία 1935 (Μέρος 4ο) – Στοιχειωμένη Πάτρα"
-    },
-    {
-      "type": "text",
-      "value": "Τα καταπληκτικά επιστημονικά πειράματα… — Τι αποκαλύφθηκε στις Πάτρας — Το φρούριο του Ρίου είναι στοιχειωμένο — Η εμφάνιση του πνεύματος του πρωτομάστορα Ντοβανέσκο"
-    },
-    {
-      "type": "text",
-      "value": "Τα πειράματα της ψυχιστικής επιστήμης των Πατρών θεωρούνται σπουδαία. Για αυτά ο διευθυντής των Ψυχικών Ερευνών των Πατρών μάς ανακοινώνει τα εξής εξαιρετικά ενδιαφέροντα:"
-    },
-    {
-      "type": "text",
-      "value": "– Η ψυχιστική επιστήμη επισφραγίζει την αλήθεια περί υπάρξεως και αθανασίας της ψυχής."
-    },
-    {
-      "type": "text",
-      "value": "Πολλάκις έγινε στον Τύπο λόγος περί φαινομένων τηλεκινησίας, περί κίνησης, δηλαδή μετακίνησης αντικειμένων άνευ επαφής ή υλικής δύναμης. Τέτοια φαινόμενα παρατηρήθηκαν στο Μεσολόγγι το 1928, στο προάστιο των Πατρών Ζαρουχλέικα το 1930 και πέρυσι στη Μακρυσία της Ηλείας, για να αναφέρω μόνο την περιφέρειά μας. Μελετήθηκαν δε από Συνδέσμους Ψυχικών Ερευνών."
-    },
-    {
-      "type": "text",
-      "value": "Άπειρα φαινόμενα αναφέρει, μεταξύ άλλων, και ο διάσημος Ιταλός καθηγητής Λομπρόζο, ο οποίος ομολογεί ότι ήταν πρότερον πολέμιος τέτοιων αντιλήψεων περί ψυχής και πνευμάτων, παραδεχόμενος ότι κάθε δύναμη είναι ιδιότητα της ύλης και κάθε σκέψη ιδιότητα του εγκεφάλου, και ειρωνευόταν όσες φορές άκουγε περί κινούμενων τραπεζών."
-    },
-    {
-      "type": "text",
-      "value": "Αλλά, κατόπιν παρατηρήσεως πλείστων ψυχικών φαινομένων, παραδέχθηκε την ύπαρξη άυλης νοητής δύναμης, η οποία υπάρχει μετά θάνατον, επισκεπτομένη πρόσωπα και τοπία της επίγειας ζωής της, κατόπιν ιδίας της βουλήσεως – φαινόμενα στοιχειωμένων σπιτιών – ή κατόπιν επικλήσεως των ζώντων."
-    },
-    {
-      "type": "text",
-      "value": "Κατά ταύτα ο κ. Γ. Φλούδας, διευθυντής των Ψυχικών Ερευνών στις Πάτρας, διαφωνεί με τον κ. Α. Τανάγρα, καθότι παραδέχεται την επικοινωνία των ψυχών μετά θάνατον με τους ευρισκομένους στη ζωή."
-    },
-    {
-      "type": "text",
-      "value": "ΤΟ ΣΤΟΙΧΕΙΟ ΤΟΥ ΡΙΟΥ"
-    },
-    {
-      "type": "text",
-      "value": "– Επί παραδείγματι, συνεχίζει ο κ. Φλούδας, για το φρούριο του Ρίου, κυκλοφορεί από ακαθόριστου χρόνου ότι είναι στοιχειωμένο. Πολλοί δε, που ήταν κατάδικοι κατά την εποχή που το φρούριο αυτό ήταν φυλακή βαρυποινιτών, διηγούνται σωρεία ανεκδότων περί ενός Αράπη, ο οποίος άλλοτε μεν εμφανιζόταν θεόρατος, με μεγάλα βαθουλά μάτια, μακριά κοκαλιάρικα χέρια και ένα ρόπαλο, και χτυπούσε ή προσπαθούσε να στραγγαλίσει τους κατάδικους."
-    },
-    {
-      "type": "text",
-      "value": "Άλλοτε πάλιν, όπως διηγούνται, πρόβαλλε από τη θάλασσα ιππεύων θηρίο της Αποκαλύψεως και ορμούσε εναντίον των στρατιωτών-φρουρών, κατά προτίμηση όσων εκτελούσαν υπηρεσία στη νοτιοανατολική σκοπιά του αέρος."
-    },
-    {
-      "type": "text",
-      "value": "Γενναίοι μυστακοφόροι – και όχι μόνο – λοχίες της παλαιάς εποχής διηγούνται στους έκπληκτους και τρέμοντες νεοσύλλεκτους ότι ο Αράπης αυτός είχε εξαφανίσει διά παντός τρεις ή τέσσερις σκοπούς και ότι γύρω από τη σκοπιά βρέθηκαν τα όπλα, οι θήκες των φυσιγγίων και τα άρβυλά τους, αλλά ούτε ίχνος των ίδιων…"
-    },
-    {
-      "type": "text",
-      "value": "Αλλά και οι κατάδικοι έχουν να διηγηθούν πολλά περί εμφανίσεως του Αράπη εντός του απομονωτηρίου θαλάμου, ιδίως των τιμωρουμένων, όπου οι πλείστοι έβγαιναν σε αθλία κατάσταση, φέροντες καταφανή σημάδια της νυκτερινής πάλης προς το στοιχειό."
-    },
-    {
-      "type": "text",
-      "value": "Αυτά που αναφέρει ο κ. Φλούδας στις ανακοινώσεις του τα έχει ακούσει και ο γράφων. Κάποτε που είχα πάει στο Ρίον για να μου διηγηθεί ο λήσταρχος Σκαρτσώρας την ιστορία της ζωής του, άκουσα εκεί πλήθος θρύλων για την εξαφάνιση σκοπών στρατιωτών και για την εμφάνιση του μυστηριώδους στοιχειού του παλαιστάτου φρουρίου…"
-    },
-    {
-      "type": "text",
-      "value": "ΤΑ ΠΕΙΡΑΜΑΤΑ ΤΟΥ ΣΥΝΔΕΣΜΟΥ"
-    },
-    {
-      "type": "text",
-      "value": "Όπως ανακοινώνει ο κ. Φλούδας, με το ζήτημα αυτό ασχολήθηκε ο Σύνδεσμος Ψυχικών Ερευνών των Πατρών στη συνεδρίασή του στις 17 Ιανουαρίου 1933."
-    },
-    {
-      "type": "text",
-      "value": "– Χρησιμοποιήσαμε, συνεχίζει ο κ. Φλούδας, ένα άριστο μέντιουμ, τη διδά Σ. Γ., η οποία, αφού βρέθηκε σε υπνωτιστική κατάσταση εντός του φρουρίου Ρίου, άρχισε να λέγει με τρέμουσα φωνή:"
-    },
-    {
-      "type": "text",
-      "value": "– Βλέπω μια σκιά. Δεν μοιάζει με φάντασμα… Η σκιά έρχεται αμίλητα κοντά μου… Φοβάμαι… Θέλω να φύγω… Γίνεται σκοτάδι πολύ…"
-    },
-    {
-      "type": "text",
-      "value": "– Όχι, δεν θα φύγεις, δεν φοβάσαι…"
-    },
-    {
-      "type": "text",
-      "value": "– Ναι. Δεν φοβούμαι, γιατί τώρα βλέπω φώτα πολλά, μεγάλα… Βγάζουν μακριές φλόγες, σαν πυροτεχνήματα… Οι φλόγες είναι σαν ατελείωτα… και σμίγουν όλες."
-    },
-    {
-      "type": "text",
-      "value": "– Α… οι φλόγες έφτιαξαν έναν Αράπη… Φοβούμαι… Με φοβερίζει…"
-    },
-    {
-      "type": "text",
-      "value": "– Διώχτε με!"
-    },
-    {
-      "type": "text",
-      "value": "– Δεν θα φύγεις. Ο Αράπης δεν σε πειράζει. Μπορείς να τον ρωτήσεις τι είναι και γιατί βρίσκεται εκεί."
-    },
-    {
-      "type": "text",
-      "value": "– Ω… Ναι. Δεν φοβούμαι. Τον ρωτώ… Οι φλόγες, που είδες, μου λέει, είναι πολλοί οι άνθρωποι που εργάσθηκαν να χτίσουν το φρούριο… Εγώ είμαι ο Ντιοβανέσκο, ο αρχιμάστορας, και βρίσκομαι εδώ πάντοτε, διότι μου αρέσει πολύ…"
-    },
-    {
-      "type": "text",
-      "value": "– Αισθάνομαι χαρά που βρίσκομαι σε αυτούς τους τόπους… Μεγαλύτερη χαρά αισθάνομαι όταν βλέπω στρατό να κατοικεί εδώ, διότι γι’ αυτόν τον σκοπό κτίσαμε το φρούριο… Λυπάμαι δυνατά όταν βλέπω φυλακισμένους και θέλω να τους τιμωρώ, διότι δεν θέλω στο σπίτι μου φυλακές, θέλω στρατώνες."
-    },
-    {
-      "type": "text",
-      "value": "Μόλις είπε αυτά το μέντιουμ, ξέσπασε αιφνιδίως σε φωνές τρόμου!"
-    },
-    {
-      "type": "text",
-      "value": "Δεν κατορθώσαμε να το συγκρατήσουμε ούτε εκείνο θέλησε να μας πει τι έβλεπε και το ξυπνήσαμε. Προσπαθήσαμε να επαναλάβουμε το πείραμα, αλλά στάθηκε αδύνατον, λόγω σκληράς αντιστάσεως του μέντιουμ."
-    },
-    {
-      "type": "text",
-      "value": "Ο ΠΡΩΤΟΜΑΣΤΟΡΑΣ ΝΤΙΟΒΑΝΕΝΚΟ"
-    },
-    {
-      "type": "text",
-      "value": "Συμπερασματικά ο κ. Φλούδας παραθέτει:"
-    },
-    {
-      "type": "text",
-      "value": "– Διαπιστώσαμε ότι το φρούριο του Ρίου είναι πράγματι στοιχειωμένο, ο δε Αράπης δεν είναι άλλος παρά ο πρωτομάστορας Ντιοβανέσκο, δηλαδή το «επιψυχίδιό» του, το οποίο, λόγω ατελούς διαπλάσεως, εμφανίζεται και ζητά εκδίκηση από τους μεταβαλόντας σε φυλακές το αρχικώς προορισμένο για πολεμικό κτίριο."
-    },
-    {
-      "type": "text",
-      "value": "Φαίνεται ότι ο πρωτομάστορας αυτός απέθανε πριν τελειοποιηθεί το κτίριο και, λόγω του μεγάλου πόθου που είχε εν ζωή να δει το φρούριο τελειωμένο, εμφανίζεται και γίνεται αισθητός από ανθρώπους έχοντας ιδιάζουσες ψυχικές ιδιότητες."
-    },
-    {
-      "type": "text",
-      "value": "Η ασκούμενη εκεί, μεταξύ άλλοτε στρατιωτών και καταδίκων, υποβολή και αυθυποβολή συνέτεινε επίσης στη συχνότητα και σκληρότητα των εμφανίσεων του στοιχειού αυτού, του βασανιζόμενου επιψυχιδίου, του πρωτομάστορα Ντιοβανέσκο."
-    },
-    {
-      "type": "text",
-      "value": "Τα γεγονότα αυτά, που αφηγείται ο κ. Φλούδας, είναι κάτι τι ελάχιστο μέσα στο πλήθος των αληθώς υπερφυσικών φαινομένων, που απέδειξαν οι έρευνες του πνευματισμού και της ψυχοφιλοσοφίας. Όλες αυτές τις έρευνες και τα περιεργότατα γεγονότα που διαπιστώθηκαν κατά αυτές θα αφηγηθούμε προχωρώντας."
-    },
-    {
-      "type": "text",
-      "value": "Κατά πρώτον, πολλά φαινόμενα παρουσιασθέντα στους αρχαίους χρόνους και σε διάφορες εποχές της ιστορίας. Έπειτα θα έλθουμε στις επιστημονικές παρατηρήσεις του πνευματισμού. Και κατόπιν θα αφηγηθούμε πνευματιστικά φαινόμενα που συνέβησαν στην Ελλάδα από την εποχή του ποιητή Δ. Σολωμού, ο οποίος ήταν ισχυρότατο μέντιουμ, μέχρι των ημερών μας."
-    },
-    {
-      "type": "text",
-      "value": "Θα αφηγηθούμε ακόμη και πλήθος περιεργοτάτων και καταπληκτικών φαινομένων που συνέβησαν σε όλα τα σημεία της γης και εξηγούνται ως επικοινωνίες των νεκρών με τους ζώντες."
-    },
-    {
-      "type": "text",
-      "value": "Φώτος Γιοφύλλης"
-    },
-    {
-      "type": "text",
-      "value": "ΕΘΝΙΚΗ ΣΗΜΑΙΑ 25.01.1935"
-    }
-  ],
-  "sources": [
-    {
-      "type": "newspaper",
-      "name": "Εθνική Σημαία",
-      "title": "Εφημερίδα Εθνική Σημαία",
-      "year": "1935",
-      "pages": "25.01.1935"
-    }
-  ],
-  "tags": [
-    "Πνευματισμός",
-    "Ψυχοφυσιολογία",
-    "Στοιχειωμένη Πάτρα",
-    "Ρίο",
-    "Ντιοβανέσκο",
-    "Ψυχικές Έρευνες"
-  ],
-  "seo": {
-    "metaTitle": "Στοιχειωμένη Πάτρα – Το φρούριο του Ρίου και το πνεύμα του Ντιοβανέσκο (1935)",
-    "metaDescription": "Άρθρο του Φώτου Γιοφύλλη για τις Ψυχικές Έρευνες στις Πάτρας και το στοιχειωμένο φρούριο του Ρίου, με καταπληκτικά πειράματα μέντιουμ.",
-    "canonical": "https://haunted.gr/arthra/epikoinonia-me-nekrous-psychofysiologia-1935-meros-4-stoicheiomeni-patra",
-    "keywords": [
-      "Στοιχειωμένη Πάτρα",
-      "Ρίο",
-      "Ντιοβανέσκο",
-      "Πνευματισμός",
-      "Ψυχοφυσιολογία",
-      "1935"
-    ]
-  }
-}
-
   ],
   "seo": {
     "metaTitle": "Παράξενα Φαινόμενα στην Ελλάδα | Αρχείο Εφημερίδων | haunted.gr",
@@ -4451,7 +5903,7 @@
         "url": "https://haunted.gr",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://haunted.gr/images/logo.png",
+          "url": "https://haunted.gr/haunted-logo.webp",
           "width": 512,
           "height": 512
         }

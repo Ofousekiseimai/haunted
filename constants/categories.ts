@@ -1,3 +1,6 @@
+import { DEFAULT_LOCALE, type Locale } from "@/lib/locale";
+import { translateSubcategoryLabel } from "@/lib/translations";
+
 export interface CategoryConfig {
   path: string;
   dataPath: string;
@@ -233,16 +236,7 @@ export const SUBCATEGORY_MAP: Record<string, SubcategoryConfig> = {
       src: "/images/katigories/zoudiaredes.webp",
       alt: "Ζουδιάρηδες - Σαββατιανοί",
     },
-  },
-  satanismos: {
-    displayName: "Σατανισμός",
-    description: "Σατανισμός, Σατανιστικές τελετές και Εγκλήματα απο όλη την Ελλάδα",
-    category: "efimerides",
-    slug: "satanismos",
-    image: {
-      src: "/images/katigories/satanismos.webp",
-      alt: "Σατανισμός",
-    },
+  
   },
   mageia: {
     displayName: "Μαγεία",
@@ -263,16 +257,7 @@ export const SUBCATEGORY_MAP: Record<string, SubcategoryConfig> = {
       src: "/images/katigories/egklimata.webp",
       alt: "Εγκλήματα",
     },
-  },
-  teletes: {
-    displayName: "Τελετές",
-    description: "Ίχνη Τελετών και Μαγείας στην Ελλάδα",
-    category: "efimerides",
-    slug: "teletes",
-    image: {
-      src: "/images/katigories/teletes.webp",
-      alt: "Τελετές",
-    },
+  
   },
   fainomena: {
     displayName: "Φαινόμενα",
@@ -360,14 +345,16 @@ export function getRouteConfig(pathSegments: string[]) {
   return null;
 }
 
-export function getSubcategoriesForCategory(categoryKey: string) {
+export function getSubcategoriesForCategory(categoryKey: string, locale: Locale = DEFAULT_LOCALE) {
   return Object.entries(SUBCATEGORY_MAP)
     .filter(([, value]) => value.category === categoryKey)
     .map(([slug, value]) => {
+      const displayName = translateSubcategoryLabel(slug, value.displayName, locale);
       const { slug: existingSlug, ...rest } = value;
       return {
         slug: existingSlug ?? slug,
         ...rest,
+        displayName,
       };
     });
 }

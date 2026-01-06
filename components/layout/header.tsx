@@ -4,9 +4,9 @@ import { useCallback, useEffect, useMemo, useState, type SVGProps } from "react"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { navigation } from "@/constants/navigation";
+import { getNavigation } from "@/constants/navigation";
 import { LanguageSwitch } from "./language-switch";
-import type { Locale } from "@/lib/content";
+import type { Locale } from "@/lib/locale";
 
 const SearchIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} {...props}>
@@ -67,11 +67,11 @@ export function Header({ initialLocale }: HeaderProps) {
 
   const toggleMobileMenu = useCallback(() => {
     setMobileOpen((current) => {
-      const next = !current;
-      if (!next) {
+      if (current) {
         setOpenDropdown(null);
+        return false;
       }
-      return next;
+      return true;
     });
   }, []);
 
@@ -112,7 +112,7 @@ export function Header({ initialLocale }: HeaderProps) {
           onMouseLeave={() => setOpenDropdown(null)}
         >
           <div className="relative flex items-center gap-2">
-            {navigation.map((item) => {
+            {getNavigation(initialLocale).map((item) => {
               const isActive =
                 item.url === "/"
                   ? pathname === item.url
@@ -243,37 +243,50 @@ export function Header({ initialLocale }: HeaderProps) {
       </div>
 
       {mobileOpen && (
-        <div className="fixed inset-0 z-[80] bg-n-8 lg:hidden">
+        <div
+          className="fixed inset-0 z-[1300] bg-n-8 lg:hidden"
+          onClick={closeMobileMenu}
+          role="presentation"
+        >
           <div className="pointer-events-none absolute inset-0 opacity-[.03] bg-n-8" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-n-8/0 to-n-8/100" />
 
-          <button
-            type="button"
-            aria-label="Κλείσιμο μενού"
-            className="absolute right-5 top-5 z-[81] flex h-10 w-10 items-center justify-center text-n-1 transition hover:text-color-1"
-            onClick={(event) => {
-              event.stopPropagation();
-              closeMobileMenu();
-            }}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              className="h-8 w-8"
+          <div className="pointer-events-none absolute inset-0 flex items-start justify-center pt-5">
+            <button
+              type="button"
+              aria-label="Κλείσιμο μενού"
+              className="pointer-events-auto z-[1302] flex h-12 w-12 items-center justify-center rounded-full bg-n-7/80 text-n-1 shadow-lg backdrop-blur transition hover:text-color-1"
+              onClick={(event) => {
+                event.stopPropagation();
+                closeMobileMenu();
+              }}
+              onTouchStart={(event) => {
+                event.stopPropagation();
+                closeMobileMenu();
+              }}
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                className="h-8 w-8"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
 
-          <div className="relative z-[81] flex h-full flex-col pt-16">
+          <div
+            className="relative z-[1301] flex h-full flex-col pt-16"
+            onClick={(event) => event.stopPropagation()}
+          >
             <div
               className="mobile-menu-container flex-1 overflow-y-auto px-4 pb-10 pt-6 no-scrollbar"
               style={{ WebkitOverflowScrolling: "touch" }}
             >
-              {navigation.map((item) => (
+              {getNavigation(initialLocale).map((item) => (
                 <div key={item.id} className="mb-4">
                   {item.subitems ? (
                     <>

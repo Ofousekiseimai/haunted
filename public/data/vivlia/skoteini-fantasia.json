@@ -1,0 +1,75 @@
+{
+  "category": "Βιβλία",
+  "subcategory": "Σκοτεινή Φαντασία",
+  "subcategorySlug": "skoteini-fantasia",
+  "slug": "/vivlia/skoteini-fantasia",
+  "seo": {
+    "metaTitle": "Σκοτεινή Φαντασία | Βιβλία | haunted.gr",
+    "metaDescription": "Νουβέλες και ιστορίες σκοτεινής φαντασίας με στοιχεία τρόμου και μυστικισμού από την Ελλάδα.",
+    "keywords": [
+      "σκοτεινή φαντασία",
+      "βιβλία τρόμου",
+      "haunted βιβλία"
+    ],
+    "canonical": "https://haunted.gr/vivlia/skoteini-fantasia"
+  },
+  "articles": [
+    {
+      "id": "B301",
+      "title": "Ομίχλη στον Ταΰγετο",
+      "slug": "omixli-ston-taygeto",
+      "author": "Νίκος Καστανός",
+      "date": "2022",
+      "excerpt": "Σε ένα ορεινό πέρασμα της Λακωνίας, μια ομίχλη φαίνεται να θυμάται κάθε βήμα όσων χάθηκαν εκεί.",
+      "image": {
+        "src": "/images/katigories/vrikolakes.jpg",
+        "alt": "Ορεινό μονοπάτι τυλιγμένο σε ομίχλη"
+      },
+      "purchaseUrl": "https://example.com/books/omixli-ston-taygeto",
+      "content": [
+        {
+          "type": "text",
+          "value": "Μια ιστορία τρόμου που συνδυάζει στοιχεία της λακωνικής παράδοσης με μια σύγχρονη αστυνομική πλοκή."
+        }
+      ]
+    },
+    {
+      "id": "B302",
+      "title": "Ο Ματωμένος Λαβύρινθος",
+      "slug": "o-matomenos-lavyrynthos",
+      "author": "Χριστίνα Γεωργίου",
+      "date": "2021",
+      "excerpt": "Κάθε στροφή του λαβύρινθου φέρνει πιο κοντά στο μυστικό ενός αρχαίου τελετουργικού που δεν ολοκληρώθηκε ποτέ.",
+      "image": {
+        "src": "/images/katigories/kalikatzaroi.png",
+        "alt": "Λαβύρινθος με κατακόκκινο φωτισμό"
+      },
+      "purchaseUrl": "https://example.com/books/o-matomenos-lavyrynthos",
+      "content": [
+        {
+          "type": "text",
+          "value": "Σκοτεινή φαντασία με αναφορές σε μύθους των Καρπάθιων και αστικούς θρύλους της παλιάς Αθήνας."
+        }
+      ]
+    },
+    {
+      "id": "B303",
+      "title": "Τα Θραύσματα της Νύχτας",
+      "slug": "ta-thrausmata-tis-nyxtas",
+      "author": "Ίριδα Χατζηδάκη",
+      "date": "2023",
+      "excerpt": "Μια συλλογή μικρών ιστοριών που συνδέονται μέσω ενός ραδιοφωνικού σήματος που ακούγεται μόνο τα μεσάνυχτα.",
+      "image": {
+        "src": "/images/og-default-image.webp",
+        "alt": "Ραδιόφωνο που φωτίζεται στο σκοτάδι"
+      },
+      "purchaseUrl": "https://example.com/books/ta-thrausmata-tis-nyxtas",
+      "content": [
+        {
+          "type": "text",
+          "value": "Κάθε κεφάλαιο είναι και μια διαφορετική μαρτυρία για έναν ήχο που φέρνει στο φως τις σκοτεινές πλευρές των ηρώων."
+        }
+      ]
+    }
+  ]
+}

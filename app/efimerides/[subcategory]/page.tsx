@@ -11,6 +11,7 @@ import {
 } from "@/lib/efimerides";
 import { formatCollectionDescription } from "@/lib/description";
 import { getRequestLocale } from "@/lib/locale-server";
+import { translateCategoryLabel, translateSubcategoryLabel } from "@/lib/translations";
 
 type PageProps = {
   params: Promise<{
@@ -55,11 +56,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {};
   }
 
-  const title = subcategory.seo?.metaTitle ?? subcategory.subcategory;
+  const title =
+    subcategory.seo?.metaTitle ??
+    translateSubcategoryLabel(subcategory.subcategorySlug ?? subcategory.slug, subcategory.subcategory, locale);
   const description = formatCollectionDescription(
     subcategory.seo?.metaDescription,
     subcategory.articles.length,
-    `Αρχειακά τεκμήρια και άρθρα από τον ελληνικό Τύπο για την ενότητα ${subcategory.subcategory}.`,
+    locale === "en"
+      ? `Press records and articles for the section ${translateSubcategoryLabel(
+          subcategory.subcategorySlug ?? subcategory.slug,
+          subcategory.subcategory,
+          locale,
+        )}.`
+      : `Αρχειακά τεκμήρια και άρθρα από τον ελληνικό Τύπο για την ενότητα ${subcategory.subcategory}.`,
   );
   const canonical = getCanonicalSlug(subcategory);
 
@@ -93,15 +102,24 @@ export default async function EfimeridesSubcategoryPage({ params }: PageProps) {
     notFound();
   }
 
+  const categoryLabel = translateCategoryLabel("efimerides", "Εφημερίδες", locale);
+  const subLabel = translateSubcategoryLabel(
+    subcategory.subcategorySlug ?? subcategory.slug,
+    subcategory.subcategory,
+    locale,
+  );
+
   return (
     <Section className="container space-y-12" customPaddings="py-12 lg:py-20">
       <SectionHeader
-        eyebrow="Εφημερίδες"
-        title={subcategory.subcategory}
+        eyebrow={categoryLabel}
+        title={subLabel}
         description={formatCollectionDescription(
           subcategory.seo?.metaDescription,
           subcategory.articles.length,
-          `Συλλογή ${subcategory.articles.length} άρθρων και τεκμηρίων από τον ελληνικό Τύπο.`,
+          locale === "en"
+            ? `Collection of ${subcategory.articles.length} press articles.`
+            : `Συλλογή ${subcategory.articles.length} άρθρων και τεκμηρίων από τον ελληνικό Τύπο.`,
         )}
       />
 
@@ -123,6 +141,7 @@ export default async function EfimeridesSubcategoryPage({ params }: PageProps) {
               location={location}
               tags={tags}
               image={article.image}
+              locale={locale}
             />
           );
         })}

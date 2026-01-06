@@ -1,0 +1,691 @@
+{
+  "category": "Folklore",
+  "subcategorySlug": "aerika",
+  "subcategory": "Aerika",
+  "slug": "/laografia/aerika",
+  "seo": {
+    "metaTitle": "Aerika | Folklore | haunted.gr",
+    "metaDescription": "Greek folklore accounts about Aerika across Macedonia, Thrace, and Evia.",
+    "canonical": "https://haunted.gr/laografia/aerika",
+    "keywords": [
+      "Aerika",
+      "Folklore",
+      "Greece"
+    ]
+  },
+  "articles": [
+    {
+      "id": "1",
+      "title": "Raptaioi, Evia – The Midnight Air-Spirit Wolf",
+      "slug": "lykos-aerika-mesanyhta-raptaioi",
+      "author": "Titos Giochalas",
+      "date": "2002-01-01",
+      "excerpt": "A shepherd tale from Raptaioi where a spectral “Wolf” tears through the flock at midnight. Only heard and felt, never seen, the entity is treated with fear and immobility at the stroke of twelve.",
+      "locationTags": [
+        "Raptaioi - Evia"
+      ],
+      "mainArea": "Evia",
+      "subLocation": "Raptaioi",
+      "lat": 38.24649,
+      "lng": 24.20174,
+      "image": {
+        "src": "/images/laografia/lykos-aerika-raptaioi.webp",
+        "alt": "The spectral wolf of the Aerika at midnight, Raptaioi"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Villagers spoke of a “Wolf” that appeared out of nowhere and tore at the flock. They never truly saw it—only heard and felt its presence. At midnight especially, shepherds would freeze in place, convinced the hour belonged to the Aerika."
+        },
+        {
+          "type": "text",
+          "value": "One elder would say, “Something just passed through the herd. It’s the Wolf.” Moving at twelve was forbidden; you stayed still, no matter the sounds, because it was the spirit’s hour."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Titos Giochalas",
+          "title": "Evia Ta Arvanitika, Patakis",
+          "year": "2002",
+          "pages": "231"
+        }
+      ],
+      "tags": [
+        "Raptaioi - Evia",
+        "Evia",
+        "Raptaioi",
+        "Aerika",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Raptaioi, Evia – The Midnight Air-Spirit Wolf | Aerika | haunted.gr",
+        "metaDescription": "Folklore account from Raptaioi, Evia about a spectral “Wolf” of the Aerika appearing at midnight.",
+        "canonical": "https://haunted.gr/laografia/aerika/lykos-aerika-mesanyhta-raptaioi",
+        "keywords": [
+          "Raptaioi - Evia",
+          "Aerika",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Raptaioi, Evia – The Midnight Air-Spirit Wolf",
+          "description": "Folklore account from Raptaioi, Evia about a spectral “Wolf” of the Aerika appearing at midnight.",
+          "inLanguage": "en",
+          "datePublished": "2002-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Titos Giochalas"
+          },
+          "image": "https://haunted.gr/images/laografia/lykos-aerika-raptaioi.webp",
+          "articleSection": "Aerika",
+          "keywords": [
+            "Raptaioi - Evia",
+            "Aerika",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/aerika/lykos-aerika-mesanyhta-raptaioi"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Evia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Raptaioi"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.24649,
+              "longitude": 24.20174
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "310",
+      "title": "The Air Spirits of Nigrita",
+      "slug": "ta-aerika-tis-nigritas",
+      "author": "George Frederick Abbott",
+      "date": "1903",
+      "excerpt": "Nigrita locals blamed chronic illness on the Aerika (air spirits). An elder woman refused medical help for her lingering fever, convinced only the Aerika were responsible.",
+      "mainArea": "Serres",
+      "subLocation": "Nigrita",
+      "locationTags": [
+        "Nigrita",
+        "Serres",
+        "Macedonia",
+        "Aerika",
+        "Aerika",
+        "folk healing",
+        "chronic illness"
+      ],
+      "lat": 40.905,
+      "lng": 23.4994,
+      "image": {
+        "src": "/images/laografia/ta-aerika-tis-nigritas.webp",
+        "alt": "Elderly woman in Nigrita speaking about the Aerika"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In the same area I met several people who attributed their ailments to the malice of the Air Spirits. An elderly woman complained about a year-long fever; when asked about a doctor, she replied, “What can doctors do? It’s an Aeriko—medicine does nothing to them.”"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "George Frederick Abbott",
+          "title": "Macedonian Folklore",
+          "year": "1903",
+          "pages": "224"
+        }
+      ],
+      "tags": [
+        "Nigrita",
+        "Serres",
+        "Macedonia",
+        "Aerika",
+        "Air Spirits",
+        "Folk Healing",
+        "Chronic Illness",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Air Spirits of Nigrita | Aerika | haunted.gr",
+        "metaDescription": "Nigrita locals blamed chronic illness on the Aerika. An elder woman rejected medicine, convinced the Aerika caused her fever.",
+        "canonical": "https://haunted.gr/laografia/aerika/ta-aerika-tis-nigritas",
+        "keywords": [
+          "Nigrita",
+          "Serres",
+          "Macedonia",
+          "Aerika",
+          "Air Spirits",
+          "Folk Healing",
+          "Chronic Illness",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Air Spirits of Nigrita",
+          "description": "Nigrita locals blamed chronic illness on the Aerika. An elder woman rejected medicine, convinced the Aerika caused her fever.",
+          "inLanguage": "en",
+          "datePublished": "1903",
+          "author": {
+            "@type": "Person",
+            "name": "George Frederick Abbott"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-aerika-tis-nigritas.webp",
+          "articleSection": "Aerika",
+          "keywords": [
+            "Nigrita",
+            "Serres",
+            "Macedonia",
+            "Aerika",
+            "Aerika",
+            "Folk Healing",
+            "Chronic Illness",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/aerika/ta-aerika-tis-nigritas"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Serres",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Nigrita"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.905,
+              "longitude": 23.4994
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "311",
+      "title": "The Whirlwind Charm and Alexander",
+      "slug": "i-anemosplada-kai-o-alexandros",
+      "author": "George Frederick Abbott",
+      "date": "1903",
+      "excerpt": "In Mesolakkia, Serres, a whirlwind called “anemosplada” is met with the chant “Alexander the Great lives and reigns.” The term links wind with the ancient word for dust.",
+      "mainArea": "Serres",
+      "subLocation": "Mesolakkia",
+      "locationTags": [
+        "Mesolakkia",
+        "Serres",
+        "Macedonia",
+        "whirlwind",
+        "folk charms",
+        "Alexander the Great",
+        "Herodotus"
+      ],
+      "lat": 41.0267,
+      "lng": 23.5,
+      "image": {
+        "src": "/images/laografia/i-anemosplada-kai-o-alexandros.webp",
+        "alt": "Whirlwind in rural Macedonia known as anemosplada"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Locals whisper “Alexander the Great lives and reigns” when a whirlwind—called anemosplada—spins past. The word combines wind with the ancient term for dust (spodos), a nod found in Herodotus."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "George Frederick Abbott",
+          "title": "Macedonian Folklore",
+          "year": "1903",
+          "pages": "250-251"
+        }
+      ],
+      "tags": [
+        "Mesolakkia",
+        "Serres",
+        "Macedonia",
+        "Whirlwind",
+        "Folk Charms",
+        "Alexander the Great",
+        "Herodotus",
+        "Aerika",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Whirlwind Charm and Alexander | Aerika | haunted.gr",
+        "metaDescription": "Whirlwind lore from Mesolakkia: the “anemosplada” and the chant about Alexander the Great.",
+        "canonical": "https://haunted.gr/laografia/aerika/i-anemosplada-kai-o-alexandros",
+        "keywords": [
+          "Mesolakkia",
+          "Serres",
+          "Macedonia",
+          "Whirlwind",
+          "Folk Charms",
+          "Alexander the Great",
+          "Herodotus",
+          "Aerika",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Whirlwind Charm and Alexander",
+          "description": "Whirlwind lore from Mesolakkia: the “anemosplada” and the chant about Alexander the Great.",
+          "inLanguage": "en",
+          "datePublished": "1903",
+          "author": {
+            "@type": "Person",
+            "name": "George Frederick Abbott"
+          },
+          "image": "https://haunted.gr/images/laografia/i-anemosplada-kai-o-alexandros.webp",
+          "articleSection": "Aerika",
+          "keywords": [
+            "Mesolakkia",
+            "Serres",
+            "Macedonia",
+            "Whirlwind",
+            "Folk Charms",
+            "Alexander the Great",
+            "Herodotus",
+            "Aerika",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/aerika/i-anemosplada-kai-o-alexandros"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Serres",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mesolakkia"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.0267,
+              "longitude": 23.5
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "312",
+      "title": "The Air Spirit at Giannitsa",
+      "slug": "to-aeriko-sta-giannitsa",
+      "author": "George Frederick Abbott",
+      "date": "1903",
+      "excerpt": "A caravan near Giannitsa was harassed by a mottled ghost-dog. Each time someone reached for it, the animal turned to air and later vanished by the Axios river.",
+      "mainArea": "Giannitsa",
+      "subLocation": "",
+      "locationTags": [
+        "Giannitsa",
+        "Macedonia",
+        "Aeriko",
+        "mottled dog",
+        "caravan",
+        "Axios",
+        "paranormal incidents"
+      ],
+      "lat": 40.7894,
+      "lng": 22.4072,
+      "image": {
+        "src": "/images/laografia/to-aeriko-sta-giannitsa.webp",
+        "alt": "Caravan on the Macedonian plain where the ghost-dog appeared"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A caravan traveling at night was joined by a mottled dog that teased the mules. A brave driver tried to grab it; each time his hand reached out, the creature became air. It vanished only when they reached the banks of the Axios."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "George Frederick Abbott",
+          "title": "Macedonian Folklore",
+          "year": "1903",
+          "pages": "252-253"
+        }
+      ],
+      "tags": [
+        "Giannitsa",
+        "Macedonia",
+        "Aeriko",
+        "Mottled Dog",
+        "Caravan",
+        "Axios",
+        "Paranormal",
+        "Aerika",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Air Spirit at Giannitsa | Aerika | haunted.gr",
+        "metaDescription": "A mottled ghost-dog plagued a caravan near Giannitsa, turning to air when touched and vanishing by the Axios river.",
+        "canonical": "https://haunted.gr/laografia/aerika/to-aeriko-sta-giannitsa",
+        "keywords": [
+          "Giannitsa",
+          "Macedonia",
+          "Aeriko",
+          "Mottled Dog",
+          "Caravan",
+          "Axios",
+          "Paranormal",
+          "Aerika",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Air Spirit at Giannitsa",
+          "description": "A mottled ghost-dog plagued a caravan near Giannitsa, turning to air when touched and vanishing by the Axios river.",
+          "inLanguage": "en",
+          "datePublished": "1903",
+          "author": {
+            "@type": "Person",
+            "name": "George Frederick Abbott"
+          },
+          "image": "https://haunted.gr/images/laografia/to-aeriko-sta-giannitsa.webp",
+          "articleSection": "Aerika",
+          "keywords": [
+            "Giannitsa",
+            "Macedonia",
+            "Aeriko",
+            "Mottled Dog",
+            "Caravan",
+            "Axios",
+            "Paranormal",
+            "Aerika",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/aerika/to-aeriko-sta-giannitsa"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Giannitsa",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.7894,
+              "longitude": 22.4072
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "313",
+      "title": "The Goat-Spirit and the Bent-Neck",
+      "slug": "i-katsika-aeriko-kai-o-stravosnichis",
+      "author": "George Frederick Abbott",
+      "date": "1903",
+      "excerpt": "In Galatista, Halkidiki, a villager earned the nickname “Stravosnichis” after trying to carry a stray goat that vanished into thin air, leaving him deformed.",
+      "mainArea": "Halkidiki",
+      "subLocation": "Galatista",
+      "locationTags": [
+        "Galatista",
+        "Halkidiki",
+        "Macedonia",
+        "Aeriko",
+        "goat spirit",
+        "shape-shifting spirit",
+        "nickname"
+      ],
+      "lat": 40.4681,
+      "lng": 23.2686,
+      "image": {
+        "src": "/images/laografia/i-katsika-aeriko-kai-o-stravosnichis.webp",
+        "alt": "Galatista village in Halkidiki, site of the goat-spirit encounter"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A farmer in Galatista bore the nickname “Stravosnichis” after a nighttime encounter: he lifted what he thought was a harmless stray goat to take home, but it vanished mid-carry, leaving him permanently disfigured."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "George Frederick Abbott",
+          "title": "Macedonian Folklore",
+          "year": "1903",
+          "pages": "253"
+        }
+      ],
+      "tags": [
+        "Galatista",
+        "Halkidiki",
+        "Macedonia",
+        "Aeriko",
+        "Goat Spirit",
+        "Shape-shifting Spirit",
+        "Nickname",
+        "Aerika",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Goat-Spirit and the Bent-Neck | Aerika | haunted.gr",
+        "metaDescription": "A villager in Galatista lifted a stray goat that vanished into air, leaving him deformed—earning the nickname Stravosnichis.",
+        "canonical": "https://haunted.gr/laografia/aerika/i-katsika-aeriko-kai-o-stravosnichis",
+        "keywords": [
+          "Galatista",
+          "Halkidiki",
+          "Macedonia",
+          "Aeriko",
+          "Goat Spirit",
+          "Shape-shifting Spirit",
+          "Nickname",
+          "Aerika",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Goat-Spirit and the Bent-Neck",
+          "description": "A villager in Galatista lifted a stray goat that vanished into air, leaving him deformed—earning the nickname Stravosnichis.",
+          "inLanguage": "en",
+          "datePublished": "1903",
+          "author": {
+            "@type": "Person",
+            "name": "George Frederick Abbott"
+          },
+          "image": "https://haunted.gr/images/laografia/i-katsika-aeriko-kai-o-stravosnichis.webp",
+          "articleSection": "Aerika",
+          "keywords": [
+            "Galatista",
+            "Halkidiki",
+            "Macedonia",
+            "Aeriko",
+            "Goat Spirit",
+            "Shape-shifting Spirit",
+            "Nickname",
+            "Aerika",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/aerika/i-katsika-aeriko-kai-o-stravosnichis"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Halkidiki",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Galatista"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.4681,
+              "longitude": 23.2686
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "384",
+      "title": "Fire Spirits near Isaakio",
+      "slug": "ta-aerika-tis-fotias-isaakio-evros-isaakio",
+      "author": "",
+      "date": "1971-01-01",
+      "excerpt": "First-hand testimony of a smokeless fire seen in 1935 near Isaakio, Evros—suspected to be the work of Aerika.",
+      "locationTags": [
+        "Isaakio - Evros"
+      ],
+      "mainArea": "Evros",
+      "subLocation": "Isaakio",
+      "lat": 41.3621,
+      "lng": 26.5395,
+      "image": {
+        "src": "/images/laografia/ta-aerika-tis-fotias-isaakio-evros-isaakio.webp",
+        "alt": "Field near Isaakio, Evros where a smokeless fire was seen"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Around 1935, two shepherds near Isaakio saw a fire burning bright in the grass with no smoke. Frightened, they kept their distance; by morning, no trace remained. Locals attributed it to the Aerika."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "",
+          "title": "Thrakika vol. 45, Folklore of Isaakio Didymoteicho",
+          "year": "1971",
+          "pages": "211"
+        }
+      ],
+      "tags": [
+        "Isaakio - Evros",
+        "Evros",
+        "Isaakio",
+        "Aerika",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Fire Spirits near Isaakio | Aerika | haunted.gr",
+        "metaDescription": "Smokeless fire sighting near Isaakio, Evros in 1935, attributed to the Aerika.",
+        "canonical": "https://haunted.gr/laografia/aerika/ta-aerika-tis-fotias-isaakio-evros-isaakio",
+        "keywords": [
+          "Isaakio - Evros",
+          "Evros",
+          "Isaakio",
+          "Aerika",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Fire Spirits near Isaakio",
+          "description": "Smokeless fire sighting near Isaakio, Evros in 1935, attributed to the Aerika.",
+          "inLanguage": "en",
+          "datePublished": "1971-01-01",
+          "image": "https://haunted.gr/images/laografia/ta-aerika-tis-fotias-isaakio-evros-isaakio.webp",
+          "articleSection": "Aerika",
+          "keywords": [
+            "Isaakio - Evros",
+            "Evros",
+            "Isaakio",
+            "Aerika",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/aerika/ta-aerika-tis-fotias-isaakio-evros-isaakio"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Evros",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Isaakio"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.3621,
+              "longitude": 26.5395
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

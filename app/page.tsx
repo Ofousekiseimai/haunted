@@ -5,7 +5,10 @@ import {
   HomeCategorySection,
   type HomeCategorySubsection,
 } from "@/components/home/category-section";
+import { HomeBooksSection } from "@/components/home/books-section";
 import { YoutubeSection } from "@/components/home/youtube-section";
+import { getHomeCopy } from "@/lib/i18n/ui";
+import { getBooksForHome } from "@/lib/books";
 import { getHomeCategorySections } from "@/lib/home";
 import { getYoutubeData } from "@/lib/youtube";
 import { getAllEtaireiaSubcategories } from "@/lib/etaireia";
@@ -88,11 +91,13 @@ function extractMonthDay(date?: string | null): MonthDay | null {
 
 export default async function HomePage() {
   const locale = await getRequestLocale();
-  const [laografia, efimerides, etaireia, etaireiaFull, youtubeData] = await Promise.all([
+  const homeCopy = getHomeCopy(locale);
+  const [laografia, efimerides, etaireia, etaireiaFull, books, youtubeData] = await Promise.all([
     getHomeCategorySections("laografia", 6, locale),
     getHomeCategorySections("efimerides", 6, locale),
     getHomeCategorySections("etaireia-psychikon-ereynon", 6, locale),
     getAllEtaireiaSubcategories(locale),
+    getBooksForHome(8, locale),
     getYoutubeData(),
   ]);
 
@@ -139,44 +144,49 @@ export default async function HomePage() {
 
   return (
     <>
-      <HomeHero />
+      <HomeHero locale={locale} />
 
       <div className="container space-y-20 py-16">
         {hasArticles(laografia) && (
           <HomeCategorySection
             id="laografia"
-            heading="Άρθρα Παραδόσεις / Λαογραφία"
-            description="Συλλογές για στοιχειά, νεράιδες, βρυκόλακες και πλάσματα της ελληνικής παράδοσης."
+            heading={homeCopy.sections.laografia.heading}
+            description={homeCopy.sections.laografia.description}
             categorySlug="laografia"
             subcategories={laografia}
-            defaultSubcategorySlug="vrikolakes"
+            defaultSubcategorySlug={homeCopy.sections.laografia.defaultSub}
+            locale={locale}
           />
         )}
 
         {hasArticles(efimerides) && (
           <HomeCategorySection
             id="efimerides"
-            heading="Άρθρα Εφημερίδων"
-            description="Παράξενα φαινόμενα, εγκλήματα και τελετές όπως καταγράφηκαν στον ελληνικό Τύπο."
+            heading={homeCopy.sections.efimerides.heading}
+            description={homeCopy.sections.efimerides.description}
             categorySlug="efimerides"
             subcategories={efimerides}
-            defaultSubcategorySlug="fainomena"
+            defaultSubcategorySlug={homeCopy.sections.efimerides.defaultSub}
+            locale={locale}
           />
         )}
 
         {hasArticles(etaireia) && (
           <HomeCategorySection
             id="etaireia-psychikon-ereynon"
-            heading="Εταιρεία Ψυχικών Ερευνών"
-            description="Έρευνες, πειράματα και δημοσιεύσεις από τα αρχεία της Εταιρίας Ψυχικών Ερευνών."
+            heading={homeCopy.sections.etaireia.heading}
+            description={homeCopy.sections.etaireia.description}
             categorySlug="etaireia-psychikon-ereynon"
             subcategories={etaireia}
             spotlight={etaireiaSpotlight}
+            locale={locale}
           />
         )}
       </div>
 
-      {youtubeData && <YoutubeSection data={youtubeData} />}
+      {books.length > 0 && <HomeBooksSection books={books} locale={locale} />}
+
+      {youtubeData && <YoutubeSection data={youtubeData} locale={locale} />}
     </>
   );
 }

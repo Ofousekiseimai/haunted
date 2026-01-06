@@ -13,6 +13,7 @@ type CategoryArticleCardProps = {
     src: string;
     alt?: string;
   };
+  locale?: "el" | "en";
 };
 
 function formatDate(date?: string) {
@@ -37,8 +38,9 @@ function formatDate(date?: string) {
 }
 
 export function CategoryArticleCard(props: CategoryArticleCardProps) {
-  const { href, title, excerpt, date, author, location, tags, image } = props;
+  const { href, title, excerpt, date, author, location, tags, image, locale = "el" } = props;
   const formattedDate = formatDate(date);
+  const readMoreLabel = locale === "en" ? "Read Article →" : "Διάβασε το άρθρο →";
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-3xl border surface-border surface-card transition hover:border-primary-400 hover:bg-zinc-900">
@@ -89,7 +91,7 @@ export function CategoryArticleCard(props: CategoryArticleCardProps) {
           href={href}
           className="mt-auto inline-flex items-center text-sm font-semibold text-primary-300 transition hover:text-primary-200"
         >
-          Διάβασε το άρθρο →
+          {readMoreLabel}
         </Link>
       </div>
     </article>

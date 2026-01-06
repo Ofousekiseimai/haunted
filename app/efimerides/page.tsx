@@ -6,6 +6,7 @@ import { SectionHeader } from "@/components/section-header";
 import { getAllEfimeridesSubcategories } from "@/lib/efimerides";
 import { formatCollectionDescription } from "@/lib/description";
 import { getRequestLocale } from "@/lib/locale-server";
+import { translateCategoryLabel, translateSubcategoryLabel } from "@/lib/translations";
 
 export const metadata: Metadata = {
   title: "Άρθρα Εφημερίδων",
@@ -36,20 +37,27 @@ export default async function EfimeridesIndexPage() {
     0,
   );
 
+  const categoryLabel = translateCategoryLabel("efimerides", "Εφημερίδες", locale);
+  const title =
+    locale === "en" ? "Paranormal Newspaper Archive" : "Παραφυσικός Αρχείο Εφημερίδων";
+  const description = formatCollectionDescription(
+    undefined,
+    totalArticles,
+    locale === "en"
+      ? "Recorded stories and documents from the Greek press highlighting strange phenomena, crimes, and rituals."
+      : "Καταγεγραμμένες ιστορίες και τεκμήρια από τον ελληνικό Τύπο που φωτίζουν παράξενα φαινόμενα, εγκλήματα και τελετές.",
+  );
+
   return (
     <Section className="container space-y-12" customPaddings="py-12 lg:py-20">
       <SectionHeader
-        eyebrow="Εφημερίδες"
-        title="Παραφυσικός Αρχείο Εφημερίδων"
-        description={formatCollectionDescription(
-          undefined,
-          totalArticles,
-          "Καταγεγραμμένες ιστορίες και τεκμήρια από τον ελληνικό Τύπο που φωτίζουν παράξενα φαινόμενα, εγκλήματα και τελετές.",
-        )}
+        eyebrow={categoryLabel}
+        title={title}
+        description={description}
       />
 
       <p className="text-sm uppercase tracking-[0.28em] text-zinc-500">
-        Συνολικά τεκμήρια: {totalArticles}
+        {locale === "en" ? "Total records" : "Συνολικά τεκμήρια"}: {totalArticles}
       </p>
 
       <div className="grid gap-8 md:grid-cols-2">
@@ -57,12 +65,22 @@ export default async function EfimeridesIndexPage() {
           <CategorySubcategoryCard
             key={subcategory.subcategorySlug}
             href={`/efimerides/${subcategory.subcategorySlug ?? subcategory.slug}`}
-            categoryLabel="Εφημερίδες"
-            title={subcategory.subcategory}
+            categoryLabel={categoryLabel}
+            title={translateSubcategoryLabel(
+              subcategory.subcategorySlug ?? subcategory.slug,
+              subcategory.subcategory,
+              locale,
+            )}
             description={formatCollectionDescription(
               subcategory.seo?.metaDescription,
               subcategory.articles.length,
-              `Συλλογή ${subcategory.articles.length} άρθρων από τον ελληνικό Τύπο για ${subcategory.subcategory}.`,
+              locale === "en"
+                ? `Collection of ${subcategory.articles.length} press articles about ${translateSubcategoryLabel(
+                    subcategory.subcategorySlug ?? subcategory.slug,
+                    subcategory.subcategory,
+                    locale,
+                  )}.`
+                : `Συλλογή ${subcategory.articles.length} άρθρων από τον ελληνικό Τύπο για ${subcategory.subcategory}.`,
             )}
             articleCount={subcategory.articles.length}
           />

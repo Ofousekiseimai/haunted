@@ -1,3 +1,6 @@
+import { DEFAULT_LOCALE, type Locale } from "@/lib/locale";
+import { translateCategoryLabel, translateSubcategoryLabel } from "@/lib/translations";
+
 export type NavigationSubitem = {
   slug: string;
   title: string;
@@ -12,7 +15,7 @@ export type NavigationItem = {
   subitems?: NavigationSubitem[];
 };
 
-export const navigation: NavigationItem[] = [
+const navigationBase: NavigationItem[] = [
   {
     id: "0",
     title: "Αρχικη",
@@ -75,11 +78,20 @@ export const navigation: NavigationItem[] = [
       { slug: "all", title: "Όλα", url: "/efimerides" },
       { slug: "egklimata", title: "Εγκλήματα", url: "/efimerides/egklimata" },
       { slug: "mageia", title: "Μαγεία", url: "/efimerides/mageia" },
-      { slug: "teletes", title: "Τελετές", url: "/efimerides/teletes" },
-      { slug: "satanismos", title: "Σατανισμός", url: "/efimerides/satanismos" },
       { slug: "pnevmatismos", title: "Πνευματισμός", url: "/efimerides/pnevmatismos" },
       { slug: "fainomena", title: "Φαινόμενα", url: "/efimerides/fainomena" },
     ],
+  },
+  {
+    id: "7",
+    title: "Χρονολογια",
+    url: "/chronologia",
+    subitems: [
+      { slug: "all", title: "Όλα", url: "/chronologia" },
+      { slug: "egklimata", title: "Χρονολόγιο του Παραφυσικού", url: "/chronologia/parafysiko" },
+      { slug: "etaireia-psychikon-ereynon", title: "Χρονολόγιο Εταιρίας Ψυχικών Ερευνών", url: "/chronologia/etaireia-psychikon-ereynon" },
+    ],
+    
   },
   {
     id: "4",
@@ -91,6 +103,23 @@ export const navigation: NavigationItem[] = [
     ],
   },
   {
+    id: "8",
+    title: "Βιβλια",
+    url: "/vivlia",
+   // subitems: [
+    //  { slug: "all-books", title: "Όλα", url: "/vivlia" },
+     // {
+     //   slug: "laografika-mythistorimata",
+     //   title: "Λαογραφικά Μυθιστορήματα",
+     //   url: "/vivlia/laografika-mythistorimata",
+     // },
+     // { slug: "erevna", title: "Έρευνα", url: "/vivlia/erevna" },
+     // { slug: "skoteini-fantasia", title: "Σκοτεινή Φαντασία", url: "/vivlia/skoteini-fantasia" },
+    //],
+  },
+  
+  
+  {
     id: "5",
     title: "Σχετικα",
     url: "/about-us",
@@ -101,3 +130,56 @@ export const navigation: NavigationItem[] = [
     url: "/search",
   },
 ];
+
+function localizeTitle(item: NavigationItem, locale: Locale) {
+  switch (item.id) {
+    case "0":
+      return translateCategoryLabel("home", item.title, locale);
+    case "1":
+      return translateCategoryLabel("laografia", item.title, locale);
+    case "2":
+      return translateCategoryLabel("etaireia-psychikon-ereynon", item.title, locale);
+    case "3":
+      return translateCategoryLabel("efimerides", item.title, locale);
+    case "4":
+      return translateCategoryLabel("map", item.title, locale);
+    case "5":
+      return translateCategoryLabel("about", item.title, locale);
+    case "6":
+      return translateCategoryLabel("search", item.title, locale);
+    case "7":
+      return translateCategoryLabel("chronologia", item.title, locale);
+    case "8":
+      return translateCategoryLabel("vivlia", item.title, locale);
+    default:
+      return item.title;
+  }
+}
+
+function localizeSubitemTitle(slug: string, title: string, locale: Locale) {
+  if (slug === "all") {
+    return translateSubcategoryLabel("all", title, locale);
+  }
+  if (slug === "all-books") {
+    return translateSubcategoryLabel("allBooks", title, locale);
+  }
+  return translateSubcategoryLabel(slug, title, locale);
+}
+
+export function getNavigation(locale: Locale = DEFAULT_LOCALE): NavigationItem[] {
+  return navigationBase.map((item) => {
+    const localizedItem: NavigationItem = {
+      ...item,
+      title: localizeTitle(item, locale),
+    };
+
+    if (item.subitems) {
+      localizedItem.subitems = item.subitems.map((subitem) => ({
+        ...subitem,
+        title: localizeSubitemTitle(subitem.slug, subitem.title, locale),
+      }));
+    }
+
+    return localizedItem;
+  });
+}

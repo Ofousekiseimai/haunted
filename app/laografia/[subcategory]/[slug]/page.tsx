@@ -10,6 +10,7 @@ import { RandomArticles } from "@/components/article/random-articles";
 import { Section } from "@/components/section";
 import { getAllLaografiaArticleParams, getLaografiaArticle, type ArticleContentBlock } from "@/lib/laografia";
 import { getRequestLocale } from "@/lib/locale-server";
+import { translateCategoryLabel, translateSubcategoryLabel } from "@/lib/translations";
 
 const SITE_BASE_URL = "https://haunted.gr";
 
@@ -220,6 +221,13 @@ export default async function LaografiaArticlePage({ params }: PageProps) {
     sources.push(article.source as ArticleSource);
   }
 
+  const localizedCategory = translateCategoryLabel(subcategory.category, subcategory.category, locale);
+  const localizedSubcategory = translateSubcategoryLabel(
+    subcategory.subcategorySlug ?? subcategory.slug,
+    subcategory.subcategory,
+    locale,
+  );
+
   const mainArea = (article as { mainArea?: string }).mainArea;
   const subLocation = (article as { subLocation?: string }).subLocation;
   const subLocation2 = (article as { subLocation2?: string }).subLocation2;
@@ -280,7 +288,7 @@ export default async function LaografiaArticlePage({ params }: PageProps) {
           name: "haunted.gr",
           logo: {
             "@type": "ImageObject",
-            url: "https://haunted.gr/logo.png",
+            url: "https://haunted.gr/haunted-logo.webp",
             width: 300,
             height: 60,
           },
@@ -311,7 +319,7 @@ export default async function LaografiaArticlePage({ params }: PageProps) {
     <Section className="container max-w-4xl space-y-10" customPaddings="py-12 lg:py-20">
       <header className="flex flex-col gap-6">
         <span className="text-xs font-code uppercase tracking-widest text-n-4">
-          {subcategory.category} · {subcategory.subcategory}
+          {localizedCategory} · {localizedSubcategory}
         </span>
         <h1 className="text-4xl font-bold text-n-1">
           {article.title}
@@ -348,12 +356,14 @@ export default async function LaografiaArticlePage({ params }: PageProps) {
         mainArea={mainArea}
         subLocation={subLocation}
         subLocation2={subLocation2}
+        locale={locale}
       />
 
       <ArticleSources
         sources={sources}
         articleDate={typeof article.date === "string" ? article.date : undefined}
         articleAuthor={typeof article.author === "string" ? article.author : undefined}
+        locale={locale}
       />
 
       <script

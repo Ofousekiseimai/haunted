@@ -4,6 +4,8 @@ import { useMemo, useState } from "react";
 
 import { CategoryArticleCard } from "./article-card";
 import type { CategoryArticleSummary, GenericCategoryKey } from "@/lib/generic-category";
+import type { Locale } from "@/lib/locale";
+import { getFiltersCopy } from "@/lib/i18n/ui";
 
 type FilterOption = {
   value: string;
@@ -14,6 +16,7 @@ type CategoryFilteredListProps = {
   categoryKey: GenericCategoryKey;
   subcategorySlug: string;
   articles: CategoryArticleSummary[];
+  locale?: Locale;
 };
 
 function toOption(value: string | null | undefined, fallbackLabel?: string): FilterOption | null {
@@ -39,10 +42,12 @@ export function CategoryFilteredList({
   categoryKey,
   subcategorySlug,
   articles,
+  locale = "el",
 }: CategoryFilteredListProps) {
   const [selectedMainArea, setSelectedMainArea] = useState("all");
   const [selectedSubLocationRaw, setSelectedSubLocationRaw] = useState("all");
   const [selectedYearRaw, setSelectedYearRaw] = useState("all");
+  const copy = getFiltersCopy(locale);
 
   const mainAreaOptions = useMemo(() => {
     const options = articles
@@ -58,7 +63,7 @@ export function CategoryFilteredList({
       }
     });
 
-    return [{ value: "all", label: "Όλες οι περιοχές" }, ...sortOptions(Array.from(unique.values()))];
+    return [{ value: "all", label: copy.allAreas }, ...sortOptions(Array.from(unique.values()))];
   }, [articles]);
 
   const subLocationOptions = useMemo(() => {
@@ -79,10 +84,7 @@ export function CategoryFilteredList({
       }
     });
 
-    return [
-      { value: "all", label: "Όλες οι τοποθεσίες" },
-      ...sortOptions(Array.from(unique.values())),
-    ];
+    return [{ value: "all", label: copy.allLocations }, ...sortOptions(Array.from(unique.values()))];
   }, [articles, selectedMainArea]);
 
   const resolvedSubLocation = useMemo(() => {
@@ -115,10 +117,7 @@ export function CategoryFilteredList({
       }
     });
 
-    return [
-      { value: "all", label: "Όλες οι χρονιές" },
-      ...sortYearOptions(Array.from(unique.values())),
-    ];
+    return [{ value: "all", label: copy.allYears }, ...sortYearOptions(Array.from(unique.values()))];
   }, [articles, selectedMainArea, resolvedSubLocation]);
 
   const resolvedYear = useMemo(() => {
@@ -140,7 +139,7 @@ export function CategoryFilteredList({
     <div className="space-y-10">
       <div className="grid gap-4 md:grid-cols-3">
         <label className="flex flex-col gap-2 text-sm font-medium text-zinc-300">
-          <span>Περιοχή</span>
+          <span>{copy.area}</span>
           <select
             value={selectedMainArea}
             onChange={(event) => {
@@ -160,7 +159,7 @@ export function CategoryFilteredList({
         </label>
 
         <label className="flex flex-col gap-2 text-sm font-medium text-zinc-300">
-          <span>Οικισμός / Τοποθεσία</span>
+          <span>{copy.location}</span>
           <select
             value={resolvedSubLocation}
             onChange={(event) => {
@@ -179,7 +178,7 @@ export function CategoryFilteredList({
         </label>
 
         <label className="flex flex-col gap-2 text-sm font-medium text-zinc-300">
-          <span>Έτος</span>
+          <span>{copy.year}</span>
           <select
             value={resolvedYear}
             onChange={(event) => setSelectedYearRaw(event.target.value)}
@@ -195,12 +194,12 @@ export function CategoryFilteredList({
       </div>
 
       <p className="text-sm text-zinc-400">
-        Εμφανίζονται {filteredArticles.length} από {articles.length} τεκμήρια.
+        {copy.showing} {filteredArticles.length} {copy.of} {articles.length}
       </p>
 
       {filteredArticles.length === 0 ? (
         <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-8 text-center text-sm text-zinc-400">
-          Δεν βρέθηκαν άρθρα με τα επιλεγμένα φίλτρα.
+          {copy.noResults}
         </div>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

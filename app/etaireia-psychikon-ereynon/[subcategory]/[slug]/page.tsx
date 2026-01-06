@@ -279,7 +279,7 @@ export default async function EtaireiaArticlePage({ params }: PageProps) {
           name: "haunted.gr",
           logo: {
             "@type": "ImageObject",
-            url: "https://haunted.gr/logo.png",
+            url: "https://haunted.gr/haunted-logo.webp",
             width: 300,
             height: 60,
           },
@@ -348,12 +348,14 @@ export default async function EtaireiaArticlePage({ params }: PageProps) {
         mainArea={mainArea}
         subLocation={subLocation}
         subLocation2={subLocation2}
+        locale={locale}
       />
 
       <ArticleSources
         sources={sources}
         articleDate={typeof article.date === "string" ? article.date : undefined}
         articleAuthor={typeof article.author === "string" ? article.author : undefined}
+        locale={locale}
       />
 
       <script

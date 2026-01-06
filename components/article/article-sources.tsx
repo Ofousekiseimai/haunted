@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+import type { Locale } from "@/lib/locale";
+import { getArticleCopy } from "@/lib/i18n/ui";
+
 type LinkEntry = {
   title?: string | null;
   link?: string | null;
@@ -37,6 +40,7 @@ type ArticleSourcesProps = {
   heading?: string;
   articleDate?: string | null;
   articleAuthor?: string | null;
+  locale?: Locale;
 };
 
 function normalizeString(value?: string | null) {
@@ -66,30 +70,31 @@ function SourceLine({ label, value }: { label: string; value?: string | null }) 
   );
 }
 
-function renderSourceDetails(entry: StructuredSource) {
+function renderSourceDetails(entry: StructuredSource, copy: ReturnType<typeof getArticleCopy>) {
   const type = normalizeString(entry.type)?.toLowerCase();
+  const L = copy.sources.labels;
 
   switch (type) {
     case "book":
       return (
         <div className="space-y-2">
-          <SourceLine label="Συγγραφέας" value={entry.name} />
-          <SourceLine label="Τίτλος" value={entry.title} />
+          <SourceLine label={L.author} value={entry.name} />
+          <SourceLine label={L.title} value={entry.title} />
           <div className="flex flex-wrap gap-6">
-            <SourceLine label="Έτος" value={entry.year} />
-            <SourceLine label="Σελίδες" value={entry.pages} />
+            <SourceLine label={L.year} value={entry.year} />
+            <SourceLine label={L.pages} value={entry.pages} />
           </div>
         </div>
       );
     case "contributor":
       return (
         <div className="space-y-3">
-          <SourceLine label="Συντελεστής" value={entry.name} />
-          <SourceLine label="Ρόλος" value={entry.role} />
+          <SourceLine label={L.contributor} value={entry.name} />
+          <SourceLine label={L.role} value={entry.role} />
           {entry.links && entry.links.length > 0 && (
             <div className="space-y-2">
               <p className="text-sm font-medium uppercase tracking-[0.24em] text-n-4">
-                Συνδέσεις
+                {L.links}
               </p>
               <ul className="space-y-1">
                 {entry.links.map((link, index) => {
@@ -121,49 +126,49 @@ function renderSourceDetails(entry: StructuredSource) {
     case "newspaper":
       return (
         <div className="space-y-2">
-          <SourceLine label="Εφημερίδα" value={entry.name} />
-          <SourceLine label="Τίτλος" value={entry.title} />
+          <SourceLine label={copy.sources.typeLabels.newspaper} value={entry.name} />
+          <SourceLine label={L.title} value={entry.title} />
           <div className="flex flex-wrap gap-6">
-            <SourceLine label="Συγγραφέας" value={entry.author} />
-            <SourceLine label="Ημερομηνία" value={entry.date ?? entry.eventDate} />
-            <SourceLine label="Έτος" value={entry.year} />
-            <SourceLine label="Έκδοση" value={entry.issue} />
-            <SourceLine label="Σελίδες" value={entry.pages ?? entry.page} />
+            <SourceLine label={L.author} value={entry.author} />
+            <SourceLine label={L.date} value={entry.date ?? entry.eventDate} />
+            <SourceLine label={L.year} value={entry.year} />
+            <SourceLine label={L.issue} value={entry.issue} />
+            <SourceLine label={L.pages} value={entry.pages ?? entry.page} />
           </div>
-          <SourceLine label="Πάροχος" value={(entry as { provider?: string }).provider} />
+          <SourceLine label={L.provider} value={(entry as { provider?: string }).provider} />
         </div>
       );
     case "journal":
       return (
         <div className="space-y-2">
-          <SourceLine label="Περιοδικό" value={entry.journal ?? entry.name} />
-          <SourceLine label="Συγγραφέας" value={entry.author} />
+          <SourceLine label={L.journal} value={entry.journal ?? entry.name} />
+          <SourceLine label={L.author} value={entry.author} />
           <div className="flex flex-wrap gap-6">
-            <SourceLine label="Τόμος" value={entry.volume} />
-            <SourceLine label="Έτος" value={entry.year} />
-            <SourceLine label="Σελίδες" value={entry.pages ?? entry.page} />
+            <SourceLine label={L.volume} value={entry.volume} />
+            <SourceLine label={L.year} value={entry.year} />
+            <SourceLine label={L.pages} value={entry.pages ?? entry.page} />
           </div>
-          <SourceLine label="Τίτλος" value={entry.title} />
+          <SourceLine label={L.title} value={entry.title} />
         </div>
       );
     case "manuscript":
       return (
         <div className="space-y-2">
-          <SourceLine label="Αρχείο" value={entry.archive} />
-          <SourceLine label="Βιβλιοθήκη" value={entry.library} />
+          <SourceLine label={L.archive} value={entry.archive} />
+          <SourceLine label={L.library} value={entry.library} />
           <div className="flex flex-wrap gap-6">
-            <SourceLine label="Κώδικας" value={entry.codex} />
-            <SourceLine label="Έτος" value={entry.year} />
-            <SourceLine label="Σελίδες" value={entry.pages ?? entry.page} />
+            <SourceLine label={L.codex} value={entry.codex} />
+            <SourceLine label={L.year} value={entry.year} />
+            <SourceLine label={L.pages} value={entry.pages ?? entry.page} />
           </div>
-          <SourceLine label="Λεπτομέρειες" value={entry.details} />
-          <SourceLine label="Ημερομηνία" value={entry.date ?? entry.eventDate} />
+          <SourceLine label={L.details} value={entry.details} />
+          <SourceLine label={L.date} value={entry.date ?? entry.eventDate} />
         </div>
       );
     case "web":
       return (
         <div className="space-y-2">
-          <SourceLine label="Ιστότοπος" value={entry.name} />
+          <SourceLine label={L.website} value={entry.name} />
           {(() => {
             const href = normalizeString(
               typeof (entry as { url?: string; link?: string }).url === "string"
@@ -193,13 +198,13 @@ function renderSourceDetails(entry: StructuredSource) {
       );
     default: {
       const fallbackFields: Array<[string, string | null | undefined]> = [
-        ["Ονομασία", entry.name],
-        ["Τίτλος", entry.title],
-        ["Συγγραφέας", entry.author],
-        ["Έτος", entry.year],
-        ["Ημερομηνία", entry.date ?? entry.eventDate],
-        ["Σελίδες", entry.pages ?? entry.page],
-        ["Λεπτομέρειες", entry.details],
+        [L.name, entry.name],
+        [L.title, entry.title],
+        [L.author, entry.author],
+        [L.year, entry.year],
+        [L.date, entry.date ?? entry.eventDate],
+        [L.pages, entry.pages ?? entry.page],
+        [L.details, entry.details],
       ];
 
       return (
@@ -213,7 +218,7 @@ function renderSourceDetails(entry: StructuredSource) {
   }
 }
 
-function getTypeLabel(entry: StructuredSource) {
+function getTypeLabel(entry: StructuredSource, copy: ReturnType<typeof getArticleCopy>) {
   const normalized = normalizeString(entry.type);
   if (!normalized) {
     return null;
@@ -221,25 +226,33 @@ function getTypeLabel(entry: StructuredSource) {
 
   switch (normalized.toLowerCase()) {
     case "book":
-      return "Βιβλιογραφική αναφορά";
+      return copy.sources.typeLabels.book;
     case "newspaper":
     case "efimerida":
-      return "Αρχειακή καταγραφή";
+      return copy.sources.typeLabels.newspaper;
     case "contributor":
-      return "Συντελεστές";
+      return copy.sources.typeLabels.contributor;
     case "journal":
-      return "Επιστημονική δημοσίευση";
+      return copy.sources.typeLabels.journal;
     case "manuscript":
-      return "Χειρόγραφο";
+      return copy.sources.typeLabels.manuscript;
     case "web":
-      return "Διαδικτυακή πηγή";
+      return copy.sources.typeLabels.web;
     default:
       return normalized;
   }
 }
 
-function StandardSource({ entry, index }: { entry: StructuredSource; index: number }) {
-  const typeLabel = getTypeLabel(entry);
+function StandardSource({
+  entry,
+  index,
+  copy,
+}: {
+  entry: StructuredSource;
+  index: number;
+  copy: ReturnType<typeof getArticleCopy>;
+}) {
+  const typeLabel = getTypeLabel(entry, copy);
 
   return (
     <li
@@ -251,7 +264,7 @@ function StandardSource({ entry, index }: { entry: StructuredSource; index: numb
           {typeLabel}
         </p>
       )}
-      {renderSourceDetails(entry)}
+      {renderSourceDetails(entry, copy)}
     </li>
   );
 }
@@ -266,10 +279,13 @@ function StringSource({ value }: { value: string }) {
 
 export function ArticleSources({
   sources,
-  heading = "Πηγές & Τεκμηρίωση",
+  heading,
   articleDate,
   articleAuthor,
+  locale = "el",
 }: ArticleSourcesProps) {
+  const copy = getArticleCopy(locale);
+
   const normalizedSources = (sources ?? [])
     .map((entry) => {
       if (typeof entry === "string") {
@@ -291,19 +307,19 @@ export function ArticleSources({
 
   return (
     <section className="space-y-6">
-      <h2 className="text-xl font-semibold text-n-1">{heading}</h2>
+      <h2 className="text-xl font-semibold text-n-1">{heading ?? copy.sources.heading}</h2>
       {(articleDate || articleAuthor) && (
         <div className="rounded-2xl border border-n-7 bg-n-8 p-5">
           <div className="flex flex-wrap gap-6 text-sm text-n-3">
             {articleDate && (
               <div className="flex items-center gap-2">
-                <span className="font-medium text-n-2">Ημερομηνία άρθρου:</span>
+                <span className="font-medium text-n-2">{copy.sources.articleDate}:</span>
                 <span>{articleDate}</span>
               </div>
             )}
             {articleAuthor && (
               <div className="flex items-center gap-2">
-                <span className="font-medium text-n-2">Συγγραφέας άρθρου:</span>
+                <span className="font-medium text-n-2">{copy.sources.articleAuthor}:</span>
                 <span>{articleAuthor}</span>
               </div>
             )}
@@ -316,7 +332,9 @@ export function ArticleSources({
             return <StringSource key={`string-${index}`} value={entry} />;
           }
 
-          return <StandardSource key={`source-${index}`} entry={entry} index={index} />;
+          return (
+            <StandardSource key={`source-${index}`} entry={entry} index={index} copy={copy} />
+          );
         })}
       </ul>
     </section>

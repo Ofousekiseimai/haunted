@@ -5,29 +5,29 @@
     {
       "slug": "arthra-dialexeis",
       "title": "'Αρθρα & Διαλέξεις",
-      "count": 28,
+      "count": 34,
       "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/arthra-dialexeis"
     },
     {
       "slug": "erevnes-fainomena",
       "title": "Τηλεκίνητικά Φαινόμενα",
-      "count": 24,
+      "count": 27,
       "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena"
     },
     {
       "slug": "medium-etaireias",
       "title": "Τα Μέντιουμ της Εταιρίας",
-      "count": 11,
+      "count": 12,
       "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/medium-etaireias"
     },
     {
       "slug": "peiramata",
       "title": "'Πειράματα",
-      "count": 1,
+      "count": 3,
       "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/peiramata"
     }
   ],
-  "totalArticles": 64,
+  "totalArticles": 76,
   "keywords": [
     "Εταιρεία Ψυχικών Ερευνών",
     "Ψυχικά Φαινόμενα",
@@ -72,7 +72,7 @@
   ],
   "seo": {
     "metaTitle": "Εταιρεία Ψυχικών Ερευνών | Αρχείο & Έρευνες | haunted.gr",
-    "metaDescription": "Συνολική συλλογή 64 αρχειακών τεκμηρίων, άρθρων και πειραμάτων της Εταιρείας Ψυχικών Ερευνών.",
+    "metaDescription": "Συνολική συλλογή 76 αρχειακών τεκμηρίων, άρθρων και πειραμάτων της Εταιρείας Ψυχικών Ερευνών.",
     "canonical": "https://haunted.gr/etaireia-psychikon-ereynon",
     "keywords": [
       "Εταιρεία Ψυχικών Ερευνών",
@@ -120,7 +120,7 @@
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "Εταιρεία Ψυχικών Ερευνών",
-      "description": "Αρχειακό υλικό, πειράματα και μελέτες της Εταιρείας Ψυχικών Ερευνών με 64 τεκμήρια.",
+      "description": "Αρχειακό υλικό, πειράματα και μελέτες της Εταιρείας Ψυχικών Ερευνών με 76 τεκμήρια.",
       "inLanguage": "el",
       "url": "https://haunted.gr/etaireia-psychikon-ereynon",
       "isPartOf": {
@@ -155,25 +155,25 @@
           "@type": "CollectionPage",
           "name": "'Αρθρα & Διαλέξεις",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/arthra-dialexeis",
-          "numberOfItems": 28
+          "numberOfItems": 34
         },
         {
           "@type": "CollectionPage",
           "name": "Τηλεκίνητικά Φαινόμενα",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena",
-          "numberOfItems": 24
+          "numberOfItems": 27
         },
         {
           "@type": "CollectionPage",
           "name": "Τηλεκίνητικά Φαινόμενα",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/medium-etaireias",
-          "numberOfItems": 11
+          "numberOfItems": 12
         },
         {
           "@type": "CollectionPage",
           "name": "'Πειράματα",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/peiramata",
-          "numberOfItems": 1
+          "numberOfItems": 3
         }
       ]
     }

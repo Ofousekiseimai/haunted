@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import type { ArticleSummary } from "@/lib/home";
+import type { Locale } from "@/lib/locale";
+import { getCategorySectionUi } from "@/lib/i18n/ui";
 
 const SITE_BASE_URL = "https://haunted.gr";
 
@@ -71,15 +73,19 @@ type HomeCategorySectionProps = {
     label: string;
     articles: Array<ArticleSummary & { href: string }>;
   };
+  locale?: Locale;
 };
 
 function ArticleCard({
   article,
   href,
+  locale = "el",
 }: {
   article: ArticleSummary;
   href: string;
+  locale?: Locale;
 }) {
+  const ui = getCategorySectionUi(locale);
   const imageSrc = toAbsoluteUrl(article.image?.src);
 
   return (
@@ -107,7 +113,7 @@ function ArticleCard({
         <p className="mt-3 line-clamp-3 text-sm text-n-3">{article.excerpt}</p>
       )}
       <div className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-n-1/80 transition group-hover:text-color-1 group-hover:opacity-100">
-        Διαβάστε περισσότερα <span aria-hidden="true">→</span>
+        {ui.readMore} <span aria-hidden="true">→</span>
       </div>
     </Link>
   );
@@ -121,7 +127,10 @@ export function HomeCategorySection({
   subcategories,
   defaultSubcategorySlug,
   spotlight,
+  locale = "el",
 }: HomeCategorySectionProps) {
+  const ui = getCategorySectionUi(locale);
+
   const fallbackSlug = subcategories[0]?.slug ?? "";
   const resolvedDefaultSlug = useMemo(() => {
     if (!defaultSubcategorySlug) {
@@ -267,6 +276,7 @@ export function HomeCategorySection({
                 key={`${article.id}-${article.slug}`}
                 article={article}
                 href={`/${categorySlug}/${article.subcategorySlug ?? selectedSubcategory.slug}/${article.slug}`}
+                locale={locale}
               />
             ))}
           </div>
@@ -277,14 +287,14 @@ export function HomeCategorySection({
               className="rounded-lg bg-gradient-to-r from-color-5 via-color-1 to-color-6 p-[2px] font-medium text-n-1 transition duration-300 hover:scale-[1.03]"
             >
               <span className="block rounded-md bg-n-8 px-6 py-2">
-                Δες όλα τα άρθρα στην κατηγορία “{selectedSubcategory.displayName}”
+                {ui.viewAllPrefix} “{selectedSubcategory.displayName}”
               </span>
             </Link>
           </div>
         </>
       ) : (
         <p className="text-center text-n-3">
-          Δεν υπάρχουν διαθέσιμα άρθρα για την επιλεγμένη υποκατηγορία.
+          {ui.noArticles}
         </p>
       )}
     </section>

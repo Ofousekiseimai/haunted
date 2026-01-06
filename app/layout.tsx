@@ -116,7 +116,7 @@ gtag('config', 'G-FXJ30XVLMD', {
           <div className="flex min-h-screen flex-col pt-[4.75rem] lg:pt-[5.25rem]">
             <Header initialLocale={locale} />
             <main className="flex-1">{children}</main>
-            <Footer />
+            <Footer locale={locale} />
           </div>
         </ThemeProvider>
       </body>

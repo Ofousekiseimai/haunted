@@ -12,8 +12,8 @@ type GreeceMapProps = {
 
 const CENTER: [number, number] = [39.0, 22.0];
 const BOUNDS: [[number, number], [number, number]] = [
-  [34.8, 19.4],
-  [41.7, 29.6],
+  [30.0, 15.0],
+  [45.0, 36.0],
 ];
 const ICON_OPTIONS: IconOptions = {
   iconUrl:
@@ -126,7 +126,6 @@ export function GreeceMap({ articles }: GreeceMapProps) {
         center: CENTER,
         zoom: 6,
         minZoom: 6,
-        maxBounds: BOUNDS,
         scrollWheelZoom: true,
         dragging: true,
         touchZoom: true,
@@ -162,7 +161,12 @@ export function GreeceMap({ articles }: GreeceMapProps) {
         icon: iconRef.current ?? undefined,
       });
 
-      const popup = leaflet.popup({ closeButton: false, className: "map-popup" });
+      const popup = leaflet.popup({
+        closeButton: false,
+        className: "map-popup",
+        keepInView: true,
+        autoPanPadding: [60, 60],
+      });
       const safeTitle = escapeHtml(article.title);
       const safeCategory = escapeHtml(article.categoryLabel);
       const safeSubcategory = escapeHtml(article.subcategoryLabel);

@@ -102,6 +102,7 @@ export default async function GenericCategorySubcategoryPage({ params }: PagePro
         categoryKey={category}
         subcategorySlug={subcategorySlug}
         articles={articles}
+        locale={locale}
       />
 
       {data.seo?.structuredData && (

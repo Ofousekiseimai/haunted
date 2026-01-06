@@ -3,6 +3,10 @@ import {
   type EfimeridesArticle,
 } from "./efimerides";
 import {
+  getAllEtaireiaSubcategories,
+  type EtaireiaSubcategory,
+} from "./etaireia";
+import {
   getAllLaografiaSubcategories,
   type LaografiaSubcategory,
 } from "./laografia";
@@ -22,7 +26,7 @@ export type MapArticle = {
   id: string;
   title: string;
   slug: string;
-  categoryKey: "efimerides" | "laografia";
+  categoryKey: "efimerides" | "laografia" | "etaireia-psychikon-ereynon";
   categoryLabel: string;
   subcategorySlug: string;
   subcategoryLabel: string;
@@ -125,46 +129,69 @@ function collectLocationTags(value: unknown) {
 }
 
 export async function getEfimeridesMapData(locale: Locale = DEFAULT_LOCALE) {
-  const subcategories = await getAllEfimeridesSubcategories(locale);
+  const [efimeridesSubcategories, etaireiaSubcategories] = await Promise.all([
+    getAllEfimeridesSubcategories(locale),
+    getAllEtaireiaSubcategories(locale),
+  ]);
 
   const articles: MapArticle[] = [];
   const options: SubcategoryOption[] = [];
 
-  subcategories.forEach((subcategory) => {
-    options.push({
-      value: subcategory.subcategorySlug ?? subcategory.slug,
-      label: subcategory.subcategory,
-      articleCount: subcategory.articles.length,
-    });
+  const appendSubcategoryData = (
+    subcategory:
+      | (typeof efimeridesSubcategories)[number]
+      | EtaireiaSubcategory,
+    categoryKey: MapArticle["categoryKey"],
+    categoryLabel: string,
+  ) => {
+    const subcategorySlug = subcategory.subcategorySlug ?? subcategory.slug;
 
-    subcategory.articles.forEach((article) => {
+    const validArticles = subcategory.articles.flatMap((article) => {
       const lat = parseCoordinate((article as EfimeridesArticle).lat);
       const lng = parseCoordinate((article as EfimeridesArticle).lng);
 
       if (!isValidCoordinate(lat ?? undefined, lng ?? undefined)) {
-        return;
+        return [];
       }
 
-      articles.push({
-        id: String(article.id),
-        title: article.title,
-        slug: article.slug,
-        categoryKey: "efimerides",
-        categoryLabel: "Εφημερίδες",
-        subcategorySlug: subcategory.subcategorySlug ?? subcategory.slug,
-        subcategoryLabel: subcategory.subcategory,
-        lat: lat!,
-        lng: lng!,
-        excerpt: typeof article.excerpt === "string" ? article.excerpt : undefined,
-        imageSrc: article.image?.src,
-        imageAlt: article.image?.alt,
-        mainArea: coerceString((article as { mainArea?: string }).mainArea) ?? undefined,
-        subLocations: collectSubLocations(article),
-        locationTags: collectLocationTags((article as { locationTags?: string[] }).locationTags),
-        date: typeof article.date === "string" ? article.date : undefined,
-      });
+      return [
+        {
+          id: String(article.id),
+          title: article.title,
+          slug: article.slug,
+          categoryKey,
+          categoryLabel,
+          subcategorySlug,
+          subcategoryLabel: subcategory.subcategory,
+          lat: lat!,
+          lng: lng!,
+          excerpt: typeof article.excerpt === "string" ? article.excerpt : undefined,
+          imageSrc: article.image?.src,
+          imageAlt: article.image?.alt,
+          mainArea: coerceString((article as { mainArea?: string }).mainArea) ?? undefined,
+          subLocations: collectSubLocations(article),
+          locationTags: collectLocationTags((article as { locationTags?: string[] }).locationTags),
+          date: typeof article.date === "string" ? article.date : undefined,
+        },
+      ];
     });
-  });
+
+    articles.push(...validArticles);
+
+    options.push({
+      value: subcategorySlug,
+      label: `${subcategory.subcategory} · ${categoryLabel}`,
+      articleCount: validArticles.length,
+    });
+  };
+
+  efimeridesSubcategories.forEach((subcategory) =>
+    appendSubcategoryData(subcategory, "efimerides", "Εφημερίδες"),
+  );
+
+  etaireiaSubcategories.forEach((subcategory) =>
+    appendSubcategoryData(subcategory, "etaireia-psychikon-ereynon", "Εταιρεία Ψυχικών Ερευνών"),
+  );
 
   return {
     articles,

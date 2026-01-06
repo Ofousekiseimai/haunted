@@ -3,6 +3,8 @@
 import Image from "next/image";
 
 import type { YoutubeData } from "@/lib/youtube";
+import type { Locale } from "@/lib/locale";
+import { getYoutubeCopy } from "@/lib/i18n/ui";
 
 const YOUTUBE_THUMB_HOSTS = ["https://img.youtube.com", "https://i.ytimg.com"];
 
@@ -53,7 +55,9 @@ function getFallbackThumbnail(url: string, explicitId?: string) {
   return `${YOUTUBE_THUMB_HOSTS[1]}/vi/${youtubeId}/hqdefault.jpg`;
 }
 
-export function YoutubeSection({ data }: { data: YoutubeData }) {
+export function YoutubeSection({ data, locale = "el" }: { data: YoutubeData; locale?: Locale }) {
+  const copy = getYoutubeCopy(locale);
+
   if (!data.playlists?.length) {
     return null;
   }
@@ -61,15 +65,13 @@ export function YoutubeSection({ data }: { data: YoutubeData }) {
   return (
     <section className="bg-n-8 py-12">
       <div className="container space-y-12">
-        <h2 className="text-center text-3xl font-bold text-n-1 md:text-4xl">
-          Σχετικά Βίντεο Δημιουργών στο YouTube
-        </h2>
+        <h2 className="text-center text-3xl font-bold text-n-1 md:text-4xl">{copy.heading}</h2>
 
         {data.playlists.map((playlist, index) => (
           <div key={`${playlist.channel}-${index}`} className="space-y-8 py-4">
             <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
               <h3 className="text-2xl font-semibold text-n-1">
-                Κανάλι {playlist.channel}
+                {copy.channelPrefix} {playlist.channel}
               </h3>
               {playlist.channelUrl && (
                 <a
@@ -78,7 +80,7 @@ export function YoutubeSection({ data }: { data: YoutubeData }) {
                   rel="noopener noreferrer"
                   className="text-sm font-medium text-color-1 transition hover:text-color-5"
                 >
-                  Επίσκεψη καναλιού →
+                  {copy.visitChannel}
                 </a>
               )}
             </div>
@@ -146,10 +148,10 @@ export function YoutubeSection({ data }: { data: YoutubeData }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-lg bg-gradient-to-r from-color-5 via-color-1 to-color-6 p-[2px] text-n-1 transition duration-300 hover:scale-[1.03]"
-                  aria-label={`Δείτε περισσότερα από το κανάλι ${playlist.channel}`}
+                  aria-label={`${copy.seeMoreFrom} ${playlist.channel}`}
                 >
                   <span className="block rounded-md bg-n-8 px-6 py-2">
-                    Δείτε περισσότερα από {playlist.channel}
+                    {copy.seeMoreFrom} {playlist.channel}
                   </span>
                 </a>
               </div>
