@@ -51,8 +51,8 @@ export async function getRequestLocale(): Promise<Locale> {
   }
 
   const acceptLanguageLocale = await getLocaleFromAcceptLanguage();
-  if (acceptLanguageLocale) {
-    return acceptLanguageLocale;
+  if (acceptLanguageLocale === "el") {
+    return "el";
   }
 
   return DEFAULT_LOCALE;
