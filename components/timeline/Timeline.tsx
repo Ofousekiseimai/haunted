@@ -86,7 +86,7 @@ export function Timeline({ items, types }: TimelineProps) {
   });
 
   const scrollToAnchor = useCallback(
-    (anchor: string, behavior: ScrollBehavior = "smooth") => {
+    (anchor: string, behavior: "auto" | "smooth" = "smooth") => {
       const index = anchorIndexMap.get(anchor);
       if (index === undefined) {
         return;

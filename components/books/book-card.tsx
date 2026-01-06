@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import type { Book } from "@/lib/books";
+import type { Locale } from "@/lib/locale";
 
 type BookCardProps = {
   book: Book;

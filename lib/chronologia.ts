@@ -27,26 +27,29 @@ async function buildEfimeridesChronologia(locale: Locale) {
   const efimerides = await getAllEfimeridesSubcategories(locale);
 
   return efimerides.map((subcategory) => {
-    const timeline = (subcategory.articles ?? [])
-      .filter((article) => typeof article.date === "string" && Number.isFinite(Date.parse(article.date)))
-      .map((article) => {
-        const date = article.date as string;
-        const year = new Date(date).getFullYear();
-        return {
-          id: String(article.id),
-          title: article.title,
-          slug: article.slug,
-          subcategory: subcategory.subcategory,
-          subcategorySlug: subcategory.subcategorySlug ?? subcategory.slug,
-          path: `/efimerides/${subcategory.subcategorySlug ?? subcategory.slug}/${article.slug}`,
-          date,
-          year,
-          excerpt: typeof article.excerpt === "string" ? article.excerpt : undefined,
-          imageSrc: article.image?.src,
-        };
-      })
-      .filter((entry): entry is TimelineItem => Boolean(entry))
-      .map((entry) => entry as TimelineItem);
+    const timeline = (subcategory.articles ?? []).reduce<TimelineItem[]>((acc, article) => {
+      if (typeof article.date !== "string" || !Number.isFinite(Date.parse(article.date))) {
+        return acc;
+      }
+
+      const date = article.date;
+      const year = new Date(date).getFullYear();
+
+      acc.push({
+        id: String(article.id),
+        title: article.title,
+        slug: article.slug,
+        subcategory: subcategory.subcategory,
+        subcategorySlug: subcategory.subcategorySlug ?? subcategory.slug,
+        path: `/efimerides/${subcategory.subcategorySlug ?? subcategory.slug}/${article.slug}`,
+        date,
+        year,
+        ...(typeof article.excerpt === "string" ? { excerpt: article.excerpt } : {}),
+        ...(article.image?.src ? { imageSrc: article.image.src } : {}),
+      });
+
+      return acc;
+    }, []);
 
     return {
       slug: subcategory.subcategorySlug ?? subcategory.slug,

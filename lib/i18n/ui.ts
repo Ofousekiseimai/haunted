@@ -58,6 +58,20 @@ export function getHomeCopy(locale: Locale) {
   };
 }
 
+export function getBooksCopy(locale: Locale) {
+  return {
+    heading: pick({ el: "Βιβλία", en: "Books" }, locale),
+    description: pick(
+      {
+        el: "Επιλεγμένες εκδόσεις για λαογραφία, παραφυσικά φαινόμενα και σχετική έρευνα.",
+        en: "Selected publications on folklore, paranormal phenomena, and related research.",
+      },
+      locale,
+    ),
+    moreButton: pick({ el: "Δες όλα τα βιβλία", en: "See all books" }, locale),
+  };
+}
+
 export function getCategorySectionUi(locale: Locale) {
   return {
     readMore: pick({ el: "Διαβάστε περισσότερα", en: "Read more" }, locale),
