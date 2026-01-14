@@ -1,0 +1,75 @@
+{
+  "category": "Βιβλία",
+  "subcategory": "Έρευνα",
+  "subcategorySlug": "erevna",
+  "slug": "/vivlia/erevna",
+  "seo": {
+    "metaTitle": "Έρευνα | Βιβλία | haunted.gr",
+    "metaDescription": "Τεκμηριωμένες έρευνες για παραφυσικά φαινόμενα, ανεξιχνίαστες υποθέσεις και σύγχρονη λαογραφία.",
+    "keywords": [
+      "έρευνα",
+      "παραφυσικά βιβλία",
+      "haunted βιβλία"
+    ],
+    "canonical": "https://haunted.gr/vivlia/erevna"
+  },
+  "articles": [
+    {
+      "id": "B201",
+      "title": "Σκοτεινές Διαδρομές Αρχείων",
+      "slug": "skoteines-diadromes-arxeion",
+      "author": "Μαρία Θέμελη",
+      "date": "2020",
+      "excerpt": "Ένα βιβλίο που συγκεντρώνει αστυνομικά αρχεία, προφορικές μαρτυρίες και σπάνιες φωτογραφίες από ανεξήγητα περιστατικά.",
+      "image": {
+        "src": "/images/katigories/giteies.png",
+        "alt": "Παλιό αρχείο με σημειώσεις και φωτογραφίες"
+      },
+      "purchaseUrl": "https://example.com/books/skoteines-diadromes-arxeion",
+      "content": [
+        {
+          "type": "text",
+          "value": "Ο αναγνώστης ακολουθεί ερευνητές που ανοίγουν χαρτόκουτα με στοιχεία για φαινόμενα που ποτέ δεν εξηγήθηκαν πλήρως."
+        }
+      ]
+    },
+    {
+      "id": "B202",
+      "title": "Υπόθεση των Ψιθύρων",
+      "slug": "ypothesi-ton-psithyron",
+      "author": "Κώστας Λαμπρινός",
+      "date": "2021",
+      "excerpt": "Μια διασταύρωση αστυνομικής έρευνας και ψυχικού πειράματος φέρνει στο φως έναν αστικό θρύλο της Αθήνας.",
+      "image": {
+        "src": "/images/katigories/daimones.png",
+        "alt": "Σκοτεινός διάδρομος σε παλιό κτίριο"
+      },
+      "purchaseUrl": "https://example.com/books/ypothesi-ton-psithyron",
+      "content": [
+        {
+          "type": "text",
+          "value": "Ένα πραγματολογικό χρονικό που συνδυάζει συνεντεύξεις, σχέδια και αναλυτικά πορίσματα για έναν ανεξήγητο ήχο."
+        }
+      ]
+    },
+    {
+      "id": "B203",
+      "title": "Επιτόπια Έρευνα: Θεσσαλία",
+      "slug": "epitopia-erevna-thessalia",
+      "author": "Λήδα Σαμαρά",
+      "date": "2023",
+      "excerpt": "Συλλογή καταγραφών από επιτόπιες έρευνες σε χωριά της Θεσσαλίας, με φωτογραφίες και χάρτες.",
+      "image": {
+        "src": "/images/paranormal/thumbs/placeholder.svg",
+        "alt": "Χάρτης και σημειώσεις σε τραπέζι έρευνας"
+      },
+      "purchaseUrl": "https://example.com/books/epitopia-erevna-thessalia",
+      "content": [
+        {
+          "type": "text",
+          "value": "Απόκοσμες εμφανίσεις, παράδοξοι ήχοι και μαρτυρίες που συνθέτουν ένα μωσαϊκό σύγχρονης λαογραφίας."
+        }
+      ]
+    }
+  ]
+}

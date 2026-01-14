@@ -1,0 +1,376 @@
+{
+  "category": "Λαογραφία",
+  "subcategorySlug": "ksotika",
+  "subcategory": "Ξωτικά",
+  "slug": "/laografia/ksotika",
+  "articles": [
+    {
+      "id": "65",
+      "title": "Καμαράτσι Εύβοιας - Ξωτικά ",
+      "slug": "ξωτικα-καμαρατσι",
+      "author": "Τίτος Γιοχαλάς",
+      "date": "2002-01-01",
+      "excerpt": "Λαϊκή δοξασία από την Καμάρι της Εύβοιας για νεράιδες και ξωτικά που στοιχειώνουν το ποτάμι Καμαράτσι.",
+      "locationTags": [
+        "Καμάρι - Εύβοια"
+      ],
+      "mainArea": "Εύβοια",
+      "subLocation": "Καμαράτσι",
+      "lat": 38.4354,
+      "lng": 24.1811,
+      "image": {
+        "src": "/images/laografia/kalikatzaroi-kamaratsi.png",
+        "alt": "Εικόνα από το ποτάμι Καμαράτσι στην Εύβοια"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Αν περάσουμε από το Καμαράτσι, είναι νεράιδες και θα μας πάρουν. Το Καμαράτσι είναι ένα ποτάμι. Και να περάσουμε το ποτάμι, είναι ξωτικά και φοβόμαστε μη μας πάρουν. Κάνουμε το σταυρό μας, λέμε το “Πιστεύω”, λέμε το “Πάτερ ημών” για να μη μας πάρουν οι νεράιδες. Μας παίρνουν τη μιλιά, μένουμε σακάτηδες, μας σημαδεύουν."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Τίτος Γιοχαλάς",
+          "title": "Ευβοια Τα Αρβανιτικα, Εκδόσεις Πατάκη, ",
+          "year": "2002",
+          "pages": "109"
+        }
+      ],
+      "tags": [
+        "Καμάρι - Εύβοια",
+        "Εύβοια",
+        "Καμαράτσι",
+        "Ξωτικά",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Καμαράτσι Εύβοιας - Ξωτικά  | Ξωτικά | haunted.gr",
+        "metaDescription": "Λαϊκή δοξασία από την Καμάρι της Εύβοιας για νεράιδες και ξωτικά που στοιχειώνουν το ποτάμι Καμαράτσι.",
+        "canonical": "https://haunted.gr/laografia/ksotika/%CE%BE%CF%89%CF%84%CE%B9%CE%BA%CE%B1-%CE%BA%CE%B1%CE%BC%CE%B1%CF%81%CE%B1%CF%84%CF%83%CE%B9",
+        "keywords": [
+          "Καμάρι - Εύβοια",
+          "Εύβοια",
+          "Καμαράτσι",
+          "Ξωτικά",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Καμαράτσι Εύβοιας - Ξωτικά",
+          "description": "Λαϊκή δοξασία από την Καμάρι της Εύβοιας για νεράιδες και ξωτικά που στοιχειώνουν το ποτάμι Καμαράτσι.",
+          "inLanguage": "el",
+          "datePublished": "2002-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/kalikatzaroi-kamaratsi.png",
+          "articleSection": "Ξωτικά",
+          "keywords": [
+            "Καμάρι - Εύβοια",
+            "Εύβοια",
+            "Καμαράτσι",
+            "Ξωτικά",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/ksotika/%CE%BE%CF%89%CF%84%CE%B9%CE%BA%CE%B1-%CE%BA%CE%B1%CE%BC%CE%B1%CF%81%CE%B1%CF%84%CF%83%CE%B9"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Εύβοια",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Καμαράτσι"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.4354,
+              "longitude": 24.1811
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "206",
+      "title": "Το ξωτικό στο Mύλο - Ζάκυνθος",
+      "slug": "to-xotiko-sto-mylo-zakynthos",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Παραδοσιακή αφήγηση για την αντιμετώπιση ξωτικού σε μύλο της Ζακύνθου με τελετουργική προστασία",
+      "locationTags": [
+        "Ζάκυνθος - Ιόνια νησιά",
+        "Ρωμήρι - Ζάκυνθος"
+      ],
+      "mainArea": "Ζάκυνθος",
+      "subLocation": "Ρωμήρι",
+      "lat": 37.7833,
+      "lng": 20.9,
+      "image": {
+        "src": "/images/laografia/to-xotiko-sto-mylo-zakynthos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Ένας από το Ρωμήρι επήγε στο μύλο με στάρι και εγύριζε με το αλεύρι. Έβαλε στα δύο πλάγια του ζώου τα δύο σακιά με το αλεύρι και στη μέση έκατσε ο ίδιος."
+        },
+        {
+          "type": "text",
+          "value": "Ένα ξωτικό είδε το βασταγούρι φορτωμένο, μα δεν είδε πισωκάπουλα το χωριάτη, και εθάμαζε και έλεγε: «Ε το ένα πλευρό, ε και το άλλο, ε και το απανωγόμι! Κι οπίσω θα 'ναι ο κερατάς!» Ενόμιζε το ξωτικό πως ο χωριάτης έμεινε οπίσω και το βασταγούρι επήγαινε μόνο του το χωρίο."
+        },
+        {
+          "type": "text",
+          "value": "Εγύριζε πίσω το ξωτικό να βρει το χωριάτη, δεν τον έβλεπε, μπαταπήγαινε στο βασταγούρι και ξανάλεγε τα ίδια. Ο κακομοίρης ο χωριάτης, απ' το φόβο του που έβλεπε το ξωτικό και άκουγε τα λόγια, περισσότερο έσκυφτε."
+        },
+        {
+          "type": "text",
+          "value": "Έφθασε έπειτα στο σπίτι. Το ξωτικό τότε εθύμωσε που εγελάστηκε και ήθελε να τον τσακώσει. Μα από τις φωνές εκατάλαβε η γυναίκα του πως τα ξωτικά τυραννούν τον άντρα της, εβγήκε με λιβάνι και άλλες θεότητες, και έτσι το ξωτικό έγινε μία φουκαρία και αρατίστηκε."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "273 - 274"
+        }
+      ],
+      "tags": [
+        "Ζάκυνθος - Ιόνια Νησιά",
+        "Ρωμήρι - Ζάκυνθος",
+        "Ζάκυνθος",
+        "Ρωμήρι",
+        "Ξωτικά",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "Το ξωτικό στο Mύλο - Ζάκυνθος | Ξωτικά | haunted.gr",
+        "metaDescription": "Παραδοσιακή αφήγηση για την αντιμετώπιση ξωτικού σε μύλο της Ζακύνθου με τελετουργική προστασία",
+        "canonical": "https://haunted.gr/laografia/ksotika/to-xotiko-sto-mylo-zakynthos",
+        "keywords": [
+          "Ζάκυνθος - Ιόνια Νησιά",
+          "Ρωμήρι - Ζάκυνθος",
+          "Ζάκυνθος",
+          "Ρωμήρι",
+          "Ξωτικά",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Το ξωτικό στο Mύλο - Ζάκυνθος",
+          "description": "Παραδοσιακή αφήγηση για την αντιμετώπιση ξωτικού σε μύλο της Ζακύνθου με τελετουργική προστασία",
+          "inLanguage": "el",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/to-xotiko-sto-mylo-zakynthos.webp",
+          "articleSection": "Ξωτικά",
+          "keywords": [
+            "Ζάκυνθος - Ιόνια Νησιά",
+            "Ρωμήρι - Ζάκυνθος",
+            "Ζάκυνθος",
+            "Ρωμήρι",
+            "Ξωτικά",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/ksotika/to-xotiko-sto-mylo-zakynthos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Ζάκυνθος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ρωμήρι"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7833,
+              "longitude": 20.9
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "269",
+      "title": "O Nτεβέτσικας του Λιδωρικίου",
+      "slug": "o-devetsikas-tou-lidorikiou",
+      "author": "Δημ Λουκόπουλος",
+      "date": "1910",
+      "excerpt": "Λαογραφική καταγραφή του Ντεβέτσικα, ξωτικού που εμφανίζεται ως διάφορα ζώα και προκαλεί όλεθρο στα κοπάδια. Η παράδοση αυτή καταγράφηκε στο Λιδωρίκι και τους γύρω ποιμενικούς οικισμούς της Φωκίδας.",
+      "mainArea": "Ζάκυνθος",
+      "subLocation": "Λιδωρίκι",
+      "locationTags": [
+        "Λιδωρίκι",
+        "Φωκίδα"
+      ],
+      "lat": 38.5274,
+      "lng": 22.2,
+      "image": {
+        "src": "/images/laografia/o-devetsikas-tou-lidorikiou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "O ντεβέτσικας κατα πολλές επικρατούσες δοξιασιες του Λιδωρικίου και τον γύρω ποιμενικών συνοικισμών ειναι ξωτικό που παρουσιάζεται με τη μορφή διαφόρων ζώων στα πρόβατα και φέρνει όλεθρο."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Δημ Λουκόπουλος",
+          "title": "Συμμεικτα Αιτωλικά Λαογραφικά - Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 2",
+          "pages": "414"
+        }
+      ],
+      "tags": [
+        "Λιδωρίκι",
+        "Φωκίδα",
+        "Ζάκυνθος",
+        "Ξωτικά",
+        "Λαογραφία",
+        "Ελλάδα"
+      ],
+      "seo": {
+        "metaTitle": "O Nτεβέτσικας του Λιδωρικίου | Ξωτικά | haunted.gr",
+        "metaDescription": "Λαογραφική καταγραφή του Ντεβέτσικα, ξωτικού που εμφανίζεται ως διάφορα ζώα και προκαλεί όλεθρο στα κοπάδια. Η παράδοση αυτή καταγράφηκε στο Λιδωρίκι και τους γύρω ποιμενικούς οικισμούς της Φωκίδας.",
+        "canonical": "https://haunted.gr/laografia/ksotika/o-devetsikas-tou-lidorikiou",
+        "keywords": [
+          "Λιδωρίκι",
+          "Φωκίδα",
+          "Ζάκυνθος",
+          "Ξωτικά",
+          "Λαογραφία",
+          "Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "O Nτεβέτσικας του Λιδωρικίου",
+          "description": "Λαογραφική καταγραφή του Ντεβέτσικα, ξωτικού που εμφανίζεται ως διάφορα ζώα και προκαλεί όλεθρο στα κοπάδια. Η παράδοση αυτή καταγράφηκε στο Λιδωρίκι και τους γύρω ποιμενικούς οικισμούς της Φωκίδας.",
+          "inLanguage": "el",
+          "datePublished": "1910",
+          "author": {
+            "@type": "Person",
+            "name": "Δημ Λουκόπουλος"
+          },
+          "image": "https://haunted.gr/images/laografia/o-devetsikas-tou-lidorikiou.webp",
+          "articleSection": "Ξωτικά",
+          "keywords": [
+            "Λιδωρίκι",
+            "Φωκίδα",
+            "Ζάκυνθος",
+            "Ξωτικά",
+            "Λαογραφία",
+            "Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/ksotika/o-devetsikas-tou-lidorikiou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Ζάκυνθος",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Λιδωρίκι"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.5274,
+              "longitude": 22.2
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seo": {
+    "metaTitle": "Ξωτικά | Λαογραφία Ελλάδας | haunted.gr",
+    "metaDescription": "Συλλογή 3 λαογραφικών ιστοριών για Ξωτικά στην Ελλάδα.",
+    "canonical": "https://haunted.gr/laografia/ksotika",
+    "keywords": [
+      "Ξωτικά",
+      "Λαογραφία",
+      "Ελλάδα",
+      "Καμάρι - Εύβοια",
+      "Εύβοια",
+      "Καμαράτσι",
+      "Ζάκυνθος - Ιόνια Νησιά",
+      "Ρωμήρι - Ζάκυνθος",
+      "Ζάκυνθος",
+      "Ρωμήρι",
+      "Λιδωρίκι",
+      "Φωκίδα"
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Ξωτικά | Λαογραφία Ελλάδας",
+      "description": "Λαογραφικές ιστορίες και μαρτυρίες για Ξωτικά σε όλη την Ελλάδα.",
+      "inLanguage": "el",
+      "url": "https://haunted.gr/laografia/ksotika",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "haunted.gr",
+        "url": "https://haunted.gr"
+      },
+      "about": [
+        "Ξωτικά",
+        "Λαογραφία",
+        "Ελλάδα",
+        "Καμάρι - Εύβοια",
+        "Εύβοια",
+        "Καμαράτσι",
+        "Ζάκυνθος - Ιόνια Νησιά",
+        "Ρωμήρι - Ζάκυνθος",
+        "Ζάκυνθος",
+        "Ρωμήρι",
+        "Λιδωρίκι",
+        "Φωκίδα"
+      ]
+    }
+  }
+}

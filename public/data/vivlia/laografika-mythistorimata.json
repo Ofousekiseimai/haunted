@@ -1,0 +1,76 @@
+{
+  "category": "Βιβλία",
+  "subcategory": "Λαογραφικά Μυθιστορήματα",
+  "subcategorySlug": "laografika-mythistorimata",
+  "slug": "/vivlia/laografika-mythistorimata",
+  "seo": {
+    "metaTitle": "Λαογραφικά Μυθιστορήματα | Βιβλία | haunted.gr",
+    "metaDescription": "Επιλεγμένα μυθιστορήματα εμπνευσμένα από ελληνικούς θρύλους, μύθους και παραδόσεις.",
+    "keywords": [
+      "λαογραφικά βιβλία",
+      "μυθιστορήματα",
+      "παράδοση",
+      "haunted βιβλία"
+    ],
+    "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata"
+  },
+  "articles": [
+    {
+      "id": "B101",
+      "title": "Το Χωριό των Σκιών",
+      "slug": "to-xorio-ton-skion",
+      "author": "Ειρήνη Δάφνη",
+      "date": "2023",
+      "excerpt": "Ένα απομονωμένο χωριό στις πλαγιές της Πίνδου κρύβει μυστικά που ξυπνούν μόνο όταν το φεγγάρι γεμίζει.",
+      "image": {
+        "src": "/images/katigories/aerika.jpg",
+        "alt": "Ομίχλη πάνω από ορεινό χωριό"
+      },
+      "purchaseUrl": "https://example.com/books/to-xorio-ton-skion",
+      "content": [
+        {
+          "type": "text",
+          "value": "Ένα μυθιστόρημα εμπνευσμένο από θρύλους της Ηπείρου, όπου τα αερικά και τα στοιχειά μπλέκονται με τις ζωές των κατοίκων."
+        }
+      ]
+    },
+    {
+      "id": "B102",
+      "title": "Νεράιδες του Αιγαίου",
+      "slug": "neraides-tou-aigaiou",
+      "author": "Γιώργος Μανιάτης",
+      "date": "2022",
+      "excerpt": "Θρύλοι για νεράιδες, θαλασσινά στοιχειά και παλιά τάματα αναβιώνουν σε ένα κυκλαδίτικο νησί.",
+      "image": {
+        "src": "/images/katigories/drakospita.png",
+        "alt": "Θαλασσινός ορίζοντας με αρχαία κτίσματα"
+      },
+      "purchaseUrl": "https://example.com/books/neraides-tou-aigaiou",
+      "content": [
+        {
+          "type": "text",
+          "value": "Μια έρευνα στους μύθους του Αιγαίου γίνεται αφορμή για ένα ταξίδι σε παλιές υποσχέσεις και χαμένα ξόρκια."
+        }
+      ]
+    },
+    {
+      "id": "B103",
+      "title": "Το Χρονικό του Παράξενου Δάσους",
+      "slug": "to-xroniko-tou-paraxenou-dasous",
+      "author": "Αλέξανδρος Κάρτας",
+      "date": "2021",
+      "excerpt": "Μια ομάδα ερευνητών ακολουθεί τις παραδόσεις ενός δάσους όπου οι ψίθυροι των δέντρων οδηγούν σε χαμένες πολιτείες.",
+      "image": {
+        "src": "/images/og-default-image.webp",
+        "alt": "Πυκνό δάσος βυθισμένο στο σκοτάδι"
+      },
+      "purchaseUrl": "https://example.com/books/to-xroniko-tou-paraxenou-dasous",
+      "content": [
+        {
+          "type": "text",
+          "value": "Αφηγηματικό ταξίδι στα όρια του φανταστικού, με βάση αφηγήσεις γερόντων και καταγραφές παλιών περιηγητών."
+        }
+      ]
+    }
+  ]
+}
