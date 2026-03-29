@@ -1189,16 +1189,16 @@
        
     ],
     "seo": {
-      "metaTitle": "Φόνος στο ΚΥ Καλυβίων | Μαγικές Πρακτικές | haunted.gr",
+      "metaTitle": "Εγκλήματα του Παραφυσικού στην Ελλάδα| haunted.gr",
       "metaDescription": "Αρχείο εγκλημάτων που σχετίζονται με το παραφυσικό.",
-      "keywords": ["Εγκλήματα", "Καλύβια", "Μαγικές Πρακτικές", "Αστυνομικές Ερευνές"],
-      "canonical": "https://haunted.gr/egklimata/fonos-kalyvia-magikes-praktikes",
+      "keywords": ["Εγκλήματα", "Παραφυσικό", "Μαγικές Πρακτικές", "Αστυνομικές Ερευνές"],
+      "canonical": "https://haunted.gr/egklimata",
       "structuredData": {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Φόνος στο ΚΥ Καλυβίων",
+        "name": "Εγκλήματα του Παραφυσικού στην Ελλάδα",
         "description": "Αρχείο εγκλημάτων που σχετίζονται με το παραφυσικό.",
-        "url": "https://haunted.gr/egklimata/fonos-kalyvia-magikes-praktikes",
+        "url": "https://haunted.gr/egklimata",
         "publisher": {
           "@type": "Organization",
           "name": "haunted.gr"

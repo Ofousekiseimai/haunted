@@ -78,13 +78,10 @@ export default async function RootLayout({
       <body className={`${sora.variable} ${anton.variable} ${sourceCode.variable} text-n-1 antialiased`}>
         <Script id="theme-init" strategy="beforeInteractive">
           {`
-(function() {
+((function() {
   try {
-    var storageKey = 'haunted-theme';
-    var stored = window.localStorage.getItem(storageKey);
-    var theme = stored === 'dark' || stored === 'light'
-      ? stored
-      : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    var theme = 'dark';
+
     document.documentElement.dataset.theme = theme;
     document.documentElement.style.setProperty('color-scheme', theme);
   } catch (error) {
