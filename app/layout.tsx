@@ -6,7 +6,6 @@ import "./globals.css";
 import { Suspense } from "react";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
-import { ThemeProvider } from "@/components/theme/theme-provider";
 import { GoogleAnalyticsTracker } from "@/components/analytics/google-analytics";
 import { ClientGuards } from "@/components/layout/client-guards";
 import { getRequestLocale } from "@/lib/locale-server";
@@ -74,24 +73,9 @@ export default async function RootLayout({
   const locale = await getRequestLocale();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale}>
       <body className={`${sora.variable} ${anton.variable} ${sourceCode.variable} text-n-1 antialiased`}>
-        <Script id="theme-init" strategy="beforeInteractive">
-          {`
-((function() {
-  try {
-    var theme = 'dark';
-
-    document.documentElement.dataset.theme = theme;
-    document.documentElement.style.setProperty('color-scheme', theme);
-  } catch (error) {
-    document.documentElement.dataset.theme = 'dark';
-    document.documentElement.style.setProperty('color-scheme', 'dark');
-  }
-})();
-          `}
-        </Script>
-        <ThemeProvider>
+        
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-FXJ30XVLMD"
             strategy="afterInteractive"
@@ -115,7 +99,6 @@ gtag('config', 'G-FXJ30XVLMD', {
             <main className="flex-1">{children}</main>
             <Footer locale={locale} />
           </div>
-        </ThemeProvider>
       </body>
     </html>
   );
