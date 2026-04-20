@@ -14,18 +14,7 @@ npm run dev      # http://localhost:3000
 
 ## Update flow (SSH)
 
-```bash
-cd /var/www/haunted.gr
-source ~/.nvm/nvm.sh
-nvm use 20.11.1
-git pull
-npm install
-npm run build
 
-pm2 start npm --name haunted -- start -- -p 4000
-pm2 save
-pm2 status
-```bash
 
 
 sudo nginx -t
@@ -53,6 +42,7 @@ source ~/.nvm/nvm.sh
 nvm use 20.11.1
 
 git pull
+npm install
 npm run build
 pm2 restart haunted
 pm2 save

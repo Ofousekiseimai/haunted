@@ -112,7 +112,7 @@ export function GreeceMap({ articles }: GreeceMapProps) {
 
   const markers = useMemo(() => spreadCoordinates(articles), [articles]);
   const tileUrl = useMemo(
-    () => "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+    () => "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png",
     [],
   );
 
@@ -138,7 +138,8 @@ export function GreeceMap({ articles }: GreeceMapProps) {
       leaflet
         .tileLayer(tileUrl, {
           attribution:
-            '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors · <a href="https://carto.com/attributions">CARTO</a>',
+            '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          maxZoom: 20,
         })
         .addTo(map);
 

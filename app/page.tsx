@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { HomeHero } from "@/components/home/hero";
+import { SanSimeraSection } from "@/components/home/san-simera-section";
 import {
   HomeCategorySection,
   type HomeCategorySubsection,
@@ -11,7 +12,7 @@ import { getHomeCopy } from "@/lib/i18n/ui";
 import { getBooksForHome } from "@/lib/books";
 import { getHomeCategorySections } from "@/lib/home";
 import { getYoutubeData } from "@/lib/youtube";
-import { getAllEtaireiaSubcategories } from "@/lib/etaireia";
+import { getAllEfimeridesSubcategories } from "@/lib/efimerides";
 import { getRequestLocale } from "@/lib/locale-server";
 
 export const revalidate = 3600;
@@ -92,11 +93,11 @@ function extractMonthDay(date?: string | null): MonthDay | null {
 export default async function HomePage() {
   const locale = await getRequestLocale();
   const homeCopy = getHomeCopy(locale);
-  const [laografia, efimerides, etaireia, etaireiaFull, books, youtubeData] = await Promise.all([
+  const [laografia, efimerides, etaireia, efimeridesAll, books, youtubeData] = await Promise.all([
     getHomeCategorySections("laografia", 6, locale),
     getHomeCategorySections("efimerides", 6, locale),
     getHomeCategorySections("etaireia-psychikon-ereynon", 6, locale),
-    getAllEtaireiaSubcategories(locale),
+    getAllEfimeridesSubcategories(locale),
     getBooksForHome(8, locale),
     getYoutubeData(),
   ]);
@@ -107,7 +108,12 @@ export default async function HomePage() {
     day: today.getDate(),
   };
 
-  const sanSimeraArticles = etaireiaFull
+  const todayFormatted = new Intl.DateTimeFormat("el-GR", {
+    day: "numeric",
+    month: "long",
+  }).format(today);
+
+  const sanSimeraArticles = efimeridesAll
     .flatMap((subcategory) => {
       const subcategorySlug = subcategory.subcategorySlug ?? subcategory.slug;
       return (subcategory.articles ?? []).map((article) => ({
@@ -132,21 +138,16 @@ export default async function HomePage() {
       author: article.author,
       date: article.date as string | undefined,
       subcategorySlug,
-      href: `/etaireia-psychikon-ereynon/${subcategorySlug}/${article.slug}`,
+      href: `/efimerides/${subcategorySlug}/${article.slug}`,
     }));
-
-  const etaireiaSpotlight = sanSimeraArticles.length
-    ? {
-        label: "Σαν σήμερα",
-        articles: sanSimeraArticles,
-      }
-    : undefined;
 
   return (
     <>
       <HomeHero locale={locale} />
 
       <div className="container space-y-20 py-16">
+        <SanSimeraSection articles={sanSimeraArticles} dateLabel={todayFormatted} />
+
         {hasArticles(laografia) && (
           <HomeCategorySection
             id="laografia"
@@ -178,7 +179,6 @@ export default async function HomePage() {
             description={homeCopy.sections.etaireia.description}
             categorySlug="etaireia-psychikon-ereynon"
             subcategories={etaireia}
-            spotlight={etaireiaSpotlight}
             locale={locale}
           />
         )}

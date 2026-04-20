@@ -118,7 +118,7 @@
   }
 
   .map-fog-overlay {
-    background: radial-gradient(circle at center, transparent 50%, rgba(0, 0, 0, 0.75) 100%);
+    background: radial-gradient(circle at center, transparent 55%, rgba(0, 0, 0, 0.45) 100%);
   }
 
   .map-popup-card {
