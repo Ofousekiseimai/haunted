@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState, type SVGProps } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type SVGProps } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -59,6 +59,24 @@ export function Header({ initialLocale }: HeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const isDarkBackground = useMemo(() => pathname !== "/", [pathname]);
+  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const scheduleClose = useCallback(() => {
+    if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
+    closeTimerRef.current = setTimeout(() => setOpenDropdown(null), 150);
+  }, []);
+
+  const cancelAndOpen = useCallback((id: string) => {
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
+    setOpenDropdown(id);
+  }, []);
+
+  useEffect(() => () => {
+    if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
+  }, []);
 
   const closeMobileMenu = useCallback(() => {
     setMobileOpen(false);
@@ -109,10 +127,10 @@ export function Header({ initialLocale }: HeaderProps) {
 
         <nav
           className="hidden w-1/2 items-center justify-end lg:flex"
-          onMouseLeave={() => setOpenDropdown(null)}
+          onMouseLeave={scheduleClose}
         >
           <div className="relative flex items-center gap-2">
-            {getNavigation(initialLocale).map((item) => {
+            {getNavigation(initialLocale).filter((item) => !item.onlyMobile).map((item) => {
               const isActive =
                 item.url === "/"
                   ? pathname === item.url
@@ -123,9 +141,7 @@ export function Header({ initialLocale }: HeaderProps) {
                 <div
                   key={item.id}
                   className="relative"
-                  onMouseLeave={() =>
-                    setOpenDropdown((current) => (current === item.id ? null : current))
-                  }
+                  onMouseLeave={scheduleClose}
                 >
                   {item.subitems ? (
                     <>
@@ -137,8 +153,8 @@ export function Header({ initialLocale }: HeaderProps) {
                         onClick={() =>
                           setOpenDropdown((current) => (current === item.id ? null : item.id))
                         }
-                        onMouseEnter={() => setOpenDropdown(item.id)}
-                        onFocus={() => setOpenDropdown(item.id)}
+                        onMouseEnter={() => cancelAndOpen(item.id)}
+                        onFocus={() => cancelAndOpen(item.id)}
                       >
                         {item.title}
                         <svg
@@ -160,10 +176,8 @@ export function Header({ initialLocale }: HeaderProps) {
                         className={`absolute left-1/2 top-full hidden -translate-x-1/2 rounded-lg border border-n-6 bg-n-8/95 py-2 shadow-xl transition ${
                           openDropdown === item.id ? "lg:block" : ""
                         }`}
-                        onMouseEnter={() => setOpenDropdown(item.id)}
-                        onMouseLeave={() =>
-                          setOpenDropdown((current) => (current === item.id ? null : current))
-                        }
+                        onMouseEnter={() => cancelAndOpen(item.id)}
+                        onMouseLeave={scheduleClose}
                       >
                         {item.subitems.map((subitem) => (
                           <Link

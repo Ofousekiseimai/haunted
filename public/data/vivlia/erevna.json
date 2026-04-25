@@ -31,7 +31,52 @@
           "type": "text",
           "value": "Ο αναγνώστης ακολουθεί ερευνητές που ανοίγουν χαρτόκουτα με στοιχεία για φαινόμενα που ποτέ δεν εξηγήθηκαν πλήρως."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Σκοτεινές Διαδρομές Αρχείων | Μαρία Θέμελη | Βιβλία Έρευνας | haunted.gr",
+        "metaDescription": "Αστυνομικά αρχεία, προφορικές μαρτυρίες και σπάνιες φωτογραφίες από ανεξήγητα περιστατικά — συλλέχθηκαν από τη Μαρία Θέμελη.",
+        "canonical": "https://haunted.gr/vivlia/erevna/skoteines-diadromes-arxeion",
+        "keywords": [
+          "ανεξήγητα περιστατικά Ελλάδα",
+          "αστυνομικά αρχεία παραφυσικά",
+          "Μαρία Θέμελη βιβλίο",
+          "σκοτεινές υποθέσεις Ελλάδα",
+          "παραφυσικά αρχεία βιβλίο",
+          "ανεξήγητα αρχεία έρευνα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Σκοτεινές Διαδρομές Αρχείων",
+          "author": {
+            "@type": "Person",
+            "name": "Μαρία Θέμελη"
+          },
+          "description": "Αστυνομικά αρχεία, προφορικές μαρτυρίες και σπάνιες φωτογραφίες από ανεξήγητα περιστατικά.",
+          "inLanguage": "el",
+          "datePublished": "2020",
+          "image": "https://haunted.gr/images/katigories/giteies.png",
+          "genre": "Έρευνα",
+          "keywords": [
+            "ανεξήγητα περιστατικά Ελλάδα",
+            "αστυνομικά αρχεία παραφυσικά",
+            "Μαρία Θέμελη βιβλίο",
+            "σκοτεινές υποθέσεις Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/erevna/skoteines-diadromes-arxeion"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     },
     {
       "id": "B202",
@@ -50,7 +95,52 @@
           "type": "text",
           "value": "Ένα πραγματολογικό χρονικό που συνδυάζει συνεντεύξεις, σχέδια και αναλυτικά πορίσματα για έναν ανεξήγητο ήχο."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Υπόθεση των Ψιθύρων | Κώστας Λαμπρινός | Βιβλία Έρευνας | haunted.gr",
+        "metaDescription": "Αστυνομική έρευνα και ψυχικό πείραμα φέρνουν στο φως έναν αστικό θρύλο της Αθήνας. Βιβλίο του Κώστα Λαμπρινού.",
+        "canonical": "https://haunted.gr/vivlia/erevna/ypothesi-ton-psithyron",
+        "keywords": [
+          "αστικός θρύλος Αθήνα",
+          "ψυχικό πείραμα Αθήνα",
+          "Κώστας Λαμπρινός βιβλίο",
+          "αστυνομική έρευνα παραφυσικά",
+          "αστικοί θρύλοι Ελλάδα",
+          "παραφυσικό μυθιστόρημα Αθήνα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Υπόθεση των Ψιθύρων",
+          "author": {
+            "@type": "Person",
+            "name": "Κώστας Λαμπρινός"
+          },
+          "description": "Αστυνομική έρευνα και ψυχικό πείραμα φέρνουν στο φως έναν αστικό θρύλο της Αθήνας.",
+          "inLanguage": "el",
+          "datePublished": "2021",
+          "image": "https://haunted.gr/images/katigories/daimones.png",
+          "genre": "Έρευνα",
+          "keywords": [
+            "αστικός θρύλος Αθήνα",
+            "ψυχικό πείραμα Αθήνα",
+            "Κώστας Λαμπρινός βιβλίο",
+            "αστυνομική έρευνα παραφυσικά"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/erevna/ypothesi-ton-psithyron"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     },
     {
       "id": "B203",
@@ -69,7 +159,52 @@
           "type": "text",
           "value": "Απόκοσμες εμφανίσεις, παράδοξοι ήχοι και μαρτυρίες που συνθέτουν ένα μωσαϊκό σύγχρονης λαογραφίας."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Επιτόπια Έρευνα: Θεσσαλία | Λήδα Σαμαρά | Βιβλία Έρευνας | haunted.gr",
+        "metaDescription": "Συλλογή καταγραφών από επιτόπιες έρευνες σε χωριά της Θεσσαλίας, με φωτογραφίες και χάρτες. Λήδα Σαμαρά.",
+        "canonical": "https://haunted.gr/vivlia/erevna/epitopia-erevna-thessalia",
+        "keywords": [
+          "επιτόπια έρευνα Θεσσαλία",
+          "παράδοση Θεσσαλία χωριά",
+          "Λήδα Σαμαρά βιβλίο",
+          "λαογραφία Θεσσαλία",
+          "παραφυσικά χωριά Θεσσαλία",
+          "έρευνα λαογραφία Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Επιτόπια Έρευνα: Θεσσαλία",
+          "author": {
+            "@type": "Person",
+            "name": "Λήδα Σαμαρά"
+          },
+          "description": "Συλλογή καταγραφών από επιτόπιες έρευνες σε χωριά της Θεσσαλίας, με φωτογραφίες και χάρτες.",
+          "inLanguage": "el",
+          "datePublished": "2023",
+          "image": "https://haunted.gr/images/paranormal/thumbs/placeholder.svg",
+          "genre": "Έρευνα",
+          "keywords": [
+            "επιτόπια έρευνα Θεσσαλία",
+            "παράδοση Θεσσαλία χωριά",
+            "Λήδα Σαμαρά βιβλίο",
+            "λαογραφία Θεσσαλία"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/erevna/epitopia-erevna-thessalia"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     }
   ]
 }

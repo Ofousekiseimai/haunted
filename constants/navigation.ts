@@ -20,6 +20,7 @@ const navigationBase: NavigationItem[] = [
     id: "0",
     title: "Αρχικη",
     url: "/",
+    onlyMobile: true,
   },
   {
     id: "1",

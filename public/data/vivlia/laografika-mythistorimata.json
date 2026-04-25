@@ -32,7 +32,52 @@
           "type": "text",
           "value": "Ένα μυθιστόρημα εμπνευσμένο από θρύλους της Ηπείρου, όπου τα αερικά και τα στοιχειά μπλέκονται με τις ζωές των κατοίκων."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Το Χωριό των Σκιών | Ειρήνη Δάφνη | Λαογραφικά Μυθιστορήματα | haunted.gr",
+        "metaDescription": "Ένα απομονωμένο χωριό στις πλαγιές της Πίνδου κρύβει μυστικά που ξυπνούν μόνο όταν το φεγγάρι γεμίσει. Μυθιστόρημα της Ειρήνης Δάφνη.",
+        "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xorio-ton-skion",
+        "keywords": [
+          "χωριό Πίνδος μυστικά",
+          "λαογραφικό μυθιστόρημα Ελλάδα",
+          "Ειρήνη Δάφνη βιβλίο",
+          "φαντάσματα χωριό Ελλάδα",
+          "παραφυσικό μυθιστόρημα",
+          "σκιές χωριό Πίνδος"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Το Χωριό των Σκιών",
+          "author": {
+            "@type": "Person",
+            "name": "Ειρήνη Δάφνη"
+          },
+          "description": "Ένα απομονωμένο χωριό στις πλαγιές της Πίνδου κρύβει μυστικά που ξυπνούν μόνο όταν το φεγγάρι γεμίσει.",
+          "inLanguage": "el",
+          "datePublished": "2023",
+          "image": "https://haunted.gr/images/katigories/aerika.jpg",
+          "genre": "Λαογραφικό Μυθιστόρημα",
+          "keywords": [
+            "χωριό Πίνδος μυστικά",
+            "λαογραφικό μυθιστόρημα Ελλάδα",
+            "Ειρήνη Δάφνη βιβλίο",
+            "φαντάσματα χωριό Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xorio-ton-skion"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     },
     {
       "id": "B102",
@@ -51,7 +96,52 @@
           "type": "text",
           "value": "Μια έρευνα στους μύθους του Αιγαίου γίνεται αφορμή για ένα ταξίδι σε παλιές υποσχέσεις και χαμένα ξόρκια."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Νεράιδες του Αιγαίου | Γιώργος Μανιάτης | Λαογραφικά Μυθιστορήματα | haunted.gr",
+        "metaDescription": "Θρύλοι για νεράιδες, θαλασσινά στοιχειά και παλιά τάματα σε ένα κυκλαδίτικο νησί. Μυθιστόρημα του Γιώργου Μανιάτη.",
+        "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata/neraides-tou-aigaiou",
+        "keywords": [
+          "νεράιδες Αιγαίο Κυκλάδες",
+          "λαογραφικό μυθιστόρημα Κυκλάδες",
+          "Γιώργος Μανιάτης βιβλίο",
+          "θαλασσινά στοιχειά Ελλάδα",
+          "νεράιδες ελληνική λαογραφία",
+          "στοιχειά νησιά Αιγαίο"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Νεράιδες του Αιγαίου",
+          "author": {
+            "@type": "Person",
+            "name": "Γιώργος Μανιάτης"
+          },
+          "description": "Θρύλοι για νεράιδες, θαλασσινά στοιχειά και παλιά τάματα αναβιώνουν σε ένα κυκλαδίτικο νησί.",
+          "inLanguage": "el",
+          "datePublished": "2022",
+          "image": "https://haunted.gr/images/katigories/drakospita.png",
+          "genre": "Λαογραφικό Μυθιστόρημα",
+          "keywords": [
+            "νεράιδες Αιγαίο Κυκλάδες",
+            "λαογραφικό μυθιστόρημα Κυκλάδες",
+            "Γιώργος Μανιάτης βιβλίο",
+            "νεράιδες ελληνική λαογραφία"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/laografika-mythistorimata/neraides-tou-aigaiou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     },
     {
       "id": "B103",
@@ -70,7 +160,52 @@
           "type": "text",
           "value": "Αφηγηματικό ταξίδι στα όρια του φανταστικού, με βάση αφηγήσεις γερόντων και καταγραφές παλιών περιηγητών."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Το Χρονικό του Παράξενου Δάσους | Αλέξανδρος Κάρτας | Λαογραφικά Μυθιστορήματα | haunted.gr",
+        "metaDescription": "Ερευνητές ακολουθούν τις παραδόσεις ενός δάσους όπου οι ψίθυροι των δέντρων οδηγούν σε χαμένα μυστικά. Αλέξανδρος Κάρτας.",
+        "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xroniko-tou-paraxenou-dasous",
+        "keywords": [
+          "παράξενο δάσος Ελλάδα",
+          "λαογραφικό μυθιστόρημα",
+          "Αλέξανδρος Κάρτας βιβλίο",
+          "στοιχειωμένο δάσος Ελλάδα",
+          "παραφυσικό μυθιστόρημα Ελλάδα",
+          "δάσος μυστήριο θρύλος"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Το Χρονικό του Παράξενου Δάσους",
+          "author": {
+            "@type": "Person",
+            "name": "Αλέξανδρος Κάρτας"
+          },
+          "description": "Ερευνητές ακολουθούν τις παραδόσεις ενός δάσους όπου οι ψίθυροι των δέντρων οδηγούν σε χαμένα μυστικά.",
+          "inLanguage": "el",
+          "datePublished": "2021",
+          "image": "https://haunted.gr/images/og-default-image.webp",
+          "genre": "Λαογραφικό Μυθιστόρημα",
+          "keywords": [
+            "παράξενο δάσος Ελλάδα",
+            "λαογραφικό μυθιστόρημα",
+            "Αλέξανδρος Κάρτας βιβλίο",
+            "στοιχειωμένο δάσος Ελλάδα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xroniko-tou-paraxenou-dasous"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     }
   ]
 }

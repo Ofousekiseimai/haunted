@@ -31,7 +31,52 @@
           "type": "text",
           "value": "Μια ιστορία τρόμου που συνδυάζει στοιχεία της λακωνικής παράδοσης με μια σύγχρονη αστυνομική πλοκή."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Ομίχλη στον Ταΰγετο | Νίκος Καστανός | Σκοτεινή Φαντασία | haunted.gr",
+        "metaDescription": "Σε ένα ορεινό πέρασμα της Λακωνίας, μια ομίχλη θυμάται κάθε βήμα όσων χάθηκαν εκεί. Σκοτεινή φαντασία του Νίκου Καστανού.",
+        "canonical": "https://haunted.gr/vivlia/skoteini-fantasia/omixli-ston-taygeto",
+        "keywords": [
+          "Ταΰγετος ομίχλη μυστήριο",
+          "σκοτεινή φαντασία Λακωνία",
+          "Νίκος Καστανός βιβλίο",
+          "παραφυσικό Λακωνία",
+          "Ταΰγετος θρύλος",
+          "σκοτεινό μυθιστόρημα Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Ομίχλη στον Ταΰγετο",
+          "author": {
+            "@type": "Person",
+            "name": "Νίκος Καστανός"
+          },
+          "description": "Σε ένα ορεινό πέρασμα της Λακωνίας, μια ομίχλη θυμάται κάθε βήμα όσων χάθηκαν εκεί.",
+          "inLanguage": "el",
+          "datePublished": "2022",
+          "image": "https://haunted.gr/images/katigories/vrikolakes.jpg",
+          "genre": "Σκοτεινή Φαντασία",
+          "keywords": [
+            "Ταΰγετος ομίχλη μυστήριο",
+            "σκοτεινή φαντασία Λακωνία",
+            "Νίκος Καστανός βιβλίο",
+            "παραφυσικό Λακωνία"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/skoteini-fantasia/omixli-ston-taygeto"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     },
     {
       "id": "B302",
@@ -50,7 +95,52 @@
           "type": "text",
           "value": "Σκοτεινή φαντασία με αναφορές σε μύθους των Καρπάθιων και αστικούς θρύλους της παλιάς Αθήνας."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Ο Ματωμένος Λαβύρινθος | Χριστίνα Γεωργίου | Σκοτεινή Φαντασία | haunted.gr",
+        "metaDescription": "Κάθε στροφή του λαβύρινθου φέρνει πιο κοντά στο μυστικό ενός αρχαίου τελετουργικού. Σκοτεινή φαντασία Χριστίνας Γεωργίου.",
+        "canonical": "https://haunted.gr/vivlia/skoteini-fantasia/o-matomenos-lavyrynthos",
+        "keywords": [
+          "αρχαίο τελετουργικό Ελλάδα",
+          "σκοτεινή φαντασία Ελλάδα",
+          "Χριστίνα Γεωργίου βιβλίο",
+          "λαβύρινθος μυστήριο",
+          "παραφυσικό αρχαία Ελλάδα",
+          "σκοτεινό μυθιστόρημα Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Ο Ματωμένος Λαβύρινθος",
+          "author": {
+            "@type": "Person",
+            "name": "Χριστίνα Γεωργίου"
+          },
+          "description": "Κάθε στροφή του λαβύρινθου φέρνει πιο κοντά στο μυστικό ενός αρχαίου τελετουργικού.",
+          "inLanguage": "el",
+          "datePublished": "2021",
+          "image": "https://haunted.gr/images/katigories/kalikatzaroi.png",
+          "genre": "Σκοτεινή Φαντασία",
+          "keywords": [
+            "αρχαίο τελετουργικό Ελλάδα",
+            "σκοτεινή φαντασία Ελλάδα",
+            "Χριστίνα Γεωργίου βιβλίο",
+            "λαβύρινθος μυστήριο"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/skoteini-fantasia/o-matomenos-lavyrynthos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     },
     {
       "id": "B303",
@@ -69,7 +159,52 @@
           "type": "text",
           "value": "Κάθε κεφάλαιο είναι και μια διαφορετική μαρτυρία για έναν ήχο που φέρνει στο φως τις σκοτεινές πλευρές των ηρώων."
         }
-      ]
+      ],
+      "seo": {
+        "metaTitle": "Τα Θραύσματα της Νύχτας | Ίριδα Χατζηδάκη | Σκοτεινή Φαντασία | haunted.gr",
+        "metaDescription": "Μια συλλογή ιστοριών που συνδέονται μέσω ενός ραδιοφωνικού σήματος που ακούγεται μόνο τα μεσάνυχτα. Ίριδα Χατζηδάκη.",
+        "canonical": "https://haunted.gr/vivlia/skoteini-fantasia/ta-thrausmata-tis-nyxtas",
+        "keywords": [
+          "ραδιοφωνικό σήμα μεσάνυχτα",
+          "σκοτεινή φαντασία Ελλάδα",
+          "Ίριδα Χατζηδάκη βιβλίο",
+          "σκοτεινές ιστορίες νύχτα",
+          "παραφυσικό ραδιόφωνο",
+          "σκοτεινό μυθιστόρημα Ελλάδα"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Τα Θραύσματα της Νύχτας",
+          "author": {
+            "@type": "Person",
+            "name": "Ίριδα Χατζηδάκη"
+          },
+          "description": "Μια συλλογή μικρών ιστοριών που συνδέονται μέσω ενός ραδιοφωνικού σήματος που ακούγεται μόνο τα μεσάνυχτα.",
+          "inLanguage": "el",
+          "datePublished": "2023",
+          "image": "https://haunted.gr/images/og-default-image.webp",
+          "genre": "Σκοτεινή Φαντασία",
+          "keywords": [
+            "ραδιοφωνικό σήμα μεσάνυχτα",
+            "σκοτεινή φαντασία Ελλάδα",
+            "Ίριδα Χατζηδάκη βιβλίο",
+            "σκοτεινές ιστορίες νύχτα"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/skoteini-fantasia/ta-thrausmata-tis-nyxtas"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -177,6 +177,24 @@ export function getArticleCopy(locale: Locale) {
   };
 }
 
+export function getChronologiaIndexCopy(locale: Locale) {
+  return {
+    eyebrow: pick({ el: "Χρονολόγια", en: "Timelines" }, locale),
+    title: pick({ el: "Θεματικά Χρονολόγια Τύπου", en: "Thematic Timelines" }, locale),
+    description: pick(
+      {
+        el: "Διάλεξε θεματική και περιηγήσου σε χρονολογική σειρά όλα τα τεκμήρια από τον ελληνικό Τύπο.",
+        en: "Pick a theme and browse chronologically all records from the Greek press.",
+      },
+      locale,
+    ),
+    totalRecords: pick({ el: "Συνολικά τεκμήρια", en: "Total records" }, locale),
+    browseTimeline: pick({ el: "Δείτε το χρονολόγιο →", en: "Browse timeline →" }, locale),
+    records: pick({ el: "τεκμήρια", en: "records" }, locale),
+    thematicTimelines: pick({ el: "Θεματικά Χρονολόγια", en: "Thematic timelines" }, locale),
+  };
+}
+
 export function getFooterCopy(locale: Locale) {
   return {
     categoriesLabel: pick({ el: "Κατηγορίες", en: "Categories" }, locale),

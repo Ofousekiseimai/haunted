@@ -15,7 +15,15 @@ export type LaografiaSubcategory = SubcategoryData;
 export type { Article, ArticleContentBlock, ArticleSeo } from "./content";
 
 export async function getLaografiaSubcategory(slug: string, locale: Locale = DEFAULT_LOCALE) {
-  return getSubcategoryData("laografia", slug, locale);
+  const data = await getSubcategoryData("laografia", slug, locale);
+  if (data) {
+    data.articles = [...data.articles].sort((a, b) => {
+      const idA = typeof a.id === "number" ? a.id : parseInt(String(a.id), 10) || 0;
+      const idB = typeof b.id === "number" ? b.id : parseInt(String(b.id), 10) || 0;
+      return idB - idA;
+    });
+  }
+  return data;
 }
 
 export async function getLaografiaArticle(
