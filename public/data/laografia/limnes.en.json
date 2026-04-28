@@ -1,0 +1,807 @@
+{
+  "category": "Folklore",
+  "subcategorySlug": "limnes",
+  "subcategory": "Lakes-Rivers",
+  "articles": [
+    {
+      "id": "67",
+      "title": "Otherworldly Roars at Lake Trichonida – Agrinio, 1895",
+      "description": "Report of strange roars at Lake Trichonida that remain unexplained, with villagers speaking of an aquatic monster.",
+      "slug": "thirio-trixonidas-agriniou",
+      "author": "Άστυ",
+      "date": "1895-04-19",
+      "excerpt": "Report of strange roars at Lake Trichonida that remain unexplained, with villagers speaking of an aquatic monster.",
+      "locationTags": [
+        "Trichonida",
+        "Agrinio"
+      ],
+      "mainArea": "Aetolia-Acarnania",
+      "subLocation": "Trichonida",
+      "lat": 38.56593,
+      "lng": 21.55455,
+      "image": {
+        "src": "/images/laografia/thirio-trixonidas-agriniou.webp",
+        "alt": "Depiction of Lake Trichonida and the mythical creature said to dwell there"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The Athenian newspaper «Asty» (of 19 April 1895, p. 2, column 9) announces the following regarding the appearance of the \"beast\" at Lake Trichonida:"
+        },
+        {
+          "type": "text",
+          "value": "\"This strange news comes from Agrinio. Every day the villagers working around Lake Trichonida hear terrible roars coming from the centre of the lake. From exactly that spot, where there are dense trees, reeds, mosses, and other small and large trees, forming a small forested swamp.\""
+        },
+        {
+          "type": "text",
+          "value": "\"These roars, which resemble those of lions, remain unexplained, because many times the villagers — even armed — have surrounded the lake, but managed to see nothing. They only heard the roars coming at short intervals from the marshy part of the lake.\""
+        },
+        {
+          "type": "text",
+          "value": "\"Some tried to cross the lake on rafts to approach this spot and see the aquatic monster, which emits its cries with such force, but the abundant weeds, marshes, and other boggy areas surrounding the lake make approach impossible.\""
+        },
+        {
+          "type": "text",
+          "value": "\"It is noted that the creature's cries have been heard from the lake for a month already, yet no one has managed to see anything inside the lake, even though many go there every day.\""
+        }
+      ],
+      "sources": [
+        {
+          "type": "efimerida",
+          "name": "Άστυ",
+          "date": "19 Απριλίου 1895",
+          "provider": "Αρχείο Εθνικής Βιβλιοθήκης"
+        },
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "page": "956"
+        }
+      ],
+      "tags": [
+        "Trichonida",
+        "Agrinio",
+        "Aetolia-Acarnania",
+        "Lakes-Rivers",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Otherworldly Roars at Lake Trichonida – Agrinio, 1895 | Lakes-Rivers | haunted.gr",
+        "metaDescription": "Asty newspaper 1895: unexplained roars at Lake Trichonida in Agrinio — villagers speak of an aquatic monster hidden in the marshy waters.",
+        "canonical": "https://haunted.gr/laografia/limnes/thirio-trixonidas-agriniou",
+        "keywords": [
+          "monster Lake Trichonida",
+          "Trichonida tradition folklore",
+          "aquatic monster Agrinio",
+          "Lake Trichonida roars",
+          "Greek folklore lakes",
+          "folklore Aetolia-Acarnania",
+          "mysterious monster lake Greece",
+          "unknown creature Trichonida",
+          "folk traditions lakes",
+          "spirit of the lake Agrinio",
+          "water monsters Greek tradition",
+          "Lake Trichonida legend",
+          "strange phenomena lake Greece",
+          "folklore lakes rivers Greece",
+          "mythical water creatures folklore"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Otherworldly Roars at Lake Trichonida – Agrinio, 1895",
+          "description": "Report of strange roars at Lake Trichonida that remain unexplained, with villagers speaking of an aquatic monster.",
+          "inLanguage": "en",
+          "datePublished": "1895-04-19",
+          "author": {
+            "@type": "Person",
+            "name": "Άστυ"
+          },
+          "image": "https://haunted.gr/images/laografia/thirio-trixonidas-agriniou.webp",
+          "articleSection": "Lakes-Rivers",
+          "keywords": [
+            "Trichonida",
+            "Agrinio",
+            "Aetolia-Acarnania",
+            "Lakes-Rivers",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/limnes/thirio-trixonidas-agriniou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Aetolia-Acarnania",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Trichonida"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.56593,
+              "longitude": 21.55455
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "68",
+      "title": "Lake Kopaida – The Mysterious Humming of the \"Etavros\", 1894",
+      "description": "Historical testimonies about the mythical humming called «Etavros» of Lake Kopaida, connected with omens of catastrophic events and the spirits of the dead.",
+      "slug": "vomvos-kopaidas",
+      "author": "Άστυ",
+      "date": "1894-06-14",
+      "excerpt": "Historical testimonies about the mythical humming called «Etavros» of Lake Kopaida, connected with omens of catastrophic events and the spirits of the dead.",
+      "locationTags": [
+        "Lake Kopaida"
+      ],
+      "mainArea": "Boeotia",
+      "subLocation": "Kopaida",
+      "lat": 38.451409,
+      "lng": 23.049742,
+      "image": {
+        "src": "/images/laografia/vomvos-kopaidas.webp",
+        "alt": "The historical Lake Kopaida with its characteristic reed beds"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Evd. A. Gkoritsas announced in the newspaper «Asty» (14–15 June 1894) the following about the legendary humming of Lake Kopaida:"
+        },
+        {
+          "type": "text",
+          "value": "\"The humming of Kopaida is called «Etavros» and is heard at regular intervals, every twenty or more years, following a drying of the lake. The distinctive sound can be heard from a distance of up to three hours' travel from the area, causing fear in listeners — especially on the quiet summer nights — lasting sometimes for many days.\""
+        },
+        {
+          "type": "text",
+          "value": "\"In 1861 (or 1868), when the lake had completely dried up for unknown reasons, the inhabitants were catching large quantities of fish and salting them. At that time the humming lasted for many days, ceasing only with the first autumn rains. The phenomenon recurred in later periods as well, though for shorter durations.\""
+        },
+        {
+          "type": "text",
+          "value": "Folk tradition attributes the acoustic phenomenon to: \"The souls are lamenting in the sunken regions of Kopaida.\" It is also believed that the «Etavros» portends ill omens — wars, epidemics, and collective disasters. Elderly witnesses report that the humming was heard intensely during the Revolution of 1821, the cholera epidemic of 1864, and the Cretan Revolution (1866–1868)."
+        }
+      ],
+      "sources": [
+        {
+          "type": "efimerida",
+          "name": "Άστυ",
+          "date": "14-15 Ιουνίου 1894",
+          "provider": "Αρχείο Εθνικού Τύπου"
+        },
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "page": "956"
+        }
+      ],
+      "tags": [
+        "Lake Kopaida",
+        "Boeotia",
+        "Kopaida",
+        "Lakes-Rivers",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Lake Kopaida – The Mysterious Humming of the «Etavros», 1894 | Lakes-Rivers | haunted.gr",
+        "metaDescription": "The mysterious humming «Etavros» of Lake Kopaida — 1894 testimonies of a sound that foretells disaster, the souls of the drowned, and a mythical monster.",
+        "canonical": "https://haunted.gr/laografia/limnes/vomvos-kopaidas",
+        "keywords": [
+          "Etavros Lake Kopaida",
+          "Lake Kopaida tradition",
+          "humming Kopaida folklore",
+          "mysterious sound lake Boeotia",
+          "Greek folklore lakes",
+          "folklore Boeotia",
+          "Kopaida spirit legend",
+          "water monsters Kopaida",
+          "folk traditions lakes Boeotia",
+          "souls of the drowned Lake Kopaida",
+          "omen of disaster Kopaida",
+          "mythical monster lake Greece",
+          "Kopaida humming tradition",
+          "folklore lakes rivers Greece",
+          "mysterious phenomena lake Boeotia"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Lake Kopaida – The Mysterious Humming of the \"Etavros\", 1894",
+          "description": "Historical testimonies about the mythical humming called «Etavros» of Lake Kopaida, connected with omens of catastrophic events and the spirits of the dead.",
+          "inLanguage": "en",
+          "datePublished": "1894-06-14",
+          "author": {
+            "@type": "Person",
+            "name": "Άστυ"
+          },
+          "image": "https://haunted.gr/images/laografia/vomvos-kopaidas.webp",
+          "articleSection": "Lakes-Rivers",
+          "keywords": [
+            "Lake Kopaida",
+            "Boeotia",
+            "Kopaida",
+            "Lakes-Rivers",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/limnes/vomvos-kopaidas"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Boeotia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kopaida"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.451409,
+              "longitude": 23.049742
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "69",
+      "title": "Louros River – The Legend of the Etavros",
+      "description": "People of Epirus tell similar stories about the same phenomenon along the Louros river and the Ambracian Gulf, according to reports by M.I. Manikas.",
+      "slug": "potamos-louros",
+      "author": "Ἑστία",
+      "date": "",
+      "excerpt": "People of Epirus tell similar stories about the same phenomenon along the Louros river and the Ambracian Gulf, according to reports by M.I. Manikas.",
+      "locationTags": [
+        "Louros River",
+        "Ambracian Gulf"
+      ],
+      "mainArea": "Epirus",
+      "subLocation": "Louros",
+      "lat": 39.37773,
+      "lng": 20.8763,
+      "image": {
+        "src": "/images/laografia/potamos-louros.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "People of Epirus tell similar stories about the same phenomenon, observing the same sound at the far end of the Ambracian Gulf, as reported by M.I. Manikas, an Epirot, in the same newspaper «Estia» (no. 86d, 957)."
+        },
+        {
+          "type": "text",
+          "value": "The echo heard, according to him, causes terror and is considered by many as an omen of evil events. Hunters who roam the area often hear this sound, which is perceptible from a distance of two or three hours' travel, mainly in autumn and spring. It is believed that the sound comes from some type of animal which, hidden beneath the waters of the lake or the nearby Louros river, occasionally surfaces and bellows. Some claim to have seen it, saying it resembles a black bull or buffalo, from which it takes the name «Etavros». This report adds that there are many traditions and myths surrounding this phenomenon."
+        }
+      ],
+      "sources": [
+        {
+          "type": "efimerida",
+          "name": "Ἑστία",
+          "details": "αρ. 86δ, 957"
+        },
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "956-957"
+        }
+      ],
+      "tags": [
+        "Louros River",
+        "Ambracian Gulf",
+        "Epirus",
+        "Louros",
+        "Lakes-Rivers",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Louros River – The Legend of the Etavros | Lakes-Rivers | haunted.gr",
+        "metaDescription": "Folklore of Epirus: the «Etavros» is heard along the Louros river and the Ambracian Gulf — a black bull or buffalo in the waters that foretells evil.",
+        "canonical": "https://haunted.gr/laografia/limnes/potamos-louros",
+        "keywords": [
+          "Etavros Louros river",
+          "Louros river tradition Epirus",
+          "Ambracian Gulf spirit",
+          "mysterious sound river Epirus",
+          "Greek folklore lakes",
+          "folklore Epirus",
+          "water monster Louros Epirus",
+          "Ambracian Gulf legend folklore",
+          "folk traditions rivers Epirus",
+          "mythical water creature Epirus",
+          "Etavros tradition Greece",
+          "humming waters Epirus tradition",
+          "spirit of the river Epirus",
+          "folklore lakes rivers Greece",
+          "mysterious phenomena river Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Louros River – The Legend of the Etavros",
+          "description": "People of Epirus tell similar stories about the same phenomenon along the Louros river and the Ambracian Gulf, according to reports by M.I. Manikas.",
+          "inLanguage": "en",
+          "author": {
+            "@type": "Person",
+            "name": "Ἑστία"
+          },
+          "image": "https://haunted.gr/images/laografia/potamos-louros.webp",
+          "articleSection": "Lakes-Rivers",
+          "keywords": [
+            "Louros River",
+            "Ambracian Gulf",
+            "Epirus",
+            "Louros",
+            "Lakes-Rivers",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/limnes/potamos-louros"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Epirus",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Louros"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.37773,
+              "longitude": 20.8763
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "70",
+      "title": "Mornos River – The Legend of the Etavros",
+      "description": "Traditions about the «Etavros» at the mouth of the Mornos river, connected with earthworms and the souls of the drowned.",
+      "slug": "mornos-naupaktos",
+      "author": "",
+      "date": "",
+      "excerpt": "Traditions about the «Etavros» at the mouth of the Mornos river, connected with earthworms and the souls of the drowned.",
+      "locationTags": [
+        "Mornos",
+        "Nafpaktos"
+      ],
+      "mainArea": "Fokida",
+      "subLocation": "Mornos",
+      "lat": 38.52436,
+      "lng": 22.06756,
+      "image": {
+        "src": "/images/laografia/mornos-naupaktos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In Nafpaktos (according to a report by I. Vlachogiannis), it is said that the «Etavros» is heard at the mouth of the Mornos river and the locals believe it is \"an earthworm that groans\"."
+        },
+        {
+          "type": "text",
+          "value": "In this regard, the bellowing that is heard is considered a herald of evil, and according to a local belief in Boeotia, it comes from the laments of the souls of people who drowned in very ancient times, whose souls remain in the regions flooded by Lake Kopaida."
+        },
+        {
+          "type": "text",
+          "value": "According to other traditions, the sound is attributed to a mythical creature dwelling in the depths of the lakes or rivers, having the form of a black bull or buffalo, or even a serpent or dragon, whose body is so enormous that its bellowing carves a deep trench."
+        },
+        {
+          "type": "text",
+          "value": "Studies on the Life and Language of the Greek People, N. G. Politis – Traditions, Part B, 1904 – pp. 956–957"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "956-957"
+        }
+      ],
+      "tags": [
+        "Mornos",
+        "Nafpaktos",
+        "Fokida",
+        "Lakes-Rivers",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Mornos River – The Legend of the Etavros | Lakes-Rivers | haunted.gr",
+        "metaDescription": "Folklore of Nafpaktos: the «Etavros» at the mouth of the Mornos — \"an earthworm that groans\", souls of the drowned from Kopaida, and a mythical monster.",
+        "canonical": "https://haunted.gr/laografia/limnes/mornos-naupaktos",
+        "keywords": [
+          "Etavros Mornos river",
+          "Mornos river tradition folklore",
+          "Nafpaktos spirit of the river",
+          "mysterious sound river Fokida",
+          "Greek folklore lakes",
+          "folklore Fokida",
+          "water monster Mornos Nafpaktos",
+          "souls of the drowned river tradition",
+          "folk traditions rivers Fokida",
+          "mythical water creature Fokida",
+          "Etavros tradition Greece",
+          "humming river Nafpaktos",
+          "spirit of the river Fokida",
+          "folklore lakes rivers Greece",
+          "mysterious phenomena river Fokida"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Mornos River – The Legend of the Etavros",
+          "description": "Traditions about the «Etavros» at the mouth of the Mornos river, connected with earthworms and the souls of the drowned.",
+          "inLanguage": "en",
+          "image": "https://haunted.gr/images/laografia/mornos-naupaktos.webp",
+          "articleSection": "Lakes-Rivers",
+          "keywords": [
+            "Mornos",
+            "Nafpaktos",
+            "Fokida",
+            "Lakes-Rivers",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/limnes/mornos-naupaktos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Fokida",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mornos"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.52436,
+              "longitude": 22.06756
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "71",
+      "title": "Acheloos River – The Legend of the Nitavros, 1795",
+      "description": "Tradition about an aquatic monster at the mouth of the Acheloos river.",
+      "slug": "nitavros-acheloos",
+      "author": "",
+      "date": "",
+      "excerpt": "Tradition about an aquatic monster at the mouth of the Acheloos river.",
+      "mainArea": "Fokida",
+      "subLocation": "Mornos",
+      "locationTags": [
+        "Acheloos"
+      ],
+      "lat": 38.49719,
+      "lng": 21.24248,
+      "image": {
+        "src": "/images/laografia/nitavros-acheloos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Similar, though misinterpreted, are the accounts related to the Nitavros, according to a Peloponnesian tradition cited by those engaged in a scientific expedition. According to this, it is said that in 1795 an aquatic monster appeared at the mouth of the Acheloos, which devoured many shepherds and put their flocks to flight. This phenomenon was interpreted as a forerunner of impending catastrophes."
+        },
+        {
+          "type": "text",
+          "value": "Indeed, the catastrophes came to the Peloponnese, for at the beginning of 1795, Ismail, an Asian governor — a harsh and barbarous tyrant — took control of the region."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "956-957"
+        }
+      ],
+      "tags": [
+        "Acheloos",
+        "Fokida",
+        "Mornos",
+        "Lakes-Rivers",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Acheloos River – The Legend of the Nitavros, 1795 | Lakes-Rivers | haunted.gr",
+        "metaDescription": "Folklore 1795: the «Nitavros» at the mouth of the Acheloos — an aquatic monster that devoured shepherds and foretold the harsh rule of Ismail.",
+        "canonical": "https://haunted.gr/laografia/limnes/nitavros-acheloos",
+        "keywords": [
+          "Nitavros Acheloos river",
+          "Acheloos river monster tradition",
+          "aquatic monster Acheloos 1795",
+          "mysterious creature river Greece",
+          "Greek folklore lakes",
+          "folklore Fokida",
+          "monster at the mouth of Acheloos",
+          "spirit of the river Acheloos",
+          "folk traditions rivers Greece",
+          "mythical water monster Acheloos",
+          "Etavros Nitavros tradition",
+          "humming river tradition Greece",
+          "water monsters Greek tradition",
+          "folklore lakes rivers Greece",
+          "mysterious phenomena river Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Acheloos River – The Legend of the Nitavros, 1795",
+          "description": "Tradition about an aquatic monster at the mouth of the Acheloos river.",
+          "inLanguage": "en",
+          "image": "https://haunted.gr/images/laografia/nitavros-acheloos.webp",
+          "articleSection": "Lakes-Rivers",
+          "keywords": [
+            "Acheloos",
+            "Fokida",
+            "Mornos",
+            "Lakes-Rivers",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/limnes/nitavros-acheloos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Fokida",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mornos"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.49719,
+              "longitude": 21.24248
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "72",
+      "title": "Fish-shaped Creatures at Lake Feneou – Strabo",
+      "description": "Account of fish-shaped monsters at Lake Feneou and related historical references to water movements in the Ladon river.",
+      "slug": "ichtyomorfoi-feneou-ladonas",
+      "author": "",
+      "date": "1899",
+      "excerpt": "Account of fish-shaped monsters at Lake Feneou and related historical references to water movements in the Ladon river.",
+      "locationTags": [
+        "Lake Feneou"
+      ],
+      "mainArea": "Corinthia",
+      "subLocation": "Feneou",
+      "lat": 37.92981,
+      "lng": 22.2863,
+      "image": {
+        "src": "/images/laografia/ichtyomorfoi-feneou-ladonas.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The waters of Lake Feneou flow through sinkholes into the springs of the Ladon river, as attested by ancient writers and confirmed by modern geologists (on the lake of Feneou, Yearbook of Parnassos, 1899, p. 245)."
+        },
+        {
+          "type": "text",
+          "value": "The increase of the Ladon's waters from the lake in 1855 is not known from other sources and must be added to the incomplete record of years and observations (see Skoufos, End. An., p. 241). The traveller who published this tradition notes that Strabo too records the appearance of monstrous fish during the lake's overflow and their transport into the Ladon. However, neither Strabo nor other ancient writers have recorded this information."
+        }
+      ],
+      "sources": [
+        {
+          "type": "journal",
+          "name": "Ετηρίδιο Παρνασσού",
+          "year": "1899",
+          "page": "245"
+        },
+        {
+          "type": "book",
+          "author": "Σκούφο",
+          "title": "Ενδ. Άν.",
+          "page": "241"
+        },
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "987"
+        }
+      ],
+      "tags": [
+        "Lake Feneou",
+        "Corinthia",
+        "Feneou",
+        "Lakes-Rivers",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Fish-shaped Creatures at Lake Feneou – Strabo | Lakes-Rivers | haunted.gr",
+        "metaDescription": "Folklore of Corinthia: fish-shaped monsters at Lake Feneou — Strabo on monsters during overflow and their transport to the Ladon river.",
+        "canonical": "https://haunted.gr/laografia/limnes/ichtyomorfoi-feneou-ladonas",
+        "keywords": [
+          "fish-shaped monsters Lake Feneou",
+          "Lake Feneou tradition folklore",
+          "monsters of the lake Corinthia",
+          "mythical creatures Lake Feneou",
+          "Greek folklore lakes",
+          "folklore Corinthia",
+          "Ladon river spirit",
+          "fish-shaped monsters Greek tradition",
+          "folk traditions lakes Corinthia",
+          "Strabo monsters of the lake",
+          "water monsters Feneou Corinthia",
+          "mythical water creatures Greece",
+          "Feneou Ladon legend folklore",
+          "folklore lakes rivers Greece",
+          "mysterious creatures lake Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Fish-shaped Creatures at Lake Feneou – Strabo",
+          "description": "Account of fish-shaped monsters at Lake Feneou and related historical references to water movements in the Ladon river.",
+          "inLanguage": "en",
+          "datePublished": "1899",
+          "image": "https://haunted.gr/images/laografia/ichtyomorfoi-feneou-ladonas.webp",
+          "articleSection": "Lakes-Rivers",
+          "keywords": [
+            "Lake Feneou",
+            "Corinthia",
+            "Feneou",
+            "Lakes-Rivers",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/limnes/ichtyomorfoi-feneou-ladonas"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Corinthia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Feneou"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.92981,
+              "longitude": 22.2863
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lakes-Rivers | Greek Folklore | haunted.gr",
+    "metaDescription": "Folkloric narratives about mysterious monsters and spirits in Greek lakes and rivers — Trichonida, Kopaida, Acheloos, Louros, Feneou.",
+    "canonical": "https://haunted.gr/laografia/limnes",
+    "keywords": [
+      "monsters lakes rivers Greece",
+      "Greek folklore lakes rivers",
+      "spirit of the lake tradition Greece",
+      "Etavros folklore Greece",
+      "mysterious water creatures Greece",
+      "folk traditions lakes Greece",
+      "monster Lake Trichonida",
+      "Kopaida humming tradition",
+      "monster Acheloos river",
+      "fish-shaped monsters Lake Feneou",
+      "aquatic monster Greek tradition",
+      "legends of lakes rivers Greece",
+      "folklore lakes rivers Greece",
+      "mythical water creatures folklore",
+      "tradition monster waters Greece"
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Lakes-Rivers | Greek Folklore",
+      "description": "Folkloric stories and testimonies about Lakes-Rivers across Greece.",
+      "inLanguage": "en",
+      "url": "https://haunted.gr/laografia/limnes",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "haunted.gr",
+        "url": "https://haunted.gr"
+      },
+      "about": [
+        "Lakes-Rivers",
+        "Folklore",
+        "Greece",
+        "Trichonida",
+        "Agrinio",
+        "Aetolia-Acarnania",
+        "Lake Kopaida",
+        "Boeotia",
+        "Kopaida",
+        "Louros River",
+        "Ambracian Gulf",
+        "Epirus",
+        "Louros",
+        "Mornos",
+        "Nafpaktos",
+        "Fokida",
+        "Acheloos",
+        "Lake Feneou",
+        "Corinthia",
+        "Feneou"
+      ]
+    }
+  }
+}

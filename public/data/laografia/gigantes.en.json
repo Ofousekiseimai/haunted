@@ -1,0 +1,406 @@
+{
+  "category": "Folklore",
+  "subcategorySlug": "gigantes",
+  "subcategory": "Giants",
+  "articles": [
+    {
+      "id": "12",
+      "title": "Gigantofoli of Zakynthos",
+      "slug": "Γιγαντοφώλι",
+      "author": "Νικόλαος Πολίτης",
+      "date": "",
+      "excerpt": "Gigantofoli means 'giants' nest'. Romiri is a village of the municipality of Opitaidon in Zakynthos..",
+      "locationTags": [
+        "Romiri - Zakynthos"
+      ],
+      "mainArea": "Zakynthos",
+      "subLocation": "Romiri",
+      "lat": 37.7488,
+      "lng": 20.8187,
+      "keywords": [
+        "gigantofoli",
+        "giants Zakynthos"
+      ],
+      "image": {
+        "src": "/images/laografia/gigantofoli.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "According to S. De Viazis (1908), Gigantofoli means 'giants' nest'. Romiri is a village of the municipality of Opitaidon in Zakynthos."
+        },
+        {
+          "type": "text",
+          "value": "What makes the tradition particularly notable is that it presents the Giants as spirits of the forests, dwelling in dense woods with tall and ancient trees, and who are destroyed by humans through fire."
+        },
+        {
+          "type": "text",
+          "value": "Victory of humans over the Giants is also mentioned in Attic myths (Schol. Aristeid. p. 935; Papaelias, p. 157)."
+        }
+      ],
+      "source": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού Ν. Γ. Πολίτης - Παραδόσεις Μερος Β 1904 - σελ 749",
+      "tags": [
+        "Romiri - Zakynthos",
+        "Zakynthos",
+        "Romiri",
+        "Giants",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Gigantofoli of Zakynthos | Giants | haunted.gr",
+        "metaDescription": "Gigantofoli: giants' nest in Romiri, Zakynthos. Tradition of giants as forest spirits destroyed by fire. Zakynthian folklore.",
+        "canonical": "https://haunted.gr/laografia/gigantes/%CE%93%CE%B9%CE%B3%CE%B1%CE%BD%CF%84%CE%BF%CF%86%CF%8E%CE%BB%CE%B9",
+        "keywords": [
+          "giants Zakynthos",
+          "Zakynthos giants",
+          "giants myth Zakynthos",
+          "Gigantofoli Zakynthos",
+          "giants Greek tradition",
+          "giants folklore",
+          "Romiri giants",
+          "Zakynthos folklore myth",
+          "giants forest tradition",
+          "Greek myths giants",
+          "giants nature spirits",
+          "Zakynthos folklore supernatural"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Gigantofoli of Zakynthos",
+          "description": "Gigantofoli means 'giants' nest'. Romiri is a village of the municipality of Opitaidon in Zakynthos..",
+          "inLanguage": "en",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/gigantofoli.webp",
+          "articleSection": "Giants",
+          "keywords": [
+            "Romiri - Zakynthos",
+            "Zakynthos",
+            "Romiri",
+            "Giants",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/gigantes/%CE%93%CE%B9%CE%B3%CE%B1%CE%BD%CF%84%CE%BF%CF%86%CF%8E%CE%BB%CE%B9"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Zakynthos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7488,
+              "longitude": 20.8187
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Romiri"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "13",
+      "title": "The Sarantapichoi Giants of Crete",
+      "slug": "σαραντάπηχοι-γιγαντες",
+      "author": "Νικόλαος Πολίτης",
+      "date": "",
+      "excerpt": "In Cretan traditions, beyond their destruction through the flood, there is also the very name of the giants: Sarantapichoi...",
+      "locationTags": [
+        "Crete"
+      ],
+      "mainArea": "Crete",
+      "lat": 35.2401,
+      "lng": 24.8093,
+      "image": {
+        "src": "/images/laografia/sarantapixoi.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The extermination of the Sarantapichoi through the flood appears to be an echo of the Hebrew flood narrative, in which, in Genesis (ch. 6:4), there precedes the mention of the giants born of the union of the sons of God with the daughters of men."
+        },
+        {
+          "type": "text",
+          "value": "The death of the Sarantapichoi by falling is also mentioned in Bulgarian traditions. According to these, the first people God created were like giants — very tall and strong — but in their every act they failed, fell and broke their backs, and so could no longer rise."
+        },
+        {
+          "type": "text",
+          "value": "What is particular in the Cretan traditions, beyond their destruction through the flood, is the very name of the giants: Sarantapichoi. Ravdini (Études Crétoises, vol. I, p. 212) noted the similarity of this name with the epithet of Babdel, grandson of the Saracen conqueror of Crete, Tesserakontapichys. However, this epithet was mistakenly believed by the English traveler to belong to Babdel, when in reality it belonged to the Greek general Konstantinos Sarantapichos, who defeated him in the Peloponnese. The number in the first component of the name does not denote something exact and specific, but rather 'very much' — just as we say 'Sarantapotamos' for a river."
+        },
+        {
+          "type": "text",
+          "value": "It was said that the Aloads bound Ares (Stephanus of Byzantium, entry 'Biengos'). In Crete, there was a volcanic location called the 'Fields of Otos' (according to Daloustios). There, in the imperial era, the bones of a giant were found and assumed to belong either to Otos or to Orion. From this it is probable that in the tradition of the tomb of the Sarantapichos near Viannos, there underlies a memory of the ancient Cretan myths of the Aloads. Ravdini himself mentions that, according to testimonies of older travelers, there was in Crete a city called Sarantopolis — possibly near Siteia — believed to have been inhabited in ancient times by Giants."
+        },
+        {
+          "type": "text",
+          "value": "However, neither in Siteia nor elsewhere in Crete does there exist today a city or village called Sarantopolis; only in Siteia is there a location called 'Sarantapichos', where it is said that the tomb of a Sarantapichos is located (see no. 195)."
+        }
+      ],
+      "source": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού Ν. Γ. Πολίτης - Παραδόσεις Μερος Β 1904 - σελ 751",
+      "tags": [
+        "Crete",
+        "Giants",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Sarantapichoi Giants of Crete | Giants | haunted.gr",
+        "metaDescription": "Sarantapichoi: Cretan myths of giants lost in the flood. Ancient tombs in Siteia and Viannos, Crete. Cretan giant folklore.",
+        "canonical": "https://haunted.gr/laografia/gigantes/%CF%83%CE%B1%CF%81%CE%B1%CE%BD%CF%84%CE%AC%CF%80%CE%B7%CF%87%CE%BF%CE%B9-%CE%B3%CE%B9%CE%B3%CE%B1%CE%BD%CF%84%CE%B5%CF%82",
+        "keywords": [
+          "giants Crete",
+          "Crete giants",
+          "giants myth Crete",
+          "Sarantapichoi Crete",
+          "giants Cretan tradition",
+          "giants Greek tradition",
+          "Cretan myths giants",
+          "Crete folklore giants",
+          "giants flood tradition",
+          "ancient giant tombs Crete",
+          "Siteia giants",
+          "Viannos giants myth"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Sarantapichoi Giants of Crete",
+          "description": "In Cretan traditions, beyond their destruction through the flood, there is also the very name of the giants: Sarantapichoi...",
+          "inLanguage": "en",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/sarantapixoi.webp",
+          "articleSection": "Giants",
+          "keywords": [
+            "Crete",
+            "Giants",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/gigantes/%CF%83%CE%B1%CF%81%CE%B1%CE%BD%CF%84%CE%AC%CF%80%CE%B7%CF%87%CE%BF%CE%B9-%CE%B3%CE%B9%CE%B3%CE%B1%CE%BD%CF%84%CE%B5%CF%82"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Crete",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 35.2401,
+              "longitude": 24.8093
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "315",
+      "title": "The Sarantapichos of Rhodes",
+      "slug": "o-sarantapichos-tis-rodou",
+      "author": "Αναστασίος Βρόντης",
+      "date": "1939",
+      "excerpt": "An ancient sarcophagus 40 meters long near Kalythies, Rhodes, where according to tradition the Sarantapichos was buried, a legendary giant 40 meters tall.",
+      "mainArea": "Rhodes",
+      "subLocation": "Kalythies",
+      "locationTags": [
+        "Kalythies",
+        "Rhodes",
+        "Dodecanese",
+        "sarcophagus",
+        "tomb",
+        "grave",
+        "Sarantapichos",
+        "giant",
+        "legend",
+        "tradition"
+      ],
+      "lat": 36.3833,
+      "lng": 28.15,
+      "image": {
+        "src": "/images/laografia/o-sarantapichos-tis-rodou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Near the village of Kallitheno (modern Kalythies) there is an ancient stone tomb (sarcophagus) 40 meters long. Inside it was buried a great warrior 40 meters tall who was called Sarantapichos. Such tall and mighty people did our land have in the old days."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Αναστασίος Βρόντης",
+          "title": "Ροδιακά",
+          "year": "1939",
+          "pages": "45-46"
+        }
+      ],
+      "tags": [
+        "Kalythies",
+        "Rhodes",
+        "Dodecanese",
+        "Sarcophagus",
+        "Tomb",
+        "Grave",
+        "Sarantapichos",
+        "Giant",
+        "Legend",
+        "Tradition",
+        "Giants",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Sarantapichos of Rhodes | Giants | haunted.gr",
+        "metaDescription": "Sarantapichos of Rhodes: ancient sarcophagus 40 meters long in Kalythies. Legend of a giant in Rhodes and Dodecanese tradition. Rhodian folklore.",
+        "canonical": "https://haunted.gr/laografia/gigantes/o-sarantapichos-tis-rodou",
+        "keywords": [
+          "giants Rhodes",
+          "Rhodes giants",
+          "giants myth Rhodes",
+          "Sarantapichos Rhodes",
+          "giants Dodecanese",
+          "giants Greek tradition",
+          "Kalythies giant tradition",
+          "Rhodes folklore giants",
+          "giant sarcophagus Rhodes",
+          "giant tomb Dodecanese",
+          "legend giant Rhodes",
+          "Rhodian folklore supernatural"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Sarantapichos of Rhodes",
+          "description": "An ancient sarcophagus 40 meters long near Kalythies, Rhodes, where according to tradition the Sarantapichos was buried, a legendary giant 40 meters tall.",
+          "inLanguage": "en",
+          "author": {
+            "@type": "Person",
+            "name": "Αναστασίος Βρόντης"
+          },
+          "image": "https://haunted.gr/images/laografia/o-sarantapichos-tis-rodou.webp",
+          "articleSection": "Giants",
+          "keywords": [
+            "Kalythies",
+            "Rhodes",
+            "Dodecanese",
+            "Sarcophagus",
+            "Tomb",
+            "Grave",
+            "Sarantapichos",
+            "Giant",
+            "Legend",
+            "Tradition",
+            "Giants",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/gigantes/o-sarantapichos-tis-rodou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "datePublished": "1939",
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Rhodes",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.3833,
+              "longitude": 28.15
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kalythies"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seo": {
+    "metaTitle": "Giants | Greek Folklore | haunted.gr",
+    "metaDescription": "Myths and traditions about giants in Zakynthos, Crete, and Rhodes. Sarantapichoi, giant tombs, and ancient traditions in Greek folklore.",
+    "canonical": "https://haunted.gr/laografia/gigantes",
+    "keywords": [
+      "giants Greek tradition",
+      "giants folklore",
+      "giants myth Greece",
+      "Sarantapichoi tradition",
+      "giants Zakynthos",
+      "giants Crete",
+      "giants Rhodes",
+      "giants Dodecanese",
+      "giant tomb Greece",
+      "Greek folklore giants",
+      "ancient myths giants",
+      "giant legends Greece"
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Giants | Greek Folklore",
+      "description": "Folklore stories and testimonies about giants throughout Greece.",
+      "inLanguage": "en",
+      "url": "https://haunted.gr/laografia/gigantes",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "haunted.gr",
+        "url": "https://haunted.gr"
+      },
+      "about": [
+        "Giants",
+        "Folklore",
+        "Greece",
+        "Romiri - Zakynthos",
+        "Zakynthos",
+        "Romiri",
+        "Crete",
+        "Kalythies",
+        "Rhodes",
+        "Dodecanese",
+        "Sarcophagus",
+        "Tomb",
+        "Grave",
+        "Sarantapichos",
+        "Giant",
+        "Legend",
+        "Tradition"
+      ]
+    }
+  }
+}

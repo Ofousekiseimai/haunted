@@ -1,0 +1,250 @@
+{
+  "category": "Folklore",
+  "subcategorySlug": "drakospita",
+  "subcategory": "Dragon Houses",
+  "slug": "/laografia/drakospita",
+  "articles": [
+    {
+      "id": "7",
+      "title": "The Dragon House of Ochi",
+      "slug": "δρακόσπιτο-όχης-ευβοια",
+      "author": "Τίτος Γιοχαλάς",
+      "date": "2002-01-01",
+      "excerpt": "Folk traditions about the Dragon House of Ochi in the Komito area of Evia and the myth of the dragon...",
+      "mainArea": "Evia",
+      "subLocation": "Komito",
+      "locationTags": [
+        "Komito - Evia"
+      ],
+      "lat": 38.06888,
+      "lng": 24.5383,
+      "image": {
+        "src": "/images/laografia/drakospito_oxi.png",
+        "alt": "Image of the Dragon House of Ochi"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "We used to go to Ai-Lias and see the dragon's house. We would look at how it had been built with stones — they had hewn large stones. They had created arches and closed the roof from above with stone slabs. We would also gaze upon one stone: the dragon's footprint. The grandparents used to say that the dragon had stepped there. There was, they say, an underground passage through which the dragon came out directly to Myloi. They said that inside the Dragon House they had buried the dragon — they had killed him at that time. I don't know who killed him. They had made the grave inside the house. When we went to Ai-Lias, we would go and look at the dragon's house."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Τίτος Γιοχαλάς",
+          "title": "Ευβοια Τα Αρβανιτικα, Εκδόσεις Πατάκη, ",
+          "year": "2002",
+          "pages": "295"
+        }
+      ],
+      "tags": [
+        "Komito - Evia",
+        "Evia",
+        "Komito",
+        "Dragon Houses",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Dragon House of Ochi | Dragon Houses | haunted.gr",
+        "metaDescription": "Folk traditions about the Dragon House of Ochi in the Komito area of Evia and the myth of the dragon...",
+        "canonical": "https://haunted.gr/laografia/drakospita/%CE%B4%CF%81%CE%B1%CE%BA%CF%8C%CF%83%CF%80%CE%B9%CF%84%CE%BF-%CF%8C%CF%87%CE%B7%CF%82-%CE%B5%CF%85%CE%B2%CE%BF%CE%B9%CE%B1",
+        "keywords": [
+          "Komito - Evia",
+          "Evia",
+          "Komito",
+          "Dragon Houses",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Dragon House of Ochi",
+          "description": "Folk traditions about the Dragon House of Ochi in the Komito area of Evia and the myth of the dragon...",
+          "inLanguage": "en",
+          "datePublished": "2002-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/drakospito_oxi.png",
+          "articleSection": "Dragon Houses",
+          "keywords": [
+            "Komito - Evia",
+            "Evia",
+            "Komito",
+            "Dragon Houses",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/drakospita/%CE%B4%CF%81%CE%B1%CE%BA%CF%8C%CF%83%CF%80%CE%B9%CF%84%CE%BF-%CF%8C%CF%87%CE%B7%CF%82-%CE%B5%CF%85%CE%B2%CE%BF%CE%B9%CE%B1"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Evia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Komito"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.06888,
+              "longitude": 24.5383
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "8",
+      "title": "The Two Dragons and the Dragon House of Ochi",
+      "slug": "οι-δυο-δρακοι-και-το-δρακοσπιτο-της-οχης",
+      "author": "Τίτος Γιοχαλάς",
+      "date": "2002-01-01",
+      "excerpt": "A folk myth from Evia about two brothers with supernatural strength and the Dragon House of Ai-Lias...",
+      "mainArea": "Evia",
+      "subLocation": "Kalergo",
+      "locationTags": [
+        "Kalergo - Evia"
+      ],
+      "lat": 38.06888,
+      "lng": 24.5383,
+      "image": {
+        "src": "/images/laografia/dyo-drakoi.webp",
+        "alt": "Image of the Dragon House of Ochi in Evia"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "My father and mother had told me that there were two brothers who were called dragons. They had great strength. One lived in Myloi, the other lived in Lenosaious. They also had a sister. The sister sometimes stayed with one brother and sometimes with the other.\n\nThey threw stones to show who had greater strength. The one from Myloi threw a large stone and it reached Skala, into the river. The brother who had gone to drink water was killed without intent. He informed the sister that he had killed his brother. The sister came to the village, here in Lenosaious, and they buried him to the left of the road. There is a grave next to the cave. There is also a large stone cracked in the middle. Where the grave is, next to the path on the road, a little further down, it is called Kakia Skala.\n\nOut of grief, the brother rose and went to Ai-Lias and built a house there to live in, so as not to be saddened. I have gone and seen this house. They call it the dragon house at the mountaintop of Ai-Lias. These things my father and grandfather told me when we were young, and I remember them."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Τίτος Γιοχαλάς",
+          "title": "Ευβοια Τα Αρβανιτικα, Εκδόσεις Πατάκη, ",
+          "year": "2002",
+          "pages": "319"
+        }
+      ],
+      "tags": [
+        "Kalergo - Evia",
+        "Evia",
+        "Kalergo",
+        "Dragon Houses",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Two Dragons and the Dragon House of Ochi | Dragon Houses | haunted.gr",
+        "metaDescription": "A folk myth from Evia about two brothers with supernatural strength and the Dragon House of Ai-Lias...",
+        "canonical": "https://haunted.gr/laografia/drakospita/%CE%BF%CE%B9-%CE%B4%CF%85%CE%BF-%CE%B4%CF%81%CE%B1%CE%BA%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CF%84%CE%BF-%CE%B4%CF%81%CE%B1%CE%BA%CE%BF%CF%83%CF%80%CE%B9%CF%84%CE%BF-%CF%84%CE%B7%CF%82-%CE%BF%CF%87%CE%B7%CF%82",
+        "keywords": [
+          "Kalergo - Evia",
+          "Evia",
+          "Kalergo",
+          "Dragon Houses",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Two Dragons and the Dragon House of Ochi",
+          "description": "A folk myth from Evia about two brothers with supernatural strength and the Dragon House of Ai-Lias...",
+          "inLanguage": "en",
+          "datePublished": "2002-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/dyo-drakoi.webp",
+          "articleSection": "Dragon Houses",
+          "keywords": [
+            "Kalergo - Evia",
+            "Evia",
+            "Kalergo",
+            "Dragon Houses",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/drakospita/%CE%BF%CE%B9-%CE%B4%CF%85%CE%BF-%CE%B4%CF%81%CE%B1%CE%BA%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CF%84%CE%BF-%CE%B4%CF%81%CE%B1%CE%BA%CE%BF%CF%83%CF%80%CE%B9%CF%84%CE%BF-%CF%84%CE%B7%CF%82-%CE%BF%CF%87%CE%B7%CF%82"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Evia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kalergo"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.06888,
+              "longitude": 24.5383
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seo": {
+    "metaTitle": "Dragon Houses | Greek Folklore | haunted.gr",
+    "metaDescription": "Collection of 2 folklore stories about Dragon Houses in Greece.",
+    "canonical": "https://haunted.gr/laografia/drakospita",
+    "keywords": [
+      "Dragon Houses",
+      "Folklore",
+      "Greece",
+      "Komito - Evia",
+      "Evia",
+      "Komito",
+      "Kalergo - Evia",
+      "Kalergo"
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Dragon Houses | Greek Folklore",
+      "description": "Folklore stories and testimonies about Dragon Houses throughout Greece.",
+      "inLanguage": "en",
+      "url": "https://haunted.gr/laografia/drakospita",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "haunted.gr",
+        "url": "https://haunted.gr"
+      },
+      "about": [
+        "Dragon Houses",
+        "Folklore",
+        "Greece",
+        "Komito - Evia",
+        "Evia",
+        "Komito",
+        "Kalergo - Evia",
+        "Kalergo"
+      ]
+    }
+  }
+}
