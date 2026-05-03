@@ -5195,13 +5195,6 @@
         "src": "/images/efimerides/tilekinitika-fainomena-vythos-kozanis-1952.webp",
         "alt": "..."
       },
-      "location": {
-        "name": "Vythos, Kozani",
-        "region": "Western Macedonia",
-        "country": "Greece",
-        "lat": 40.3297,
-        "lng": 21.1093
-      },
       "content": [
         {
           "type": "text",
@@ -5318,7 +5311,9 @@
           },
           "image": "https://haunted.gr/images/efimerides/tilekinitika-fainomena-vythos-kozanis-1952.webp"
         }
-      }
+      },
+      "lat": 40.3297,
+      "lng": 21.1093
     },
     {
       "id": "481",
@@ -5577,12 +5572,6 @@
         "src": "/images/efimerides/lithovolismos-arkadia-1934.webp",
         "alt": "Archival image from the 1934 Kynouria Vima newspaper article, page 2"
       },
-      "location": {
-        "mainArea": "Arcadia",
-        "subLocation": "Tsitalia",
-        "lat": 37.3833,
-        "lng": 22.3167
-      },
       "content": [
         {
           "type": "text",
@@ -5642,7 +5631,11 @@
           "folk beliefs",
           "1934"
         ]
-      }
+      },
+      "mainArea": "Arcadia",
+      "subLocation": "Tsitalia",
+      "lat": 37.3833,
+      "lng": 22.3167
     },
     {
       "id": 487,
@@ -6071,12 +6064,6 @@
         "src": "/images/efimerides/kaiki-fantasma-1934.webp",
         "alt": "Archival image from the 1934 Apogevmatini newspaper article, p. 1"
       },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Saronic Gulf – Fleves, Zoster, Cape Zervia",
-        "lat": 37.8167,
-        "lng": 23.7333
-      },
       "content": [
         {
           "type": "text",
@@ -6252,7 +6239,11 @@
           "paranormal phenomena",
           "1934"
         ]
-      }
+      },
+      "mainArea": "Attica",
+      "subLocation": "Saronic Gulf – Fleves, Zoster, Cape Zervia",
+      "lat": 37.8167,
+      "lng": 23.7333
     },
     {
       "id": 498,
@@ -6264,12 +6255,6 @@
       "image": {
         "src": "/images/efimerides/lithovroxi-vironas.webp",
         "alt": "Archival image from the 1933 Tharros newspaper article"
-      },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Vyronas – Agia Triada",
-        "lat": 37.9572,
-        "lng": 23.743
       },
       "content": [
         {
@@ -6344,7 +6329,225 @@
           "mysterious phenomena",
           "1933"
         ]
-      }
+      },
+      "mainArea": "Attica",
+      "subLocation": "Vyronas – Agia Triada",
+      "lat": 37.9572,
+      "lng": 23.743
+    },
+    {
+      "id": 705,
+      "slug": "vrochi-mystiriodon-lithon-fylakio-1937",
+      "title": "A Rain of Mysterious Stones at a Guard Post - 1937",
+      "date": "1937-01-24",
+      "source": "Ελληνικόν Μέλλον",
+      "excerpt": "Telekinetic phenomena at a municipal tax checkpoint at the location Pigada, 6 kilometres outside Athens: a rain of mysterious stones every midnight, without breaking a single pane of glass or injuring anyone. Eyewitness accounts from staff.",
+      "image": {
+        "src": "/images/efimerides/vroxi-lithwn-fylakio.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "It had been a long time since we had heard of any telekinetic phenomena, and the Society for Psychical Research had not dealt with such matters for a considerable period. But the talk of the terrible cold gripping Athens and of the influenza is interrupted by a new incident occurring just a few kilometres outside the city, throwing the entire surrounding area into turmoil."
+        },
+        {
+          "type": "text",
+          "value": "Six kilometres outside Athens, on the road towards Thebes, at the location known as Pigada — within the grounds purchased by the Municipality of Athens for the installation of the new Cemetery, in the direction of Nea Kokkinias — stands a neat, well-kept little wooden house serving as the tax collection checkpoint of the Municipality of Athens. Directly opposite, at a distance of approximately eight metres, stands another such wooden checkpoint belonging to the Municipality of Piraeus."
+        },
+        {
+          "type": "text",
+          "value": "It is here that the strange phenomena were observed, phenomena whose explanation neither the employees of the two municipalities nor the local residents are able to provide. Our reporter visited the location yesterday afternoon and learned the following from the employees of the Municipality of Athens — Mr. Lymberopoulou, head of the tax station, Mr. Lambrou, and Mr. Anagnostopoulos — who had not yet recovered from their agitation."
+        },
+        {
+          "type": "text",
+          "value": "Mr. Anagnostopoulos told us:"
+        },
+        {
+          "type": "quote",
+          "value": "\"For about a week now — precisely since last Sunday, and especially between midnight and 2 in the morning — we have been continuously observing, at intervals, showers of stones, sometimes light and sometimes intense. Last night again, around midnight, while I was alone on duty inside the post, I first heard a small noise on the roof as though small stones were falling, so numerous they would have required hundreds of hands to throw them. At first I thought the noise was coming from the lit stove, and I wanted to believe that the stories I had heard from my colleagues were either imaginary or a prank, and I paid no great attention.\n\nAfter a few minutes, however, before I had fully recovered from this first impression, I felt the entire guard post shuddering to its foundations. I heard a full downpour of stones falling everywhere — on the roof, on all sides of the building, and on the windows. Note that in spite of the barrage, not a single pane of glass so much as cracked. The stones seemed to be falling inside the building as well, so intense were the sounds. The entire wooden structure was trembling as though I were inside a terrible storm, and at the same time I heard 2 or 3 powerful blows as though someone were firing a gun beneath my seat.\n\nAt that point I lost my composure entirely. In great agitation I wrapped myself in my coat, quickly put on my hat to protect myself from the stones, and ran towards the road. At that same moment I saw my colleagues from the Piraeus post across the way also rushing out, terrified, because strange supernatural phenomena had been observed there as well.\n\nMeanwhile the stones continued to fall, and they were mostly of considerable size. Huddled in our coats, we searched the entire surrounding area, but detected no one. You see, within at least 50 metres there was not a single dwelling apart from the peaceful rural watchman. Despite the intense cold, we remained outside the checkpoints for a long time, searching everywhere, without finding any explanation.\n\nSlowly the fall of stones began to diminish until they stopped altogether. The remarkable thing is that no windowpanes were broken, the building sustained no damage, and the stones did not strike us despite our being completely exposed during the fall.\n\nWe were compelled, yesterday, anticipating what new ordeal we would face tonight, to report these strange phenomena to our supervisory authority. The Director of Indirect Taxes for the Municipality, Mr. Dimosthenis Gamvroulis, ordered the constable assigned to the Municipality, Mr. Gketsos, and other employees to arrive early at the checkpoint and remain throughout the night in order to find an explanation at last.\n\nIncidentally, many employees confirmed to us that approximately three years ago the very same phenomena were observed at this same checkpoint, and that they stopped of their own accord.\""
+        },
+        {
+          "type": "text",
+          "value": "Such was the account given to us by the municipal employees. It now falls to Mr. Tanagras to tell us, with his unassailable scientific authority, what is happening here. Are we dealing with telekinetic phenomena — or with a hoax?"
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Ελληνικόν Μέλλον",
+          "title": "Εφημερίδα Ελληνικόν Μέλλον",
+          "year": "1937",
+          "pages": "24.01.1937, σελ. 3"
+        }
+      ],
+      "tags": [
+        "telekinesis",
+        "stone rain",
+        "strange phenomena",
+        "guard post",
+        "Athens",
+        "Tanagras",
+        "Society for Psychical Research",
+        "1937"
+      ],
+      "seo": {
+        "metaTitle": "A Rain of Mysterious Stones at a Guard Post - 1937 | Telekinesis",
+        "metaDescription": "Telekinetic phenomena at a tax checkpoint in Pigada, 6km outside Athens: showers of mysterious stones every midnight without damage or injuries. Eyewitness testimonies. Ellinikon Mellon, 24.01.1937.",
+        "keywords": [
+          "telekinesis stones guard post Athens 1937",
+          "stone rain strange phenomena Attica",
+          "Tanagras Society for Psychical Research telekinesis",
+          "mysterious stones Pigada guard post",
+          "supernatural phenomena Athens 1937",
+          "Ellinikon Mellon 1937 phenomena"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "A Rain of Mysterious Stones at a Guard Post - 1937",
+          "description": "Telekinetic phenomena at a municipal tax checkpoint at Pigada, 6 kilometres outside Athens: a rain of mysterious stones every midnight.",
+          "inLanguage": "en",
+          "articleSection": "Strange Phenomena",
+          "keywords": [
+            "telekinesis",
+            "stone rain",
+            "Pigada Attica",
+            "Tanagras",
+            "1937"
+          ],
+          "datePublished": "1937-01-24",
+          "author": {
+            "@type": "Person",
+            "name": "D. Risk."
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/arthra/vrochi-mystiriodon-lithon-fylakio-1937"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Pigada, Attica",
+            "addressLocality": "Pigada",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.99,
+              "longitude": 23.67
+            }
+          }
+        }
+      },
+      "mainArea": "Pigada, Attica",
+      "subLocation": "Pigada",
+      "lat": 37.99,
+      "lng": 23.67
+    },
+    {
+      "id": 708,
+      "slug": "lithovolismos-froirio-kalamatas-1919",
+      "title": "Stone-Throwing in the Frourio Quarter of Kalamata - 1919",
+      "date": "1919-06-04",
+      "source": "Σημαία Καλαμών",
+      "excerpt": "The Frourio (Fortress) neighbourhood in Kalamata has been terrorised by nightly stone-throwing of unknown origin in 1919. Roof tiles are being smashed and the elderly women of the neighbourhood believe the stones are being hurled by diabolical agency.",
+      "image": {
+        "src": "/images/efimerides/lithovolismos-frourio-kalamata-1919.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The Frourio (Fortress) neighbourhood has been terrorised in recent nights by continuous stone-throwing during the night hours. The stones come from an unknown source. Not a single roof tile has been left unbroken. And exorcisms are being handed out freely, as the elderly women of the neighbourhood believe the stones are being hurled by diabolical agency."
+        },
+        {
+          "type": "text",
+          "value": "Does the police not think it too should perform its own \"exorcisms\" so as to catch those who are throwing the stones at night?"
+        },
+        {
+          "type": "text",
+          "value": "The situation is intolerable and justifiably provokes general indignation."
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Σημαία Καλαμών",
+          "title": "Εφημερίδα Σημαία Καλαμών",
+          "year": "1919",
+          "pages": "04.06.1919, σελ. 1"
+        }
+      ],
+      "tags": [
+        "stone-throwing",
+        "strange phenomena",
+        "Kalamata",
+        "Frourio",
+        "diabolical agency",
+        "1919"
+      ],
+      "seo": {
+        "metaTitle": "Stone-Throwing in the Frourio Quarter, Kalamata - 1919",
+        "metaDescription": "The Frourio neighbourhood in Kalamata was terrorised by mysterious nightly stone-throwing in 1919. Roof tiles were smashed and the locals attributed it to diabolical agency. From the newspaper Simaia Kalamon.",
+        "keywords": [
+          "stone-throwing Kalamata Frourio 1919",
+          "mysterious stones night Messinia",
+          "diabolical agency exorcism Kalamata",
+          "strange phenomena Peloponnese 1919",
+          "Simaia Kalamon 1919 phenomena"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "Stone-Throwing in the Frourio Quarter of Kalamata - 1919",
+          "description": "The Frourio neighbourhood in Kalamata was terrorised by nightly stone-throwing of unknown origin, with smashed roof tiles and suspicions of diabolical agency.",
+          "inLanguage": "en",
+          "articleSection": "Strange Phenomena",
+          "keywords": [
+            "stone-throwing",
+            "Frourio Kalamata",
+            "diabolical agency",
+            "1919"
+          ],
+          "datePublished": "1919-06-04",
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/arthra/lithovolismos-froirio-kalamatas-1919"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Kalamata, Messinia",
+            "addressLocality": "Frourio",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.0386,
+              "longitude": 22.1143
+            }
+          }
+        }
+      },
+      "mainArea": "Kalamata, Messinia",
+      "subLocation": "Frourio",
+      "lat": 37.0386,
+      "lng": 22.1143
     }
   ],
   "seo": {

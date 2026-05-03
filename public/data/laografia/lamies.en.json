@@ -1,0 +1,1737 @@
+{
+  "category": "Folklore",
+  "subcategorySlug": "lamies",
+  "subcategory": "Lamias",
+  "slug": "/laografia/lamies",
+  "articles": [
+    {
+      "id": "66",
+      "title": "Fairy Tale – The Lamia of Zarakies",
+      "slug": "lamia-evia",
+      "author": "Τίτος Γιοχαλάς",
+      "date": "2002-01-01",
+      "excerpt": "Fairy tale from Zarakies, Euboea, about a Lamia who ate people, until the youngest brother managed to defeat her with the help of his dogs.",
+      "locationTags": [
+        "Zarakies – Euboea"
+      ],
+      "mainArea": "Euboea",
+      "subLocation": "Zarakies",
+      "lat": 38.3023,
+      "lng": 24.1904,
+      "image": {
+        "src": "/images/laografia/lamia-evia.webp",
+        "alt": "Illustration of the Lamia from Euboea"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Once there was a mother who said:\n\n- Let me have a daughter, and let her become a Lamia!\n\nThis mother had ten sons and no daughter, which is why she said this. So she gave birth to a girl, and she became a Lamia.\n\nAfterwards, this Lamia would rise at night and eat the people of the village! She ate her brothers too. But the youngest, the very smallest, was clever. He fled from the house. She had also eaten their father, and their mother. He, the smallest of all, who was clever, escaped from the house and ran away."
+        },
+        {
+          "type": "text",
+          "value": "He fled from the house. She had eaten their father, and their mother too. He, the smallest of all, who was clever, had escaped from the house and run away. He went and climbed high into three cypress trees. They were all in a row.\n\nHe had told his parents that she was eating people, but they did not believe him. Because she was their only daughter, they loved her, even though she was a Lamia.\n\nOnce she had eaten them all and only he was left, he still had the three dogs. But the dogs were tied up at the house. The child climbed into the first cypress tree. The Lamia had one great tooth — one tooth, and a huge one! She went and began gnawing at the cypress tree, scratch-scratch. The child leapt to the other cypress tree. The Lamia was there again."
+        },
+        {
+          "type": "text",
+          "value": "The Lamia was there again.\n\nWhen the child realized she would cut through that one too and only one was left, to get there in time he began calling out to the dogs:\n\n- Come here, Azlanis! Come here, Kaplanis! Come here, little Lepuranis!\n\nThen he climbed into the other cypress, the third one. Having climbed up, he called out again with all his might:\n\n- Come here, Azlanis! Come here, Kaplanis! Come here, little Lepuranis!\n\nThe oldest of the dogs heard him and said:\n\n- The master is calling us!\n\nThe others said:\n\n- We have bigger ears than you and cannot hear him. How is it that you heard the master calling?\n\nThe dogs listened carefully and heard the master. They gathered their strength, snapped the rope, and went to where they heard the master's call."
+        },
+        {
+          "type": "text",
+          "value": "They came there and he told them:\n\n- Catch the Lamia and do not let a single drop of blood fall to the ground! Eat the Lamia whole.\n\nThe dogs seized the Lamia in their teeth and ate her whole, but three drops of blood fell. From the blood that spilled, all the people the Lamia had eaten came back to life.\n\nAnd then they all found one another, embraced, kissed, and afterwards they lived happily, and we even more so."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Τίτος Γιοχαλάς",
+          "title": "Ευβοια Τα Αρβανιτικα, Εκδόσεις Πατάκη, ",
+          "year": "2002",
+          "pages": "197"
+        }
+      ],
+      "tags": [
+        "Zarakies – Euboea",
+        "Euboea",
+        "Zarakies",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Fairy Tale – The Lamia of Zarakies | Lamias | haunted.gr",
+        "metaDescription": "Fairy tale from Zarakies, Euboea: a Lamia who eats people is defeated by the youngest brother with the help of three dogs. Greek folklore of Euboea.",
+        "canonical": "https://haunted.gr/laografia/lamies/lamia-evia",
+        "keywords": [
+          "Lamia Euboea",
+          "Euboea Lamia",
+          "Lamia Zarakies",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Euboea",
+          "mythology Lamia",
+          "Folklore of Euboea",
+          "Lamia eats people",
+          "fairy tale Lamia",
+          "Lamia dogs victory",
+          "cannibal Lamia",
+          "Zarakies Euboea"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Fairy Tale – The Lamia of Zarakies",
+          "description": "Fairy tale from Zarakies, Euboea, about a Lamia who ate people, until the youngest brother managed to defeat her with the help of his dogs.",
+          "inLanguage": "en",
+          "datePublished": "2002-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Τίτος Γιοχαλάς"
+          },
+          "image": "https://haunted.gr/images/laografia/lamia-evia.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Zarakies – Euboea",
+            "Euboea",
+            "Zarakies",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/lamia-evia"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Euboea",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Zarakies"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.3023,
+              "longitude": 24.1904
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "228",
+      "title": "The Koutsocheria – Karytaina, Gortynia",
+      "slug": "i-koutsocheria-karytaina-gortynias",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Traditional narrative of the appearance of the Koutsocheria in the waters of Karytaina",
+      "locationTags": [
+        "Karytaina, Gortynia"
+      ],
+      "mainArea": "Gortynia",
+      "subLocation": "Karytaina",
+      "lat": 37.4833,
+      "lng": 22.0333,
+      "image": {
+        "src": "/images/laografia/i-koutsocheria-karytaina-gortynias.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A woman saw within the river a creature dressed in red, with her hair spread out, combing it. She took her for a woman and called out to her. The creature immediately fell into the river and the waters swallowed her up. Then she understood that it had been the Koutsocheria, and she rose and fled."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "365-266"
+        }
+      ],
+      "tags": [
+        "Karytaina Gortynia",
+        "Gortynia",
+        "Karytaina",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Koutsocheria – Karytaina, Gortynia | Lamias | haunted.gr",
+        "metaDescription": "Traditional narrative of the appearance of the Koutsocheria in the waters of Karytaina, Gortynia. A mythical woman in red with flowing hair by the river — Greek folklore.",
+        "canonical": "https://haunted.gr/laografia/lamies/i-koutsocheria-karytaina-gortynias",
+        "keywords": [
+          "Lamia Gortynia",
+          "Gortynia Lamia",
+          "Lamia Karytaina",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Gortynia",
+          "mythology Lamia",
+          "Folklore of Gortynia",
+          "Koutsocheria river",
+          "Lamia water",
+          "mythical creature Karytaina",
+          "Lamia dressed in red",
+          "Karytaina Gortynia"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Koutsocheria – Karytaina, Gortynia",
+          "description": "Traditional narrative of the appearance of the Koutsocheria in the waters of Karytaina",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/i-koutsocheria-karytaina-gortynias.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Karytaina Gortynia",
+            "Gortynia",
+            "Karytaina",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/i-koutsocheria-karytaina-gortynias"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Gortynia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Karytaina"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.4833,
+              "longitude": 22.0333
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "229",
+      "title": "The Laminospito – Dimini, Magnesia",
+      "slug": "to-laminospito-dimini-magnisias",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk tradition on the origin of the local place name Lamna and the Laminospito in Dimini",
+      "locationTags": [
+        "Dimini, Magnesia"
+      ],
+      "mainArea": "Magnesia",
+      "subLocation": "Dimini",
+      "lat": 39.3611,
+      "lng": 22.8933,
+      "image": {
+        "src": "/images/laografia/to-laminospito-dimini-magnisias.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The plain that lies beyond the castle as far as Dimini is called Lamna, after a Lamna that lived there. Her house is near Dimini and is called the Laminospito."
+        },
+        {
+          "type": "text",
+          "value": "Dimini, Magnesia"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "366"
+        }
+      ],
+      "tags": [
+        "Dimini Magnesia",
+        "Magnesia",
+        "Dimini",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Laminospito – Dimini, Magnesia | Lamias | haunted.gr",
+        "metaDescription": "Folk tradition on the origin of the place name Lamna and the Laminospito in Dimini, Magnesia. Place name from a Lamna — Greek folklore of Magnesia.",
+        "canonical": "https://haunted.gr/laografia/lamies/to-laminospito-dimini-magnisias",
+        "keywords": [
+          "Lamia Magnesia",
+          "Magnesia Lamia",
+          "Lamia Dimini",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Magnesia",
+          "mythology Lamia",
+          "Folklore of Magnesia",
+          "Laminospito Dimini",
+          "Lamna place name",
+          "Lamia house",
+          "Lamia plain",
+          "Dimini Magnesia"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Laminospito – Dimini, Magnesia",
+          "description": "Folk tradition on the origin of the local place name Lamna and the Laminospito in Dimini",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/to-laminospito-dimini-magnisias.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Dimini Magnesia",
+            "Magnesia",
+            "Dimini",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/to-laminospito-dimini-magnisias"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Magnesia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Dimini"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.3611,
+              "longitude": 22.8933
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "230",
+      "title": "The Lamna of the Tree – Gardiki, Phthiotis",
+      "slug": "i-lamna-tou-dendrou-gardiki-fthiotidas",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk tradition of the mythical Lamna who dwelt in the hollow of a tree near Gardiki",
+      "locationTags": [
+        "Gardiki Phthiotis"
+      ],
+      "mainArea": "Phthiotis",
+      "subLocation": "Gardiki",
+      "lat": 38.9167,
+      "lng": 22.4333,
+      "image": {
+        "src": "/images/laografia/i-lamna-tou-dendrou-gardiki-fthiotidas.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Near Gardiki in Phthiotis there is a large tree. Many people have seen at night a tall woman with long hair sitting in its hollow. It was the Lamna."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "366"
+        }
+      ],
+      "tags": [
+        "Gardiki Phthiotis",
+        "Phthiotis",
+        "Gardiki",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Lamna of the Tree – Gardiki, Phthiotis | Lamias | haunted.gr",
+        "metaDescription": "Folk tradition of the mythical Lamna who dwelt in the hollow of a tree near Gardiki, Phthiotis. Tall woman with long hair at night — Greek folklore.",
+        "canonical": "https://haunted.gr/laografia/lamies/i-lamna-tou-dendrou-gardiki-fthiotidas",
+        "keywords": [
+          "Lamia Phthiotis",
+          "Phthiotis Lamia",
+          "Lamia Gardiki",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Phthiotis",
+          "mythology Lamia",
+          "Folklore of Phthiotis",
+          "Lamna tree hollow",
+          "Lamia forest",
+          "mythical creature Gardiki",
+          "Lamna woman night",
+          "Gardiki Phthiotis"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Lamna of the Tree – Gardiki, Phthiotis",
+          "description": "Folk tradition of the mythical Lamna who dwelt in the hollow of a tree near Gardiki",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/i-lamna-tou-dendrou-gardiki-fthiotidas.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Gardiki Phthiotis",
+            "Phthiotis",
+            "Gardiki",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/i-lamna-tou-dendrou-gardiki-fthiotidas"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Phthiotis",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Gardiki"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.9167,
+              "longitude": 22.4333
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "231",
+      "title": "The Lamna of Koropi",
+      "slug": "i-lamna-tou-koropiou",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk narrative of the Lamna that appeared in the well of Koropi and its destruction",
+      "locationTags": [
+        "Koropi"
+      ],
+      "mainArea": "Attica",
+      "subLocation": "Koropi",
+      "lat": 37.9,
+      "lng": 23.89,
+      "image": {
+        "src": "/images/laografia/i-lamna-tou-koropiou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In an old well at Koropi there appeared a Lamna that struck animals and sucked their blood. No one dared shoot it, for fear the bullet would rebound and kill them. But one day the Lamna struck the two oxen of a villager — his only property — and in his despair he seized his rifle, fired with his left hand, and killed the Lamna. Its body was three fathoms long. They threw it outside the village, onto a deserted plain, and wherever its blood dripped, no grass ever grew again."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "367"
+        }
+      ],
+      "tags": [
+        "Koropi",
+        "Attica",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Lamna of Koropi | Lamias | haunted.gr",
+        "metaDescription": "Folk narrative of the Lamna that appeared in the well of Koropi, sucked animals' blood and was killed by a villager. Folklore of Attica — Greek tradition.",
+        "canonical": "https://haunted.gr/laografia/lamies/i-lamna-tou-koropiou",
+        "keywords": [
+          "Lamia Attica",
+          "Attica Lamia",
+          "Lamia Koropi",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Attica",
+          "mythology Lamia",
+          "Folklore of Attica",
+          "Lamna well blood",
+          "Lamia animals",
+          "Lamia killed",
+          "Lamna Koropi",
+          "Koropi Attica"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Lamna of Koropi",
+          "description": "Folk narrative of the Lamna that appeared in the well of Koropi and its destruction",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/i-lamna-tou-koropiou.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Koropi",
+            "Attica",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/i-lamna-tou-koropiou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Attica",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Koropi"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.9,
+              "longitude": 23.89
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "232",
+      "title": "Definition of the Strigles – Nikolaos Politis",
+      "slug": "orismos-ton-striggkln-ellada",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk definition and description of the activities of the Strigles in Greek tradition",
+      "locationTags": [
+        "Greece"
+      ],
+      "lat": 39.0742,
+      "lng": 21.8243,
+      "image": {
+        "src": "/images/laografia/politis.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Strigles are poor and wretched old women who cannot do any good for a person, devoted entirely to magic. They do things that please the devil — powders, ointments, herbs, and suchlike. They do not trouble men much, but they do great harm to women and children, if these set any obstacle in the way of their magic; and with their breath and their blowing alone, they can either drive them mad or even kill them."
+        },
+        {
+          "type": "text",
+          "value": "They go to newborn babies who are crying, and they suck their blood, leaving them withered. These children, even if they do not die, remain wretched and sickly all their lives. For this reason, before a child is baptized, it is never left alone. And if, before the Strigles have sucked all the child's blood, the parents realize the child is in danger from them, they drive them away with noises and clapping of hands. The Strigles, so as not to be caught, flee from the house."
+        },
+        {
+          "type": "text",
+          "value": "Strigles dwell in the mountains and frequently come down to villages and towns. They run along the roads riding reeds, and breathe fire from their mouths. They have sharp claws, and they flay anyone they encounter on the road."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "370"
+        }
+      ],
+      "tags": [
+        "Greece",
+        "Lamias",
+        "Folklore"
+      ],
+      "seo": {
+        "metaTitle": "Definition of the Strigles – Nikolaos Politis | Lamias | haunted.gr",
+        "metaDescription": "Folk definition of Strigles: wretched old women who suck newborns' blood, ride reeds, breathe fire. Greek folklore — Nikolaos Politis 1904.",
+        "canonical": "https://haunted.gr/laografia/lamies/orismos-ton-striggkln-ellada",
+        "keywords": [
+          "Strigles Greece",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "mythology Lamia",
+          "Folklore Greece",
+          "Strigles newborns blood",
+          "Strigla definition",
+          "Strigles witches",
+          "Strigles reeds fire",
+          "Greek tradition Strigles",
+          "Nikolaos Politis folklore",
+          "demonic creatures Greece",
+          "supernatural entities Greek folklore"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Definition of the Strigles – Nikolaos Politis",
+          "description": "Folk definition and description of the activities of the Strigles in Greek tradition",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/politis.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Greece",
+            "Lamias",
+            "Folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/orismos-ton-striggkln-ellada"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.0742,
+              "longitude": 21.8243
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "233",
+      "title": "The Strigles of Kalamakia – Areópoli",
+      "slug": "striggles-tou-kalamakiou-areopoli",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk description of the Strigles of the Kalamaki cave and their association with depraved women",
+      "locationTags": [
+        "Areópoli"
+      ],
+      "mainArea": "Areópoli",
+      "subLocation": "Oitylo",
+      "lat": 36.6667,
+      "lng": 22.3833,
+      "image": {
+        "src": "/images/laografia/striggles-tou-kalamakiou-areopoli.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Strigles come out of the Kalamaki cave. And they seem to be very wicked, which is why wicked and depraved women are called 'Strigles of Kalamakia'."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "370"
+        }
+      ],
+      "tags": [
+        "Areópoli",
+        "Oitylo",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Strigles of Kalamakia – Areópoli | Lamias | haunted.gr",
+        "metaDescription": "Folk tradition of the Strigles from the Kalamaki cave in Areópoli, Mani. The phrase 'Strigles of Kalamakia' for wicked women — Greek folklore of Mani.",
+        "canonical": "https://haunted.gr/laografia/lamies/striggles-tou-kalamakiou-areopoli",
+        "keywords": [
+          "Lamia Areópoli",
+          "Areópoli Lamia",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Areópoli",
+          "mythology Lamia",
+          "Folklore of Mani",
+          "Strigles Areópoli",
+          "Strigles cave Kalamakia",
+          "Strigles Mani",
+          "Strigla Oitylo",
+          "demonic creatures Mani",
+          "Areópoli Mani"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Strigles of Kalamakia – Areópoli",
+          "description": "Folk description of the Strigles of the Kalamaki cave and their association with depraved women",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/striggles-tou-kalamakiou-areopoli.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Areópoli",
+            "Oitylo",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/striggles-tou-kalamakiou-areopoli"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Areópoli",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Oitylo"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.6667,
+              "longitude": 22.3833
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "234",
+      "title": "The Strigles of Lasta – Gortynia",
+      "slug": "oi-striggles-lasta-gortynias",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk narrative of three immortal Strigles and the sharing of their sense organs",
+      "locationTags": [
+        "Lasta Gortynias",
+        "Gortynia"
+      ],
+      "mainArea": "Gortynia",
+      "subLocation": "Lasta",
+      "lat": 37.65,
+      "lng": 21.9833,
+      "image": {
+        "src": "/images/laografia/oi-striggles-lasta-gortynias.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The Strigles were three old women who never died. And they had one tooth, one ear, and one eye, which each one took in turn. But they were always quarreling and squabbling, because each wanted to have the eye to see, or at least the ear to hear. The tooth they rarely wanted, only to eat."
+        },
+        {
+          "type": "text",
+          "value": "For this reason, often, because they could not agree, they hid them; and if anyone managed to steal them at such a moment, they would give him whatever he asked for. For from their craft as Strigles they had everything. But only one man managed to steal them, and they gave him whatever he asked."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "371"
+        }
+      ],
+      "tags": [
+        "Lasta Gortynias",
+        "Gortynia",
+        "Lasta",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Strigles of Lasta – Gortynia | Lamias | haunted.gr",
+        "metaDescription": "Three immortal Strigles in Lasta, Gortynia sharing one tooth, one ear, and one eye. Greek folklore of Gortynia — Nikolaos Politis 1904.",
+        "canonical": "https://haunted.gr/laografia/lamies/oi-striggles-lasta-gortynias",
+        "keywords": [
+          "Lamia Gortynia",
+          "Gortynia Lamia",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Gortynia",
+          "mythology Lamia",
+          "Folklore of Gortynia",
+          "Strigles Gortynia",
+          "Strigles immortal three",
+          "Strigles eye tooth ear",
+          "Strigla Lasta",
+          "demonic creatures Gortynia",
+          "Lasta Gortynias"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Strigles of Lasta – Gortynia",
+          "description": "Folk narrative of three immortal Strigles and the sharing of their sense organs",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-striggles-lasta-gortynias.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Lasta Gortynias",
+            "Gortynia",
+            "Lasta",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/oi-striggles-lasta-gortynias"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Gortynia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lasta"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.65,
+              "longitude": 21.9833
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "235",
+      "title": "The Strigles of Mykonos",
+      "slug": "striggles-tis-mykonou-mykonos",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk practice of frightening children with the threat of the Strigles of Mykonos",
+      "locationTags": [
+        "Mykonos"
+      ],
+      "mainArea": "Mykonos",
+      "subLocation": "Mykonos",
+      "lat": 37.4467,
+      "lng": 25.3289,
+      "image": {
+        "src": "/images/laografia/striggles-tis-mykonou-mykonos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Most of the Strigles are found on Mykonos. For this reason, when a child cries incessantly, they scold it and say: \"Why are you crying, little strigla? Shall we send you to Mykonos to join the other Strigles?\""
+        },
+        {
+          "type": "text",
+          "value": "\"Sometimes, to frighten it, they say: \"I will call the Strigles from Mykonos to take you!\""
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "371"
+        }
+      ],
+      "tags": [
+        "Mykonos",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Strigles of Mykonos | Lamias | haunted.gr",
+        "metaDescription": "Folk practice of frightening children with the threat of the Strigles of Mykonos. Most Strigles were found on Mykonos — Greek folklore of the Cyclades.",
+        "canonical": "https://haunted.gr/laografia/lamies/striggles-tis-mykonou-mykonos",
+        "keywords": [
+          "Lamia Mykonos",
+          "Mykonos Lamia",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Mykonos",
+          "mythology Lamia",
+          "Folklore of Cyclades",
+          "Strigles Mykonos",
+          "Strigles Cyclades",
+          "Strigla children threat",
+          "demonic creatures Cyclades",
+          "supernatural Mykonos",
+          "Mykonos Cyclades"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Strigles of Mykonos",
+          "description": "Folk practice of frightening children with the threat of the Strigles of Mykonos",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/striggles-tis-mykonou-mykonos.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Mykonos",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/striggles-tis-mykonou-mykonos"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Mykonos",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mykonos"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.4467,
+              "longitude": 25.3289
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "236",
+      "title": "The Strigla-Village – Messenia",
+      "slug": "striggles-prasteio-kardamyli-messinias",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk narrative of the nocturnal activities of the Strigles in Prasteio and the revelation of their identities",
+      "locationTags": [
+        "Kardamyli Messinias",
+        "Messenia"
+      ],
+      "mainArea": "Messenia",
+      "subLocation": "Kardamyli",
+      "lat": 36.8833,
+      "lng": 22.2333,
+      "image": {
+        "src": "/images/laografia/striggles-prasteio-kardamyli-messinias.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Prasteio is also called Striglochorion ('Strigla-Village') because many women in it were Strigles. Every night they went down to the shore at Selenitsa, where many ships were always moored; they would choose one, get on board, set the sails, and navigate like men. At dawn they would return, bringing sugar cane, for they had sailed as far as the places where it grows."
+        },
+        {
+          "type": "text",
+          "value": "One young man happened to be sleeping one night inside the ship the Strigles boarded, without them noticing him. The Strigles, as soon as they stepped aboard the ship, undressed, set their clothes aside, with one taking the sails, another the helm, and they made their way."
+        },
+        {
+          "type": "text",
+          "value": "When the young man came to his senses, he suspected what was afoot — for in his village they said there were some Strigles who every night made this voyage. Who they were he could not tell, but he used his wits and cut a piece from each woman's dress, which lay nearby."
+        },
+        {
+          "type": "text",
+          "value": "They went and returned, with the young man still on the ship. But in the morning he wasted no time: he went to Prasteio and revealed the matter, and so the Strigles were identified. Their husbands watched them closely, but they always found a way, and every night at midnight they never missed the voyage. They say moreover that one of them ate her own child."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "371-372"
+        }
+      ],
+      "tags": [
+        "Kardamyli Messinias",
+        "Messenia",
+        "Kardamyli",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Strigla-Village – Messenia | Lamias | haunted.gr",
+        "metaDescription": "Folklore of Messenia: Strigles in Prasteio make nightly sea voyages by ship. A young man discovers the Strigles — Greek tradition of Kardamyli, Messenia.",
+        "canonical": "https://haunted.gr/laografia/lamies/striggles-prasteio-kardamyli-messinias",
+        "keywords": [
+          "Lamia Messenia",
+          "Messenia Lamia",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Messenia",
+          "mythology Lamia",
+          "Folklore of Messenia",
+          "Strigles Messenia",
+          "Strigles Kardamyli",
+          "Strigles ships sea",
+          "Striglochorion Prasteio",
+          "Strigles nocturnal voyages",
+          "Kardamyli Messenia"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Strigla-Village – Messenia",
+          "description": "Folk narrative of the nocturnal activities of the Strigles in Prasteio and the revelation of their identities",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/striggles-prasteio-kardamyli-messinias.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Kardamyli Messinias",
+            "Messenia",
+            "Kardamyli",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/striggles-prasteio-kardamyli-messinias"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Messenia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kardamyli"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.8833,
+              "longitude": 22.2333
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "237",
+      "title": "Two Strigles – Thouria",
+      "slug": "dyo-striggles-thoyria-messinias",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk narrative of the encounter with two Strigles in Thouria, Messenia",
+      "locationTags": [
+        "Thouria Messinias",
+        "Messenia"
+      ],
+      "mainArea": "Messenia",
+      "subLocation": "Thouria",
+      "lat": 37.05,
+      "lng": 22,
+      "image": {
+        "src": "/images/laografia/dyo-striggles-thoyria-messinias.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A man from our village stayed one night at the house of his godfather, where there was no one else present but the two of them and the godfather's wife and mother-in-law. Around midnight he heard a commotion and woke up; he lay still listening, and heard the two women talking to each other. When he heard what they were saying, he was horrified, for they were plotting to eat that night the fatter of the two sleeping men."
+        },
+        {
+          "type": "text",
+          "value": "He then understood that both the wife and mother-in-law of his godfather were Strigles, and he was wondering how to find some way to escape, for he realized he had no power to do anything to them."
+        },
+        {
+          "type": "text",
+          "value": "The Strigles moved toward the two men who were lying down, and first took hold of the godfather's leg and lifted it. They wanted to see whether his leg was heavy, for that would show whether he was fat. But he understood their intention, and as they lifted his leg and weighed it in their hands, he lifted it himself too, so that it seemed to them as light as a feather, and they dropped it angrily."
+        },
+        {
+          "type": "text",
+          "value": "They lifted the householder's leg as well, and as he was deep in sleep, they found it very heavy. Pleased with this, they immediately split open his chest, took out his liver and cast it on the coals to cook. Then they saw they had no wine, and flew off to a wine shop, helped themselves to as much as they wanted, and returned."
+        },
+        {
+          "type": "text",
+          "value": "While they were away, however, the godfather rose up quickly, gathered the liver from the fire and hid it inside his shirt, putting in its place ashes from the coals. The Strigles ate with appetite what they found, but it seemed to them charred and tasteless."
+        },
+        {
+          "type": "text",
+          "value": "In the morning both godfathers rose and left the house. The householder was yellow as a gold coin and felt great weakness, but his chest, which had been split open during the night, showed no sign. He told his godfather he was very hungry, and the latter gave him the cooked liver, which he ate, and it seemed to him very strengthening."
+        },
+        {
+          "type": "text",
+          "value": "After a while his cheeks began to redden, and he became quite well. Then his friend told him everything that had happened during the night. And they went together to the house and killed the Strigles."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "373-374"
+        }
+      ],
+      "tags": [
+        "Thouria Messinias",
+        "Messenia",
+        "Thouria",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Two Strigles – Thouria | Lamias | haunted.gr",
+        "metaDescription": "Folklore of Thouria, Messenia: Two Strigles remove the liver of a sleeping man. The godfather saves the householder — Greek folklore of Messenia 1904.",
+        "canonical": "https://haunted.gr/laografia/lamies/dyo-striggles-thoyria-messinias",
+        "keywords": [
+          "Lamia Messenia",
+          "Messenia Lamia",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Messenia",
+          "mythology Lamia",
+          "Folklore of Messenia",
+          "Strigles Thouria",
+          "Strigles liver",
+          "Strigles cannibalism night",
+          "Strigla murder",
+          "demonic creatures Messenia",
+          "Thouria Messenia"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Two Strigles – Thouria",
+          "description": "Folk narrative of the encounter with two Strigles in Thouria, Messenia",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/dyo-striggles-thoyria-messinias.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Thouria Messinias",
+            "Messenia",
+            "Thouria",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/dyo-striggles-thoyria-messinias"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Messenia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Thouria"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.05,
+              "longitude": 22
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "238",
+      "title": "The Mora in Athens",
+      "slug": "i-mora-athina",
+      "author": "Νικόλαος Γ. Πολίτης",
+      "date": "1904-01-01",
+      "excerpt": "Folk description of the Mora as a nocturnal Lamna who causes suffocation in people",
+      "locationTags": [
+        "Athens"
+      ],
+      "mainArea": "Athens",
+      "subLocation": "Athens",
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "image": {
+        "src": "/images/laografia/i-mora-athina.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The Mora is a Lamna — wealthy and very powerful. She walks only at night, and sometimes when she encounters people sleeping in her path, she sits on their chests and crushes them. She is so heavy that whoever she crushes groans like an ox."
+        },
+        {
+          "type": "text",
+          "value": "But if the person is not deep in sleep and sees her and snatches her fez, then whatever he asks for — wealth and goods — she will give him, so long as he returns her fez."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "408"
+        }
+      ],
+      "tags": [
+        "Athens",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Mora in Athens | Lamias | haunted.gr",
+        "metaDescription": "Folklore of Athens: The Mora, a wealthy Lamna who sits on the chests of sleeping people and crushes them. Captured by snatching her fez — Greek folklore.",
+        "canonical": "https://haunted.gr/laografia/lamies/i-mora-athina",
+        "keywords": [
+          "Lamia Athens",
+          "Athens Lamia",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Athens",
+          "mythology Lamia",
+          "Folklore of Athens",
+          "Mora Athens",
+          "Mora sleep suffocation",
+          "Lamna nocturnal",
+          "nocturnal creature Greek tradition",
+          "sleep paralysis folklore",
+          "Mora fez Greek tradition"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Mora in Athens",
+          "description": "Folk description of the Mora as a nocturnal Lamna who causes suffocation in people",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Νικόλαος Γ. Πολίτης"
+          },
+          "image": "https://haunted.gr/images/laografia/i-mora-athina.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Athens",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/i-mora-athina"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Athens",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Athens"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.9838,
+              "longitude": 23.7275
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "321",
+      "title": "The Strigles of Rhodes",
+      "slug": "oi-strigles-tis-rodou",
+      "author": "Αναστάσιος Βρόντης",
+      "date": "1939",
+      "excerpt": "Legend of Strigles in Afantou, Rhodes who enter houses on the evenings of the Sarantaimero, strangle infants and cause miscarriages in pregnant women. Example: a coffee-shop owner from Fantenos lost a baby that could not sleep.",
+      "mainArea": "Rhodes",
+      "subLocation": "Afantou",
+      "locationTags": [
+        "Afantou",
+        "Rhodes",
+        "Dodecanese",
+        "Strigles",
+        "Sarantaimero",
+        "infants",
+        "miscarriage",
+        "coffee-shop owner",
+        "Fantenos",
+        "folklore",
+        "demonic entities"
+      ],
+      "lat": 36.2998,
+      "lng": 28.1711,
+      "image": {
+        "src": "/images/laografia/oi-strigles-tis-rodou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In Afantou they say there are women who go about on the evenings of the Sarantaimero (the forty-day period) and enter other people's houses, strangling their infant children. They also cause pregnant women to miscarry.\n\nA coffee-shop owner from Fantenos had an infant child, and every evening they would not let it sleep until they had strangled it."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Αναστάσιος Βρόντης",
+          "title": "Ροδιακά",
+          "year": "1939",
+          "pages": "48"
+        }
+      ],
+      "tags": [
+        "Afantou",
+        "Rhodes",
+        "Dodecanese",
+        "Strigles",
+        "Sarantaimero",
+        "Infants",
+        "Miscarriage",
+        "Coffee-shop Owner",
+        "Fantenos",
+        "Folklore",
+        "Demonic Entities",
+        "Lamias",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Strigles of Rhodes | Lamias | haunted.gr",
+        "metaDescription": "Legend of Rhodes: Strigles in Afantou strangle infants and cause miscarriages during the evenings of the Sarantaimero. Folklore of the Dodecanese — Greek tradition.",
+        "canonical": "https://haunted.gr/laografia/lamies/oi-strigles-tis-rodou",
+        "keywords": [
+          "Lamia Rhodes",
+          "Rhodes Lamia",
+          "Lamia Afantou",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "creature Rhodes",
+          "mythology Lamia",
+          "Folklore of Dodecanese",
+          "Strigles Rhodes",
+          "Strigles infants Afantou",
+          "Strigles Sarantaimero",
+          "demonic entities Rhodes",
+          "Afantou Rhodes"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Strigles of Rhodes",
+          "description": "Legend of Strigles in Afantou, Rhodes who enter houses on the evenings of the Sarantaimero, strangle infants and cause miscarriages in pregnant women. Example: a coffee-shop owner from Fantenos lost a baby that could not sleep.",
+          "inLanguage": "en",
+          "datePublished": "1939",
+          "author": {
+            "@type": "Person",
+            "name": "Αναστάσιος Βρόντης"
+          },
+          "image": "https://haunted.gr/images/laografia/oi-strigles-tis-rodou.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Afantou",
+            "Rhodes",
+            "Dodecanese",
+            "Strigles",
+            "Sarantaimero",
+            "Infants",
+            "Miscarriage",
+            "Coffee-shop Owner",
+            "Fantenos",
+            "Folklore",
+            "Demonic Entities",
+            "Lamias",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/oi-strigles-tis-rodou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Rhodes",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Afantou"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.2998,
+              "longitude": 28.1711
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "337",
+      "title": "The Lamia–Dragon Connection – Study by George Frederick Abbott",
+      "slug": "syndesi-lamias-drakou-melete-george-frederick-abbott",
+      "author": "George Frederick Abbott",
+      "date": "1903",
+      "excerpt": "Academic study on the relationship between the Lamia and the Dragon in Macedonian folklore: kinship or marriage, shared cannibalistic nature, origin of the proverb 'Eats like a Lamia', and classical references.",
+      "mainArea": "",
+      "subLocation": "",
+      "locationTags": [
+        "Macedonia",
+        "Lamia",
+        "Dragon",
+        "kinship",
+        "marriage",
+        "cannibalism",
+        "classical literature",
+        "Aristophanes",
+        "Wasps",
+        "proverb",
+        "folkloric study"
+      ],
+      "lat": 40.5,
+      "lng": 21.5,
+      "image": {
+        "src": "/images/laografia/syndesi-lamias-drakou-melete-george-frederick-abbott.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The Lamia is associated with the Dragon either through kinship or — very often — through the bonds of marriage. She fully shares with him her cannibalistic nature and her childlike simplicity. Her gluttony has given rise to the well-known proverb: 'Eats like a Lamia.'"
+        },
+        {
+          "type": "text",
+          "value": "Despite this ungenteel trait, she is of noble lineage and may boast of her presence in the pages of classical literature — although, it must be noted, the circumstances in which she appears are not exactly those a lady of her standing would wish to be remembered..."
+        },
+        {
+          "type": "text",
+          "value": "For instance, the scandalous episode of \"hōs hē Lami' halous' ep' ergōi'\" (Aristoph. Wasps 1177) appears to have been widely known in Athens in 422 BC, and one can easily imagine the laughter and cheers that the poet's allusion would have provoked in the theatre."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "George Frederick Abbott",
+          "title": "Macedonian Folklore",
+          "year": "1903",
+          "pages": "266"
+        }
+      ],
+      "tags": [
+        "Macedonia",
+        "Lamia",
+        "Dragon",
+        "Kinship",
+        "Marriage",
+        "Cannibalism",
+        "Classical Literature",
+        "Aristophanes",
+        "Wasps",
+        "Proverb",
+        "Folkloric Study",
+        "Lamias",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Lamia–Dragon Connection – Study by George Frederick Abbott | Lamias | haunted.gr",
+        "metaDescription": "Academic study on the relationship between the Lamia and the Dragon in Macedonian folklore: kinship or marriage, cannibalism, proverb 'Eats like a Lamia', Aristophanes Wasps.",
+        "canonical": "https://haunted.gr/laografia/lamies/syndesi-lamias-drakou-melete-george-frederick-abbott",
+        "keywords": [
+          "Lamia Macedonia",
+          "Macedonia Lamia",
+          "Lamias Greece",
+          "Greek folklore Lamias",
+          "Lamia",
+          "Lamias",
+          "mythology Lamia",
+          "Folklore of Macedonia",
+          "Lamia dragon relationship",
+          "Lamia cannibalism",
+          "proverb eats like a Lamia",
+          "Lamia marriage dragon",
+          "Aristophanes Wasps Lamia",
+          "Macedonian folklore",
+          "folkloric study Lamia"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Lamia–Dragon Connection – Study by George Frederick Abbott",
+          "description": "Academic study on the relationship between the Lamia and the Dragon in Macedonian folklore: kinship or marriage, shared cannibalistic nature, origin of the proverb 'Eats like a Lamia', and classical references.",
+          "inLanguage": "en",
+          "datePublished": "1903",
+          "author": {
+            "@type": "Person",
+            "name": "George Frederick Abbott"
+          },
+          "image": "https://haunted.gr/images/laografia/syndesi-lamias-drakou-melete-george-frederick-abbott.webp",
+          "articleSection": "Lamias",
+          "keywords": [
+            "Macedonia",
+            "Lamia",
+            "Dragon",
+            "Kinship",
+            "Marriage",
+            "Cannibalism",
+            "Classical Literature",
+            "Aristophanes",
+            "Wasps",
+            "Proverb",
+            "Folkloric Study",
+            "Lamias",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/lamies/syndesi-lamias-drakou-melete-george-frederick-abbott"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.5,
+              "longitude": 21.5
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lamias | Greek Folklore | haunted.gr",
+    "metaDescription": "Collection of 14 folkloric stories about Lamias in Greece.",
+    "canonical": "https://haunted.gr/laografia/lamies",
+    "keywords": [
+      "Lamias",
+      "Folklore",
+      "Greece",
+      "Zarakies – Euboea",
+      "Euboea",
+      "Zarakies",
+      "Karytaina Gortynias",
+      "Gortynia",
+      "Karytaina",
+      "Dimini Magnesia",
+      "Magnesia",
+      "Dimini",
+      "Gardiki Phthiotis",
+      "Phthiotis",
+      "Gardiki",
+      "Koropi",
+      "Attica",
+      "Areópoli",
+      "Oitylo",
+      "Lasta Gortynias",
+      "Lasta",
+      "Mykonos",
+      "Kardamyli Messenia",
+      "Messenia",
+      "Kardamyli",
+      "Thouria Messenia",
+      "Thouria",
+      "Athens",
+      "Afantou",
+      "Rhodes"
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Lamias | Greek Folklore",
+      "description": "Folkloric stories and testimonies about Lamias throughout Greece.",
+      "inLanguage": "en",
+      "url": "https://haunted.gr/laografia/lamies",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "haunted.gr",
+        "url": "https://haunted.gr"
+      },
+      "about": [
+        "Lamias",
+        "Folklore",
+        "Greece",
+        "Zarakies – Euboea",
+        "Euboea",
+        "Zarakies",
+        "Karytaina Gortynias",
+        "Gortynia",
+        "Karytaina",
+        "Dimini Magnesia",
+        "Magnesia",
+        "Dimini",
+        "Gardiki Phthiotis",
+        "Phthiotis",
+        "Gardiki",
+        "Koropi",
+        "Attica",
+        "Areópoli",
+        "Oitylo",
+        "Lasta Gortynias"
+      ]
+    }
+  }
+}

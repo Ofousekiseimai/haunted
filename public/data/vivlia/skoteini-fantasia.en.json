@@ -1,0 +1,210 @@
+{
+  "category": "Books",
+  "subcategory": "Dark Fantasy",
+  "subcategorySlug": "skoteini-fantasia",
+  "slug": "/vivlia/skoteini-fantasia",
+  "seo": {
+    "metaTitle": "Dark Fantasy | Books | haunted.gr",
+    "metaDescription": "Novellas and dark fantasy stories with elements of horror and mysticism from Greece.",
+    "keywords": [
+      "dark fantasy",
+      "horror books",
+      "haunted books"
+    ],
+    "canonical": "https://haunted.gr/vivlia/skoteini-fantasia"
+  },
+  "articles": [
+    {
+      "id": "B301",
+      "title": "Mist on Taygetos",
+      "slug": "omixli-ston-taygeto",
+      "author": "Nikos Kastanos",
+      "date": "2022",
+      "excerpt": "On a mountain pass in Laconia, a mist seems to remember every step of those who were lost there.",
+      "image": {
+        "src": "/images/katigories/vrikolakes.jpg",
+        "alt": "Mountain path wrapped in mist"
+      },
+      "purchaseUrl": "https://example.com/books/omixli-ston-taygeto",
+      "content": [
+        {
+          "type": "text",
+          "value": "A horror story that combines elements of Laconian folk tradition with a contemporary crime plot."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Mist on Taygetos | Nikos Kastanos | Dark Fantasy | haunted.gr",
+        "metaDescription": "On a mountain pass in Laconia, a mist remembers every step of those who were lost there. Dark fantasy by Nikos Kastanos.",
+        "canonical": "https://haunted.gr/vivlia/skoteini-fantasia/omixli-ston-taygeto",
+        "keywords": [
+          "Taygetos mist mystery",
+          "dark fantasy Laconia",
+          "Nikos Kastanos book",
+          "paranormal Laconia",
+          "Taygetos legend",
+          "dark novel Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Mist on Taygetos",
+          "author": {
+            "@type": "Person",
+            "name": "Nikos Kastanos"
+          },
+          "description": "On a mountain pass in Laconia, a mist remembers every step of those who were lost there.",
+          "inLanguage": "en",
+          "datePublished": "2022",
+          "image": "https://haunted.gr/images/katigories/vrikolakes.jpg",
+          "genre": "Dark Fantasy",
+          "keywords": [
+            "Taygetos mist mystery",
+            "dark fantasy Laconia",
+            "Nikos Kastanos book",
+            "paranormal Laconia"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/skoteini-fantasia/omixli-ston-taygeto"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "B302",
+      "title": "The Bloodstained Labyrinth",
+      "slug": "o-matomenos-lavyrynthos",
+      "author": "Christina Georgiou",
+      "date": "2021",
+      "excerpt": "Every turn of the labyrinth brings you closer to the secret of an ancient ritual that was never completed.",
+      "image": {
+        "src": "/images/katigories/kalikatzaroi.png",
+        "alt": "Labyrinth bathed in crimson light"
+      },
+      "purchaseUrl": "https://example.com/books/o-matomenos-lavyrynthos",
+      "content": [
+        {
+          "type": "text",
+          "value": "Dark fantasy with references to Carpathian myths and the urban legends of old Athens."
+        }
+      ],
+      "seo": {
+        "metaTitle": "The Bloodstained Labyrinth | Christina Georgiou | Dark Fantasy | haunted.gr",
+        "metaDescription": "Every turn of the labyrinth brings you closer to the secret of an ancient ritual. Dark fantasy by Christina Georgiou.",
+        "canonical": "https://haunted.gr/vivlia/skoteini-fantasia/o-matomenos-lavyrynthos",
+        "keywords": [
+          "ancient ritual Greece",
+          "dark fantasy Greece",
+          "Christina Georgiou book",
+          "labyrinth mystery",
+          "paranormal ancient Greece",
+          "dark novel Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "The Bloodstained Labyrinth",
+          "author": {
+            "@type": "Person",
+            "name": "Christina Georgiou"
+          },
+          "description": "Every turn of the labyrinth brings you closer to the secret of an ancient ritual that was never completed.",
+          "inLanguage": "en",
+          "datePublished": "2021",
+          "image": "https://haunted.gr/images/katigories/kalikatzaroi.png",
+          "genre": "Dark Fantasy",
+          "keywords": [
+            "ancient ritual Greece",
+            "dark fantasy Greece",
+            "Christina Georgiou book",
+            "labyrinth mystery"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/skoteini-fantasia/o-matomenos-lavyrynthos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "B303",
+      "title": "Fragments of the Night",
+      "slug": "ta-thrausmata-tis-nyxtas",
+      "author": "Irida Chatzidaki",
+      "date": "2023",
+      "excerpt": "A collection of short stories connected through a radio signal heard only at midnight.",
+      "image": {
+        "src": "/images/og-default-image.webp",
+        "alt": "A radio glowing in the dark"
+      },
+      "purchaseUrl": "https://example.com/books/ta-thrausmata-tis-nyxtas",
+      "content": [
+        {
+          "type": "text",
+          "value": "Each chapter is a different testimony about a sound that brings to light the darker sides of the characters."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Fragments of the Night | Irida Chatzidaki | Dark Fantasy | haunted.gr",
+        "metaDescription": "A collection of stories connected through a radio signal heard only at midnight. By Irida Chatzidaki.",
+        "canonical": "https://haunted.gr/vivlia/skoteini-fantasia/ta-thrausmata-tis-nyxtas",
+        "keywords": [
+          "radio signal midnight",
+          "dark fantasy Greece",
+          "Irida Chatzidaki book",
+          "dark stories night",
+          "paranormal radio",
+          "dark novel Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Fragments of the Night",
+          "author": {
+            "@type": "Person",
+            "name": "Irida Chatzidaki"
+          },
+          "description": "A collection of short stories connected through a radio signal heard only at midnight.",
+          "inLanguage": "en",
+          "datePublished": "2023",
+          "image": "https://haunted.gr/images/og-default-image.webp",
+          "genre": "Dark Fantasy",
+          "keywords": [
+            "radio signal midnight",
+            "dark fantasy Greece",
+            "Irida Chatzidaki book",
+            "dark stories night"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/skoteini-fantasia/ta-thrausmata-tis-nyxtas"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

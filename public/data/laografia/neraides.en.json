@@ -1,0 +1,3704 @@
+{
+  "category": "Folklore",
+  "subcategorySlug": "neraides",
+  "subcategory": "Nereids",
+  "slug": "/laografia/neraides",
+  "articles": [
+    {
+      "id": "701",
+      "slug": "neraides-tis-methonis-messinias",
+      "title": "The Nereids of Methoni, Messinia",
+      "author": "Χρήστος Δ. Διονυσόπουλος",
+      "date": "1959-01-01",
+      "excerpt": "A testimony from Methoni, Messinia about uncle Lias Anargyros who was attacked by Nereids at night in a ravine, saved himself by lighting a cigarette, but arrived home sick with his mouth twisted to one side.",
+      "mainArea": "Methoni, Messinia",
+      "subLocation": "Methoni",
+      "lat": 36.8197,
+      "lng": 21.7039,
+      "locationTags": [
+        "Methoni",
+        "Messinia"
+      ],
+      "image": {
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "My uncle Lias Anargyros used to travel between villages sewing sagakia (—woollen waistcoats with buttons) and capes."
+        },
+        {
+          "type": "text",
+          "value": "One evening, as night was falling, he was heading from Memerizi to Grivitsa — about an hour's walk — when, midway between the two villages, at the Reikia (—shrubs that yield charcoal), a terrible wind arose that raised clouds of dust (boukhos), and Nereids appeared, dragged him into a ravine and beat him."
+        },
+        {
+          "type": "text",
+          "value": "However, he lit a cigarette, and at that moment they vanished from before him."
+        },
+        {
+          "type": "text",
+          "value": "After a long while he reached the village on foot, but he was ill and took to his bed. From the fright and the beating he had received, his mouth had twisted to the right and he could not speak to anyone. But in the morning he told them what had happened to him that night, and they took him and brought him home."
+        },
+        {
+          "type": "text",
+          "value": "His aunt Liou, his wife, immediately brought the priest who read prayers over him, and had forty liturgies said in forty churches; and after some time he recovered and his mouth returned to its place."
+        }
+      ],
+      "sources": [
+        {
+          "type": "article",
+          "name": "Χρήστος Δ. Διονυσόπουλος",
+          "title": "Παραδόσεις από την Μεθώνη Μεσσηνίας",
+          "journal": "Λαογραφία Δελτίον της Ελληνικής Λαογραφικής Εταιρίας",
+          "volume": "Τόμος ΙΖ",
+          "issue": "Τεύχος Β'",
+          "year": "1959",
+          "pages": "619"
+        }
+      ],
+      "tags": [
+        "nereids",
+        "fairy-struck",
+        "cigarette",
+        "apotropaic",
+        "twisted mouth",
+        "Methoni Messinia"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of Methoni, Messinia | Fairy-Struck",
+        "metaDescription": "A testimony from Methoni, Messinia about a man attacked by Nereids at night in a ravine, who saved himself by lighting a cigarette but arrived home with his mouth twisted. From the Traditions of Methoni, 1959.",
+        "keywords": [
+          "nereids Methoni Messinia",
+          "fairy-struck cigarette apotropaic",
+          "nereids ravine attack",
+          "twisted mouth nereids",
+          "traditions Methoni Messinia",
+          "Greek folklore nereids Peloponnese",
+          "Dionysopoulou folklore 1959"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Nereids of Methoni, Messinia",
+          "description": "A testimony from Methoni, Messinia about a man attacked by Nereids at night in a ravine, who saved himself by lighting a cigarette.",
+          "inLanguage": "en",
+          "articleSection": "Nereids",
+          "keywords": [
+            "nereids",
+            "Methoni Messinia",
+            "fairy-struck",
+            "cigarette",
+            "apotropaic"
+          ],
+          "datePublished": "1959",
+          "author": {
+            "@type": "Person",
+            "name": "Christos D. Dionysopoulou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/neraides/neraides-tis-methonis-messinias"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Methoni, Messinia",
+            "addressLocality": "Methoni",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.8197,
+              "longitude": 21.7039
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "709",
+      "slug": "oi-neraides-tou-pigadiou-methoni",
+      "title": "The Nereids of the Well - Methoni",
+      "author": "Χρήστος Δ. Διονυσόπουλος",
+      "date": "1959-01-01",
+      "excerpt": "A childhood memory from Methoni, Messinia (1912): an aunt warns children not to go to the well at noon because Nereids dance there. The child would sneak up and climb an almond tree nearby, but never saw them.",
+      "mainArea": "Methoni, Messinia",
+      "subLocation": "Methoni",
+      "lat": 36.8197,
+      "lng": 21.7039,
+      "locationTags": [
+        "Methoni",
+        "Messinia"
+      ],
+      "image": {
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "I was a twelve-year-old child, in 1912, and in summer I stayed at my aunt's house, on the estate, an hour outside Methoni. My aunt, leaving for Methoni to do the shopping, told me and my cousins:"
+        },
+        {
+          "type": "quote",
+          "value": "\"At midday, do not go to the well, because Nereids go there and dance.\""
+        },
+        {
+          "type": "text",
+          "value": "The well was near the stream, in a hollow. And I asked: \"What are these Nereids?\" And my aunt told me:"
+        },
+        {
+          "type": "quote",
+          "value": "\"They are beautiful women who dance, and whoever comes near there for water and they see him, they beat him and take him away with them.\""
+        },
+        {
+          "type": "text",
+          "value": "I used to go there at noon, but since I was afraid I would climb the almond tree that stood near the well — yet I never saw them."
+        }
+      ],
+      "sources": [
+        {
+          "type": "article",
+          "name": "Χρήστος Δ. Διονυσόπουλος",
+          "title": "Παραδόσεις από την Μεθώνη Μεσσηνίας",
+          "journal": "Λαογραφία Δελτίον της Ελληνικής Λαογραφικής Εταιρίας",
+          "volume": "Τόμος ΙΖ",
+          "issue": "Τεύχος Β'",
+          "year": "1959",
+          "pages": "619"
+        }
+      ],
+      "tags": [
+        "nereids",
+        "well",
+        "dance",
+        "midday",
+        "Methoni Messinia"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of the Well | Methoni, Messinia",
+        "metaDescription": "A childhood memory from Methoni, Messinia (1912): an aunt warns children not to go to the well at noon because Nereids dance there. The child climbed an almond tree but never saw them. Dionysopoulou, 1959.",
+        "keywords": [
+          "nereids well Methoni Messinia",
+          "nereids dance midday stream",
+          "traditions Methoni Messinia 1959",
+          "nereids childhood memory Peloponnese",
+          "Dionysopoulou folklore Methoni"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Nereids of the Well - Methoni",
+          "description": "A childhood memory from Methoni, Messinia (1912) about Nereids who danced at the well at midday.",
+          "inLanguage": "en",
+          "articleSection": "Nereids",
+          "keywords": [
+            "nereids",
+            "well",
+            "dance",
+            "midday",
+            "Methoni Messinia"
+          ],
+          "datePublished": "1959",
+          "author": {
+            "@type": "Person",
+            "name": "Christos D. Dionysopoulou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-pigadiou-methoni"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Methoni, Messinia",
+            "addressLocality": "Methoni",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.8197,
+              "longitude": 21.7039
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "712",
+      "slug": "oi-neraides-sto-vrakhori-agrinio",
+      "title": "The Nereids at Vrachori",
+      "author": "Μάνθος Διαμαντόπουλος",
+      "date": "1921-01-01",
+      "excerpt": "A personal account from Vrachori (modern Agrinio): the narrator was sleeping at Agia Paraskevi as a fugitive from justice and heard voices calling his name. He woke up with his hair combed and his belongings moved — signs of Nereid presence.",
+      "mainArea": "Agrinio, Aetolia-Acarnania",
+      "subLocation": "Vrachori",
+      "lat": 38.6213,
+      "lng": 21.4072,
+      "locationTags": [
+        "Vrachori",
+        "Agrinio",
+        "Aetolia-Acarnania"
+      ],
+      "image": {
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In Vrachori (modern Agrinio) I was once a fugitive from justice; and I was at Agia Paraskevi and while I was sleeping I heard: «Manthou! Manthou!» I said nothing."
+        },
+        {
+          "type": "text",
+          "value": "Then the voice said: «Hey, it's you, so-and-so!» I pretended not to hear anything and fell asleep. A little before dawn I found my knife stuck inside my leather saddlebag and my pistol further away. I woke up and found my hair was combed."
+        },
+        {
+          "type": "text",
+          "value": "Afterwards I learned that Nereids are found there."
+        },
+        {
+          "type": "text",
+          "value": "As told by Manthos Diamantopoulos, aged 70, from Prousos."
+        }
+      ],
+      "sources": [
+        {
+          "journal": "Λαογραφία Δελτίον της Ελληνικής Λαογραφικής Εταιρίας",
+          "volume": "Τόμος Η",
+          "issue": "Τεύχη Α΄ & Β΄",
+          "year": "1921",
+          "page": "24"
+        }
+      ],
+      "tags": [
+        "nereids",
+        "voices",
+        "combed",
+        "fugitive",
+        "Agia Paraskevi",
+        "Vrachori",
+        "Agrinio",
+        "testimony"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids at Vrachori | Agrinio | haunted.gr",
+        "metaDescription": "A personal account from Vrachori (Agrinio): a fugitive sleeping at Agia Paraskevi hears voices calling his name, wakes up with his hair combed and belongings moved — signs of Nereid presence. Greek Folklore journal, Vol. VIII, 1921.",
+        "keywords": [
+          "nereids Vrachori Agrinio",
+          "nereids Aetolia-Acarnania folklore",
+          "voices combed nereids",
+          "Agia Paraskevi Agrinio tradition",
+          "Greek folklore 1921"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Nereids at Vrachori",
+          "description": "A personal account from Vrachori (Agrinio) of a fugitive who heard voices calling his name at night and woke up with his hair combed — attributed to Nereids.",
+          "inLanguage": "en",
+          "articleSection": "Nereids",
+          "keywords": [
+            "nereids",
+            "voices",
+            "combed",
+            "Vrachori",
+            "Agrinio"
+          ],
+          "datePublished": "1921",
+          "author": {
+            "@type": "Person",
+            "name": "Manthos Diamantopoulos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-sto-vrakhori-agrinio"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Agrinio, Aetolia-Acarnania",
+            "addressLocality": "Vrachori",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.6213,
+              "longitude": 21.4072
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "74",
+      "title": "Nereids in Velousia — Euboea",
+      "slug": "νεράιδες-βελούσια-ευβοια",
+      "author": "Titos Giohalas",
+      "date": "2002-01-01",
+      "articledate": "1925",
+      "excerpt": "Two stories from Velousia, Euboea, about nereids and the mysterious encounters of locals with them.",
+      "mainArea": "Euboea",
+      "subLocation": "Velousia",
+      "locationTags": [
+        "Velousia — Euboea"
+      ],
+      "lat": 38.3881,
+      "lng": 24.0892,
+      "image": {
+        "src": "/images/laografia/neraides-velousia.webp",
+        "alt": "Image of a nereid in Velousia, Euboea"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Down here at a river in the Amygdalia of Kotsanis, here at Velos, there was a big river with very tall oleanders and reeds. People said that nereids lived there. Once an old man from our village was coming from Aliveri at night on his donkey. When he reached that spot, the nereids took him and carried him off towards the river. They gave him a few blows and took the dried cod he had hung on the donkey. Now I did not see the nereids myself, but that is what I heard people saying in my time about the incident."
+        },
+        {
+          "type": "text",
+          "value": "And another time, at that same spot — some time earlier, around 1925 — there was a large fig tree, do you know the fig tree? We had rented the fields, my father and I, and he would go in the summer when the figs were ripening to guard the fig tree so the shepherds would not come and take them. We would take the figs to give to the landlord who owned the trees. So he had gone and was sleeping there at midday under an olive tree to keep watch over the figs. Now what my father saw — he did not tell me, so we children would not be frightened, because I still had a young sister. He told my mother: 'I am not going back there, wife. What happened to me today — I am not going back.' 'What did you see, husband? Tell me too so we can know what you saw.' He told her, but I did not hear it. What did he see? I was not told."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Titos Giohalas",
+          "title": "Euboea — The Arvanitic Traditions, Patakis Publications",
+          "year": "2002",
+          "pages": "295"
+        }
+      ],
+      "tags": [
+        "Velousia — Euboea",
+        "Euboea",
+        "Velousia",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids in Velousia, Euboea — Encounters | Nereids | haunted.gr",
+        "metaDescription": "Two accounts from Velousia, Euboea: nereids at the Amygdalia river beat a traveller and stole his fish, and a mysterious experience under a fig tree in 1925.",
+        "canonical": "https://haunted.gr/laografia/neraides/%CE%BD%CE%B5%CF%81%CE%AC%CE%B9%CE%B4%CE%B5%CF%82-%CE%B2%CE%B5%CE%BB%CE%BF%CF%8D%CF%83%CE%B9%CE%B1-%CE%B5%CF%85%CE%B2%CE%BF%CE%B9%CE%B1",
+        "keywords": [
+          "nereids Euboea",
+          "Velousia nereids",
+          "nereid",
+          "Greek nereids",
+          "nereids river",
+          "Greek folklore",
+          "Euboea tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "75",
+      "title": "Ampelos, Samos — Abduction by Nereids",
+      "slug": "apagogi-apo-neraide-samos",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of an abduction by nereids in the village of Ampelos, Samos.",
+      "mainArea": "Samos",
+      "subLocation2": "Ampelos",
+      "locationTags": [
+        "Ampelos — Samos"
+      ],
+      "lat": 37.7785,
+      "lng": 26.6741,
+      "image": {
+        "src": "/images/laografia/apagogi-neraides.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In the village of Nenedes (Ampelos) people told how, some years ago, a villager who was playing the lyra while others danced was suddenly snatched up by the Nereids. Those present saw and heard him rise into the air while still playing, and he was carried off to a remote and inaccessible place called Trypiavrachos."
+        },
+        {
+          "type": "text",
+          "value": "When he returned three days later, he recounted that the Nereids had compelled him to go on playing the lyra so that they could dance."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas I. Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "331"
+        }
+      ],
+      "tags": [
+        "Ampelos — Samos",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Ampelos, Samos — Lyra Player Abducted by Nereids | Nereids | haunted.gr",
+        "metaDescription": "In Ampelos, Samos (Nenedes), nereids seized a lyra player into the air while he played and took him to Trypiavrachos. He returned after three days of forced music-making.",
+        "canonical": "https://haunted.gr/laografia/neraides/apagogi-apo-neraide-samos",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "nereid abduction",
+          "nereids lyra",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "76",
+      "title": "Nikoloudes, Samos — Stoned by Nereids",
+      "slug": "lithovolismos-apo-neraides-samos",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of a stoning by nereids near the village of Nikoloudes, Samos.",
+      "mainArea": "Samos",
+      "subLocation2": "Nikoloudes",
+      "locationTags": [
+        "Nikoloudes — Samos"
+      ],
+      "lat": 37.768,
+      "lng": 26.6646,
+      "image": {
+        "src": "/images/laografia/nikoloudes-lithovolismos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A man in the village of Nikoloudes described how, near a stream, he had forgotten his shoes and when he went back to fetch them he was surprised to find three beautiful women there."
+        },
+        {
+          "type": "text",
+          "value": "As soon as they saw him, they began throwing stones at him, yet none of the stones struck him. He started to run without saying a word or making a sound the whole way, and when he arrived back in the village, terrified, he told people what had happened."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas I. Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "331"
+        }
+      ],
+      "tags": [
+        "Nikoloudes — Samos",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nikoloudes, Samos — Stoned by Nereids at the Stream | Nereids | haunted.gr",
+        "metaDescription": "In Nikoloudes, Samos, a man found three beautiful nereid women by a stream. They pelted him with stones that missed, and he fled in silence back to the village.",
+        "canonical": "https://haunted.gr/laografia/neraides/lithovolismos-apo-neraides-samos",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "nereids stones",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "77",
+      "title": "Kastania, Samos — Shape-Shifting Nereids on the Rock",
+      "slug": "lithovolismos-apo-neraides-kastania",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of a man who encountered nereids near Kastania, Samos, and watched them fly to a rock and change form.",
+      "mainArea": "Samos",
+      "subLocation2": "Kastania",
+      "locationTags": [
+        "Kastania — Samos"
+      ],
+      "lat": 37.753,
+      "lng": 26.684,
+      "image": {
+        "src": "/images/laografia/kastania-neraides.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A man walking from Leka towards Kastania encountered near Kastania three women who resembled gypsies and had covered their heads with red headscarves."
+        },
+        {
+          "type": "text",
+          "value": "Puzzled by the sight, he approached to ask who they were. But they moved away very quickly, as if flying, and soon found themselves on the rock opposite, where they changed form."
+        },
+        {
+          "type": "text",
+          "value": "They became beautiful and vivid, and in this way showed the man that they were no ordinary women but possessed something superhuman."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas I. Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "332"
+        }
+      ],
+      "tags": [
+        "Kastania — Samos",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Kastania, Samos — Nereids Changing Form on the Rock | Nereids | haunted.gr",
+        "metaDescription": "Near Kastania, Samos, a man encountered three nereid women with red headscarves. They flew to the opposite rock, changed form, and revealed their supernatural nature.",
+        "canonical": "https://haunted.gr/laografia/neraides/lithovolismos-apo-neraides-kastania",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "nereids transformation",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "78",
+      "title": "Vathy, Samos — The Kind Nereid",
+      "slug": "h-kalh-neraida",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of a man's experience with two nereids in the Schoines area of Samos, saved by the kind one.",
+      "mainArea": "Samos",
+      "subLocation2": "Vathy",
+      "locationTags": [
+        "Vathy — Samos"
+      ],
+      "lat": 37.7495,
+      "lng": 26.9819,
+      "image": {
+        "src": "/images/laografia/kali-neraida.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A man saw two women whom he assumed were working in the vineyards, and asked them what they were doing alone in that place. Instead of answering, the two women began to laugh melodiously, and when they stopped one of them said that they ought to punish the man's impudence."
+        },
+        {
+          "type": "text",
+          "value": "The second woman stopped her. The man described how it was thanks to that kind Nereid that he escaped."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas I. Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "332"
+        }
+      ],
+      "tags": [
+        "Vathy — Samos",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Vathy, Samos — The Kind Nereid Who Saved a Man | Nereids | haunted.gr",
+        "metaDescription": "In Vathy, Samos, a man encountered two nereids in the vineyards. One wanted to punish him for his boldness; the other — the kind nereid — stopped her and saved him.",
+        "canonical": "https://haunted.gr/laografia/neraides/h-kalh-neraida",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "kind nereid",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "79",
+      "title": "Agia Varvara, Samos — Nereids at the Well of Zelis",
+      "slug": "agia-varvara-vlamari-samos-pigadi-tou-zeli",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of a man who encountered mysterious women at the Well of Zelis in Agia Varvara, Samos.",
+      "mainArea": "Samos",
+      "subLocation2": "Agia Varvara",
+      "locationTags": [
+        "Agia Varvara — Samos",
+        "Well of Zelis"
+      ],
+      "lat": 37.7595,
+      "lng": 27.0115,
+      "image": {
+        "src": "/images/laografia/agia-varvara-pigadi.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A man recounted that while going to Agia Varvara to tread grapes around midnight, he saw with his own eyes fifteen white-clad women emerging from the well, their heads indistinct."
+        },
+        {
+          "type": "text",
+          "value": "As soon as they came out, an extraordinarily pleasant and beautiful melody and musical harmony could be heard, rising from their songs. The man described it as follows: 'You would think that in the valley of Vlamari, thousands of fine-voiced singers were singing all at once and thousands of musical instruments were playing simultaneously.'"
+        },
+        {
+          "type": "text",
+          "value": "While he was watching and listening, the fifteen women approached him and took him by the hand, beginning to dance with him and repeating: 'Along the wall for the dance', 'Let us dance here.'"
+        },
+        {
+          "type": "text",
+          "value": "The man then felt as though all his strength was leaving him entirely and he lost his voice. Even so, he was forced by fear to go on dancing with them for a considerable time until dawn. As soon as the first cockerel crowed, the women vanished back into the well."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "333"
+        }
+      ],
+      "tags": [
+        "Agia Varvara — Samos",
+        "Well of Zelis",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids at the Well of Zelis — Agia Varvara, Samos | Nereids | haunted.gr",
+        "metaDescription": "At the Well of Zelis, Agia Varvara, Samos, 15 white-clad nereids emerged at midnight singing and forced a man to dance with them until dawn.",
+        "canonical": "https://haunted.gr/laografia/neraides/agia-varvara-vlamari-samos-pigadi-tou-zeli",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "nereids well",
+          "nereids dance",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "80",
+      "title": "Spring of Agios Antonios, Samos — White-Clad Women",
+      "slug": "vrysi-agiou-antoniou-vathy-samos",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of women who encountered nereids while washing clothes at the spring of Agios Antonios.",
+      "mainArea": "Samos",
+      "subLocation2": "Vathy",
+      "locationTags": [
+        "Vathy — Samos",
+        "Spring of Agios Antonios"
+      ],
+      "lat": 37.7495,
+      "lng": 26.9819,
+      "image": {
+        "src": "/images/laografia/vrysi-ag-antoniou.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A woman told the following story. At midnight one night, a few months after her wedding, she went with her mother and sister to the spring of Agios Antonios to wash clothes. As they approached, they heard sounds, as if other women had got there ahead of them to do their own washing."
+        },
+        {
+          "type": "text",
+          "value": "When they drew close they saw eight white-clad women throwing water over one another as if at play. As soon as the white-clad women saw them, they joined hands and immediately began to sing and dance."
+        },
+        {
+          "type": "text",
+          "value": "The women watching were forced to take part in the dance, which went on until dawn. When the Nereids vanished, the terrified women returned home without having managed to wash a single garment."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "333"
+        }
+      ],
+      "tags": [
+        "Vathy — Samos",
+        "Spring of Agios Antonios",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids at the Spring of Agios Antonios — Vathy, Samos | Nereids | haunted.gr",
+        "metaDescription": "At the spring of Agios Antonios, Samos, three women found 8 nereids playing with water at midnight and were forced to dance with them until dawn.",
+        "canonical": "https://haunted.gr/laografia/neraides/vrysi-agiou-antoniou-vathy-samos",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "nereids spring",
+          "nereids dance",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "81",
+      "title": "Koloureika, Samos — Attack by Nereids",
+      "slug": "koloureika-pagonda-samos",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of a woman's experience with nereids in the Koloureika area of Pagondas, Samos.",
+      "mainArea": "Samos",
+      "subLocation2": "Pagondas",
+      "locationTags": [
+        "Pagondas — Samos",
+        "Koloureika"
+      ],
+      "lat": 37.6722,
+      "lng": 26.8312,
+      "image": {
+        "src": "/images/laografia/koloureika-pagonda.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A woman described the following incident. While passing through the Koloureika area, she disturbed a banquet that the Nereids were holding."
+        },
+        {
+          "type": "text",
+          "value": "They rushed at her and began to beat her with great force, so much so that the marks were visible on her body for many months afterwards."
+        },
+        {
+          "type": "text",
+          "value": "Beyond the blows, the woman fell gravely ill for the following five months."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "333"
+        }
+      ],
+      "tags": [
+        "Pagondas — Samos",
+        "Koloureika",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Koloureika, Pagondas, Samos — Attack by Nereids | Nereids | haunted.gr",
+        "metaDescription": "In Koloureika, Pagondas, Samos, nereids attacked a woman who disturbed their banquet, beating her so hard that marks remained for months and she fell seriously ill.",
+        "canonical": "https://haunted.gr/laografia/neraides/koloureika-pagonda-samos",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "nereids attack",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "82",
+      "title": "Koloureika, Samos — Death after Encounter with Nereids",
+      "slug": "koloureika-pagonda-samos-symban-neraides",
+      "author": "",
+      "date": "",
+      "excerpt": "Account of an incident where interrupting nereids in a romantic encounter led to a violent confrontation and a tragic death.",
+      "mainArea": "Samos",
+      "subLocation2": "Pagondas",
+      "locationTags": [
+        "Pagondas — Samos",
+        "Koloureika"
+      ],
+      "lat": 37.6722,
+      "lng": 26.8312,
+      "image": {
+        "src": "/images/laografia/koloureika-neraides.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A woman recounted the incident involving her daughter, who, while passing through Koloureika, accidentally came upon two nereids in a romantic encounter with two men, interrupting the scene."
+        },
+        {
+          "type": "text",
+          "value": "The men intervened, pleading with the nereids: 'Do not kill the girl!' Even so, the enraged nereids dragged her to the edge of the cliff with the intention of throwing her over."
+        },
+        {
+          "type": "text",
+          "value": "Although they failed to cast her down, the girl suffered such shock that she died one week after her encounter with the supernatural beings."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Epaminondas Stamatiadis",
+          "title": "Samiaka — The Folklore of Samos, Vol. V",
+          "year": "1966",
+          "pages": "333"
+        }
+      ],
+      "tags": [
+        "Pagondas — Samos",
+        "Koloureika",
+        "Samos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Koloureika, Samos — Death after Encounter with Nereids | Nereids | haunted.gr",
+        "metaDescription": "In Koloureika, Samos, a girl accidentally interrupted nereids. They dragged her to the cliff edge while men pleaded 'do not kill her'. She died of shock a week later.",
+        "canonical": "https://haunted.gr/laografia/neraides/koloureika-pagonda-samos-symban-neraides",
+        "keywords": [
+          "nereids Samos",
+          "Samos nereids",
+          "nereids death",
+          "Greek folklore",
+          "Samos tradition",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "168",
+      "title": "The Nereid Mother — Elis",
+      "slug": "i-neraida-mana",
+      "author": "Nikolaos G. Politis",
+      "date": "1904",
+      "excerpt": "Traditional narrative about two nereid sisters and a mother's love that transcends separation.",
+      "mainArea": "Elis",
+      "subLocation": "Kastro",
+      "locationTags": [
+        "Elis"
+      ],
+      "lat": 37.9024,
+      "lng": 21.1388,
+      "image": {
+        "src": "/images/laografia/i-neraida-mana.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "There were two nereid sisters, and when their father died they divided the castles between them: one took Chloumoutsi and the other Santameri. Both sisters had one joy and one sorrow each. The nereid who received Chloumoutsi grieved because she was ugly, but rejoiced because she had children. And when she brooded on her ugliness, she found comfort in the thought that she had given her youth to her children."
+        },
+        {
+          "type": "text",
+          "value": "But the other — the nereid of Santameri — what could she say, how could she take comfort? One day when she went to Chloumoutsi to visit her sister, she asked her to give her one of her children for company. Her sister, after much persuasion, finally gave her a very beautiful girl whom she loved dearly. The other took her and brought her to Santameri."
+        },
+        {
+          "type": "text",
+          "value": "Months and seasons passed, but the ugly one saw neither her sister nor her daughter again. One day she lost patience, set out, and went to the castle of Chloumoutsi. She knocked at the doors, but they would not open for her, because her sister did not want to give the girl back — she wanted to keep her, to play with her and laugh with her. The mother went again, beating herself against the walls outside. The same."
+        },
+        {
+          "type": "text",
+          "value": "Even now she has not given up hope, and she goes often to the castle meaning to take her daughter back. She always goes with joy and laughter, with songs and games so sweet that all the world around, the whole plain, does not stir, does not move. But when the ugly mother wearies of beating against the castle walls and grows hoarse from shouting and weeping, she remembers her other children and turns back to Santameri. On her return she is no longer the joyful mother going to fetch her child, but an angry nereid, a fierce whirlwind, sweeping up everything in her path, and her weeping is heard in the other world."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "107-108"
+        }
+      ],
+      "tags": [
+        "Elis",
+        "Kastro",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereid Mother — Chloumoutsi and Santameri, Elis | Nereids | haunted.gr",
+        "metaDescription": "Two nereid sisters divided the castles of Chloumoutsi and Santameri in Elis. The ugly sister seeks her child from the beautiful one — a tragic story of a nereid mother's love.",
+        "canonical": "https://haunted.gr/laografia/neraides/i-neraida-mana",
+        "keywords": [
+          "nereids Elis",
+          "nereid mother",
+          "Chloumoutsi",
+          "Santameri",
+          "Greek folklore",
+          "Elis tradition",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "169",
+      "title": "The Wedding of the Nereids — Zakynthos",
+      "slug": "o-gamos-ton-aneraidone-zakynthos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904",
+      "excerpt": "Folk belief interpreting whirlwinds as the wedding dance of the nereids.",
+      "mainArea": "Zakynthos",
+      "subLocation": "Zakynthos",
+      "locationTags": [
+        "Zakynthos"
+      ],
+      "lat": 37.7833,
+      "lng": 20.9,
+      "image": {
+        "src": "/images/laografia/o-gamos-ton-aneraidone-zakynthos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "When a whirlwind passes, a nereid wedding is taking place and the nereids are inside, dancing. For this reason, anyone who finds themselves nearby must call out: 'Kalomoires! Kalomoires!' (Good-fated ones!)"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "108"
+        }
+      ],
+      "tags": [
+        "Zakynthos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Wedding of the Nereids — Zakynthos and the Whirlwind | Nereids | haunted.gr",
+        "metaDescription": "Folk belief from Zakynthos: when a whirlwind passes, nereids are inside dancing at their wedding. Anyone nearby must call out 'Kalomoires' for protection.",
+        "canonical": "https://haunted.gr/laografia/neraides/o-gamos-ton-aneraidone-zakynthos",
+        "keywords": [
+          "nereids Zakynthos",
+          "nereid wedding",
+          "whirlwind nereids",
+          "Kalomoires",
+          "Greek folklore",
+          "Zakynthos tradition",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "170",
+      "title": "The Nereids in Whirlwinds",
+      "slug": "oi-neraides-ston-anemostrofila",
+      "author": "Nikolaos G. Politis",
+      "date": "1904",
+      "excerpt": "Folk observation on the relationship between nereids and whirlwinds.",
+      "mainArea": "Athens",
+      "subLocation": "Athens",
+      "locationTags": [
+        "Athens"
+      ],
+      "image": {
+        "src": "/images/laografia/oi-neraides-ston-anemostrofila.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Inside a whirlwind the nereids dance; and whomever they see, they take."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "108"
+        }
+      ],
+      "tags": [
+        "Athens",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids in Whirlwinds — Greek Folk Belief | Nereids | haunted.gr",
+        "metaDescription": "Ancient Greek folk belief: nereids dance inside whirlwinds and seize whoever they see. Recorded by Nikolaos G. Politis in 1904 in Athens.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-ston-anemostrofila",
+        "keywords": [
+          "nereids whirlwind",
+          "nereids Athens",
+          "Greek folk belief",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "171",
+      "title": "The Whirlwind — Alonistaina",
+      "slug": "to-anemoxouri-alonistaina",
+      "author": "Nikolaos G. Politis",
+      "date": "1904",
+      "excerpt": "Account of an encounter with a whirlwind and nereids in Arcadia — millions of nereids dancing in the clouds, then returning as eagles and partridges raining down stones.",
+      "mainArea": "Arcadia",
+      "subLocation": "Alonistaina",
+      "locationTags": [
+        "Alonistaina — Arcadia"
+      ],
+      "lat": 37.6167,
+      "lng": 22.4833,
+      "image": {
+        "src": "/images/laografia/to-anemoxouri-alonistaina.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Once we were going to Chionotrouva with our foster son, to help him pull up vetch, as we had sown vetch nearby. At midday, we heard a roar that nearly made us freeze with fear. It was a whirlwind that swept up nearby wood, stones, clods of earth — whatever it found before it — and raised them up high like plough handles."
+        },
+        {
+          "type": "text",
+          "value": "Our foster son knew about such things, and said to us: 'Down on your bellies! Lie flat, and do not speak, because we are lost! Not a breath!' When the whirlwind had passed, I raised my head and looked up the slope, and I saw millions of nereids dancing high up in the clouds."
+        },
+        {
+          "type": "text",
+          "value": "They rose and rose, and when they had climbed very high and vanished — I know not how — they came back again as eagles and large partridges, carrying some stones, some wood, and raining them down. Nereids can become whatever they wish — birds and eagles and partridges."
+        },
+        {
+          "type": "text",
+          "value": "We must have done something right, because not a single stone hit us. If we had not lain down, God knows what we would have suffered from them."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "page": "109"
+        }
+      ],
+      "tags": [
+        "Alonistaina — Arcadia",
+        "Arcadia",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Whirlwind of Alonistaina — Nereids of Arcadia | Nereids | haunted.gr",
+        "metaDescription": "At Chionotrouva, Alonistaina, Arcadia, a whirlwind carried millions of nereids dancing in the clouds. They returned as eagles and partridges, raining down stones — the witnesses survived by lying flat.",
+        "canonical": "https://haunted.gr/laografia/neraides/to-anemoxouri-alonistaina",
+        "keywords": [
+          "nereids Arcadia",
+          "Arcadia nereids",
+          "nereids whirlwind",
+          "nereids transformation",
+          "Greek folklore",
+          "Alonistaina",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "208",
+      "title": "The Anereïdes of Sikinos",
+      "slug": "oi-aneraides-sikinos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk description of the anereïdes of Sikinos — beautiful white-clad women with donkey feet who can harm or bestow gifts, including the ability to play the lyra.",
+      "mainArea": "Sikinos",
+      "subLocation": "Sikinos",
+      "locationTags": [
+        "Sikinos — Cyclades"
+      ],
+      "lat": 36.6861,
+      "lng": 25.1278,
+      "image": {
+        "src": "/images/laografia/oi-aneraides-sikinos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The anereïdes are beautiful white-clad women, but they have one great defect: their feet are those of a donkey."
+        },
+        {
+          "type": "text",
+          "value": "They can harm whoever they wish, but to others they do good. One man from our village they taught to play the lyra, and no one else could play like him."
+        },
+        {
+          "type": "text",
+          "value": "If someone falls ill in the countryside, everyone knows it was caused by the anereïdes."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "287"
+        }
+      ],
+      "tags": [
+        "Sikinos — Cyclades",
+        "Sikinos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Anereïdes of Sikinos — Cyclades | Nereids | haunted.gr",
+        "metaDescription": "The anereïdes of Sikinos are beautiful white-clad women with donkey feet. They can harm or bestow gifts — one local man was taught to play the lyra better than anyone.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-aneraides-sikinos",
+        "keywords": [
+          "nereids Sikinos",
+          "Sikinos nereids",
+          "anereïdes Sikinos",
+          "nereids lyra",
+          "nereids donkey feet",
+          "Greek folklore",
+          "Cyclades",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "209",
+      "title": "The Niragides of Lesbos",
+      "slug": "oi-niragides-lesvos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk account of the dangerous niragides of Lesbos — tall women with long unkempt hair who appear at midday near caves, lure men with food, and attack at midnight.",
+      "mainArea": "Lesbos",
+      "subLocation": "Lesbos",
+      "locationTags": [
+        "Lesbos — North Aegean"
+      ],
+      "lat": 39.21,
+      "lng": 26.28,
+      "image": {
+        "src": "/images/laografia/oi-niragides-lesvos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "THE NIRAGIDES. A niragida is a tall woman with large, long legs and long, loose, uncombed hair. These female demons appear in the open only at midday."
+        },
+        {
+          "type": "text",
+          "value": "'When you pass, my child, through ravines at midday, near caves, say: \"Jesus Christ conquers, and sweeps away all evil.\" For we old people know much.'"
+        },
+        {
+          "type": "text",
+          "value": "'Many times people have happened to see them. The cursed wretches strip naked and call you to come close to them. You must beware, my child. They even lay out food with a fragrant smell, just to lure a person to approach — then, God help his skin!'"
+        },
+        {
+          "type": "text",
+          "value": "'And at midnight they come down into the villages. Now let me tell you one fine story: my own wife, Rigina — she nearly aged before her time, bringing us one trouble after another.'"
+        },
+        {
+          "type": "text",
+          "value": "'She was sleeping, and in the dead of night she heard her name called three times: \"Rigina! Rigina! Rigina!\" Had she gone out, she would have suffered what a woman once suffered, when three niragides lured her out at midnight to the bathhouse, and tore the poor woman's flesh.'"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "287"
+        }
+      ],
+      "tags": [
+        "Lesbos — North Aegean",
+        "Lesbos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Niragides of Lesbos — Dangerous Spirits | Nereids | haunted.gr",
+        "metaDescription": "The niragides of Lesbos are tall women with unkempt hair who appear at midday near caves. They strip naked, lure men with fragrant food, and at midnight come into the villages. Rigina survived by not answering their call.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-niragides-lesvos",
+        "keywords": [
+          "nereids Lesbos",
+          "Lesbos nereids",
+          "niragides Lesbos",
+          "nereids midday",
+          "nereids protection",
+          "Greek folklore",
+          "North Aegean",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "210",
+      "title": "The Aloustines — Symi",
+      "slug": "oi-aloustines-symi",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk account of the Aloustines of Symi — summer nereids who appear in August, dance wildly, ask 'Pampakos or lead?', and can be captured at the third cockcrow.",
+      "mainArea": "Symi",
+      "subLocation": "Symi",
+      "locationTags": [
+        "Symi — Dodecanese"
+      ],
+      "lat": 36.615,
+      "lng": 27.8389,
+      "image": {
+        "src": "/images/laografia/oi-aloustines-symi.webp",
+        "alt": "Depiction of the Aloustines of Symi"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The nereids are also called Aloustines, because they appear in summer, and especially in August. They are young women, very beautiful, dressed in shimmering or white garments, but their feet are those of a donkey."
+        },
+        {
+          "type": "text",
+          "value": "They appear at midday or at midnight, on moonless nights, and vanish at the latest at the third cockcrow. They are mad for dancing, and they seize men — young or old — and draw them into the dance."
+        },
+        {
+          "type": "text",
+          "value": "As the Aloustines dance, they sing: 'Pampakos or lead?' Whoever says 'Lead', they release him; whoever says 'Pampakos', they take him up with them on the wing."
+        },
+        {
+          "type": "text",
+          "value": "Whoever catches an Aloustina becomes happy. He must wait for the moment when the cock crows and they begin to vanish, then seize by the hand the one he has chosen and hold her tight so she cannot escape."
+        },
+        {
+          "type": "text",
+          "value": "When the cock crows again, she remains and listens to him and does whatever he tells her."
+        },
+        {
+          "type": "text",
+          "value": "The elders used to say: if you come across Aloustines at midday, try to seize one by the hair. If you catch an Aloustina, make her laugh — the laughter of an Aloustina never stops."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "290"
+        }
+      ],
+      "tags": [
+        "Symi — Dodecanese",
+        "Symi",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Aloustines of Symi — Nereids of the Dodecanese | Nereids | haunted.gr",
+        "metaDescription": "The Aloustines of Symi are young beautiful women with donkey feet who appear in August and dance frantically. They ask 'Pampakos or lead?' — say 'lead' to be released. Recorded by Politis, 1904.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-aloustines-symi",
+        "keywords": [
+          "nereids Symi",
+          "Symi nereids",
+          "Aloustines Symi",
+          "nereids dance",
+          "nereids August",
+          "nereids capture",
+          "Greek folklore",
+          "Dodecanese",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "211",
+      "title": "Nereids and Nereid-Men of Viannos — Crete",
+      "slug": "neraides-kai-neraidou-viannos-kriti",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk record of nereids inhabiting every river and channel in Viannos, Crete — and of both female nereids and male nereid-men near the spring at Tzermiado, Lasithi.",
+      "mainArea": "Crete",
+      "subLocation": "Viannos",
+      "locationTags": [
+        "Viannos — Crete",
+        "Lasithi — Crete"
+      ],
+      "lat": 35.0333,
+      "lng": 25.4333,
+      "image": {
+        "src": "/images/laografia/neraides-kai-neraidou-viannos-kriti.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In Viannos, which has many streams and many trees, every river and every irrigation channel has nereids."
+        },
+        {
+          "type": "text",
+          "value": "And in Lasithi too, in many places — especially at the spring near Tzermiado — there are many nereids and many nereid-men (neraidoi)."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "291"
+        }
+      ],
+      "tags": [
+        "Viannos — Crete",
+        "Lasithi — Crete",
+        "Crete",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids and Nereid-Men of Viannos and Lasithi, Crete | Nereids | haunted.gr",
+        "metaDescription": "In Viannos, Crete, every river and channel has nereids. In Lasithi near Tzermiado there are both female nereids and male nereid-men. Recorded by Nikolaos Politis, 1904.",
+        "canonical": "https://haunted.gr/laografia/neraides/neraides-kai-neraidou-viannos-kriti",
+        "keywords": [
+          "nereids Crete",
+          "Crete nereids",
+          "nereids Viannos",
+          "nereid-men",
+          "Lasithi nereids",
+          "Tzermiado",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "212",
+      "title": "The Nereids of the Armyros — Crete",
+      "slug": "oi-neraides-tou-armyrou-mirabello-kriti",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk record of beautiful nereids who remove their white dresses and swim in the clear waters of the Armyros river near Kritsa, Mirabello, Crete — witnessed even by priests.",
+      "mainArea": "Crete",
+      "subLocation": "Mirabello Bay",
+      "locationTags": [
+        "Mirabello Bay — Crete"
+      ],
+      "lat": 35.19,
+      "lng": 25.7136,
+      "image": {
+        "src": "/images/laografia/oi-neraides-tou-armyrou-mirabello-kriti.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In Mirabello, below the village of Kritsa, to the southeast of the harbour of Agios Nikolaos, flows one of the salt rivers."
+        },
+        {
+          "type": "text",
+          "value": "There, in the clear waters of the Armyros, breathtaking nereids and their mistress remove their white dresses and swim and dive. Many others have seen them too — even priests."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "291"
+        }
+      ],
+      "tags": [
+        "Mirabello Bay — Crete",
+        "Crete",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids Swimming in the Armyros — Mirabello, Crete | Nereids | haunted.gr",
+        "metaDescription": "In the clear waters of the Armyros river near Kritsa, Mirabello Bay, beautiful nereids remove their white dresses and swim with their mistress. Even priests witnessed them. Politis, 1904.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-armyrou-mirabello-kriti",
+        "keywords": [
+          "nereids Crete",
+          "Crete nereids",
+          "nereids Mirabello",
+          "nereids swimming",
+          "Armyros river",
+          "Kritsa",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "213",
+      "title": "The Nereids of the Spring — Kasos",
+      "slug": "oi-neraides-tis-vrysis-kasos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "A Cretan lyra player living in Kasos and Karpathos would regularly see nereids at the spring, who urged him to play and sing for them.",
+      "mainArea": "Kasos",
+      "subLocation": "Kasos",
+      "locationTags": [
+        "Kasos — Dodecanese",
+        "Karpathos — Dodecanese"
+      ],
+      "lat": 35.4167,
+      "lng": 26.9167,
+      "image": {
+        "src": "/images/laografia/oi-neraides-tis-vrysis-kasos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A Cretan lyra player who lived in Kasos and Karpathos would often see nereids at the spring, and they would urge him to play the lyra and sing."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "291"
+        }
+      ],
+      "tags": [
+        "Kasos — Dodecanese",
+        "Karpathos — Dodecanese",
+        "Kasos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids at the Spring of Kasos — Lyra Player and Nymphs | Nereids | haunted.gr",
+        "metaDescription": "A Cretan lyra player living in Kasos and Karpathos regularly encountered nereids at the spring, who urged him to play and sing for them. Recorded by Nikolaos Politis, 1904.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tis-vrysis-kasos",
+        "keywords": [
+          "nereids Kasos",
+          "Kasos nereids",
+          "nereids spring",
+          "nereids lyra",
+          "Greek folklore",
+          "Dodecanese",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "214",
+      "title": "The Gialoudhes of Mykonos",
+      "slug": "oi-gialoudes-mykonos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk account of the Gialoudhes of Mykonos — white-clad water nymphs who wash clothes in the Rousonara ravine and are linked to summer whirlwinds and blistering heat.",
+      "mainArea": "Mykonos",
+      "subLocation": "Mykonos",
+      "locationTags": [
+        "Mykonos — Cyclades",
+        "Rousonara — Mykonos"
+      ],
+      "lat": 37.45,
+      "lng": 25.3333,
+      "image": {
+        "src": "/images/laografia/oi-gialoudes-mykonos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In a ravine called Rousonara, near the town, the gialoudhes wash clothes all day long. They are young white-clad women, and many women have seen them washing and spreading their clothes in the sun to dry."
+        },
+        {
+          "type": "text",
+          "value": "In other parts of Mykonos too, near cisterns or streams, many have seen the gialoudhes washing in summer. But as soon as anyone catches sight of them, they vanish instantly."
+        },
+        {
+          "type": "text",
+          "value": "Sometimes in summer, when the heat is intense and not a leaf stirs, a whirlwind rises and sweeps up leaves, thorns, and whatever it finds before it. The heat then grows even fiercer, and many people's hands — or whatever other exposed part of their body — come up in blisters."
+        },
+        {
+          "type": "text",
+          "value": "Whoever gets blisters says the gialoudhes have got hold of him, and he is given holy water and anointed with oil to be cured. It is in that whirlwind, or immediately after it, that the gialoudhes appear."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "291"
+        }
+      ],
+      "tags": [
+        "Mykonos — Cyclades",
+        "Rousonara — Mykonos",
+        "Mykonos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Gialoudhes of Mykonos — Nereids of the Cyclades | Nereids | haunted.gr",
+        "metaDescription": "At Rousonara ravine, Mykonos, white-clad gialoudhes wash and dry clothes then vanish when seen. Summer whirlwinds bring them — anyone who blisters is said to have been touched by them.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-gialoudes-mykonos",
+        "keywords": [
+          "nereids Mykonos",
+          "Mykonos nereids",
+          "Gialoudhes Mykonos",
+          "nereids whirlwind",
+          "nereids laundry",
+          "Greek folklore",
+          "Cyclades",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "215",
+      "title": "The Anereïdes of Kythnos",
+      "slug": "ta-kokkina-kythnos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk account of nereids dancing with sparks at Kokkina, Kythnos, and of devils from hell believed to dwell beneath the Kakkava waters.",
+      "mainArea": "Kythnos",
+      "subLocation": "Kythnos",
+      "locationTags": [
+        "Kokkina — Kythnos",
+        "Kakkava — Kythnos"
+      ],
+      "lat": 37.3833,
+      "lng": 24.4333,
+      "image": {
+        "src": "/images/laografia/ta-kokkina-kythnos.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At Kokkina, nereids appear, and many people have seen them dancing and singing there, with sparks flying all around them."
+        },
+        {
+          "type": "text",
+          "value": "And beneath the Kakkava, underground, dwell the devils from hell — which is why that water was long neglected, treated like the water of a cesspool."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "291–292"
+        }
+      ],
+      "tags": [
+        "Kokkina — Kythnos",
+        "Kakkava — Kythnos",
+        "Kythnos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Anereïdes at Kokkina, Kythnos — Dancing with Sparks | Nereids | haunted.gr",
+        "metaDescription": "At Kokkina, Kythnos, nereids dance and sing with sparks flying around them. Beneath the Kakkava waters, devils from hell are said to dwell — reason the spring was long shunned.",
+        "canonical": "https://haunted.gr/laografia/neraides/ta-kokkina-kythnos",
+        "keywords": [
+          "nereids Kythnos",
+          "Kythnos nereids",
+          "anereïdes Kythnos",
+          "nereids sparks dance",
+          "Greek folklore",
+          "Cyclades",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "216",
+      "title": "The Naraghides of the Well — Chios",
+      "slug": "oi-naragides-tou-pigadiou-chios",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "A beautiful girl and then her father both fell into a country well and were found unharmed and completely dry — said to have been drawn in by the naraghides who live there.",
+      "mainArea": "Chios",
+      "subLocation": "Chios",
+      "locationTags": [
+        "Chios"
+      ],
+      "lat": 38.3733,
+      "lng": 26.1353,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-naragides-tou-pigadiou-chios.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Once, when a family was staying in the countryside for the summer, a very beautiful little girl from that family went to the well near the house. As children do, she was peering over the edge into the water, when suddenly, slowly and quietly, as if drawn by someone, she fell in."
+        },
+        {
+          "type": "text",
+          "value": "When her parents and relatives saw this, they ran over, gathered around the well, and looked in — and saw the girl floating on the water as if lying in her own bed."
+        },
+        {
+          "type": "text",
+          "value": "The father took courage when he saw this and wanted to climb down into the well. No sooner had the thought crossed his mind than he too fell in, as if pulled down, and found himself beside his daughter."
+        },
+        {
+          "type": "text",
+          "value": "The others meanwhile fetched a ladder, lowered it into the well, and called to the father to climb up. He took the girl in his arms and climbed up by the ladder, and neither of them came to any harm."
+        },
+        {
+          "type": "text",
+          "value": "What astonished everyone was that both their garments were completely dry, with not a trace of moisture, despite having been in the well for a long time."
+        },
+        {
+          "type": "text",
+          "value": "People said that it was the naraghides who live in the well who had drawn both father and daughter inside. The girl herself said that, as she peered into the well, she had seen certain women playing on the surface of the water, laughing and making merry, and that they had been urging her to jump in."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "293"
+        }
+      ],
+      "tags": [
+        "Chios",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Naraghides of the Well — Chios | Nereids | haunted.gr",
+        "metaDescription": "A girl and her father fell into a country well in Chios and were found completely dry. The girl said women playing on the water had lured her in — the naraghides who live in the well.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-naragides-tou-pigadiou-chios",
+        "keywords": [
+          "nereids Chios",
+          "Chios nereids",
+          "naraghides well",
+          "nereids well",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "217",
+      "title": "The Nereids of Milos",
+      "slug": "oi-neraides-tou-foradopotamou-trypiti-milos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk account of nereids at two locations on Milos: the Foradopotamos ravine where kalokeradhes cause dread, and the rocks at Nychia whose nail-like fragments give the place its name.",
+      "mainArea": "Milos",
+      "subLocation": "Trypiti",
+      "locationTags": [
+        "Trypiti — Milos",
+        "Foradopotamos — Milos",
+        "Nychia — Milos"
+      ],
+      "lat": 36.6833,
+      "lng": 24.4833,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-tou-foradopotamou-trypiti-milos.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At the Foradopotamos — the ravine below Trachelos — kalokeradhes appear, and everyone fears to pass that way lest they be struck."
+        },
+        {
+          "type": "text",
+          "value": "Nereids also appear at Nychia, and there too there is danger. In that place there are certain rocks which, when struck, break into small pieces resembling nails (nychia)."
+        },
+        {
+          "type": "text",
+          "value": "That is why the place is called Nychia."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "294"
+        }
+      ],
+      "tags": [
+        "Trypiti — Milos",
+        "Foradopotamos — Milos",
+        "Nychia — Milos",
+        "Milos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of Milos — Foradopotamos and Nychia | Nereids | haunted.gr",
+        "metaDescription": "At the Foradopotamos ravine, Milos, kalokeradhes cause dread. At Nychia, nereids haunt rocks that crumble into nail-like fragments — giving the place its name. Politis, 1904.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-foradopotamou-trypiti-milos",
+        "keywords": [
+          "nereids Milos",
+          "Milos nereids",
+          "Foradopotamos Milos",
+          "Nychia Milos",
+          "kalokeradhes",
+          "Greek folklore",
+          "Cyclades",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "218",
+      "title": "The Nereids at Langadhakia — Zakynthos",
+      "slug": "oi-neraides-sta-langadakia-zakynthos",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Brief folk note from Zakynthos: many nereids dwell at the crossroads of Langadhakia, and supernatural beings haunt the Ravine of Charos.",
+      "mainArea": "Zakynthos",
+      "subLocation": "Langadhakia",
+      "locationTags": [
+        "Langadhakia — Zakynthos"
+      ],
+      "lat": 37.7833,
+      "lng": 20.9,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-sta-langadakia-zakynthos.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At Langadhakia, at the crossroads, many nereids dwell; and at the Ravine of Charos there are supernatural beings."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "294"
+        }
+      ],
+      "tags": [
+        "Langadhakia — Zakynthos",
+        "Zakynthos",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids at Langadhakia — Zakynthos | Nereids | haunted.gr",
+        "metaDescription": "Folk note from Zakynthos: many nereids inhabit the crossroads of Langadhakia, and the Ravine of Charos is haunted by supernatural beings. Nikolaos Politis, 1904.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-sta-langadakia-zakynthos",
+        "keywords": [
+          "nereids Zakynthos",
+          "Zakynthos nereids",
+          "Langadhakia nereids",
+          "Ravine of Charos",
+          "Greek folklore",
+          "Ionian Islands",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "219",
+      "title": "The Nereids of Trelovounio — Hymettus",
+      "slug": "oi-neraides-tou-trelovouniou-ymittos-athina",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "At the summit of Trelovounio on Hymettus there is a circular flat clearing where nereids dance every midday. A shepherd who ventured there was engulfed by a whirlwind and his flock was scattered.",
+      "mainArea": "Attica",
+      "subLocation": "Hymettus",
+      "locationTags": [
+        "Hymettus — Attica",
+        "Trelovounio — Hymettus"
+      ],
+      "lat": 37.9619,
+      "lng": 23.8167,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-tou-trelovouniou-ymittos-athina.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At the summit of Trelovounio there is a flat clearing shaped like a threshing floor. Every midday the nereids dance there, which is why shepherds are afraid to go there at noon."
+        },
+        {
+          "type": "text",
+          "value": "One man, however, who either was not afraid or did not know, went there at midday and suddenly found himself surrounded by a whirlwind. The shepherd threw himself to the ground, and when midday had passed and the whirlwind had gone, he got up and with great difficulty managed to find and gather his sheep, which had scattered."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "294"
+        }
+      ],
+      "tags": [
+        "Hymettus — Attica",
+        "Trelovounio — Hymettus",
+        "Attica",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids of Trelovounio — Hymettus, Athens | Nereids | haunted.gr",
+        "metaDescription": "At the summit of Trelovounio on Hymettus, nereids dance every midday on a circular flat clearing. A shepherd who went there was engulfed by a whirlwind and his flock scattered.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-trelovouniou-ymittos-athina",
+        "keywords": [
+          "nereids Hymettus",
+          "nereids Attica",
+          "Trelovounio nereids",
+          "nereids dance midday",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "220",
+      "title": "The Cave of Bourinos — Kozani",
+      "slug": "i-spilia-tou-mpourinou-kozzani",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "In a cave on Mount Bourinos, water drips from the breasts of nereids and heals every illness. Strict ritual conditions apply: silent approach and return, a green candle, a green vessel, and a piece of clothing left as offering.",
+      "mainArea": "Kozani",
+      "locationTags": [
+        "Bourinos — Kozani",
+        "Kozani — Western Macedonia"
+      ],
+      "lat": 40.3,
+      "lng": 21.7833,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/i-spilia-tou-mpourinou-kozzani.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In a cave on Mount Bourinos water drips — it comes from the breasts of the nereids who dwell there, and it heals every illness."
+        },
+        {
+          "type": "text",
+          "value": "And whoever wishes to take some of that water and give it to a sick person to drink must go there in silence and return in silence; for this reason the water is called the mute water (vouvo)."
+        },
+        {
+          "type": "text",
+          "value": "He must also carry a green candle to light his way in the cave, and the vessel he uses to collect the water must likewise be green."
+        },
+        {
+          "type": "text",
+          "value": "And when the jar is full, he must leave behind a piece of his clothing and go without being frightened by the voices and commotion he will hear, and without looking back — for otherwise he will lose his mind and the water will lose its power."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "295"
+        }
+      ],
+      "tags": [
+        "Bourinos — Kozani",
+        "Kozani",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Cave of Bourinos, Kozani — Healing Water of the Nereids | Nereids | haunted.gr",
+        "metaDescription": "In a cave on Mount Bourinos, Kozani, healing water drips from the breasts of nereids. Collection requires silence, a green candle, a green vessel, and leaving a piece of clothing behind.",
+        "canonical": "https://haunted.gr/laografia/neraides/i-spilia-tou-mpourinou-kozzani",
+        "keywords": [
+          "nereids Kozani",
+          "Bourinos cave",
+          "healing water nereids",
+          "nereids Macedonia",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "221",
+      "title": "The Nereids' Whirlwind — Vrestheína, Lakonia",
+      "slug": "anemosifouno-ton-neraidon-vresthena",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Giorgis Skliris of Vrestheína witnessed a great whirlwind at Rozaina accompanied by the invisible sound of drums, bagpipes, fiddles and women's singing — a nereid dance heard but not seen.",
+      "mainArea": "Lakonia",
+      "subLocation": "Vrestheína",
+      "locationTags": [
+        "Vrestheína — Lakonia",
+        "Rozaina — Lakonia"
+      ],
+      "lat": 37.0667,
+      "lng": 22.5667,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/anemosifouno-ton-neraidon-vresthena.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Giorgis Skliris, some years ago, once saw a great whirlwind at the place called Rozaina, where he has fields."
+        },
+        {
+          "type": "text",
+          "value": "At the same moment he heard the beating of drums, bagpipes, fiddles and many other instruments. He understood that a dance was taking place, but he could see no one. He could only hear the sweet, beautiful voices of women singing in time with the music."
+        },
+        {
+          "type": "text",
+          "value": "Those women were nereids. Many others from the village have also heard such things in various places whenever a whirlwind rises."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "298"
+        }
+      ],
+      "tags": [
+        "Vrestheína — Lakonia",
+        "Rozaina — Lakonia",
+        "Lakonia",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids' Whirlwind — Vrestheína, Lakonia | Nereids | haunted.gr",
+        "metaDescription": "At Rozaina, Vrestheína, a whirlwind was accompanied by invisible drums, bagpipes, fiddles and women's singing. The unseen dancers were nereids — many villagers have heard the same.",
+        "canonical": "https://haunted.gr/laografia/neraides/anemosifouno-ton-neraidon-vresthena",
+        "keywords": [
+          "nereids Lakonia",
+          "nereids whirlwind",
+          "Vrestheína nereids",
+          "nereids music",
+          "Greek folklore",
+          "Peloponnese",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "223",
+      "title": "Pact with Nereids at the Crossroads — Mesara, Crete",
+      "slug": "o-lyraris-mesara-kritis",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "To master the lyra, a player goes at midnight to a deserted crossroads and draws a protective circle with a black-handled knife. Nereids surround him but cannot enter. After a tense exchange they play his lyra, and finally teach him — in return for the tip of his little finger.",
+      "mainArea": "Crete",
+      "subLocation": "Mesara",
+      "locationTags": [
+        "Mesara — Crete"
+      ],
+      "lat": 35.0,
+      "lng": 24.9,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/o-lyraris-mesara-kritis.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Whoever wishes to learn to play the lyra well goes at midnight to a deserted crossroads, draws a circle in the ground with a black-handled knife, steps inside, and sits playing."
+        },
+        {
+          "type": "text",
+          "value": "Before long, nereids come from all directions and surround him. Their intentions are not good — they mean to strike him. But since they cannot enter the circle traced with the black-handled knife, they try every means to deceive him and draw him out."
+        },
+        {
+          "type": "text",
+          "value": "They speak sweet words to him, sing beautiful songs, and make a thousand appeals — but if he is wise, he steels his heart and goes on playing the lyra undisturbed."
+        },
+        {
+          "type": "text",
+          "value": "\"But you don't even know how to play it,\" they tell him, seeing their lures are failing. \"Why do you play and waste your effort?\" \"I learned it this way and I play it this way,\" the lyra player answers. \"What is it to you?\""
+        },
+        {
+          "type": "text",
+          "value": "\"Nothing,\" they say. \"Only — if you like — we will teach you to play the lyra, a lyra that will make even the stones dance.\" And they beg him to step out of the circle. He does not listen."
+        },
+        {
+          "type": "text",
+          "value": "After much back and forth, they ask only for the lyra. The lyra player passes it through, taking care not to let his hand or any other part of his body cross the line of the circle, for it would be crushed or severed."
+        },
+        {
+          "type": "text",
+          "value": "One of the nereids takes the lyra and plays it for a few moments with great artistry, then returns it to him with reluctance, saying: \"Take it. You do not trust us. Come outside, and we will teach you.\""
+        },
+        {
+          "type": "text",
+          "value": "But the lyra player holds firm — he does not listen, and begins again to play his lyra clumsily. The nereids, who want to harm him somehow, repeat the same game with the lyra many times, hoping he will eventually reach too far outside the circle."
+        },
+        {
+          "type": "text",
+          "value": "Finally, when the cock crows and they must not be caught by daylight, they ask him to give them one thing — anything at all — so that they may teach him. He extends just the tip of his little finger, and the nereids cut it off instantly."
+        },
+        {
+          "type": "text",
+          "value": "But they do not deceive him: within a short while they teach him to play as they do, and then they vanish. That is why a good lyra player, when praised for his fine touch, will sometimes say: \"What did you expect? I learned the lyra at the crossroads!\""
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "303"
+        }
+      ],
+      "tags": [
+        "Mesara — Crete",
+        "Crete",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Pact with Nereids at the Crossroads — Mesara, Crete | Nereids | haunted.gr",
+        "metaDescription": "A lyra player sits inside a magic circle at a midnight crossroads while nereids try to lure him out. They play his lyra and finally teach him their art — in exchange for the tip of his little finger.",
+        "canonical": "https://haunted.gr/laografia/neraides/o-lyraris-mesara-kritis",
+        "keywords": [
+          "nereids Crete",
+          "Crete nereids",
+          "nereids crossroads",
+          "lyra nereids pact",
+          "magic circle nereids",
+          "Greek folklore",
+          "Mesara Crete",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "224",
+      "title": "The Leprous Nereids of Vella — Achaia",
+      "slug": "oi-lepres-neraides-vela-achaia",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "A woman of Vella waded into a spring at night and contracted unbearable itching. A sorceress revealed that leprous nereids had been washing there; she wrestled the spirits and exorcised the illness.",
+      "mainArea": "Achaia",
+      "subLocation": "Vella",
+      "locationTags": [
+        "Vella — Achaia",
+        "Zachouli — Achaia"
+      ],
+      "lat": 38.15,
+      "lng": 21.6,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-lepres-neraides-vela-achaia.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Once, a woman in Vella got up very late at night and went to the spring to do her washing."
+        },
+        {
+          "type": "text",
+          "value": "As soon as she stepped into the water, a terrible itch broke out on her legs — up to where the water had wet them — so that she felt like cutting them off; and she found no rest day or night, nor any remedy."
+        },
+        {
+          "type": "text",
+          "value": "Finally she went to the sorceress at Zachouli, who told her that when she had gone to the spring, the leprous nereids had been washing there, and their leprosy had passed to her through the contaminated water."
+        },
+        {
+          "type": "text",
+          "value": "The sorceress told her to wait, then went naked into another room. After some time she returned, still naked, and her whole body was black."
+        },
+        {
+          "type": "text",
+          "value": "She had wrestled with the nereids and exorcised the illness — and the itching immediately ceased."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "308"
+        }
+      ],
+      "tags": [
+        "Vella — Achaia",
+        "Zachouli — Achaia",
+        "Achaia",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Leprous Nereids of Vella — Achaia | Nereids | haunted.gr",
+        "metaDescription": "A woman of Vella contracted itching after wading into a spring where leprous nereids had been washing. A sorceress at Zachouli wrestled the spirits bare-handed and exorcised the illness.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-lepres-neraides-vela-achaia",
+        "keywords": [
+          "nereids Achaia",
+          "leprous nereids",
+          "Vella Achaia nereids",
+          "nereids illness",
+          "sorceress exorcism",
+          "Greek folklore",
+          "Peloponnese",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "225",
+      "title": "The Nereid-Touched Man — Vissani, Ioannina",
+      "slug": "o-neraidoparamenos-vissani-ioanninon",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "A man sleeping in his field was nearly strangled by three nereids, saved by passers-by. The next day the nereids stoned his house; he spun in circles until he fell, and recovered only after attending Vespers for three Saturdays.",
+      "mainArea": "Ioannina",
+      "subLocation": "Vissani",
+      "locationTags": [
+        "Vissani — Ioannina",
+        "Ioannina — Epirus"
+      ],
+      "lat": 39.9453,
+      "lng": 20.5337,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/o-neraidoparamenos-vissani-ioanninon.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Once a man was sleeping in his field when three nereids came and tried to strangle him."
+        },
+        {
+          "type": "text",
+          "value": "But just as they were about to do so, two women passed by on the road and woke him. He got up and went home."
+        },
+        {
+          "type": "text",
+          "value": "At midday, however, the nereids came outside his house and pelted it with stones. When he heard this, he began to spin round and round until he fell to the ground in a daze, and lay there until the nereids had left."
+        },
+        {
+          "type": "text",
+          "value": "He got up then, but he was in a bad way. He was advised to attend Vespers faithfully on three consecutive Saturdays. He did so, and recovered."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "314"
+        }
+      ],
+      "tags": [
+        "Vissani — Ioannina",
+        "Ioannina",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereid-Touched Man — Vissani, Ioannina | Nereids | haunted.gr",
+        "metaDescription": "A man of Vissani, Ioannina, was nearly strangled by three nereids while sleeping in his field. They later stoned his house. He recovered after attending Vespers for three Saturdays.",
+        "canonical": "https://haunted.gr/laografia/neraides/o-neraidoparamenos-vissani-ioanninon",
+        "keywords": [
+          "nereids Ioannina",
+          "nereid-touched",
+          "Vissani Epirus nereids",
+          "nereids stoning",
+          "nereids attack",
+          "Greek folklore",
+          "Epirus",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "226",
+      "title": "The Child of the Nereid — Psara",
+      "slug": "to-paidi-tis-aneraidas-psara",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "A woman on her way to the orchard met a nereid carrying her child and placed it on her donkey. The nereid guided her to a gathering of dancing nereids, warned her to obey them and hold onto something — and so she danced naked until dawn and was saved.",
+      "mainArea": "Psara",
+      "subLocation": "Psara",
+      "locationTags": [
+        "Psara — North Aegean"
+      ],
+      "lat": 38.55,
+      "lng": 25.5667,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/to-paidi-tis-aneraidas-psara.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Once, a farmer told his wife: \"Knead the bread tonight and rise at dawn, bring the food and the loaves, and come to the orchard so we can eat with the farmhands.\""
+        },
+        {
+          "type": "text",
+          "value": "She did as he told her, loaded her donkey, and set off. On the way she met a nereid carrying her child, who said to her: \"Will you not put my child on your donkey?\" The woman placed it on at once."
+        },
+        {
+          "type": "text",
+          "value": "On the donkey, the child kept kicking its legs, and the woman said to the nereid: \"Won't you scold your child? It keeps kicking and will knock the donkey over.\" The nereid said nothing, and walked alongside the woman until they reached the great sands."
+        },
+        {
+          "type": "text",
+          "value": "There the woman saw other nereids dancing. They came and unloaded her donkey. Then the first nereid said to her: \"Whatever they tell you to do, do it — and when they leave, grab hold of something, and that will save you.\""
+        },
+        {
+          "type": "text",
+          "value": "And so she stripped and danced with the nereids until dawn broke — and in this way she was saved."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "315–316"
+        }
+      ],
+      "tags": [
+        "Psara — North Aegean",
+        "Psara",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Child of the Nereid — Psara | Nereids | haunted.gr",
+        "metaDescription": "A woman of Psara put a nereid's child on her donkey. Led to a gathering of dancing nereids, she was warned to obey them and hold on to something. She danced naked until dawn and survived.",
+        "canonical": "https://haunted.gr/laografia/neraides/to-paidi-tis-aneraidas-psara",
+        "keywords": [
+          "nereids Psara",
+          "Psara nereids",
+          "nereid child donkey",
+          "nereids dance",
+          "Greek folklore",
+          "North Aegean",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "227",
+      "title": "Blood-Drinking Nereids — Crete",
+      "slug": "ta-neraidogleimmene-kriti",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk belief from Crete: nereids enter houses at night unseen and suck the blood of unguarded sleeping children, leaving them pale and thin — called nereid-licked.",
+      "mainArea": "Crete",
+      "subLocation": "Crete",
+      "locationTags": [
+        "Crete"
+      ],
+      "lat": 35.2401,
+      "lng": 24.8093,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/ta-neraidogleimmene-kriti.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Nereids go to houses at night without being seen, and wherever they find children sleeping unguarded, they suck their blood."
+        },
+        {
+          "type": "text",
+          "value": "These unfortunate children are pale and thin, and are called nereid-licked (neraidoglaimmena)."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos G. Politis",
+          "title": "Traditions (Studies on the Life and Language of the Greek People) — Vol. I",
+          "year": "1904",
+          "pages": "323"
+        }
+      ],
+      "tags": [
+        "Crete",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Blood-Drinking Nereids — Crete | Nereids | haunted.gr",
+        "metaDescription": "Folk belief from Crete: nereids enter houses at night and suck the blood of sleeping unguarded children. The pale, thin victims are called nereid-licked. Nikolaos Politis, 1904.",
+        "canonical": "https://haunted.gr/laografia/neraides/ta-neraidogleimmene-kriti",
+        "keywords": [
+          "nereids Crete",
+          "blood-drinking nereids",
+          "nereid-licked",
+          "nereids children",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "270",
+      "title": "The Sinosotiraioi of Famila — Nafpaktia",
+      "slug": "oi-sinosotiraioi-apo-tin-famila",
+      "author": "Dim. Loukopoulos",
+      "date": "",
+      "excerpt": "The ancestor of the Sinosotiraioi family of Famila hid in a haystack and captured a nereid's headscarf as she danced — she became his wife and bore children. Both the Sinosotiraioi and the Manesaïki family claim nereid descent.",
+      "mainArea": "Nafpaktia",
+      "subLocation": "Famila",
+      "locationTags": [
+        "Famila",
+        "Aetolia-Acarnania"
+      ],
+      "lat": 38.7156,
+      "lng": 21.4528,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-sinosotiraioi-apo-tin-famila.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The great-grandfather of the Sinosotiraioi family of Famila had haystacks on his threshing floor. He would go and find the wheat scattered and could not discover who was doing it."
+        },
+        {
+          "type": "text",
+          "value": "On the advice of others he went and hid inside one of the haystacks. The nereids came and left their headscarves on the haystack before beginning to dance."
+        },
+        {
+          "type": "text",
+          "value": "Then the man in hiding snatched the headscarf of one of the nereids, and she followed him. She later became his wife and they had children. Thus the Sinosotiraioi say they are descended from a nereid."
+        },
+        {
+          "type": "text",
+          "value": "They also say that the Manesaïki family is likewise descended from a nereid. The above story was recorded by dictation from the schoolteacher Aristeidis Stathopoulos of Kefalovryso."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Dim. Loukopoulos",
+          "title": "Mixed Aetolian Folklore — Laografia, periodical bulletin of the Greek Folklore Society, Vol. 2",
+          "pages": "425"
+        }
+      ],
+      "tags": [
+        "Famila",
+        "Aetolia-Acarnania",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Sinosotiraioi of Famila — Descended from a Nereid | Nereids | haunted.gr",
+        "metaDescription": "The ancestor of the Sinosotiraioi family of Famila hid in a haystack and captured a nereid's headscarf. She became his wife. Both the Sinosotiraioi and the Manesaïki family claim nereid descent.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-sinosotiraioi-apo-tin-famila",
+        "keywords": [
+          "nereids Nafpaktia",
+          "nereid marriage",
+          "nereid descent",
+          "Famila nereids",
+          "headscarf nereid",
+          "Greek folklore",
+          "Aetolia-Acarnania",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "272",
+      "title": "Dancing with Nereids at Kydonia, Nafpaktia",
+      "slug": "choros-me-neraides-stin-kydonia-nafpaktias",
+      "author": "Dim. Loukopoulos",
+      "date": "",
+      "excerpt": "A woman from Zilista stumbled upon nereids dancing and joined them, naked and silent. They sang an obscene song to make her laugh and steal her voice — but she held firm and was released at dawn.",
+      "mainArea": "Nafpaktia",
+      "subLocation": "Kydonia",
+      "locationTags": [
+        "Kydonia",
+        "Nafpaktia",
+        "Zilista"
+      ],
+      "lat": 38.4592,
+      "lng": 21.8497,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/choros-me-neraides-stin-kydonia-nafpaktias.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Once, a woman from Zilista was taking bread to the fold. At the thistle patch she came upon nereids dancing. She left her bag of bread on the ground, joined them, and began to dance naked without speaking. To make her laugh and steal her voice they sang: \"I was a demon, I saw a demon, never saw a demon like this one — with balls on its chest and a moustache between its legs.\""
+        },
+        {
+          "type": "text",
+          "value": "But she did not laugh, and they went on dancing until they let her go and left. Then she went to the goats, and when she returned she told us the story."
+        },
+        {
+          "type": "text",
+          "value": "This story was recorded, among others, from the traditions given by Aikaterini Stavropoulou."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Dim. Loukopoulos",
+          "title": "Mixed Aetolian Folklore — Laografia, periodical bulletin of the Greek Folklore Society, Vol. 2",
+          "pages": "443–444"
+        }
+      ],
+      "tags": [
+        "Kydonia",
+        "Nafpaktia",
+        "Zilista",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Dancing with Nereids at Kydonia, Nafpaktia | Nereids | haunted.gr",
+        "metaDescription": "A woman from Zilista joined nereids dancing at the thistle patch — naked and silent. They sang an obscene song to steal her voice, but she held firm and was released unharmed.",
+        "canonical": "https://haunted.gr/laografia/neraides/choros-me-neraides-stin-kydonia-nafpaktias",
+        "keywords": [
+          "nereids Nafpaktia",
+          "nereids dance",
+          "Kydonia nereids",
+          "nereids voice",
+          "Greek folklore",
+          "Aetolia-Acarnania",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "298",
+      "title": "The Lyra Player's Love for a Nereid — Nereid Cave, Crete",
+      "slug": "kriti-erotas-lyrari-me-neraida-sto-neraidospilio",
+      "author": "Rodd Rennell / Michail Chourmoузis",
+      "date": "1892-01-01",
+      "excerpt": "A lyra player from Sgourokefali plays music for nereids in their cave, falls in love with one, and captures her at cockcrow. She transforms like Proteus — dog, serpent, camel, fire — but he holds fast. She becomes his silent wife and bears him a son, then speaks only to cry out when he pretends to throw the child in the oven.",
+      "mainArea": "Crete",
+      "subLocation": "Astrakoi",
+      "locationTags": [
+        "Crete",
+        "Astrakoi",
+        "Sgourokefali",
+        "Nereid Cave",
+        "Pediada"
+      ],
+      "lat": 35.15,
+      "lng": 24.9667,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/kriti-erotas-lyrari-me-neraida-sto-neraidospilio.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A curious story about the union of a Nereid with a mortal, told by Chourmoúzis in his Kritiká, is worth recounting here for the particular interest it holds, containing as it does traces of connection with the oldest Greek myths."
+        },
+        {
+          "type": "text",
+          "value": "The story was told to the author some sixty years earlier by an elderly villager, who described it as a narrative passed down to him by his grandfather, connected with a cave in the province of Pediada in Crete — a cave containing a spring of excellent water and known to all the inhabitants of the area as the Cave of the Nereids."
+        },
+        {
+          "type": "text",
+          "value": "The story goes as follows. A young man from the village of Sgourokefali, who was highly skilled at the lyra, used to accompany the Nereids into their cave and play music for them. One of them made a deep impression on him, and so he sought the help of a wise old woman of the village to learn how he might make her his wife. The old woman told him to seize her by the hair as the hour of the cockcrow approached and not to let go — whatever she might do, whatever forms she might take to frighten or escape him — until the cock crowed."
+        },
+        {
+          "type": "text",
+          "value": "And so, the next time the Nereids took him with them to the cave, he played as usual so they could dance. But as the hour of the first cockcrow drew near, he flung aside his lyra and seized the Nereid he loved by the hair. Immediately she changed shape under his hand, transforming like Proteus — first into a dog, then a serpent, then a camel, and finally into fire. At that moment the cock crowed, the other Nereids vanished, and his captive, returning to her natural form, followed him silently back to the village. Within a year she gave him a son. Throughout this time she had not uttered a single word."
+        },
+        {
+          "type": "text",
+          "value": "To break this spell of silence, the young man again turned to the wise old woman. She told him to light the oven — which, as in every Greek house, stood outside the cottage — and, taking the child, to say to his Nereid wife: \"Since you will not speak to me, I will burn the child,\" and pretend to do so. The young man followed her advice once more. The Nereid then found her voice — but only to cry out: \"Wretch, let go of my child!\" — as she snatched the infant from his hands and fled."
+        },
+        {
+          "type": "text",
+          "value": "The story says that, having become a mother, she could no longer return to her sister Nereids, and so she took up her dwelling at a nearby spring, where she was sometimes seen holding her child."
+        },
+        {
+          "type": "text",
+          "value": "This story was told again in 1866 to W. J. Stillman, then United States consul in Crete, by a shepherd — apparently in connection with the same cave. His version was identical in every detail, with one difference only: in his telling, the child was actually thrown into the oven — and only then did the Nereid find her voice."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Rodd Rennell",
+          "title": "The Customs and Lore of Modern Greece",
+          "year": "1892",
+          "pages": "178–179"
+        },
+        {
+          "type": "book",
+          "name": "Michail Chourmoúzis",
+          "title": "Kritiká — Written and published by M. Chourmoúzis Vyzantios",
+          "year": "1842",
+          "pages": "69–70"
+        }
+      ],
+      "tags": [
+        "Crete",
+        "Nereid Cave",
+        "Pediada",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Lyra Player and the Nereid — Nereid Cave, Crete | Nereids | haunted.gr",
+        "metaDescription": "A lyra player from Sgourokefali captures a Nereid at cockcrow after she transforms through dog, serpent, camel and fire. She becomes his silent wife, bears him a son, and only speaks to save the child from the oven.",
+        "canonical": "https://haunted.gr/laografia/neraides/kriti-erotas-lyrari-me-neraida-sto-neraidospilio",
+        "keywords": [
+          "nereids Crete",
+          "nereid marriage Crete",
+          "lyra player nereid",
+          "nereid cave Pediada",
+          "Proteus transformation",
+          "Greek folklore",
+          "Rodd Rennell",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "299",
+      "title": "The Stolen Child — Sfakia, Crete",
+      "slug": "to-klemmeno-paidi-sfakia-kriti",
+      "author": "Rodd Rennell",
+      "date": "1892-01-01",
+      "excerpt": "A boy from Sfakia vanished and was found on a mountaintop in a daze. He had been taken there by a man and a woman — Nereids — who prevented him from answering the searchers' calls. A quarrel between the two gave him his chance to shout.",
+      "mainArea": "Crete",
+      "subLocation": "Sfakia",
+      "locationTags": [
+        "Sfakia",
+        "Crete"
+      ],
+      "lat": 35.2,
+      "lng": 24.1372,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/to-klemmeno-paidi-sfakia-kriti.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In some accounts a masculine form of the word also appears — Neraidós, the husband of the Nereid. Such a being plays a role in a story given to me by the well-known Cretan captain Christodoulakis, about a fellow Sfakian whom he knew well — a man who was, or pretended to be, mysterious, with inexplicable connections to supernatural powers."
+        },
+        {
+          "type": "text",
+          "value": "As a boy, he had disappeared for a long time and people searched everywhere in the mountains for him. Only after much searching did his brother, calling out his name, hear a voice answering — and going to the spot, found him in a strangely dazed state."
+        },
+        {
+          "type": "text",
+          "value": "Eventually he recounted that a man and a woman had taken him and carried him to the high summit where he had been found. He had heard the voices of the people searching for him, but the woman would not let him answer — for they were Nereids."
+        },
+        {
+          "type": "text",
+          "value": "Finally the man and woman quarrelled, and while they were grappling with each other he seized the moment to call out. When his brother drew near, the Nereids vanished."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Rodd Rennell",
+          "title": "The Customs and Lore of Modern Greece",
+          "year": "1892",
+          "pages": "180"
+        }
+      ],
+      "tags": [
+        "Sfakia",
+        "Crete",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Stolen Child — Sfakia, Crete | Nereids | haunted.gr",
+        "metaDescription": "A boy from Sfakia, Crete, was taken to a mountaintop by a male and female Nereid. They silenced him as searchers called out. A quarrel between the Nereids gave him his moment to cry out and be found.",
+        "canonical": "https://haunted.gr/laografia/neraides/to-klemmeno-paidi-sfakia-kriti",
+        "keywords": [
+          "nereids Crete",
+          "Sfakia nereids",
+          "nereid abduction child",
+          "male nereid",
+          "Greek folklore",
+          "Rodd Rennell",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "300",
+      "title": "Hymettus — The Whirlwind, the Nereids, and the Golden Bed",
+      "slug": "ymittos-o-anemostrovilos-oi-neraides-kai-to-chryso-krebati",
+      "author": "Rodd Rennell",
+      "date": "1892-01-01",
+      "excerpt": "A young hunter resting near the haunted Kakorema ravine on Hymettus heard nereid music and was seized by a whirlwind, left bound on a golden bed in a treetop for eight days. He escaped on the ninth day but remained in a half-lost state until he went to church.",
+      "mainArea": "Attica",
+      "subLocation": "Hymettus",
+      "locationTags": [
+        "Hymettus",
+        "Attica",
+        "Kakorema",
+        "Athens"
+      ],
+      "lat": 37.9614,
+      "lng": 23.815,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/ymittos-o-anemostrovilos-oi-neraides.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Such a story is told in Athens about the Nereids who haunt the ravine known as Kakorema, who are said to throw stones at anyone who approaches the place. A young man who had gone out hunting sat down to rest beneath a tree there, when he heard the music of nereids and rose to find where it was coming from."
+        },
+        {
+          "type": "text",
+          "value": "Suddenly he felt a powerful wind seize him and spin him round and round, until at last, dizzy and bewildered, he found himself at the top of a tall tree, where he was thrown onto a golden bed."
+        },
+        {
+          "type": "text",
+          "value": "There he was held bound and motionless for eight days and nights. On the ninth day he was freed and, climbing down from the tree, managed to escape."
+        },
+        {
+          "type": "text",
+          "value": "Yet he remained in a half-lost state for as many days again, until at last he went to church — and thus the spell was broken."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Rodd Rennell",
+          "title": "The Customs and Lore of Modern Greece",
+          "year": "1892",
+          "pages": "184"
+        }
+      ],
+      "tags": [
+        "Hymettus",
+        "Attica",
+        "Kakorema",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Hymettus — The Whirlwind, Nereids, and the Golden Bed | Nereids | haunted.gr",
+        "metaDescription": "A hunter at Kakorema on Hymettus heard nereid music, was seized by a whirlwind, and held bound on a golden bed in a treetop for eight days. He recovered only after going to church.",
+        "canonical": "https://haunted.gr/laografia/neraides/ymittos-o-anemostrovilos-oi-neraides-kai-to-chryso-krebati",
+        "keywords": [
+          "nereids Hymettus",
+          "Kakorema nereids",
+          "nereids whirlwind Athens",
+          "golden bed nereids",
+          "Greek folklore",
+          "Rodd Rennell",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "318",
+      "title": "The Nereids of Siana — Rhodes",
+      "slug": "oi-neraides-ton-sianon-rodou",
+      "author": "Anastasios Vrontis",
+      "date": "1939-01-01",
+      "excerpt": "At the Molyes of Siana, on the cliff of Aspas, nereids throw stones and dance at midnight in August and at midday in May. One August night they seized a man from Siana and tried to make him dance — he refused with a defiant verse.",
+      "mainArea": "Rhodes",
+      "subLocation": "Siana",
+      "locationTags": [
+        "Siana",
+        "Rhodes",
+        "Dodecanese",
+        "Molyes",
+        "Aspas"
+      ],
+      "lat": 36.1532,
+      "lng": 27.7771,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-ton-sianon-rodou.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At the Molyes of Siana, on the cliff of Aspas, nereids throw stones and dance — at midnight in August and at midday in May. One August night they seized a man from Siana and tried to make him dance. He refused, saying:"
+        },
+        {
+          "type": "quote",
+          "value": "\"No devils do I see here / who call me out to dance.\""
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Anastasios Vrontis",
+          "title": "Rhodiaka",
+          "year": "1939",
+          "pages": "47"
+        }
+      ],
+      "tags": [
+        "Siana",
+        "Rhodes",
+        "Dodecanese",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of Siana — Rhodes | Nereids | haunted.gr",
+        "metaDescription": "At Molyes, Siana, Rhodes, nereids throw stones and dance at midnight in August and at midday in May. A man they tried to force into the dance refused with a defiant verse.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-ton-sianon-rodou",
+        "keywords": [
+          "nereids Rhodes",
+          "Siana nereids",
+          "nereids Dodecanese",
+          "nereids dance stones",
+          "Greek folklore",
+          "Anastasios Vrontis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "319",
+      "title": "The Washboards of the Anerades — Lardos, Rhodes",
+      "slug": "ta-kopana-ton-aneradon-rodos",
+      "author": "Anastasios Vrontis",
+      "date": "1939-01-01",
+      "excerpt": "At the watermill of Lardos, those with the second sight hear the washboards of the Anerades as they launder the clothes of the parallagmenoi — those whose faces become disfigured after being struck by the Anerades.",
+      "mainArea": "Rhodes",
+      "subLocation": "Lardos",
+      "locationTags": [
+        "Lardos",
+        "Rhodes",
+        "Dodecanese"
+      ],
+      "lat": 36.09,
+      "lng": 28.0172,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/ta-kopana-ton-aneradon-rodos.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At the watermill of Lardos, those with the second sight hear the washboards of the Anerades as they launder the clothes of the parallagmenoi — the altered ones. The parallagmenoi are those who have been struck by the Anerades and whose faces become disfigured."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Anastasios Vrontis",
+          "title": "Rhodiaka",
+          "year": "1939",
+          "pages": "47"
+        }
+      ],
+      "tags": [
+        "Lardos",
+        "Rhodes",
+        "Dodecanese",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Washboards of the Anerades — Lardos, Rhodes | Nereids | haunted.gr",
+        "metaDescription": "At the Lardos watermill, Rhodes, those with second sight hear the Anerades laundering the clothes of those they have struck — the parallagmenoi, whose faces become disfigured.",
+        "canonical": "https://haunted.gr/laografia/neraides/ta-kopana-ton-aneradon-rodos",
+        "keywords": [
+          "nereids Rhodes",
+          "Lardos nereids",
+          "Anerades Rhodes",
+          "parallagmenoi",
+          "nereids Dodecanese",
+          "Greek folklore",
+          "Anastasios Vrontis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "320",
+      "title": "The Cross as Protection against the Anerades — Rhodes",
+      "slug": "o-stauros-os-apotreptiko-gia-anerades-rodos",
+      "author": "Anastasios Vrontis",
+      "date": "1939-01-01",
+      "excerpt": "A new mother crossing a field at night saw Anerades dancing by a river. They approached her but could not touch her — she was carrying her baby's cloth bearing a cross. The Anerades fled, crying out 'It burns! It burns!'",
+      "mainArea": "Rhodes",
+      "locationTags": [
+        "Rhodes",
+        "Dodecanese"
+      ],
+      "lat": 36.435,
+      "lng": 28.2217,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/o-stauros-os-apotreptiko-gia-anerades-rodos.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A new mother set out in the night to go to her fold. The moonlight was shining as if it were broad day. Near a river she saw the Anerades dancing and, in her fright, she wanted to run away. When the Anerades saw her they came close, but they could not touch her — for she was carrying her baby's cloth, which had a cross on it. The Anerades fled, all crying out together: \"It burns! It burns!\""
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Anastasios Vrontis",
+          "title": "Rhodiaka",
+          "year": "1939",
+          "pages": "48"
+        }
+      ],
+      "tags": [
+        "Rhodes",
+        "Dodecanese",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Cross as Protection against the Anerades — Rhodes | Nereids | haunted.gr",
+        "metaDescription": "A new mother in Rhodes encountered dancing Anerades at night. They could not touch her because she carried her baby's cloth with a cross — they fled crying 'It burns!' Rhodiaka, 1939.",
+        "canonical": "https://haunted.gr/laografia/neraides/o-stauros-os-apotreptiko-gia-anerades-rodos",
+        "keywords": [
+          "nereids Rhodes",
+          "cross protection nereids",
+          "Anerades Rhodes",
+          "nereids apotropaic",
+          "nereids Dodecanese",
+          "Greek folklore",
+          "Anastasios Vrontis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "326",
+      "title": "The Gialloudhes of Rhodes",
+      "slug": "oi-gialloudes-tis-rodou-aello-aellopous",
+      "author": "Anastasios Vrontis",
+      "date": "1939-01-01",
+      "excerpt": "A fisherman of Lindos hid in his boat and watched three Gialloudhes sail it to Alexandria and back in seconds. He cut dates from a palm tree there as proof. When he returned and showed them, the disbelieving islanders believed him at once.",
+      "mainArea": "Rhodes",
+      "subLocation": "Mikros Gialos",
+      "locationTags": [
+        "Mikros Gialos",
+        "Rhodes",
+        "Dodecanese"
+      ],
+      "lat": 36.088,
+      "lng": 28.0878,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-gialloudes-tis-rodou-aello-aellopous.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A fisherman from Lindos had his boat moored at Mikros Gialos, near the church of the Holy Apostles. He kept finding his boat in a different spot, and one evening he hid in the gunwale to see who was interfering with it."
+        },
+        {
+          "type": "text",
+          "value": "At midnight, he saw three women board the boat, raise the sails, and set off. They gave the nautical commands and within seconds had arrived in Alexandria, Egypt."
+        },
+        {
+          "type": "text",
+          "value": "As soon as they arrived, they disembarked and moved a little way off. The fisherman came down too and, after wandering a short while, cut some dates from a date palm as proof that he had been there, then returned to the boat."
+        },
+        {
+          "type": "text",
+          "value": "After a short while the Gialloudhes returned, and once again, within seconds of the nautical commands — 'parp-a-founda' — they were back in the harbour of the Holy Apostles."
+        },
+        {
+          "type": "text",
+          "value": "The people of Lindos, when they heard the fisherman's story, did not believe him — but when he showed them the freshly cut dates, every one of them believed."
+        },
+        {
+          "type": "text",
+          "value": "Author's note: There is also a related curse for the Gialloudhes: \"A bad year on you, frizzy-haired Giallou!\" and the phrase \"they gialloufagane me\" (the Gialloudhes devoured me)."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Anastasios Vrontis",
+          "title": "Rhodiaka",
+          "year": "1939",
+          "pages": "49"
+        }
+      ],
+      "tags": [
+        "Mikros Gialos",
+        "Rhodes",
+        "Dodecanese",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Gialloudhes of Rhodes — A Boat to Alexandria in Seconds | Nereids | haunted.gr",
+        "metaDescription": "A fisherman of Lindos hid on his boat and watched three Gialloudhes sail it to Alexandria and back in seconds. His freshly cut dates proved the impossible journey to disbelieving islanders.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-gialloudes-tis-rodou-aello-aellopous",
+        "keywords": [
+          "nereids Rhodes",
+          "Gialloudhes Rhodes",
+          "nereids Dodecanese",
+          "nereids boat Alexandria",
+          "Greek folklore",
+          "Anastasios Vrontis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "327",
+      "title": "The Nereids of the Waters — Dasyllio, Grevena",
+      "slug": "oi-neraides-ton-ydaton-dasyllio-grevenon",
+      "author": "Dim. Loukopoulos",
+      "date": "",
+      "excerpt": "Folk belief from Dasyllio, Grevena: nereids, as demons of springs and waters, possess combs which they leave at the springs — and people often find them.",
+      "mainArea": "Grevena",
+      "subLocation": "Dasyllio",
+      "locationTags": [
+        "Dasyllio",
+        "Grevena",
+        "Macedonia"
+      ],
+      "lat": 40.1645,
+      "lng": 21.1818,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-ton-ydaton-dasyllio-grevenon.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Nereids — demons of springs and waters — generally possess combs, which they leave at the springs, and people often find them."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Dim. Loukopoulos",
+          "title": "Traditions concerning Demons of Mageri, Grevena — Laografia, periodical bulletin of the Greek Folklore Society, Vol. 6",
+          "pages": "113"
+        },
+        {
+          "type": "book",
+          "title": "Miscellaneous Folklore of Macedonia"
+        }
+      ],
+      "tags": [
+        "Dasyllio",
+        "Grevena",
+        "Macedonia",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of the Waters — Dasyllio, Grevena | Nereids | haunted.gr",
+        "metaDescription": "Folk belief from Dasyllio, Grevena: nereids, as demons of springs and waters, leave their combs at the springs — and people regularly find them there.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-ton-ydaton-dasyllio-grevenon",
+        "keywords": [
+          "nereids Grevena",
+          "nereids springs",
+          "nereid combs",
+          "nereids water demons",
+          "Greek folklore",
+          "Macedonia",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "331",
+      "title": "The Healing Water of the Nereids — Palaiokastro, Kozani",
+      "slug": "to-iamatiko-nero-ton-neraidon-tou-palaiokastrou",
+      "author": "Dim. Loukopoulos",
+      "date": "1938-01-01",
+      "excerpt": "In a cave above Palaiokastro, near Siatista, Nereids (called Kalotyhes) drip healing water from their breasts. Reaching them requires crawling through 40 metres of passage. Those who see them are lost; those who only hear them emerge with healing water.",
+      "mainArea": "Kozani",
+      "subLocation": "Palaiokastro",
+      "locationTags": [
+        "Palaiokastro",
+        "Kozani",
+        "Ventzia",
+        "Siatista",
+        "Macedonia"
+      ],
+      "lat": 40.2035,
+      "lng": 21.5996,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/to-iamatiko-nero-ton-neraidon-tou-palaiokastrou.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "I heard and recorded the following tradition at Palaiokastro of the Ventzia mountains, near Siatista."
+        },
+        {
+          "type": "text",
+          "value": "When someone falls ill, they go to the Nereid and are healed. This nereid lives above Palaiokastro in a large cave, which is 40 to 50 cubits deep, and to get inside you must crawl on hands and knees — you cannot go upright."
+        },
+        {
+          "type": "text",
+          "value": "Once you pass the 40-metre point, you can stand upright, and there you find a place like a room, where water drips from the ceiling — tap, tap, tap. Those who see Kalotyhes (a name for nereids) inside mostly cannot get back out and are lost. But those who only hear voices inside generally see nothing — and many of them find a remedy: they take the cave water, anoint themselves with it, and wherever it pains them, they are healed."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Dim. Loukopoulos",
+          "title": "Traditions concerning Demons of Mageri, Grevena — Laografia, periodical bulletin of the Greek Folklore Society, Vol. 6",
+          "year": "1938",
+          "pages": "114"
+        },
+        {
+          "type": "book",
+          "title": "Miscellaneous Folklore of Macedonia"
+        }
+      ],
+      "tags": [
+        "Palaiokastro",
+        "Kozani",
+        "Macedonia",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Healing Water of the Nereids — Palaiokastro, Kozani | Nereids | haunted.gr",
+        "metaDescription": "In a cave above Palaiokastro, Kozani, nereids (Kalotyhes) drip healing water. You must crawl 40 metres to reach the room-like interior. Those who see them are lost; those who hear them find healing.",
+        "canonical": "https://haunted.gr/laografia/neraides/to-iamatiko-nero-ton-neraidon-tou-palaiokastrou",
+        "keywords": [
+          "nereids Kozani",
+          "healing water nereids",
+          "Palaiokastro cave",
+          "Kalotyhes",
+          "nereids Macedonia",
+          "Greek folklore",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "335",
+      "title": "Nereids Damaging Fabrics — Manthourea, Arcadia",
+      "slug": "i-katastrofi-yphasmaton-apo-neraides",
+      "author": "Ioannis P. Stathopoulos",
+      "date": "1938-01-01",
+      "excerpt": "Folk belief from Manthourea, Arcadia: the tears and holes that appear in fabrics during the first days of August are caused by the Nereids.",
+      "mainArea": "Arcadia",
+      "subLocation": "Manthourea",
+      "locationTags": [
+        "Manthourea",
+        "Arcadia",
+        "Peloponnese"
+      ],
+      "lat": 37.4114,
+      "lng": 22.3982,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/i-katastrofi-yphasmaton-apo-neraides.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In Manthourea, Arcadia, it is believed that the damage to fabrics — the tears and holes — that occurs during the first days of August is caused by the Nereids."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Ioannis P. Stathopoulos",
+          "title": "Laografia, periodical bulletin of the Greek Folklore Society, Vol. 6",
+          "year": "1938",
+          "pages": "252"
+        }
+      ],
+      "tags": [
+        "Manthourea",
+        "Arcadia",
+        "Peloponnese",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Nereids Damaging Fabrics — Manthourea, Arcadia | Nereids | haunted.gr",
+        "metaDescription": "Folk belief from Manthourea, Arcadia: the tears and holes that appear in fabrics during the first days of August are caused by the Nereids.",
+        "canonical": "https://haunted.gr/laografia/neraides/i-katastrofi-yphasmaton-apo-neraides",
+        "keywords": [
+          "nereids Arcadia",
+          "nereids fabrics August",
+          "Manthourea nereids",
+          "Greek folklore",
+          "Peloponnese",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "336",
+      "title": "The Nereids of Katafygio — Kozani",
+      "slug": "oi-neraides-tou-katafygioy-kozanis",
+      "author": "Chr. V. Fragkoulis",
+      "date": "1938-01-01",
+      "excerpt": "At Katafygio, Kozani, nereids in golden clothes are witnessed by two elders. On the Feast of the Saviour (6 August) they go to the shore to pull out their drowned brother Sotiris — and return in furious anger when he slips from their grasp.",
+      "mainArea": "Kozani",
+      "subLocation": "Katafygio",
+      "locationTags": [
+        "Katafygio",
+        "Kozani",
+        "Macedonia"
+      ],
+      "lat": 40.2601,
+      "lng": 22.1421,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-tou-katafygioy-kozanis.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At Katafygio there are Nereids. Old Rafaelis, when he was a child, saw them wearing all-golden garments. Today old Avramis, who lives there in his hut, also sees them. Kostas Bouchagias is nereid-taken — he roams the whole village at night, fearless."
+        },
+        {
+          "type": "text",
+          "value": "Do you know why no one should swim on the Feast of the Saviour, the sixth of August? Because the Nereids once had a brother called Sotiris who drowned. On the day of the Saviour they go to the shore to bring him out. That is why whoever they see there, they offer whatever good thing he might ask for. They go to the shore and pull their brother up by the hair. Just when they are on the point of bringing him out, he slips through their hands and sinks back into the water."
+        },
+        {
+          "type": "text",
+          "value": "On the way back from the shore they are very angry, and whoever they meet on the road has very bad luck. Some who encounter them have their legs twisted; others have their mouths twisted and can move them only to one side; others are seized by the throat; and others suffer still other afflictions."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Chr. V. Fragkoulis",
+          "title": "Laografia, periodical bulletin of the Greek Folklore Society, Vol. 6",
+          "year": "1938",
+          "pages": "250"
+        }
+      ],
+      "tags": [
+        "Katafygio",
+        "Kozani",
+        "Macedonia",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of Katafygio — Feast of the Saviour and the Drowned Brother | Nereids | haunted.gr",
+        "metaDescription": "At Katafygio, Kozani, nereids in golden clothes are seen by elders. On 6 August they go to the shore to rescue their drowned brother Sotiris — and return furious when he slips away again.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-katafygioy-kozanis",
+        "keywords": [
+          "nereids Kozani",
+          "nereids Katafygio",
+          "Feast of the Saviour nereids",
+          "nereids Macedonia",
+          "nereid-taken",
+          "Greek folklore",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "342",
+      "title": "The Nereids in the Mountains — Tsepelovo, Ioannina",
+      "slug": "oi-neraides-sta-vouna-ioannina",
+      "author": "G. K. Kavvadias",
+      "date": "1958-01-01",
+      "excerpt": "Folk warning from Tsepelovo: in the mountain wilderness a voice may call your name — it is the nereids. You must not turn towards it or answer, for if you do, the nereids will take your power of speech.",
+      "mainArea": "Ioannina",
+      "subLocation": "Tsepelovo",
+      "locationTags": [
+        "Tsepelovo",
+        "Ioannina",
+        "Epirus"
+      ],
+      "lat": 39.9044,
+      "lng": 20.8196,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-sta-vouna-ioannina.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "It is not unusual, as you travel through the mountains, to suddenly hear — in the midst of the wilderness — a voice calling you by name. It is the nereids calling you. You must not turn your head towards the voice, nor answer. If you do, the nereids will take your power of speech."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "G. K. Kavvadias",
+          "title": "Metaphysical Beliefs of the Sarakatsani — Epirotic Estia, issue 69",
+          "year": "1958",
+          "pages": "35"
+        }
+      ],
+      "tags": [
+        "Tsepelovo",
+        "Ioannina",
+        "Epirus",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids in the Mountains — Tsepelovo, Ioannina | Nereids | haunted.gr",
+        "metaDescription": "In the mountains of Tsepelovo, a voice in the wilderness may call your name — it is the nereids. You must not turn or answer, or they will take your power of speech.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-sta-vouna-ioannina",
+        "keywords": [
+          "nereids Ioannina",
+          "nereids mountains",
+          "Tsepelovo nereids",
+          "nereids voice",
+          "nereids speech",
+          "Greek folklore",
+          "Epirus",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "353",
+      "title": "The Anerades of Palaiokastro — Nisyros",
+      "slug": "anerades-tou-paliokastrou-nisyros",
+      "author": "Kostas O. Sakellaridis",
+      "date": "1982-01-01",
+      "excerpt": "According to the people of Nisyros, the anerades were the souls of sinful women condemned to dance without rest for eternity. Their presence was placed at Palaiokastro, where the ancient dead were buried outside the walls.",
+      "mainArea": "Nisyros",
+      "subLocation": "Palaiokastro",
+      "locationTags": [
+        "Palaiokastro — Nisyros"
+      ],
+      "lat": 36.6063,
+      "lng": 27.131,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/anerades-tou-paliokastrou-nisyros.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Account of Mich. Tsatsaronis. The people of Nisyros believed the anerades were sinful women. The same name is given to women of doubtful morals: \"Oh! Anerades of Palaiokastro.\""
+        },
+        {
+          "type": "text",
+          "value": "They also believed that in the afterlife souls worked during the day and slept and rested at night."
+        },
+        {
+          "type": "text",
+          "value": "The souls of virtuous women worked all day and slept at night. But sinful souls found no rest day or night. At night, so as not to sleep, they danced without cease. That was their punishment. These were the anerades, and their presence was placed at Palaiokastro because — as people believed — souls wander near their graves."
+        },
+        {
+          "type": "text",
+          "value": "Tradition holds that in ancient times the inhabitants of Nisyros buried their dead near the walls, outside Palaiokastro. People also said that anerades came out at night at the neighbouring place called Parapyrges."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Kostas O. Sakellaridis",
+          "title": "Nisyriaka, Vol. 8",
+          "year": "1982",
+          "pages": "281"
+        }
+      ],
+      "tags": [
+        "Palaiokastro — Nisyros",
+        "Nisyros",
+        "Dodecanese",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Anerades of Palaiokastro — Nisyros | Nereids | haunted.gr",
+        "metaDescription": "On Nisyros, the anerades were the souls of sinful women condemned to dance without cease for eternity. Their place was Palaiokastro, where the ancient dead lay buried outside the walls.",
+        "canonical": "https://haunted.gr/laografia/neraides/anerades-tou-paliokastrou-nisyros",
+        "keywords": [
+          "nereids Nisyros",
+          "anerades Palaiokastro",
+          "sinful souls nereids",
+          "nereids Dodecanese",
+          "Greek folklore",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "354",
+      "title": "The Birth of the Anerades' Child — Nisyros",
+      "slug": "i-gennisi-tis-aneradas-nisyros",
+      "author": "Kostas O. Sakellaridis",
+      "date": "1982-01-01",
+      "excerpt": "An anerades comes down from Palaiokastro to fetch a midwife for their elder's labour. The midwife hides a candle in her belt, delivers a girl but disguises her as a boy to survive. When she unwraps her payment at home, instead of gold coins she finds onion skins.",
+      "mainArea": "Nisyros",
+      "locationTags": [
+        "Nisyros"
+      ],
+      "lat": 36.5865,
+      "lng": 27.1607,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/i-gennisi-tis-aneradas-nisyros.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The anerades were at Palaiokastro. One evening the eldest anerades went into labour. Another anerades came down to the village to find a midwife and bring her up to Palaiokastro."
+        },
+        {
+          "type": "text",
+          "value": "She reached Makrinia and asked: \"Do you know if there is a midwife in the neighbourhood?\" \"Old Filaktoussaina delivers babies.\" So the anerades went, knocked on her door, and said: \"Come and deliver a woman.\" Naturally she did not say it was an anerades."
+        },
+        {
+          "type": "text",
+          "value": "The woman got up and dressed. The anerades led her not to the village but up towards Palaiokastro, saying: \"If you deliver a boy, we will fill you a sack of gold coins. But if it is a girl, we will kill you.\""
+        },
+        {
+          "type": "text",
+          "value": "The woman replied: \"Wait — let me go in and get my headscarf.\" She went to her icons, took a small candle, and tucked it into her belt. They set off, the anerades walking ahead. Slowly, the elder anerades gave birth — to a girl. But the midwife pretended it was a boy: with the candle she shaped the appearance of a male child, wrapped it up, gave it to the anerades, and departed."
+        },
+        {
+          "type": "text",
+          "value": "They gave her a sack full of gold coins. She left, filled with joy but also dread. She returned home, locked the doors. She went to unwrap the coins — and found, instead of gold, onion skins."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Kostas O. Sakellaridis",
+          "title": "Nisyriaka, Vol. 8",
+          "year": "1982",
+          "pages": "281"
+        }
+      ],
+      "tags": [
+        "Nisyros",
+        "Dodecanese",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Birth of the Anerades' Child — Nisyros | Nereids | haunted.gr",
+        "metaDescription": "On Nisyros, an anerades fetches a midwife for their elder's labour. The midwife disguises the newborn girl as a boy to survive. Her sack of gold coins turns out to be onion skins.",
+        "canonical": "https://haunted.gr/laografia/neraides/i-gennisi-tis-aneradas-nisyros",
+        "keywords": [
+          "nereids Nisyros",
+          "anerades birth",
+          "nereid midwife",
+          "nereids Dodecanese",
+          "Greek folklore",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "356",
+      "title": "The Cave of Bourinos — Kozani–Grevena",
+      "slug": "i-spilia-tou-mpourinou-kozani-greveno",
+      "author": "Nikolaos Politis",
+      "date": "1904-01-01",
+      "excerpt": "Variant tradition from Kozani–Grevena: in a cave on Mount Bourinos, water drips from the breasts of Nereids and heals every illness. Collection requires silence, a green candle, a green vessel, and a piece of clothing left as offering — and no looking back.",
+      "mainArea": "Kozani",
+      "subLocation": "Greveno",
+      "locationTags": [
+        "Kozani–Grevena"
+      ],
+      "lat": 40.179,
+      "lng": 21.6783,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/i-spilia-tou-mpourinou-kozani-greveno.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In a cave on Mount Bourinos, water drips — it comes from the breasts of the Nereids who dwell there, and it heals every illness. Whoever wishes to take some of that water and give it to a sick person to drink must go there in silence and return in silence; for this reason the water is called the mute water. He must also carry a green candle to light his way in the cave, and the vessel he uses must likewise be green."
+        },
+        {
+          "type": "text",
+          "value": "When the jar is full, he must leave behind a piece of his clothing and depart — without being frightened by the voices and commotion he will hear, and without looking back. For otherwise he will lose his mind and the water will lose its power."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Nikolaos Politis",
+          "title": "Traditions",
+          "year": "1904"
+        }
+      ],
+      "tags": [
+        "Kozani–Grevena",
+        "Kozani",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Cave of Bourinos — Kozani–Grevena | Nereids | haunted.gr",
+        "metaDescription": "In a cave on Mount Bourinos, Kozani–Grevena, healing water drips from the breasts of Nereids. Collection requires silence, green candle, green vessel, and a piece of clothing left behind.",
+        "canonical": "https://haunted.gr/laografia/neraides/i-spilia-tou-mpourinou-kozani-greveno",
+        "keywords": [
+          "nereids Kozani",
+          "Bourinos cave nereids",
+          "healing water nereids",
+          "nereids Macedonia",
+          "Greek folklore",
+          "Nikolaos Politis",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "376",
+      "title": "The Nereids of Thourios — Evros",
+      "slug": "oi-neraides-tou-thouriou-evrou-thourios",
+      "author": "Dimitrios Ktenidis & Georgios Kotinis",
+      "date": "1969-01-01",
+      "excerpt": "Folk memory from Thourios, Evros: at midnight at a certain spot outside the village the nereids would take up their dance, and whoever passed by at that hour was drawn in and never allowed to return home.",
+      "mainArea": "Evros",
+      "subLocation": "Thourios",
+      "locationTags": [
+        "Thourios — Evros"
+      ],
+      "lat": 41.4343,
+      "lng": 26.5602,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-tou-thouriou-evrou-thourios.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "In the old days it was believed that at a certain spot outside the village, at midnight, the nereids would begin their dance — and whoever passed by at that hour would be drawn into the dance and never allowed to return home."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Dimitrios Ktenidis & Georgios Kotinis",
+          "title": "Thrakika, Vol. 43 — Folklore of Thourios, Didymoteicho",
+          "year": "1969",
+          "pages": "135"
+        }
+      ],
+      "tags": [
+        "Thourios — Evros",
+        "Evros",
+        "Thrace",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of Thourios — Evros, Thrace | Nereids | haunted.gr",
+        "metaDescription": "Folk memory from Thourios, Evros: at a certain spot outside the village the nereids danced at midnight, drawing in any passer-by and never letting them return home.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-thouriou-evrou-thourios",
+        "keywords": [
+          "nereids Evros",
+          "nereids Thrace",
+          "Thourios nereids",
+          "nereids midnight dance",
+          "Greek folklore",
+          "haunted.gr"
+        ]
+      }
+    },
+    {
+      "id": "379",
+      "title": "The Nereids of Didymoteicho — Evros",
+      "slug": "oi-neraides-tou-didymoteichou-evros-didymoteicho",
+      "author": "A. Tsakiri",
+      "date": "1969-01-01",
+      "excerpt": "A young man of Didymoteicho stole a nereid's headscarf from the riverbank — without it she could not enter the water. He married her and they had children. When he finally told her where it was hidden, she took it, left husband and children, and returned to the river.",
+      "mainArea": "Didymoteicho",
+      "locationTags": [
+        "Didymoteicho — Evros"
+      ],
+      "lat": 41.3496,
+      "lng": 26.4953,
+      "image": {
+        "alt": "",
+        "src": "/images/laografia/oi-neraides-tou-didymoteichou.webp"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The nereids were supernatural beings who lived on the banks of rivers, sang beautiful songs, and danced enchanting dances. They were exceedingly beautiful."
+        },
+        {
+          "type": "text",
+          "value": "A young man saw them and followed them day and night. He managed to steal one nereid's headscarf. Nereids without their headscarves cannot enter the water."
+        },
+        {
+          "type": "text",
+          "value": "This nereid followed the young man and begged him to return her headscarf. But he would not — he hid it in the roof tiles of an old house. The nereid was forced to marry the young man."
+        },
+        {
+          "type": "text",
+          "value": "All the while she kept asking him about her headscarf. When they had children, the young man felt pity for his nereid wife and thought that now, having children, she would not leave — so he revealed where the headscarf was hidden."
+        },
+        {
+          "type": "text",
+          "value": "When her husband was away, she went and took the headscarf, put it on, left her husband and children, went to the river, and became a nereid once more."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "A. Tsakiri",
+          "title": "Thrakika, Vol. 43 — Folklore of Didymoteicho",
+          "year": "1969",
+          "pages": "154"
+        }
+      ],
+      "tags": [
+        "Didymoteicho — Evros",
+        "Evros",
+        "Thrace",
+        "Nereids",
+        "Greek folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Nereids of Didymoteicho — Stolen Headscarf | Nereids | haunted.gr",
+        "metaDescription": "A man of Didymoteicho stole a nereid's headscarf so she could not enter the river. He married her and had children — but when he told her where it was hidden, she left forever.",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-didymoteichou-evros-didymoteicho",
+        "keywords": [
+          "nereids Didymoteicho",
+          "nereids Evros Thrace",
+          "nereid headscarf",
+          "nereid marriage",
+          "Greek folklore",
+          "haunted.gr"
+        ]
+      }
+    }
+  ],
+  "seo": {}
+}

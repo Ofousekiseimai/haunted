@@ -1485,12 +1485,6 @@
         "src": "/images/efimerides/thymata-anthropothysias-syteia-1995.webp",
         "alt": "Archival image of the 1995 Adesmeutos Typos newspaper article, p. 24"
       },
-      "location": {
-        "mainArea": "Crete",
-        "subLocation": "Siteia - Faneromeni, Platani-Skopi",
-        "lat": 35.2065,
-        "lng": 26.1033
-      },
       "content": [
         {
           "type": "text",
@@ -1554,7 +1548,11 @@
           "1995",
           "Faneromeni Siteia"
         ]
-      }
+      },
+      "mainArea": "Crete",
+      "subLocation": "Siteia - Faneromeni, Platani-Skopi",
+      "lat": 35.2065,
+      "lng": 26.1033
     },
     {
       "id": 511,
@@ -1566,12 +1564,6 @@
       "image": {
         "src": "/images/efimerides/syzygoktonia-vastardis-magisses-1924.webp",
         "alt": "Archival image of the 1924 Ethnos newspaper article"
-      },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Ampelokipoi, Athens",
-        "lat": 37.9813,
-        "lng": 23.7436
       },
       "content": [
         {
@@ -1657,7 +1649,11 @@
           "Athens paranormal",
           "sorcery crimes"
         ]
-      }
+      },
+      "mainArea": "Attica",
+      "subLocation": "Ampelokipoi, Athens",
+      "lat": 37.9813,
+      "lng": 23.7436
     }
   ],
   "seo": {

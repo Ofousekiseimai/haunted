@@ -334,10 +334,10 @@ export default async function LaografiaArticlePage({ params }: PageProps) {
         {article.excerpt && (
           <p className="text-lg text-n-2">{article.excerpt}</p>
         )}
-        {imageUrl && (
+        {article.image?.src && (
           <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-n-7 bg-n-8">
             <Image
-              src={imageUrl}
+              src={article.image.src}
               alt={article.image?.alt ?? article.title}
               fill
               className="object-cover"

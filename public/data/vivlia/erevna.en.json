@@ -1,0 +1,210 @@
+{
+  "category": "Books",
+  "subcategory": "Research",
+  "subcategorySlug": "erevna",
+  "slug": "/vivlia/erevna",
+  "seo": {
+    "metaTitle": "Research | Books | haunted.gr",
+    "metaDescription": "Documented investigations into paranormal phenomena, unsolved cases, and contemporary folklore from Greece.",
+    "keywords": [
+      "paranormal research",
+      "paranormal books",
+      "haunted books"
+    ],
+    "canonical": "https://haunted.gr/vivlia/erevna"
+  },
+  "articles": [
+    {
+      "id": "B201",
+      "title": "Dark Trails Through the Archives",
+      "slug": "skoteines-diadromes-arxeion",
+      "author": "Maria Themeli",
+      "date": "2020",
+      "excerpt": "A book that gathers police archives, oral testimonies, and rare photographs from unexplained incidents.",
+      "image": {
+        "src": "/images/katigories/giteies.png",
+        "alt": "Old archive with notes and photographs"
+      },
+      "purchaseUrl": "https://example.com/books/skoteines-diadromes-arxeion",
+      "content": [
+        {
+          "type": "text",
+          "value": "The reader follows investigators who open cardboard boxes filled with evidence on phenomena that were never fully explained."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Dark Trails Through the Archives | Maria Themeli | Research Books | haunted.gr",
+        "metaDescription": "Police archives, oral testimonies, and rare photographs from unexplained incidents — collected by Maria Themeli.",
+        "canonical": "https://haunted.gr/vivlia/erevna/skoteines-diadromes-arxeion",
+        "keywords": [
+          "unexplained incidents Greece",
+          "police archives paranormal",
+          "Maria Themeli book",
+          "dark cases Greece",
+          "paranormal archives book",
+          "unexplained archives research"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Dark Trails Through the Archives",
+          "author": {
+            "@type": "Person",
+            "name": "Maria Themeli"
+          },
+          "description": "Police archives, oral testimonies, and rare photographs from unexplained incidents.",
+          "inLanguage": "en",
+          "datePublished": "2020",
+          "image": "https://haunted.gr/images/katigories/giteies.png",
+          "genre": "Research",
+          "keywords": [
+            "unexplained incidents Greece",
+            "police archives paranormal",
+            "Maria Themeli book",
+            "dark cases Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/erevna/skoteines-diadromes-arxeion"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "B202",
+      "title": "The Case of the Whispers",
+      "slug": "ypothesi-ton-psithyron",
+      "author": "Kostas Lamprinos",
+      "date": "2021",
+      "excerpt": "An intersection of police investigation and psychical experiment brings an Athenian urban legend to light.",
+      "image": {
+        "src": "/images/katigories/daimones.png",
+        "alt": "Dark corridor in an old building"
+      },
+      "purchaseUrl": "https://example.com/books/ypothesi-ton-psithyron",
+      "content": [
+        {
+          "type": "text",
+          "value": "A factual chronicle combining interviews, diagrams, and analytical findings about an inexplicable sound."
+        }
+      ],
+      "seo": {
+        "metaTitle": "The Case of the Whispers | Kostas Lamprinos | Research Books | haunted.gr",
+        "metaDescription": "A police investigation and psychical experiment bring an Athenian urban legend to light. A book by Kostas Lamprinos.",
+        "canonical": "https://haunted.gr/vivlia/erevna/ypothesi-ton-psithyron",
+        "keywords": [
+          "urban legend Athens",
+          "psychical experiment Athens",
+          "Kostas Lamprinos book",
+          "paranormal police investigation",
+          "urban legends Greece",
+          "paranormal novel Athens"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "The Case of the Whispers",
+          "author": {
+            "@type": "Person",
+            "name": "Kostas Lamprinos"
+          },
+          "description": "A police investigation and psychical experiment bring an Athenian urban legend to light.",
+          "inLanguage": "en",
+          "datePublished": "2021",
+          "image": "https://haunted.gr/images/katigories/daimones.png",
+          "genre": "Research",
+          "keywords": [
+            "urban legend Athens",
+            "psychical experiment Athens",
+            "Kostas Lamprinos book",
+            "paranormal police investigation"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/erevna/ypothesi-ton-psithyron"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "B203",
+      "title": "Field Research: Thessaly",
+      "slug": "epitopia-erevna-thessalia",
+      "author": "Lida Samara",
+      "date": "2023",
+      "excerpt": "A collection of field recordings from investigations in villages of Thessaly, with photographs and maps.",
+      "image": {
+        "src": "/images/paranormal/thumbs/placeholder.svg",
+        "alt": "Maps and notes on a research table"
+      },
+      "purchaseUrl": "https://example.com/books/epitopia-erevna-thessalia",
+      "content": [
+        {
+          "type": "text",
+          "value": "Eerie apparitions, strange sounds, and testimonies that together form a mosaic of contemporary folklore."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Field Research: Thessaly | Lida Samara | Research Books | haunted.gr",
+        "metaDescription": "A collection of field recordings from investigations in Thessalian villages, with photographs and maps. By Lida Samara.",
+        "canonical": "https://haunted.gr/vivlia/erevna/epitopia-erevna-thessalia",
+        "keywords": [
+          "field research Thessaly",
+          "folklore Thessaly villages",
+          "Lida Samara book",
+          "folklore Thessaly Greece",
+          "paranormal villages Thessaly",
+          "folklore research Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Field Research: Thessaly",
+          "author": {
+            "@type": "Person",
+            "name": "Lida Samara"
+          },
+          "description": "A collection of field recordings from investigations in Thessalian villages, with photographs and maps.",
+          "inLanguage": "en",
+          "datePublished": "2023",
+          "image": "https://haunted.gr/images/paranormal/thumbs/placeholder.svg",
+          "genre": "Research",
+          "keywords": [
+            "field research Thessaly",
+            "folklore Thessaly villages",
+            "Lida Samara book",
+            "folklore Thessaly Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/erevna/epitopia-erevna-thessalia"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

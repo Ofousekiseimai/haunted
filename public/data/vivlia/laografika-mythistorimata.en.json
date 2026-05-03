@@ -1,0 +1,211 @@
+{
+  "category": "Books",
+  "subcategory": "Folklore Novels",
+  "subcategorySlug": "laografika-mythistorimata",
+  "slug": "/vivlia/laografika-mythistorimata",
+  "seo": {
+    "metaTitle": "Folklore Novels | Books | haunted.gr",
+    "metaDescription": "Selected novels inspired by Greek legends, myths, and folk traditions.",
+    "keywords": [
+      "folklore books",
+      "novels",
+      "Greek tradition",
+      "haunted books"
+    ],
+    "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata"
+  },
+  "articles": [
+    {
+      "id": "B101",
+      "title": "The Village of Shadows",
+      "slug": "to-xorio-ton-skion",
+      "author": "Eirini Dafni",
+      "date": "2023",
+      "excerpt": "An isolated village on the slopes of the Pindus mountains harbours secrets that only awaken when the moon is full.",
+      "image": {
+        "src": "/images/katigories/aerika.jpg",
+        "alt": "Mist over a mountain village"
+      },
+      "purchaseUrl": "https://example.com/books/to-xorio-ton-skion",
+      "content": [
+        {
+          "type": "text",
+          "value": "A novel inspired by legends of Epirus, where the aerika and the stoicheia intertwine with the lives of the villagers."
+        }
+      ],
+      "seo": {
+        "metaTitle": "The Village of Shadows | Eirini Dafni | Folklore Novels | haunted.gr",
+        "metaDescription": "An isolated village on the slopes of the Pindus mountains hides secrets that only awaken when the moon is full. A novel by Eirini Dafni.",
+        "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xorio-ton-skion",
+        "keywords": [
+          "Pindus village secrets",
+          "folklore novel Greece",
+          "Eirini Dafni book",
+          "ghosts village Greece",
+          "paranormal novel Greece",
+          "shadows village Pindus"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "The Village of Shadows",
+          "author": {
+            "@type": "Person",
+            "name": "Eirini Dafni"
+          },
+          "description": "An isolated village on the slopes of the Pindus mountains hides secrets that only awaken when the moon is full.",
+          "inLanguage": "en",
+          "datePublished": "2023",
+          "image": "https://haunted.gr/images/katigories/aerika.jpg",
+          "genre": "Folklore Novel",
+          "keywords": [
+            "Pindus village secrets",
+            "folklore novel Greece",
+            "Eirini Dafni book",
+            "ghosts village Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xorio-ton-skion"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "B102",
+      "title": "Nereids of the Aegean",
+      "slug": "neraides-tou-aigaiou",
+      "author": "Giorgos Maniatis",
+      "date": "2022",
+      "excerpt": "Legends of nereids, sea spirits, and ancient votive offerings come to life on a Cycladic island.",
+      "image": {
+        "src": "/images/katigories/drakospita.png",
+        "alt": "Seaside horizon with ancient ruins"
+      },
+      "purchaseUrl": "https://example.com/books/neraides-tou-aigaiou",
+      "content": [
+        {
+          "type": "text",
+          "value": "A journey into the myths of the Aegean becomes an occasion to revisit old promises and forgotten spells."
+        }
+      ],
+      "seo": {
+        "metaTitle": "Nereids of the Aegean | Giorgos Maniatis | Folklore Novels | haunted.gr",
+        "metaDescription": "Legends of nereids, sea spirits, and ancient votive offerings on a Cycladic island. A novel by Giorgos Maniatis.",
+        "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata/neraides-tou-aigaiou",
+        "keywords": [
+          "nereids Aegean Cyclades",
+          "folklore novel Cyclades",
+          "Giorgos Maniatis book",
+          "sea spirits Greece",
+          "nereids Greek folklore",
+          "sea spirits Aegean islands"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Nereids of the Aegean",
+          "author": {
+            "@type": "Person",
+            "name": "Giorgos Maniatis"
+          },
+          "description": "Legends of nereids, sea spirits, and ancient votive offerings come to life on a Cycladic island.",
+          "inLanguage": "en",
+          "datePublished": "2022",
+          "image": "https://haunted.gr/images/katigories/drakospita.png",
+          "genre": "Folklore Novel",
+          "keywords": [
+            "nereids Aegean Cyclades",
+            "folklore novel Cyclades",
+            "Giorgos Maniatis book",
+            "nereids Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/laografika-mythistorimata/neraides-tou-aigaiou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "B103",
+      "title": "The Chronicle of the Strange Forest",
+      "slug": "to-xroniko-tou-paraxenou-dasous",
+      "author": "Alexandros Kartas",
+      "date": "2021",
+      "excerpt": "A group of researchers follows the traditions of a forest where the whispers of the trees lead to lost civilisations.",
+      "image": {
+        "src": "/images/og-default-image.webp",
+        "alt": "Dense forest plunged in darkness"
+      },
+      "purchaseUrl": "https://example.com/books/to-xroniko-tou-paraxenou-dasous",
+      "content": [
+        {
+          "type": "text",
+          "value": "A narrative journey on the edge of the fantastic, drawing on accounts from village elders and the records of old travellers."
+        }
+      ],
+      "seo": {
+        "metaTitle": "The Chronicle of the Strange Forest | Alexandros Kartas | Folklore Novels | haunted.gr",
+        "metaDescription": "Researchers follow the traditions of a forest where the whispers of the trees lead to lost secrets. By Alexandros Kartas.",
+        "canonical": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xroniko-tou-paraxenou-dasous",
+        "keywords": [
+          "strange forest Greece",
+          "folklore novel Greece",
+          "Alexandros Kartas book",
+          "haunted forest Greece",
+          "paranormal novel Greece",
+          "forest mystery legend"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "The Chronicle of the Strange Forest",
+          "author": {
+            "@type": "Person",
+            "name": "Alexandros Kartas"
+          },
+          "description": "Researchers follow the traditions of a forest where the whispers of the trees lead to lost secrets.",
+          "inLanguage": "en",
+          "datePublished": "2021",
+          "image": "https://haunted.gr/images/og-default-image.webp",
+          "genre": "Folklore Novel",
+          "keywords": [
+            "strange forest Greece",
+            "folklore novel Greece",
+            "Alexandros Kartas book",
+            "haunted forest Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/vivlia/laografika-mythistorimata/to-xroniko-tou-paraxenou-dasous"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1261,12 +1261,6 @@
         "src": "/images/efimerides/pigadi-pefkakia.webp",
         "alt": "Archival image from the 1915 Nea Ellas newspaper article"
       },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Peukakia, Athens",
-        "lat": 37.99,
-        "lng": 23.735
-      },
       "content": [
         {
           "type": "text",
@@ -1321,7 +1315,11 @@
           "magic Attica",
           "Nea Ellas newspaper"
         ]
-      }
+      },
+      "mainArea": "Attica",
+      "subLocation": "Peukakia, Athens",
+      "lat": 37.99,
+      "lng": 23.735
     },
     {
       "id": 501,
@@ -1333,12 +1331,6 @@
       "image": {
         "src": "/images/efimerides/pansylinos-satanistes-volos-1992.webp",
         "alt": "Archival image from the 1992 Apogevmatini newspaper article, p. 10"
-      },
-      "location": {
-        "mainArea": "Magnesia",
-        "subLocation": "Volos",
-        "lat": 39.3667,
-        "lng": 22.9333
       },
       "content": [
         {
@@ -1399,7 +1391,11 @@
           "Apogevmatini newspaper",
           "Satanism Greece"
         ]
-      }
+      },
+      "mainArea": "Magnesia",
+      "subLocation": "Volos",
+      "lat": 39.3667,
+      "lng": 22.9333
     },
     {
       "id": 502,
@@ -1411,12 +1407,6 @@
       "image": {
         "src": "/images/efimerides/teleti-mavris-magias-chalkida-1994.webp",
         "alt": "Archival image from the 1994 Evvoiki Gnomi newspaper article"
-      },
-      "location": {
-        "mainArea": "Euboea",
-        "subLocation": "Chalcis - Lighthouse",
-        "lat": 38.4627,
-        "lng": 23.602
       },
       "content": [
         {
@@ -1493,7 +1483,11 @@
           "Satanism Chalcis",
           "Evvoiki Gnomi"
         ]
-      }
+      },
+      "mainArea": "Euboea",
+      "subLocation": "Chalcis - Lighthouse",
+      "lat": 38.4627,
+      "lng": 23.602
     },
     {
       "id": 503,
@@ -1505,12 +1499,6 @@
       "image": {
         "src": "/images/efimerides/teletes-mavris-magias-volos-mathites-satana-1992.webp",
         "alt": "Archival image from the 1992 Eleftheros Typos newspaper article, pp. 32-33"
-      },
-      "location": {
-        "mainArea": "Magnesia",
-        "subLocation": "Volos",
-        "lat": 39.3667,
-        "lng": 22.9333
       },
       "content": [
         {
@@ -1621,7 +1609,11 @@
           "Eleftheros Typos",
           "student Satanism Greece"
         ]
-      }
+      },
+      "mainArea": "Magnesia",
+      "subLocation": "Volos",
+      "lat": 39.3667,
+      "lng": 22.9333
     },
     {
       "id": 504,
@@ -1633,12 +1625,6 @@
       "image": {
         "src": "/images/efimerides/kapsimo-ekklisias-satanistes-orchomenos-1995.webp",
         "alt": "Archival image from the 1995 Adesmeutos Typos newspaper article, pp. 24 & 41"
-      },
-      "location": {
-        "mainArea": "Boeotia",
-        "subLocation": "Orchomenos",
-        "lat": 38.496,
-        "lng": 22.977
       },
       "content": [
         {
@@ -1753,7 +1739,11 @@
           "666 symbol Satanism",
           "Satanists Greece 1990s"
         ]
-      }
+      },
+      "mainArea": "Boeotia",
+      "subLocation": "Orchomenos",
+      "lat": 38.496,
+      "lng": 22.977
     },
     {
       "id": 506,
@@ -1765,12 +1755,6 @@
       "image": {
         "src": "/images/efimerides/chontzas-magos-peiraia-1893.webp",
         "alt": "Archival image from the 1893 To Asty newspaper article"
-      },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Piraeus",
-        "lat": 37.9425,
-        "lng": 23.6465
       },
       "content": [
         {
@@ -1835,7 +1819,11 @@
           "magic charlatanism 1890s",
           "Piraeus magic history"
         ]
-      }
+      },
+      "mainArea": "Attica",
+      "subLocation": "Piraeus",
+      "lat": 37.9425,
+      "lng": 23.6465
     },
     {
       "id": 507,
@@ -1847,12 +1835,6 @@
       "image": {
         "src": "/images/efimerides/synchrones-magisses-1933.webp",
         "alt": "Archival image from the 1933 Ethnos newspaper article"
-      },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Athens",
-        "lat": 37.9838,
-        "lng": 23.7275
       },
       "content": [
         {
@@ -1932,7 +1914,11 @@
           "sorcery archives newspapers",
           "superstition Greece 1933"
         ]
-      }
+      },
+      "mainArea": "Attica",
+      "subLocation": "Athens",
+      "lat": 37.9838,
+      "lng": 23.7275
     },
     {
       "id": 508,
@@ -1944,12 +1930,6 @@
       "image": {
         "src": "/images/efimerides/magissa-evriskoye-gamprous-doulikas-1933.webp",
         "alt": "Archival image from the 1933 Foni tou Laou newspaper article"
-      },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Athens",
-        "lat": 37.9838,
-        "lng": 23.7275
       },
       "content": [
         {
@@ -2062,8 +2042,8 @@
       },
       "mainArea": "Athens",
       "subLocation": "Agissilaou 88",
-      "lat": 37.982521,
-      "lng": 23.7229162,
+      "lat": 37.9838,
+      "lng": 23.7275,
       "locationTags": [
         "Athens",
         "Agissilaou",
@@ -2081,12 +2061,6 @@
       "image": {
         "src": "/images/efimerides/chilioi-magoi-magisses-athina-peiraia-1933.webp",
         "alt": "Archival image from the 1933 Acropolis newspaper article"
-      },
-      "location": {
-        "mainArea": "Attica",
-        "subLocation": "Athens - Piraeus",
-        "lat": 37.9838,
-        "lng": 23.7275
       },
       "content": [
         {
@@ -2205,7 +2179,476 @@
           "magic police Athens archives",
           "thousand sorcerers Greece 1933"
         ]
-      }
+      },
+      "mainArea": "Attica",
+      "subLocation": "Athens - Piraeus",
+      "lat": 37.9838,
+      "lng": 23.7275
+    },
+    {
+      "id": 704,
+      "slug": "i-perivohti-magissa-tis-ilioupolis-sinelifthi-antro-1955",
+      "title": "The Notorious Witch of Ilioupoli Arrested in Her Lair - 1955",
+      "date": "1955-06-20",
+      "source": "Αθηναϊκή",
+      "excerpt": "The arrest of Anastasia Lamberaki, aged 45, a witch from Ilioupoli (Athens) who deceived wealthy women by invoking the spirit of Balaam through a glass crystal ball. A detailed account of her mystic den, her methods, and her psychological manipulation.",
+      "image": {
+        "src": "/images/efimerides/i-perivohti-magissa-tis-ilioupolis-sinelifthi-antro-1955.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Officers of the Ilioupoli gendarmerie arrested Anastasia Lamberaki, aged 45, charged with defrauding various persons through the practice of sorcery. As established by the preliminary investigation, she received various women of the upper class at her home in the Ymittos district, telling their fortunes and providing advice on matters of the heart in exchange for payment of many thousands of drachmas."
+        },
+        {
+          "type": "text",
+          "value": "To lend greater mystery to her sessions with clients, the witch had transformed her home into an evocative lair: the four walls were draped in black fabric, the lighting was low and concealed, and various magical objects were arranged on a table, where pride of place was given to a glass crystal ball."
+        },
+        {
+          "type": "text",
+          "value": "The client was led into this room and seated facing the table, with the witch sitting behind her. This first impression, as was natural, acted powerfully on the women's psychology; the shift from bright light to the half-darkness of the suggestive room inspired awe and rendered the clients receptive from the outset to the witch's pronouncements."
+        },
+        {
+          "type": "text",
+          "value": "In this psychological state, the client would unburden herself, and the witch would undertake to assist through her art in resolving the problems at hand. To this end, she began to pray and to invoke the spirit of Balaam, a renowned pagan soothsayer mentioned in the Bible. Before completing the prayer, and without being noticed, the witch would use a hidden electric switch to cut the concealed lighting and illuminate a mysterious light focused on the crystal ball."
+        },
+        {
+          "type": "text",
+          "value": "Within the sphere, due to the nature of the glass, various mysterious light-and-shadow effects were produced, which the entranced client interpreted as supernatural visions arising from the appearance of the spirit of Balaam. The witch then proceeded to question the spirit about whatever concerned her victim, and — according to the shadows produced — she interpreted corresponding answers, which she recorded in kabbalistic symbols while simultaneously whispering various unintelligible words. When there were no further questions of interest to the victim, the witch extinguished the sphere's light by the same secret mechanism and re-lit the room's general concealed lighting."
+        },
+        {
+          "type": "text",
+          "value": "One of the victims, a well-known lady whose name is not given, sought the witch's help in winning back the love of her husband, who had been neglecting her while conducting a parallel affair with a dancer. The spirit of Balaam, according to the witch, recommended the following to detach the unfaithful husband from the dancer's embrace:"
+        },
+        {
+          "type": "quote",
+          "value": "You will take nine hairs from your own hair and as many from your husband's, and having braided them on a night of the full moon, three by three, you will wrap them in this paper. You will place this paper with the six braids under your pillow. After three days and three nights, you will take it in the evening before the next full moon and re-braid the six braids three by three again under the moonlight. The two braids that result you will place again in this paper, and this time you will put them inside your husband's pillow, between the pillowcase and the pillow, so he notices nothing. There you will leave them until the full moon. The man must sleep on that pillow on the night of the full moon, otherwise the spell will be broken. Once he has slept there, the next day you will take it; one braid you will burn together with the paper as soon as the moon rises, and scatter the ash outside your house. The other you will place in your husband's jacket, inside the lining where he cannot find it, and all will be well."
+        },
+        {
+          "type": "text",
+          "value": "The victim, who had paid 1,000 drachmas for the famous recipe, returned three months later to complain, as her husband continued his relationship with the dancer. The witch, accustomed to such complaints, had a ready answer:"
+        },
+        {
+          "type": "quote",
+          "value": "\"My dear, you must have done something wrong! Had you done exactly as I told you, you would have won your husband back.\"\n\"Shall I do it all over from the beginning? Would you be so kind as to write the recipe out again so I can be careful to do it properly this time?\"\n\"Oh, my dear! And do you think I remember what I told you? Do you think I can repeat it without making mistakes myself? I was writing down whatever the spirit told me. I gave you the paper. You burned it. What can I tell you now? We must summon the spirit once more. And will the great Balaam appear again? What you are doing is irreverence — the spirits grow angry. I will do what I can for you, but it is difficult.\""
+        },
+        {
+          "type": "text",
+          "value": "These words proved sufficiently persuasive, as the victim agreed to attend a new summoning of the spirit of Balaam — who, however, required the witch to suffer greatly before agreeing to appear and provide a new recipe. This reluctance on the spirit's part was performed before the credulous lady at a cost of 1,500 drachmas."
+        },
+        {
+          "type": "text",
+          "value": "The witch did not always employ the same method. Especially during the summer months, when the atmosphere of the evocative room was stifling, she would lead her clients outdoors, to the Mamais estate in the Ilioupoli district. There, between 9 and 12 at night, among the trees and under the starry sky, she would invoke the spirits — sometimes Balaam, sometimes Lucifer, sometimes other demons — having first compelled her victim to cover their eyes with a piece of their own undergarment, instructing them not to turn their head left, right, or backward, as the spirit would not appear in that case."
+        },
+        {
+          "type": "text",
+          "value": "The witch, standing behind the victim, then began to invoke the spirit with unintelligible words, among which only the name of the summoned spirit could be distinguished. To the questions she put to the spirit, she herself answered in a muffled voice, feigning a dialogue. When finished, she would take from her bag a recipe prepared in advance and tell the victim to remove the undergarment from their eyes. She would then hand over the recipe with instructions for its execution. Through this method, the arrested witch amassed considerable sums, as her clientele was enormous."
+        },
+        {
+          "type": "text",
+          "value": "After her interrogation by the commander of the Ilioupoli gendarmerie station, she claimed that she did not invoke evil spirits but the help of God. And when she mentioned Lucifer in her invocations, she was not seeking his help but rather his defeat by the Divine powers. The witch was transferred after her interrogation to the Public Prosecutor."
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Αθηναϊκή",
+          "title": "Εφημερίδα Αθηναϊκή",
+          "year": "1955",
+          "pages": "20.06.1955"
+        }
+      ],
+      "tags": [
+        "witchcraft",
+        "witch",
+        "Balaam",
+        "Lucifer",
+        "crystal ball",
+        "sorcery",
+        "Ilioupoli",
+        "arrest",
+        "1955"
+      ],
+      "seo": {
+        "metaTitle": "The Notorious Witch of Ilioupoli Arrested in Her Lair - 1955",
+        "metaDescription": "The 1955 arrest of Anastasia Lamberaki in Ilioupoli (Athens): she turned her home into a mystic lair with a crystal ball and invoked the spirit of Balaam to defraud wealthy women. From the newspaper Athinaiki.",
+        "keywords": [
+          "witch Ilioupoli 1955 arrest",
+          "spirit Balaam crystal ball divination",
+          "Anastasia Lamberaki sorcery Athens",
+          "witchcraft love spell deception",
+          "Lucifer invocation demons 1955",
+          "kabbalistic symbols witch Athens",
+          "newspaper Athinaiki 1955 witchcraft"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "The Notorious Witch of Ilioupoli Arrested in Her Lair - 1955",
+          "description": "The 1955 arrest of Anastasia Lamberaki in Ilioupoli, who invoked the spirit of Balaam through a crystal ball to defraud wealthy women.",
+          "inLanguage": "en",
+          "articleSection": "Magic & Rituals",
+          "keywords": [
+            "witch",
+            "Balaam",
+            "crystal ball",
+            "sorcery",
+            "Ilioupoli Athens"
+          ],
+          "datePublished": "1955-06-20",
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/mageia/i-perivohti-magissa-tis-ilioupolis-sinelifthi-antro-1955"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Ilioupoli, Attica",
+            "addressLocality": "Ilioupoli",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.93,
+              "longitude": 23.7573
+            }
+          }
+        }
+      },
+      "mainArea": "Ilioupoli, Attica",
+      "subLocation": "Ilioupoli",
+      "lat": 37.93,
+      "lng": 23.7573
+    },
+    {
+      "id": 706,
+      "slug": "iasi-erea-apo-magissa-tegea-1895",
+      "title": "A Priest Healed by a Witch - 1895",
+      "date": "1895-02-03",
+      "source": "Τεγέα",
+      "excerpt": "A 1895 newspaper piece about a priest who, unable to be cured by earthly or heavenly doctors, turned to a witch from Argos and was miraculously restored to health, and about a lady from Tripoli who also sought the help of sorcery.",
+      "image": {
+        "src": "/images/efimerides/tegea-1895.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Such a decline in Christian values has lately been observed that many seek their healing and their fortune through magic."
+        },
+        {
+          "type": "text",
+          "value": "A priest, who had failed to recover through the doctors of earth and heaven, turned to a witch from Argos whom he summoned with such certainty that, after her visit, he became — miraculously — fully restored to health, as he himself swears."
+        },
+        {
+          "type": "text",
+          "value": "And another lady from Tripoli, whose name we shall not mention for the present, sought the assistance of sorcery. She herself attests to being cured of a long-standing illness."
+        },
+        {
+          "type": "text",
+          "value": "Unfortunately, we do not possess the scientific authority to establish how far we are regressing, or which ancient age of darkness and ignorance our present state may be compared to. For this reason, we turn to our bishop, Mr. Vimpos, who, being well versed in Hebrew, is perfectly capable of enlightening us on the above matter."
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Τεγέα",
+          "title": "Εφημερίδα Τεγέα",
+          "year": "1895",
+          "pages": "03.02.1895, σελ. 3"
+        }
+      ],
+      "tags": [
+        "witchcraft",
+        "witch",
+        "healing",
+        "priest",
+        "Argos",
+        "Tripoli",
+        "sorcery",
+        "1895"
+      ],
+      "seo": {
+        "metaTitle": "A Priest Healed by a Witch | Tegea 1895",
+        "metaDescription": "A 1895 article from the newspaper Tegea: a priest unable to be cured by doctors turned to a witch from Argos and recovered, while a lady from Tripoli also sought magical healing.",
+        "keywords": [
+          "witch healing priest Argos 1895",
+          "sorcery cure Tripoli Arcadia",
+          "magic Christianity 19th century",
+          "newspaper Tegea 1895 witchcraft",
+          "folk healing witchcraft Peloponnese"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "A Priest Healed by a Witch - 1895",
+          "description": "A 1895 newspaper article about a priest healed by a witch from Argos and a lady from Tripoli who sought magical healing.",
+          "inLanguage": "en",
+          "articleSection": "Magic & Rituals",
+          "keywords": [
+            "witch",
+            "healing",
+            "priest",
+            "Argos",
+            "Tripoli"
+          ],
+          "datePublished": "1895-02-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/mageia/iasi-erea-apo-magissa-tegea-1895"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Tripoli, Arcadia",
+            "addressLocality": "Tripoli",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.5097,
+              "longitude": 22.3789
+            }
+          }
+        }
+      },
+      "mainArea": "Tripoli, Arcadia",
+      "subLocation": "Tripoli",
+      "lat": 37.5097,
+      "lng": 22.3789
+    },
+    {
+      "id": 707,
+      "slug": "klopi-nekrokefalis-kaminia-1928",
+      "title": "Theft of a Skull for Sorcery - Kaminia 1928",
+      "date": "1928-07-27",
+      "source": "Χρονογράφος",
+      "excerpt": "A brief 1928 report: a skull found in the Kaminia district of Piraeus had been removed two days earlier from the grave of G. Vosalis at the Cemetery of Agii Anargyri by a woman for the purpose of sorcery.",
+      "image": {
+        "src": "/images/efimerides/nekrokefali-kaminia-1928.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "From the investigation conducted into the skull discovered yesterday in the Kaminia district, it was established that it had been removed two days earlier from the Cemetery of Agii Anargyri — specifically from the grave of G. Vosalis — by a woman for the purpose of sorcery."
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Χρονογράφος",
+          "title": "Εφημερίδα Χρονογράφος",
+          "year": "1928",
+          "pages": "27.07.1928"
+        }
+      ],
+      "tags": [
+        "witchcraft",
+        "skull",
+        "sorcery",
+        "theft",
+        "Kaminia",
+        "Piraeus",
+        "cemetery",
+        "1928"
+      ],
+      "seo": {
+        "metaTitle": "Theft of a Skull for Sorcery | Kaminia 1928",
+        "metaDescription": "A brief 1928 report: a skull stolen from the grave of G. Vosalis at the Cemetery of Agii Anargyri was found in Kaminia, Piraeus. Stolen by a woman for sorcery. From the newspaper Chronografos.",
+        "keywords": [
+          "skull sorcery Kaminia 1928",
+          "theft skull cemetery Agii Anargyri",
+          "witchcraft corpse Piraeus 1928",
+          "newspaper Chronografos 1928 witchcraft"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "Theft of a Skull for Sorcery - Kaminia 1928",
+          "description": "A skull found in Kaminia, Piraeus had been stolen from the grave of G. Vosalis at the Cemetery of Agii Anargyri by a woman for sorcery.",
+          "inLanguage": "en",
+          "articleSection": "Magic & Rituals",
+          "keywords": [
+            "skull",
+            "sorcery",
+            "theft",
+            "Kaminia Piraeus",
+            "cemetery"
+          ],
+          "datePublished": "1928-07-27",
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/mageia/klopi-nekrokefalis-kaminia-1928"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Kaminia, Piraeus",
+            "addressLocality": "Kaminia",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.945,
+              "longitude": 23.635
+            }
+          }
+        }
+      },
+      "mainArea": "Kaminia, Piraeus",
+      "subLocation": "Kaminia",
+      "lat": 37.945,
+      "lng": 23.635
+    },
+    {
+      "id": 713,
+      "slug": "koukla-me-karfia-paralia-drepano-igoumenitsa-2026",
+      "title": "Igoumenitsa: Doll with Nails in Its Eyes Found on a Beach",
+      "date": "2026-04-15",
+      "source": "Ta Nea",
+      "excerpt": "A doll with nails driven into its head, bound cloth and vivid red markings was found on the beach of Drepano, Igoumenitsa, sparking alarm and associations with black magic rituals.",
+      "image": {
+        "src": "/images/efimerides/koukla-me-karfia-drepano-igoumenitsa.webp",
+        "alt": "Doll with nails and red markings found on the beach of Drepano, Igoumenitsa"
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "A macabre find caused alarm on the beach of Drepano in Igoumenitsa. A doll, discarded in the sand, was found with nails driven into its head, bound pieces of cloth and vivid red colouring on its face and neck, causing considerable distress to those who came across it."
+        },
+        {
+          "type": "text",
+          "value": "The image of the doll, placed among driftwood washed up on the shore, evoked a scene of dark symbolism. Many linked the find to black magic rituals or other occult practices, in keeping with the popular imagination that surrounds such objects."
+        },
+        {
+          "type": "text",
+          "value": "Despite the speculation, neither the origin of the object nor any actual connection to a ritual can be confirmed. Nevertheless, the elements of the scene — the nails, the red colouring resembling blood, and the overall staging — reinforced the associations and caused unease among those present."
+        },
+        {
+          "type": "heading",
+          "heading": "Alarm at a Busy Beach"
+        },
+        {
+          "type": "text",
+          "value": "The incident carries particular weight given that the Drepano beach is one of the best-known and most frequented in the area. The presence of such an unsettling object in a public space provoked strong reactions and comment."
+        },
+        {
+          "type": "text",
+          "value": "Drepano is a landmark destination for Igoumenitsa, especially during the summer months when visitor numbers increase. The sight of a doll with such features, left in plain view, understandably caused a stir."
+        },
+        {
+          "type": "text",
+          "value": "Many people connected the find with 'curse rituals', voodoo practices or other forms of symbolic energy, familiar from folk horror stories and occultism."
+        },
+        {
+          "type": "text",
+          "value": "This article is a republication from the Ta Nea newspaper."
+        }
+      ],
+      "sources": [
+        {
+          "type": "newspaper",
+          "name": "Ta Nea",
+          "title": "Ta Nea newspaper",
+          "year": "2026",
+          "pages": "15.04.2026"
+        }
+      ],
+      "tags": [
+        "magic",
+        "doll",
+        "nails",
+        "Igoumenitsa",
+        "Drepano",
+        "beach",
+        "black magic",
+        "voodoo",
+        "occultism",
+        "2026"
+      ],
+      "seo": {
+        "metaTitle": "Doll with Nails Found on Igoumenitsa Beach 2026 | Magic | haunted.gr",
+        "metaDescription": "A doll with nails driven into its head and red markings was found on Drepano beach, Igoumenitsa. Bystanders linked it to black magic and voodoo rituals.",
+        "canonical": "https://haunted.gr/efimerides/mageia/koukla-me-karfia-paralia-drepano-igoumenitsa-2026",
+        "keywords": [
+          "doll nails beach Igoumenitsa",
+          "black magic Igoumenitsa 2026",
+          "Drepano beach curse",
+          "voodoo doll Greece",
+          "occultism Epirus",
+          "curse ritual beach",
+          "magic Epirus"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "Igoumenitsa: Doll with Nails in Its Eyes Found on a Beach",
+          "description": "A doll with nails, bound cloth and red markings was found on Drepano beach, Igoumenitsa, sparking associations with black magic rituals.",
+          "inLanguage": "en",
+          "articleSection": "Magic — Rituals",
+          "keywords": [
+            "doll",
+            "nails",
+            "black magic",
+            "Igoumenitsa",
+            "Drepano",
+            "voodoo",
+            "beach"
+          ],
+          "datePublished": "2026-04-15",
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/efimerides/mageia/koukla-me-karfia-paralia-drepano-igoumenitsa-2026"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Drepano, Igoumenitsa",
+            "addressLocality": "Drepano",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.51594,
+              "longitude": 20.20853
+            }
+          }
+        }
+      },
+      "mainArea": "Igoumenitsa",
+      "subLocation": "Drepano",
+      "lat": 39.51594,
+      "lng": 20.20853
     }
   ],
   "seo": {

@@ -367,7 +367,7 @@ export function Header({ initialLocale }: HeaderProps) {
               </div>
 
               <a
-                href="https://www.instagram.com/haunted.gr/"
+                href="https://www.instagram.com/haunted_greece/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-3 px-4 text-lg text-n-1 transition-colors hover:text-color-1"

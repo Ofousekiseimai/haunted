@@ -12,7 +12,7 @@ function pick(copy: LocaleString, locale: Locale) {
 export function getHomeCopy(locale: Locale) {
   return {
     heroTagline: pick(
-      { el: "Αρχείο του Ελληνικού Παραφυσικού", en: "Archive of the Greek Paranormal" },
+      { el: "Αρχείο Λαογραφίας και Ειδήσεων του Παραφυσικού", en: "Laographic  & Paranormal News Archive" },
       locale,
     ),
     sections: {

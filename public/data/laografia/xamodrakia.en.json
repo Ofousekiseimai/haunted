@@ -1,0 +1,1142 @@
+{
+  "category": "Folklore",
+  "subcategorySlug": "xamodrakia",
+  "subcategory": "Chamodrakia – Smerdaki",
+  "slug": "/laografia/xamodrakia",
+  "articles": [
+    {
+      "id": "118",
+      "title": "Smerdaki – Definition by N. Politis",
+      "description": "Etymological analysis of the term «Smerdaki» and its connection to illegitimate births and demonic manifestations.",
+      "slug": "smerdaki-orismos",
+      "author": "",
+      "date": "",
+      "excerpt": "Etymological analysis of the term «Smerdaki» and its connection to illegitimate births and demonic manifestations.",
+      "locationTags": [],
+      "image": {
+        "src": "/images/laografia/politis.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The name Smerdaki, and by corruption smidráki, smidraki, derives from the adjective smerdos, which is a derivative of the word smerdos meaning ugly or wicked, and is used in ancient Greek with the sense of difficult or bad. The primary meaning of the adjective is similar to the ancient one — that is, it means difficult, harsh, or wicked. A secondary meaning relates to the illegitimate child; according to old beliefs, because illegitimate children were thought to transform into demons that torment livestock, they were called smerdakia, meaning fearsome or terrible."
+        },
+        {
+          "type": "text",
+          "value": "«Smerdos. — strength, power, impetus» (Hesych.) «Eusmerdis, robust.» (Hesych.)"
+        },
+        {
+          "type": "text",
+          "value": "I believe the word has nothing in common with the Slavic smrt (death), since that word is feminine in gender and the concept is entirely different."
+        },
+        {
+          "type": "text",
+          "value": "Studies on the Life and Language of the Greek People by N. G. Politis – Traditions Part B, 1904 – p. 1221"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "1221"
+        }
+      ],
+      "tags": [
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Smerdaki – Definition by N. Politis | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Etymological analysis of the term «Smerdaki» and its connection to illegitimate births and demonic manifestations.",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/smerdaki-orismos",
+        "keywords": [
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Smerdaki – Definition by N. Politis",
+          "description": "Etymological analysis of the term «Smerdaki» and its connection to illegitimate births and demonic manifestations.",
+          "inLanguage": "en",
+          "image": "https://haunted.gr/images/laografia/politis.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/smerdaki-orismos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "119",
+      "title": "Chamodrakia in Lasta of Gortinia",
+      "description": "Traditions about Chamodrakia — phosphorescent flames attributed to the souls of drowned and abandoned infants in Lasta of Gortinia.",
+      "slug": "hamodrakia-lasta-gortynias",
+      "author": "",
+      "date": "",
+      "excerpt": "Traditions about Chamodrakia — phosphorescent flames attributed to the souls of drowned and abandoned infants in Lasta of Gortinia.",
+      "mainArea": "Gortinia",
+      "subLocation": "Lasta",
+      "locationTags": [
+        "Lasta of Gortinia"
+      ],
+      "lat": 37.7338,
+      "lng": 22.12772,
+      "image": {
+        "src": "/images/laografia/hamodrakia-gortynia.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Chamodrakia in Lasta of Gortinia is the name given to the luminous flames that appear in marshy areas or cemeteries, believed to be caused by the souls of drowned and abandoned infants. (According to a communication by N. Laskaris)"
+        },
+        {
+          "type": "text",
+          "value": "Papazafeiropoulou, “Perisymagogi” p. 518: «Chamodraki. The fires that appear amid the night in marshy places, cemeteries and wherever animal carcasses are found — from which phosphorescent matter develops and ignites. These fires sometimes move according to the air currents that form. For this reason, ignorance and superstition regarded them as ghosts and spirits, and named them Chamoudráchia, meaning dragons that rise from the earth. They are also called Emidráchia.»"
+        },
+        {
+          "type": "text",
+          "value": "Studies on the Life and Language of the Greek People by N. G. Politis – Traditions Part B, 1904 – p. 1223"
+        }
+      ],
+      "sources": [
+        {
+          "type": "manuscript",
+          "author": "Ν. Λάσκαρη",
+          "details": "Ανακοίνωση"
+        },
+        {
+          "type": "book",
+          "author": "Παπαζαφειροπούλου",
+          "title": "Περισυναγωγή",
+          "page": "518"
+        },
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "1223"
+        }
+      ],
+      "tags": [
+        "Lasta of Gortinia",
+        "Gortinia",
+        "Lasta",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Chamodrakia in Lasta of Gortinia | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Traditions about Chamodrakia — phosphorescent flames attributed to the souls of drowned and abandoned infants in Lasta of Gortinia.",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/hamodrakia-lasta-gortynias",
+        "keywords": [
+          "Lasta of Gortinia",
+          "Gortinia",
+          "Lasta",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Chamodrakia in Lasta of Gortinia",
+          "description": "Traditions about Chamodrakia — phosphorescent flames attributed to the souls of drowned and abandoned infants in Lasta of Gortinia.",
+          "inLanguage": "en",
+          "image": "https://haunted.gr/images/laografia/hamodrakia-gortynia.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Lasta of Gortinia",
+            "Gortinia",
+            "Lasta",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/hamodrakia-lasta-gortynias"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Gortinia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lasta"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7338,
+              "longitude": 22.12772
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "120",
+      "title": "Pastoral Demons – Sparta 1875",
+      "description": "Traditions about pastoral demons in the form of children or dogs that attack livestock near Sparta.",
+      "slug": "poimenikoi-daimones-sparti-1875",
+      "author": "",
+      "date": "1875",
+      "excerpt": "Traditions about pastoral demons in the form of children or dogs that attack livestock near Sparta.",
+      "locationTags": [
+        "Sparta"
+      ],
+      "mainArea": "Sparta",
+      "subLocation": "",
+      "lat": 37.07616,
+      "lng": 22.42896,
+      "image": {
+        "src": "/images/laografia/poimenikoi-daimones.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "I heard this tradition near Sparta and in Tripoli in 1875. As also noted above, pastoral demons are imagined as children who take on animal forms, attack the flocks, and cause destruction. These children are adulterine and monstrous in form, as referenced in tradition nos. δ̤4 – δτ8. They are believed to have been born of a woman and a pastoral demon."
+        },
+        {
+          "type": "text",
+          "value": "These are the things shepherds tell and believe. Others, however, who do not believe in them, identify the smerdakia with the forms of dogs — as great souls from alien spirits. These people are also unaware of the influence of the demonic children upon the flocks, and equate them with the Telonia and the Kallikantzaroi, believing they were not born of a pastoral demon, but were transformed into demons — having died unbaptized, or having been conceived in sin and born during the twelve-day period."
+        },
+        {
+          "type": "text",
+          "value": "Studies on the Life and Language of the Greek People by N. G. Politis – Traditions Part B, 1904 – p. 1232"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "1232"
+        }
+      ],
+      "tags": [
+        "Sparta",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Pastoral Demons – Sparta 1875 | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Traditions about pastoral demons in the form of children or dogs that attack livestock near Sparta.",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/poimenikoi-daimones-sparti-1875",
+        "keywords": [
+          "Sparta",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Pastoral Demons – Sparta 1875",
+          "description": "Traditions about pastoral demons in the form of children or dogs that attack livestock near Sparta.",
+          "inLanguage": "en",
+          "datePublished": "1875",
+          "image": "https://haunted.gr/images/laografia/poimenikoi-daimones.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Sparta",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/poimenikoi-daimones-sparti-1875"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Sparta",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.07616,
+              "longitude": 22.42896
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "121",
+      "title": "Zagori – Warding off the Chamoutsarouchou",
+      "slug": "zagori-apotropi-chamoutsarouchou",
+      "author": "",
+      "date": "",
+      "excerpt": "Tradition of warding off the Chamoutsarouchou with smoke and the burning of old footwear in Zagori.",
+      "locationTags": [
+        "Zagori"
+      ],
+      "mainArea": "Ioannina",
+      "subLocation": "Zagori",
+      "description": "Tradition of warding off the Chamoutsarouchou with smoke and the burning of old footwear in Zagori.",
+      "lat": 39.8886,
+      "lng": 20.8645,
+      "image": {
+        "src": "/images/laografia/zagori-shoe-ritual.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The Chamoutsarouchou is driven away by smoke and by burning pieces of old footwear."
+        },
+        {
+          "type": "text",
+          "value": "Studies on the Life and Language of the Greek People by N. G. Politis – Traditions Part B, 1904 – p. 1234"
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "1234"
+        }
+      ],
+      "tags": [
+        "Zagori",
+        "Ioannina",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Zagori – Warding off the Chamoutsarouchou | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Tradition of warding off the Chamoutsarouchou with smoke and the burning of old footwear in Zagori.",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/zagori-apotropi-chamoutsarouchou",
+        "keywords": [
+          "Zagori",
+          "Ioannina",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Zagori – Warding off the Chamoutsarouchou",
+          "description": "Tradition of warding off the Chamoutsarouchou with smoke and the burning of old footwear in Zagori.",
+          "inLanguage": "en",
+          "image": "https://haunted.gr/images/laografia/zagori-shoe-ritual.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Zagori",
+            "Ioannina",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/zagori-apotropi-chamoutsarouchou"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Ioannina",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Zagori"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.8886,
+              "longitude": 20.8645
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "122",
+      "title": "The Mezarlikia and Soul Transformations – Crete",
+      "slug": "mezarlikia-metamorphoseis-psyhon",
+      "author": "",
+      "date": "",
+      "excerpt": "Traditions about post-mortem transformations of souls into dogs, varying according to religion and geographic region.",
+      "mainArea": "Crete",
+      "subLocation": "Rethymno",
+      "locationTags": [
+        "Rethymno – Crete"
+      ],
+      "lat": 35.3684,
+      "lng": 24.4823,
+      "image": {
+        "src": "/images/laografia/mezarlikia-metamorphoseis.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "D. Kondylakis, «Estia», 1884, vol. 17, p. 518. Mezarlikia (pl.) is the Turkish word for the Muslim cemetery. According to popular belief, the souls of non-Orthodox peoples return after death and take the form of a dog, while the souls of Orthodox Christians, if they become vrykolakes, do not change their human form. Since pastoral demons also appear in the form of dogs, they are thus confused with them, and are likewise called smerdakia; it is believed they cause harm to livestock."
+        },
+        {
+          "type": "text",
+          "value": "2) By exception, the soul of an Orthodox Christian is also said to transform into a dog, but only in the mainland tradition: «May God grant that he howls» (meaning: may he transform into a dog)."
+        },
+        {
+          "type": "text",
+          "value": "3) Other folk traditions speak of the appearance in dog form of psychopomp demons and Kallikantzaroi, as well as of hounds that accompany Charon."
+        },
+        {
+          "type": "text",
+          "value": "Studies on the Life and Language of the Greek People by N. G. Politis – Traditions Part B, 1904 – p. 1237"
+        }
+      ],
+      "sources": [
+        {
+          "type": "journal",
+          "author": "Δ. Κονδυλάκης",
+          "journal": "Εστία",
+          "volume": "17",
+          "year": "1884",
+          "page": "518"
+        },
+        {
+          "type": "book",
+          "name": "Νικόλαος Πολίτης",
+          "title": "Μελεται περι του βίου και της γλώσσης του Ελληνικού Λαού - Παραδόσεις Μερος Β",
+          "year": "1904",
+          "pages": "1237"
+        }
+      ],
+      "tags": [
+        "Rethymno – Crete",
+        "Crete",
+        "Rethymno",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Mezarlikia and Soul Transformations – Crete | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Traditions about post-mortem transformations of souls into dogs, varying according to religion and geographic region.",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/mezarlikia-metamorphoseis-psyhon",
+        "keywords": [
+          "Rethymno – Crete",
+          "Crete",
+          "Rethymno",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Mezarlikia and Soul Transformations – Crete",
+          "description": "Traditions about post-mortem transformations of souls into dogs, varying according to religion and geographic region.",
+          "inLanguage": "en",
+          "image": "https://haunted.gr/images/laografia/mezarlikia-metamorphoseis.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Rethymno – Crete",
+            "Crete",
+            "Rethymno",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/mezarlikia-metamorphoseis-psyhon"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Crete",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Rethymno"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 35.3684,
+              "longitude": 24.4823
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "194",
+      "title": "Battle with the Smerdaki in Tripoli",
+      "slug": "polemos-me-to-smerdaki-tripoli",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk narrative about the invincible smerdaki and the fatal confrontations with it in Arcadia",
+      "locationTags": [
+        "Tripoli – Arcadia",
+        "Papari – Arcadia"
+      ],
+      "mainArea": "Arcadia",
+      "subLocation": "Tripoli",
+      "lat": 37.5089,
+      "lng": 22.3794,
+      "image": {
+        "src": "/images/laografia/polemos-me-to-smerdaki-tripoli.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "The smerdaki, the accursed thing, cannot be killed by anyone. And if some bold man hunts it, he cannot harm it, and even if he shoots at it, he cannot hit it. This is not all: whoever fights it either dies or breaks out in terrible boils."
+        },
+        {
+          "type": "text",
+          "value": "Diamantis Tsiamboukos from Papari once fought with the solitary and bewildering creature. He fired three shots at it, but could not hit it. Within twenty-four hours he was dead. His body was jet black and swollen, and bore claw marks from the lone creature."
+        },
+        {
+          "type": "text",
+          "value": "Sometimes dogs would also give chase, but they suffered the same fate. It is said that Arifis, the famous dog of Tremokefalaos, once leaped at it and bit the bewildering creature."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "234"
+        }
+      ],
+      "tags": [
+        "Tripoli – Arcadia",
+        "Papari – Arcadia",
+        "Arcadia",
+        "Tripoli",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "Battle with the Smerdaki in Tripoli | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Folk narrative about the invincible smerdaki and the fatal confrontations with it in Arcadia",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/polemos-me-to-smerdaki-tripoli",
+        "keywords": [
+          "Tripoli – Arcadia",
+          "Papari – Arcadia",
+          "Arcadia",
+          "Tripoli",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Battle with the Smerdaki in Tripoli",
+          "description": "Folk narrative about the invincible smerdaki and the fatal confrontations with it in Arcadia",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Nikolaos G. Politis"
+          },
+          "image": "https://haunted.gr/images/laografia/polemos-me-to-smerdaki-tripoli.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Tripoli – Arcadia",
+            "Papari – Arcadia",
+            "Arcadia",
+            "Tripoli",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/polemos-me-to-smerdaki-tripoli"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Arcadia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Tripoli"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.5089,
+              "longitude": 22.3794
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "196",
+      "title": "The Small Child – Sparta",
+      "slug": "to-mikro-paidi-sparti",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Traditional account of hunters’ supernatural encounter with a newborn demon in the woodland of Sparta",
+      "locationTags": [
+        "Sparta – Arcadia"
+      ],
+      "mainArea": "Lakonia",
+      "subLocation": "Sparta",
+      "lat": 37.0733,
+      "lng": 22.4297,
+      "image": {
+        "src": "/images/laografia/to-mikro-paidi-sparti.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Two hunters were once overtaken by nightfall inside a woodland. There they heard voices, like those of a small child."
+        },
+        {
+          "type": "text",
+          "value": "They drew near and saw a tiny newborn, no more than forty days old. It had, however, long hair and teeth."
+        },
+        {
+          "type": "text",
+          "value": "As they stared at it in wonder, it glared back at them wildly and began to taunt them: «Teeth, eh? Hair, eh?» And then it vanished."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "235"
+        }
+      ],
+      "tags": [
+        "Sparta – Arcadia",
+        "Lakonia",
+        "Sparta",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Small Child – Sparta | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Traditional account of hunters’ supernatural encounter with a newborn demon in the woodland of Sparta",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/to-mikro-paidi-sparti",
+        "keywords": [
+          "Sparta – Arcadia",
+          "Lakonia",
+          "Sparta",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Small Child – Sparta",
+          "description": "Traditional account of hunters’ supernatural encounter with a newborn demon in the woodland of Sparta",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Nikolaos G. Politis"
+          },
+          "image": "https://haunted.gr/images/laografia/to-mikro-paidi-sparti.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Sparta – Arcadia",
+            "Lakonia",
+            "Sparta",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/to-mikro-paidi-sparti"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Lakonia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Sparta"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.0733,
+              "longitude": 22.4297
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "198",
+      "title": "The Smithrakia of Lagkadia, Arcadia",
+      "slug": "ta-smithrakia-lagkadia",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Folk belief about the afterlife fate of unbaptized children as fire-stricken spirits",
+      "locationTags": [
+        "Lagkadia – Arcadia"
+      ],
+      "mainArea": "Arcadia",
+      "subLocation": "Lagkadia",
+      "lat": 37.6833,
+      "lng": 22.0333,
+      "image": {
+        "src": "/images/laografia/ta-smithrakia-lagkadia.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Children who die unbaptized become smithrakia and wander the mountains, and often turn into fires."
+        },
+        {
+          "type": "text",
+          "value": "They are seen only by those gifted with second sight."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "239"
+        }
+      ],
+      "tags": [
+        "Lagkadia – Arcadia",
+        "Arcadia",
+        "Lagkadia",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Smithrakia of Lagkadia, Arcadia | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Folk belief about the afterlife fate of unbaptized children as fire-stricken spirits",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/ta-smithrakia-lagkadia",
+        "keywords": [
+          "Lagkadia – Arcadia",
+          "Arcadia",
+          "Lagkadia",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Smithrakia of Lagkadia, Arcadia",
+          "description": "Folk belief about the afterlife fate of unbaptized children as fire-stricken spirits",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Nikolaos G. Politis"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-smithrakia-lagkadia.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Lagkadia – Arcadia",
+            "Arcadia",
+            "Lagkadia",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/ta-smithrakia-lagkadia"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Arcadia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lagkadia"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.6833,
+              "longitude": 22.0333
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "199",
+      "title": "The Chamodraki of Vresthena",
+      "slug": "to-chamodraki-vresthena",
+      "author": "Nikolaos G. Politis",
+      "date": "1904-01-01",
+      "excerpt": "Account of an encounter with a supernatural fire (chamodraki) at the threshing floors of Vathy, Lakonia",
+      "locationTags": [
+        "Vresthena – Lakonia",
+        "Vathy – Lakonia"
+      ],
+      "mainArea": "Lakonia",
+      "subLocation": "Vresthena",
+      "lat": 36.9833,
+      "lng": 22.4667,
+      "image": {
+        "src": "/images/laografia/to-chamodraki-vresthena.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "At Vathy, at the threshing floors near Vresthena, Spyros Lebesis once saw a fire before him at midnight."
+        },
+        {
+          "type": "text",
+          "value": "As he moved forward, the fire moved too; and whenever he drew near, it retreated and moved further down the road, leaving behind neither ash nor any other sign of a real fire."
+        },
+        {
+          "type": "text",
+          "value": "He understood that it was a chamodraki."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Νικόλαος Γ. Πολίτης",
+          "title": "Παραδόσεις (Μελέται περί του βίου και της γλώσσης του) - Τόμος Α",
+          "year": "1904",
+          "pages": "239"
+        }
+      ],
+      "tags": [
+        "Vresthena – Lakonia",
+        "Vathy – Lakonia",
+        "Lakonia",
+        "Vresthena",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Chamodraki of Vresthena | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Account of an encounter with a supernatural fire (chamodraki) at the threshing floors of Vathy, Lakonia",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/to-chamodraki-vresthena",
+        "keywords": [
+          "Vresthena – Lakonia",
+          "Vathy – Lakonia",
+          "Lakonia",
+          "Vresthena",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Chamodraki of Vresthena",
+          "description": "Account of an encounter with a supernatural fire (chamodraki) at the threshing floors of Vathy, Lakonia",
+          "inLanguage": "en",
+          "datePublished": "1904-01-01",
+          "author": {
+            "@type": "Person",
+            "name": "Nikolaos G. Politis"
+          },
+          "image": "https://haunted.gr/images/laografia/to-chamodraki-vresthena.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Vresthena – Lakonia",
+            "Vathy – Lakonia",
+            "Lakonia",
+            "Vresthena",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/to-chamodraki-vresthena"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Lakonia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Vresthena"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.9833,
+              "longitude": 22.4667
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "284",
+      "title": "The Strange Children in the Rain – Vourvoura",
+      "slug": "ta-paraxena-paidia-stin-vrochi-vourvoura",
+      "author": "K. I. Mantzouranис",
+      "date": "1910",
+      "excerpt": "Folkloric account of two strange children who appeared on a rainy night near Mystras. The children were naked, had fire in their mouths, and played until dawn. The testimony was recorded from Nikolaos Papazuras, aged 65.",
+      "mainArea": "Arcadia",
+      "subLocation": "Vourvoura",
+      "locationTags": [
+        "Vourvoura",
+        "Arcadia",
+        "Mystras"
+      ],
+      "lat": 37.4067,
+      "lng": 22.7,
+      "image": {
+        "src": "/images/laografia/ta-paraxena-paidia-stin-vrochi-vourvoura.webp",
+        "alt": ""
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Nikolaos Papazuras, aged 65, related to the author:"
+        },
+        {
+          "type": "text",
+          "value": "I was going to Mystras with Liberandonis. It was night, midnight, and it was raining. We sheltered under a ruin until the rain stopped."
+        },
+        {
+          "type": "text",
+          "value": "Suddenly we saw two small naked children with fire in their mouths, playing. They were going here and there. Until dawn we kept seeing them in front of us, and our blood ran cold. As soon as daylight came they vanished."
+        }
+      ],
+      "sources": [
+        {
+          "type": "book",
+          "name": "Κ. Ι. Μαντζουράνης",
+          "title": "Κυνουριακαί Παραδόσεις (εκ Βουρβούρων) - Λαογραφία περιοδικό δελτίον της Ελληνικής Λαογραφικής Εταιρείας κατά τριμηνίαν εκδιδόμενον τόμος 2",
+          "pages": "471"
+        }
+      ],
+      "tags": [
+        "Vourvoura",
+        "Arcadia",
+        "Mystras",
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece"
+      ],
+      "seo": {
+        "metaTitle": "The Strange Children in the Rain – Vourvoura | Chamodrakia – Smerdaki | haunted.gr",
+        "metaDescription": "Folkloric account of two strange children who appeared on a rainy night near Mystras. The children were naked, had fire in their mouths, and played until dawn. The testimony was recorded from Nikolaos Papazuras, aged 65.",
+        "canonical": "https://haunted.gr/laografia/xamodrakia/ta-paraxena-paidia-stin-vrochi-vourvoura",
+        "keywords": [
+          "Vourvoura",
+          "Arcadia",
+          "Mystras",
+          "Chamodrakia – Smerdaki",
+          "Folklore",
+          "Greece"
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Strange Children in the Rain – Vourvoura",
+          "description": "Folkloric account of two strange children who appeared on a rainy night near Mystras. The children were naked, had fire in their mouths, and played until dawn. The testimony was recorded from Nikolaos Papazuras, aged 65.",
+          "inLanguage": "en",
+          "datePublished": "1910",
+          "author": {
+            "@type": "Person",
+            "name": "K. I. Mantzouranис"
+          },
+          "image": "https://haunted.gr/images/laografia/ta-paraxena-paidia-stin-vrochi-vourvoura.webp",
+          "articleSection": "Chamodrakia – Smerdaki",
+          "keywords": [
+            "Vourvoura",
+            "Arcadia",
+            "Mystras",
+            "Chamodrakia – Smerdaki",
+            "Folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/xamodrakia/ta-paraxena-paidia-stin-vrochi-vourvoura"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Arcadia",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Vourvoura"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.4067,
+              "longitude": 22.7
+            }
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "seo": {
+    "metaTitle": "Chamodrakia – Smerdaki | Greek Folklore | haunted.gr",
+    "metaDescription": "A collection of 10 folkloric stories about Chamodrakia – Smerdaki in Greece.",
+    "canonical": "https://haunted.gr/laografia/xamodrakia",
+    "keywords": [
+      "Chamodrakia – Smerdaki",
+      "Folklore",
+      "Greece",
+      "Lasta of Gortinia",
+      "Gortinia",
+      "Lasta",
+      "Sparta",
+      "Zagori",
+      "Ioannina",
+      "Rethymno – Crete",
+      "Crete",
+      "Rethymno",
+      "Tripoli – Arcadia",
+      "Papari – Arcadia",
+      "Arcadia",
+      "Tripoli",
+      "Sparta – Arcadia",
+      "Lakonia",
+      "Lagkadia – Arcadia",
+      "Lagkadia",
+      "Vresthena – Lakonia",
+      "Vathy – Lakonia",
+      "Vresthena",
+      "Vourvoura",
+      "Mystras"
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Chamodrakia – Smerdaki | Greek Folklore",
+      "description": "Folkloric stories and testimonies about Chamodrakia – Smerdaki from across Greece.",
+      "inLanguage": "en",
+      "url": "https://haunted.gr/laografia/xamodrakia",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "haunted.gr",
+        "url": "https://haunted.gr"
+      },
+      "about": [
+        "Chamodrakia – Smerdaki",
+        "Folklore",
+        "Greece",
+        "Lasta of Gortinia",
+        "Gortinia",
+        "Lasta",
+        "Sparta",
+        "Zagori",
+        "Ioannina",
+        "Rethymno – Crete",
+        "Crete",
+        "Rethymno",
+        "Tripoli – Arcadia",
+        "Papari – Arcadia",
+        "Arcadia",
+        "Tripoli",
+        "Sparta – Arcadia",
+        "Lakonia",
+        "Lagkadia – Arcadia",
+        "Lagkadia"
+      ]
+    }
+  }
+}

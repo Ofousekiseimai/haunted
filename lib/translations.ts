@@ -6,6 +6,7 @@ const CATEGORY_TRANSLATIONS: Record<string, { en?: string }> = {
   efimerides: { en: "Newspapers" },
   vivlia: { en: "Books" },
   chronologia: { en: "Timelines" },
+  parafysiko: { en: "Paranormal Timeline" },
   map: { en: "Maps" },
   map2: { en: "Maps" },
   about: { en: "About Us" },
@@ -51,6 +52,9 @@ const SUBCATEGORY_TRANSLATIONS: Record<string, { en?: string }> = {
   // Χάρτες
   "laografia-map": { en: "Folklore Map" },
   "efimerides-map": { en: "Articles Map" },
+  // Χρονολόγια (timeline nav subitems)
+  parafysiko: { en: "Paranormal Timeline" },
+  "etaireia-psychikon-ereynon": { en: "GSPR Timeline" },
 };
 
 function isEnglish(locale: Locale) {

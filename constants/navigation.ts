@@ -89,7 +89,7 @@ const navigationBase: NavigationItem[] = [
     url: "/chronologia",
     subitems: [
       { slug: "all", title: "Όλα", url: "/chronologia" },
-      { slug: "egklimata", title: "Χρονολόγιο του Παραφυσικού", url: "/chronologia/parafysiko" },
+      { slug: "parafysiko", title: "Χρονολόγιο του Παραφυσικού", url: "/chronologia/parafysiko" },
       { slug: "etaireia-psychikon-ereynon", title: "Χρονολόγιο Εταιρίας Ψυχικών Ερευνών", url: "/chronologia/etaireia-psychikon-ereynon" },
     ],
     
