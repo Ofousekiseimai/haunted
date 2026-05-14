@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { unstable_cache } from "next/cache";
 
 import { ensureSlug } from "./slug";
 
@@ -54,6 +55,20 @@ export interface SubcategoryData {
   subcategorySlug: string;
   seo?: SubcategorySeo;
   articles: Article[];
+}
+
+async function batchedMap<T, R>(
+  items: T[],
+  fn: (item: T, index: number) => Promise<R>,
+  batchSize = 8,
+): Promise<R[]> {
+  const results: R[] = [];
+  for (let i = 0; i < items.length; i += batchSize) {
+    const batch = items.slice(i, i + batchSize);
+    const batchResults = await Promise.all(batch.map((item, j) => fn(item, i + j)));
+    results.push(...batchResults);
+  }
+  return results;
 }
 
 async function fileExists(filePath: string) {
@@ -139,7 +154,7 @@ export async function readJsonFile<T>(filePath: string): Promise<T | null> {
   }
 }
 
-export async function getSubcategoryData(
+async function _getSubcategoryData(
   categoryKey: string,
   subcategorySlug: string,
   locale: Locale = DEFAULT_LOCALE,
@@ -178,27 +193,25 @@ export async function getSubcategoryData(
   const fallbackKeywords = data.seo?.keywords;
 
   const articles = Array.isArray(data.articles)
-    ? await Promise.all(
-        data.articles.map(async (article, index) => {
-          const slug = ensureSlug(
-            typeof article.slug === "string" ? article.slug : undefined,
-            `${article.title ?? "article"}-${article.id ?? index + 1}`,
-          );
+    ? await batchedMap(data.articles, async (article, index) => {
+        const slug = ensureSlug(
+          typeof article.slug === "string" ? article.slug : undefined,
+          `${article.title ?? "article"}-${article.id ?? index + 1}`,
+        );
 
-          const image = await normalizeArticleImage(article.image);
+        const image = await normalizeArticleImage(article.image);
 
-          const normalizedArticle: Article = {
-            ...article,
-            slug,
-            image,
-          };
+        const normalizedArticle: Article = {
+          ...article,
+          slug,
+          image,
+        };
 
-          return applyArticleSeoDefaults(normalizedArticle, {
-            canonicalBasePath,
-            fallbackKeywords,
-          });
-        }),
-      )
+        return applyArticleSeoDefaults(normalizedArticle, {
+          canonicalBasePath,
+          fallbackKeywords,
+        });
+      })
     : [];
 
   return {
@@ -207,6 +220,12 @@ export async function getSubcategoryData(
     articles,
   };
 }
+
+export const getSubcategoryData = unstable_cache(
+  _getSubcategoryData,
+  ["subcategory-data"],
+  { revalidate: 3600 },
+);
 
 export async function getArticleFromCategory(
   categoryKey: string,
