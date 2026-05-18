@@ -7719,6 +7719,10 @@
       "subLocation": "Νεάπολη",
       "lat": 40.3317,
       "lng": 21.3792,
+            "image": {
+        "src": "/images/laografia/oi-vroukolakes-sti-neapoli-kozanis.webp",
+        "alt": "Παράδοση για τους βουρβουλλάκους και τις κλειδαρότρυπες στη Νεάπολη Κοζάνης"
+      },
       "content": [
         {
           "type": "text",
@@ -7861,6 +7865,10 @@
       "subLocation": "Δροσοπηγή",
       "lat": 39.2,
       "lng": 21.05,
+      "image": {
+        "src": "/images/laografia/teleti-gia-apofygi-vrykolakiasmatos-drosopigi-artas.webp",
+        "alt": ""
+      },
       "content": [
         {
           "type": "text",
@@ -7960,6 +7968,10 @@
       "mainArea": "Ρόδος",
       "lat": 36.4341,
       "lng": 28.2176,
+      "image": {
+        "src": "/images/laografia/prolipsi-vrykolakiasmatos-lechwonas-rodos.webp",
+        "alt": ""
+      },
       "content": [
         {
           "type": "text",
