@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 
-import { GlowCard } from "@/components/ui/glow-card";
+import { PlateImage } from "@/components/ui/plate-image";
 import type { Book } from "@/lib/books";
 import type { Locale } from "@/lib/locale";
 
@@ -13,6 +12,11 @@ type BookCardProps = {
   locale?: Locale;
 };
 
+/**
+ * A book in the catalogue. Covers are portrait, so unlike an article plate
+ * they get a taller aspect and are contained rather than cropped — a cropped
+ * book cover loses the thing that identifies it.
+ */
 export function BookCard({
   book,
   href,
@@ -21,99 +25,55 @@ export function BookCard({
   locale = "el",
 }: BookCardProps) {
   const { title, excerpt, author, image, purchaseUrl, subcategory } = book;
-  const moreLabel = locale === "en" ? "More →" : "Περισσότερα →";
+  const moreLabel = locale === "en" ? "More" : "Περισσότερα";
 
-  const cardCta =
-    showPurchaseButton && purchaseUrl ? (
-      <a
-        href={purchaseUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-auto inline-flex items-center text-sm font-semibold transition hover:text-[var(--accent-bright)]"
-        style={{ color: "var(--accent)" }}
-      >
-        {moreLabel}
-      </a>
-    ) : href && showLinkCta ? (
-      <Link
-        href={href}
-        className="mt-auto inline-flex items-center text-sm font-semibold transition hover:text-[var(--accent-bright)]"
-        style={{ color: "var(--accent)" }}
-      >
-        {moreLabel}
-      </Link>
-    ) : null;
-
-  return (
-    <article className="group h-full">
-      <GlowCard className="flex h-full flex-col">
+  const body = (
+    <>
+      <div className="book__cover">
         {image?.src ? (
-          <div className="relative -mx-6 -mt-6 mb-4 aspect-[4/3] w-[calc(100%+3rem)] overflow-hidden">
-            <Image
-              src={image.src}
-              alt={image.alt ?? title}
-              fill
-              className="object-cover transition duration-300 group-hover:scale-105"
-              sizes="(min-width: 1280px) 360px, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-            />
-          </div>
+          <PlateImage
+            src={image.src}
+            alt={image.alt ?? title}
+            width={480}
+            height={720}
+            sizes="(min-width: 64rem) 25vw, (min-width: 40rem) 50vw, 100vw"
+          />
         ) : (
-          <div
-            className="flex -mx-6 -mt-6 mb-4 aspect-[4/3] w-[calc(100%+3rem)] items-center justify-center text-sm"
-            style={{ background: "var(--surface)", color: "var(--ash-dim)" }}
-          >
-            Χωρίς εικόνα
-          </div>
+          <span className="mono mono--micro">—</span>
         )}
-
-        <div className="flex flex-1 flex-col gap-3">
-          {subcategory && (
-            <p
-              className="uppercase"
-              style={{
-                fontFamily: "var(--font-code)",
-                fontSize: "var(--fs-meta)",
-                letterSpacing: "0.18em",
-                color: "var(--ash-dim)",
-              }}
-            >
-              {subcategory}
-            </p>
-          )}
-
-          {href ? (
-            <Link href={href} className="block">
-              <h3
-                className="text-2xl font-semibold transition group-hover:text-[var(--accent-bright)]"
-                style={{ color: "var(--bone)" }}
-              >
-                {title}
-              </h3>
-            </Link>
-          ) : (
-            <h3
-              className="text-2xl font-semibold transition group-hover:text-[var(--accent-bright)]"
-              style={{ color: "var(--bone)" }}
-            >
-              {title}
-            </h3>
-          )}
-
-          {author && (
-            <p className="text-sm" style={{ color: "var(--ash-dim)" }}>
-              Συγγραφέας: {author}
-            </p>
-          )}
-
-          {excerpt && (
-            <p className="text-sm leading-6" style={{ color: "var(--ash)" }}>
-              {excerpt}
-            </p>
-          )}
-
-          {cardCta}
-        </div>
-      </GlowCard>
-    </article>
+      </div>
+      <div className="flex flex-col gap-2">
+        {subcategory && <span className="mono mono--micro">{subcategory}</span>}
+        <h3 className="rec__title">{title}</h3>
+        {author && <span className="mono mono--micro">{author}</span>}
+        {excerpt && <p className="rec__excerpt">{excerpt}</p>}
+      </div>
+    </>
   );
+
+  if (showPurchaseButton && purchaseUrl) {
+    return (
+      <article className="rec group">
+        {body}
+        <a
+          href={purchaseUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mono tlink mt-1 self-start"
+        >
+          {moreLabel} &rarr;
+        </a>
+      </article>
+    );
+  }
+
+  if (href && showLinkCta) {
+    return (
+      <Link href={href} className="rec group">
+        {body}
+      </Link>
+    );
+  }
+
+  return <article className="rec">{body}</article>;
 }

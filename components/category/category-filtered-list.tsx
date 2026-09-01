@@ -63,7 +63,7 @@ export function CategoryFilteredList({
       }
     });
 
-    return [{ value: "all", label: copy.allAreas }, ...sortOptions(Array.from(unique.values()))];
+    return sortOptions(Array.from(unique.values()));
   }, [articles]);
 
   const subLocationOptions = useMemo(() => {
@@ -84,8 +84,16 @@ export function CategoryFilteredList({
       }
     });
 
-    return [{ value: "all", label: copy.allLocations }, ...sortOptions(Array.from(unique.values()))];
+    return sortOptions(Array.from(unique.values()));
   }, [articles, selectedMainArea]);
+
+  /* The "all" option is a label, not data: keeping it inside the memos meant
+     every dep array had to include `copy`, which is rebuilt each render and
+     defeats the memo — the React Compiler flagged exactly that. */
+  const withAll = (label: string, options: FilterOption[]) => [
+    { value: "all", label },
+    ...options,
+  ];
 
   const resolvedSubLocation = useMemo(() => {
     return subLocationOptions.some((option) => option.value === selectedSubLocationRaw)
@@ -117,7 +125,7 @@ export function CategoryFilteredList({
       }
     });
 
-    return [{ value: "all", label: copy.allYears }, ...sortYearOptions(Array.from(unique.values()))];
+    return sortYearOptions(Array.from(unique.values()));
   }, [articles, selectedMainArea, resolvedSubLocation]);
 
   const resolvedYear = useMemo(() => {
@@ -148,9 +156,9 @@ export function CategoryFilteredList({
               setSelectedSubLocationRaw("all");
               setSelectedYearRaw("all");
             }}
-            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-[var(--accent)] focus:outline-none"
+            className="select"
           >
-            {mainAreaOptions.map((option) => (
+            {withAll(copy.allAreas, mainAreaOptions).map((option) => (
               <option key={option.value} value={option.value}>
                 {option.label}
               </option>
@@ -167,9 +175,9 @@ export function CategoryFilteredList({
               setSelectedSubLocationRaw(value);
               setSelectedYearRaw("all");
             }}
-            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-[var(--accent)] focus:outline-none"
+            className="select"
           >
-            {subLocationOptions.map((option) => (
+            {withAll(copy.allLocations, subLocationOptions).map((option) => (
               <option key={option.value} value={option.value}>
                 {option.label}
               </option>
@@ -182,9 +190,9 @@ export function CategoryFilteredList({
           <select
             value={resolvedYear}
             onChange={(event) => setSelectedYearRaw(event.target.value)}
-            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-[var(--accent)] focus:outline-none"
+            className="select"
           >
-            {yearOptions.map((option) => (
+            {withAll(copy.allYears, yearOptions).map((option) => (
               <option key={option.value} value={option.value}>
                 {option.label}
               </option>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { CategorySubcategoryCard } from "@/components/category/subcategory-card";
+import { CollectionPreview } from "@/components/category/collection-preview";
 import { Section } from "@/components/section";
 import { SectionHeader } from "@/components/section-header";
 import {
@@ -41,7 +41,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {};
   }
 
-  const locale = await getRequestLocale();
   const copy = getGenericCategoryCopy(category);
   const overview = await getGenericCategoryOverview(category);
 
@@ -103,29 +102,30 @@ export default async function GenericCategoryIndexPage({ params }: PageProps) {
           overview?.description ??
           copy.description
         }
+        actions={
+          totalArticles > 0 ? (
+            <span className="mono">
+              {totalArticles} {locale === "en" ? "records" : "τεκμήρια"}
+            </span>
+          ) : undefined
+        }
       />
 
-      {typeof totalArticles === "number" && totalArticles > 0 && (
-        <p className="text-sm uppercase tracking-[0.28em] text-zinc-500">
-          Συνολικά τεκμήρια: {totalArticles}
-        </p>
-      )}
-
-      <div className="grid gap-8 md:grid-cols-2">
-        {subcategories.map((subcategory) => (
-          <CategorySubcategoryCard
-            key={subcategory.subcategorySlug ?? subcategory.slug}
-            href={`/${category}/${subcategory.subcategorySlug ?? subcategory.slug}`}
-            categoryLabel={copy.label}
-            title={subcategory.subcategory}
-            description={
-              subcategory.seo?.metaDescription ??
-              `Συλλογή ${subcategory.articles.length} τεκμηρίων από την ενότητα ${subcategory.subcategory}.`
-            }
-            articleCount={subcategory.articles.length}
-            ctaLabel={copy.articleCta}
-          />
-        ))}
+      <div>
+        {subcategories.map((subcategory) => {
+          const slug = subcategory.subcategorySlug ?? subcategory.slug;
+          return (
+            <CollectionPreview
+              key={slug}
+              title={subcategory.subcategory}
+              href={`/${category}/${slug}`}
+              articles={(subcategory.articles ?? []).slice(0, 3)}
+              total={subcategory.articles?.length ?? 0}
+              variant="plates"
+              locale={locale}
+            />
+          );
+        })}
       </div>
 
       {overview?.seo?.structuredData && (

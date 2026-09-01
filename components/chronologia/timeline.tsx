@@ -155,7 +155,7 @@ export function ChronologioTimeline({
                 onClick={() => jumpToYear(year)}
                 className={`flex-shrink-0 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-all duration-150 ${
                   activeYear === year
-                    ? "bg-[var(--accent)] text-[var(--void)] shadow-sm"
+                    ? "bg-[var(--ember)] text-[var(--ember-ink)]"
                     : "text-zinc-500 hover:bg-white/5 hover:text-zinc-200"
                 }`}
               >
@@ -185,9 +185,9 @@ export function ChronologioTimeline({
               {/* Year dot */}
               <div
                 aria-hidden
-                className="absolute left-0 top-1 flex h-6 w-6 items-center justify-center rounded-full border-2 border-[var(--accent)] bg-n-9 md:h-7 md:w-7"
+                className="absolute left-0 top-1 flex h-6 w-6 items-center justify-center rounded-full border-2 border-[var(--ember-line)] bg-[var(--panel)] md:h-7 md:w-7"
               >
-                <div className="h-2 w-2 rounded-full bg-[var(--accent-bright)]" />
+                <div className="h-2 w-2 rounded-full bg-[var(--ember-hi)]" />
               </div>
 
               {/* Year header */}
@@ -204,7 +204,7 @@ export function ChronologioTimeline({
                   <Link
                     key={`${item.year}-${item.slug}`}
                     href={item.path}
-                    className="group relative block rounded-xl border border-white/5 bg-white/[0.02] p-4 transition duration-200 hover:border-[var(--hairline-strong)] hover:bg-white/[0.05] active:scale-[0.99]"
+                    className="group relative block rounded-xl border border-white/5 bg-white/[0.02] p-4 transition duration-200 hover:border-[var(--rule-mid)] hover:bg-white/[0.05] active:scale-[0.99]"
                   >
                     {/* Date + subcategory row */}
                     <div className="mb-1.5 flex flex-wrap items-center gap-x-2 gap-y-1">
@@ -218,7 +218,7 @@ export function ChronologioTimeline({
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-base font-semibold leading-snug text-zinc-100 transition group-hover:text-[var(--accent-bright)] md:text-lg">
+                    <h3 className="text-base font-semibold leading-snug text-zinc-100 transition group-hover:text-[var(--ember-text)] md:text-lg">
                       {item.title}
                     </h3>
 
@@ -232,7 +232,7 @@ export function ChronologioTimeline({
                     {/* Arrow */}
                     <span
                       aria-hidden
-                      className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-700 transition group-hover:translate-x-0.5 group-hover:text-[var(--accent-bright)]"
+                      className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-700 transition group-hover:translate-x-0.5 group-hover:text-[var(--ember-text)]"
                     >
                       →
                     </span>

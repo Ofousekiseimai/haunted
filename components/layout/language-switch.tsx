@@ -34,11 +34,11 @@ export function LanguageSwitch({ initialLocale, variant = "desktop" }: LanguageS
   const targetLabel = locale === "en" ? "EL" : "EN";
 
   const baseClasses =
-    "inline-flex items-center gap-2 rounded-full border px-3 py-2 text-xs font-semibold uppercase tracking-[0.24em] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] disabled:opacity-60";
+    "inline-flex items-center gap-2 rounded-full border px-3 py-2 text-xs font-semibold uppercase tracking-[0.24em] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ember-text)] disabled:opacity-60";
   const variantClasses =
     variant === "mobile"
-      ? "w-full justify-center border-n-6 bg-n-7 text-n-1 hover:border-[var(--hairline-strong)] hover:text-[var(--accent-bright)]"
-      : "border-n-6 text-n-1 hover:border-[var(--hairline-strong)] hover:text-[var(--accent-bright)]";
+      ? "w-full justify-center border-n-6 bg-n-7 text-n-1 hover:border-[var(--rule-mid)] hover:text-[var(--ember-text)]"
+      : "border-n-6 text-n-1 hover:border-[var(--rule-mid)] hover:text-[var(--ember-text)]";
 
   return (
     <button

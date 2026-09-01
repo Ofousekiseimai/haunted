@@ -131,7 +131,7 @@ export default async function EtaireiaSubcategoryPage({ params }: PageProps) {
         )}
       />
 
-      <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+      <div className="clips">
         {subcategory.articles.map((article) => {
           const location = getLocationLabel(article);
           const tags = Array.isArray(article.tags)

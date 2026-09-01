@@ -130,7 +130,7 @@ export default async function LaografiaSubcategoryPage({ params }: PageProps) {
         )}
       />
 
-      <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+      <div className="recs">
         {subcategory.articles.map((article) => (
           <CategoryArticleCard
             key={`${article.id}-${article.slug}`}
@@ -142,6 +142,7 @@ export default async function LaografiaSubcategoryPage({ params }: PageProps) {
             location={getLocationLabel(article)}
             tags={getTags(article)}
             image={article.image}
+            variant="gallery"
             locale={locale}
           />
         ))}

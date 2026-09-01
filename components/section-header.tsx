@@ -5,44 +5,41 @@ type SectionHeaderProps = {
   title: string;
   description?: string;
   actions?: ReactNode;
+  /** Renders the title as h1. Use on a page's own heading block. */
+  as?: "h1" | "h2";
 };
 
-export function SectionHeader({ eyebrow, title, description, actions }: SectionHeaderProps) {
+/**
+ * The shared page/section heading, in the site vocabulary.
+ *
+ * It used to hand-roll its own inline styles and emit an <h1> wherever it was
+ * dropped, which put several h1s on pages that already had one.
+ */
+export function SectionHeader({
+  eyebrow,
+  title,
+  description,
+  actions,
+  as: Heading = "h1",
+}: SectionHeaderProps) {
   return (
-    <header className="space-y-4">
-      <div className="flex items-start justify-between gap-6">
-        <div className="space-y-3">
-          {eyebrow && (
-            <p
-              className="uppercase"
-              style={{
-                fontFamily: "var(--font-code)",
-                fontSize: "var(--fs-meta)",
-                letterSpacing: "0.22em",
-                color: "var(--accent)",
-              }}
-            >
-              {eyebrow}
-            </p>
-          )}
-          <h1
-            className="font-light"
-            style={{
-              fontFamily: "var(--font-display)",
-              fontSize: "var(--fs-h2)",
-              color: "var(--bone)",
-            }}
-          >
-            {title}
-          </h1>
-          {description && (
-            <p className="max-w-2xl text-lg" style={{ color: "var(--ash)" }}>
-              {description}
-            </p>
-          )}
-        </div>
-        {actions ? <div className="mt-2 flex-shrink-0">{actions}</div> : null}
+    <header className="shead">
+      <div>
+        {eyebrow && (
+          <div className="shead__kicker">
+            <span className="mark" aria-hidden="true" />
+            <span className="mono">{eyebrow}</span>
+          </div>
+        )}
+        <Heading className="shead__title">{title}</Heading>
       </div>
+
+      {(description || actions) && (
+        <div className="shead__side">
+          {description && <p className="shead__desc">{description}</p>}
+          {actions}
+        </div>
+      )}
     </header>
   );
 }

@@ -5,7 +5,6 @@ import { Section } from "@/components/section";
 import { SectionHeader } from "@/components/section-header";
 import { searchArticles } from "@/lib/search";
 import { getRequestLocale } from "@/lib/locale-server";
-import { translateCategoryLabel } from "@/lib/translations";
 
 const CANONICAL_URL = "https://haunted.gr/search";
 
