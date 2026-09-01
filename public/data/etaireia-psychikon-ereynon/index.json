@@ -4,19 +4,19 @@
   "subcategories": [
     {
       "slug": "arthra-dialexeis",
-      "title": "'Αρθρα & Διαλέξεις",
+      "title": "Άρθρα & Διαλέξεις",
       "count": 34,
       "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/arthra-dialexeis"
     },
     {
       "slug": "erevnes-fainomena",
-      "title": "Τηλεκίνητικά Φαινόμενα",
+      "title": "Τηλεκινητικά Φαινόμενα",
       "count": 27,
       "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena"
     },
     {
       "slug": "medium-etaireias",
-      "title": "Τα Μέντιουμ της Εταιρίας",
+      "title": "Τα Μέντιουμ της Ε.Ψ.Ε",
       "count": 12,
       "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/medium-etaireias"
     },
@@ -33,7 +33,7 @@
     "Ψυχικά Φαινόμενα",
     "παραψυχολογία",
     "Ελλάδα",
-    "'Αρθρα & Διαλέξεις",
+    "Άρθρα & Διαλέξεις",
     "Αθήνα",
     "Νέα Υόρκη",
     "Πανεπιστήμιο Αθηνών",
@@ -60,7 +60,7 @@
     "Παρίσι",
     "Βόρειες Επαρχίες",
     "Σόροβιτς",
-    "Τηλεκίνητικά Φαινόμενα",
+    "Τηλεκινητικά Φαινόμενα",
     "Λαμία",
     "Κρήτη",
     "Φραγκοκάστελλο",
@@ -79,7 +79,7 @@
       "Ψυχικά Φαινόμενα",
       "παραψυχολογία",
       "Ελλάδα",
-      "'Αρθρα & Διαλέξεις",
+      "Άρθρα & Διαλέξεις",
       "Αθήνα",
       "Νέα Υόρκη",
       "Πανεπιστήμιο Αθηνών",
@@ -106,7 +106,7 @@
       "Παρίσι",
       "Βόρειες Επαρχίες",
       "Σόροβιτς",
-      "Τηλεκίνητικά Φαινόμενα",
+      "Τηλεκινητικά Φαινόμενα",
       "Λαμία",
       "Κρήτη",
       "Φραγκοκάστελλο",
@@ -133,7 +133,7 @@
         "Ψυχικά Φαινόμενα",
         "παραψυχολογία",
         "Ελλάδα",
-        "'Αρθρα & Διαλέξεις",
+        "Άρθρα & Διαλέξεις",
         "Αθήνα",
         "Νέα Υόρκη",
         "Πανεπιστήμιο Αθηνών",
@@ -153,25 +153,25 @@
       "hasPart": [
         {
           "@type": "CollectionPage",
-          "name": "'Αρθρα & Διαλέξεις",
+          "name": "Άρθρα & Διαλέξεις",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/arthra-dialexeis",
           "numberOfItems": 34
         },
         {
           "@type": "CollectionPage",
-          "name": "Τηλεκίνητικά Φαινόμενα",
+          "name": "Τηλεκινητικά Φαινόμενα",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/erevnes-fainomena",
           "numberOfItems": 27
         },
         {
           "@type": "CollectionPage",
-          "name": "Τηλεκίνητικά Φαινόμενα",
+          "name": "Τηλεκινητικά Φαινόμενα",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/medium-etaireias",
           "numberOfItems": 12
         },
         {
           "@type": "CollectionPage",
-          "name": "'Πειράματα",
+          "name": "Πειράματα",
           "url": "https://haunted.gr/etaireia-psychikon-ereynon/peiramata",
           "numberOfItems": 3
         }

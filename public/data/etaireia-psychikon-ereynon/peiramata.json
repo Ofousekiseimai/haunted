@@ -1,7 +1,7 @@
 {
   "category": "etaireia-psychikon-ereynon",
   "subcategorySlug": "peiramata",
-  "subcategory": "'Πειράματα",
+  "subcategory": "Πειράματα",
   "slug": "etaireia-psychikon-ereynon/peiramata",
   "articles": [
     {
@@ -57,7 +57,7 @@
       "tags": [
         "Κολοκυνθού",
         "Αθήνα",
-        "'Πειράματα",
+        "Πειράματα",
         "Εταιρεία Ψυχικών Ερευνών",
         "Ψυχικά Φαινόμενα",
         "Ελλάδα"
@@ -69,7 +69,7 @@
         "keywords": [
           "Κολοκυνθού",
           "Αθήνα",
-          "'Πειράματα",
+          "Πειράματα",
           "Εταιρεία Ψυχικών Ερευνών",
           "Ψυχικά Φαινόμενα",
           "Ελλάδα"
@@ -82,11 +82,11 @@
           "inLanguage": "el",
           "datePublished": "1929-11-14",
           "image": "https://haunted.gr/images/efimerides/peiramata-ravdoskopias.webp",
-          "articleSection": "'Πειράματα",
+          "articleSection": "Πειράματα",
           "keywords": [
             "Κολοκυνθού",
             "Αθήνα",
-            "'Πειράματα",
+            "Πειράματα",
             "Εταιρεία Ψυχικών Ερευνών",
             "Ψυχικά Φαινόμενα",
             "Ελλάδα"
@@ -536,11 +536,11 @@
 
   ],
   "seo": {
-    "metaTitle": "'Πειράματα | Εταιρεία Ψυχικών Ερευνών | haunted.gr",
-    "metaDescription": "Συλλογή 1 αρχειακών τεκμηρίων για 'Πειράματα από την Εταιρεία Ψυχικών Ερευνών.",
+    "metaTitle": "Πειράματα | Εταιρεία Ψυχικών Ερευνών | haunted.gr",
+    "metaDescription": "Συλλογή 1 αρχειακών τεκμηρίων για Πειράματα από την Εταιρεία Ψυχικών Ερευνών.",
     "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/peiramata",
     "keywords": [
-      "'Πειράματα",
+      "Πειράματα",
       "Εταιρεία Ψυχικών Ερευνών",
       "Ψυχικά Φαινόμενα",
       "Ελλάδα",
@@ -550,8 +550,8 @@
     "structuredData": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "'Πειράματα | Εταιρεία Ψυχικών Ερευνών",
-      "description": "Αρχειακό υλικό και μελέτες για 'Πειράματα από την Εταιρεία Ψυχικών Ερευνών.",
+      "name": "Πειράματα | Εταιρεία Ψυχικών Ερευνών",
+      "description": "Αρχειακό υλικό και μελέτες για Πειράματα από την Εταιρεία Ψυχικών Ερευνών.",
       "inLanguage": "el",
       "url": "https://haunted.gr/etaireia-psychikon-ereynon/peiramata",
       "isPartOf": {
@@ -560,7 +560,7 @@
         "url": "https://haunted.gr"
       },
       "about": [
-        "'Πειράματα",
+        "Πειράματα",
         "Εταιρεία Ψυχικών Ερευνών",
         "Ψυχικά Φαινόμενα",
         "Ελλάδα",
