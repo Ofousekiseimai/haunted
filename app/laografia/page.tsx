@@ -1,53 +1,67 @@
 import type { Metadata } from "next";
 
-import { Section } from "@/components/section";
+import { CollectionPreview } from "@/components/category/collection-preview";
 import { getAllLaografiaSubcategories } from "@/lib/laografia";
-import { SectionHeader } from "@/components/section-header";
-import { SubcategoryCard } from "@/components/laografia/subcategory-card";
-import { formatCollectionDescription } from "@/lib/description";
 import { getRequestLocale } from "@/lib/locale-server";
+import { translateSubcategoryLabel } from "@/lib/translations";
+
+/** How many records each collection shows before the button through. */
+const PREVIEW = 3;
 
 export const metadata: Metadata = {
-  title: "Λαογραφία",
+  title: "Λαογραφικές παραδόσεις",
   description:
     "Εξερεύνησε κατηγορίες λαογραφικών ιστοριών από όλη την Ελλάδα: στοιχειά, νεράιδες, βρικόλακες και πολλά ακόμη.",
+  alternates: {
+    canonical: "https://haunted.gr/laografia",
+  },
 };
 
 export default async function LaografiaIndexPage() {
   const locale = await getRequestLocale();
   const subcategories = await getAllLaografiaSubcategories(locale);
   const totalArticles = subcategories.reduce(
-    (count, entry) => count + entry.articles.length,
+    (count, entry) => count + (entry.articles?.length ?? 0),
     0,
   );
 
-  const categoryLabel = locale === "en" ? "Folklore" : "Λαογραφία";
-
   return (
-    <Section className="container space-y-12">
-      <SectionHeader
-        eyebrow={categoryLabel}
-        title={locale === "en" ? "Myths and folklore of Greece" : "Μύθοι και παραδόσεις της Ελλάδας"}
-        description={formatCollectionDescription(
-          undefined,
-          totalArticles,
-          locale === "en"
-            ? "Discover haunted places, folk beliefs, and stories passed down through generations."
-            : "Στα αρχεία μας θα βρεις καταγραφές στοιχειωμένων τόπων, λαϊκές δοξασίες και ιστορίες που ταξιδεύουν από γενιά σε γενιά.",
-        )}
-      />
-
-      {totalArticles > 0 && (
-        <p className="text-sm uppercase tracking-[0.28em] text-zinc-500">
-          Συνολικά τεκμήρια: {totalArticles}
-        </p>
-      )}
-
-      <div className="grid gap-8 md:grid-cols-2">
-        {subcategories.map((subcategory) => (
-          <SubcategoryCard key={subcategory.subcategorySlug} subcategory={subcategory} locale={locale} />
-        ))}
+    <>
+      <div className="frame page-head">
+        <div className="shead">
+          <div>
+            <div className="shead__kicker">
+              <span className="mark" aria-hidden="true" />
+              <span className="mono">{locale === "en" ? "Folklore" : "Λαογραφία"}</span>
+            </div>
+            <h1 className="shead__title">
+              {locale === "en" ? "Folk traditions" : "Λαογραφικές παραδόσεις"}
+            </h1>
+          </div>
+          <p className="shead__desc">
+            {locale === "en"
+              ? `${totalArticles} records of haunted places, folk beliefs and stories passed down through generations.`
+              : `${totalArticles} τεκμήρια: στοιχειωμένοι τόποι, λαϊκές δοξασίες και ιστορίες που ταξιδεύουν από γενιά σε γενιά.`}
+          </p>
+        </div>
       </div>
-    </Section>
+
+      <div className="frame">
+        {subcategories.map((subcategory) => {
+          const slug = subcategory.subcategorySlug ?? subcategory.slug;
+          return (
+            <CollectionPreview
+              key={slug}
+              title={translateSubcategoryLabel(slug, subcategory.subcategory, locale)}
+              href={`/laografia/${slug}`}
+              articles={(subcategory.articles ?? []).slice(0, PREVIEW)}
+              total={subcategory.articles?.length ?? 0}
+              variant="gallery"
+              locale={locale}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 }
