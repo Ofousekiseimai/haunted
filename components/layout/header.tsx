@@ -23,6 +23,12 @@ const InstagramIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+const CaretIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} {...props}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+);
+
 function useDisableBodyScroll(disabled: boolean) {
   useEffect(() => {
     if (!disabled) {
@@ -54,12 +60,28 @@ type HeaderProps = {
   initialLocale: Locale;
 };
 
+/**
+ * A masthead: wordmark left, navigation through the middle, utilities right,
+ * on ONE row. The previous header stacked two full-width rows and centred
+ * three things independently inside them — the language pill alone at the far
+ * left, the wordmark absolutely centred, the search icon at the far right,
+ * and the whole navigation centred on a second row below. Nothing lined up
+ * with anything, and it cost 5.25rem of vertical space on every page.
+ */
 export function Header({ initialLocale }: HeaderProps) {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const isDarkBackground = useMemo(() => pathname !== "/", [pathname]);
+  const [scrolled, setScrolled] = useState(false);
+  const isHome = useMemo(() => pathname === "/", [pathname]);
   const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const scheduleClose = useCallback(() => {
     if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
@@ -74,9 +96,12 @@ export function Header({ initialLocale }: HeaderProps) {
     setOpenDropdown(id);
   }, []);
 
-  useEffect(() => () => {
-    if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
-  }, []);
+  useEffect(
+    () => () => {
+      if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
+    },
+    [],
+  );
 
   const closeMobileMenu = useCallback(() => {
     setMobileOpen(false);
@@ -95,156 +120,111 @@ export function Header({ initialLocale }: HeaderProps) {
 
   useDisableBodyScroll(mobileOpen);
 
+  const navItems = getNavigation(initialLocale).filter(
+    (item) => !item.onlyMobile && item.url !== "/search",
+  );
+
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-[1200] border-b border-n-6 transition-colors ${
-        mobileOpen
-          ? "bg-n-8"
-          : isDarkBackground
-            ? "bg-n-8/90 backdrop-blur-sm"
-            : "bg-n-8/80 backdrop-blur-sm"
-      }`}
+      className="masthead"
+      data-scrolled={scrolled || !isHome}
+      data-open={mobileOpen}
+      onMouseLeave={scheduleClose}
     >
-      <div className="relative flex items-center px-5 py-4 lg:px-7.5 xl:px-10">
-        <div className="flex w-1/2 items-center">
-          <Link
-            href="/"
-            className="block text-sm font-semibold uppercase tracking-[0.32em] text-n-1 transition-colors hover:text-color-1"
-          >
-            haunted.gr
-          </Link>
-        </div>
+      <div className="masthead__inner">
+        <Link href="/" className="wordmark">
+          <span className="wordmark__name">haunted</span>
+          <span className="wordmark__sub">Αρχείο</span>
+        </Link>
 
-        <a
-          href="https://www.instagram.com/haunted.gr/"
-          aria-label="Instagram"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-n-1 transition hover:text-color-1 lg:hidden"
-        >
-          <InstagramIcon className="h-5 w-5" />
-        </a>
+        <nav className="nav hidden lg:flex" aria-label="Κύρια πλοήγηση">
+          {navItems.map((item) => {
+            const isActive =
+              item.url === "/" ? pathname === item.url : pathname.startsWith(item.url);
 
-        <nav
-          className="hidden w-1/2 items-center justify-end lg:flex"
-          onMouseLeave={scheduleClose}
-        >
-          <div className="relative flex items-center gap-2">
-            {getNavigation(initialLocale).filter((item) => !item.onlyMobile).map((item) => {
-              const isActive =
-                item.url === "/"
-                  ? pathname === item.url
-                  : pathname.startsWith(item.url) && item.url !== "/";
-              const isSearchItem = item.url === "/search";
-
+            if (!item.subitems) {
               return (
-                <div
+                <Link
                   key={item.id}
-                  className="relative"
-                  onMouseLeave={scheduleClose}
+                  href={item.url}
+                  className="nav__link"
+                  data-active={isActive}
                 >
-                  {item.subitems ? (
-                    <>
-                      <button
-                        type="button"
-                        className={`flex items-center whitespace-nowrap px-4 py-3 font-code text-xs font-semibold uppercase tracking-widest transition-colors hover:text-color-1 xl:px-6 xl:text-sm ${
-                          isActive ? "text-n-1" : "text-n-1/70"
-                        }`}
-                        onClick={() =>
-                          setOpenDropdown((current) => (current === item.id ? null : item.id))
-                        }
-                        onMouseEnter={() => cancelAndOpen(item.id)}
-                        onFocus={() => cancelAndOpen(item.id)}
-                      >
-                        {item.title}
-                        <svg
-                          className="ml-2 h-4 w-4"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
-                      </button>
-
-                      <div
-                        className={`absolute left-1/2 top-full hidden -translate-x-1/2 rounded-lg border border-n-6 bg-n-8/95 py-2 shadow-xl transition ${
-                          openDropdown === item.id ? "lg:block" : ""
-                        }`}
-                        onMouseEnter={() => cancelAndOpen(item.id)}
-                        onMouseLeave={scheduleClose}
-                      >
-                        {item.subitems.map((subitem) => (
-                          <Link
-                            href={subitem.url}
-                            key={subitem.slug}
-                            className="block px-5 py-2 text-sm text-n-1/80 transition hover:bg-n-7 hover:text-n-1"
-                            onClick={() => setOpenDropdown(null)}
-                          >
-                            {subitem.title}
-                          </Link>
-                        ))}
-                      </div>
-                    </>
-                  ) : (
-                    isSearchItem ? (
-                      <Link
-                        href={item.url}
-                        aria-label="Αναζήτηση"
-                        className={`flex h-10 w-10 items-center justify-center rounded-full border border-transparent transition-colors hover:border-color-1 hover:text-color-1 ${
-                          isActive ? "text-n-1" : "text-n-1/70"
-                        }`}
-                      >
-                        <SearchIcon className="h-5 w-5" />
-                      </Link>
-                    ) : (
-                      <Link
-                        href={item.url}
-                        className={`block px-4 py-3 font-code text-xs font-semibold uppercase tracking-widest transition-colors hover:text-color-1 xl:px-6 xl:text-sm ${
-                          isActive ? "text-n-1" : "text-n-1/70"
-                        }`}
-                      >
-                        {item.title}
-                      </Link>
-                    )
-                  )}
-                </div>
+                  {item.title}
+                </Link>
               );
-            })}
+            }
 
-            <LanguageSwitch initialLocale={initialLocale} />
+            return (
+              <div key={item.id} className="relative" onMouseLeave={scheduleClose}>
+                <button
+                  type="button"
+                  className="nav__link"
+                  data-active={isActive}
+                  aria-expanded={openDropdown === item.id}
+                  onClick={() =>
+                    setOpenDropdown((current) => (current === item.id ? null : item.id))
+                  }
+                  onMouseEnter={() => cancelAndOpen(item.id)}
+                  onFocus={() => cancelAndOpen(item.id)}
+                >
+                  {item.title}
+                  <CaretIcon className="nav__caret" />
+                </button>
 
-            <a
-              href="https://www.instagram.com/haunted.gr/"
-              aria-label="Instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-1 flex h-10 w-10 items-center justify-center rounded-full border border-n-6 text-n-1 transition hover:border-color-1 hover:text-color-1"
-            >
-              <InstagramIcon className="h-5 w-5" />
-            </a>
-          </div>
+                {openDropdown === item.id && (
+                  <div
+                    className="nav__menu"
+                    onMouseEnter={() => cancelAndOpen(item.id)}
+                    onMouseLeave={scheduleClose}
+                  >
+                    {item.subitems.map((subitem) => (
+                      <Link
+                        href={subitem.url}
+                        key={subitem.slug}
+                        className="nav__menu-link"
+                        onClick={() => setOpenDropdown(null)}
+                      >
+                        {subitem.title}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </nav>
 
-        <div className="flex w-1/2 justify-end lg:hidden">
+        <div className="util">
+          <div className="hidden sm:block">
+            <LanguageSwitch initialLocale={initialLocale} />
+          </div>
+          <Link href="/search" aria-label="Αναζήτηση" className="util__btn">
+            <SearchIcon className="h-4 w-4" />
+          </Link>
+          <a
+            href="https://www.instagram.com/haunted.gr/"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="util__btn hidden sm:flex"
+          >
+            <InstagramIcon className="h-4 w-4" />
+          </a>
+
           <button
             type="button"
             aria-label={mobileOpen ? "Κλείσιμο μενού" : "Άνοιγμα μενού"}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-n-6 text-n-1 transition hover:border-color-1 hover:text-color-1"
+            aria-expanded={mobileOpen}
+            className="util__btn lg:hidden"
             onClick={toggleMobileMenu}
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
               strokeWidth={1.5}
-              className="h-6 w-6"
+              className="h-5 w-5"
             >
               {mobileOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" d="M18 6 6 18M6 6l12 12" />
@@ -256,124 +236,70 @@ export function Header({ initialLocale }: HeaderProps) {
         </div>
       </div>
 
+      {/* Mobile sheet */}
       {mobileOpen && (
         <div
-          className="fixed inset-0 z-[1300] bg-n-8 lg:hidden"
-          onClick={closeMobileMenu}
-          role="presentation"
+          className="fixed inset-0 top-[var(--masthead-h)] z-[1300] overflow-y-auto bg-[var(--void)] lg:hidden"
+          style={{ borderTop: "1px solid var(--rule)" }}
         >
-          <div className="pointer-events-none absolute inset-0 opacity-[.03] bg-n-8" />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-n-8/0 to-n-8/100" />
-
-          <div className="pointer-events-none absolute inset-0 flex items-start justify-center pt-5">
-            <button
-              type="button"
-              aria-label="Κλείσιμο μενού"
-              className="pointer-events-auto z-[1302] flex h-12 w-12 items-center justify-center rounded-full bg-n-7/80 text-n-1 shadow-lg backdrop-blur transition hover:text-color-1"
-              onClick={(event) => {
-                event.stopPropagation();
-                closeMobileMenu();
-              }}
-              onTouchStart={(event) => {
-                event.stopPropagation();
-                closeMobileMenu();
-              }}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                className="h-8 w-8"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-
-          <div
-            className="relative z-[1301] flex h-full flex-col pt-16"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <div
-              className="mobile-menu-container flex-1 overflow-y-auto px-4 pb-10 pt-6 no-scrollbar"
-              style={{ WebkitOverflowScrolling: "touch" }}
-            >
-              {getNavigation(initialLocale).map((item) => (
-                <div key={item.id} className="mb-4">
-                  {item.subitems ? (
-                    <>
-                      <button
-                        type="button"
-                        className="flex w-full items-center justify-between border-b border-n-6 px-4 py-4 text-left text-xl uppercase text-n-1"
-                        onClick={() =>
-                          setOpenDropdown((current) => (current === item.id ? null : item.id))
-                        }
-                      >
-                        <span>{item.title}</span>
-                        <svg
-                          className={`h-5 w-5 transition-transform ${
-                            openDropdown === item.id ? "rotate-180" : ""
-                          }`}
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
-                      </button>
-                      {openDropdown === item.id && (
-                        <div className="mt-2 max-h-[50vh] overflow-y-auto rounded-lg bg-n-7 px-2 pb-2 pt-2 no-scrollbar">
-                          {item.subitems.map((subitem) => (
-                            <Link
-                              key={subitem.slug}
-                              href={subitem.url}
-                              className="block border-b border-n-6 px-4 py-3 text-lg text-n-1 transition-colors hover:bg-n-6 last:border-b-0"
-                              onClick={() => {
-                                closeMobileMenu();
-                              }}
-                            >
-                              {subitem.title}
-                            </Link>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  ) : (
-                    <Link
-                      href={item.url}
-                      className="block border-b border-n-6 px-4 py-4 text-xl uppercase text-n-1 transition-colors hover:text-color-1"
-                      onClick={closeMobileMenu}
-                      aria-label={item.url === "/search" ? "Αναζήτηση" : undefined}
+          <div className="frame py-6">
+            {getNavigation(initialLocale).map((item) => (
+              <div key={item.id}>
+                {item.subitems ? (
+                  <>
+                    <button
+                      type="button"
+                      className="flex w-full items-center justify-between border-b py-4 text-left"
+                      style={{ borderColor: "var(--rule)" }}
+                      onClick={() =>
+                        setOpenDropdown((current) => (current === item.id ? null : item.id))
+                      }
                     >
-                      {item.url === "/search" ? (
-                        <SearchIcon className="h-6 w-6" aria-hidden />
-                      ) : (
-                        item.title
-                      )}
-                    </Link>
-                  )}
-                </div>
-              ))}
-
-              <div className="mt-6 px-4">
-                <LanguageSwitch initialLocale={initialLocale} variant="mobile" />
+                      <span className="mono mono--lit">{item.title}</span>
+                      <CaretIcon
+                        className={`h-4 w-4 transition-transform ${
+                          openDropdown === item.id ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
+                    {openDropdown === item.id && (
+                      <div className="border-b py-2" style={{ borderColor: "var(--rule)" }}>
+                        {item.subitems.map((subitem) => (
+                          <Link
+                            key={subitem.slug}
+                            href={subitem.url}
+                            className="foot__link"
+                            onClick={closeMobileMenu}
+                          >
+                            {subitem.title}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <Link
+                    href={item.url}
+                    className="block border-b py-4"
+                    style={{ borderColor: "var(--rule)" }}
+                    onClick={closeMobileMenu}
+                  >
+                    <span className="mono mono--lit">{item.title}</span>
+                  </Link>
+                )}
               </div>
+            ))}
 
+            <div className="flex items-center justify-between pt-6">
+              <LanguageSwitch initialLocale={initialLocale} variant="mobile" />
               <a
-                href="https://www.instagram.com/haunted_greece/"
+                href="https://www.instagram.com/haunted.gr/"
+                aria-label="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 inline-flex items-center gap-3 px-4 text-lg text-n-1 transition-colors hover:text-color-1"
+                className="util__btn"
               >
-                <InstagramIcon className="h-6 w-6" />
-                <span className="sr-only">Instagram</span>
+                <InstagramIcon className="h-5 w-5" />
               </a>
             </div>
           </div>

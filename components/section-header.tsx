@@ -13,10 +13,33 @@ export function SectionHeader({ eyebrow, title, description, actions }: SectionH
       <div className="flex items-start justify-between gap-6">
         <div className="space-y-3">
           {eyebrow && (
-            <p className="text-xs uppercase tracking-[0.32em] text-zinc-500">{eyebrow}</p>
+            <p
+              className="uppercase"
+              style={{
+                fontFamily: "var(--font-code)",
+                fontSize: "var(--fs-meta)",
+                letterSpacing: "0.22em",
+                color: "var(--accent)",
+              }}
+            >
+              {eyebrow}
+            </p>
           )}
-          <h1 className="text-4xl font-bold text-zinc-50">{title}</h1>
-          {description && <p className="max-w-2xl text-lg text-zinc-400">{description}</p>}
+          <h1
+            className="font-light"
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "var(--fs-h2)",
+              color: "var(--bone)",
+            }}
+          >
+            {title}
+          </h1>
+          {description && (
+            <p className="max-w-2xl text-lg" style={{ color: "var(--ash)" }}>
+              {description}
+            </p>
+          )}
         </div>
         {actions ? <div className="mt-2 flex-shrink-0">{actions}</div> : null}
       </div>

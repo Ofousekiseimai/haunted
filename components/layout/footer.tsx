@@ -18,7 +18,11 @@ export function Footer({ locale }: FooterProps) {
     { href: "/efimerides", label: translateCategoryLabel("efimerides", "Εφημερίδες", locale) },
     {
       href: "/etaireia-psychikon-ereynon",
-      label: translateCategoryLabel("etaireia-psychikon-ereynon", "Εταιρεία Ψυχικών Ερευνών", locale),
+      label: translateCategoryLabel(
+        "etaireia-psychikon-ereynon",
+        "Εταιρεία Ψυχικών Ερευνών",
+        locale,
+      ),
     },
     { href: "/vivlia", label: translateCategoryLabel("vivlia", "Βιβλία", locale) },
     { href: "/search", label: copy.search },
@@ -33,47 +37,46 @@ export function Footer({ locale }: FooterProps) {
   ];
 
   return (
-    <footer className="border-t border-n-6 bg-n-8/80 backdrop-blur-sm">
-      <div className="container flex flex-col gap-10 py-12">
-        <div className="grid gap-10 text-sm text-n-4 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="space-y-4">
-            <p className="text-xs uppercase tracking-[0.28em] text-n-5">{copy.categoriesLabel}</p>
-            <ul className="space-y-2 text-n-3">
-              {categories.map((item) => (
-                <li key={item.href}>
-                  <Link href={item.href} className="transition hover:text-n-1">
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+    <footer className="foot">
+      <div className="frame">
+        <div className="foot__cols">
+          <div>
+            <p className="mono foot__head">{copy.categoriesLabel}</p>
+            {categories.map((item) => (
+              <Link key={item.href} href={item.href} className="foot__link">
+                {item.label}
+              </Link>
+            ))}
           </div>
 
-          <div className="space-y-4">
-            <p className="text-xs uppercase tracking-[0.28em] text-n-5">{copy.resourcesLabel}</p>
-            <ul className="space-y-2 text-n-3">
-              {resources.map((item) => (
-                <li key={item.href}>
-                  <Link href={item.href} className="transition hover:text-n-1">
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div>
+            <p className="mono foot__head">{copy.resourcesLabel}</p>
+            {resources.map((item) => (
+              <Link key={item.href} href={item.href} className="foot__link">
+                {item.label}
+              </Link>
+            ))}
           </div>
 
-          <div className="space-y-4 text-n-3">
-            <p className="text-xs uppercase tracking-[0.28em] text-n-5">{copy.brandLabel}</p>
-            <p className="leading-6 text-n-4">{copy.brandDescription}</p>
-            <MailchimpSignup />
+          <div className="sm:col-span-2 lg:col-span-1">
+            <p className="mono foot__head">{copy.brandLabel}</p>
+            <p className="text-[var(--t-small)] leading-6 text-[var(--ink-2)]">
+              {copy.brandDescription}
+            </p>
+            <div className="mt-5">
+              <MailchimpSignup />
+            </div>
           </div>
         </div>
 
-        <div className="h-px w-full bg-n-7/60" />
-
-        <p className="caption text-center text-n-4">
-          © {year} Haunted.gr {copy.allRights}
-        </p>
+        {/* The copyright used to be centred while every other thing in the
+            footer was flush left. Now the base row is one aligned band. */}
+        <div className="foot__base">
+          <span className="mono mono--micro">
+            &copy; {year} haunted.gr {copy.allRights}
+          </span>
+          <span className="mono mono--micro foot__credit">designed by Trithemius 2026</span>
+        </div>
       </div>
     </footer>
   );

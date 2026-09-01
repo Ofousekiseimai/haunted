@@ -18,7 +18,7 @@ export function getHomeCopy(locale: Locale) {
     sections: {
       laografia: {
         heading: pick(
-          { el: "Άρθρα Παραδόσεις / Λαογραφία", en: "Folklore Articles" },
+          { el: "Παραδόσεις & Λαογραφία", en: "Folklore & Tradition" },
           locale,
         ),
         description: pick(
@@ -31,7 +31,7 @@ export function getHomeCopy(locale: Locale) {
         defaultSub: "vrikolakes",
       },
       efimerides: {
-        heading: pick({ el: "Άρθρα Εφημερίδων", en: "Newspaper Articles" }, locale),
+        heading: pick({ el: "Ο ελληνικός Τύπος", en: "The Greek Press" }, locale),
         description: pick(
           {
             el: "Παράξενα φαινόμενα, εγκλήματα και τελετές όπως καταγράφηκαν στον ελληνικό Τύπο.",

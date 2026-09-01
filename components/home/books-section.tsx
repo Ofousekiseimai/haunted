@@ -28,11 +28,22 @@ export function HomeBooksSection({
   }
 
   return (
-    <section className="bg-n-8 py-12">
+    <section className="py-12">
       <div className="container space-y-8">
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-n-1 md:text-4xl">{copy.heading}</h2>
-          <p className="mt-2 text-n-3">{copy.description}</p>
+          <h2
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "var(--fs-h2)",
+              fontWeight: 300,
+              color: "var(--bone)",
+            }}
+          >
+            {copy.heading}
+          </h2>
+          <p className="mt-2" style={{ color: "var(--ash)" }}>
+            {copy.description}
+          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -51,9 +62,17 @@ export function HomeBooksSection({
         <div className="flex justify-center">
           <Link
             href={allBooksHref}
-            className="rounded-lg bg-gradient-to-r from-color-5 via-color-1 to-color-6 p-[2px] text-n-1 transition duration-300 hover:scale-[1.03]"
+            className="border px-6 py-2 transition duration-300 hover:border-[var(--hairline-strong)] hover:text-[var(--accent-bright)]"
+            style={{
+              borderColor: "var(--hairline)",
+              color: "var(--bone)",
+              fontFamily: "var(--font-code)",
+              fontSize: "var(--fs-meta)",
+              letterSpacing: "0.15em",
+              textTransform: "uppercase",
+            }}
           >
-            <span className="block rounded-md bg-n-8 px-6 py-2">{copy.moreButton}</span>
+            {copy.moreButton}
           </Link>
         </div>
       </div>

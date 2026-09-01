@@ -1,0 +1,121 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   haunted.gr — DARK EDITORIAL
+   Design tokens. Neutral blacks, bone ink, one oxblood accent used as a mark.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Surface ladder ─────────────────────────────────────────────────────
+     Neutral, not blue and not brown: the archive imagery is already warm
+     sepia, so a tinted ground would double the warmth and turn the page
+     yellow. Never pure #000 — a true black ground makes every panel above it
+     read as a grey box floating on nothing. Each step is a perceptible plane. */
+  --void:     #060607;   /* page ground                                    */
+  --deck:     #0a0a0b;   /* primary reading surface                        */
+  --panel:    #101011;   /* raised panel / card                            */
+  --panel-hi: #17171a;   /* hovered panel                                  */
+  --well:     #020203;   /* inset well — image mats, clipping plates       */
+
+  /* ── Hairlines ──────────────────────────────────────────────────────────
+     Three weights only. Anything heavier stops being a rule and becomes a
+     border, and the page immediately reads as a set of boxes. */
+  --rule:     rgb(242 240 238 / 0.075);
+  --rule-mid: rgb(242 240 238 / 0.15);
+  --rule-hi:  rgb(242 240 238 / 0.28);
+
+  /* ── Ink ────────────────────────────────────────────────────────────────
+     Bone, never #fff — pure white on near-black vibrates at display sizes. */
+  --ink:   #f2f0ee;
+  --ink-2: #aaa7a3;   /* secondary copy, AA on --deck                      */
+  --ink-3: #77736f;   /* metadata, labels                                  */
+  --ink-4: #48453f;   /* dividers with text, disabled                      */
+
+  /* ── Ember — the one accent. Oxblood. ───────────────────────────────────
+     Deliberately used as a MARK, not as a text colour: at 2.4:1 on the void
+     it is unreadable as copy, and red-on-black set as running text is the
+     fastest way to slide into horror-poster cliché. It appears as the rule
+     under an active tab, the mark beside a featured record, a hover
+     underline — three or four times per screen, no more. --ember-text is the
+     one readable tint (6.1:1) for the rare case it must be read. */
+  --ember:      #8f2a2a;
+  --ember-hi:   #b8382f;
+  --ember-text: #dd6a5e;
+  --ember-ink:  #fbf2f0;   /* text on a filled ember surface               */
+  --ember-wash: rgb(143 42 42 / 0.12);
+  --ember-line: rgb(143 42 42 / 0.45);
+
+  /* ── Type families ──────────────────────────────────────────────────────
+     Every face here ships a Greek subset — Greek is the primary language of
+     this archive. --font-garamond carries greek-ext for the polytonic in the
+     pre-1982 press transcriptions. Set on <body> by next/font; the aliases
+     live in globals.css because `@theme inline` does not emit real
+     custom properties. */
+
+  /* ── Fluid type scale — 1.25 major third, tightened at display sizes ──── */
+  --t-micro: 0.6875rem;                                /* 11px — rail labels */
+  --t-meta:  0.75rem;                                  /* 12px — metadata    */
+  --t-small: 0.8125rem;                                /* 13px               */
+  --t-body:  clamp(0.9375rem, 0.9rem + 0.18vw, 1.0625rem);
+  --t-lede:  clamp(1.0625rem, 0.98rem + 0.4vw, 1.3125rem);
+  --t-h4:    clamp(1.0625rem, 1rem + 0.28vw, 1.25rem);  /* card titles       */
+  --t-h3:    clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
+  --t-h2:    clamp(1.75rem, 1.35rem + 1.7vw, 3rem);     /* section heads     */
+  --t-h1:    clamp(2.25rem, 1.6rem + 2.8vw, 4rem);
+  --t-hero:  clamp(3rem, 1.2rem + 7.4vw, 9rem);
+
+  /* ── Measure ────────────────────────────────────────────────────────────
+     Greek runs ~8% longer than English, so a 66ch optimum lands short here. */
+  --measure:      72ch;
+  --measure-tight: 46ch;
+
+  /* ── Spacing — 4px base, named by role not by size ──────────────────── */
+  --s-1: 0.25rem;  --s-2: 0.5rem;  --s-3: 0.75rem;  --s-4: 1rem;
+  --s-5: 1.5rem;   --s-6: 2rem;    --s-7: 3rem;     --s-8: 4rem;
+  --s-9: 6rem;     --s-10: 8rem;   --s-11: 11rem;
+
+  /* ── Frame geometry ─────────────────────────────────────────────────── */
+  --gutter:    clamp(1.25rem, 0.6rem + 2.6vw, 3.5rem);
+  --frame-max: 87.5rem;   /* 1400px */
+  --read-max:  44rem;
+  --masthead-h: 4.25rem;
+
+  /* ── Motion — nothing overshoots. This is an archive, not a toy. ─────── */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --d-fast:   140ms;
+  --d-base:   280ms;
+  --d-slow:   560ms;
+  --d-reveal: 820ms;
+
+  /* ── Elevation — light comes from above, cold, and barely ───────────── */
+  --lift-1: 0 1px 0 rgb(242 240 238 / 0.04) inset,
+            0 2px 10px rgb(0 0 0 / 0.45);
+  --lift-2: 0 1px 0 rgb(242 240 238 / 0.055) inset,
+            0 14px 38px -10px rgb(0 0 0 / 0.7);
+
+  /* ── Geometry — square. The 2px is the only concession. ─────────────── */
+  --radius: 2px;
+
+  /* ── Image treatment — ONE set of values, referenced everywhere ───────
+     The archive holds two very different kinds of picture and they must not
+     get the same treatment. Illustrations are already sepia and only need
+     seating into the ground; newspaper scans are high-contrast paper that
+     has to be pulled DOWN hard or it punches a white hole in the page. */
+  --img-plate:   saturate(0.82) brightness(0.86) contrast(1.06);
+  --img-plate-hi: saturate(0.95) brightness(1) contrast(1.02);
+  --img-scan:    grayscale(0.35) brightness(0.72) contrast(0.95) sepia(0.22);
+  --img-scan-hi: grayscale(0.15) brightness(0.86) contrast(1) sepia(0.12);
+  /* YouTube cover art is the loudest thing that reaches this page — saturated
+     reds, cyans and drop-shadowed display type. A mild desaturation is not
+     enough; it has to be pulled most of the way to grey at rest and only let
+     back up under the cursor. */
+  --img-video:   grayscale(0.6) saturate(0.45) brightness(0.6) contrast(1.02);
+  --img-video-hi: grayscale(0.05) saturate(0.95) brightness(0.95) contrast(1);
+
+  color-scheme: dark;
+}
+
+/* A light theme is deliberately not offered: this is a dark archive, and the
+   previous one was 144 lines of `!important` overrides that nothing could
+   ever reach — no control anywhere in the app ever set [data-theme]. The
+   ground is declared explicitly so the page never borrows a host theme
+   through a transparent body. */

@@ -1,224 +1,179 @@
 @import "tailwindcss";
+@import "../styles/tokens.css";
 
-:root {
-  color-scheme: dark;
-}
+/* ═══════════════════════════════════════════════════════════════════════════
+   TAILWIND BRIDGE
+   `@theme inline` does NOT emit real custom properties — it only inlines
+   these into Tailwind's own utilities. Anything read back with var() in a
+   component has to be declared again below, on <body>.
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 @theme inline {
-  --color-background: #080c12;
-  --color-foreground: #ffffff;
+  --color-background: var(--void);
+  --color-foreground: var(--ink);
 
-  --color-color-1: #ac6aff;
-  --color-color-2: #ffc876;
-  --color-color-3: #ff776f;
-  --color-color-4: #7adb78;
-  --color-color-5: #858dff;
-  --color-color-6: #ff98e2;
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-ink-4: var(--ink-4);
+  --color-ember: var(--ember);
+  --color-panel: var(--panel);
+  --color-deck: var(--deck);
 
-  --color-stroke-1: #26242c;
+  --font-sans: var(--font-manrope);
+  --font-code: var(--font-jetbrains), var(--font-source-code);
+  --font-display: var(--font-garamond);
 
-  --color-n-1: #ffffff;
-  --color-n-2: #cac6dd;
-  --color-n-3: #ada8c3;
-  --color-n-4: #757185;
-  --color-n-5: #3f3a52;
-  --color-n-6: #252134;
-  --color-n-7: #15131d;
-  --color-n-8: #0e0c15;
-  --color-n-9: #474060;
-  --color-n-10: #43435c;
-  --color-n-11: #1b1b2e;
-  --color-n-12: #2e2a41;
-  --color-n-13: #6c7275;
-
-  --surface-base: #0e0c15;
-  --surface-card: rgba(18, 21, 32, 0.85);
-  --surface-card-strong: rgba(12, 14, 24, 0.92);
-  --surface-input: rgba(22, 25, 36, 0.88);
-  --surface-border: rgba(67, 67, 92, 0.55);
-  --surface-border-strong: rgba(94, 96, 128, 0.75);
-  --text-secondary: rgba(202, 198, 221, 0.78);
-  --text-muted: rgba(135, 138, 161, 0.85);
-
-  --font-sans: var(--font-sora);
-  --font-code: var(--font-code);
-  --font-display: var(--font-anton);
+  /* Legacy Tailwind colour tokens. The article, category, book and search
+     views still use text-n-1 / border-color-2 / focus:border-primary-400 and
+     friends. Remapped onto the new palette so they inherit the redesign
+     instead of breaking — remove each as its views are migrated. */
+  --color-n-1: var(--ink);
+  --color-n-2: var(--ink-2);
+  --color-n-3: var(--ink-2);
+  --color-n-4: var(--ink-3);
+  --color-n-5: var(--ink-3);
+  --color-n-6: #26252a;
+  --color-n-7: #1a191d;
+  --color-n-8: var(--void);
+  --color-n-9: #33313a;
+  --color-n-10: #2e2c34;
+  --color-n-11: #17161a;
+  --color-n-12: #201f24;
+  --color-n-13: var(--ink-3);
+  --color-color-1: var(--ember-text);
+  --color-color-2: var(--ember-hi);
+  --color-color-3: var(--ember-text);
+  --color-color-4: var(--ink-2);
+  --color-color-5: var(--ember);
+  --color-color-6: var(--ink-3);
+  --color-stroke-1: var(--rule);
+  --color-primary-400: var(--ember-text);
 }
 
-[data-theme="light"] {
-  color-scheme: light;
+/* ═══════════════════════════════════════════════════════════════════════════
+   REAL CUSTOM PROPERTIES
+   next/font puts --font-manrope / --font-garamond on <body>, so the aliases
+   are declared there too — substitution resolves against the element's own
+   values, and body is the lowest element that has them.
+   ═══════════════════════════════════════════════════════════════════════════ */
 
-  --color-background: #f7f4ff;
-  --color-foreground: #080c12;
-
-  --color-color-1: #7a4de8;
-  --color-color-2: #f3b15a;
-  --color-color-3: #e86458;
-  --color-color-4: #4fba64;
-  --color-color-5: #5865f2;
-  --color-color-6: #f28dc9;
-
-  --color-stroke-1: #d9d6ef;
-
-  --color-n-1: #080c12;
-  --color-n-2: #1a1f2a;
-  --color-n-3: #2c3140;
-  --color-n-4: #3e4456;
-  --color-n-5: #51586a;
-  --color-n-6: #6f768a;
-  --color-n-7: #8c94ac;
-  --color-n-8: #aeb5cb;
-  --color-n-9: #cbd1e2;
-  --color-n-10: #e1e5f2;
-  --color-n-11: #edeffe;
-  --color-n-12: #f6f7ff;
-  --color-n-13: #737b8a;
-
-  --surface-base: #f4f6fb;
-  --surface-card: rgba(255, 255, 255, 0.92);
-  --surface-card-strong: rgba(255, 255, 255, 0.96);
-  --surface-input: rgba(255, 255, 255, 0.9);
-  --surface-border: rgba(15, 23, 42, 0.12);
-  --surface-border-strong: rgba(30, 41, 59, 0.18);
-  --text-secondary: rgba(55, 65, 81, 0.85);
-  --text-muted: rgba(107, 114, 128, 0.85);
-
+@layer base {
   body {
-    background: var(--surface-base);
-    color: var(--color-foreground);
-  }
+    --font-sans: var(--font-manrope), system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-display: var(--font-garamond), Georgia, "Times New Roman", serif;
+    --font-code: var(--font-jetbrains), var(--font-source-code), ui-monospace, monospace;
 
-  .map-container {
-    background: #000;
-    border-color: #000;
-  }
-
-  .map-popup .leaflet-popup-content-wrapper {
-    background: rgba(0, 0, 0, 0.94);
-    border-color: rgba(188, 24, 24, 0.4);
-    color: #fff;
-  }
-
-  .map-popup .leaflet-popup-tip {
-    background: rgba(0, 0, 0, 0.94);
-    border-color: rgba(188, 24, 24, 0.4);
-  }
-
-  .map-popup-meta {
-    color: rgba(255, 255, 255, 0.6) !important;
-  }
-
-  .map-popup-title {
-    color: #fff !important;
-  }
-
-  .map-popup-link {
-    background: linear-gradient(135deg, #ff4d4d, #7a0c0c);
-    color: #fff;
-  }
-
-  .map-fog-overlay {
-    background: radial-gradient(circle at center, transparent 55%, rgba(0, 0, 0, 0.45) 100%);
-  }
-
-  .map-popup-card {
-    background-color: transparent;
-  }
-
-  .map-popup-image {
-    border-bottom-color: rgba(0, 0, 0, 0.12);
-  }
-
-  .surface-card,
-  .bg-zinc-900\/40,
-  .bg-zinc-900\/60,
-  .bg-zinc-900,
-  .bg-zinc-900\/80,
-  .bg-zinc-950,
-  .bg-n-8,
-  .bg-n-8\/80,
-  .bg-n-7 {
-    background-color: var(--surface-card) !important;
-  }
-
-  .surface-card-strong,
-  .bg-zinc-950 {
-    background-color: var(--surface-card-strong) !important;
-  }
-
-  .surface-border,
-  .surface-border-strong,
-  .border-zinc-800,
-  .border-zinc-800\/80,
-  .border-zinc-700,
-  .border-zinc-700\/80,
-  .border-n-7,
-  .border-n-6 {
-    border-color: var(--surface-border) !important;
-  }
-
-  .text-zinc-100,
-  .text-zinc-300,
-  .text-n-1 {
-    color: #0f172a !important;
-  }
-
-  .text-zinc-400,
-  .text-n-4,
-  .text-secondary {
-    color: var(--text-secondary) !important;
-  }
-
-  .text-zinc-500,
-  .text-muted,
-  .text-n-5 {
-    color: var(--text-muted) !important;
-  }
-
-  .surface-input,
-  .bg-zinc-900\/60,
-  select.bg-zinc-900\/60,
-  .bg-zinc-900\/40 select,
-  .bg-zinc-900\/40 input {
-    background-color: var(--surface-input) !important;
-    border-color: var(--surface-border) !important;
-    color: #0f172a !important;
-  }
-
-  .text-n-1 {
-    color: #0f172a !important;
+    /* ── Migration shim ───────────────────────────────────────────────────
+       The article, category, book, timeline and map components still speak
+       the old token names. Rather than touch 20 files in one pass, the old
+       names are aliased onto the new palette — so the whole site inherits
+       the new ground, ink and ember accent, and each component can be moved
+       to the vocabulary below as it is next edited. Delete a line here once
+       nothing references it. */
+    --bone: var(--ink);
+    --ash: var(--ink-2);
+    --ash-dim: var(--ink-3);
+    --hairline: var(--rule);
+    --hairline-strong: var(--rule-mid);
+    --void-2: var(--deck);
+    --surface: var(--panel);
+    --surface-glass: rgb(16 16 17 / 0.55);
+    --accent: var(--ink-3);
+    --accent-bright: var(--ember-text);
+    --spectral: var(--ember);
+    --crimson: var(--ember-hi);
+    --oxblood: var(--ember);
+    --fs-meta: var(--t-meta);
+    --fs-body: var(--t-body);
+    --fs-h3: var(--t-h3);
+    --fs-h2: var(--t-h2);
+    --fs-display: var(--t-hero);
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BASE
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 @layer base {
   *, ::before, ::after {
-    @apply box-border;
+    box-sizing: border-box;
   }
 
   html {
-    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: auto;
+    scroll-padding-top: calc(var(--masthead-h) + var(--s-5));
   }
 
   body {
-    background: var(--surface-base);
-    color: var(--color-foreground);
-    font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      sans-serif;
-    line-height: 1.6;
-    min-height: 100vh;
+    background: var(--void);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: var(--t-body);
+    line-height: 1.62;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100dvh;
+    overflow-x: clip;
+    /* Greek needs a touch more tracking at text sizes to stay open */
+    letter-spacing: 0.005em;
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
   }
+
+  p { text-wrap: pretty; }
+
+  img, svg, video, canvas { display: block; max-width: 100%; }
+
+  input, button, textarea, select { font: inherit; color: inherit; }
+  button { background: none; border: 0; padding: 0; cursor: pointer; }
+
+  a { color: inherit; text-decoration: none; }
+
+  ::selection {
+    background: var(--ember);
+    color: var(--ember-ink);
+  }
+
+  :focus { outline: none; }
+  :focus-visible {
+    outline: 2px solid var(--ember-text);
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+
+  * { scrollbar-width: thin; scrollbar-color: var(--ink-4) transparent; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: var(--ink-4);
+    border: 3px solid var(--void);
+    border-radius: 99px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--ink-3); }
 
   img {
     pointer-events: none;
     -webkit-touch-callout: none;
   }
 
-  /* Allow Leaflet to capture pointer events for dragging/panning */
+  .map-leaflet img,
+  .map-leaflet .leaflet-tile,
+  .map-leaflet .leaflet-marker-icon,
+  .map-leaflet .leaflet-interactive {
+    pointer-events: auto;
+  }
+
   .map-container,
   .map-leaflet,
   .map-leaflet .leaflet-pane,
@@ -226,318 +181,1494 @@
     user-select: none;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
-  }
-
-  .map-leaflet img {
-    pointer-events: auto;
-  }
-
-  /* Tiles should allow map drag but not be draggable/selectable themselves */
-  .map-leaflet .leaflet-tile {
-    pointer-events: auto;
     -webkit-user-drag: none;
-    user-drag: none;
-    user-select: none;
-  }
-
-  .map-leaflet .leaflet-marker-icon,
-  .map-leaflet .leaflet-marker-shadow,
-  .map-leaflet .leaflet-interactive {
-    pointer-events: auto;
-    user-select: none;
-    -webkit-user-drag: none;
-    user-drag: none;
   }
 }
 
-@layer components {
-  .container {
-    max-width: 77.5rem;
-    margin-inline: auto;
-    padding-inline: 1.25rem;
-  }
+/* ═══════════════════════════════════════════════════════════════════════════
+   ATMOSPHERE
+   Three fixed layers behind everything. They never scroll, so content reads
+   as travelling across a static plate rather than as a page with a texture
+   on it. This is what the old build was missing: it had a 2.8% grain and a
+   single radial glow inside the hero, and below the fold the page was flat
+   black with cards on it.
+   ═══════════════════════════════════════════════════════════════════════════ */
 
-  @media (min-width: 768px) {
-    .container {
-      padding-inline: 2.5rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .container {
-      padding-inline: 3.75rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .container {
-      max-width: 87.5rem;
-    }
-  }
-
-  .h1 {
-    @apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem];
-  }
-  .h2 {
-    @apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight;
-  }
-  .h3 {
-    @apply text-[2rem] leading-normal md:text-[2.5rem];
-  }
-  .h4 {
-    @apply text-[2rem] leading-normal;
-  }
-  .h5 {
-    @apply text-2xl leading-normal;
-  }
-  .h6 {
-    @apply font-semibold text-lg leading-8;
-  }
-  .body-1 {
-    @apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8;
-  }
-  .body-2 {
-    @apply font-light text-[0.875rem] leading-6 md:text-base;
-  }
-  .caption {
-    @apply text-sm;
-  }
-  .tagline {
-    font-family: var(--font-code);
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-  }
-  .quote {
-    font-family: var(--font-code);
-    font-size: 1.125rem;
-    line-height: 1.8;
-  }
-  .button {
-    font-family: var(--font-code);
-    font-size: 0.875rem;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-  }
-
-  .surface-card {
-    background-color: var(--surface-card);
-  }
-
-  .surface-card-strong {
-    background-color: var(--surface-card-strong);
-  }
-
-  .surface-input {
-    background-color: var(--surface-input);
-  }
-
-  .surface-border {
-    border-color: var(--surface-border);
-  }
-
-  .surface-border-strong {
-    border-color: var(--surface-border-strong);
-  }
-
-  .text-secondary {
-    color: var(--text-secondary);
-  }
-
-  .text-muted {
-    color: var(--text-muted);
-  }
-
-  .map-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 2rem;
-    border: 1px solid #2f2f2f;
-    background: #0e0e0e;
-    box-shadow: 0 25px 60px -45px rgba(0, 0, 0, 0.8);
-  }
-
-  .map-leaflet {
-    border-radius: 2rem;
-    overflow: hidden;
-    height: 100%;
-    background: #121620;
-  }
-
-  .map-leaflet .leaflet-pane.leaflet-tile-pane {
-    /* Dark theme with brighter labels/roads for readability */
-    filter: brightness(0.8) contrast(1.1) saturate(1.05) hue-rotate(-4deg);
-  }
-
-  .map-container:active,
-  .map-leaflet:active {
-    cursor: auto;
-  }
-
-  .map-fog-overlay {
-    position: absolute;
-    inset: 1;
+@layer base {
+  /* Column rules at the rhythm of the content frame. Felt, not seen. */
+  .plate-grid {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
     pointer-events: none;
-    background: radial-gradient(circle at center, transparent 55%, rgba(0, 0, 0, 0.6) 100%);
-    mix-blend-mode: normal;
+    background-image: linear-gradient(to right, var(--rule) 1px, transparent 1px);
+    background-size: calc(100% / 6) 100%;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 16vh, #000 84vh, transparent);
+            mask-image: linear-gradient(to bottom, transparent, #000 16vh, #000 84vh, transparent);
+    opacity: 0.6;
+  }
+  @media (max-width: 60rem) {
+    .plate-grid { background-size: calc(100% / 3) 100%; }
   }
 
-  /* Prevent tile/image drag selection while keeping map pan/zoom */
-  .map-leaflet img {
-    -webkit-user-drag: none;
-    user-drag: none;
-    user-select: none;
+  /* One ember glow, very low, anchoring the composition. The only
+     non-neutral light in the chrome. */
+  .plate-horizon {
+    position: fixed;
+    inset: auto 0 0 0;
+    height: 62vh;
+    z-index: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(115% 58% at 50% 122%, rgb(143 42 42 / 0.10), transparent 62%),
+      radial-gradient(70% 40% at 82% 112%, rgb(242 240 238 / 0.022), transparent 60%);
   }
 
-  .map-popup .leaflet-popup-content-wrapper {
-    border-radius: 0.85rem;
-    background: rgba(0, 0, 0, 0.94);
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    box-shadow: 0 25px 35px -30px rgba(0, 0, 0, 0.8);
-    padding: 0;
-    color: #161414;
+  /* Archival grain, above content but inert. */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 9500;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='256' height='256' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    background-size: 190px 190px;
+    opacity: 0.03;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   COMPONENTS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+
+  /* ── Frame ─────────────────────────────────────────────────────────────
+     One max width, one gutter, always. Everything sits above the plate. */
+  .frame {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: var(--frame-max);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
   }
 
-  .map-popup .leaflet-popup-tip {
-    background: rgba(0, 0, 0, 0.94);
-    border: 1px solid rgba(32, 6, 6, 0.4);
+  /* A section carrying a top hairline the full width of the frame. */
+  .band { border-top: 1px solid var(--rule); }
+  .band--pad { padding-block: clamp(3.5rem, 2rem + 6vw, 7rem); }
+  .band--tight { padding-block: clamp(2.5rem, 1.5rem + 4vw, 4.5rem); }
+
+  /* A page's own heading block. `.shead` carries a bottom margin for the
+     content that normally follows it inside the same section; when it stands
+     alone above a run of bands that margin stacks with two lots of band
+     padding and opens ~190px of nothing under the title. */
+  .page-head { padding-top: clamp(2.5rem, 1.6rem + 3vw, 4.5rem); }
+  .page-head .shead { margin-bottom: 0; }
+  /* The head already closes with a rule; the first band must not draw a
+     second one against it. */
+  .page-head + .frame > .collection:first-child { border-top: 0; }
+
+  /* The old `.container` is still used by inner pages — keep it aligned to
+     the new frame so the two never disagree by a few pixels. */
+  .container {
+    width: 100%;
+    max-width: var(--frame-max);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
   }
 
-  .map-popup .leaflet-popup-content {
+  /* ── The mono metadata voice ───────────────────────────────────────────
+     Record numbers, dates, counts, categories, buttons. Always uppercase,
+     always tracked out. One class, so it can never drift again. */
+  .mono {
+    font-family: var(--font-code);
+    font-size: var(--t-meta);
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    line-height: 1.4;
+  }
+  .mono--micro { font-size: var(--t-micro); letter-spacing: 0.2em; }
+  .mono--lit   { color: var(--ink); }
+  .mono--ember { color: var(--ember-text); }
+
+  .display { font-family: var(--font-display); font-weight: 400; }
+
+  .lede {
+    font-size: var(--t-lede);
+    line-height: 1.55;
+    color: var(--ink-2);
+    max-width: var(--measure);
+  }
+
+  /* ── Ember mark ────────────────────────────────────────────────────────
+     The accent's main job on the page: a short heavy rule that sits under a
+     heading or beside a record. Never a fill, never running text. */
+  .mark {
+    display: block;
+    width: 2.25rem;
+    height: 2px;
+    background: var(--ember);
+    flex: none;
+  }
+  .mark--tall { width: 2px; height: 100%; min-height: 2.5rem; }
+
+  /* ═══ MASTHEAD ═════════════════════════════════════════════════════════
+     One row. Wordmark left, navigation centre, utilities right — a masthead,
+     not three separately-centred things stacked on two rows with a hundred
+     pixels of nothing between them. */
+  .masthead {
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: 1200;
+    border-bottom: 1px solid transparent;
+    transition: border-color var(--d-base) var(--ease-out),
+                background-color var(--d-base) var(--ease-out);
+  }
+  .masthead[data-scrolled="true"],
+  .masthead[data-open="true"] {
+    background: var(--void);
+    border-bottom-color: var(--rule);
+  }
+
+  .masthead__inner {
+    display: flex;
+    align-items: center;
+    gap: var(--s-5);
+    height: var(--masthead-h);
+    max-width: var(--frame-max);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+
+  .wordmark {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    flex: none;
+  }
+  .wordmark__name {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  .wordmark__sub {
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    padding-inline-start: 0.55rem;
+    border-inline-start: 1px solid var(--rule-mid);
+    white-space: nowrap;
+  }
+  @media (max-width: 26rem) { .wordmark__sub { display: none; } }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: clamp(0.5rem, 0.1rem + 1.1vw, 1.4rem);
+    margin-inline: auto;
+  }
+  .nav__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    padding-block: 0.55rem;
+    white-space: nowrap;
+    transition: color var(--d-fast) var(--ease-out);
+  }
+  .nav__link::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: 0.25rem;
+    width: 100%; height: 1px;
+    background: var(--ember);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--d-base) var(--ease-out);
+  }
+  .nav__link:hover { color: var(--ink); }
+  .nav__link:hover::after,
+  .nav__link[data-active="true"]::after { transform: scaleX(1); }
+  .nav__link[data-active="true"] { color: var(--ink); }
+  .nav__caret { width: 0.6rem; height: 0.6rem; opacity: 0.45; flex: none; }
+
+  .nav__menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 12rem;
+    padding-block: var(--s-2);
+    background: var(--deck);
+    border: 1px solid var(--rule-mid);
+    border-radius: var(--radius);
+    box-shadow: var(--lift-2);
+  }
+  .nav__menu-link {
+    display: block;
+    padding: 0.5rem var(--s-4);
+    font-size: var(--t-small);
+    color: var(--ink-2);
+    transition: color var(--d-fast) var(--ease-out),
+                background-color var(--d-fast) var(--ease-out);
+  }
+  .nav__menu-link:hover { color: var(--ink); background: var(--panel-hi); }
+
+  .util {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    flex: none;
+    margin-inline-start: auto;
+  }
+  .util__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    color: var(--ink-3);
+    transition: color var(--d-fast) var(--ease-out);
+  }
+  .util__btn:hover { color: var(--ink); }
+
+  /* ═══ HERO ═════════════════════════════════════════════════════════════
+     Full width, one line. The old hero put the title in a left column with
+     the numbers in a right rail, so the type only ever used a third of the
+     frame and the whole composition sat hard against the left gutter.
+     ═══════════════════════════════════════════════════════════════════════ */
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: min(84vh, 50rem);
+    /* <main> clears the fixed masthead for every inner page; the hero alone
+       runs underneath it, then pushes its own content back down by exactly
+       the same token. The old build did this with two magic numbers
+       (-mt-[5.25rem] pt-[5.25rem]) that no longer matched the header. */
+    margin-top: calc(var(--masthead-h) * -1);
+    padding-top: calc(var(--masthead-h) + var(--s-7));
+    padding-bottom: var(--s-8);
+    overflow: hidden;
+  }
+  @media (max-width: 48rem) {
+    .hero {
+      min-height: 68vh;
+      padding-top: calc(var(--masthead-h) + var(--s-6));
+      padding-bottom: var(--s-7);
+    }
+  }
+
+  .hero__inner {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero__eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--s-3);
+    margin-bottom: var(--s-5);
+  }
+
+  /* ── Title ──────────────────────────────────────────────────────────────
+     Centred, and capped. Sized to fill the frame it looked enormous on a
+     wide monitor — at 1880px the container-relative size ran past 250px,
+     which is a poster, not a masthead. A ceiling keeps it composed at any
+     width. */
+  .hero__titlewrap {
+    position: relative;
+    isolation: isolate;
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  /* A very dim bloom behind the letterforms. It sits on its own layer so it
+     never tints the type, and it is deliberately barely there. */
+  .hero__glow {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    z-index: -1;
+    width: 128%;
+    height: 260%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse at center, rgb(196 132 120 / 0.09) 0%, rgb(143 42 42 / 0.05) 38%, transparent 70%);
+  }
+
+  .hero__title {
+    font-family: var(--font-display);
+    font-size: clamp(2.75rem, 8.4vw, 8.5rem);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    color: var(--ink);
     margin: 0;
-    width: 220px;
-    padding: 0;
-    color: #0c0b0b;
+    white-space: nowrap;
+  }
+  @media (max-width: 34rem) {
+    .hero__title {
+      white-space: normal;
+      font-size: clamp(2.75rem, 15vw, 4.5rem);
+      line-height: 1.02;
+    }
   }
 
-  .map-popup-card {
+  /* Centred with the rest of the masthead — a left/right split under a
+     centred title reads as two different layouts stacked. */
+  .hero__foot {
     display: flex;
     flex-direction: column;
-    gap: 0;
-    width: 100%;
-    background-color: black;
+    align-items: center;
+    gap: var(--s-5);
+    margin-top: var(--s-6);
+    padding-top: var(--s-6);
+    border-top: 1px solid var(--rule);
   }
+  .hero__lede {
+    max-width: 56ch;
+    margin: 0 auto;
+    font-size: var(--t-lede);
+    line-height: 1.5;
+    color: var(--ink-2);
+  }
+  .hero__enter { flex: none; white-space: nowrap; }
 
-  .map-popup-image {
-    position: relative;
-    width: 100%;
-    height: 112px;
+  /* A thin travelling hairline instead of a bouncing arrow emoji. */
+  .hero__scroll {
+    position: absolute;
+    left: var(--gutter);
+    bottom: 0;
+    width: 1px;
+    height: 3rem;
+    background: linear-gradient(to bottom, transparent, var(--rule-hi));
     overflow: hidden;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .hero__scroll::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent, var(--ember-hi));
+    animation: scroll-cue 2.8s var(--ease-in-out) infinite;
+  }
+  @keyframes scroll-cue {
+    0%        { transform: translateY(-100%); }
+    55%, 100% { transform: translateY(100%); }
   }
 
-  .map-popup-image img {
-    display: block;
+  /* ═══ STATS BAND ═══════════════════════════════════════════════════════
+     Three points across the whole frame, divided by hairlines. */
+  .stats__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  @media (max-width: 40rem) {
+    .stats__grid { grid-template-columns: 1fr; }
+  }
+  /* Centred to sit under a centred masthead, and quiet — these are a
+     footnote to the title, not a second headline. */
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--s-2);
+    padding-block: clamp(1.5rem, 1rem + 1.6vw, 2.5rem);
+    padding-inline: var(--s-4);
+    border-inline-start: 1px solid var(--rule);
+  }
+  .stat:first-child { border-inline-start: 0; }
+  @media (max-width: 40rem) {
+    .stat {
+      border-inline-start: 0;
+      border-top: 1px solid var(--rule);
+      padding-block: var(--s-4);
+    }
+    .stat:first-child { border-top: 0; }
+  }
+  .stat__n {
+    font-family: var(--font-code);
+    font-size: clamp(1.375rem, 1rem + 1.3vw, 2rem);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .stat__label {
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  /* ═══ SECTION HEAD ═════════════════════════════════════════════════════ */
+  .shead {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+    padding-bottom: var(--s-5);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: var(--s-7);
+  }
+  @media (min-width: 56rem) {
+    .shead {
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: var(--s-7);
+    }
+  }
+  .shead__title {
+    font-family: var(--font-display);
+    font-size: var(--t-h2);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin: 0;
+  }
+  .shead__desc {
+    max-width: 42ch;
+    font-size: var(--t-small);
+    line-height: 1.6;
+    color: var(--ink-3);
+  }
+  @media (min-width: 56rem) {
+    .shead__desc { text-align: right; }
+  }
+  .shead__kicker {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    margin-bottom: var(--s-3);
+  }
+
+  /* ── Tabs ──────────────────────────────────────────────────────────────
+     The active rule is the ember. That is the accent's whole job here. */
+  .tabs {
+    display: flex;
+    align-items: flex-end;
+    gap: 0;
+    border-bottom: 1px solid var(--rule);
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-bottom: var(--s-7);
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  @media (min-width: 48rem) {
+    .tabs {
+      -webkit-mask-image: linear-gradient(to right, #000 92%, transparent 100%);
+              mask-image: linear-gradient(to right, #000 92%, transparent 100%);
+    }
+  }
+  .tab {
+    position: relative;
+    flex: none;
+    padding: 0.6rem var(--s-4);
+    margin-bottom: -1px;
+    font-family: var(--font-code);
+    font-size: var(--t-meta);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--ink-3);
+    border-bottom: 2px solid transparent;
+    transition: color var(--d-fast) var(--ease-out),
+                border-color var(--d-fast) var(--ease-out);
+  }
+  .tab:first-child { padding-inline-start: 0; }
+  .tab:hover { color: var(--ink-2); }
+  .tab[data-active="true"] {
+    color: var(--ink);
+    border-bottom-color: var(--ember);
+  }
+  .tab__n {
+    margin-inline-start: 0.45rem;
+    font-size: var(--t-micro);
+    color: var(--ink-4);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .select {
+    width: 100%;
+    padding: 0.75rem var(--s-4);
+    background: var(--panel);
+    color: var(--ink);
+    border: 1px solid var(--rule-mid);
+    border-radius: var(--radius);
+    font-family: var(--font-code);
+    font-size: var(--t-meta);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* ═══ FEATURED RECORD ══════════════════════════════════════════════════
+     Media beside the text, not text dumped on top of the media. The old
+     build laid a headline over a newspaper scan and the result was type on
+     type — unreadable, and the eyebrow vanished into the white newsprint. */
+  .feat {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-5);
+    align-items: stretch;
+  }
+  @media (min-width: 56rem) {
+    .feat {
+      grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+      gap: 0;
+      border: 1px solid var(--rule);
+      background: var(--deck);
+    }
+  }
+  .feat__media {
+    position: relative;
+    overflow: hidden;
+    background: var(--well);
+    aspect-ratio: 16 / 10;
+  }
+  @media (min-width: 56rem) {
+    .feat__media { aspect-ratio: auto; min-height: 26rem; }
+  }
+  .feat__media img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: var(--img-plate);
+    transition: filter var(--d-slow) var(--ease-out),
+                transform var(--d-slow) var(--ease-out);
+  }
+  .feat:hover .feat__media img {
+    filter: var(--img-plate-hi);
+    transform: scale(1.02);
+  }
+  .feat__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--s-4);
+    padding: var(--s-5) 0;
+  }
+  @media (min-width: 56rem) {
+    .feat__body {
+      padding: var(--s-7);
+      border-inline-start: 1px solid var(--rule);
+    }
+  }
+  .feat__title {
+    font-family: var(--font-display);
+    font-size: var(--t-h3);
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--ink);
+    transition: color var(--d-fast) var(--ease-out);
+    margin: 0;
+  }
+  @media (min-width: 56rem) {
+    .feat__title { font-size: clamp(1.5rem, 1rem + 1.5vw, 2.375rem); }
+  }
+  .feat:hover .feat__title { color: var(--ember-text); }
+  .feat__excerpt {
+    font-size: var(--t-small);
+    line-height: 1.65;
+    color: var(--ink-2);
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
+  /* ═══ RECORD CARD ══════════════════════════════════════════════════════
+     Fixed structure so a row of them actually aligns: plate, meta, title
+     clamped to two lines, excerpt clamped to two. The old cards let the
+     title run 1–3 lines and nothing below it ever lined up. */
+  /* Explicit column counts, not auto-fill. The grid has to divide the article
+     count exactly or the last row leaves a hole — the old build fed 5 cards
+     into a 3-column grid in every single section and the gap at bottom-right
+     was the most visible thing on the page. Six cards: 3 × 2 at desk, 2 × 3
+     at tablet, a single column on phones. */
+  .recs {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-6) var(--s-5);
+  }
+  @media (min-width: 40rem) { .recs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 64rem) { .recs { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  .rec { display: flex; flex-direction: column; gap: var(--s-3); }
+  .rec__plate {
+    position: relative;
+    overflow: hidden;
+    background: var(--well);
+    border: 1px solid var(--rule);
+    aspect-ratio: 3 / 2;
+  }
+  .rec__plate img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: var(--img-plate);
+    transition: filter var(--d-base) var(--ease-out),
+                transform var(--d-slow) var(--ease-out);
+  }
+  .rec:hover .rec__plate img {
+    filter: var(--img-plate-hi);
+    transform: scale(1.03);
+  }
+  .rec__meta { display: flex; align-items: center; gap: var(--s-2); }
+  .rec__title {
+    font-family: var(--font-display);
+    font-size: var(--t-h4);
+    font-weight: 400;
+    line-height: 1.22;
+    color: var(--ink);
+    transition: color var(--d-fast) var(--ease-out);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+  }
+  .rec:hover .rec__title { color: var(--ember-text); }
+  .rec__excerpt {
+    font-size: var(--t-small);
+    line-height: 1.55;
+    color: var(--ink-3);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* ═══ CLIPPING PLATE ═══════════════════════════════════════════════════
+     Newspaper scans get their own visual language. They are paper, so they
+     are matted and shown whole (`contain`) on a dark well — cropping them to
+     a 3:2 tile turns a document into meaningless texture, which is what the
+     old build did to every single one of them. */
+  .clips {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-7) var(--s-5);
+  }
+  @media (min-width: 40rem) { .clips { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 64rem) { .clips { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  .clip { display: flex; flex-direction: column; gap: var(--s-4); }
+  .clip__mat {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--s-4);
+    background: var(--well);
+    border: 1px solid var(--rule);
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+  }
+  .clip__mat img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: var(--img-scan);
+    transition: filter var(--d-base) var(--ease-out);
+  }
+  .clip:hover .clip__mat img { filter: var(--img-scan-hi); }
+  /* A corner tick, so the mat reads as a plate rather than a letterboxed
+     image that failed to fill its box. */
+  .clip__mat::after {
+    content: "";
+    position: absolute;
+    right: var(--s-3);
+    bottom: var(--s-3);
+    width: 0.5rem;
+    height: 0.5rem;
+    border-right: 1px solid var(--rule-mid);
+    border-bottom: 1px solid var(--rule-mid);
+  }
+  .clip__title {
+    font-family: var(--font-display);
+    font-size: var(--t-h4);
+    font-weight: 400;
+    line-height: 1.22;
+    color: var(--ink);
+    transition: color var(--d-fast) var(--ease-out);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+  }
+  .clip:hover .clip__title { color: var(--ember-text); }
+
+  /* ═══ INDEX TABLE ══════════════════════════════════════════════════════
+     The Society's records are testimony and correspondence — text, not
+     pictures. Giving them the same image grid as the folklore section was
+     what made the page feel like the same module four times. As a numbered
+     index they read as what they are, and the page finally has a change of
+     shape in it. */
+  .index { border-top: 1px solid var(--rule); }
+  .index__row {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--s-3) var(--s-4);
+    align-items: baseline;
+    padding-block: var(--s-4);
+    border-bottom: 1px solid var(--rule);
+    transition: background-color var(--d-fast) var(--ease-out);
+  }
+  @media (min-width: 48rem) {
+    .index__row {
+      grid-template-columns: 4rem minmax(0, 1fr) 12rem;
+      gap: var(--s-5);
+      padding-inline: var(--s-3);
+      margin-inline: calc(var(--s-3) * -1);
+    }
+  }
+  .index__row:hover { background: var(--panel); }
+  .index__n {
+    font-family: var(--font-code);
+    font-size: var(--t-meta);
+    color: var(--ink-4);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.08em;
+  }
+  .index__row:hover .index__n { color: var(--ember-text); }
+  .index__title {
+    font-family: var(--font-display);
+    font-size: var(--t-h4);
+    font-weight: 400;
+    line-height: 1.25;
+    color: var(--ink);
+    transition: color var(--d-fast) var(--ease-out);
+  }
+  .index__row:hover .index__title { color: var(--ember-text); }
+  .index__excerpt {
+    margin-top: 0.35rem;
+    max-width: var(--measure);
+    font-size: var(--t-small);
+    line-height: 1.55;
+    color: var(--ink-3);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .index__aside {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: var(--s-4);
+  }
+  @media (min-width: 48rem) {
+    .index__aside {
+      grid-column: auto;
+      flex-direction: column;
+      gap: 0.3rem;
+      text-align: right;
+      align-items: flex-end;
+    }
+  }
+
+  /* ═══ COLLECTION PREVIEW ═══════════════════════════════════════════════
+     One subcategory per band on the category landing pages: heading, count,
+     three real records, and a plain button through to the full collection. */
+  .collection {
+    border-top: 1px solid var(--rule);
+    padding-block: clamp(2.5rem, 1.6rem + 3vw, 4.5rem);
+  }
+  .collection__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--s-5);
+    margin-bottom: var(--s-6);
+  }
+  .collection__title {
+    font-family: var(--font-display);
+    font-size: var(--t-h3);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+    margin: 0;
+  }
+  .collection__cta { margin-top: var(--s-6); }
+
+  /* ═══ STRIP — "Σαν σήμερα" ═════════════════════════════════════════════ */
+  /* Thumb, body, meta — three columns, so the row uses the whole frame
+     instead of leaving two thirds of it empty to the right. */
+  .strip__row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: var(--s-4);
+    align-items: start;
+    padding-block: var(--s-5);
+    border-bottom: 1px solid var(--rule);
+  }
+  @media (min-width: 56rem) {
+    .strip__row {
+      grid-template-columns: auto minmax(0, 1fr) 10rem;
+      gap: var(--s-6);
+      align-items: center;
+    }
+  }
+  .strip__row:first-child { border-top: 1px solid var(--rule); }
+  .strip__thumb {
+    position: relative;
+    /* A press scan at 104px is mud. Big enough to read as a document. */
+    width: clamp(6rem, 4rem + 8vw, 10.5rem);
+    aspect-ratio: 4 / 3;
+    flex: none;
+    overflow: hidden;
+    background: var(--well);
+    border: 1px solid var(--rule);
+  }
+  .strip__thumb img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: var(--img-scan);
+    transition: filter var(--d-base) var(--ease-out);
+  }
+  .strip__row:hover .strip__thumb img { filter: var(--img-scan-hi); }
+  .strip__title {
+    font-family: var(--font-display);
+    font-size: var(--t-h4);
+    font-weight: 400;
+    line-height: 1.25;
+    color: var(--ink);
+    transition: color var(--d-fast) var(--ease-out);
+    margin: 0;
+  }
+  .strip__row:hover .strip__title { color: var(--ember-text); }
+  .strip__body { max-width: var(--measure); }
+  .strip__aside { display: none; }
+  @media (min-width: 56rem) {
+    .strip__aside {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      align-items: flex-end;
+      text-align: right;
+    }
+  }
+
+  /* ═══ VIDEO REEL ═══════════════════════════════════════════════════════
+     YouTube art is saturated red-and-cyan and it was detonating the palette
+     at the bottom of the page. Held down hard at rest, released on hover, and
+     carried in one scrolling rail instead of two full grids under two
+     identical headings. */
+  .reel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(15rem, 20rem);
+    gap: var(--s-5);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-bottom: var(--s-2);
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
+  }
+  .reel::-webkit-scrollbar { display: none; }
+  .reel__item { scroll-snap-align: start; display: flex; flex-direction: column; gap: var(--s-3); }
+  .reel__plate {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--well);
+    border: 1px solid var(--rule);
+  }
+  .reel__plate img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: var(--img-video);
+    transition: filter var(--d-base) var(--ease-out);
+  }
+  .reel__item:hover .reel__plate img { filter: var(--img-video-hi); }
+  .reel__time {
+    position: absolute;
+    right: var(--s-2);
+    bottom: var(--s-2);
+    padding: 0.15rem 0.4rem;
+    background: rgb(2 2 3 / 0.85);
+    border: 1px solid var(--rule-mid);
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .reel__title {
+    font-size: var(--t-small);
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--ink-2);
+    transition: color var(--d-fast) var(--ease-out);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .reel__item:hover .reel__title { color: var(--ink); }
+  .reel__title { min-height: 2.4em; }
+
+  /* ═══ BUTTONS / LINKS ══════════════════════════════════════════════════ */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.75rem var(--s-5);
+    border: 1px solid var(--rule-mid);
+    border-radius: var(--radius);
+    font-family: var(--font-code);
+    font-size: var(--t-meta);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    background: transparent;
+    transition: color var(--d-fast) var(--ease-out),
+                border-color var(--d-fast) var(--ease-out),
+                background-color var(--d-fast) var(--ease-out);
+  }
+  .btn:hover {
+    color: var(--ink);
+    border-color: var(--ember-line);
+    background: var(--ember-wash);
+  }
+  .btn__arrow { transition: transform var(--d-base) var(--ease-out); }
+  .btn:hover .btn__arrow { transform: translateX(0.25rem); }
+
+  /* An inline text link that grows an ember hairline. */
+  .tlink {
+    position: relative;
+    color: var(--ink-2);
+    transition: color var(--d-fast) var(--ease-out);
+  }
+  .tlink::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: -3px;
+    width: 100%; height: 1px;
+    background: var(--ember);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--d-base) var(--ease-out);
+  }
+  .tlink:hover { color: var(--ink); }
+  .tlink:hover::after { transform: scaleX(1); }
+
+  /* ═══ FOOTER ═══════════════════════════════════════════════════════════ */
+  .foot { border-top: 1px solid var(--rule); background: var(--deck); }
+  .foot__cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+    gap: var(--s-7) var(--s-5);
+    padding-block: var(--s-8) var(--s-7);
+  }
+  .foot__head { margin-bottom: var(--s-4); }
+  .foot__link {
+    display: block;
+    padding-block: 0.3rem;
+    font-size: var(--t-small);
+    color: var(--ink-2);
+    transition: color var(--d-fast) var(--ease-out);
+  }
+  .foot__link:hover { color: var(--ember-text); }
+  /* The design credit keeps the casing it was given — the mono voice
+     uppercases everything else, but a signature is not a label. */
+  .foot__credit { text-transform: none; letter-spacing: 0.1em; }
+
+  .foot__base {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s-4);
+    justify-content: space-between;
+    align-items: center;
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--rule);
+  }
+
+  /* ═══ MAP ══════════════════════════════════════════════════════════════
+     An instrument, not a widget in a rounded card. The old map was a 600px
+     letterbox holding a frame in which Italy, Tunisia and Anatolia took more
+     room than Greece, with 301 stock red teardrop pins hotlinked from a
+     stranger's GitHub repo piled on top of each other.
+     ═══════════════════════════════════════════════════════════════════════ */
+
+  /* ── Split instrument: control rail + plate ─────────────────────────────
+     Greece is tall; a full-bleed map box is wide. Fitting the data to a
+     1440×700 frame lands at a zoom where Sicily and Anatolia take more room
+     than the archive does. Spending the width on a rail fixes the aspect the
+     map has to work in and makes the page searchable at the same time. */
+  .map-split {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-block: 1px solid var(--rule);
+  }
+  @media (min-width: 64rem) {
+    .map-split {
+      grid-template-columns: minmax(0, 24rem) minmax(0, 1fr);
+      height: clamp(38rem, 88vh, 58rem);
+    }
+  }
+
+  .map-panel {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background: var(--deck);
+  }
+  @media (min-width: 64rem) {
+    .map-panel { border-inline-end: 1px solid var(--rule); }
+  }
+  .map-panel__controls {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+    padding: var(--s-5) var(--s-5) var(--s-5);
+    border-bottom: 1px solid var(--rule);
+  }
+  .map-panel__count {
+    display: flex;
+    align-items: baseline;
+    gap: var(--s-2);
+    padding: var(--s-3) var(--s-5);
+    border-bottom: 1px solid var(--rule);
+  }
+  .map-panel__count .mono--lit {
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .map-panel__total { color: var(--ink-4); }
+  .map-panel__list {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  @media (max-width: 64rem) {
+    .map-panel__list { max-height: 18rem; }
+  }
+  .map-panel__empty { padding: var(--s-6) var(--s-5); }
+
+  .map-item {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 1fr);
+    gap: var(--s-3);
+    align-items: baseline;
+    width: 100%;
+    text-align: start;
+    padding: var(--s-3) var(--s-5);
+    border-bottom: 1px solid var(--rule);
+    transition: background-color var(--d-fast) var(--ease-out);
+  }
+  .map-item:hover { background: var(--panel); }
+  .map-item[data-active="true"] { background: var(--ember-wash); }
+  .map-item[data-active="true"] .map-item__title { color: var(--ember-text); }
+  .map-item__year {
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    color: var(--ink-4);
+    font-variant-numeric: tabular-nums;
+  }
+  .map-item__title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1rem;
+    line-height: 1.25;
+    color: var(--ink);
+    transition: color var(--d-fast) var(--ease-out);
+  }
+  .map-item:hover .map-item__title { color: var(--ember-text); }
+  .map-item__place {
+    display: block;
+    margin-top: 0.2rem;
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .map-frame {
+    position: relative;
+    width: 100%;
+    height: clamp(26rem, 62vh, 34rem);
+    overflow: hidden;
+    background: var(--well);
+    isolation: isolate;
+  }
+  @media (min-width: 64rem) {
+    .map-frame { height: 100%; }
+  }
+  .map-leaflet {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  /* Cool the basemap right down so it reads as a ground the records sit on,
+     rather than as a map with some dots over it. */
+  .map-leaflet .leaflet-pane.leaflet-tile-pane {
+    filter: brightness(0.52) contrast(1.22) saturate(0.35);
+  }
+  .map-fog-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 400;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse 78% 72% at 50% 50%, transparent 42%, rgb(2 2 3 / 0.72) 100%),
+      linear-gradient(to bottom, rgb(2 2 3 / 0.5), transparent 18%, transparent 84%, rgb(2 2 3 / 0.55));
+  }
+
+  /* ── Record marker ──────────────────────────────────────────────────────
+     A small ember dot with a bone hairline, and a halo that opens on hover.
+     Nothing teardrop-shaped, nothing borrowed. */
+  .mk {
+    background: none !important;
+    border: 0 !important;
+  }
+  .mk__dot {
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: var(--ember-hi);
+    box-shadow:
+      0 0 0 1px rgb(242 240 238 / 0.55),
+      0 0 12px -1px rgb(184 56 47 / 0.7);
+    transition: transform var(--d-fast) var(--ease-out);
+  }
+  .mk__halo {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 1px solid var(--ember-line);
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity var(--d-base) var(--ease-out), transform var(--d-base) var(--ease-out);
+  }
+  .leaflet-marker-icon.mk:hover .mk__halo,
+  .leaflet-marker-icon.mk:focus-visible .mk__halo {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  .leaflet-marker-icon.mk:hover .mk__dot { transform: scale(1.25); }
+
+  /* ── Cluster ────────────────────────────────────────────────────────────
+     Three size bands read as a legend; a continuous scale reads as noise. */
+  .mk--cluster {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .mk--cluster .mk__ring {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: rgb(6 6 7 / 0.82);
+    border: 1px solid var(--ember-line);
+    box-shadow: 0 0 18px -6px rgb(184 56 47 / 0.55);
+    transition: border-color var(--d-fast) var(--ease-out),
+                background-color var(--d-fast) var(--ease-out);
+  }
+  .mk--cluster .mk__n {
+    position: relative;
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .leaflet-marker-icon.mk--cluster:hover .mk__ring {
+    background: rgb(143 42 42 / 0.32);
+    border-color: var(--ember-hi);
+  }
+
+  /* ── Instrument chrome over the plate ───────────────────────────────────
+     z-index sits above Leaflet's own panes (400) and controls (800). */
+  .map-zoom {
+    position: absolute;
+    top: var(--s-4);
+    right: var(--s-4);
+    z-index: 900;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--rule-mid);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: rgb(6 6 7 / 0.86);
+    backdrop-filter: blur(6px);
+  }
+  .map-zoom__btn {
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-code);
+    font-size: 0.95rem;
+    color: var(--ink-2);
+    border-bottom: 1px solid var(--rule);
+    transition: color var(--d-fast) var(--ease-out),
+                background-color var(--d-fast) var(--ease-out);
+  }
+  .map-zoom__btn:last-child { border-bottom: 0; }
+  .map-zoom__btn:hover { color: var(--ink); background: var(--ember-wash); }
+  .map-zoom__btn--reset { font-size: 0.85rem; }
+
+  .map-empty {
+    position: absolute;
+    inset: 0;
+    z-index: 850;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+
+  /* ── Popups ─────────────────────────────────────────────────────────────── */
+  .map-popup .leaflet-popup-content-wrapper {
+    border-radius: var(--radius) !important;
+    background: var(--deck) !important;
+    border: 1px solid var(--rule-mid) !important;
+    box-shadow: var(--lift-2) !important;
+    padding: 0 !important;
+    color: var(--ink) !important;
+  }
+  .map-popup .leaflet-popup-tip {
+    background: var(--deck) !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .map-popup .leaflet-popup-content {
+    margin: 0 !important;
+    width: 240px !important;
+    padding: 0 !important;
+    line-height: 1.5;
+  }
+  .map-popup--stack .leaflet-popup-content { width: 280px !important; }
+  .map-popup-card { display: flex; flex-direction: column; overflow: hidden; }
+  .map-popup-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 116px;
+    overflow: hidden;
+    border-bottom: 1px solid var(--rule);
+    background: var(--well);
+  }
+  .map-popup-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: var(--img-plate);
+  }
   .map-popup-body {
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
-    padding: 0.85rem 1rem 0.75rem;
+    gap: 0.4rem;
+    padding: var(--s-4) var(--s-4) var(--s-3);
   }
-
   .map-popup-meta {
+    display: block;
     font-family: var(--font-code);
-    font-size: 0.65rem;
-    letter-spacing: 0.28em;
+    font-size: var(--t-micro);
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--ink-3);
   }
-
   .map-popup-title {
-    font-size: 0.95rem;
-    font-weight: 600;
-    line-height: 1.35;
-    color: #fff;
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.0625rem;
+    line-height: 1.28;
+    color: var(--ink);
   }
-
   .map-popup-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 0 0 0.85rem 0.85rem;
-    font-size: 0.72rem;
-    font-weight: 600;
+    justify-content: space-between;
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
     text-transform: uppercase;
     letter-spacing: 0.16em;
-    padding: 0.6rem 1rem;
-    color: white;
-    background: black;
-   ;
+    padding: 0.7rem var(--s-4);
+    color: var(--ink-2);
+    border-top: 1px solid var(--rule);
+    transition: background var(--d-fast) var(--ease-out), color var(--d-fast) var(--ease-out);
+  }
+  .map-popup-link:hover { background: var(--ember); color: var(--ember-ink); }
+
+  /* A stack of records at one spot, as a short index. */
+  .map-stack { display: flex; flex-direction: column; }
+  .map-stack__head {
+    display: block;
+    padding: var(--s-3) var(--s-4);
+    border-bottom: 1px solid var(--rule);
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .map-stack__row {
+    display: grid;
+    grid-template-columns: 2.75rem 1fr;
+    gap: var(--s-2);
+    align-items: baseline;
+    padding: 0.5rem var(--s-4);
+    border-bottom: 1px solid var(--rule);
+    transition: background var(--d-fast) var(--ease-out);
+  }
+  .map-stack__row:hover { background: var(--panel-hi); }
+  .map-stack__year {
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    color: var(--ink-4);
+    font-variant-numeric: tabular-nums;
+  }
+  .map-stack__title { font-size: var(--t-small); color: var(--ink-2); line-height: 1.35; }
+  .map-stack__row:hover .map-stack__title { color: var(--ink); }
+  .map-stack__more {
+    display: block;
+    padding: 0.55rem var(--s-4);
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    color: var(--ink-4);
   }
 
-  .map-popup-link:hover {
-    transform: translateY(-1px);
-    opacity: 0.9;
+  /* ── Attribution — required, so it stays; just not shouting. ───────────── */
+  .map-leaflet .leaflet-control-attribution {
+    background: rgb(6 6 7 / 0.7) !important;
+    color: var(--ink-4) !important;
+    font-family: var(--font-code);
+    font-size: 0.625rem;
+    letter-spacing: 0.04em;
+    padding: 2px 8px;
+    border-top-left-radius: var(--radius);
   }
+  .map-leaflet .leaflet-control-attribution a { color: var(--ink-3) !important; }
+  .map-leaflet .leaflet-control-attribution a:hover { color: var(--ink-2) !important; }
 
-  .map-popup-link:focus-visible {
-    outline: 2px solid #ff4d4d;
-    outline-offset: 2px;
+  /* ── Filter panel above the plate ──────────────────────────────────────── */
+  .map-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-4);
   }
+  @media (min-width: 48rem) and (max-width: 64rem) {
+    .map-filters { grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+  }
+  .map-field { display: flex; flex-direction: column; gap: var(--s-2); }
 
-  @media (max-width: 768px) {
-    .map-container {
-      border-radius: 1.5rem;
+  @media (max-width: 48rem) {
+    .map-zoom { top: var(--s-3); right: var(--s-3); }
+    .map-panel__controls, .map-panel__count, .map-item, .map-panel__empty {
+      padding-inline: var(--gutter);
     }
-
-    .map-leaflet {
-      border-radius: 1.5rem;
-    }
-
-    .map-fog-overlay {
-      background: radial-gradient(circle at center, transparent 55%, rgba(0, 0, 0, 0.75) 100%);
-    }
-
-    .leaflet-control-attribution {
-      display: none !important;
-    }
+    .leaflet-control-attribution { font-size: 0.5625rem !important; }
+  }
+  /* ═══ LEGACY ═══════════════════════════════════════════════════════════
+     Surface and text helpers the inner views still reference. Repointed at
+     the new palette; delete each once its last caller is migrated. */
+  .surface-card        { background-color: var(--panel); }
+  .surface-card-strong { background-color: var(--deck); }
+  .surface-input       { background-color: var(--panel); }
+  .surface-border      { border-color: var(--rule); }
+  .surface-border-strong { border-color: var(--rule-mid); }
+  .text-secondary      { color: var(--ink-2); }
+  .text-muted          { color: var(--ink-3); }
+  .caption             { font-size: var(--t-small); }
+  .quote {
+    font-family: var(--font-display);
+    font-size: var(--t-lede);
+    line-height: 1.7;
+    font-style: italic;
+    color: var(--ink-2);
+  }
+  .tagline {
+    font-family: var(--font-code);
+    font-size: var(--t-meta);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-3);
   }
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   UTILITIES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
 @layer utilities {
-  .px-7\.5 {
-    padding-left: 1.875rem;
-    padding-right: 1.875rem;
-  }
+  .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
 
-  .py-15 {
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
-  }
+  .stack-4 > * + * { margin-top: var(--s-4); }
+  .stack-6 > * + * { margin-top: var(--s-6); }
 
-  .-mr-0\.25 {
-    margin-right: -0.0625rem;
-  }
-
-  .no-scrollbar {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
+  /* Legacy spacing helper still used by one inner view. */
+  .py-15 { padding-top: 3.75rem; padding-bottom: 3.75rem; }
 
   @keyframes timeline-fade {
-    from {
-      opacity: 0;
-      transform: translateY(12px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
   }
+  .timeline-fade { animation: timeline-fade 0.55s ease forwards; }
+}
 
-  .timeline-fade {
-    animation: timeline-fade 0.55s ease forwards;
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LEAFLET OVERRIDES — deliberately unlayered
+   leaflet.css is imported by the map component and arrives unlayered, and
+   unlayered CSS beats everything inside @layer no matter how specific it is.
+   Its `.leaflet-container { background: #ddd }` was therefore painting light
+   grey through every hairline seam between tiles — the faint pale grid people
+   could see across the bottom of the plate.
+
+   Unlayered alone is not enough: leaflet.css is imported from inside the map
+   component, so Next injects it AFTER globals.css and plain source order
+   hands it the win. The background therefore needs !important — the one
+   place in this stylesheet where that is the correct tool rather than a
+   patch.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.leaflet-container {
+  background: var(--well) !important;
+  font-family: var(--font-sans);
+}
+
+/* Half-step zoom scales tiles to fractional pixel sizes; a transparent
+   outline closes the sub-pixel gaps that leaves between them. */
+.leaflet-container .leaflet-tile {
+  outline: 1px solid transparent;
+}
+
+.leaflet-container .leaflet-popup-content-wrapper,
+.leaflet-container .leaflet-popup-tip {
+  background: var(--deck);
+  color: var(--ink);
 }

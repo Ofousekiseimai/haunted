@@ -1,7 +1,11 @@
-import Link from "next/link";
-import Image from "next/image";
+"use client";
 
+import Link from "next/link";
+import { PlateImage } from "@/components/ui/plate-image";
+
+import { Reveal } from "@/components/ui/reveal";
 import type { ArticleSummary } from "@/lib/home";
+import type { Locale } from "@/lib/locale";
 
 const SITE_BASE_URL = "https://haunted.gr";
 
@@ -17,59 +21,99 @@ function toAbsoluteUrl(url?: string | null) {
   }
 }
 
+function toYear(date?: string | null) {
+  if (!date) return null;
+  const match = date.trim().match(/(1[5-9]\d{2}|20[0-2]\d)/);
+  return match ? match[1] : null;
+}
+
+const copy = {
+  el: {
+    onThisDay: "Σαν σήμερα",
+    fromArchive: "Από το αρχείο",
+    press: "Από τον ελληνικό Τύπο",
+  },
+  en: {
+    onThisDay: "On this day",
+    fromArchive: "From the archive",
+    press: "From the Greek press",
+  },
+} as const;
+
 type SanSimeraSectionProps = {
-  articles: Array<ArticleSummary & { href: string }>;
+  articles: Array<ArticleSummary & { href: string; subcategoryLabel?: string }>;
+  /** Formatted day-and-month, e.g. "1 Σεπτεμβρίου". */
   dateLabel: string;
+  /**
+   * True when nothing in the archive matches today's date. The section then
+   * shows a seeded selection instead of disappearing — the old build simply
+   * rendered nothing, so on most days the homepage silently lost its opening
+   * module and began on a full-bleed image with no heading above it.
+   */
+  fallback?: boolean;
+  locale?: Locale;
 };
 
-export function SanSimeraSection({ articles, dateLabel }: SanSimeraSectionProps) {
+export function SanSimeraSection({
+  articles,
+  dateLabel,
+  fallback = false,
+  locale = "el",
+}: SanSimeraSectionProps) {
+  const t = locale === "en" ? copy.en : copy.el;
+
   if (!articles.length) return null;
 
   return (
-    <section className="space-y-8">
-      <div className="text-center">
-        <p className="text-xs font-semibold uppercase tracking-[0.32em] text-color-1">
-          Σαν σήμερα
-        </p>
-        <h2 className="mt-2 text-3xl font-bold text-n-1 md:text-4xl">{dateLabel}</h2>
-        <p className="mt-2 text-n-3">Από τον Ελληνικό Τύπο</p>
-      </div>
+    <Reveal>
+      <section>
+        <div className="shead">
+          <div>
+            <div className="shead__kicker">
+              <span className="mark" aria-hidden="true" />
+              <span className="mono">{fallback ? t.fromArchive : t.onThisDay}</span>
+            </div>
+            <h2 className="shead__title">{fallback ? t.press : dateLabel}</h2>
+          </div>
+          {!fallback && <p className="shead__desc">{t.press}</p>}
+        </div>
 
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {articles.map((article) => {
-          const imgSrc = toAbsoluteUrl(article.image?.src);
-          return (
-            <Link
-              key={`${article.id}-${article.slug}`}
-              href={article.href}
-              className="group relative overflow-hidden rounded-2xl border border-n-7 bg-n-8/60 p-4 shadow-lg transition duration-300 hover:scale-[1.02]"
-            >
-              {imgSrc && (
-                <div className="relative mb-4 h-48 w-full overflow-hidden rounded-lg">
-                  <Image
-                    src={imgSrc}
-                    alt={article.image?.alt ?? article.title}
-                    fill
-                    className="object-cover transition duration-300 group-hover:scale-105"
-                    sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
-                    priority={false}
-                  />
-                  <div className="absolute inset-0 bg-black/20 transition group-hover:bg-black/10" />
+        <div>
+          {articles.map((article) => {
+            const src = toAbsoluteUrl(article.image?.src);
+            const year = toYear(article.date as string | undefined);
+
+            return (
+              <Link
+                key={`${article.id}-${article.slug}`}
+                href={article.href}
+                className="strip__row group"
+              >
+                <div className="strip__thumb">
+                  {src && (
+                    <PlateImage
+                      src={src}
+                      alt={article.image?.alt ?? article.title}
+                      fill
+                      sizes="(min-width: 40rem) 168px, 96px"
+                    />
+                  )}
                 </div>
-              )}
-              <h3 className="text-xl font-semibold text-n-1 transition group-hover:text-color-1">
-                {article.title}
-              </h3>
-              {article.excerpt && (
-                <p className="mt-3 line-clamp-3 text-sm text-n-3">{article.excerpt}</p>
-              )}
-              <div className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-n-1/80 transition group-hover:text-color-1 group-hover:opacity-100">
-                Διαβάστε περισσότερα <span aria-hidden="true">→</span>
-              </div>
-            </Link>
-          );
-        })}
-      </div>
-    </section>
+                <div className="strip__body flex flex-col gap-2">
+                  <h3 className="strip__title">{article.title}</h3>
+                  {article.excerpt && <p className="rec__excerpt">{article.excerpt}</p>}
+                </div>
+                <div className="strip__aside">
+                  {year && <span className="mono mono--micro">{year}</span>}
+                  {article.subcategoryLabel && (
+                    <span className="mono mono--micro">{article.subcategoryLabel}</span>
+                  )}
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+    </Reveal>
   );
 }

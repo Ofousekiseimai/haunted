@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Anton, Source_Code_Pro, Sora } from "next/font/google";
+import { EB_Garamond, JetBrains_Mono, Manrope, Source_Code_Pro } from "next/font/google";
 import "./globals.css";
 
 import { Suspense } from "react";
@@ -8,22 +8,38 @@ import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { GoogleAnalyticsTracker } from "@/components/analytics/google-analytics";
 import { ClientGuards } from "@/components/layout/client-guards";
+import { SmoothScroll } from "@/components/ui/smooth-scroll";
 import { getRequestLocale } from "@/lib/locale-server";
 
-const sora = Sora({
-  subsets: ["latin"],
-  variable: "--font-sora",
+// Greek is the primary language of this site, so every face here must ship a
+// Greek subset. Sora and Cormorant Garamond do not have one at all — they were
+// silently falling back to the OS sans for every Greek glyph on the site.
+// greek-ext carries the polytonic marks the pre-1982 newspaper transcriptions need.
+const manrope = Manrope({
+  subsets: ["latin", "greek"],
+  variable: "--font-manrope",
+  display: "swap",
 });
 
-const anton = Anton({
-  weight: ["400"],
-  subsets: ["latin"],
-  variable: "--font-anton",
+const garamond = EB_Garamond({
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
+  subsets: ["latin", "greek", "greek-ext"],
+  variable: "--font-garamond",
+  display: "swap",
+});
+
+const jetbrains = JetBrains_Mono({
+  weight: ["400", "500"],
+  subsets: ["latin", "greek"],
+  variable: "--font-jetbrains",
+  display: "swap",
 });
 
 const sourceCode = Source_Code_Pro({
-  subsets: ["latin"],
-  variable: "--font-code",
+  subsets: ["latin", "greek"],
+  variable: "--font-source-code",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -74,8 +90,8 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} data-scroll-behavior="smooth">
-      <body className={`${sora.variable} ${anton.variable} ${sourceCode.variable} text-n-1 antialiased`}>
-        
+      <body className={`${manrope.variable} ${garamond.variable} ${jetbrains.variable} ${sourceCode.variable} antialiased`}>
+
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-FXJ30XVLMD"
             strategy="afterInteractive"
@@ -94,11 +110,19 @@ gtag('config', 'G-FXJ30XVLMD', {
           <Suspense fallback={null}>
             <GoogleAnalyticsTracker />
           </Suspense>
-          <div className="flex min-h-screen flex-col pt-[4.75rem] lg:pt-[5.25rem]">
-            <Header initialLocale={locale} />
-            <main className="flex-1">{children}</main>
-            <Footer locale={locale} />
-          </div>
+          {/* Atmosphere. Fixed behind everything, so content reads as
+              travelling across a static plate rather than as cards on flat
+              black. */}
+          <div className="plate-grid" aria-hidden="true" />
+          <div className="plate-horizon" aria-hidden="true" />
+
+          <SmoothScroll>
+            <div className="relative z-[1] flex min-h-screen flex-col">
+              <Header initialLocale={locale} />
+              <main className="flex-1 pt-[var(--masthead-h)]">{children}</main>
+              <Footer locale={locale} />
+            </div>
+          </SmoothScroll>
       </body>
     </html>
   );
