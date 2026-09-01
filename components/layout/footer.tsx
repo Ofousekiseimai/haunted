@@ -29,8 +29,8 @@ export function Footer({ locale }: FooterProps) {
   ];
 
   const resources = [
-    { href: "/map2", label: copy.folkloreMap },
-    { href: "/map", label: copy.articlesMap },
+    { href: "/chartis-laografia", label: copy.folkloreMap },
+    { href: "/chartis-efimerides", label: copy.articlesMap },
     { href: "/terms", label: copy.terms },
     { href: "/privacy", label: copy.privacy },
     { href: "/about-us", label: copy.about },

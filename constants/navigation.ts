@@ -97,10 +97,10 @@ const navigationBase: NavigationItem[] = [
   {
     id: "4",
     title: "Χαρτες",
-    url: "/map2",
+    url: "/chartis-laografia",
     subitems: [
-      { slug: "laografia-map", title: "Χάρτης Λαογραφίας", url: "/map2" },
-      { slug: "efimerides-map", title: "Χάρτης Εφημερίδων", url: "/map" },
+      { slug: "laografia-map", title: "Χάρτης Λαογραφίας", url: "/chartis-laografia" },
+      { slug: "efimerides-map", title: "Χάρτης Εφημερίδων", url: "/chartis-efimerides" },
     ],
   },
   {
