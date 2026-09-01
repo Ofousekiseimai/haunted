@@ -103,21 +103,6 @@ const navigationBase: NavigationItem[] = [
       { slug: "efimerides-map", title: "Χάρτης Εφημερίδων", url: "/chartis-efimerides" },
     ],
   },
-  {
-    id: "8",
-    title: "Βιβλια",
-    url: "/vivlia",
-   // subitems: [
-    //  { slug: "all-books", title: "Όλα", url: "/vivlia" },
-     // {
-     //   slug: "laografika-mythistorimata",
-     //   title: "Λαογραφικά Μυθιστορήματα",
-     //   url: "/vivlia/laografika-mythistorimata",
-     // },
-     // { slug: "erevna", title: "Έρευνα", url: "/vivlia/erevna" },
-     // { slug: "skoteini-fantasia", title: "Σκοτεινή Φαντασία", url: "/vivlia/skoteini-fantasia" },
-    //],
-  },
   
   
   {
@@ -150,8 +135,6 @@ function localizeTitle(item: NavigationItem, locale: Locale) {
       return translateCategoryLabel("search", item.title, locale);
     case "7":
       return translateCategoryLabel("chronologia", item.title, locale);
-    case "8":
-      return translateCategoryLabel("vivlia", item.title, locale);
     default:
       return item.title;
   }
@@ -160,9 +143,6 @@ function localizeTitle(item: NavigationItem, locale: Locale) {
 function localizeSubitemTitle(slug: string, title: string, locale: Locale) {
   if (slug === "all") {
     return translateSubcategoryLabel("all", title, locale);
-  }
-  if (slug === "all-books") {
-    return translateSubcategoryLabel("allBooks", title, locale);
   }
   return translateSubcategoryLabel(slug, title, locale);
 }
