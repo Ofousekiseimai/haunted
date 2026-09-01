@@ -4,7 +4,7 @@ import { EfimeridesMapShell } from "@/components/maps/efimerides-map-shell";
 import { getEfimeridesMapData } from "@/lib/maps";
 import { getRequestLocale } from "@/lib/locale-server";
 
-const CANONICAL_URL = "https://haunted.gr/map";
+const CANONICAL_URL = "https://haunted.gr/chartis-efimerides";
 
 export const metadata: Metadata = {
   title: "Διαδραστικός Χάρτης Εφημερίδων",

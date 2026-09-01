@@ -4,7 +4,7 @@ import { LaografiaMapShell } from "@/components/maps/laografia-map-shell";
 import { getLaografiaMapData } from "@/lib/maps";
 import { getRequestLocale } from "@/lib/locale-server";
 
-const CANONICAL_URL = "https://haunted.gr/map2";
+const CANONICAL_URL = "https://haunted.gr/chartis-laografia";
 
 export const metadata: Metadata = {
   title: "Λαογραφικός Χάρτης Ελλάδας",

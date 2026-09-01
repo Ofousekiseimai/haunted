@@ -1,7 +1,7 @@
 {
   "category": "etaireia-psychikon-ereynon",
   "subcategorySlug": "peiramata",
-  "subcategory": "Πειράματα",
+  "subcategory": "Experiments",
   "slug": "etaireia-psychikon-ereynon/peiramata",
   "articles": [
     {
@@ -535,11 +535,11 @@
     }
   ],
   "seo": {
-    "metaTitle": "Πειράματα | Εταιρεία Ψυχικών Ερευνών | haunted.gr",
-    "metaDescription": "Συλλογή 1 αρχειακών τεκμηρίων για Πειράματα από την Εταιρεία Ψυχικών Ερευνών.",
+    "metaTitle": "Experiments | Εταιρεία Ψυχικών Ερευνών | haunted.gr",
+    "metaDescription": "Συλλογή 1 αρχειακών τεκμηρίων για Experiments από την Εταιρεία Ψυχικών Ερευνών.",
     "canonical": "https://haunted.gr/etaireia-psychikon-ereynon/peiramata",
     "keywords": [
-      "Πειράματα",
+      "Experiments",
       "Εταιρεία Ψυχικών Ερευνών",
       "Ψυχικά Φαινόμενα",
       "Ελλάδα",
@@ -549,8 +549,8 @@
     "structuredData": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Πειράματα | Εταιρεία Ψυχικών Ερευνών",
-      "description": "Αρχειακό υλικό και μελέτες για Πειράματα από την Εταιρεία Ψυχικών Ερευνών.",
+      "name": "Experiments | Εταιρεία Ψυχικών Ερευνών",
+      "description": "Αρχειακό υλικό και μελέτες για Experiments από την Εταιρεία Ψυχικών Ερευνών.",
       "inLanguage": "el",
       "url": "https://haunted.gr/etaireia-psychikon-ereynon/peiramata",
       "isPartOf": {
@@ -559,7 +559,7 @@
         "url": "https://haunted.gr"
       },
       "about": [
-        "Πειράματα",
+        "Experiments",
         "Εταιρεία Ψυχικών Ερευνών",
         "Ψυχικά Φαινόμενα",
         "Ελλάδα",
