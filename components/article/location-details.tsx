@@ -34,23 +34,22 @@ export function LocationDetails({
   }
 
   return (
-    <section className="rounded-2xl border border-n-7 bg-n-8 p-6">
-      <h2 className="text-lg font-semibold text-n-1">{copy.location.heading}</h2>
-      <div className="mt-4 space-y-4 text-sm text-n-3">
+    <section className="panel">
+      <h2 className="panel__head mono">{copy.location.heading}</h2>
+      <dl className="panel__rows">
         {cleanMainArea && (
-          <div className="flex flex-wrap gap-2">
-            <span className="font-medium text-n-2">{copy.location.mainArea}:</span>
-            <span>{cleanMainArea}</span>
+          <div className="panel__row">
+            <dt className="mono mono--micro">{copy.location.mainArea}</dt>
+            <dd>{cleanMainArea}</dd>
           </div>
         )}
-
         {subLocations.length > 0 && (
-          <div className="flex flex-wrap gap-2">
-            <span className="font-medium text-n-2">{copy.location.subLocations}:</span>
-            <span>{subLocations.join(", ")}</span>
+          <div className="panel__row">
+            <dt className="mono mono--micro">{copy.location.subLocations}</dt>
+            <dd>{subLocations.join(", ")}</dd>
           </div>
         )}
-      </div>
+      </dl>
     </section>
   );
 }

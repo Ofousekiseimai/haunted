@@ -52,6 +52,20 @@ function normalizeString(value?: string | null) {
   return trimmed.length > 0 ? trimmed : null;
 }
 
+/** Same rule as the article byline: a 1 January day-precision date almost
+ *  always means "year only", so it is not dressed up as a full date. */
+function formatArticleDate(date: string | undefined, locale: Locale) {
+  if (!date) return null;
+  const iso = date.trim().match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+  if (!iso) return date.trim();
+  if (Number(iso[2]) === 1 && Number(iso[3]) === 1) return iso[1];
+  const parsed = new Date(Date.UTC(+iso[1], +iso[2] - 1, +iso[3]));
+  if (Number.isNaN(parsed.getTime())) return date.trim();
+  return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "el-GR", {
+    day: "numeric", month: "long", year: "numeric", timeZone: "UTC",
+  }).format(parsed);
+}
+
 function resolveLink(entry: LinkEntry) {
   return normalizeString(entry.link ?? entry.url);
 }
@@ -63,8 +77,8 @@ function SourceLine({ label, value }: { label: string; value?: string | null }) 
   }
 
   return (
-    <div className="flex flex-wrap gap-2 text-sm text-n-3">
-      <span className="font-medium text-n-2">{label}:</span>
+    <div className="panel__row">
+      <span className="mono mono--micro">{label}</span>
       <span>{clean}</span>
     </div>
   );
@@ -93,7 +107,7 @@ function renderSourceDetails(entry: StructuredSource, copy: ReturnType<typeof ge
           <SourceLine label={L.role} value={entry.role} />
           {entry.links && entry.links.length > 0 && (
             <div className="space-y-2">
-              <p className="text-sm font-medium uppercase tracking-[0.24em] text-n-4">
+              <p className="mono mono--micro">
                 {L.links}
               </p>
               <ul className="space-y-1">
@@ -110,7 +124,7 @@ function renderSourceDetails(entry: StructuredSource, copy: ReturnType<typeof ge
                         href={href}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-sm font-medium text-[var(--accent)] underline-offset-4 transition hover:text-[var(--accent-bright)] hover:underline"
+                        className="tlink text-[var(--t-small)]"
                       >
                         {label}
                       </Link>
@@ -188,7 +202,7 @@ function renderSourceDetails(entry: StructuredSource, copy: ReturnType<typeof ge
                 href={href}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center text-sm font-medium text-[var(--accent)] underline-offset-4 transition hover:text-[var(--accent-bright)] hover:underline"
+                className="tlink inline-flex items-center text-[var(--t-small)]"
               >
                 {label}
               </Link>
@@ -257,10 +271,10 @@ function StandardSource({
   return (
     <li
       key={index}
-      className="space-y-3 rounded-2xl border border-n-7 bg-n-8 p-5"
+      className="panel panel--tight"
     >
       {typeLabel && (
-        <p className="text-xs font-code uppercase tracking-[0.24em] text-n-4">
+        <p className="mono mono--micro">
           {typeLabel}
         </p>
       )}
@@ -271,7 +285,7 @@ function StandardSource({
 
 function StringSource({ value }: { value: string }) {
   return (
-    <li className="rounded-2xl border border-n-7 bg-n-8 p-5 text-sm text-n-3">
+    <li className="panel panel--tight">
       {value}
     </li>
   );
@@ -306,27 +320,27 @@ export function ArticleSources({
   }
 
   return (
-    <section className="space-y-6">
-      <h2 className="text-xl font-semibold text-n-1">{heading ?? copy.sources.heading}</h2>
+    <section className="sources">
+      <h2 className="sources__head mono">{heading ?? copy.sources.heading}</h2>
       {(articleDate || articleAuthor) && (
-        <div className="rounded-2xl border border-n-7 bg-n-8 p-5">
-          <div className="flex flex-wrap gap-6 text-sm text-n-3">
+        <div className="panel panel--tight">
+          <div className="panel__rows panel__rows--inline">
             {articleDate && (
-              <div className="flex items-center gap-2">
-                <span className="font-medium text-n-2">{copy.sources.articleDate}:</span>
-                <span>{articleDate}</span>
+              <div className="panel__row">
+                <span className="mono mono--micro">{copy.sources.articleDate}</span>
+                <span>{formatArticleDate(articleDate, locale)}</span>
               </div>
             )}
             {articleAuthor && (
-              <div className="flex items-center gap-2">
-                <span className="font-medium text-n-2">{copy.sources.articleAuthor}:</span>
+              <div className="panel__row">
+                <span className="mono mono--micro">{copy.sources.articleAuthor}</span>
                 <span>{articleAuthor}</span>
               </div>
             )}
           </div>
         </div>
       )}
-      <ul className="space-y-4">
+      <ul className="sources__list">
         {normalizedSources.map((entry, index) => {
           if (typeof entry === "string") {
             return <StringSource key={`string-${index}`} value={entry} />;

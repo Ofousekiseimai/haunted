@@ -1,100 +1,59 @@
-import Image from "next/image";
 import Link from "next/link";
 
-import { GlowCard } from "@/components/ui/glow-card";
+import { PlateImage } from "@/components/ui/plate-image";
 import type { SuggestionArticle } from "@/lib/articles";
-
-function formatDate(date?: string) {
-  if (!date) {
-    return null;
-  }
-
-  const parsed = Date.parse(date);
-  if (Number.isNaN(parsed)) {
-    return date;
-  }
-
-  try {
-    return new Intl.DateTimeFormat("el-GR", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    }).format(parsed);
-  } catch {
-    return date;
-  }
-}
 
 type ArticleSuggestionCardProps = {
   article: SuggestionArticle;
 };
 
+/** Year only — a suggestion card wants a datum, not a formatted date. */
+function toYear(date?: string) {
+  if (!date) return null;
+  return date.trim().match(/(1[5-9]\d{2}|20[0-2]\d)/)?.[1] ?? null;
+}
+
 export function ArticleSuggestionCard({ article }: ArticleSuggestionCardProps) {
-  const formattedDate = formatDate(article.date);
   const href = `/${article.categoryKey}/${article.subcategorySlug}/${article.slug}`;
+  const year = toYear(article.date);
+  // Press and Society material is scanned paper and must not be cropped;
+  // folklore is commissioned illustration and can be.
+  const isScan = article.categoryKey !== "laografia";
 
   return (
-    <Link href={href} className="group block h-full">
-      <GlowCard className="flex h-full flex-col">
+    <Link href={href} className={isScan ? "clip group" : "rec group"}>
+      <div className={isScan ? "clip__mat" : "rec__plate"}>
         {article.image?.src ? (
-          <div className="relative -mx-6 -mt-6 mb-4 h-48 w-[calc(100%+3rem)] overflow-hidden">
-            <Image
+          isScan ? (
+            <PlateImage
+              src={article.image.src}
+              alt={article.image.alt ?? article.title}
+              width={640}
+              height={480}
+              sizes="(min-width: 64rem) 33vw, (min-width: 40rem) 50vw, 100vw"
+            />
+          ) : (
+            <PlateImage
               src={article.image.src}
               alt={article.image.alt ?? article.title}
               fill
-              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-              className="object-cover transition duration-300 group-hover:scale-105"
+              sizes="(min-width: 64rem) 33vw, (min-width: 40rem) 50vw, 100vw"
             />
-          </div>
+          )
         ) : (
-          <div
-            className="flex -mx-6 -mt-6 mb-4 h-48 w-[calc(100%+3rem)] items-center justify-center text-sm"
-            style={{ background: "var(--surface)", color: "var(--ash-dim)" }}
-          >
-            Χωρίς εικόνα
-          </div>
+          <span className="absolute inset-0 flex items-center justify-center">
+            <span className="mono mono--micro">—</span>
+          </span>
         )}
+      </div>
 
-        <div className="flex flex-1 flex-col gap-3">
-          <p
-            className="uppercase"
-            style={{
-              fontFamily: "var(--font-code)",
-              fontSize: "var(--fs-meta)",
-              letterSpacing: "0.18em",
-              color: "var(--ash-dim)",
-            }}
-          >
-            {article.subcategoryLabel}
-          </p>
-          <h3
-            className="text-xl font-semibold transition group-hover:text-[var(--accent-bright)]"
-            style={{ color: "var(--bone)" }}
-          >
-            {article.title}
-          </h3>
-          {article.excerpt && (
-            <p className="text-sm leading-6" style={{ color: "var(--ash)" }}>
-              {article.excerpt}
-            </p>
-          )}
-
-          {(formattedDate || article.mainArea) && (
-            <div
-              className="mt-auto flex flex-wrap gap-3 uppercase"
-              style={{
-                fontFamily: "var(--font-code)",
-                fontSize: "var(--fs-meta)",
-                letterSpacing: "0.18em",
-                color: "var(--ash-dim)",
-              }}
-            >
-              {formattedDate && <span>{formattedDate}</span>}
-              {article.mainArea && <span>{article.mainArea}</span>}
-            </div>
-          )}
-        </div>
-      </GlowCard>
+      <div className="flex flex-col gap-2">
+        <span className="mono mono--micro">
+          {[article.subcategoryLabel, year].filter(Boolean).join(" · ")}
+        </span>
+        <h3 className={isScan ? "clip__title" : "rec__title"}>{article.title}</h3>
+        {!isScan && article.excerpt && <p className="rec__excerpt">{article.excerpt}</p>}
+      </div>
     </Link>
   );
 }

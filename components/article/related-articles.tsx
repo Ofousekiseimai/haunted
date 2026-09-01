@@ -1,4 +1,4 @@
-import { ArticleSuggestionCard } from "./suggestion-card";
+import { MoreArticles } from "./more-articles";
 import { getRelatedArticlesBySubcategory } from "@/lib/articles";
 import { getRequestLocale } from "@/lib/locale-server";
 
@@ -25,23 +25,5 @@ export async function RelatedArticles({
     return null;
   }
 
-  return (
-    <section className="space-y-6 pt-10">
-      <h2
-        className="font-light"
-        style={{
-          fontFamily: "var(--font-display)",
-          fontSize: "var(--fs-h3)",
-          color: "var(--bone)",
-        }}
-      >
-        Περισσότερα από την ίδια ενότητα
-      </h2>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {articles.map((article) => (
-          <ArticleSuggestionCard key={`${article.categoryKey}-${article.id}`} article={article} />
-        ))}
-      </div>
-    </section>
-  );
+  return <MoreArticles heading={`Περισσότερα από την ίδια ενότητα`} articles={articles} />;
 }

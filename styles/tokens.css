@@ -55,6 +55,9 @@
   --t-meta:  0.75rem;                                  /* 12px — metadata    */
   --t-small: 0.8125rem;                                /* 13px               */
   --t-body:  clamp(0.9375rem, 0.9rem + 0.18vw, 1.0625rem);
+  /* Long-form reading. Set in the display serif, which needs a little more
+     size than the UI sans to hold the same apparent weight on a dark ground. */
+  --t-read:  clamp(1.0625rem, 0.98rem + 0.42vw, 1.25rem);
   --t-lede:  clamp(1.0625rem, 0.98rem + 0.4vw, 1.3125rem);
   --t-h4:    clamp(1.0625rem, 1rem + 0.28vw, 1.25rem);  /* card titles       */
   --t-h3:    clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
@@ -64,8 +67,11 @@
 
   /* ── Measure ────────────────────────────────────────────────────────────
      Greek runs ~8% longer than English, so a 66ch optimum lands short here. */
-  --measure:      72ch;
+  --measure:       72ch;
   --measure-tight: 46ch;
+  /* The article column. 68ch of Garamond lands around 640-700px, which keeps
+     the return sweep honest; the old article page ran body copy to 896px. */
+  --measure-read:  68ch;
 
   /* ── Spacing — 4px base, named by role not by size ──────────────────── */
   --s-1: 0.25rem;  --s-2: 0.5rem;  --s-3: 0.75rem;  --s-4: 1rem;

@@ -1,5 +1,6 @@
-import Image from "next/image";
 import type { Metadata } from "next";
+
+import { ArticleView } from "@/components/article/article-view";
 import { notFound } from "next/navigation";
 
 import { LocationDetails } from "@/components/article/location-details";
@@ -8,11 +9,9 @@ import { RelatedArticles } from "@/components/article/related-articles";
 import { SameAreaArticles } from "@/components/article/same-area-articles";
 import { RandomArticles } from "@/components/article/random-articles";
 import { ArticleSources, type ArticleSource } from "@/components/article/article-sources";
-import { Section } from "@/components/section";
 import {
   getAllEfimeridesArticleParams,
   getEfimeridesArticle,
-  type EfimeridesArticle,
 } from "@/lib/efimerides";
 import { getRequestLocale } from "@/lib/locale-server";
 
@@ -49,81 +48,6 @@ function toAbsoluteUrl(url?: string | null) {
   }
 }
 
-function renderContentBlock(block: EfimeridesArticle["content"][number], index: number) {
-  switch (block.type) {
-    case "heading":
-      return (
-        <h2 key={index} className="mt-10 text-2xl font-semibold text-n-1">
-          {block.value ?? block.heading}
-        </h2>
-      );
-    case "list":
-      if (!block.items?.length) {
-        return null;
-      }
-      return (
-        <ul key={index} className="mt-6 list-disc space-y-2 pl-6 text-base text-n-2">
-          {block.items.map((item, itemIndex) => (
-            <li key={itemIndex}>{item}</li>
-          ))}
-        </ul>
-      );
-    case "quote":
-      return (
-        <blockquote
-          key={index}
-          className="mt-8 border-l-4 border-primary-400/40 pl-4 text-lg italic text-n-1"
-        >
-          {block.value}
-        </blockquote>
-      );
-    case "image": {
-      const payload = block.value as
-        | {
-            src?: string;
-            alt?: string;
-            caption?: string;
-          }
-        | null
-        | undefined;
-
-      if (!payload || typeof payload !== "object" || typeof payload.src !== "string") {
-        return null;
-      }
-
-      return (
-        <figure key={index} className="mt-10 space-y-3">
-          <div className="relative h-80 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8 md:h-96 lg:h-[30rem]">
-            <Image
-              src={payload.src}
-              alt={payload.alt ?? "Εικόνα άρθρου"}
-              fill
-              className="object-cover"
-            />
-          </div>
-          {payload.caption && (
-            <figcaption className="text-sm italic text-n-4">{payload.caption}</figcaption>
-          )}
-        </figure>
-      );
-    }
-    case "text":
-      return (
-        <p key={index} className="mt-6 whitespace-pre-line text-base leading-7 text-n-2">
-          {block.value}
-        </p>
-      );
-    default:
-      if (block.value) {
-        return (
-          <p key={index} className="mt-6 text-base leading-7 text-n-2">
-            {block.value}
-          </p>
-        );
-      }
-      return null;
-  }
-}
 
 export async function generateStaticParams() {
   return getAllEfimeridesArticleParams();
@@ -308,80 +232,61 @@ export default async function EfimeridesArticlePage({ params }: PageProps) {
       };
 
   return (
-    <Section className="container max-w-4xl space-y-12" customPaddings="py-12 lg:py-20">
-      <header className="space-y-6">
-        <div className="flex flex-wrap gap-3 text-xs font-code uppercase tracking-[0.28em] text-n-4">
-          <span>{subcategoryData.category}</span>
-          <span>·</span>
-          <span>{subcategoryData.subcategory}</span>
-        </div>
+    <ArticleView
+      categoryLabel={subcategoryData.category}
+      subcategoryLabel={subcategoryData.subcategory}
+      title={article.title}
+      author={typeof article.author === "string" ? article.author : undefined}
+      date={typeof article.date === "string" ? article.date : undefined}
+      excerpt={article.excerpt}
+      image={rawImageSrc ? { src: rawImageSrc, alt: article.image?.alt } : undefined}
+      content={article.content}
+      variant="plates"
+      locale={locale}
+    >
 
-        <h1 className="text-4xl font-bold text-n-1">{article.title}</h1>
+      {/* Sources, location and JSON-LD stay in the reading column;
+          the card grids below are wider on purpose. */}
+      <div className="article__col">
+        <LinkedArticles
+          entries={(article as { relatedArticles?: unknown }).relatedArticles}
+          fallbackCategoryKey="efimerides"
+          fallbackSubcategorySlug={subcategoryData.subcategorySlug ?? subcategoryData.slug}
+        />
 
-        {(article.author || article.date) && (
-          <p className="text-sm text-n-4">
-            {article.author && <span>{article.author}</span>}
-            {article.author && article.date && <span> · </span>}
-            {article.date && <span>{article.date}</span>}
-          </p>
-        )}
+        <LocationDetails
+          mainArea={mainArea}
+          subLocation={subLocation}
+          subLocation2={subLocation2}
+          locale={locale}
+        />
 
-        {article.excerpt && <p className="text-lg text-n-2">{article.excerpt}</p>}
+        <ArticleSources
+          sources={sources}
+          articleDate={typeof article.date === "string" ? article.date : undefined}
+          articleAuthor={typeof article.author === "string" ? article.author : undefined}
+          locale={locale}
+        />
 
-        {rawImageSrc && (
-          <div className="relative h-80 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8 md:h-96 lg:h-[30rem]">
-            <Image
-              src={rawImageSrc}
-              alt={article.image?.alt ?? article.title}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        )}
-      </header>
-
-      <div className="space-y-6 text-base leading-7 text-n-2">
-        {article.content.map((block, index) => renderContentBlock(block, index))}
-      </div>
-
-      <LinkedArticles
-        entries={(article as { relatedArticles?: unknown }).relatedArticles}
-        fallbackCategoryKey="efimerides"
-        fallbackSubcategorySlug={subcategoryData.subcategorySlug ?? subcategoryData.slug}
-      />
-
-      <LocationDetails
-        mainArea={mainArea}
-        subLocation={subLocation}
-        subLocation2={subLocation2}
-        locale={locale}
-      />
-
-      <ArticleSources
-        sources={sources}
-        articleDate={typeof article.date === "string" ? article.date : undefined}
-        articleAuthor={typeof article.author === "string" ? article.author : undefined}
-        locale={locale}
-      />
-
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbStructuredData),
-        }}
-      />
-
-      {fallbackArticleStructuredData && (
         <script
           type="application/ld+json"
           suppressHydrationWarning
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(fallbackArticleStructuredData),
+            __html: JSON.stringify(breadcrumbStructuredData),
           }}
         />
-      )}
+
+        {fallbackArticleStructuredData && (
+          <script
+            type="application/ld+json"
+            suppressHydrationWarning
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(fallbackArticleStructuredData),
+            }}
+          />
+        )}
+
+      </div>
 
       <RelatedArticles
         subcategorySlug={subcategoryData.subcategorySlug ?? subcategoryData.slug}
@@ -404,6 +309,6 @@ export default async function EfimeridesArticlePage({ params }: PageProps) {
           }}
         />
       )}
-    </Section>
+    </ArticleView>
   );
 }

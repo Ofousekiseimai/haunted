@@ -1,5 +1,6 @@
-import Image from "next/image";
 import type { Metadata } from "next";
+
+import { ArticleView } from "@/components/article/article-view";
 import { notFound } from "next/navigation";
 
 import { ArticleSources, type ArticleSource } from "@/components/article/article-sources";
@@ -7,8 +8,6 @@ import { LocationDetails } from "@/components/article/location-details";
 import { RandomArticles } from "@/components/article/random-articles";
 import { RelatedArticles } from "@/components/article/related-articles";
 import { SameAreaArticles } from "@/components/article/same-area-articles";
-import { Section } from "@/components/section";
-import type { ArticleContentBlock } from "@/lib/content";
 import {
   getAllGenericCategoryArticleParams,
   getGenericCategoryArticle,
@@ -51,81 +50,6 @@ function toAbsoluteUrl(url?: string | null) {
   }
 }
 
-function renderContentBlock(block: ArticleContentBlock, index: number) {
-  switch (block.type) {
-    case "heading":
-      return (
-        <h2 key={index} className="mt-10 text-2xl font-semibold text-n-1">
-          {block.value ?? block.heading}
-        </h2>
-      );
-    case "list":
-      if (!block.items?.length) {
-        return null;
-      }
-      return (
-        <ul key={index} className="mt-6 list-disc space-y-2 pl-6 text-base text-n-2">
-          {block.items.map((item, itemIndex) => (
-            <li key={itemIndex}>{item}</li>
-          ))}
-        </ul>
-      );
-    case "quote":
-      return (
-        <blockquote
-          key={index}
-          className="mt-8 border-l-4 border-primary-400/40 pl-4 text-lg italic text-n-1"
-        >
-          {block.value}
-        </blockquote>
-      );
-    case "image": {
-      const payload = block.value as
-        | {
-            src?: string;
-            alt?: string;
-            caption?: string;
-          }
-        | null
-        | undefined;
-
-      if (!payload || typeof payload !== "object" || typeof payload.src !== "string") {
-        return null;
-      }
-
-      return (
-        <figure key={index} className="mt-10 space-y-3">
-          <div className="relative h-72 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8">
-            <Image
-              src={payload.src}
-              alt={payload.alt ?? "Εικόνα άρθρου"}
-              fill
-              className="object-cover"
-            />
-          </div>
-          {payload.caption && (
-            <figcaption className="text-sm italic text-n-4">{payload.caption}</figcaption>
-          )}
-        </figure>
-      );
-    }
-    case "text":
-      return (
-        <p key={index} className="mt-6 whitespace-pre-line text-base leading-7 text-n-2">
-          {block.value}
-        </p>
-      );
-    default:
-      if (block.value) {
-        return (
-          <p key={index} className="mt-6 text-base leading-7 text-n-2">
-            {block.value}
-          </p>
-        );
-      }
-      return null;
-  }
-}
 
 export async function generateStaticParams() {
   return getAllGenericCategoryArticleParams();
@@ -315,68 +239,55 @@ export default async function GenericCategoryArticlePage({ params }: PageProps) 
       };
 
   return (
-    <Section className="container max-w-4xl space-y-10" customPaddings="py-12 lg:py-20">
-      <header className="flex flex-col gap-6">
-        <span className="text-xs font-code uppercase tracking-widest text-n-4">
-          {copy.label} · {subcategoryData.subcategory}
-        </span>
-        <h1 className="text-4xl font-bold text-n-1">{article.title}</h1>
-        {(article.author || article.date) && (
-          <p className="text-sm text-n-4">
-            {article.author && <span>{article.author}</span>}
-            {article.author && article.date && <span> · </span>}
-            {article.date && <span>{article.date}</span>}
-          </p>
-        )}
-        {article.excerpt && <p className="text-lg text-n-2">{article.excerpt}</p>}
-        {imageUrl && (
-          <div className="relative h-72 w-full overflow-hidden rounded-xl border border-n-7 bg-n-8">
-            <Image
-              src={imageUrl}
-              alt={article.image?.alt ?? article.title}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        )}
-      </header>
+    <ArticleView
+      categoryLabel={copy.label}
+      subcategoryLabel={subcategoryData.subcategory}
+      title={article.title}
+      author={typeof article.author === "string" ? article.author : undefined}
+      date={typeof article.date === "string" ? article.date : undefined}
+      excerpt={article.excerpt}
+      image={imageUrl ? { src: imageUrl, alt: article.image?.alt } : undefined}
+      content={article.content}
+      variant="plates"
+      locale={locale}
+    >
 
-      <div className="mt-10 space-y-6 text-base leading-7 text-n-2">
-        {article.content.map((block, index) => renderContentBlock(block, index))}
-      </div>
+      {/* Sources, location and JSON-LD stay in the reading column;
+          the card grids below are wider on purpose. */}
+      <div className="article__col">
+        <LocationDetails
+          mainArea={mainArea}
+          subLocation={subLocation}
+          subLocation2={subLocation2}
+          locale={locale}
+        />
 
-      <LocationDetails
-        mainArea={mainArea}
-        subLocation={subLocation}
-        subLocation2={subLocation2}
-        locale={locale}
-      />
+        <ArticleSources
+          sources={sources}
+          articleDate={typeof article.date === "string" ? article.date : undefined}
+          articleAuthor={typeof article.author === "string" ? article.author : undefined}
+          locale={locale}
+        />
 
-      <ArticleSources
-        sources={sources}
-        articleDate={typeof article.date === "string" ? article.date : undefined}
-        articleAuthor={typeof article.author === "string" ? article.author : undefined}
-        locale={locale}
-      />
-
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbStructuredData),
-        }}
-      />
-
-      {fallbackArticleStructuredData && (
         <script
           type="application/ld+json"
           suppressHydrationWarning
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(fallbackArticleStructuredData),
+            __html: JSON.stringify(breadcrumbStructuredData),
           }}
         />
-      )}
+
+        {fallbackArticleStructuredData && (
+          <script
+            type="application/ld+json"
+            suppressHydrationWarning
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(fallbackArticleStructuredData),
+            }}
+          />
+        )}
+
+      </div>
 
       <RelatedArticles
         subcategorySlug={subcategorySlug}
@@ -396,6 +307,6 @@ export default async function GenericCategoryArticlePage({ params }: PageProps) 
           }}
         />
       )}
-    </Section>
+    </ArticleView>
   );
 }

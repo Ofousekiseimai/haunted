@@ -64,31 +64,6 @@
     --font-display: var(--font-garamond), Georgia, "Times New Roman", serif;
     --font-code: var(--font-jetbrains), var(--font-source-code), ui-monospace, monospace;
 
-    /* ── Migration shim ───────────────────────────────────────────────────
-       The article, category, book, timeline and map components still speak
-       the old token names. Rather than touch 20 files in one pass, the old
-       names are aliased onto the new palette — so the whole site inherits
-       the new ground, ink and ember accent, and each component can be moved
-       to the vocabulary below as it is next edited. Delete a line here once
-       nothing references it. */
-    --bone: var(--ink);
-    --ash: var(--ink-2);
-    --ash-dim: var(--ink-3);
-    --hairline: var(--rule);
-    --hairline-strong: var(--rule-mid);
-    --void-2: var(--deck);
-    --surface: var(--panel);
-    --surface-glass: rgb(16 16 17 / 0.55);
-    --accent: var(--ink-3);
-    --accent-bright: var(--ember-text);
-    --spectral: var(--ember);
-    --crimson: var(--ember-hi);
-    --oxblood: var(--ember);
-    --fs-meta: var(--t-meta);
-    --fs-body: var(--t-body);
-    --fs-h3: var(--t-h3);
-    --fs-h2: var(--t-h2);
-    --fs-display: var(--t-hero);
   }
 }
 
@@ -653,6 +628,14 @@
   @media (min-width: 56rem) {
     .shead__desc { text-align: right; }
   }
+  .shead__side {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+  }
+  @media (min-width: 56rem) {
+    .shead__side { align-items: flex-end; }
+  }
   .shead__kicker {
     display: flex;
     align-items: center;
@@ -855,6 +838,28 @@
     overflow: hidden;
   }
 
+  /* Book covers are portrait and identify themselves by their whole face, so
+     they are contained on a mat rather than cropped to a tile. */
+  .book__cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--s-4);
+    aspect-ratio: 3 / 4;
+    background: var(--well);
+    border: 1px solid var(--rule);
+    overflow: hidden;
+  }
+  .book__cover img {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    filter: var(--img-plate);
+    transition: filter var(--d-base) var(--ease-out);
+  }
+  .rec:hover .book__cover img { filter: var(--img-plate-hi); }
+
   /* ═══ CLIPPING PLATE ═══════════════════════════════════════════════════
      Newspaper scans get their own visual language. They are paper, so they
      are matted and shown whole (`contain`) on a dark well — cropping them to
@@ -982,6 +987,219 @@
       text-align: right;
       align-items: flex-end;
     }
+  }
+
+  /* ═══ ARTICLE ═════════════════════════════════════════════════════════
+     The reading page. One centred column at a real measure, set in the
+     display serif — the old page ran the UI sans across 896px.
+     ═══════════════════════════════════════════════════════════════════════ */
+  .article { padding-block: clamp(2.5rem, 1.6rem + 3vw, 4.5rem) clamp(3rem, 2rem + 4vw, 6rem); }
+
+  .article__head,
+  .article__body,
+  .article__foot {
+    max-width: var(--measure-read);
+    margin-inline: auto;
+  }
+
+  .article__kicker {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    margin-bottom: var(--s-5);
+  }
+
+  .article__title {
+    font-family: var(--font-display);
+    font-size: clamp(1.875rem, 1.3rem + 2.4vw, 3.25rem);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -0.018em;
+    color: var(--ink);
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .article__byline { margin-top: var(--s-5); color: var(--ink-3); }
+
+  .article__lede {
+    margin-top: var(--s-5);
+    font-family: var(--font-sans);
+    font-size: var(--t-lede);
+    line-height: 1.55;
+    color: var(--ink-2);
+  }
+
+  /* The lead plate is allowed wider than the text column — a picture is not
+     read line by line. */
+  .article__lead {
+    max-width: 58rem;
+    margin: clamp(2rem, 1.4rem + 2vw, 3.5rem) auto 0;
+  }
+
+  /* Scans: matted whole on a dark well, never cropped. */
+  .article__mat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--s-4);
+    background: var(--well);
+    border: 1px solid var(--rule);
+  }
+  .article__mat img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 34rem;
+    object-fit: contain;
+    filter: var(--img-scan-hi);
+  }
+
+  /* Illustration: cropped freely, it is a picture. */
+  .article__crop {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--rule);
+    background: var(--well);
+  }
+  .article__crop img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: var(--img-plate-hi);
+  }
+
+  /* ── The reading voice ─────────────────────────────────────────────────
+     Weight 500 rather than 400: a Garamond set at 400 on a near-black ground
+     goes thin and grey at text sizes. */
+  .article__body {
+    margin-top: clamp(2.5rem, 1.8rem + 2.4vw, 4rem);
+    font-family: var(--font-display);
+    font-size: var(--t-read);
+    font-weight: 500;
+    line-height: 1.72;
+    color: var(--ink-2);
+    letter-spacing: 0;
+  }
+  .article__p { margin-top: var(--s-5); }
+  .article__p:first-child { margin-top: 0; }
+
+  .article__h2 {
+    margin-top: clamp(2.25rem, 1.6rem + 2vw, 3.25rem);
+    margin-bottom: var(--s-4);
+    font-family: var(--font-display);
+    font-size: var(--t-h3);
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--ink);
+  }
+
+  .article__list {
+    margin-top: var(--s-5);
+    padding-inline-start: 1.25rem;
+    list-style: none;
+  }
+  .article__list li {
+    position: relative;
+    margin-top: var(--s-3);
+  }
+  .article__list li::before {
+    content: "";
+    position: absolute;
+    left: -1.25rem;
+    top: 0.72em;
+    width: 0.5rem;
+    height: 1px;
+    background: var(--ember);
+  }
+
+  .article__quote {
+    margin: clamp(2rem, 1.5rem + 1.6vw, 3rem) 0;
+    padding-inline-start: var(--s-5);
+    border-inline-start: 2px solid var(--ember);
+    font-style: italic;
+    font-size: calc(var(--t-read) * 1.06);
+    color: var(--ink);
+  }
+
+  .article__figure { margin-block: clamp(2rem, 1.5rem + 1.6vw, 3rem); }
+  .article__caption {
+    margin-top: var(--s-3);
+    font-family: var(--font-code);
+    font-size: var(--t-micro);
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    color: var(--ink-3);
+  }
+
+  /* Sources, location and structured data share the reading column; the
+     card grids that follow are deliberately wider. */
+  .article__col {
+    max-width: var(--measure-read);
+    margin-inline: auto;
+    margin-top: clamp(2.5rem, 1.8rem + 2.4vw, 4rem);
+  }
+
+  /* ── Panels ─────────────────────────────────────────────────────────────
+     Location, sources and citation blocks. Square, hairlined, one padding —
+     they were rounded-2xl boxes on a different grey. */
+  .panel {
+    padding: var(--s-5);
+    background: var(--deck);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+  }
+  .panel + .panel { margin-top: var(--s-4); }
+  .panel--tight { padding: var(--s-4) var(--s-5); }
+  .panel__head,
+  .panel__title {
+    margin: 0 0 var(--s-4);
+    font-family: var(--font-code);
+    font-size: var(--t-meta);
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .panel__rows { display: flex; flex-direction: column; gap: var(--s-3); margin: 0; }
+  .panel__rows--inline { flex-direction: row; flex-wrap: wrap; gap: var(--s-6); }
+
+  /* Sources block: its own heading needs to clear the panel above it — as a
+     bare h2 between two panels it sat right on the previous one's edge. */
+  .sources { margin-top: var(--s-6); }
+  .sources__head {
+    display: block;
+    padding-bottom: var(--s-3);
+    margin-bottom: var(--s-4);
+    border-bottom: 1px solid var(--rule);
+  }
+  .sources__list { display: flex; flex-direction: column; gap: var(--s-4); margin: 0; padding: 0; list-style: none; }
+  .panel__row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: var(--t-small);
+    color: var(--ink-2);
+  }
+  .panel__row dd { margin: 0; }
+
+  /* ── "More like this" rails ─────────────────────────────────────────── */
+  .article__more { margin-top: clamp(3rem, 2rem + 3vw, 5rem); }
+  .article__more-head {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    padding-bottom: var(--s-4);
+    margin-bottom: var(--s-6);
+    border-bottom: 1px solid var(--rule);
+  }
+  .article__more-title {
+    font-family: var(--font-display);
+    font-size: var(--t-h3);
+    font-weight: 400;
+    line-height: 1.1;
+    color: var(--ink);
+    margin: 0;
   }
 
   /* ═══ COLLECTION PREVIEW ═══════════════════════════════════════════════
