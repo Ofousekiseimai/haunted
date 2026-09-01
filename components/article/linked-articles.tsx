@@ -124,7 +124,7 @@ export function LinkedArticles({
           <li key={`${item.href}-${index}`} className="space-y-1">
             <Link
               href={item.href}
-              className="text-base font-semibold text-primary-300 hover:text-primary-200"
+              className="text-base font-semibold text-[var(--accent)] hover:text-[var(--accent-bright)]"
             >
               {item.title}
             </Link>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { GlowCard } from "@/components/ui/glow-card";
 import type { SuggestionArticle } from "@/lib/articles";
 
 function formatDate(date?: string) {
@@ -33,42 +34,67 @@ export function ArticleSuggestionCard({ article }: ArticleSuggestionCardProps) {
   const href = `/${article.categoryKey}/${article.subcategorySlug}/${article.slug}`;
 
   return (
-    <Link
-      href={href}
-      className="group flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/50 transition hover:border-primary-400/60 hover:bg-zinc-900"
-    >
-      {article.image?.src ? (
-        <div className="relative h-48 w-full overflow-hidden border-b border-zinc-800/60">
-          <Image
-            src={article.image.src}
-            alt={article.image.alt ?? article.title}
-            fill
-            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-            className="object-cover transition duration-300 group-hover:scale-105"
-          />
-        </div>
-      ) : (
-        <div className="flex h-48 w-full items-center justify-center border-b border-n-7 bg-n-9 text-sm text-n-4">
-          Χωρίς εικόνα
-        </div>
-      )}
-
-      <div className="flex flex-1 flex-col gap-3 p-5">
-        <p className="text-xs font-code uppercase tracking-[0.24em] text-zinc-400">
-          {article.subcategoryLabel}
-        </p>
-        <h3 className="text-xl font-semibold text-zinc-100 transition group-hover:text-primary-300">
-          {article.title}
-        </h3>
-        {article.excerpt && <p className="text-sm leading-6 text-zinc-400">{article.excerpt}</p>}
-
-        {(formattedDate || article.mainArea) && (
-          <div className="mt-auto flex flex-wrap gap-3 text-xs uppercase tracking-[0.24em] text-zinc-500">
-            {formattedDate && <span>{formattedDate}</span>}
-            {article.mainArea && <span>{article.mainArea}</span>}
+    <Link href={href} className="group block h-full">
+      <GlowCard className="flex h-full flex-col">
+        {article.image?.src ? (
+          <div className="relative -mx-6 -mt-6 mb-4 h-48 w-[calc(100%+3rem)] overflow-hidden">
+            <Image
+              src={article.image.src}
+              alt={article.image.alt ?? article.title}
+              fill
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+              className="object-cover transition duration-300 group-hover:scale-105"
+            />
+          </div>
+        ) : (
+          <div
+            className="flex -mx-6 -mt-6 mb-4 h-48 w-[calc(100%+3rem)] items-center justify-center text-sm"
+            style={{ background: "var(--surface)", color: "var(--ash-dim)" }}
+          >
+            Χωρίς εικόνα
           </div>
         )}
-      </div>
+
+        <div className="flex flex-1 flex-col gap-3">
+          <p
+            className="uppercase"
+            style={{
+              fontFamily: "var(--font-code)",
+              fontSize: "var(--fs-meta)",
+              letterSpacing: "0.18em",
+              color: "var(--ash-dim)",
+            }}
+          >
+            {article.subcategoryLabel}
+          </p>
+          <h3
+            className="text-xl font-semibold transition group-hover:text-[var(--accent-bright)]"
+            style={{ color: "var(--bone)" }}
+          >
+            {article.title}
+          </h3>
+          {article.excerpt && (
+            <p className="text-sm leading-6" style={{ color: "var(--ash)" }}>
+              {article.excerpt}
+            </p>
+          )}
+
+          {(formattedDate || article.mainArea) && (
+            <div
+              className="mt-auto flex flex-wrap gap-3 uppercase"
+              style={{
+                fontFamily: "var(--font-code)",
+                fontSize: "var(--fs-meta)",
+                letterSpacing: "0.18em",
+                color: "var(--ash-dim)",
+              }}
+            >
+              {formattedDate && <span>{formattedDate}</span>}
+              {article.mainArea && <span>{article.mainArea}</span>}
+            </div>
+          )}
+        </div>
+      </GlowCard>
     </Link>
   );
 }

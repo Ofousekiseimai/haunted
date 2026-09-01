@@ -18,7 +18,7 @@ npm run dev      # http://localhost:3000
 cd /var/www/haunted.gr
 
 git pull
-
+np
 npm install
 npm run build
 

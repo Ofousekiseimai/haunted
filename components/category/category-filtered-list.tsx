@@ -148,7 +148,7 @@ export function CategoryFilteredList({
               setSelectedSubLocationRaw("all");
               setSelectedYearRaw("all");
             }}
-            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-primary-400 focus:outline-none"
+            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-[var(--accent)] focus:outline-none"
           >
             {mainAreaOptions.map((option) => (
               <option key={option.value} value={option.value}>
@@ -167,7 +167,7 @@ export function CategoryFilteredList({
               setSelectedSubLocationRaw(value);
               setSelectedYearRaw("all");
             }}
-            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-primary-400 focus:outline-none"
+            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-[var(--accent)] focus:outline-none"
           >
             {subLocationOptions.map((option) => (
               <option key={option.value} value={option.value}>
@@ -182,7 +182,7 @@ export function CategoryFilteredList({
           <select
             value={resolvedYear}
             onChange={(event) => setSelectedYearRaw(event.target.value)}
-            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-primary-400 focus:outline-none"
+            className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-[var(--accent)] focus:outline-none"
           >
             {yearOptions.map((option) => (
               <option key={option.value} value={option.value}>

@@ -27,7 +27,14 @@ export async function RelatedArticles({
 
   return (
     <section className="space-y-6 pt-10">
-      <h2 className="text-2xl font-semibold text-n-1">
+      <h2
+        className="font-light"
+        style={{
+          fontFamily: "var(--font-display)",
+          fontSize: "var(--fs-h3)",
+          color: "var(--bone)",
+        }}
+      >
         Περισσότερα από την ίδια ενότητα
       </h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

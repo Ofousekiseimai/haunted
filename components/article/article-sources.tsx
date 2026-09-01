@@ -110,7 +110,7 @@ function renderSourceDetails(entry: StructuredSource, copy: ReturnType<typeof ge
                         href={href}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-sm font-medium text-primary-300 underline-offset-4 transition hover:text-primary-200 hover:underline"
+                        className="text-sm font-medium text-[var(--accent)] underline-offset-4 transition hover:text-[var(--accent-bright)] hover:underline"
                       >
                         {label}
                       </Link>
@@ -188,7 +188,7 @@ function renderSourceDetails(entry: StructuredSource, copy: ReturnType<typeof ge
                 href={href}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center text-sm font-medium text-primary-300 underline-offset-4 transition hover:text-primary-200 hover:underline"
+                className="inline-flex items-center text-sm font-medium text-[var(--accent)] underline-offset-4 transition hover:text-[var(--accent-bright)] hover:underline"
               >
                 {label}
               </Link>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { GlowCard } from "@/components/ui/glow-card";
 import type { LaografiaSubcategory } from "@/lib/laografia";
 import { formatCollectionDescription } from "@/lib/description";
 import { translateCategoryLabel, translateSubcategoryLabel } from "@/lib/translations";
@@ -19,28 +20,43 @@ export function SubcategoryCard({ subcategory, locale = "el" }: SubcategoryCardP
   );
 
   return (
-    <Link
-      href={`/laografia/${subcategory.subcategorySlug}`}
-      className="group flex flex-col gap-4 rounded-3xl border border-zinc-800 bg-zinc-900/40 p-6 transition hover:border-primary-400/60 hover:bg-zinc-900"
-    >
-      <p className="text-xs uppercase tracking-[0.32em] text-zinc-500">{localizedCategory}</p>
-      <div>
-        <h2 className="text-2xl font-semibold text-zinc-100 transition group-hover:text-white">
-          {localizedSubcategory}
-        </h2>
-        <p className="mt-3 text-sm text-zinc-400">
-          {formatCollectionDescription(
-            subcategory.seo?.metaDescription,
-            subcategory.articles.length,
-            locale === "en"
-              ? `Collection of ${subcategory.articles.length} stories about ${localizedSubcategory}.`
-              : `Συλλογή ${subcategory.articles.length} ιστοριών για ${subcategory.subcategory}.`,
-          )}
+    <Link href={`/laografia/${subcategory.subcategorySlug}`} className="group block">
+      <GlowCard className="flex flex-col gap-4">
+        <p
+          className="uppercase"
+          style={{
+            fontFamily: "var(--font-code)",
+            fontSize: "var(--fs-meta)",
+            letterSpacing: "0.22em",
+            color: "var(--accent)",
+          }}
+        >
+          {localizedCategory}
         </p>
-      </div>
-      <span className="mt-auto text-sm font-medium text-primary-300 transition group-hover:text-primary-200">
-        {locale === "en" ? "Explore →" : "Εξερεύνησε →"}
-      </span>
+        <div>
+          <h2
+            className="text-2xl font-semibold transition group-hover:text-[var(--accent-bright)]"
+            style={{ color: "var(--bone)" }}
+          >
+            {localizedSubcategory}
+          </h2>
+          <p className="mt-3 text-sm" style={{ color: "var(--ash)" }}>
+            {formatCollectionDescription(
+              subcategory.seo?.metaDescription,
+              subcategory.articles.length,
+              locale === "en"
+                ? `Collection of ${subcategory.articles.length} stories about ${localizedSubcategory}.`
+                : `Συλλογή ${subcategory.articles.length} ιστοριών για ${subcategory.subcategory}.`,
+            )}
+          </p>
+        </div>
+        <span
+          className="mt-auto text-sm font-medium transition group-hover:text-[var(--accent-bright)]"
+          style={{ color: "var(--accent)" }}
+        >
+          {locale === "en" ? "Explore →" : "Εξερεύνησε →"}
+        </span>
+      </GlowCard>
     </Link>
   );
 }

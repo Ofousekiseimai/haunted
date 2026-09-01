@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { GlowCard } from "@/components/ui/glow-card";
 import type { Book } from "@/lib/books";
 import type { Locale } from "@/lib/locale";
 
@@ -28,62 +29,91 @@ export function BookCard({
         href={purchaseUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-auto inline-flex items-center text-sm font-semibold text-primary-300 transition hover:text-primary-200"
+        className="mt-auto inline-flex items-center text-sm font-semibold transition hover:text-[var(--accent-bright)]"
+        style={{ color: "var(--accent)" }}
       >
         {moreLabel}
       </a>
     ) : href && showLinkCta ? (
       <Link
         href={href}
-        className="mt-auto inline-flex items-center text-sm font-semibold text-primary-300 transition hover:text-primary-200"
+        className="mt-auto inline-flex items-center text-sm font-semibold transition hover:text-[var(--accent-bright)]"
+        style={{ color: "var(--accent)" }}
       >
         {moreLabel}
       </Link>
     ) : null;
 
   return (
-    <article className="group flex h-full flex-col overflow-hidden rounded-3xl border surface-border surface-card transition hover:border-primary-400 hover:bg-zinc-900">
-      {image?.src ? (
-        <div className="relative aspect-[4/3] w-full overflow-hidden border-b surface-border surface-card-strong">
-          <Image
-            src={image.src}
-            alt={image.alt ?? title}
-            fill
-            className="object-cover transition duration-300 group-hover:scale-105"
-            sizes="(min-width: 1280px) 360px, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-          />
-        </div>
-      ) : (
-        <div className="flex aspect-[4/3] w-full items-center justify-center border-b surface-border surface-card-strong text-sm text-muted">
-          Χωρίς εικόνα
-        </div>
-      )}
-
-      <div className="flex flex-1 flex-col gap-3 p-6">
-        {subcategory && (
-          <p className="text-xs uppercase tracking-[0.28em] text-muted">
-            {subcategory}
-          </p>
+    <article className="group h-full">
+      <GlowCard className="flex h-full flex-col">
+        {image?.src ? (
+          <div className="relative -mx-6 -mt-6 mb-4 aspect-[4/3] w-[calc(100%+3rem)] overflow-hidden">
+            <Image
+              src={image.src}
+              alt={image.alt ?? title}
+              fill
+              className="object-cover transition duration-300 group-hover:scale-105"
+              sizes="(min-width: 1280px) 360px, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+            />
+          </div>
+        ) : (
+          <div
+            className="flex -mx-6 -mt-6 mb-4 aspect-[4/3] w-[calc(100%+3rem)] items-center justify-center text-sm"
+            style={{ background: "var(--surface)", color: "var(--ash-dim)" }}
+          >
+            Χωρίς εικόνα
+          </div>
         )}
 
-        {href ? (
-          <Link href={href} className="block">
-            <h3 className="text-2xl font-semibold text-n-1 transition group-hover:text-primary-300">
+        <div className="flex flex-1 flex-col gap-3">
+          {subcategory && (
+            <p
+              className="uppercase"
+              style={{
+                fontFamily: "var(--font-code)",
+                fontSize: "var(--fs-meta)",
+                letterSpacing: "0.18em",
+                color: "var(--ash-dim)",
+              }}
+            >
+              {subcategory}
+            </p>
+          )}
+
+          {href ? (
+            <Link href={href} className="block">
+              <h3
+                className="text-2xl font-semibold transition group-hover:text-[var(--accent-bright)]"
+                style={{ color: "var(--bone)" }}
+              >
+                {title}
+              </h3>
+            </Link>
+          ) : (
+            <h3
+              className="text-2xl font-semibold transition group-hover:text-[var(--accent-bright)]"
+              style={{ color: "var(--bone)" }}
+            >
               {title}
             </h3>
-          </Link>
-        ) : (
-          <h3 className="text-2xl font-semibold text-n-1 transition group-hover:text-primary-300">
-            {title}
-          </h3>
-        )}
+          )}
 
-        {author && <p className="text-sm text-muted">Συγγραφέας: {author}</p>}
+          {author && (
+            <p className="text-sm" style={{ color: "var(--ash-dim)" }}>
+              Συγγραφέας: {author}
+            </p>
+          )}
 
-        {excerpt && <p className="text-sm leading-6 text-secondary">{excerpt}</p>}
+          {excerpt && (
+            <p className="text-sm leading-6" style={{ color: "var(--ash)" }}>
+              {excerpt}
+            </p>
+          )}
 
-        {cardCta}
-      </div>
+          {cardCta}
+        </div>
+      </GlowCard>
     </article>
   );
 }

@@ -2,12 +2,12 @@
   "category": "Λαογραφία",
   "subcategorySlug": "neraides",
   "subcategory": "Νεράιδες",
-  "slug": "/laografia/nerades",
+  "slug": "/laografia/neraides",
   "articles": [
     {
       "id": "74",
       "title": "Νεράιδες στη Βελούσια - Εύβοια",
-      "slug": "νεράιδες-βελούσια-ευβοια",
+      "slug": "neraides-veloysia-eyvoia",
       "author": "Τίτος Γιοχαλάς",
       "date": "2002-01-01",
       "articledate": "1925",
@@ -53,7 +53,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στη Βελούσια Ευβοίας - Συναντήσεις | Νεράιδες | haunted.gr",
         "metaDescription": "Δύο αφηγήσεις από τη Βελούσια Ευβοίας: νεράιδες στο ποτάμι της Αμυγδαλιάς που χτύπησαν ταξιδιώτη και έκλεψαν ψάρι, και μυστηριώδης εμπειρία κάτω από συκιά το 1925.",
-        "canonical": "https://haunted.gr/laografia/nerades/%CE%BD%CE%B5%CF%81%CE%AC%CE%B9%CE%B4%CE%B5%CF%82-%CE%B2%CE%B5%CE%BB%CE%BF%CF%8D%CF%83%CE%B9%CE%B1-%CE%B5%CF%85%CE%B2%CE%BF%CE%B9%CE%B1",
+        "canonical": "https://haunted.gr/laografia/neraides/neraides-veloysia-eyvoia",
         "keywords": [
           "νεράιδες Βελούσια",
           "Βελούσια νεράιδες",
@@ -94,7 +94,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/%CE%BD%CE%B5%CF%81%CE%AC%CE%B9%CE%B4%CE%B5%CF%82-%CE%B2%CE%B5%CE%BB%CE%BF%CF%8D%CF%83%CE%B9%CE%B1-%CE%B5%CF%85%CE%B2%CE%BF%CE%B9%CE%B1"
+            "@id": "https://haunted.gr/laografia/neraides/%CE%BD%CE%B5%CF%81%CE%AC%CE%B9%CE%B4%CE%B5%CF%82-%CE%B2%CE%B5%CE%BB%CE%BF%CF%8D%CF%83%CE%B9%CE%B1-%CE%B5%CF%85%CE%B2%CE%BF%CE%B9%CE%B1"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -167,7 +167,7 @@
       "seo": {
         "metaTitle": "Άμπελος Σάμου - Απαγωγή Λυράρη από Νεράιδες | Νεράιδες | haunted.gr",
         "metaDescription": "Στον Άμπελο Σάμου (Νενέδες) νεράιδες άρπαξαν λυράρη στον αέρα ενώ έπαιζε λύρα και τον πήγαν στο Τρυπιόβραχο. Επέστρεψε μετά τρεις μέρες αναγκαστικής μουσικής.",
-        "canonical": "https://haunted.gr/laografia/nerades/apagogi-apo-neraide-samos",
+        "canonical": "https://haunted.gr/laografia/neraides/apagogi-apo-neraide-samos",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -202,7 +202,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/apagogi-apo-neraide-samos"
+            "@id": "https://haunted.gr/laografia/neraides/apagogi-apo-neraide-samos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -271,7 +271,7 @@
       "seo": {
         "metaTitle": "Νικολούδες Σάμου - Λιθοβολισμός από Νεράιδες στο Ρέμα | Νεράιδες | haunted.gr",
         "metaDescription": "Στα Νικολούδες Σάμου, άνδρας βρήκε τρεις όμορφες γυναίκες-νεράιδες κοντά σε ρέμα. Ξεκίνησαν να του πετούν πέτρες αλλά δεν τον χτύπησαν — έφυγε τρέχοντας σιωπηλά.",
-        "canonical": "https://haunted.gr/laografia/nerades/lithovolismos-apo-neraides-samos",
+        "canonical": "https://haunted.gr/laografia/neraides/lithovolismos-apo-neraides-samos",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -306,7 +306,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/lithovolismos-apo-neraides-samos"
+            "@id": "https://haunted.gr/laografia/neraides/lithovolismos-apo-neraides-samos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -379,7 +379,7 @@
       "seo": {
         "metaTitle": "Καστανιά Σάμου - Νεράιδες που Αλλάζουν Μορφή στο Βράχο | Νεράιδες | haunted.gr",
         "metaDescription": "Κοντά στην Καστανιά Σάμου, άνδρας συνάντησε τρεις γυναίκες-νεράιδες με κόκκινα καλύμματα. Πέταξαν στον βράχο αλλάζοντας μορφή και αποκάλυψαν την υπερφυσική τους φύση.",
-        "canonical": "https://haunted.gr/laografia/nerades/lithovolismos-apo-neraides-kastania",
+        "canonical": "https://haunted.gr/laografia/neraides/lithovolismos-apo-neraides-kastania",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -414,7 +414,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/lithovolismos-apo-neraides-kastania"
+            "@id": "https://haunted.gr/laografia/neraides/lithovolismos-apo-neraides-kastania"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -483,7 +483,7 @@
       "seo": {
         "metaTitle": "Βαθύ Σάμου - Η Καλή Νεράιδα που Έσωσε Άνδρα | Νεράιδες | haunted.gr",
         "metaDescription": "Στο Βαθύ Σάμου άνδρας συνάντησε δύο νεράιδες στα αμπέλια. Η μία ήθελε να τον τιμωρήσει για την αυθάδειά του, η άλλη — η καλή νεράιδα — τον έσωσε σταματώντας την επίθεση.",
-        "canonical": "https://haunted.gr/laografia/nerades/h-kalh-neraida",
+        "canonical": "https://haunted.gr/laografia/neraides/h-kalh-neraida",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -518,7 +518,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/h-kalh-neraida"
+            "@id": "https://haunted.gr/laografia/neraides/h-kalh-neraida"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -597,7 +597,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στο Πηγάδι του Ζέλη - Αγία Βαρβάρα Σάμου | Νεράιδες | haunted.gr",
         "metaDescription": "Στο Πηγάδι του Ζέλη, Αγία Βαρβάρα Σάμου, 15 ασπροφορεμένες νεράιδες βγήκαν τα μεσάνυχτα τραγουδώντας και έβαλαν άνδρα να χορεύει μαζί τους μέχρι τα χαράματα.",
-        "canonical": "https://haunted.gr/laografia/nerades/agia-varvara-vlamari-samos-pigadi-tou-zeli",
+        "canonical": "https://haunted.gr/laografia/neraides/agia-varvara-vlamari-samos-pigadi-tou-zeli",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -633,7 +633,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/agia-varvara-vlamari-samos-pigadi-tou-zeli"
+            "@id": "https://haunted.gr/laografia/neraides/agia-varvara-vlamari-samos-pigadi-tou-zeli"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -708,7 +708,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στη Βρύση Αγίου Αντωνίου - Βαθύ Σάμου | Νεράιδες | haunted.gr",
         "metaDescription": "Στη βρύση Αγίου Αντωνίου Σάμου τα μεσάνυχτα, τρεις γυναίκες βρήκαν 8 νεράιδες να παίζουν με νερό. Τους ανάγκασαν να χορεύουν όλη νύχτα μέχρι τα χαράματα χωρίς πλύσιμο.",
-        "canonical": "https://haunted.gr/laografia/nerades/vrysi-agiou-antoniou-vathy-samos",
+        "canonical": "https://haunted.gr/laografia/neraides/vrysi-agiou-antoniou-vathy-samos",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -744,7 +744,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/vrysi-agiou-antoniou-vathy-samos"
+            "@id": "https://haunted.gr/laografia/neraides/vrysi-agiou-antoniou-vathy-samos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -819,7 +819,7 @@
       "seo": {
         "metaTitle": "Κολουρέϊκα Παγώνδα Σάμου - Επίθεση από Νεράιδες | Νεράιδες | haunted.gr",
         "metaDescription": "Στα Κολουρέϊκα Παγώνδα Σάμου, νεράιδες όρμηξαν σε γυναίκα που διέκοψε το συμπόσιό τους και την χτύπησαν τόσο δυνατά που τα σημάδια έμειναν για μήνες και αρρώστησε σοβαρά.",
-        "canonical": "https://haunted.gr/laografia/nerades/koloureika-pagonda-samos",
+        "canonical": "https://haunted.gr/laografia/neraides/koloureika-pagonda-samos",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -855,7 +855,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/koloureika-pagonda-samos"
+            "@id": "https://haunted.gr/laografia/neraides/koloureika-pagonda-samos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -930,7 +930,7 @@
       "seo": {
         "metaTitle": "Κολουρέϊκα Σάμου - Θάνατος μετά Επαφή με Νεράιδες | Νεράιδες | haunted.gr",
         "metaDescription": "Στα Κολουρέϊκα Σάμου, κοπέλα διέκοψε τυχαία νεράιδες να ερωτοτροπούν. Τη σύρανε στον γκρεμό ενώ άνδρες παρακαλούσαν «μην τη σκοτώσετε». Πέθανε εβδομάδα αργότερα από σοκ.",
-        "canonical": "https://haunted.gr/laografia/nerades/koloureika-pagonda-samos-symban-neraides",
+        "canonical": "https://haunted.gr/laografia/neraides/koloureika-pagonda-samos-symban-neraides",
         "keywords": [
           "νεράιδες Σάμος",
           "Σάμος νεράιδες",
@@ -966,7 +966,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/koloureika-pagonda-samos-symban-neraides"
+            "@id": "https://haunted.gr/laografia/neraides/koloureika-pagonda-samos-symban-neraides"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1044,7 +1044,7 @@
       "seo": {
         "metaTitle": "Η Νεράιδα Μάνα - Χλομούτσι και Σανταμέρι Ηλείας | Νεράιδες | haunted.gr",
         "metaDescription": "Δύο νεράιδες αδελφές μοίρασαν τα κάστρα Χλομούτσι και Σανταμέρι Ηλείας. Η άσκημη αδελφή ζητά πίσω το παιδί της από την όμορφη — μια τραγική ιστορία μητρικής αγάπης νεράιδας.",
-        "canonical": "https://haunted.gr/laografia/nerades/i-neraida-mana",
+        "canonical": "https://haunted.gr/laografia/neraides/i-neraida-mana",
         "keywords": [
           "νεράιδες Ηλεία",
           "Ηλεία νεράιδες",
@@ -1085,7 +1085,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/i-neraida-mana"
+            "@id": "https://haunted.gr/laografia/neraides/i-neraida-mana"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1153,7 +1153,7 @@
       "seo": {
         "metaTitle": "Ο Γάμος των Νεράιδων - Ζάκυνθος και Ανεμοστρόβιλος | Νεράιδες | haunted.gr",
         "metaDescription": "Λαϊκή δοξασία από τη Ζάκυνθο: όταν περνά ανεμοστρόβιλος, γίνεται γάμος νεράιδων και χορεύουν μέσα. Όποιος βρεθεί κοντά πρέπει να φωνάξει «Καλομοίρες» για προστασία.",
-        "canonical": "https://haunted.gr/laografia/nerades/o-gamos-ton-aneraidone-zakynthos",
+        "canonical": "https://haunted.gr/laografia/neraides/o-gamos-ton-aneraidone-zakynthos",
         "keywords": [
           "νεράιδες Ζάκυνθος",
           "Ζάκυνθος νεράιδες",
@@ -1192,7 +1192,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/o-gamos-ton-aneraidone-zakynthos"
+            "@id": "https://haunted.gr/laografia/neraides/o-gamos-ton-aneraidone-zakynthos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1258,7 +1258,7 @@
       "seo": {
         "metaTitle": "Οι Νεράιδες στους Ανεμοστρόβιλους - Ελληνική Δοξασία | Νεράιδες | haunted.gr",
         "metaDescription": "Παλαιά ελληνική δοξασία: μέσα στον ανεμοστρόφιλο χορεύουν νεράιδες και αρπάζουν όποιον δουν. Η συνοπτική αυτή μαρτυρία καταγράφηκε από τον Νικόλαο Γ. Πολίτη το 1904 στην Αθήνα.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-ston-anemostrofila",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-ston-anemostrofila",
         "keywords": [
           "νεράιδες Αθήνα",
           "Αθήνα νεράιδες",
@@ -1297,7 +1297,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-ston-anemostrofila"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-ston-anemostrofila"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1374,7 +1374,7 @@
       "seo": {
         "metaTitle": "Το Ανεμοξούρι της Αλωνίσταινας - Νεράιδες Αρκαδίας | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Χιονότρουπα Αλωνίσταινας Αρκαδίας, ανεμοξούρι με εκατομμύρια νεράιδες να χορεύουν στα σύννεφα. Μεταμορφώθηκαν σε αετούς και πέρδικες ρίχνοντας πέτρες — σώθηκαν πέφτοντας κάτω. ",
-        "canonical": "https://haunted.gr/laografia/nerades/to-anemoxouri-alonistaina",
+        "canonical": "https://haunted.gr/laografia/neraides/to-anemoxouri-alonistaina",
         "keywords": [
           "νεράιδες Αρκαδία",
           "Αρκαδία νεράιδες",
@@ -1415,7 +1415,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/to-anemoxouri-alonistaina"
+            "@id": "https://haunted.gr/laografia/neraides/to-anemoxouri-alonistaina"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1492,7 +1492,7 @@
       "seo": {
         "metaTitle": "Οι Ανεραΐδες της Σίκινου - Κυκλάδες | Νεράιδες | haunted.gr",
         "metaDescription": "Οι ανεραΐδες της Σίκινου είναι ωραίες ασπροφόρες γυναίκες με γαϊδουρίσιο πόδι. Μπορούν να βλάψουν ή να κάνουν καλό — έμαθαν ντόπιο να παίζει λύρα καλύτερα από όλους.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-aneraides-sikinos",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-aneraides-sikinos",
         "keywords": [
           "νεράιδες Σίκινος",
           "Σίκινος νεράιδες",
@@ -1532,7 +1532,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-aneraides-sikinos"
+            "@id": "https://haunted.gr/laografia/neraides/oi-aneraides-sikinos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1617,7 +1617,7 @@
       "seo": {
         "metaTitle": "Οι Νιραγίδες της Λέσβου - Επικίνδυνα Πνεύματα | Νεράιδες | haunted.gr",
         "metaDescription": "Οι νιραγίδες της Λέσβου είναι ψηλές γυναίκες με μακριά αχτένιστα μαλλιά που βγαίνουν το μεσημέρι. Ξεγυμνώνονται, φωνάζουν και σχίζουν σάρκες — η γυναίκα Ρήγινα γλίτωσε μη βγαίνοντας.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-niragides-lesvos",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-niragides-lesvos",
         "keywords": [
           "νεράιδες Λέσβος",
           "Λέσβος νεράιδες",
@@ -1657,7 +1657,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-niragides-lesvos"
+            "@id": "https://haunted.gr/laografia/neraides/oi-niragides-lesvos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1746,7 +1746,7 @@
       "seo": {
         "metaTitle": "Οι Αλουστίνες της Σύμης - Νεράιδες Δωδεκανήσων | Νεράιδες | haunted.gr",
         "metaDescription": "Οι Αλουστίνες της Σύμης είναι νέες ωραίες γυναίκες με γαϊδουρόποδα που τρελαίνονται στον χορό τον Αύγουστο. Ρωτούν «Πάμπακος ή μόλυβος»; Πες «μόλυβος» για να σε αφήσουν.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-aloustines-symi",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-aloustines-symi",
         "keywords": [
           "νεράιδες Σύμη",
           "Σύμη νεράιδες",
@@ -1786,7 +1786,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-aloustines-symi"
+            "@id": "https://haunted.gr/laografia/neraides/oi-aloustines-symi"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1862,7 +1862,7 @@
       "seo": {
         "metaTitle": "Νεράιδες και Νεράιδοι στη Βιάννο και Λασίθι Κρήτης | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Βιάννο Κρήτης κάθε ποτάμι και αυλάκι έχει νεράιδες. Στο Λασίθι, στη βρύση κοντά στο Τζερμιάδο, υπάρχουν πολλές νεράιδες και νεράιδοι — αρσενικές και θηλυκές οντότητες.",
-        "canonical": "https://haunted.gr/laografia/nerades/neraides-kai-neraidou-viannos-kriti",
+        "canonical": "https://haunted.gr/laografia/neraides/neraides-kai-neraidou-viannos-kriti",
         "keywords": [
           "νεράιδες Κρήτη",
           "Κρήτη νεράιδες",
@@ -1904,7 +1904,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/neraides-kai-neraidou-viannos-kriti"
+            "@id": "https://haunted.gr/laografia/neraides/neraides-kai-neraidou-viannos-kriti"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -1978,7 +1978,7 @@
       "seo": {
         "metaTitle": "Νεράιδες που Κολυμπούν στον Αρμυρό - Μιραμπέλο Κρήτης | Νεράιδες | haunted.gr",
         "metaDescription": "Στα καθαρά νερά του Αρμυρού ποταμού, κοντά στην Κρητσά Μιραμπέλου, πανέμορφες νεράιδες βγάζουν τα φορέματά τους και κολυμπούν με την κυρά τους. Τις είδαν και παπάδες.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tou-armyrou-mirabello-kriti",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-armyrou-mirabello-kriti",
         "keywords": [
           "νεράιδες Κρήτη",
           "Κρήτη νεράιδες",
@@ -2019,7 +2019,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tou-armyrou-mirabello-kriti"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-armyrou-mirabello-kriti"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2090,7 +2090,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στη Βρύση της Κάσου - Λυράρης και Νύμφες | Νεράιδες | haunted.gr",
         "metaDescription": "Κρητικός λυράρης που έμενε στην Κάσο και Κάρπαθο έβλεπε τακτικά νεράιδες στη βρύση. Τον παρακινούσαν να παίζει λύρα και να τραγουδά — μοναδική μαρτυρία μουσικής σχέσης με νεράιδες.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tis-vrysis-kasos",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tis-vrysis-kasos",
         "keywords": [
           "νεράιδες Κάσος",
           "Κάσος νεράιδες",
@@ -2131,7 +2131,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tis-vrysis-kasos"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tis-vrysis-kasos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2214,7 +2214,7 @@
       "seo": {
         "metaTitle": "Οι Γιαλούδες της Μυκόνου - Νεράιδες Κυκλάδων | Νεράιδες | haunted.gr",
         "metaDescription": "Στη ρεματιά Ρουσουνάρα Μυκόνου, ασπροφόρες γιαλούδες πλένουν και απλώνουν ρούχα. Αφανίζονται μόλις τις δουν. Ο ανεμοστρόβιλος καλοκαίρι προκαλεί φούσκες — σημάδι επαφής τους.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-gialoudes-mykonos",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-gialoudes-mykonos",
         "keywords": [
           "νεράιδες Μύκονος",
           "Μύκονος νεράιδες",
@@ -2255,7 +2255,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-gialoudes-mykonos"
+            "@id": "https://haunted.gr/laografia/neraides/oi-gialoudes-mykonos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2330,7 +2330,7 @@
       "seo": {
         "metaTitle": "Ανεραΐδες στα Κόκκινα Κύθνου - Χορός με Σπίθες | Νεράιδες | haunted.gr",
         "metaDescription": "Στα Κόκκινα Κύθνου, νεράιδες χορεύουν και τραγουδούν και βγαίνουν σπίθες γύρω τους. Στα Κάκκαβα κάτω κατοικούν διάβολοι — γι' αυτό το νερό ήταν παραμελημένο στη λαϊκή μνήμη.",
-        "canonical": "https://haunted.gr/laografia/nerades/ta-kokkina-kythnos",
+        "canonical": "https://haunted.gr/laografia/neraides/ta-kokkina-kythnos",
         "keywords": [
           "νεράιδες Κύθνος",
           "Κύθνος νεράιδες",
@@ -2371,7 +2371,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/ta-kokkina-kythnos"
+            "@id": "https://haunted.gr/laografia/neraides/ta-kokkina-kythnos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2459,7 +2459,7 @@
       "seo": {
         "metaTitle": "Ναραγίδες Πηγαδιού - Παιδί που Έπεσε και Σώθηκε στη Χίο | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Χίο, κοριτσάκι έπεσε στο πηγάδι και βρέθηκε να παίζει στο νερό. Ο πατέρας κατέβηκε και ανέβηκαν αβλαβείς με στεγνά ρούχα — ναραγίδες του πηγαδιού τα είχαν πάρει μαζί τους.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-naragides-tou-pigadiou-chios",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-naragides-tou-pigadiou-chios",
         "keywords": [
           "νεράιδες Χίος",
           "Χίος νεράιδες",
@@ -2498,7 +2498,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-naragides-tou-pigadiou-chios"
+            "@id": "https://haunted.gr/laografia/neraides/oi-naragides-tou-pigadiou-chios"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2580,7 +2580,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στη Μήλο - Φοραδοπόταμος και Νύχια | Νεράιδες | haunted.gr",
         "metaDescription": "Στον Φοραδοπόταμο Μήλου βγαίνουν καλοκεράδες-νεράιδες και όλοι φοβούνται να περάσουν. Στα Νύχια επίσης υπάρχουν νεράιδες — το όνομα από πέτρες που κόβονται σαν νύχια.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tou-foradopotamou-trypiti-milos",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-foradopotamou-trypiti-milos",
         "keywords": [
           "νεράιδες Μήλος",
           "Μήλος νεράιδες",
@@ -2623,7 +2623,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tou-foradopotamou-trypiti-milos"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-foradopotamou-trypiti-milos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2693,7 +2693,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στα Λαγκαδάκια Ζακύνθου - Τρίστρατο | Νεράιδες | haunted.gr",
         "metaDescription": "Στα Λαγκαδάκια Ζακύνθου, στο τρίστρατο και στου Χάρου το λαγκάδι, κατοικούν ανεράιδες. Παρόμοια εξωτικά πνεύματα φωλιάζουν στις χαράδρες αυτής της ζακυνθινής παράδοσης.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-sta-langadakia-zakynthos",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-sta-langadakia-zakynthos",
         "keywords": [
           "νεράιδες Ζάκυνθος",
           "Ζάκυνθος νεράιδες",
@@ -2734,7 +2734,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-sta-langadakia-zakynthos"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-sta-langadakia-zakynthos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2810,7 +2810,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στο Τρελόβουνο του Υμηττού - Τσοπάνης | Νεράιδες | haunted.gr",
         "metaDescription": "Στην κορφή του Τρελόβουνου Υμηττού, νεράιδες χορεύουν κάθε μεσημέρι σε στρογγυλό πλάτωμα. Τσοπάνης που πήγε εκεί περικυκλώθηκε από σίφουνα και τα πρόβατά του σκορπίστηκαν παντού.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tou-trelovouniou-ymittos-athina",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-trelovouniou-ymittos-athina",
         "keywords": [
           "νεράιδες Υμηττός",
           "Υμηττός νεράιδες",
@@ -2852,7 +2852,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tou-trelovouniou-ymittos-athina"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-trelovouniou-ymittos-athina"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -2934,7 +2934,7 @@
       "seo": {
         "metaTitle": "Η Σπηλιά του Μπουρίνου Κοζάνης - Θεραπευτικό Νερό Νεράιδων | Νεράιδες | haunted.gr",
         "metaDescription": "Στη σπηλιά του Μπουρίνου Κοζάνης στάζει νερό από τα βυζιά νεράιδων που θεραπεύει αρρώστιες. Όποιος πάει πρέπει να μείνει αμίλητος και να κρατάει πράσινη λαμπάδα, αφήνοντας ρούχα.",
-        "canonical": "https://haunted.gr/laografia/nerades/i-spilia-tou-mpourinou-kozzani",
+        "canonical": "https://haunted.gr/laografia/neraides/i-spilia-tou-mpourinou-kozzani",
         "keywords": [
           "νεράιδες Κοζάνη",
           "Κοζάνη νεράιδες",
@@ -2975,7 +2975,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/i-spilia-tou-mpourinou-kozzani"
+            "@id": "https://haunted.gr/laografia/neraides/i-spilia-tou-mpourinou-kozzani"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3051,7 +3051,7 @@
       "seo": {
         "metaTitle": "Ανεμοσίφουνο Νεράιδων στη Βρέσθενα Λακωνίας | Νεράιδες | haunted.gr",
         "metaDescription": "Ο Γιώργης Σκλήρης στη Βρέσθενα Λακωνίας είδε ανεμοσίφουνο και άκουσε τούμπανα, βιολιά και γυναικείες φωνές νεράιδων να χορεύουν αόρατα — εμπειρία γνωστή και σε άλλους χωριανούς.",
-        "canonical": "https://haunted.gr/laografia/nerades/anemosifouno-ton-neraidon-vresthena",
+        "canonical": "https://haunted.gr/laografia/neraides/anemosifouno-ton-neraidon-vresthena",
         "keywords": [
           "νεράιδες Λακωνία",
           "Λακωνία νεράιδες",
@@ -3093,7 +3093,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/anemosifouno-ton-neraidon-vresthena"
+            "@id": "https://haunted.gr/laografia/neraides/anemosifouno-ton-neraidon-vresthena"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3199,7 +3199,7 @@
       "seo": {
         "metaTitle": "Συμφωνία Νεράιδων σε Σταυροδρόμι Μεσαράς Κρήτης | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Μεσαρά Κρήτης, λυράρης μεσάνυχτα σε σταυροδρόμι εντός μαγικού κύκλου αρνείται νεράιδες να τον παρασύρουν. Τελικά δίνει το μικρό δαχτυλίδι και νεράιδα παίζει τη λύρα μαγικά.",
-        "canonical": "https://haunted.gr/laografia/nerades/o-lyraris-mesara-kritis",
+        "canonical": "https://haunted.gr/laografia/neraides/o-lyraris-mesara-kritis",
         "keywords": [
           "νεράιδες Κρήτη",
           "Κρήτη νεράιδες",
@@ -3240,7 +3240,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/o-lyraris-mesara-kritis"
+            "@id": "https://haunted.gr/laografia/neraides/o-lyraris-mesara-kritis"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3328,7 +3328,7 @@
       "seo": {
         "metaTitle": "Λεπρές Νεράιδες στη Βελλά Αχαΐας - Μόλυνση από Βρύση | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Βελλά Αχαΐας, γυναίκα πλύθηκε σε μολυσμένη βρύση από λεπρές νεράιδες και κόλλησε λέπρα. Μάγισσα στη Ζάχουλη πάλεψε με τις νεράιδες και την εξόρκισε — αρρώστια εξαφανίστηκε.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-lepres-neraides-vela-achaia",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-lepres-neraides-vela-achaia",
         "keywords": [
           "νεράιδες Αχαΐα",
           "Αχαΐα νεράιδες",
@@ -3370,7 +3370,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-lepres-neraides-vela-achaia"
+            "@id": "https://haunted.gr/laografia/neraides/oi-lepres-neraides-vela-achaia"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3454,7 +3454,7 @@
       "seo": {
         "metaTitle": "Ο Νεραϊδοπαραμένος - Βήσσανη Ιωαννίνων Ήπειρος | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Βήσσανη Ιωαννίνων, νεράιδες ήρθαν να πνίξουν άνδρα στο χωράφι αλλά τον ξύπνησαν γυναίκες. Επέστρεψαν και πετροβολούσαν το σπίτι. Θεραπεύτηκε με τρεις εσπερινούς Σαββάτου.",
-        "canonical": "https://haunted.gr/laografia/nerades/o-neraidoparamenos-vissani-ioanninon",
+        "canonical": "https://haunted.gr/laografia/neraides/o-neraidoparamenos-vissani-ioanninon",
         "keywords": [
           "νεράιδες Ιωάννινα",
           "Ιωάννινα νεράιδες",
@@ -3496,7 +3496,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/o-neraidoparamenos-vissani-ioanninon"
+            "@id": "https://haunted.gr/laografia/neraides/o-neraidoparamenos-vissani-ioanninon"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3581,7 +3581,7 @@
       "seo": {
         "metaTitle": "Το Παιδί της Ανεράιδας - Χορός στα Ψαρά | Νεράιδες | haunted.gr",
         "metaDescription": "Στα Ψαρά, γυναίκα έβαλε στο γαϊδάρι το παιδί ανεράιδας. Νεράιδες στη μεγάλη άμμο ξεφόρτωσαν και ανάγκασαν τη γυναίκα να χορέψει γυμνή μαζί τους μέχρι την αυγή — και γλίτωσε.",
-        "canonical": "https://haunted.gr/laografia/nerades/to-paidi-tis-aneraidas-psara",
+        "canonical": "https://haunted.gr/laografia/neraides/to-paidi-tis-aneraidas-psara",
         "keywords": [
           "νεράιδες Ψαρά",
           "Ψαρά νεράιδες",
@@ -3620,7 +3620,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/to-paidi-tis-aneraidas-psara"
+            "@id": "https://haunted.gr/laografia/neraides/to-paidi-tis-aneraidas-psara"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3692,7 +3692,7 @@
       "seo": {
         "metaTitle": "Νεράιδες που Ρουφούν Αίμα Παιδιών - Κρήτη | Νεράιδες | haunted.gr",
         "metaDescription": "Κρητική δοξασία: νεράιδες επισκέπτονται νύχτα σπίτια και ρουφούν αίμα από αφύλακτα παιδιά. Αυτά γίνονται κίτρινα και αδύνατα — τα λένε «νεραϊδογλειμμένα» στη λαϊκή παράδοση.",
-        "canonical": "https://haunted.gr/laografia/nerades/ta-neraidogleimmene-kriti",
+        "canonical": "https://haunted.gr/laografia/neraides/ta-neraidogleimmene-kriti",
         "keywords": [
           "νεράιδες Κρήτη",
           "Κρήτη νεράιδες",
@@ -3730,7 +3730,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/ta-neraidogleimmene-kriti"
+            "@id": "https://haunted.gr/laografia/neraides/ta-neraidogleimmene-kriti"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3812,7 +3812,7 @@
       "seo": {
         "metaTitle": "Σινοσωτηραίοι από Νεράιδα - Φαμίλα Ναυπακτίας | Νεράιδες | haunted.gr",
         "metaDescription": "Ο προπάππους των Σινοσωτηραίων από τη Φαμίλα έκλεψε το μαντήλι νεράιδας στο αλώνι — εκείνη τον ακολούθησε και παντρεύτηκαν. Και η Μανεσαϊκή οικογένεια ισχυρίζεται καταγωγή από νεράιδα.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-sinosotiraioi-apo-tin-famila",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-sinosotiraioi-apo-tin-famila",
         "keywords": [
           "νεράιδες Αιτωλοακαρνανία",
           "Αιτωλοακαρνανία νεράιδες",
@@ -3853,7 +3853,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-sinosotiraioi-apo-tin-famila"
+            "@id": "https://haunted.gr/laografia/neraides/oi-sinosotiraioi-apo-tin-famila"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -3932,7 +3932,7 @@
       "seo": {
         "metaTitle": "Χορός με Νεράιδες στην Κυδωνιά Ναυπακτίας | Νεράιδες | haunted.gr",
         "metaDescription": "Γυναίκα από τη Ζηλίστα Ναυπακτίας βρήκε νεράιδες να χορεύουν και χόρεψε μαζί τους γυμνή χωρίς να μιλά. Οι νεράιδες τραγούδησαν προσβλητικά για να γελάσει — εκείνη αντιστάθηκε.",
-        "canonical": "https://haunted.gr/laografia/nerades/choros-me-neraides-stin-kydonia-nafpaktias",
+        "canonical": "https://haunted.gr/laografia/neraides/choros-me-neraides-stin-kydonia-nafpaktias",
         "keywords": [
           "νεράιδες Ναυπακτία",
           "Ναυπακτία νεράιδες",
@@ -3973,7 +3973,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/choros-me-neraides-stin-kydonia-nafpaktias"
+            "@id": "https://haunted.gr/laografia/neraides/choros-me-neraides-stin-kydonia-nafpaktias"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -4080,7 +4080,7 @@
       "seo": {
         "metaTitle": "Έρωτας Λυράρη με Νεράιδα στο Νεραϊδόσπηλιο - Κρήτη | Νεράιδες | haunted.gr",
         "metaDescription": "Λυράρης από Σγουροκεφάλι Κρήτης έπιασε νεράιδα από τα μαλλιά μέσα σε μεταμορφώσεις. Γεννήθηκε γιος, αλλά εκείνη έφυγε στην πηγή όταν της αποκαλύφθηκε ο φούρνος. Δύο εκδοχές 1842–1866.",
-        "canonical": "https://haunted.gr/laografia/nerades/kriti-erotas-lyrari-me-neraida-sto-neraidospilio",
+        "canonical": "https://haunted.gr/laografia/neraides/kriti-erotas-lyrari-me-neraida-sto-neraidospilio",
         "keywords": [
           "νεράιδες Κρήτη",
           "Κρήτη νεράιδες",
@@ -4123,7 +4123,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/kriti-erotas-lyrari-me-neraida-sto-neraidospilio"
+            "@id": "https://haunted.gr/laografia/neraides/kriti-erotas-lyrari-me-neraida-sto-neraidospilio"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -4208,7 +4208,7 @@
       "seo": {
         "metaTitle": "Απαγωγή Παιδιού από Νεράιδες στα Σφακιά Κρήτης | Νεράιδες | haunted.gr",
         "metaDescription": "Σφακιανό παιδί απήχθη από νεράιδες και βρέθηκε ζαλισμένο σε ψηλή κορυφή. Ο αδελφός το βρήκε φωνάζοντας — βρήκε ευκαιρία όταν οι νεράιδες καβγάδισαν μεταξύ τους. Αφηγήθηκε ο Καπετάν Χριστοδουλάκης.",
-        "canonical": "https://haunted.gr/laografia/nerades/to-klemmeno-paidi-sfakia-kriti",
+        "canonical": "https://haunted.gr/laografia/neraides/to-klemmeno-paidi-sfakia-kriti",
         "keywords": [
           "νεράιδες Σφακιά",
           "Σφακιά νεράιδες",
@@ -4249,7 +4249,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/to-klemmeno-paidi-sfakia-kriti"
+            "@id": "https://haunted.gr/laografia/neraides/to-klemmeno-paidi-sfakia-kriti"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -4335,7 +4335,7 @@
       "seo": {
         "metaTitle": "Νεράιδες Υμηττού - Ανεμοστρόβιλος και Χρυσό Κρεβάτι | Νεράιδες | haunted.gr",
         "metaDescription": "Κυνηγός στο Κακόρεμα Υμηττού άκουσε μουσική νεράιδων, αρπάχτηκε από ανεμοστρόβιλο και βρέθηκε σε χρυσό κρεβάτι σε δέντρο για 8 μέρες. Ελευθερώθηκε και θεραπεύτηκε στην εκκλησία.",
-        "canonical": "https://haunted.gr/laografia/nerades/ymittos-o-anemostrovilos-oi-neraides-kai-to-chryso-krebati",
+        "canonical": "https://haunted.gr/laografia/neraides/ymittos-o-anemostrovilos-oi-neraides-kai-to-chryso-krebati",
         "keywords": [
           "νεράιδες Υμηττός",
           "Υμηττός νεράιδες",
@@ -4377,7 +4377,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/ymittos-o-anemostrovilos-oi-neraides-kai-to-chryso-krebati"
+            "@id": "https://haunted.gr/laografia/neraides/ymittos-o-anemostrovilos-oi-neraides-kai-to-chryso-krebati"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -4466,7 +4466,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στα Σιανά Ρόδου - Χορός και Πέτρες | Νεράιδες | haunted.gr",
         "metaDescription": "Στις Μολυές των Σιανών Ρόδου, στον γκρεμό της Άσπας, νεράιδες πετούν πέτρες και χορεύουν τον Αύγουστο. Άντρας που έπιασαν αρνήθηκε να χορέψει λέγοντας «δεν χωρώ διαβόλους που βλέπω».",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-ton-sianon-rodou",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-ton-sianon-rodou",
         "keywords": [
           "νεράιδες Ρόδος",
           "Ρόδος νεράιδες",
@@ -4515,7 +4515,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-ton-sianon-rodou"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-ton-sianon-rodou"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -4601,7 +4601,7 @@
       "seo": {
         "metaTitle": "Κόπανα Ανεράδων στον Νερόμυλο Λάρδου Ρόδου | Νεράιδες | haunted.gr",
         "metaDescription": "Στον νερόμυλο της Λάρδου Ρόδου, αλαφροΐσκιωτες ακούν τα κόπανα Ανεράδων να πλένουν ρούχα «παραλλαγμένων» — ανθρώπων που θα χτυπηθούν από Ανεράδες και θα αλλοιωθεί το πρόσωπό τους.",
-        "canonical": "https://haunted.gr/laografia/nerades/ta-kopana-ton-aneradon-rodos",
+        "canonical": "https://haunted.gr/laografia/neraides/ta-kopana-ton-aneradon-rodos",
         "keywords": [
           "νεράιδες Ρόδος",
           "Ρόδος νεράιδες",
@@ -4649,7 +4649,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/ta-kopana-ton-aneradon-rodos"
+            "@id": "https://haunted.gr/laografia/neraides/ta-kopana-ton-aneradon-rodos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -4735,7 +4735,7 @@
       "seo": {
         "metaTitle": "Σταυρός ως Προστασία από Ανεράδες - Λεχώνα Ρόδου | Νεράιδες | haunted.gr",
         "metaDescription": "Λεχώνα στη Ρόδο αντιμετώπισε χορεύουσες Ανεράδες στη νύχτα. Ο σταυρός στο ύφασμα του μωρού της τις εμπόδισε να την αγγίξουν — φώναζαν «Καίει! Καίει!» και τράπηκαν σε φυγή τρέχοντας.",
-        "canonical": "https://haunted.gr/laografia/nerades/o-stauros-os-apotreptiko-gia-anerades-rodos",
+        "canonical": "https://haunted.gr/laografia/neraides/o-stauros-os-apotreptiko-gia-anerades-rodos",
         "keywords": [
           "νεράιδες Ρόδος",
           "Ρόδος νεράιδες",
@@ -4783,7 +4783,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/o-stauros-os-apotreptiko-gia-anerades-rodos"
+            "@id": "https://haunted.gr/laografia/neraides/o-stauros-os-apotreptiko-gia-anerades-rodos"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -4891,7 +4891,7 @@
       "seo": {
         "metaTitle": "Οι Γιαλλούδες της Ρόδου - Ψαράς στην Αλεξάνδρεια | Νεράιδες | haunted.gr",
         "metaDescription": "Λιντιακός ψαράς κρύφτηκε στη βάρκα και Γιαλλούδες τον πήγαν σε δευτερόλεπτα στην Αλεξάνδρεια. Έκοψε χουρμάδες ως απόδειξη και επέστρεψαν το ίδιο γρήγορα στους Αγίους Αποστόλους.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-gialloudes-tis-rodou-aello-aellopous",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-gialloudes-tis-rodou-aello-aellopous",
         "keywords": [
           "νεράιδες Ρόδος",
           "Ρόδος νεράιδες",
@@ -4942,7 +4942,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-gialloudes-tis-rodou-aello-aellopous"
+            "@id": "https://haunted.gr/laografia/neraides/oi-gialloudes-tis-rodou-aello-aellopous"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5029,7 +5029,7 @@
       "seo": {
         "metaTitle": "Νεράιδες των Υδάτων στο Δασύλλιο Γρεβενών | Νεράιδες | haunted.gr",
         "metaDescription": "Στο Δασύλλιο Γρεβενών, νεράιδες — δαίμονες κρηνών και υδάτων — αφήνουν τα χτένια τους στις βρύσες. Άνθρωποι τα βρίσκουν συχνά, αποδεικνύοντας την παρουσία τους στα νερά της Μακεδονίας.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-ton-ydaton-dasyllio-grevenon",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-ton-ydaton-dasyllio-grevenon",
         "keywords": [
           "νεράιδες Γρεβενά",
           "Γρεβενά νεράιδες",
@@ -5074,7 +5074,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-ton-ydaton-dasyllio-grevenon"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-ton-ydaton-dasyllio-grevenon"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5172,7 +5172,7 @@
       "seo": {
         "metaTitle": "Ιαματικό Νερό Νεράιδων στο Παλαιόκαστρο Κοζάνης | Νεράιδες | haunted.gr",
         "metaDescription": "Σπηλιά 40-50 πήχεις στο Παλαιόκαστρο Κοζάνης με νερό Καλοτύχων-νεράιδων που θεραπεύει αρρώστιες. Αν δουν Καλοτύχες μέσα χάνονται, αν ακούσουν φωνές αλλά δεν δουν τίποτα γιατρεύονται.",
-        "canonical": "https://haunted.gr/laografia/nerades/to-iamatiko-nero-ton-neraidon-tou-palaiokastrou",
+        "canonical": "https://haunted.gr/laografia/neraides/to-iamatiko-nero-ton-neraidon-tou-palaiokastrou",
         "keywords": [
           "νεράιδες Κοζάνη",
           "Κοζάνη νεράιδες",
@@ -5219,7 +5219,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/to-iamatiko-nero-ton-neraidon-tou-palaiokastrou"
+            "@id": "https://haunted.gr/laografia/neraides/to-iamatiko-nero-ton-neraidon-tou-palaiokastrou"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5303,7 +5303,7 @@
       "seo": {
         "metaTitle": "Νεράιδες Καταστρέφουν Υφάσματα - Μανθυρέα Αρκαδίας | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Μανθυρέα Αρκαδίας πιστεύουν πως τα σκισίματα και τρυπήματα υφασμάτων τις πρώτες μέρες του Αυγούστου τα προκαλούν νεράιδες. Μοναδική λαϊκή πεποίθηση για αόρατη δράση νεράιδων.",
-        "canonical": "https://haunted.gr/laografia/nerades/i-katastrofi-yphasmaton-apo-neraides",
+        "canonical": "https://haunted.gr/laografia/neraides/i-katastrofi-yphasmaton-apo-neraides",
         "keywords": [
           "νεράιδες Αρκαδία",
           "Αρκαδία νεράιδες",
@@ -5349,7 +5349,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/i-katastrofi-yphasmaton-apo-neraides"
+            "@id": "https://haunted.gr/laografia/neraides/i-katastrofi-yphasmaton-apo-neraides"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5439,7 +5439,7 @@
       "seo": {
         "metaTitle": "Νεράιδες Καταφυγίου Κοζάνης - Κώστας Μπουχαγιάς | Νεράιδες | haunted.gr",
         "metaDescription": "Στο Καταφύγι Κοζάνης, ο Κώστας Μπουχαγιάς είναι νεραιδοπαρμένος. Απαγορεύεται κολύμπι στις 6 Αυγούστου γιατί νεράιδες ψάχνουν τον αδελφό Σωτήρη — στο γυρισμό είναι θυμωμένες.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tou-katafygioy-kozanis",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-katafygioy-kozanis",
         "keywords": [
           "νεράιδες Κοζάνη",
           "Κοζάνη νεράιδες",
@@ -5484,7 +5484,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tou-katafygioy-kozanis"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-katafygioy-kozanis"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5566,7 +5566,7 @@
       "seo": {
         "metaTitle": "Νεράιδες στα Βουνά Ιωαννίνων - Φωνή στην Ερημιά | Νεράιδες | haunted.gr",
         "metaDescription": "Στα βουνά Τσεπελόβου Ιωαννίνων, νεράιδες σε φωνάζουν με το όνομά σου στην ερημιά. Μην γυρίσεις, μην απαντήσεις — αλλιώς σου παίρνουν τη μιλιά. Δοξασία Σαρακατσαναίων Ηπείρου.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-sta-vouna-ioannina",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-sta-vouna-ioannina",
         "keywords": [
           "νεράιδες Ιωάννινα",
           "Ιωάννινα νεράιδες",
@@ -5611,7 +5611,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-sta-vouna-ioannina"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-sta-vouna-ioannina"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5693,7 +5693,7 @@
       "seo": {
         "metaTitle": "Ανεράδες του Παλιοκάστρου - Αμαρτωλές Ψυχές Νισύρου | Νεράιδες | haunted.gr",
         "metaDescription": "Οι ανεράδες της Νισύρου ήταν αμαρτωλές γυναικείες ψυχές που χόρευαν νύχτα στο Παλιόκαστρο ως τιμωρία. Στις Παραπυργές επίσης βγαίνουν νύχτα. Αφήγηση Μιχ. Τσατσαρώνη (1982).",
-        "canonical": "https://haunted.gr/laografia/nerades/anerades-tou-paliokastrou-nisyros",
+        "canonical": "https://haunted.gr/laografia/neraides/anerades-tou-paliokastrou-nisyros",
         "keywords": [
           "νεράιδες Νίσυρος",
           "Νίσυρος νεράιδες",
@@ -5734,7 +5734,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/anerades-tou-paliokastrou-nisyros"
+            "@id": "https://haunted.gr/laografia/neraides/anerades-tou-paliokastrou-nisyros"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5818,7 +5818,7 @@
       "seo": {
         "metaTitle": "Η Γέννηση Ανεράδας - Μαία που Εξαπάτησε Νεράιδες Νισύρου | Νεράιδες | haunted.gr",
         "metaDescription": "Στη Νίσυρο, ανεράδα κάλεσε μαία να ξεγεννήσει στο Παλιόκαστρο απειλώντας θάνατο αν γεννηθεί κορίτσι. Η Φυλακτούσαινα παρίστανε αγόρι με κερί — της έδωσαν σάκο με φλούδες κρεμμυδιού αντί φλουριά.",
-        "canonical": "https://haunted.gr/laografia/nerades/i-gennisi-tis-aneradas-nisyros",
+        "canonical": "https://haunted.gr/laografia/neraides/i-gennisi-tis-aneradas-nisyros",
         "keywords": [
           "νεράιδες Νίσυρος",
           "Νίσυρος νεράιδες",
@@ -5857,7 +5857,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/i-gennisi-tis-aneradas-nisyros"
+            "@id": "https://haunted.gr/laografia/neraides/i-gennisi-tis-aneradas-nisyros"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -5927,7 +5927,7 @@
       "seo": {
         "metaTitle": "Σπηλιά Μπουρίνου Κοζάνης - Βυζί Νεράιδων και Βουβό Νερό | Νεράιδες | haunted.gr",
         "metaDescription": "Στη σπηλιά Μπουρίνου Κοζάνης-Γρεβενού στάζει «βουβό» νερό από νεράιδες — θεραπεύει αρρώστιες. Πρέπει να πας αμίλητος, με πράσινη λαμπάδα, και να αφήσεις ρούχα χωρίς να γυρίσεις να δεις.",
-        "canonical": "https://haunted.gr/laografia/nerades/i-spilia-tou-mpourinou-kozani-greveno",
+        "canonical": "https://haunted.gr/laografia/neraides/i-spilia-tou-mpourinou-kozani-greveno",
         "keywords": [
           "νεράιδες Κοζάνη",
           "Κοζάνη νεράιδες",
@@ -5967,7 +5967,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/i-spilia-tou-mpourinou-kozani-greveno"
+            "@id": "https://haunted.gr/laografia/neraides/i-spilia-tou-mpourinou-kozani-greveno"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -6037,7 +6037,7 @@
       "seo": {
         "metaTitle": "Νεράιδες Θούριου Έβρου - Χορός Μεσάνυχτα και Απαγωγή | Νεράιδες | haunted.gr",
         "metaDescription": "Στο Θούριο Έβρου παλιά, νεράιδες χόρευαν σε συγκεκριμένο μέρος έξω από το χωριό τα μεσάνυχτα. Όποιος περνούσε εκείνη την ώρα τον έπαιρναν στον χορό και δεν τον άφηναν να γυρίσει σπίτι.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tou-thouriou-evrou-thourios",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-thouriou-evrou-thourios",
         "keywords": [
           "νεράιδες Έβρος",
           "Έβρος νεράιδες",
@@ -6078,7 +6078,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tou-thouriou-evrou-thourios"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-thouriou-evrou-thourios"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -6163,7 +6163,7 @@
       "seo": {
         "metaTitle": "Νεράιδα Ποταμού Διδυμότειχου - Κλεμμένη Μαντήλα | Νεράιδες | haunted.gr",
         "metaDescription": "Νέος στο Διδυμότειχο έκλεψε τη μαντήλα νεράιδας του ποταμού — χωρίς αυτή δεν μπορούσε να μπει στο νερό. Παντρεύτηκαν και απέκτησαν παιδιά, αλλά μόλις βρήκε τη μαντήλα έφυγε στον ποταμό.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tou-didymoteichou-evros-didymoteicho",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-didymoteichou-evros-didymoteicho",
         "keywords": [
           "νεράιδες Διδυμότειχο",
           "Διδυμότειχο νεράιδες",
@@ -6203,7 +6203,7 @@
           ],
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tou-didymoteichou-evros-didymoteicho"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-didymoteichou-evros-didymoteicho"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -6289,7 +6289,7 @@
       "seo": {
         "metaTitle": "Νεράϊδες της Μεθώνης Μεσσηνίας | Νεραιδόπληκτος",
         "metaDescription": "Μαρτυρία από τη Μεθώνη Μεσσηνίας για άνδρα που επιτέθηκαν νεράϊδες τη νύχτα σε ρεματιά, σώθηκε ανάβοντας τσιγάρο, αλλά έφτασε σπίτι με στραβό στόμα. Από τις Παραδόσεις Μεθώνης, 1959.",
-        "canonical": "https://haunted.gr/laografia/nerades/neraides-tis-methonis-messinias",
+        "canonical": "https://haunted.gr/laografia/neraides/neraides-tis-methonis-messinias",
         "keywords": [
           "νεράϊδες Μεθώνη Μεσσηνία",
           "νεραιδόπληκτος τσιγάρο αποτροπή",
@@ -6330,7 +6330,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/neraides-tis-methonis-messinias"
+            "@id": "https://haunted.gr/laografia/neraides/neraides-tis-methonis-messinias"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -6408,7 +6408,7 @@
       "seo": {
         "metaTitle": "Οι Νεράϊδες του πηγαδιού | Μεθώνη Μεσσηνίας",
         "metaDescription": "Παιδική ανάμνηση από τη Μεθώνη (1912): η θεία προειδοποιεί να μην πάνε στο πηγάδι το μεσημέρι γιατί χορεύουν νεράϊδες. Το παιδί ανέβαινε κρυφά στη μυγδαλιά αλλά ποτέ δεν τις είδε. Διονυσόπουλος, 1959.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-tou-pigadiou-methoni",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-tou-pigadiou-methoni",
         "keywords": [
           "νεράϊδες πηγάδι Μεθώνη Μεσσηνία",
           "νεράϊδες χορός μεσημέρι ρέμα",
@@ -6447,7 +6447,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-tou-pigadiou-methoni"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-tou-pigadiou-methoni"
           },
           "spatialCoverage": {
             "@type": "Place",
@@ -6522,7 +6522,7 @@
       "seo": {
         "metaTitle": "Οι Νεράιδες στον Βραχώρι | Αγρίνιο | haunted.gr",
         "metaDescription": "Προσωπική μαρτυρία από τον Βραχώρι (Αγρίνιο): φυγόδικος κοιμάται στην Αγία Παρασκευή, ακούει φωνές να τον φωνάζουν, ξυπνά χτενισμένος με τα πράγματά του μετακινημένα — σημάδια Νεράιδων. Λαογραφία, Τόμος Η, 1921.",
-        "canonical": "https://haunted.gr/laografia/nerades/oi-neraides-sto-vrakhori-agrinio",
+        "canonical": "https://haunted.gr/laografia/neraides/oi-neraides-sto-vrakhori-agrinio",
         "keywords": [
           "νεράιδες Βραχώρι Αγρίνιο",
           "νεράιδες Αιτωλοακαρνανία λαογραφία",
@@ -6561,7 +6561,7 @@
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://haunted.gr/laografia/nerades/oi-neraides-sto-vrakhori-agrinio"
+            "@id": "https://haunted.gr/laografia/neraides/oi-neraides-sto-vrakhori-agrinio"
           },
           "spatialCoverage": {
             "@type": "Place",
