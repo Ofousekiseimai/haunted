@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from "react";
 
-import { GreeceMap } from "./greece-map";
+import { MapExplorer } from "./map-explorer";
+import { MapField } from "./map-field";
 import type { MapArticle, SubcategoryOption } from "@/lib/maps";
 
 type LaografiaMapProps = {
@@ -109,72 +110,52 @@ export function LaografiaInteractiveMap({
   }, [filteredByMainArea, resolvedSubLocation]);
 
   const totalArticles = articles.length;
-  const filteredCount = filteredArticles.length;
 
   return (
-    <div className="space-y-8">
-      <div className="rounded-2xl border border-black/20 bg-black p-6 text-white">
-        <div className="grid gap-4 md:grid-cols-3">
-          <label className="flex flex-col gap-2 text-sm font-medium text-white">
-            <span>Κατηγορία</span>
-            <select
-              value={selectedSubcategory}
-              onChange={(event) => {
-                setSelectedSubcategory(event.target.value);
-                setSelectedMainAreaRaw("all");
-                setSelectedSubLocationRaw("all");
-              }}
-              className="rounded-xl border border-black/20 bg-white px-3 py-2 text-sm text-black focus:border-black focus:outline-none"
-            >
-              <option value="all">Όλες οι κατηγορίες</option>
-              {subcategories.map((subcategory) => (
-                <option key={subcategory.value} value={subcategory.value}>
-                  {subcategory.label} ({subcategory.articleCount})
-                </option>
-              ))}
-            </select>
-          </label>
+    <MapExplorer
+      totalCount={totalArticles}
+      articles={filteredArticles}
+      unit="καταγραφές"
+      filters={
+        <div className="map-filters">
+          <MapField
+            id="la-subcategory"
+            label="Κατηγορία"
+            value={selectedSubcategory}
+            onChange={(value) => {
+              setSelectedSubcategory(value);
+              setSelectedMainAreaRaw("all");
+              setSelectedSubLocationRaw("all");
+            }}
+            options={[
+              { value: "all", label: "Όλες οι κατηγορίες" },
+              ...subcategories.map((subcategory) => ({
+                value: subcategory.value,
+                label: `${subcategory.label} (${subcategory.articleCount})`,
+              })),
+            ]}
+          />
 
-          <label className="flex flex-col gap-2 text-sm font-medium text-white">
-            <span>Περιφέρεια</span>
-            <select
-              value={resolvedMainArea}
-              onChange={(event) => {
-                setSelectedMainAreaRaw(event.target.value);
-                setSelectedSubLocationRaw("all");
-              }}
-              className="rounded-xl border border-black/20 bg-white px-3 py-2 text-sm text-black focus:border-black focus:outline-none"
-            >
-              {mainAreaOptions.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-          </label>
+          <MapField
+            id="la-mainarea"
+            label="Περιφέρεια"
+            value={resolvedMainArea}
+            onChange={(value) => {
+              setSelectedMainAreaRaw(value);
+              setSelectedSubLocationRaw("all");
+            }}
+            options={mainAreaOptions}
+          />
 
-          <label className="flex flex-col gap-2 text-sm font-medium text-white">
-            <span>Τοποθεσία</span>
-            <select
-              value={resolvedSubLocation}
-              onChange={(event) => setSelectedSubLocationRaw(event.target.value)}
-              className="rounded-xl border border-black/20 bg-white px-3 py-2 text-sm text-black focus:border-black focus:outline-none"
-            >
-              {subLocationOptions.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-          </label>
+          <MapField
+            id="la-sublocation"
+            label="Τοποθεσία"
+            value={resolvedSubLocation}
+            onChange={setSelectedSubLocationRaw}
+            options={subLocationOptions}
+          />
         </div>
-
-        <p className="mt-4 text-sm text-black">
-          Εμφανίζονται {filteredCount} από {totalArticles} καταγραφές.
-        </p>
-      </div>
-
-      <GreeceMap articles={filteredArticles} />
-    </div>
+      }
+    />
   );
 }

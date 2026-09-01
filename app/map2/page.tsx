@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 
 import { LaografiaMapShell } from "@/components/maps/laografia-map-shell";
-import { Section } from "@/components/section";
-import { SectionHeader } from "@/components/section-header";
 import { getLaografiaMapData } from "@/lib/maps";
 import { getRequestLocale } from "@/lib/locale-server";
 
@@ -47,18 +45,28 @@ export default async function LaografiaMapPage({ searchParams }: PageProps) {
       : undefined;
 
   return (
-    <Section className="container space-y-12" customPaddings="py-12 lg:py-20">
-      <SectionHeader
-        eyebrow="Παραδόσεις"
-        title="Διαδραστικός Λαογραφικός Χάρτης"
-        description="Ανακαλύψτε τοπικές παραδόσεις, μαρτυρίες και μύθους μέσα από γεωγραφική απεικόνιση των καταγραφών."
-      />
+    <>
+      <div className="frame page-head">
+        <div className="shead">
+          <div>
+            <div className="shead__kicker">
+              <span className="mark" aria-hidden="true" />
+              <span className="mono">Παραδόσεις</span>
+            </div>
+            <h1 className="shead__title">Λαογραφικός Χάρτης</h1>
+          </div>
+          <p className="shead__desc">
+            Παραδόσεις, αφηγήσεις και μαρτυρίες, χαρτογραφημένες ανά περιφέρεια
+            και οικισμό.
+          </p>
+        </div>
+      </div>
 
       <LaografiaMapShell
         articles={articles}
         subcategories={subcategories}
         initialSubcategory={initialSubcategory}
       />
-    </Section>
+    </>
   );
 }

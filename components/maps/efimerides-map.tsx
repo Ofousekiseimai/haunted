@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from "react";
 
-import { GreeceMap } from "./greece-map";
+import { MapExplorer } from "./map-explorer";
+import { MapField } from "./map-field";
 import type { MapArticle, SubcategoryOption } from "@/lib/maps";
 
 type EfimeridesMapProps = {
@@ -66,53 +67,40 @@ export function EfimeridesInteractiveMap({ articles, subcategories }: Efimerides
   }, [filteredBySubcategory, selectedLocation]);
 
   const totalArticles = articles.length;
-  const filteredCount = filteredArticles.length;
 
   return (
-    <div className="space-y-8">
-      <div className="rounded-2xl border surface-border surface-card p-6">
-        <div className="grid gap-4 md:grid-cols-2">
-          <label className="flex flex-col gap-2 text-sm font-medium text-muted">
-            <span>Θεματική ενότητα</span>
-            <select
-              value={selectedSubcategory}
-              onChange={(event) => {
-                setSelectedSubcategory(event.target.value);
-                setSelectedLocation("all");
-              }}
-              className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-primary-400 focus:outline-none"
-            >
-              <option value="all">Όλες οι κατηγορίες</option>
-              {subcategories.map((subcategory) => (
-                <option key={subcategory.value} value={subcategory.value}>
-                  {subcategory.label} ({subcategory.articleCount})
-                </option>
-              ))}
-            </select>
-          </label>
+    <MapExplorer
+      totalCount={totalArticles}
+      articles={filteredArticles}
+      unit="τεκμήρια"
+      filters={
+        <div className="map-filters">
+          <MapField
+            id="ef-subcategory"
+            label="Θεματική ενότητα"
+            value={selectedSubcategory}
+            onChange={(value) => {
+              setSelectedSubcategory(value);
+              setSelectedLocation("all");
+            }}
+            options={[
+              { value: "all", label: "Όλες οι κατηγορίες" },
+              ...subcategories.map((subcategory) => ({
+                value: subcategory.value,
+                label: `${subcategory.label} (${subcategory.articleCount})`,
+              })),
+            ]}
+          />
 
-          <label className="flex flex-col gap-2 text-sm font-medium text-muted">
-            <span>Περιοχή</span>
-            <select
-              value={selectedLocation}
-              onChange={(event) => setSelectedLocation(event.target.value)}
-              className="rounded-xl border surface-border surface-input px-3 py-2 text-sm text-n-1 focus:border-primary-400 focus:outline-none"
-            >
-              {locationOptions.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-          </label>
+          <MapField
+            id="ef-location"
+            label="Περιοχή"
+            value={selectedLocation}
+            onChange={setSelectedLocation}
+            options={locationOptions}
+          />
         </div>
-
-        <p className="mt-4 text-sm text-secondary">
-          Εμφανίζονται {filteredCount} από {totalArticles} τεκμήρια.
-        </p>
-      </div>
-
-      <GreeceMap articles={filteredArticles} />
-    </div>
+      }
+    />
   );
 }

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 
 import { EfimeridesMapShell } from "@/components/maps/efimerides-map-shell";
-import { Section } from "@/components/section";
-import { SectionHeader } from "@/components/section-header";
 import { getEfimeridesMapData } from "@/lib/maps";
 import { getRequestLocale } from "@/lib/locale-server";
 
@@ -35,14 +33,24 @@ export default async function EfimeridesMapPage() {
   const { articles, subcategories } = await getEfimeridesMapData(locale);
 
   return (
-    <Section className="container space-y-12" customPaddings="py-12 lg:py-20">
-      <SectionHeader
-        eyebrow="Εφημερίδες"
-        title="Διαδραστικός Χάρτης Συμβάντων"
-        description="Φιλτράρετε δημοσιεύματα ανά κατηγορία και γεωγραφική περιοχή για να ανακαλύψετε το αρχείο παράξενων γεγονότων στον ελληνικό Τύπο."
-      />
+    <>
+      <div className="frame page-head">
+        <div className="shead">
+          <div>
+            <div className="shead__kicker">
+              <span className="mark" aria-hidden="true" />
+              <span className="mono">Εφημερίδες</span>
+            </div>
+            <h1 className="shead__title">Χάρτης Συμβάντων</h1>
+          </div>
+          <p className="shead__desc">
+            Δημοσιεύματα του ελληνικού Τύπου, τοποθετημένα εκεί όπου καταγράφηκαν.
+            Φιλτράρετε ανά θεματική ενότητα και περιοχή.
+          </p>
+        </div>
+      </div>
 
       <EfimeridesMapShell articles={articles} subcategories={subcategories} />
-    </Section>
+    </>
   );
 }
