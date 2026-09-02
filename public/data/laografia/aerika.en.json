@@ -35,11 +35,15 @@
       "content": [
         {
           "type": "text",
-          "value": "Villagers spoke of a “Wolf” that appeared out of nowhere and tore at the flock. They never truly saw it—only heard and felt its presence. At midnight especially, shepherds would freeze in place, convinced the hour belonged to the Aerika."
+          "value": "The “Wolf” appears out of nowhere and savages the flock, by day or by night — though we ourselves never saw such a thing. Our grandfathers, now, had lived through a great deal. In our own time we have not set eyes on such phenomena. They used to say they had seen them with their own eyes."
         },
         {
           "type": "text",
-          "value": "One elder would say, “Something just passed through the herd. It’s the Wolf.” Moving at twelve was forbidden; you stayed still, no matter the sounds, because it was the spirit’s hour."
+          "value": "They say that at midnight the shepherds keeping watch over the animals would suddenly bolt from where they were sitting. They felt fear. And then our grandfather would lift his head and say: “Ah! Something has just passed through the flock. It is the ‘Wolf’.”"
+        },
+        {
+          "type": "text",
+          "value": "If it is twelve at midnight, then above all you must not stir at all from where you are. Whatever you may hear, you must stay still, they said. They were careful. They did not go near. Because it was an “untimely” hour — it was not a natural one. It was the hour of the Aerika."
         }
       ],
       "sources": [
@@ -143,7 +147,11 @@
       "content": [
         {
           "type": "text",
-          "value": "In the same area I met several people who attributed their ailments to the malice of the Air Spirits. An elderly woman complained about a year-long fever; when asked about a doctor, she replied, “What can doctors do? It’s an Aeriko—medicine does nothing to them.”"
+          "value": "In the same district I came across a number of people who put their bodily illnesses down to the malice of the “Spirits of the Air” (Aerika). One elderly woman complained to me of a low fever that had lasted a year. Naturally, I asked her whether she had consulted a doctor."
+        },
+        {
+          "type": "text",
+          "value": "“What are the doctors going to do for you?” she answered me, put out. “It is an aeriko — and medicines do nothing against those.”"
         }
       ],
       "sources": [
@@ -260,7 +268,11 @@
       "content": [
         {
           "type": "text",
-          "value": "Locals whisper “Alexander the Great lives and reigns” when a whirlwind—called anemosplada—spins past. The word combines wind with the ancient term for dust (spodos), a nod found in Herodotus."
+          "value": "In the district of Liakkovikia the whirlwind is called anemosplada, and while it passes the inhabitants are in the habit of whispering this strange refrain:\n«He lives, he lives and reigns, Alexander the Great»."
+        },
+        {
+          "type": "text",
+          "value": "The word appears to be a compound, from ánemos (wind) and either spilás or splidós — or, more properly, spodós, that is ash, or better still, dust, as it appears in Herodotus (IV.172): tês chamáthen spodoû, “dust from the ground”."
         }
       ],
       "sources": [
@@ -380,7 +392,15 @@
       "content": [
         {
           "type": "text",
-          "value": "A caravan traveling at night was joined by a mottled dog that teased the mules. A brave driver tried to grab it; each time his hand reached out, the creature became air. It vanished only when they reached the banks of the Axios."
+          "value": "Once, they say, a caravan was travelling by night towards Giannitsa, a town west of Thessaloniki. On the road a mottled little dog came up to them, appearing out of nowhere, and began tormenting the mules."
+        },
+        {
+          "type": "text",
+          "value": "One of the drivers found the courage to climb down from his animal and try to catch it, but he failed utterly. This happened many times over, and each time, the moment he stretched out his hand, the little dog turned to air."
+        },
+        {
+          "type": "text",
+          "value": "It did not stop harrying them until they reached the banks of the Axios (the Vardar), and there it vanished."
         }
       ],
       "sources": [
@@ -496,7 +516,15 @@
       "content": [
         {
           "type": "text",
-          "value": "A farmer in Galatista bore the nickname “Stravosnichis” after a nighttime encounter: he lifted what he thought was a harmless stray goat to take home, but it vanished mid-carry, leaving him permanently disfigured."
+          "value": "A villager in Galatista, in Chalkidiki, was known by the nickname Stravosnichis, and it is said that he owed his disfigurement to an incident of just this kind."
+        },
+        {
+          "type": "text",
+          "value": "One evening, as he was coming back from the fields, he saw what he took for a harmless — if stray — goat grazing in a meadow."
+        },
+        {
+          "type": "text",
+          "value": "He went up to it and hoisted it onto his shoulder, with the commendable intention of carrying it home as a gift for his wife. At that very moment, however, the goat vanished into the air, leaving him a memento that would mark him for the rest of his life."
         }
       ],
       "sources": [
@@ -610,7 +638,19 @@
       "content": [
         {
           "type": "text",
-          "value": "Around 1935, two shepherds near Isaakio saw a fire burning bright in the grass with no smoke. Frightened, they kept their distance; by morning, no trace remained. Locals attributed it to the Aerika."
+          "value": "Since the talk has turned to the Aerika, Mr Theodoros Papachatzidis — about fifty years old, from Daniilio in Eastern Thrace, with schooling as far as the third grade — has something from his own experience to tell us."
+        },
+        {
+          "type": "text",
+          "value": "Here near the little farmstead, a landowner and I were grazing the sheep. All this happened before the war, around 1935."
+        },
+        {
+          "type": "text",
+          "value": "I was about fifteen at the time. As soon as night fell we looked and saw a fire in the green grass — but a fire with no smoke. We took fright and did not go near it."
+        },
+        {
+          "type": "text",
+          "value": "The next morning we went back, and we found no trace of any fire."
         }
       ],
       "sources": [
