@@ -1227,7 +1227,15 @@
         },
         {
           "type": "text",
-          "value": "'Whatever I feel like...' He uttered a coarse word and added immediately: 'I'll take your wife whatever you do.'"
+          "value": "— Whatever I feel like…"
+        },
+        {
+          "type": "text",
+          "value": "He uttered a coarse word and added at once:"
+        },
+        {
+          "type": "text",
+          "value": "— I shall take your wife off you, whatever you do."
         },
         {
           "type": "text",
@@ -1247,7 +1255,11 @@
         },
         {
           "type": "text",
-          "value": "He then fell into a state of aphasia during transfer to the Civic Hospital. Whether he will survive is uncertain. Mazarakis surrendered to the officers. Both to them, and at the 6th precinct where he was transferred, he stated: 'There was no other way, and patience has its limits. I have a saintly wife and he had made it his goal to dishonour her.' He repeated the same thing to the prosecutor, while Androniki, who has not stopped weeping, intuits that her husband is in the right and will not face a heavy sentence."
+          "value": "He then fell into a state of aphasia during the transfer to the Civic Hospital. Whether he will survive is uncertain. Mazarakis surrendered to the officers."
+        },
+        {
+          "type": "text",
+          "value": "— There was no other way, and patience has its limits. I have a saintly wife, and he had made it his aim to dishonour her. He stated this both to them and at the 6th precinct to which he was taken, and repeated the same thing to the prosecutor, while Androniki, who has not stopped weeping, intuits that her husband is in the right and will not face a heavy sentence."
         }
       ],
       "sources": [
