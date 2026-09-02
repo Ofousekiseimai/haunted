@@ -383,6 +383,10 @@
         {
           "type": "text",
           "value": "The searches continue under the observation of villagers as well as others from Chalkis."
+        },
+        {
+          "type": "text",
+          "value": "Akropolis newspaper, 27 September 1949 — Konistres, Evia."
         }
       ],
       "sources": [
@@ -2449,7 +2453,11 @@
         },
         {
           "type": "text",
-          "value": "'I saw the thrice-cursed one with my own eyes!' said an elderly woman, making exorcism gestures. We approached and asked if we could listen too."
+          "value": "— Why, I saw him with my own eyes, the thrice-accursed one!"
+        },
+        {
+          "type": "text",
+          "value": "said an elderly woman, making gestures of exorcism. We went up and asked whether we too might listen."
         },
         {
           "type": "text",

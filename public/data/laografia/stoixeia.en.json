@@ -196,7 +196,11 @@
           "pages": "987"
         }
       ],
-      "tags": ["stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Definition of the Stoicheio — Politis | Spirits & Hauntings",
         "metaDescription": "Nikolaos Politis defines stoicheia as souls attached to a place, building, or tree. Folkloric analysis of the term 'stoicheio' in Greek tradition (1904).",
@@ -215,12 +219,29 @@
           "description": "Folkloric definition and analysis of the term 'stoicheio' with etymological observations and cultural dimensions.",
           "inLanguage": "en",
           "datePublished": "1904",
-          "author": { "@type": "Person", "name": "Nikolaos Politis" },
+          "author": {
+            "@type": "Person",
+            "name": "Nikolaos Politis"
+          },
           "image": "https://haunted.gr/images/laografia/politis.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/orismos-stoicheia-politis" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } }
+          "keywords": [
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/orismos-stoicheia-politis"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
         }
       }
     },
@@ -311,7 +332,11 @@
           "pages": "987-992"
         }
       ],
-      "tags": ["stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Categories of Stoicheia | Spirits & Hauntings",
         "metaDescription": "An analysis of the categories of stoicheia in Greek folklore: protective spirits, victims of injustice, hero-spirits, and prophetic entities.",
@@ -331,9 +356,23 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/stoicheia-categories.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/kategories-stoicheion" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } }
+          "keywords": [
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/kategories-stoicheion"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
         }
       }
     },
@@ -396,7 +435,11 @@
           "pages": "1065"
         }
       ],
-      "tags": ["stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Shadows — Iskioi | Spirits & Hauntings | Greek Folklore",
         "metaDescription": "Etymological and folkloric analysis of the term 'iskios' (shadow/shade) and its role as a synonym for stoicheio in Greek folk tradition.",
@@ -416,9 +459,23 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/skies-definition.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/skies-iskioi" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } }
+          "keywords": [
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/skies-iskioi"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
         }
       }
     },
@@ -433,7 +490,9 @@
       "subLocation": "Mykonos",
       "lat": 37.46052,
       "lng": 25.35269,
-      "locationTags": ["Mykonos"],
+      "locationTags": [
+        "Mykonos"
+      ],
       "image": {
         "src": "/images/laografia/mykonos-spring.webp",
         "alt": ""
@@ -457,7 +516,12 @@
           "pages": "1070"
         }
       ],
-      "tags": ["Mykonos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Mykonos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Mykonos — The Toll of the Spring | Spirits & Hauntings",
         "metaDescription": "A traditional custom from Mykonos: before drawing water from a spring, islanders would greet it three times to honor the spirit dwelling there. Recorded c.1800.",
@@ -478,10 +542,33 @@
           "datePublished": "1904",
           "image": "https://haunted.gr/images/laografia/mykonos-spring.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Mykonos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/mykonos-teloneio-pigis" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Mykonos", "geo": { "@type": "GeoCoordinates", "latitude": 37.46052, "longitude": 25.35269 } }
+          "keywords": [
+            "Mykonos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/mykonos-teloneio-pigis"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Mykonos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.46052,
+              "longitude": 25.35269
+            }
+          }
         }
       }
     },
@@ -496,7 +583,9 @@
       "subLocation": "Kalymnos",
       "lat": 37.00302,
       "lng": 26.96914,
-      "locationTags": ["Kalymnos"],
+      "locationTags": [
+        "Kalymnos"
+      ],
       "image": {
         "src": "/images/laografia/kalymnos-spring-taboo.webp",
         "alt": ""
@@ -532,7 +621,12 @@
           "pages": "1072"
         }
       ],
-      "tags": ["Kalymnos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Kalymnos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Kalymnos — Spirit of the Spring and Ritual Impurity | Stoicheia",
         "metaDescription": "A tradition from Kalymnos: approaching the spirit's spring in a state of ritual impurity brings immediate affliction. Recorded by Yannis Zervos, cited by Politis 1904.",
@@ -552,10 +646,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/kalymnos-spring-taboo.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Kalymnos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/kalymnos-stoicheio-pigis" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Kalymnos", "geo": { "@type": "GeoCoordinates", "latitude": 37.00302, "longitude": 26.96914 } }
+          "keywords": [
+            "Kalymnos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/kalymnos-stoicheio-pigis"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Kalymnos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.00302,
+              "longitude": 26.96914
+            }
+          }
         }
       }
     },
@@ -570,7 +687,9 @@
       "subLocation": "Zakynthos",
       "lat": 37.80576,
       "lng": 20.76867,
-      "locationTags": ["Zakynthos"],
+      "locationTags": [
+        "Zakynthos"
+      ],
       "image": {
         "src": "/images/laografia/pergalio-zakynthos.webp",
         "alt": ""
@@ -598,7 +717,12 @@
           "pages": "1100"
         }
       ],
-      "tags": ["Zakynthos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Zakynthos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Pergalio — The House-Spirit of Zakynthos | Stoicheia",
         "metaDescription": "A Zakynthos tradition about 'Pergalio' — the local name for the house-spirit, derived from Latin, believed to be the soul of a person whose shadow was built into the foundations.",
@@ -619,10 +743,33 @@
           "datePublished": "1904",
           "image": "https://haunted.gr/images/laografia/pergalio-zakynthos.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Zakynthos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/pergalio-zakynthos" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Zakynthos", "geo": { "@type": "GeoCoordinates", "latitude": 37.80576, "longitude": 20.76867 } }
+          "keywords": [
+            "Zakynthos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/pergalio-zakynthos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Zakynthos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.80576,
+              "longitude": 20.76867
+            }
+          }
         }
       }
     },
@@ -681,7 +828,11 @@
           "pages": "1102"
         }
       ],
-      "tags": ["stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Perganta — Definition and Meaning | Stoicheia | Greek Folklore",
         "metaDescription": "A note on 'Perganta' — a daemon of industriousness in Greek folk belief, metaphorically named after a fast vessel. Recorded by B. Schmidt and cited by Politis (1874/1904).",
@@ -702,9 +853,23 @@
           "datePublished": "1874",
           "image": "https://haunted.gr/images/laografia/perganti-daimon.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/erganta-perganti" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } }
+          "keywords": [
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/erganta-perganti"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
         }
       }
     },
@@ -747,7 +912,11 @@
           "pages": "1103"
         }
       ],
-      "tags": ["stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Stoicheio and Haunted Houses | Spirits & Hauntings",
         "metaDescription": "The distinction in Greek folklore between the protective house-spirit (stoicheio) and the malevolent demons that haunt abandoned or cursed houses. Politis 1904.",
@@ -768,9 +937,23 @@
           "datePublished": "1893",
           "image": "https://haunted.gr/images/laografia/stoicheio-spitiou.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/stoicheio-vs-stoicheiomena-spitia" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } }
+          "keywords": [
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/stoicheio-vs-stoicheiomena-spitia"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          }
         }
       }
     },
@@ -785,7 +968,9 @@
       "subLocation": "Kyparissia",
       "lat": 37.25085,
       "lng": 21.66901,
-      "locationTags": ["Kyparissia"],
+      "locationTags": [
+        "Kyparissia"
+      ],
       "image": {
         "src": "/images/laografia/katarameni-oikia.webp",
         "alt": ""
@@ -822,7 +1007,13 @@
           "pages": "1104"
         }
       ],
-      "tags": ["Kyparissia", "Messenia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Kyparissia",
+        "Messenia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Cursed House of Kyparissia | Spirits & Hauntings",
         "metaDescription": "A report from Kyparissia, Messenia: successive tenants of a recently-built house all suffered tragedy — deaths, accidents, suicide attempts. Recorded in 'Kairoi' newspaper, 1893.",
@@ -842,10 +1033,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/katarameni-oikia.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Kyparissia", "Messenia", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/katarameni-oikia-kyparissia" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Messenia", "addressLocality": "Kyparissia", "geo": { "@type": "GeoCoordinates", "latitude": 37.25085, "longitude": 21.66901 } }
+          "keywords": [
+            "Kyparissia",
+            "Messenia",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/katarameni-oikia-kyparissia"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Messenia",
+            "addressLocality": "Kyparissia",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.25085,
+              "longitude": 21.66901
+            }
+          }
         }
       }
     },
@@ -860,7 +1076,9 @@
       "subLocation": "Athens",
       "lat": 37.9842,
       "lng": 23.72924,
-      "locationTags": ["Athens"],
+      "locationTags": [
+        "Athens"
+      ],
       "image": {
         "src": "/images/laografia/stoicheioma-athina-1895.webp",
         "alt": ""
@@ -889,7 +1107,13 @@
           "pages": "1107"
         }
       ],
-      "tags": ["Athens", "Attica", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Athens",
+        "Attica",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "1895 — Haunted House in Athens | Newspaper Estia | Stoicheia",
         "metaDescription": "Newspaper 'Estia', 19 June 1895: report of a haunted house in Athens with nocturnal noises and a farewell voice presaging a death. A rare press document on Greek folk belief.",
@@ -910,10 +1134,35 @@
           "datePublished": "1895",
           "image": "https://haunted.gr/images/laografia/stoicheioma-athina-1895.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Athens", "Attica", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/stoicheioma-athina-1895" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Attica", "addressLocality": "Athens", "geo": { "@type": "GeoCoordinates", "latitude": 37.9842, "longitude": 23.72924 } }
+          "keywords": [
+            "Athens",
+            "Attica",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/stoicheioma-athina-1895"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Attica",
+            "addressLocality": "Athens",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.9842,
+              "longitude": 23.72924
+            }
+          }
         }
       }
     },
@@ -928,7 +1177,9 @@
       "subLocation": "Patras",
       "lat": 38.24793,
       "lng": 21.74056,
-      "locationTags": ["Patras"],
+      "locationTags": [
+        "Patras"
+      ],
       "image": {
         "src": "/images/laografia/patrinella-frourio.webp",
         "alt": ""
@@ -957,7 +1208,13 @@
           "pages": "1107"
         }
       ],
-      "tags": ["Patras", "Achaia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Patras",
+        "Achaia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Patrinella — The Spirit of Patras Fortress | Stoicheia",
         "metaDescription": "A record from Patras about 'Patrinella' — an ancient statue embedded in the fortress walls and a spring bearing the same name, with no ghost tradition. Koryllos 1885, Politis 1904.",
@@ -977,10 +1234,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/patrinella-frourio.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Patras", "Achaia", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/patrinella-patra" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Achaia", "addressLocality": "Patras", "geo": { "@type": "GeoCoordinates", "latitude": 38.24793, "longitude": 21.74056 } }
+          "keywords": [
+            "Patras",
+            "Achaia",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/patrinella-patra"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Achaia",
+            "addressLocality": "Patras",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.24793,
+              "longitude": 21.74056
+            }
+          }
         }
       }
     },
@@ -995,7 +1277,9 @@
       "subLocation": "Dimitsana",
       "lat": 37.59918,
       "lng": 22.047028,
-      "locationTags": ["Dimitsana, Arcadia"],
+      "locationTags": [
+        "Dimitsana, Arcadia"
+      ],
       "image": {
         "src": "/images/laografia/dimitsana-ekklisies.webp",
         "alt": ""
@@ -1019,7 +1303,13 @@
           "pages": "1114"
         }
       ],
-      "tags": ["Dimitsana", "Arcadia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Dimitsana",
+        "Arcadia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Dimitsana — The Stoicheio of the Church | Arcadia",
         "metaDescription": "In Dimitsana, Arcadia, each church has its own stoicheio — the soul of an animal sacrificed at its construction. A tradition also exists of battles between church-spirits.",
@@ -1039,10 +1329,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/dimitsana-ekklisies.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Dimitsana", "Arcadia", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/dimitsana-arkadia-stoicheia-ekklision" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Arcadia", "addressLocality": "Dimitsana", "geo": { "@type": "GeoCoordinates", "latitude": 37.59918, "longitude": 22.047028 } }
+          "keywords": [
+            "Dimitsana",
+            "Arcadia",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/dimitsana-arkadia-stoicheia-ekklision"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Arcadia",
+            "addressLocality": "Dimitsana",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.59918,
+              "longitude": 22.047028
+            }
+          }
         }
       }
     },
@@ -1057,7 +1372,10 @@
       "subLocation": "Mati",
       "lat": 37.8211,
       "lng": 22.3318,
-      "locationTags": ["Corinthia", "Feneos"],
+      "locationTags": [
+        "Corinthia",
+        "Feneos"
+      ],
       "image": {
         "src": "/images/laografia/machi-stoicheion.webp",
         "alt": ""
@@ -1098,7 +1416,12 @@
           "pages": "1115"
         }
       ],
-      "tags": ["Corinthia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Corinthia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Battle of the Stoicheia — Gkioza, Feneos | Corinthia",
         "metaDescription": "A tradition from Feneos, Corinthia: each village has its own stoicheio whose defeat brings misfortune. Village, church, and nature stoicheia battle each other in various forms.",
@@ -1118,10 +1441,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/machi-stoicheion.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Corinthia", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/machi-stoicheion-gkioza-feneos" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Corinthia", "geo": { "@type": "GeoCoordinates", "latitude": 37.8211, "longitude": 22.3318 } }
+          "keywords": [
+            "Corinthia",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/machi-stoicheion-gkioza-feneos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Corinthia",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.8211,
+              "longitude": 22.3318
+            }
+          }
         }
       }
     },
@@ -1136,7 +1482,9 @@
       "subLocation": "Astypalaia",
       "lat": 36.5486,
       "lng": 26.353,
-      "locationTags": ["Astypalaia"],
+      "locationTags": [
+        "Astypalaia"
+      ],
       "image": {
         "src": "/images/laografia/astypalaia-well.webp",
         "alt": ""
@@ -1160,7 +1508,12 @@
           "pages": "1071"
         }
       ],
-      "tags": ["Astypalaia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Astypalaia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Astypalaia — Cross at Loukios's Well | Stoicheio Water Rite",
         "metaDescription": "In Astypalaia, islanders made the sign of the cross before drawing water from Loukios's well to ward off the stoicheio dwelling there. Politis 1904.",
@@ -1180,10 +1533,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/astypalaia-well.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Astypalaia", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/astypalaia-stavros-pigadi-loukiou" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Astypalaia", "geo": { "@type": "GeoCoordinates", "latitude": 36.5486, "longitude": 26.353 } }
+          "keywords": [
+            "Astypalaia",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/astypalaia-stavros-pigadi-loukiou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Astypalaia",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.5486,
+              "longitude": 26.353
+            }
+          }
         }
       }
     },
@@ -1198,7 +1574,9 @@
       "subLocation": "Kalymnos",
       "lat": 36.9912,
       "lng": 26.9825,
-      "locationTags": ["Kalymnos"],
+      "locationTags": [
+        "Kalymnos"
+      ],
       "image": {
         "src": "/images/laografia/kalymnos-spring-taboo.webp",
         "alt": ""
@@ -1230,7 +1608,12 @@
           "pages": "1071"
         }
       ],
-      "tags": ["Kalymnos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Kalymnos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Kalymnos — Candle Offering at the Spirit's Fountain | Stoicheia",
         "metaDescription": "In Kalymnos, a candle was lit in honour of the stoicheio dwelling in a specific fountain at the Skalia. A local memory recorded by Yannis Zervos, cited by Politis 1904.",
@@ -1250,10 +1633,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/kalymnos-spring-taboo.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Kalymnos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/kalymnos-kandili-stoicheio-vrysis" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Kalymnos", "geo": { "@type": "GeoCoordinates", "latitude": 36.9912, "longitude": 26.9825 } }
+          "keywords": [
+            "Kalymnos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/kalymnos-kandili-stoicheio-vrysis"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Kalymnos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.9912,
+              "longitude": 26.9825
+            }
+          }
         }
       }
     },
@@ -1268,7 +1674,9 @@
       "subLocation": "Psilí Ammos",
       "lat": 37.70815,
       "lng": 27.01622,
-      "locationTags": ["Samos"],
+      "locationTags": [
+        "Samos"
+      ],
       "image": {
         "src": "/images/laografia/samos-stoicheio.webp",
         "alt": ""
@@ -1284,7 +1692,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Samos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Samos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Kakes Petres, Samos — Pursued by a Stoicheio | Spirits",
         "metaDescription": "A man in the Kakes Petres area of Samos was lured by partridges and then chased by a crimson beast — a stoicheio — until he found safety in a chapel.",
@@ -1304,10 +1717,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/samos-stoicheio.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Samos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/kakes-petres-samou-katadioksi-stoicheio" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Samos", "geo": { "@type": "GeoCoordinates", "latitude": 37.70815, "longitude": 27.01622 } }
+          "keywords": [
+            "Samos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/kakes-petres-samou-katadioksi-stoicheio"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Samos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.70815,
+              "longitude": 27.01622
+            }
+          }
         }
       }
     },
@@ -1322,7 +1758,9 @@
       "subLocation": "Agios Panteleimonas",
       "lat": 37.7785,
       "lng": 26.6741,
-      "locationTags": ["Samos"],
+      "locationTags": [
+        "Samos"
+      ],
       "image": {
         "src": "/images/laografia/samos-stoicheio.webp",
         "alt": ""
@@ -1334,7 +1772,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Samos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Samos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Samos — A Cauldron Full of Gold | Stoicheia Treasure Legend",
         "metaDescription": "Near Kastana, Samos: three stoicheia guard a great cauldron filled with gold at the site of Agios Panteleimonas. A hidden treasure legend from the Aegean.",
@@ -1354,10 +1797,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/samos-stoicheio.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Samos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/samos-kazani-chrysafi" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Samos", "geo": { "@type": "GeoCoordinates", "latitude": 37.7785, "longitude": 26.6741 } }
+          "keywords": [
+            "Samos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/samos-kazani-chrysafi"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Samos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7785,
+              "longitude": 26.6741
+            }
+          }
         }
       }
     },
@@ -1372,7 +1838,9 @@
       "subLocation": "Vathy",
       "lat": 37.7495,
       "lng": 26.9809,
-      "locationTags": ["Samos"],
+      "locationTags": [
+        "Samos"
+      ],
       "image": {
         "src": "/images/laografia/samos-stoicheio.webp",
         "alt": ""
@@ -1384,7 +1852,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Samos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Samos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Vathy, Samos — The Stoicheio's Mulberry Tree | Haunted Tree",
         "metaDescription": "A mulberry tree in Vathy, Samos is believed to be haunted by a malevolent stoicheio — three people fell from it with fatal or serious results.",
@@ -1404,10 +1877,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/samos-stoicheio.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Samos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/vathy-samou-stoicheio-mouria" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Samos", "geo": { "@type": "GeoCoordinates", "latitude": 37.7495, "longitude": 26.9809 } }
+          "keywords": [
+            "Samos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/vathy-samou-stoicheio-mouria"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Samos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7495,
+              "longitude": 26.9809
+            }
+          }
         }
       }
     },
@@ -1422,7 +1918,9 @@
       "subLocation": "Arachova",
       "lat": 38.4791,
       "lng": 22.5833,
-      "locationTags": ["Arachova"],
+      "locationTags": [
+        "Arachova"
+      ],
       "image": {
         "src": "/images/laografia/to-apogeio-tou-katevatou-arachova.webp",
         "alt": ""
@@ -1438,7 +1936,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Arachova", "Boeotia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Arachova",
+        "Boeotia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Apex of the Katevátos — Legend of Arachova | Stoicheia",
         "metaDescription": "The Katevátos of Arachova — a white-haired spirit who battles other stoicheia on the winter peaks of Liákoura. A local legend from Boeotia about the war of the elements.",
@@ -1458,10 +1962,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-apogeio-tou-katevatou-arachova.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Arachova", "Boeotia", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-apogeio-tou-katevatou-arachova" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Boeotia", "addressLocality": "Arachova", "geo": { "@type": "GeoCoordinates", "latitude": 38.4791, "longitude": 22.5833 } }
+          "keywords": [
+            "Arachova",
+            "Boeotia",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-apogeio-tou-katevatou-arachova"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Boeotia",
+            "addressLocality": "Arachova",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.4791,
+              "longitude": 22.5833
+            }
+          }
         }
       }
     },
@@ -1476,7 +2004,9 @@
       "subLocation": "Crete",
       "lat": 35.2401,
       "lng": 24.8093,
-      "locationTags": ["Crete"],
+      "locationTags": [
+        "Crete"
+      ],
       "image": {
         "src": "/images/laografia/oi-anaskelades-kriti.webp",
         "alt": ""
@@ -1504,7 +2034,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Crete", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Crete",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Anaskelades — Demonic Donkeys of Crete | Stoicheia",
         "metaDescription": "A Cretan folk tradition about the 'anaskelades' — demonic donkeys that lure night-travellers onto their backs and carry them off, vanishing in fire and smoke.",
@@ -1524,10 +2059,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/oi-anaskelades-kriti.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Crete", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/oi-anaskelades-kriti" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Crete", "geo": { "@type": "GeoCoordinates", "latitude": 35.2401, "longitude": 24.8093 } }
+          "keywords": [
+            "Crete",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/oi-anaskelades-kriti"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Crete",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 35.2401,
+              "longitude": 24.8093
+            }
+          }
         }
       }
     },
@@ -1542,7 +2100,9 @@
       "subLocation": "",
       "lat": 40.3,
       "lng": 21.7833,
-      "locationTags": ["Kozani"],
+      "locationTags": [
+        "Kozani"
+      ],
       "image": {
         "src": "/images/laografia/ta-stoiheiomena-dendra-kozani.webp",
         "alt": ""
@@ -1562,7 +2122,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Kozani", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Kozani",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Haunted Trees — Kozani | Tree Spirits Greek Folklore",
         "metaDescription": "Folk practices from Kozani about haunted trees: woodcutters fall silent and face-down as the tree falls, and wedge a stone into the trunk to restrain the tree's departing spirit.",
@@ -1582,10 +2147,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/ta-stoiheiomena-dendra-kozani.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Kozani", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheiomena-dendra-kozani" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Kozani", "geo": { "@type": "GeoCoordinates", "latitude": 40.3, "longitude": 21.7833 } }
+          "keywords": [
+            "Kozani",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheiomena-dendra-kozani"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Kozani",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.3,
+              "longitude": 21.7833
+            }
+          }
         }
       }
     },
@@ -1600,7 +2188,9 @@
       "subLocation": "Trikala",
       "lat": 39.555,
       "lng": 21.7678,
-      "locationTags": ["Trikala"],
+      "locationTags": [
+        "Trikala"
+      ],
       "image": {
         "src": "/images/laografia/to-stoiheiomeno-klari-trikala.webp",
         "alt": ""
@@ -1620,7 +2210,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Trikala", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Trikala",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Haunted Branch — Trikala | Tree Stoicheio Folklore",
         "metaDescription": "A folk account from Trikala: a boy planted a walnut tree that grew supernaturally fast, and fell gravely ill — saved only when the tree was cut down to release the stoicheio.",
@@ -1640,10 +2235,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-stoiheiomeno-klari-trikala.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Trikala", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheiomeno-klari-trikala" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Thessaly", "addressLocality": "Trikala", "geo": { "@type": "GeoCoordinates", "latitude": 39.555, "longitude": 21.7678 } }
+          "keywords": [
+            "Trikala",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheiomeno-klari-trikala"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Thessaly",
+            "addressLocality": "Trikala",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.555,
+              "longitude": 21.7678
+            }
+          }
         }
       }
     },
@@ -1658,7 +2277,9 @@
       "subLocation": "Zakynthos",
       "lat": 37.7833,
       "lng": 20.9,
-      "locationTags": ["Zakynthos"],
+      "locationTags": [
+        "Zakynthos"
+      ],
       "image": {
         "src": "/images/laografia/ta-chamena-pramata-zakynthos.webp",
         "alt": ""
@@ -1690,7 +2311,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Zakynthos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Zakynthos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Lost Things — Zakynthos | House Spirit Greek Folklore",
         "metaDescription": "A folk account from Zakynthos: the house-spirit takes whatever falls to the floor and repays it in kind — but complaining about the losses provokes its anger and brings misfortune.",
@@ -1710,10 +2336,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/ta-chamena-pramata-zakynthos.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Zakynthos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/ta-chamena-pramata-zakynthos" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Zakynthos", "geo": { "@type": "GeoCoordinates", "latitude": 37.7833, "longitude": 20.9 } }
+          "keywords": [
+            "Zakynthos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/ta-chamena-pramata-zakynthos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Zakynthos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7833,
+              "longitude": 20.9
+            }
+          }
         }
       }
     },
@@ -1728,7 +2377,9 @@
       "subLocation": "Samos",
       "lat": 37.75,
       "lng": 26.8333,
-      "locationTags": ["Samos"],
+      "locationTags": [
+        "Samos"
+      ],
       "image": {
         "src": "/images/laografia/to-stoiheiomeno-spiti-samos.webp",
         "alt": ""
@@ -1752,7 +2403,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Samos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Samos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Haunted House — Samos | Stoicheio Account",
         "metaDescription": "A firsthand account from Samos: unseen footsteps climbing the stairs, doors opening by themselves, and a presence that pressed against a sleeping man in his own bed.",
@@ -1772,10 +2428,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-stoiheiomeno-spiti-samos.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Samos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheiomeno-spiti-samos" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Samos", "geo": { "@type": "GeoCoordinates", "latitude": 37.75, "longitude": 26.8333 } }
+          "keywords": [
+            "Samos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheiomeno-spiti-samos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Samos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.75,
+              "longitude": 26.8333
+            }
+          }
         }
       }
     },
@@ -1790,7 +2469,9 @@
       "subLocation": "Apeiranthos",
       "lat": 37.05,
       "lng": 25.5167,
-      "locationTags": ["Naxos"],
+      "locationTags": [
+        "Naxos"
+      ],
       "image": {
         "src": "/images/laografia/ta-stoiheia-ton-pigadion-apeiranthos.webp",
         "alt": ""
@@ -1806,7 +2487,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Naxos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Naxos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Spirits of the Wells — Naxos, Apeiranthos | Stoicheia",
         "metaDescription": "Folk beliefs from Apeiranthos, Naxos: the well of Krini has a shape-shifting stoicheio, and the well of Karavas is haunted by a weaving cat.",
@@ -1826,10 +2512,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/ta-stoiheia-ton-pigadion-apeiranthos.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Naxos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-ton-pigadion" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Naxos", "addressLocality": "Apeiranthos", "geo": { "@type": "GeoCoordinates", "latitude": 37.05, "longitude": 25.5167 } }
+          "keywords": [
+            "Naxos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-ton-pigadion"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Naxos",
+            "addressLocality": "Apeiranthos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.05,
+              "longitude": 25.5167
+            }
+          }
         }
       }
     },
@@ -1844,7 +2554,9 @@
       "subLocation": "Zakynthos",
       "lat": 37.7833,
       "lng": 20.9,
-      "locationTags": ["Zakynthos"],
+      "locationTags": [
+        "Zakynthos"
+      ],
       "image": {
         "src": "/images/laografia/o-moros-tou-pigadiou-zakynthos.webp",
         "alt": ""
@@ -1872,7 +2584,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Zakynthos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Zakynthos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Moros of the Well — Zakynthos | Well Spirit Folklore",
         "metaDescription": "A folk tale from Zakynthos: a handsome young spirit haunts a well, befriending a girl who draws water there — until her husband confronts it and is thrown into the well.",
@@ -1892,10 +2609,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/o-moros-tou-pigadiou-zakynthos.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Zakynthos", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/o-moros-tou-pigadiou-zakynthos" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Zakynthos", "geo": { "@type": "GeoCoordinates", "latitude": 37.7833, "longitude": 20.9 } }
+          "keywords": [
+            "Zakynthos",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/o-moros-tou-pigadiou-zakynthos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Zakynthos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.7833,
+              "longitude": 20.9
+            }
+          }
         }
       }
     },
@@ -1910,7 +2650,9 @@
       "subLocation": "Oichalia",
       "lat": 37.1833,
       "lng": 21.9667,
-      "locationTags": ["Oichalia"],
+      "locationTags": [
+        "Oichalia"
+      ],
       "image": {
         "src": "/images/laografia/o-tentzerakis-oichalia.webp",
         "alt": ""
@@ -1938,7 +2680,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Oichalia", "Messenia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Oichalia",
+        "Messenia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Tentzerakis — Oichalia, Messenia | Stoicheio with a Cauldron",
         "metaDescription": "A first-hand account from Oichalia, Messenia: the Tentzerakis — a stoicheio that appears with a great pot on its head — haunts the place known as Kalimpaki.",
@@ -1958,10 +2706,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/o-tentzerakis-oichalia.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Oichalia", "Messenia", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/o-tentzerakis-oichalia" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Messenia", "addressLocality": "Oichalia", "geo": { "@type": "GeoCoordinates", "latitude": 37.1833, "longitude": 21.9667 } }
+          "keywords": [
+            "Oichalia",
+            "Messenia",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/o-tentzerakis-oichalia"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Messenia",
+            "addressLocality": "Oichalia",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.1833,
+              "longitude": 21.9667
+            }
+          }
         }
       }
     },
@@ -1976,7 +2749,9 @@
       "subLocation": "Eleusis",
       "lat": 38.0403,
       "lng": 23.5436,
-      "locationTags": ["Eleusis"],
+      "locationTags": [
+        "Eleusis"
+      ],
       "image": {
         "src": "/images/laografia/i-vlachopoula-elefsina.webp",
         "alt": ""
@@ -1996,7 +2771,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Eleusis", "Attica", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Eleusis",
+        "Attica",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Vlachopoula of Eleusis | Nocturnal Apparition | Stoicheia",
         "metaDescription": "Near Eleusis, a ravine and bridge are haunted by the ghost of a young Vlach girl — heard by many, seen only by the spiritually sensitive. She harms no one.",
@@ -2016,10 +2797,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/i-vlachopoula-elefsina.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Eleusis", "Attica", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/i-vlachopoula-elefsina" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Attica", "addressLocality": "Eleusis", "geo": { "@type": "GeoCoordinates", "latitude": 38.0403, "longitude": 23.5436 } }
+          "keywords": [
+            "Eleusis",
+            "Attica",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/i-vlachopoula-elefsina"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Attica",
+            "addressLocality": "Eleusis",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.0403,
+              "longitude": 23.5436
+            }
+          }
         }
       }
     },
@@ -2034,7 +2840,9 @@
       "subLocation": "Agrinio",
       "lat": 38.6214,
       "lng": 21.4078,
-      "locationTags": ["Agrinio"],
+      "locationTags": [
+        "Agrinio"
+      ],
       "image": {
         "src": "/images/laografia/oi-rematianoi-agrinio.webp",
         "alt": ""
@@ -2050,7 +2858,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Agrinio", "Aetolia-Acarnania", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Agrinio",
+        "Aetolia-Acarnania",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Rematianoi of Agrinio | Stream Spirits Greek Folklore",
         "metaDescription": "Near Agrinio, the stream called Moures is home to the Rematianoi — spirits whose drum-music is heard by shepherds, who say: 'The Rematianoi are having a wedding again.'",
@@ -2070,10 +2884,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/oi-rematianoi-agrinio.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Agrinio", "Aetolia-Acarnania", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/oi-rematianoi-agrinio" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Aetolia-Acarnania", "addressLocality": "Agrinio", "geo": { "@type": "GeoCoordinates", "latitude": 38.6214, "longitude": 21.4078 } }
+          "keywords": [
+            "Agrinio",
+            "Aetolia-Acarnania",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/oi-rematianoi-agrinio"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Aetolia-Acarnania",
+            "addressLocality": "Agrinio",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.6214,
+              "longitude": 21.4078
+            }
+          }
         }
       }
     },
@@ -2088,7 +2927,9 @@
       "subLocation": "Tyrnavos",
       "lat": 39.7378,
       "lng": 22.2892,
-      "locationTags": ["Tyrnavos"],
+      "locationTags": [
+        "Tyrnavos"
+      ],
       "image": {
         "src": "/images/laografia/to-stoiheiomeno-gefyri-tyrnavos.webp",
         "alt": ""
@@ -2108,7 +2949,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Tyrnavos", "Thessaly", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Tyrnavos",
+        "Thessaly",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Haunted Bridge of Tyrnavos | Stoicheio Sacrifice Legend",
         "metaDescription": "A legend from Tyrnavos: the Salamvrias bridge collapsed every night until a woman was sacrificed and built into it. She cursed it to tremble and make all who cross it weep.",
@@ -2128,10 +2975,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-stoiheiomeno-gefyri-tyrnavos.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Tyrnavos", "Thessaly", "stoicheia", "Greek folklore", "Greece"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheiomeno-gefyri-tyrnavos" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Thessaly", "addressLocality": "Tyrnavos", "geo": { "@type": "GeoCoordinates", "latitude": 39.7378, "longitude": 22.2892 } }
+          "keywords": [
+            "Tyrnavos",
+            "Thessaly",
+            "stoicheia",
+            "Greek folklore",
+            "Greece"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheiomeno-gefyri-tyrnavos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Thessaly",
+            "addressLocality": "Tyrnavos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.7378,
+              "longitude": 22.2892
+            }
+          }
         }
       }
     },
@@ -2146,7 +3018,10 @@
       "subLocation": "Lampeia",
       "lat": 37.85,
       "lng": 21.35,
-      "locationTags": ["Lampeia", "Elis"],
+      "locationTags": [
+        "Lampeia",
+        "Elis"
+      ],
       "image": {
         "src": "/images/laografia/to-stoiheio-tou-palikariou-lambeia.webp",
         "alt": ""
@@ -2166,7 +3041,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Lampeia", "Elis", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Lampeia",
+        "Elis",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Stoicheio of the Young Hero — Lampeia, Elis | Battle Tactics",
         "metaDescription": "A tradition from Lampeia, Elis: two stoicheia battle as horses, and the victor uses a clever tactic — hiding a man with an iron club who strikes the enemy spirit on the left.",
@@ -2186,10 +3067,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-stoiheio-tou-palikariou-lambeia.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Lampeia", "Elis", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheio-tou-palikariou-lambeia" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Elis", "addressLocality": "Lampeia", "geo": { "@type": "GeoCoordinates", "latitude": 37.85, "longitude": 21.35 } }
+          "keywords": [
+            "Lampeia",
+            "Elis",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheio-tou-palikariou-lambeia"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Elis",
+            "addressLocality": "Lampeia",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.85,
+              "longitude": 21.35
+            }
+          }
         }
       }
     },
@@ -2204,7 +3109,9 @@
       "subLocation": "Zagora",
       "lat": 37.8333,
       "lng": 24.9333,
-      "locationTags": ["Andros"],
+      "locationTags": [
+        "Andros"
+      ],
       "image": {
         "src": "/images/laografia/i-zagora-andros.webp",
         "alt": ""
@@ -2216,7 +3123,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Andros", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Andros",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Zagora of Andros — Invisible Bell and Ghosts | Stoicheia",
         "metaDescription": "A brief folk account from Andros: every midday an invisible bell rings at Zagora and ghosts are said to gather there.",
@@ -2236,10 +3148,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/i-zagora-andros.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Andros", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/i-zagora-andros" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Andros", "addressLocality": "Zagora", "geo": { "@type": "GeoCoordinates", "latitude": 37.8333, "longitude": 24.9333 } }
+          "keywords": [
+            "Andros",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/i-zagora-andros"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Andros",
+            "addressLocality": "Zagora",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.8333,
+              "longitude": 24.9333
+            }
+          }
         }
       }
     },
@@ -2254,7 +3189,9 @@
       "subLocation": "Klima",
       "lat": 36.7333,
       "lng": 24.4333,
-      "locationTags": ["Milos"],
+      "locationTags": [
+        "Milos"
+      ],
       "image": {
         "src": "/images/laografia/oi-mesimeriates-klima.webp",
         "alt": ""
@@ -2270,7 +3207,12 @@
         }
       ],
       "sources": [],
-      "tags": ["Milos", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Milos",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Mesimeriates of Milos — Midday Ghosts | Stoicheia",
         "metaDescription": "At the ancient ruins of Klima, Milos, the 'Mesimeriates' — midday ghosts — emerge at noon, especially in summer, and wound those who dare to pass.",
@@ -2290,10 +3232,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/oi-mesimeriates-klima.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Milos", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/oi-mesimeriates-klima-milou" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Milos", "addressLocality": "Klima", "geo": { "@type": "GeoCoordinates", "latitude": 36.7333, "longitude": 24.4333 } }
+          "keywords": [
+            "Milos",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/oi-mesimeriates-klima-milou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Milos",
+            "addressLocality": "Klima",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.7333,
+              "longitude": 24.4333
+            }
+          }
         }
       }
     },
@@ -2308,7 +3273,9 @@
       "subLocation": "Symi",
       "lat": 36.615,
       "lng": 27.8389,
-      "locationTags": ["Symi"],
+      "locationTags": [
+        "Symi"
+      ],
       "image": {
         "src": "/images/laografia/i-chiliantrissa-symi.webp",
         "alt": ""
@@ -2328,11 +3295,21 @@
         },
         {
           "type": "text",
-          "value": "Thus, one man who once found himself at midnight in an open area in the parish of Agia Triada saw a flock of goats — something unusual in that location. While he was wondering how they got there and whose they were, he suddenly felt himself pushed aside by something invisible. As he continued walking, he reached a vaulted passage and stretched out his hand — he grasped someone, then lost them. He reached home barely alive — the encounter had shaken him deeply."
+          "value": "Thus a man who once found himself at midnight in an open place in the parish of Agia Triada saw a flock of goats — a thing not usual in that spot. While he was wondering how the goats came to be there and whose they might be, all at once they became a great sow and a heap of piglets, and they set off and went down into the middle of the town, and let out blood-curdling cries and made a great commotion. It was the Chiliantrissa."
+        },
+        {
+          "type": "text",
+          "value": "When it had gone on, he too came down to go to his house. As he was passing through a vaulted passage, he reached out and touched a man; he gropes here, he gropes there — he had lost him. Well, he got home with barely a breath of life in him. He had had his fill of it."
         }
       ],
       "sources": [],
-      "tags": ["Symi", "Dodecanese", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Symi",
+        "Dodecanese",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Chiliantrissa of Symi — The Great Sow | Stoicheia",
         "metaDescription": "The Chiliantrissa of Symi: a fearsome stoicheio appearing as a sow with thousands of piglets that ran through the Castle at midnight until a holy procession drove it away.",
@@ -2352,10 +3329,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/i-chiliantrissa-symi.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Symi", "Dodecanese", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/i-chiliantrissa-symi" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Symi", "geo": { "@type": "GeoCoordinates", "latitude": 36.615, "longitude": 27.8389 } }
+          "keywords": [
+            "Symi",
+            "Dodecanese",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/i-chiliantrissa-symi"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Symi",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.615,
+              "longitude": 27.8389
+            }
+          }
         }
       }
     },
@@ -2370,7 +3370,10 @@
       "subLocation": "Agoriani",
       "lat": 38.6125,
       "lng": 22.2014,
-      "locationTags": ["Agoriani", "Phocis"],
+      "locationTags": [
+        "Agoriani",
+        "Phocis"
+      ],
       "image": {
         "src": "/images/laografia/to-therio-tis-agorianis-i-to-stoicheio-tou-valtou.webp",
         "alt": ""
@@ -2398,7 +3401,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Agoriani", "Phocis", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Agoriani",
+        "Phocis",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Beast of Agoriani — Marsh Stoicheio | Phocis",
         "metaDescription": "A story from Phocis: a terrifying beast appeared in the Valtos marsh near Agoriani when drainage works began, wailing in the night — and vanished once the swamp was drained.",
@@ -2418,10 +3427,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-therio-tis-agorianis-i-to-stoicheio-tou-valtou.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Agoriani", "Phocis", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-therio-tis-agorianis-i-to-stoicheio-tou-valtou" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Phocis", "addressLocality": "Agoriani", "geo": { "@type": "GeoCoordinates", "latitude": 38.6125, "longitude": 22.2014 } }
+          "keywords": [
+            "Agoriani",
+            "Phocis",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-therio-tis-agorianis-i-to-stoicheio-tou-valtou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Phocis",
+            "addressLocality": "Agoriani",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.6125,
+              "longitude": 22.2014
+            }
+          }
         }
       }
     },
@@ -2436,7 +3469,9 @@
       "subLocation": "",
       "lat": 38.5465,
       "lng": 22.2008,
-      "locationTags": ["Artotina"],
+      "locationTags": [
+        "Artotina"
+      ],
       "image": {
         "src": "/images/laografia/o-iskios.webp",
         "alt": ""
@@ -2452,7 +3487,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Artotina", "Phocis", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Artotina",
+        "Phocis",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Iskios of Artotina — Shadow Spirit | Stoicheia Phocis",
         "metaDescription": "The Iskios of Artotina, Phocis: a tall spirit in a fustanella or animal form that transforms in ravines and brings sudden death to livestock. Recorded from shepherd Spyros Tsamadias.",
@@ -2472,10 +3513,33 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/o-iskios.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Artotina", "Phocis", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/o-iskios-artotina" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Artotina", "geo": { "@type": "GeoCoordinates", "latitude": 38.5465, "longitude": 22.2008 } }
+          "keywords": [
+            "Artotina",
+            "Phocis",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/o-iskios-artotina"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Artotina",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.5465,
+              "longitude": 22.2008
+            }
+          }
         }
       }
     },
@@ -2490,7 +3554,10 @@
       "subLocation": "Ampliani",
       "lat": 38.9186,
       "lng": 21.7861,
-      "locationTags": ["Ampliani", "Evrytania"],
+      "locationTags": [
+        "Ampliani",
+        "Evrytania"
+      ],
       "image": {
         "src": "/images/laografia/to-stoicheio-tis-ampianis-evrytanias.webp",
         "alt": ""
@@ -2506,7 +3573,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Ampliani", "Evrytania", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Ampliani",
+        "Evrytania",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Stoicheio of Ampliani — Evrytania | Village Spirit Battle",
         "metaDescription": "A tradition from Ampliani, Evrytania: after its stoicheio defeated a rival in battle, it turned on a neighbouring village — driving its people to abandon their homes and found a new settlement.",
@@ -2526,10 +3599,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-stoicheio-tis-ampianis-evrytanias.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Ampliani", "Evrytania", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheio-tis-ampianis-evrytanias" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Evrytania", "addressLocality": "Ampliani", "geo": { "@type": "GeoCoordinates", "latitude": 38.9186, "longitude": 21.7861 } }
+          "keywords": [
+            "Ampliani",
+            "Evrytania",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheio-tis-ampianis-evrytanias"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Evrytania",
+            "addressLocality": "Ampliani",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.9186,
+              "longitude": 21.7861
+            }
+          }
         }
       }
     },
@@ -2544,7 +3641,9 @@
       "subLocation": "Avoriani",
       "lat": 38.5236,
       "lng": 21.8972,
-      "locationTags": ["Avoriani"],
+      "locationTags": [
+        "Avoriani"
+      ],
       "image": {
         "src": "/images/laografia/polemos-stoicheion-avorani.webp",
         "alt": ""
@@ -2556,7 +3655,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Avoriani", "Aetolia-Acarnania", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Avoriani",
+        "Aetolia-Acarnania",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Battle of the Stoicheia — Avoriani | Uprooted Trees Trace",
         "metaDescription": "A tradition from Avoriani: its stoicheio defeated the stoicheio of Arachova at a local spring. The violence of the battle uprooted every tree in the area — visible evidence that remains.",
@@ -2576,10 +3681,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/polemos-stoicheion-avorani.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Avoriani", "Aetolia-Acarnania", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-avorani" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Aetolia-Acarnania", "addressLocality": "Avoriani", "geo": { "@type": "GeoCoordinates", "latitude": 38.5236, "longitude": 21.8972 } }
+          "keywords": [
+            "Avoriani",
+            "Aetolia-Acarnania",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-avorani"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Aetolia-Acarnania",
+            "addressLocality": "Avoriani",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.5236,
+              "longitude": 21.8972
+            }
+          }
         }
       }
     },
@@ -2594,7 +3723,10 @@
       "subLocation": "Krokylio",
       "lat": 38.4994,
       "lng": 22.1333,
-      "locationTags": ["Krokylio", "Phocis"],
+      "locationTags": [
+        "Krokylio",
+        "Phocis"
+      ],
       "image": {
         "src": "/images/laografia/polemos-stoicheion-sto-krokylio.webp",
         "alt": ""
@@ -2610,7 +3742,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Krokylio", "Phocis", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Krokylio",
+        "Phocis",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Battle of the Stoicheia — Krokylio, Phocis | Mountain Battle",
         "metaDescription": "A tradition from Krokylio, Phocis: the village stoicheio battles the stoicheio of Pentagioi on the ridges above. Recorded by notary Georgios Papazachariou.",
@@ -2630,10 +3768,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/polemos-stoicheion-sto-krokylio.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Krokylio", "Phocis", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-sto-krokylio" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Phocis", "addressLocality": "Krokylio", "geo": { "@type": "GeoCoordinates", "latitude": 38.4994, "longitude": 22.1333 } }
+          "keywords": [
+            "Krokylio",
+            "Phocis",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-sto-krokylio"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Phocis",
+            "addressLocality": "Krokylio",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.4994,
+              "longitude": 22.1333
+            }
+          }
         }
       }
     },
@@ -2648,7 +3810,10 @@
       "subLocation": "Kriatsi",
       "lat": 38.4736,
       "lng": 22.1,
-      "locationTags": ["Kriatsi", "Phocis"],
+      "locationTags": [
+        "Kriatsi",
+        "Phocis"
+      ],
       "image": {
         "src": "/images/laografia/polemos-stoicheion-sto-kriatsi.webp",
         "alt": ""
@@ -2664,7 +3829,13 @@
         }
       ],
       "sources": [],
-      "tags": ["Kriatsi", "Phocis", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Kriatsi",
+        "Phocis",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Battle of the Stoicheia — Kriatsi, Phocis | Stoicheio Tradition",
         "metaDescription": "A tradition from Kriatsi, Phocis: its stoicheio was in conflict with the stoicheio of Voitsa (now Elatovrysi). Recorded from multiple inhabitants.",
@@ -2684,10 +3855,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/polemos-stoicheion-sto-kriatsi.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Kriatsi", "Phocis", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-sto-kriatsi" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Phocis", "addressLocality": "Kriatsi", "geo": { "@type": "GeoCoordinates", "latitude": 38.4736, "longitude": 22.1 } }
+          "keywords": [
+            "Kriatsi",
+            "Phocis",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-sto-kriatsi"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Phocis",
+            "addressLocality": "Kriatsi",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.4736,
+              "longitude": 22.1
+            }
+          }
         }
       }
     },
@@ -2702,7 +3897,9 @@
       "subLocation": "Kastania",
       "lat": 38.7342,
       "lng": 21.3781,
-      "locationTags": ["Kastania"],
+      "locationTags": [
+        "Kastania"
+      ],
       "image": {
         "src": "/images/laografia/polemos-stoicheion-stin-kastania.webp",
         "alt": ""
@@ -2718,11 +3915,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Kastania", "Aetolia-Acarnania", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Kastania",
+        "Aetolia-Acarnania",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Battle of the Stoicheia — Kastania | Ox Spirit Wins",
         "metaDescription": "A tradition from Kastania, Aetolia-Acarnania: the village stoicheio fought the ox-like stoicheio of Agios Dimitrios and lost — bringing death to many villagers.",
-        "keywords": ["stoicheio battle Kastania Aetolia", "ox spirit Greek folklore", "village spirit battle Greece", "stoicheia death defeat Greek tradition", "Kastania folk tradition spirit", "stoicheia Central Greece"],
+        "keywords": [
+          "stoicheio battle Kastania Aetolia",
+          "ox spirit Greek folklore",
+          "village spirit battle Greece",
+          "stoicheia death defeat Greek tradition",
+          "Kastania folk tradition spirit",
+          "stoicheia Central Greece"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -2731,10 +3941,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/polemos-stoicheion-stin-kastania.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Kastania", "Aetolia-Acarnania", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-stin-kastania" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Aetolia-Acarnania", "addressLocality": "Kastania", "geo": { "@type": "GeoCoordinates", "latitude": 38.7342, "longitude": 21.3781 } }
+          "keywords": [
+            "Kastania",
+            "Aetolia-Acarnania",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-stin-kastania"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Aetolia-Acarnania",
+            "addressLocality": "Kastania",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.7342,
+              "longitude": 21.3781
+            }
+          }
         }
       }
     },
@@ -2749,7 +3983,9 @@
       "subLocation": "Ahladokastro",
       "lat": 38.6875,
       "lng": 21.4083,
-      "locationTags": ["Ahladokastro"],
+      "locationTags": [
+        "Ahladokastro"
+      ],
       "image": {
         "src": "/images/laografia/polemos-stoicheion-stin-kastania-ahladokastro.webp",
         "alt": ""
@@ -2765,11 +4001,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Ahladokastro", "Aetolia-Acarnania", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Ahladokastro",
+        "Aetolia-Acarnania",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Battle of Stoicheia — Selptza and Artotiva | Village Spirit War",
         "metaDescription": "A tradition from Aetolia-Acarnania: when a village stoicheio is defeated in battle, mass death follows in that village. A specific battle between Selptza and Artotiva is recounted.",
-        "keywords": ["stoicheio battle Aetolia-Acarnania", "village spirit defeat death Greece", "stoicheia Selptza Artotiva battle", "Greek folk spirit tradition village", "stoicheia Central Greece battle", "spirit defeated mass death Greek folklore"],
+        "keywords": [
+          "stoicheio battle Aetolia-Acarnania",
+          "village spirit defeat death Greece",
+          "stoicheia Selptza Artotiva battle",
+          "Greek folk spirit tradition village",
+          "stoicheia Central Greece battle",
+          "spirit defeated mass death Greek folklore"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -2778,10 +4027,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/polemos-stoicheion-stin-kastania-ahladokastro.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Ahladokastro", "Aetolia-Acarnania", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-stin-kastania-ahladokastro" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Aetolia-Acarnania", "addressLocality": "Ahladokastro", "geo": { "@type": "GeoCoordinates", "latitude": 38.6875, "longitude": 21.4083 } }
+          "keywords": [
+            "Ahladokastro",
+            "Aetolia-Acarnania",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-stin-kastania-ahladokastro"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Aetolia-Acarnania",
+            "addressLocality": "Ahladokastro",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.6875,
+              "longitude": 21.4083
+            }
+          }
         }
       }
     },
@@ -2796,7 +4069,9 @@
       "subLocation": "Perdikóvrysi",
       "lat": 38.77,
       "lng": 21.32,
-      "locationTags": ["Perdikóvrysi"],
+      "locationTags": [
+        "Perdikóvrysi"
+      ],
       "image": {
         "src": "/images/laografia/polemos-stoicheion-stin-perdikovrysi.webp",
         "alt": ""
@@ -2812,11 +4087,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Perdikóvrysi", "Aetolia-Acarnania", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Perdikóvrysi",
+        "Aetolia-Acarnania",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Battle of Stoicheia — Perdikóvrysi | Wailing Spirit and Sickness",
         "metaDescription": "A tradition from Perdikóvrysi: a stoicheio wails at the village spring and brings sickness. It periodically battles the stoicheio of Klepa at the river.",
-        "keywords": ["stoicheio wailing spring Perdikóvrysi", "spirit illness village Greece", "stoicheia spring battle Aetolia", "wailing spirit Greek folklore", "stoicheio Perdikóvrysi Klepa", "Greek folk spirit spring tradition"],
+        "keywords": [
+          "stoicheio wailing spring Perdikóvrysi",
+          "spirit illness village Greece",
+          "stoicheia spring battle Aetolia",
+          "wailing spirit Greek folklore",
+          "stoicheio Perdikóvrysi Klepa",
+          "Greek folk spirit spring tradition"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -2825,10 +4113,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/polemos-stoicheion-stin-perdikovrysi.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Perdikóvrysi", "Aetolia-Acarnania", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-stin-perdikovrysi" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Aetolia-Acarnania", "addressLocality": "Perdikóvrysi", "geo": { "@type": "GeoCoordinates", "latitude": 38.77, "longitude": 21.32 } }
+          "keywords": [
+            "Perdikóvrysi",
+            "Aetolia-Acarnania",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/polemos-stoicheion-stin-perdikovrysi"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Aetolia-Acarnania",
+            "addressLocality": "Perdikóvrysi",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.77,
+              "longitude": 21.32
+            }
+          }
         }
       }
     },
@@ -2843,7 +4155,9 @@
       "subLocation": "Perdikóvrysi",
       "lat": 38.77,
       "lng": 21.32,
-      "locationTags": ["Perdikóvrysi"],
+      "locationTags": [
+        "Perdikóvrysi"
+      ],
       "image": {
         "src": "/images/laografia/o-iskios-tis-perdikovrysis.webp",
         "alt": ""
@@ -2859,11 +4173,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Perdikóvrysi", "Aetolia-Acarnania", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Perdikóvrysi",
+        "Aetolia-Acarnania",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Iskios of Perdikóvrysi — Invisible Spirit at the Red Spring",
         "metaDescription": "At the Red Spring of Perdikóvrysi, an Iskios barks like a dog and brings sudden mass death to goat herds. Invisible to humans but chased by dogs.",
-        "keywords": ["Iskios Perdikóvrysi Aetolia", "invisible spirit livestock death Greece", "shadow spirit spring Greek folklore", "Iskios barks goats die tradition", "stoicheia Aetolia-Acarnania spring", "Greek folk spirit livestock disease"],
+        "keywords": [
+          "Iskios Perdikóvrysi Aetolia",
+          "invisible spirit livestock death Greece",
+          "shadow spirit spring Greek folklore",
+          "Iskios barks goats die tradition",
+          "stoicheia Aetolia-Acarnania spring",
+          "Greek folk spirit livestock disease"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -2872,10 +4199,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/o-iskios-tis-perdikovrysis.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Perdikóvrysi", "Aetolia-Acarnania", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/o-iskios-tis-perdikovrysis" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Aetolia-Acarnania", "addressLocality": "Perdikóvrysi", "geo": { "@type": "GeoCoordinates", "latitude": 38.77, "longitude": 21.32 } }
+          "keywords": [
+            "Perdikóvrysi",
+            "Aetolia-Acarnania",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/o-iskios-tis-perdikovrysis"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Aetolia-Acarnania",
+            "addressLocality": "Perdikóvrysi",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 38.77,
+              "longitude": 21.32
+            }
+          }
         }
       }
     },
@@ -2890,7 +4241,9 @@
       "subLocation": "Vourvoura",
       "lat": 37.4067,
       "lng": 22.7,
-      "locationTags": ["Vourvoura"],
+      "locationTags": [
+        "Vourvoura"
+      ],
       "image": {
         "src": "/images/laografia/o-tasios-kai-oi-mavrontymenoi-kavalarides-vourvoura.webp",
         "alt": ""
@@ -2902,11 +4255,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Vourvoura", "Arcadia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Vourvoura",
+        "Arcadia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Tasios and the Black-Clad Riders — Vourvoura, Arcadia",
         "metaDescription": "A folk account from Vourvoura, Arcadia: Tasios Mantas encountered ten black-clad riders on black donkeys at night and fled in terror, never going out after dark again.",
-        "keywords": ["black riders spirit Vourvoura Arcadia", "stoicheio riders Arcadia Greece", "nocturnal spirit encounter Greek folklore", "Vourvoura folk tradition supernatural", "stoicheia Peloponnese Arcadia", "Greek folk spirit night encounter"],
+        "keywords": [
+          "black riders spirit Vourvoura Arcadia",
+          "stoicheio riders Arcadia Greece",
+          "nocturnal spirit encounter Greek folklore",
+          "Vourvoura folk tradition supernatural",
+          "stoicheia Peloponnese Arcadia",
+          "Greek folk spirit night encounter"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -2915,10 +4281,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/o-tasios-kai-oi-mavrontymenoi-kavalarides-vourvoura.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Vourvoura", "Arcadia", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/o-tasios-kai-oi-mavrontymenoi-kavalarides-vourvoura" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Arcadia", "addressLocality": "Vourvoura", "geo": { "@type": "GeoCoordinates", "latitude": 37.4067, "longitude": 22.7 } }
+          "keywords": [
+            "Vourvoura",
+            "Arcadia",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/o-tasios-kai-oi-mavrontymenoi-kavalarides-vourvoura"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Arcadia",
+            "addressLocality": "Vourvoura",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.4067,
+              "longitude": 22.7
+            }
+          }
         }
       }
     },
@@ -2933,7 +4323,9 @@
       "subLocation": "Vourvoura",
       "lat": 37.4067,
       "lng": 22.7,
-      "locationTags": ["Vourvoura"],
+      "locationTags": [
+        "Vourvoura"
+      ],
       "image": {
         "src": "/images/laografia/i-paradosi-ton-stoicheion-sta-vourvoura-arkadias.webp",
         "alt": ""
@@ -2961,11 +4353,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Vourvoura", "Arcadia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Vourvoura",
+        "Arcadia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Stoicheia Traditions of Vourvoura, Arcadia | Snake & Bull Spirits",
         "metaDescription": "A detailed account from Vourvoura, Arcadia: house-spirits as harmless snakes, village-spirits as dappled bulls, battles between village stoicheia — and the elders who spoke with them.",
-        "keywords": ["stoicheia traditions Vourvoura Arcadia", "house snake spirit Greek folklore", "village bull spirit Greece", "Vourvoura stoicheio battle Kastri", "Arcadia folk tradition spirits", "stoicheia Peloponnese snake guardian"],
+        "keywords": [
+          "stoicheia traditions Vourvoura Arcadia",
+          "house snake spirit Greek folklore",
+          "village bull spirit Greece",
+          "Vourvoura stoicheio battle Kastri",
+          "Arcadia folk tradition spirits",
+          "stoicheia Peloponnese snake guardian"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -2974,10 +4379,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/i-paradosi-ton-stoicheion-sta-vourvoura-arkadias.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Vourvoura", "Arcadia", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/i-paradosi-ton-stoicheion-sta-vourvoura-arkadias" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Arcadia", "addressLocality": "Vourvoura", "geo": { "@type": "GeoCoordinates", "latitude": 37.4067, "longitude": 22.7 } }
+          "keywords": [
+            "Vourvoura",
+            "Arcadia",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/i-paradosi-ton-stoicheion-sta-vourvoura-arkadias"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Arcadia",
+            "addressLocality": "Vourvoura",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.4067,
+              "longitude": 22.7
+            }
+          }
         }
       }
     },
@@ -2992,7 +4421,9 @@
       "subLocation": "Vourvoura",
       "lat": 37.4067,
       "lng": 22.7,
-      "locationTags": ["Vourvoura"],
+      "locationTags": [
+        "Vourvoura"
+      ],
       "image": {
         "src": "/images/laografia/filos-me-to-stoicheio-ton-vourvouron.webp",
         "alt": ""
@@ -3032,11 +4463,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Vourvoura", "Arcadia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Vourvoura",
+        "Arcadia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Friends with the Stoicheio of Vourvoura | Axe and Memory",
         "metaDescription": "A folk tale from Vourvoura: Voilas befriended the village stoicheio, insulted its breath, and buried an axe in its back. The wound healed — but the insult never did.",
-        "keywords": ["friendship stoicheio Vourvoura Arcadia", "stoicheio axe Greek folk tale", "Voilas village spirit Arcadia", "spirit memory insult Greek folklore", "stoicheia Peloponnese folk tale", "Arcadia stoicheio folk tradition"],
+        "keywords": [
+          "friendship stoicheio Vourvoura Arcadia",
+          "stoicheio axe Greek folk tale",
+          "Voilas village spirit Arcadia",
+          "spirit memory insult Greek folklore",
+          "stoicheia Peloponnese folk tale",
+          "Arcadia stoicheio folk tradition"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3045,10 +4489,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/filos-me-to-stoicheio-ton-vourvouron.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Vourvoura", "Arcadia", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/filos-me-to-stoicheio-ton-vourvouron" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Arcadia", "addressLocality": "Vourvoura", "geo": { "@type": "GeoCoordinates", "latitude": 37.4067, "longitude": 22.7 } }
+          "keywords": [
+            "Vourvoura",
+            "Arcadia",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/filos-me-to-stoicheio-ton-vourvouron"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Arcadia",
+            "addressLocality": "Vourvoura",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.4067,
+              "longitude": 22.7
+            }
+          }
         }
       }
     },
@@ -3063,7 +4531,10 @@
       "subLocation": "Trikala",
       "lat": 37.9333,
       "lng": 22.5333,
-      "locationTags": ["Trikala", "Corinthia"],
+      "locationTags": [
+        "Trikala",
+        "Corinthia"
+      ],
       "image": {
         "src": "/images/laografia/i-paradosi-ton-stoicheion-sta-trikala-korinthias.webp",
         "alt": ""
@@ -3071,63 +4542,84 @@
       "content": [
         {
           "type": "text",
-          "value": "In Trikala and the surrounding area, there is a widespread belief that stoicheia have specific dwelling-places: in desolate spots, caves, ravines, gorges, uninhabited houses, and towers. They say: 'Keep away from that ravine.'"
+          "value": "Generally in Trikala and the surrounding districts there is the superstition that the stoicheia have particular places of abode: in desolate spots, in caves, in ravines, in gorges, in uninhabited houses and in towers. They say, “the curse holds — the get-thee-behind-me, or the thrice-accursed one”."
         },
         {
           "type": "text",
-          "value": "They also say that stoicheia emerge at night and vanish at dawn when the first cock crows. Stoicheia make sounds like animals, and sometimes cry like children."
+          "value": "They say also that the stoicheia come out at night and vanish by day, as soon as the first cock crows. The stoicheia make sounds like animals, and sometimes they weep like children."
         },
         {
           "type": "text",
-          "value": "The stoicheio at the place called 'Spilies' has been seen by many, sitting and smoking a cigarette."
+          "value": "The stoicheio at the place called Spilies has been seen by many, smoking a cigarette."
         },
         {
           "type": "text",
-          "value": "Whoever sees a stoicheio and is carrying a weapon must shoot it immediately with the left hand — because if they shoot with the right hand it has no effect, and the arm withers."
+          "value": "Whoever sees a stoicheio and is carrying a weapon must fire at it straight away with the left hand; for if he fires with the right, it does it no harm at all and his arm withers."
         },
         {
           "type": "text",
-          "value": "In Trikala it is also believed that whoever plants in their garden an apple tree, walnut tree, or cherry tree, and a branch grows very large — if the person who planted it falls ill, they cut the branch completely so the sick person will not die, believing the fates of the tree and the planter are intertwined."
+          "value": "In Trikala they also believe that whoever plants in his garden an apple tree, a walnut tree or a cherry tree, and its branch grows very large, then if the person who planted it falls ill they cut the branch off entirely so that the sick man shall not die, believing that the branch he planted has become haunted."
         },
         {
           "type": "text",
-          "value": "About the stoicheia of Trikala, the following tale is told:"
+          "value": "About the stoicheia of Trikala in Corinthia there is the following tale:"
         },
         {
           "type": "text",
-          "value": "Once, two poor brothers put bread in their satchels and set off into the world to find work. They walked and walked, and one midday sat down in the shade of a tree to eat. The elder brother fell asleep."
+          "value": "Once upon a time two poor brothers put bread in their satchels and went abroad to find work. They walked and walked, and one midday they sat down in the shade of a tree to eat. The elder brother fell asleep, and the younger went down to the river and heard frogs."
         },
         {
           "type": "text",
-          "value": "The elder woke and told him to rise and go seek work. The younger answered that he would not come — he would stay and learn the language of the frogs."
+          "value": "The elder wakes and tells him to get up so that they may leave and go to look for work. The younger answers him that he will not come, but will stay there to learn the language of the frogs."
         },
         {
           "type": "text",
-          "value": "The elder continued on his way and one night arrived at a tower in a wilderness and went inside to sleep. He was asked who he was and answered."
+          "value": "The elder brother went on his way, since he had not managed to persuade the younger to follow him, and one night he came to a tower in a wilderness and went inside, because he wanted to sleep. They asked him who he was, where he came from and what trades he knew. Among other things he told them that he was a doctor."
         },
         {
           "type": "text",
-          "value": "They told him immediately to go upstairs because the lord of the tower was ill — he had stomach pains — and asked if he could cure him. 'I can and more than can,' he answered — not knowing the lord of the tower was a stoicheio."
+          "value": "They told him at once to go upstairs, because the lord of the tower was ill. He had pains in his belly, and he asked him whether he could make him well."
         },
         {
           "type": "text",
-          "value": "To be cured, the stoicheio was advised to find a human being and eat him. The stoicheio immediately asked where it would find another human besides the man himself — and ate him."
+          "value": "“I can, and more than can,” he answered him — without knowing, however, that the lord of the tower was a stoicheio."
         },
         {
           "type": "text",
-          "value": "The younger brother, who had by now mastered the language of the frogs, set out to find his elder brother. By chance he passed the same tower. He was asked the same questions as his brother and answered. Then the younger brother commanded the frog that lived inside the stoicheio to come out — and the stoicheio was healed."
+          "value": "To get well, he advised him to find a human being and eat him. The stoicheio asked him at once where it was going to find another human being besides himself — and it ate him."
         },
         {
           "type": "text",
-          "value": "He was saved from the stoicheio and rewarded most generously."
+          "value": "The younger brother, who by now had learned the language of the frogs well, set out to find his elder brother. By chance he passed by the same tower. They asked him the same questions they had asked his brother, and among other things he answered that he knew how to speak the language of the frogs. They take him up into the tower to speak with the stoicheio, and it asks him whether he can make it well. He answered it in the language of the frogs, and from inside the stoicheio an answer was heard in the same language."
+        },
+        {
+          "type": "text",
+          "value": "Then the younger brother commanded the frog that was living inside the stoicheio to come out, and the stoicheio was made well."
+        },
+        {
+          "type": "text",
+          "value": "And he escaped from the stoicheio, and it paid him most generously."
         }
       ],
       "sources": [],
-      "tags": ["Trikala", "Corinthia", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Trikala",
+        "Corinthia",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Stoicheia Traditions of Trikala, Corinthia | Frogs and Tower Spirit",
         "metaDescription": "A rich account of stoicheio beliefs in Trikala, Corinthia — their haunts, night appearances, the left-hand rule, and the folk tale of two brothers and the stoicheio in the tower cured by the language of frogs.",
-        "keywords": ["stoicheia Trikala Corinthia folklore", "language of frogs Greek folk tale", "tower stoicheio Greek tradition", "stoicheio night appearances Corinthia", "Greek folk tale spirit brothers", "stoicheia Peloponnese tradition"],
+        "keywords": [
+          "stoicheia Trikala Corinthia folklore",
+          "language of frogs Greek folk tale",
+          "tower stoicheio Greek tradition",
+          "stoicheio night appearances Corinthia",
+          "Greek folk tale spirit brothers",
+          "stoicheia Peloponnese tradition"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3136,10 +4628,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/i-paradosi-ton-stoicheion-sta-trikala-korinthias.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Trikala", "Corinthia", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/i-paradosi-ton-stoicheion-sta-trikala-korinthias" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Corinthia", "addressLocality": "Trikala", "geo": { "@type": "GeoCoordinates", "latitude": 37.9333, "longitude": 22.5333 } }
+          "keywords": [
+            "Trikala",
+            "Corinthia",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/i-paradosi-ton-stoicheion-sta-trikala-korinthias"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Corinthia",
+            "addressLocality": "Trikala",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 37.9333,
+              "longitude": 22.5333
+            }
+          }
         }
       }
     },
@@ -3154,7 +4670,9 @@
       "subLocation": "Petaludes",
       "lat": 36.3601,
       "lng": 28.1162,
-      "locationTags": ["Rhodes"],
+      "locationTags": [
+        "Rhodes"
+      ],
       "image": {
         "src": "/images/laografia/to-stoicheio-koukaki.webp",
         "alt": ""
@@ -3170,11 +4688,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Rhodes", "Dodecanese", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Rhodes",
+        "Dodecanese",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Kaoukaki of the Transfiguration Monastery — Rhodes",
         "metaDescription": "Above Maritsa, Rhodes, an ancient monastery harbours the Kaoukaki — a stoicheio that hides by day and emerges at night to molest those outdoors. No one passes after sunset.",
-        "keywords": ["Kaoukaki stoicheio Rhodes Maritsa", "monastery spirit Rhodes Dodecanese", "stoicheio night molester Rhodes", "Greek island spirit monastery folklore", "stoicheia Dodecanese Rhodes", "Rhodes folk tradition spirit monastery"],
+        "keywords": [
+          "Kaoukaki stoicheio Rhodes Maritsa",
+          "monastery spirit Rhodes Dodecanese",
+          "stoicheio night molester Rhodes",
+          "Greek island spirit monastery folklore",
+          "stoicheia Dodecanese Rhodes",
+          "Rhodes folk tradition spirit monastery"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3183,10 +4714,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/to-stoicheio-koukaki.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Rhodes", "Dodecanese", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheio-kaoukaki-monastiri" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Rhodes", "addressLocality": "Petaludes", "geo": { "@type": "GeoCoordinates", "latitude": 36.3601, "longitude": 28.1162 } }
+          "keywords": [
+            "Rhodes",
+            "Dodecanese",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/to-stoicheio-kaoukaki-monastiri"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Rhodes",
+            "addressLocality": "Petaludes",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.3601,
+              "longitude": 28.1162
+            }
+          }
         }
       }
     },
@@ -3201,7 +4756,10 @@
       "subLocation": "Siana",
       "lat": 36.1528,
       "lng": 27.7755,
-      "locationTags": ["Siana", "Rhodes"],
+      "locationTags": [
+        "Siana",
+        "Rhodes"
+      ],
       "image": {
         "src": "/images/laografia/o-charamallas-tis-gennitras.webp",
         "alt": ""
@@ -3217,11 +4775,25 @@
         }
       ],
       "sources": [],
-      "tags": ["Siana", "Rhodes", "Dodecanese", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Siana",
+        "Rhodes",
+        "Dodecanese",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Charamallas of Gennitsa — Siana, Rhodes | Shape-Shifting Spirit",
         "metaDescription": "Near Siana, Rhodes, the Charamallas — a stoicheio appearing as a donkey, wildcat, or goat — still keeps locals from passing at night near Gennitsa.",
-        "keywords": ["Charamallas stoicheio Siana Rhodes", "shape-shifting spirit Rhodes Dodecanese", "goat donkey wildcat spirit Greece", "Gennitsa Rhodes spirit tradition", "stoicheia Dodecanese folk belief", "Rhodes folk tradition shape-shifter"],
+        "keywords": [
+          "Charamallas stoicheio Siana Rhodes",
+          "shape-shifting spirit Rhodes Dodecanese",
+          "goat donkey wildcat spirit Greece",
+          "Gennitsa Rhodes spirit tradition",
+          "stoicheia Dodecanese folk belief",
+          "Rhodes folk tradition shape-shifter"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3230,10 +4802,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/o-charamallas-tis-gennitras.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Siana", "Rhodes", "Dodecanese", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/o-charamallas-tis-gennitras" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Rhodes", "addressLocality": "Siana", "geo": { "@type": "GeoCoordinates", "latitude": 36.1528, "longitude": 27.7755 } }
+          "keywords": [
+            "Siana",
+            "Rhodes",
+            "Dodecanese",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/o-charamallas-tis-gennitras"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Rhodes",
+            "addressLocality": "Siana",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.1528,
+              "longitude": 27.7755
+            }
+          }
         }
       }
     },
@@ -3248,7 +4845,10 @@
       "subLocation": "Archangelos",
       "lat": 36.2058,
       "lng": 28.1086,
-      "locationTags": ["Archangelos", "Rhodes"],
+      "locationTags": [
+        "Archangelos",
+        "Rhodes"
+      ],
       "image": {
         "src": "/images/laografia/i-stoicheiomeni-velanidia-tis-rodou.webp",
         "alt": ""
@@ -3264,11 +4864,25 @@
         }
       ],
       "sources": [],
-      "tags": ["Archangelos", "Rhodes", "Dodecanese", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Archangelos",
+        "Rhodes",
+        "Dodecanese",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Haunted Oak of Rhodes — Death Within Three Days | Stoicheio",
         "metaDescription": "A legend from Archangelos, Rhodes: a man cut down the haunted oak near the monastery of Archangel Gabriel and died within three days. The tree grew back and no one has touched it since.",
-        "keywords": ["haunted oak Rhodes folklore", "stoicheio tree Archangelos Rhodes", "cursed tree death three days Greece", "oak spirit Dodecanese tradition", "haunted tree Greek folklore Rhodes", "stoicheia Rhodes tree spirit"],
+        "keywords": [
+          "haunted oak Rhodes folklore",
+          "stoicheio tree Archangelos Rhodes",
+          "cursed tree death three days Greece",
+          "oak spirit Dodecanese tradition",
+          "haunted tree Greek folklore Rhodes",
+          "stoicheia Rhodes tree spirit"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3277,10 +4891,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/i-stoicheiomeni-velanidia-tis-rodou.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Archangelos", "Rhodes", "Dodecanese", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/i-stoicheiomeni-velanidia-tis-rodou" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Rhodes", "addressLocality": "Archangelos", "geo": { "@type": "GeoCoordinates", "latitude": 36.2058, "longitude": 28.1086 } }
+          "keywords": [
+            "Archangelos",
+            "Rhodes",
+            "Dodecanese",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/i-stoicheiomeni-velanidia-tis-rodou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Rhodes",
+            "addressLocality": "Archangelos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.2058,
+              "longitude": 28.1086
+            }
+          }
         }
       }
     },
@@ -3295,7 +4934,10 @@
       "subLocation": "Kyani",
       "lat": 41.3724,
       "lng": 26.3804,
-      "locationTags": ["Kyani", "Evros"],
+      "locationTags": [
+        "Kyani",
+        "Evros"
+      ],
       "image": {
         "src": "/images/laografia/ta-stoicheia-tis-kyanis.webp",
         "alt": ""
@@ -3307,11 +4949,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Kyani", "Evros", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Kyani",
+        "Evros",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Stoicheia of Kyani — Evros | Illness and Vision | Folklore",
         "metaDescription": "A tradition from Kyani, Evros: stoicheia roamed springs and roads at night in earlier times, causing illness and death to those who saw them.",
-        "keywords": ["stoicheia Kyani Evros Thrace", "phantom illness Greek folklore", "stoicheio night vision sickness Greece", "Evros folk tradition spirits", "stoicheia Thrace Greece tradition", "Greek folk spirit sickness vision"],
+        "keywords": [
+          "stoicheia Kyani Evros Thrace",
+          "phantom illness Greek folklore",
+          "stoicheio night vision sickness Greece",
+          "Evros folk tradition spirits",
+          "stoicheia Thrace Greece tradition",
+          "Greek folk spirit sickness vision"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3320,10 +4975,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/ta-stoicheia-tis-kyanis.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Kyani", "Evros", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-tis-kyanis" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Evros", "addressLocality": "Kyani", "geo": { "@type": "GeoCoordinates", "latitude": 41.3724, "longitude": 26.3804 } }
+          "keywords": [
+            "Kyani",
+            "Evros",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-tis-kyanis"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Evros",
+            "addressLocality": "Kyani",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.3724,
+              "longitude": 26.3804
+            }
+          }
         }
       }
     },
@@ -3338,7 +5017,10 @@
       "subLocation": "Praggion",
       "lat": 41.346471,
       "lng": 26.574326,
-      "locationTags": ["Praggion", "Didymoteicho"],
+      "locationTags": [
+        "Praggion",
+        "Didymoteicho"
+      ],
       "image": {
         "src": "/images/laografia/ta-stoicheia-tou-praggiou.webp",
         "alt": ""
@@ -3362,11 +5044,25 @@
         }
       ],
       "sources": [],
-      "tags": ["Praggion", "Didymoteicho", "Evros", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Praggion",
+        "Didymoteicho",
+        "Evros",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "The Stoicheia of Praggion — Buried Treasure and Haunted Wells",
         "metaDescription": "A folk account from Praggion, Didymoteicho: haunted wells shelter malevolent stoicheia by day, and burial mounds emit mysterious fires that mark buried treasure — guarded by a beast-phantom.",
-        "keywords": ["stoicheio well Praggion Didymoteicho", "buried treasure spirit Greece Thrace", "phantom fire burial mound Greek tradition", "stoicheia Evros folklore", "haunted well Greek folk belief", "Didymoteicho folk tradition stoicheio"],
+        "keywords": [
+          "stoicheio well Praggion Didymoteicho",
+          "buried treasure spirit Greece Thrace",
+          "phantom fire burial mound Greek tradition",
+          "stoicheia Evros folklore",
+          "haunted well Greek folk belief",
+          "Didymoteicho folk tradition stoicheio"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3375,10 +5071,35 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/ta-stoicheia-tou-praggiou.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Praggion", "Didymoteicho", "Evros", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-tou-praggiou" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Didymoteicho", "addressLocality": "Praggion", "geo": { "@type": "GeoCoordinates", "latitude": 41.346471, "longitude": 26.574326 } }
+          "keywords": [
+            "Praggion",
+            "Didymoteicho",
+            "Evros",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-tou-praggiou"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Didymoteicho",
+            "addressLocality": "Praggion",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.346471,
+              "longitude": 26.574326
+            }
+          }
         }
       }
     },
@@ -3393,7 +5114,10 @@
       "subLocation": "Lagos",
       "lat": 41.4511,
       "lng": 26.4602,
-      "locationTags": ["Lagos", "Evros"],
+      "locationTags": [
+        "Lagos",
+        "Evros"
+      ],
       "image": {
         "src": "/images/laografia/ta-stoicheia-kai-ta-oramata-thisavron.webp",
         "alt": ""
@@ -3405,11 +5129,24 @@
         }
       ],
       "sources": [],
-      "tags": ["Lagos", "Evros", "stoicheia", "Greek folklore", "Greece"],
+      "tags": [
+        "Lagos",
+        "Evros",
+        "stoicheia",
+        "Greek folklore",
+        "Greece"
+      ],
       "seo": {
         "metaTitle": "Stoicheia and Treasure Visions — Lagos, Evros | Foundation Ritual",
         "metaDescription": "A brief account from Lagos, Evros: houses are consecrated with a rooster's blood at the foundation, and hidden treasures are revealed through dreams.",
-        "keywords": ["stoicheio house foundation rooster blood Evros", "buried treasure dreams Greek folklore", "house consecration ritual Greece", "stoicheia Thrace Evros Lagos", "foundation sacrifice Greek folk tradition", "Greek folk belief treasure dreams stoicheio"],
+        "keywords": [
+          "stoicheio house foundation rooster blood Evros",
+          "buried treasure dreams Greek folklore",
+          "house consecration ritual Greece",
+          "stoicheia Thrace Evros Lagos",
+          "foundation sacrifice Greek folk tradition",
+          "Greek folk belief treasure dreams stoicheio"
+        ],
         "structuredData": {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -3418,10 +5155,34 @@
           "inLanguage": "en",
           "image": "https://haunted.gr/images/laografia/ta-stoicheia-kai-ta-oramata-thisavron.webp",
           "articleSection": "Stoicheia",
-          "keywords": ["Lagos", "Evros", "stoicheia", "Greek folklore"],
-          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-kai-ta-oramata-thisavron-lagos" },
-          "publisher": { "@type": "Organization", "name": "haunted.gr", "logo": { "@type": "ImageObject", "url": "https://haunted.gr/haunted-logo.webp" } },
-          "spatialCoverage": { "@type": "Place", "name": "Evros", "addressLocality": "Lagos", "geo": { "@type": "GeoCoordinates", "latitude": 41.4511, "longitude": 26.4602 } }
+          "keywords": [
+            "Lagos",
+            "Evros",
+            "stoicheia",
+            "Greek folklore"
+          ],
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://haunted.gr/laografia/stoixeia/ta-stoicheia-kai-ta-oramata-thisavron-lagos"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "haunted.gr",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://haunted.gr/haunted-logo.webp"
+            }
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "Evros",
+            "addressLocality": "Lagos",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 41.4511,
+              "longitude": 26.4602
+            }
+          }
         }
       }
     }

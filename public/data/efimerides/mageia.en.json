@@ -1599,7 +1599,11 @@
         },
         {
           "type": "text",
-          "value": "'He's well-known to everyone,' they all say about the 'leader' of the diabolical network. 'He lives in Volos, he's in the sixth form, he has the Solomonic.' The children do not reveal the 'leader' of evil. 'It's also those eyes of his that look at you strangely, piercingly. Whatever you hear about him, believe it...'"
+          "value": "“He is notorious,” they all say of the “leader” of the diabolical network."
+        },
+        {
+          "type": "text",
+          "value": "They describe him as a “closed” character, “but open with his own people”. “He lives in Volos, he is in the sixth form, he has the Solomonic,” they know him by name, he might even be standing next to me, but the children will not give away the “leader” of the evil. “It is his eyes too, that look at you strangely, piercingly. Whatever you hear about him, believe it…”"
         }
       ],
       "sources": [
@@ -1907,7 +1911,11 @@
         },
         {
           "type": "text",
-          "value": "Magic tricks are not easy work either. The most common form of sorcery among today's witches is the pin-studded soap. The man who reported to the police the young lady who had cast a spell on him presented this Satanic contraption: a piece of soap, a piece of cloth and a few pins."
+          "value": "Magic, as we said, is not easy work either. The commonest method of sorcery among today’s witches is the pin-studded soap. And the man who reported to the police the young lady who had cast a spell on him produced this Satanic contrivance:"
+        },
+        {
+          "type": "text",
+          "value": "A piece of soap, a piece of cloth and a few pins."
         },
         {
           "type": "text",
@@ -1923,7 +1931,11 @@
         },
         {
           "type": "text",
-          "value": "However the most fearsome spells are those of witches who employ only their charms and the expression of their eyes. They are those of whom the poet speaks: With a single glance of yours, witch, / From your sweet eyes / Like glass I was shattered, / And broken into eight pieces."
+          "value": "The most fearsome spells, however, are not those I have mentioned, nor are the most dangerous witches those who know the language of the stars and the power of soap. There are witches who employ only their charms and the expression of their eyes. They are the ones the poet tells us of:"
+        },
+        {
+          "type": "text",
+          "value": "With one glance of yours, witch, / from your sweet eyes, / like glass I cracked, / and broke into eight pieces."
         },
         {
           "type": "text",
